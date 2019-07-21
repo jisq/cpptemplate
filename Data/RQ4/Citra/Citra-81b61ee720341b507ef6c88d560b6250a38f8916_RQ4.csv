@@ -1,0 +1,84 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+DebuggerLogListener::Log, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/log_manager.cpp, //195
+FileLogListener::Log, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/log_manager.cpp, //186
+MetaFileSystem::ChDir, //0, //ShizZy, //shizzy@6bit.net, //20130925, //src/core/src/file_sys/meta_file_system.cpp, //343
+MetaFileSystem::CloseFile, //0, //ShizZy, //shizzy@6bit.net, //20130925, //src/core/src/file_sys/meta_file_system.cpp, //457
+MetaFileSystem::DoState, //0, //ShizZy, //shizzy@6bit.net, //20130925, //src/core/src/file_sys/meta_file_system.cpp, //495
+MetaFileSystem::FreeHandle, //0, //ShizZy, //shizzy@6bit.net, //20130925, //src/core/src/file_sys/meta_file_system.h, //60
+MetaFileSystem::GetDirListing, //0, //ShizZy, //shizzy@6bit.net, //20130925, //src/core/src/file_sys/meta_file_system.cpp, //321
+MetaFileSystem::GetFileInfo, //0, //ShizZy, //shizzy@6bit.net, //20130925, //src/core/src/file_sys/meta_file_system.cpp, //293
+MetaFileSystem::GetHostPath, //0, //ShizZy, //shizzy@6bit.net, //20130925, //src/core/src/file_sys/meta_file_system.cpp, //309
+MetaFileSystem::GetNewHandle, //0, //ShizZy, //shizzy@6bit.net, //20130925, //src/core/src/file_sys/meta_file_system.h, //59
+MetaFileSystem::MkDir, //0, //ShizZy, //shizzy@6bit.net, //20130925, //src/core/src/file_sys/meta_file_system.cpp, //380
+MetaFileSystem::OpenFile, //0, //ShizZy, //shizzy@6bit.net, //20130925, //src/core/src/file_sys/meta_file_system.cpp, //277
+MetaFileSystem::OwnsHandle, //0, //ShizZy, //shizzy@6bit.net, //20130925, //src/core/src/file_sys/meta_file_system.h, //90
+MetaFileSystem::ReadFile, //0, //ShizZy, //shizzy@6bit.net, //20130925, //src/core/src/file_sys/meta_file_system.cpp, //465
+MetaFileSystem::RemoveFile, //0, //ShizZy, //shizzy@6bit.net, //20130925, //src/core/src/file_sys/meta_file_system.cpp, //442
+MetaFileSystem::RenameFile, //0, //ShizZy, //shizzy@6bit.net, //20130925, //src/core/src/file_sys/meta_file_system.cpp, //410
+MetaFileSystem::RmDir, //0, //ShizZy, //shizzy@6bit.net, //20130925, //src/core/src/file_sys/meta_file_system.cpp, //395
+MetaFileSystem::SeekFile, //0, //ShizZy, //shizzy@6bit.net, //20130925, //src/core/src/file_sys/meta_file_system.cpp, //485
+MetaFileSystem::WriteFile, //0, //ShizZy, //shizzy@6bit.net, //20130925, //src/core/src/file_sys/meta_file_system.cpp, //475
+GRenderWindow::DoneCurrent, //0, //Mathieu Vaillancourt, //vaillancourtm@gmail.com, //20140331, //src/citra_qt/src/bootmanager.cpp, //178
+GRenderWindow::MakeCurrent, //0, //Mathieu Vaillancourt, //vaillancourtm@gmail.com, //20140331, //src/citra_qt/src/bootmanager.cpp, //173
+GRenderWindow::PollEvents, //0, //Mathieu Vaillancourt, //vaillancourtm@gmail.com, //20140331, //src/citra_qt/src/bootmanager.cpp, //183
+GRenderWindow::SwapBuffers, //0, //Mathieu Vaillancourt, //vaillancourtm@gmail.com, //20140331, //src/citra_qt/src/bootmanager.cpp, //161
+ConsoleListener::Log, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/console_listener.cpp, //245
+DebugInterface::breakNow, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/debug_interface.h, //32
+DirectoryFileSystem::CloseFile, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/directory_file_system.cpp, //475
+DirectoryFileSystem::DoState, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/directory_file_system.cpp, //666
+DirectoryFileSystem::GetDirListing, //0, //ShizZy, //shizzy@6bit.net, //20130923, //src/core/src/file_sys/directory_file_system.cpp, //587
+DirectoryFileSystem::GetFileInfo, //0, //ShizZy, //shizzy@6bit.net, //20130923, //src/core/src/file_sys/directory_file_system.cpp, //529
+DirectoryFileSystem::GetHostPath, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/directory_file_system.cpp, //569
+DirectoryFileSystem::MkDir, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/directory_file_system.cpp, //328
+DirectoryFileSystem::OpenFile, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/directory_file_system.cpp, //450
+DirectoryFileSystem::OwnsHandle, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/directory_file_system.cpp, //487
+DirectoryFileSystem::ReadFile, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/directory_file_system.cpp, //492
+DirectoryFileSystem::RemoveFile, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/directory_file_system.cpp, //422
+DirectoryFileSystem::RenameFile, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/directory_file_system.cpp, //367
+DirectoryFileSystem::RmDir, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/directory_file_system.cpp, //343
+DirectoryFileSystem::SeekFile, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/directory_file_system.cpp, //518
+DirectoryFileSystem::WriteFile, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/directory_file_system.cpp, //505
+EmptyFileSystem::CloseFile, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/file_sys.h, //125
+EmptyFileSystem::DoState, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/file_sys.h, //122
+EmptyFileSystem::GetDirListing, //0, //ShizZy, //shizzy@6bit.net, //20130923, //src/core/src/file_sys/file_sys.h, //123
+EmptyFileSystem::GetFileInfo, //0, //ShizZy, //shizzy@6bit.net, //20130923, //src/core/src/file_sys/file_sys.h, //129
+EmptyFileSystem::GetHostPath, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/file_sys.h, //135
+EmptyFileSystem::MkDir, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/file_sys.h, //131
+EmptyFileSystem::OpenFile, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/file_sys.h, //124
+EmptyFileSystem::OwnsHandle, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/file_sys.h, //130
+EmptyFileSystem::ReadFile, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/file_sys.h, //126
+EmptyFileSystem::RemoveFile, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/file_sys.h, //134
+EmptyFileSystem::RenameFile, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/file_sys.h, //133
+EmptyFileSystem::RmDir, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/file_sys.h, //132
+EmptyFileSystem::SeekFile, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/file_sys.h, //128
+EmptyFileSystem::WriteFile, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/file_sys.h, //127
+SequentialHandleAllocator::FreeHandle, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/file_sys.h, //54
+SequentialHandleAllocator::GetNewHandle, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/file_sys.h, //53
+EmuWindow_GLFW::DoneCurrent, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/citra/src/emu_window/emu_window_glfw.cpp, //94
+EmuWindow_GLFW::MakeCurrent, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/citra/src/emu_window/emu_window_glfw.cpp, //89
+EmuWindow_GLFW::PollEvents, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/citra/src/emu_window/emu_window_glfw.cpp, //78
+EmuWindow_GLFW::SwapBuffers, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/citra/src/emu_window/emu_window_glfw.cpp, //73
+DebugInterface::clearAllBreakpoints, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/debug_interface.h, //20
+DebugInterface::clearBreakpoint, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/debug_interface.h, //19
+DebugInterface::disasm, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/debug_interface.h, //13
+DebugInterface::getColor, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/debug_interface.h, //35
+DebugInterface::getInstructionSize, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/debug_interface.h, //15
+DebugInterface::getPC, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/debug_interface.h, //28
+DebugInterface::getRawMemoryString, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/debug_interface.h, //14
+DebugInterface::insertBLR, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/debug_interface.h, //33
+DebugInterface::isAlive, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/debug_interface.h, //16
+DebugInterface::isBreakpoint, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/debug_interface.h, //17
+DebugInterface::isMemCheck, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/debug_interface.h, //22
+DebugInterface::readExtraMemory, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/debug_interface.h, //26
+DebugInterface::readInstruction, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/debug_interface.h, //27
+DebugInterface::readMemory, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/debug_interface.h, //24
+DebugInterface::runToBreakpoint, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/debug_interface.h, //31
+DebugInterface::setBreakpoint, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/debug_interface.h, //18
+DebugInterface::setPC, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/debug_interface.h, //29
+DebugInterface::showJitResults, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/debug_interface.h, //34
+DebugInterface::step, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/debug_interface.h, //30
+DebugInterface::toggleBreakpoint, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/debug_interface.h, //21
+DebugInterface::toggleMemCheck, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/debug_interface.h, //23
+DebugInterface::writeExtraMemory, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/debug_interface.h, //25

@@ -1,0 +1,1164 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+Channel, //489, //Attila Molnar, //attilamolnar@hush.com, //20140124, //include/channels.h, //37
+CommandSInfo, //7, //Attila Molnar, //attilamolnar@hush.com, //20140617, //src/modules/m_spanningtree/commands.h, //359
+FlashPDSocket, //4, //Attila Molnar, //attilamolnar@hush.com, //20141103, //src/modules/m_flashpolicyd.cpp, //31
+Membership, //114, //Attila Molnar, //attilamolnar@hush.com, //20140830, //include/membership.h, //32
+LocalUser, //263, //Attila Molnar, //attilamolnar@hush.com, //20140830, //include/users.h, //644
+CommandNick, //6, //attilamolnar, //attilamolnar@hush.com, //20130819, //src/modules/m_spanningtree/commands.h, //277
+CommandIJoin, //3, //attilamolnar, //attilamolnar@hush.com, //20130819, //src/modules/m_spanningtree/commands.h, //211
+CommandResync, //3, //attilamolnar, //attilamolnar@hush.com, //20130819, //src/modules/m_spanningtree/commands.h, //218
+CommandAway, //11, //attilamolnar, //attilamolnar@hush.com, //20130819, //src/modules/m_spanningtree/commands.h, //226
+CommandEndBurst, //3, //attilamolnar, //attilamolnar@hush.com, //20130819, //src/modules/m_spanningtree/commands.h, //352
+CommandFHost, //3, //attilamolnar, //attilamolnar@hush.com, //20130819, //src/modules/m_spanningtree/commands.h, //190
+CommandFIdent, //3, //attilamolnar, //attilamolnar@hush.com, //20130819, //src/modules/m_spanningtree/commands.h, //197
+CommandFName, //3, //attilamolnar, //attilamolnar@hush.com, //20130819, //src/modules/m_spanningtree/commands.h, //204
+CommandIdle, //3, //attilamolnar, //attilamolnar@hush.com, //20130819, //src/modules/m_spanningtree/commands.h, //269
+CommandOpertype, //7, //attilamolnar, //attilamolnar@hush.com, //20130819, //src/modules/m_spanningtree/commands.h, //103
+CommandPong, //3, //attilamolnar, //attilamolnar@hush.com, //20130819, //src/modules/m_spanningtree/commands.h, //292
+CommandSQuit, //3, //attilamolnar, //attilamolnar@hush.com, //20130819, //src/modules/m_spanningtree/commands.h, //338
+CommandServer, //7, //attilamolnar, //attilamolnar@hush.com, //20130819, //src/modules/m_spanningtree/commands.h, //319
+CommandUID, //6, //attilamolnar, //attilamolnar@hush.com, //20130819, //src/modules/m_spanningtree/commands.h, //90
+ModeChannelKey, //6, //Attila Molnar, //attilamolnar@hush.com, //20140215, //include/builtinmodes.h, //40
+ModeChannelLimit, //6, //Attila Molnar, //attilamolnar@hush.com, //20140215, //include/builtinmodes.h, //52
+JoinFlood, //2, //Attila Molnar, //attilamolnar@hush.com, //20140215, //src/modules/m_joinflood.cpp, //85
+Invitation, //21, //Attila Molnar, //attilamolnar@hush.com, //20140830, //include/membership.h, //137
+HttpServerSocket, //8, //Attila Molnar, //attilamolnar@hush.com, //20141103, //src/modules/m_httpd.cpp, //47
+InsaneBan::IPHostMatcher, //5, //Attila Molnar, //attilamolnar@hush.com, //20140312, //src/coremods/core_xline/core_xline.h, //51
+CommandQline::NickMatcher, //3, //Attila Molnar, //attilamolnar@hush.com, //20140312, //src/coremods/core_xline/core_xline.h, //123
+NickFlood, //2, //Attila Molnar, //attilamolnar@hush.com, //20140215, //src/modules/m_nickflood.cpp, //81
+CommandZline::IPMatcher, //3, //Attila Molnar, //attilamolnar@hush.com, //20140312, //src/coremods/core_xline/core_xline.h, //147
+MsgFlood, //2, //Attila Molnar, //attilamolnar@hush.com, //20140215, //src/modules/m_messageflood.cpp, //63
+Redirect, //2, //Attila Molnar, //attilamolnar@hush.com, //20140215, //src/modules/m_redirect.cpp, //29
+HistoryMode, //2, //Attila Molnar, //attilamolnar@hush.com, //20140215, //src/modules/m_chanhistory.cpp, //39
+RepeatMode, //2, //Attila Molnar, //attilamolnar@hush.com, //20140215, //src/modules/m_repeat.cpp, //60
+KickRejoin, //2, //Attila Molnar, //attilamolnar@hush.com, //20140215, //src/modules/m_kicknorejoin.cpp, //84
+DelayMsgMode, //4, //Attila Molnar, //attilamolnar@hush.com, //20140215, //src/modules/m_delaymsg.cpp, //22
+
+virtual function, calls, developer, email, edit time, definition file path, line
+Module::On005Numeric, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //91
+Module::OnUserPreInvite, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //86
+ModuleAllowInvite::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_allowinvite.cpp, //63
+ModuleAllowInvite::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_allowinvite.cpp, //37
+ModuleAllowInvite::OnUserPreInvite, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_allowinvite.cpp, //42
+User::GetFullRealHost, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091023, //src/users.cpp, //132
+CommandTline::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_tline.cpp, //33
+ModuleTLine::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_tline.cpp, //80
+Module::OnUnloadModule, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //94
+Module::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules.cpp, //71
+Module::init, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20100117, //include/modules.h, //276
+SQLQuery::OnError, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20100306, //include/modules/sql.h, //143
+StreamSocket::Close, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090921, //src/inspsocket.cpp, //109
+Module::OnAcceptConnection, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //139
+Module::cull, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091017, //src/modules.cpp, //58
+FlashPDSocket::OnDataReady, //0, //Daniel Vassdal, //daniel@vassdal.org, //20131210, //src/modules/m_flashpolicyd.cpp, //62
+FlashPDSocket::OnError, //0, //Daniel Vassdal, //daniel@vassdal.org, //20131210, //src/modules/m_flashpolicyd.cpp, //57
+FlashPDSocket::Tick, //0, //Attila Molnar, //attilamolnar@hush.com, //20141103, //src/modules/m_flashpolicyd.cpp, //37
+ModuleFlashPD::GetVersion, //0, //Daniel Vassdal, //daniel@vassdal.org, //20131210, //src/modules/m_flashpolicyd.cpp, //159
+ModuleFlashPD::OnAcceptConnection, //0, //Daniel Vassdal, //daniel@vassdal.org, //20131210, //src/modules/m_flashpolicyd.cpp, //85
+ModuleFlashPD::ReadConfig, //0, //Daniel Vassdal, //daniel@vassdal.org, //20131210, //src/modules/m_flashpolicyd.cpp, //97
+ModuleFlashPD::cull, //0, //Daniel Vassdal, //daniel@vassdal.org, //20131210, //src/modules/m_flashpolicyd.cpp, //149
+SplitCommand::HandleLocal, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091021, //src/commands.cpp, //38
+Module::OnUserPreNick, //0, //Attila Molnar, //attilamolnar@hush.com, //20140620, //src/modules.cpp, //88
+CommandNick::HandleLocal, //0, //Attila Molnar, //attilamolnar@hush.com, //20140703, //src/coremods/core_user/cmd_nick.cpp, //39
+Module::OnPreCommand, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //96
+LocalUser::HasPermission, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091021, //src/users.cpp, //191
+ModuleOperLog::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_operlog.cpp, //34
+ModuleOperLog::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_operlog.cpp, //65
+ModuleOperLog::OnPreCommand, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_operlog.cpp, //44
+ModuleOperLog::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_operlog.cpp, //39
+ModuleOperLog::init, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_operlog.cpp, //29
+Module::OnCheckReady, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //99
+Module::OnSetUserIP, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //141
+Module::OnUserDisconnect, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //75
+Module::OnUserInit, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //98
+Module::OnUserQuit, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //74
+LocalUser::Write, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091021, //src/users.cpp, //759
+User::GetFullHost, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091023, //src/users.cpp, //122
+User::Write, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091021, //src/users.cpp, //755
+UserIOHandler::OnDataReady, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091106, //src/users.cpp, //236
+XLine::Apply, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20071028, //src/xline.cpp, //520
+WriteCommonQuit::Execute, //0, //Attila Molnar, //attilamolnar@hush.com, //20150124, //src/usermanager.cpp, //34
+ModeHandler::OnModeChange, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/mode.cpp, //71
+Module::OnKill, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //92
+Module::OnRawMode, //0, //Attila Molnar, //attilamolnar@hush.com, //20140221, //src/modules.cpp, //103
+Module::OnUserPreKick, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //101
+ModuleServProtectMode::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_servprotect.cpp, //55
+ModuleServProtectMode::OnKill, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_servprotect.cpp, //97
+ModuleServProtectMode::OnRawMode, //0, //Attila Molnar, //attilamolnar@hush.com, //20140221, //src/modules/m_servprotect.cpp, //68
+ModuleServProtectMode::OnUserPreKick, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_servprotect.cpp, //111
+ModuleServProtectMode::OnWhois, //0, //Attila Molnar, //attilamolnar@hush.com, //20150428, //src/modules/m_servprotect.cpp, //60
+ServProtectMode::OnModeChange, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_servprotect.cpp, //31
+classbase::cull, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091017, //src/base.cpp, //36
+ModuleSpanningTree::OnAcceptConnection, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091021, //src/modules/m_spanningtree/utils.cpp, //34
+TreeServer::cull, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091023, //src/modules/m_spanningtree/treeserver.cpp, //261
+TreeSocket::Close, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090921, //src/modules/m_spanningtree/treesocket2.cpp, //345
+SpanningTreeUtilities::cull, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091017, //src/modules/m_spanningtree/utils.cpp, //125
+Module::OnModuleRehash, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //80
+Module::OnPreRehash, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //79
+CommandRehash::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_oper/cmd_rehash.cpp, //33
+ConfigReaderThread::Run, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090812, //src/configreader.cpp, //767
+ModeHandler::AccessCheck, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090913, //src/mode.cpp, //66
+Module::OnUserPreJoin, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //81
+Module::Prioritize, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20071104, //include/modules.h, //288
+CommandOjoin::HandleLocal, //0, //attilamolnar, //attilamolnar@hush.com, //20130412, //src/modules/m_ojoin.cpp, //41
+ModuleOjoin::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_ojoin.cpp, //158
+ModuleOjoin::OnUserPreJoin, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_ojoin.cpp, //119
+ModuleOjoin::OnUserPreKick, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_ojoin.cpp, //139
+ModuleOjoin::Prioritize, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090903, //src/modules/m_ojoin.cpp, //153
+ModuleOjoin::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_ojoin.cpp, //132
+NetworkPrefix::AccessCheck, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20100205, //src/modules/m_ojoin.cpp, //95
+CommandBase::GetRouting, //0, //Attila Molnar, //attilamolnar@hush.com, //20150124, //src/command_parse.cpp, //366
+ServerCommand::GetRouting, //0, //attilamolnar, //attilamolnar@hush.com, //20130715, //src/modules/m_spanningtree/servercommand.cpp, //32
+CommandAddLine::Handle, //0, //attilamolnar, //attilamolnar@hush.com, //20130715, //src/modules/m_spanningtree/addline.cpp, //27
+CommandDelLine::Handle, //0, //attilamolnar, //attilamolnar@hush.com, //20130715, //src/modules/m_spanningtree/delline.cpp, //25
+CommandEncap::GetRouting, //0, //attilamolnar, //attilamolnar@hush.com, //20130715, //src/modules/m_spanningtree/encap.cpp, //40
+CommandEncap::Handle, //0, //attilamolnar, //attilamolnar@hush.com, //20130715, //src/modules/m_spanningtree/encap.cpp, //25
+CommandFJoin::GetRouting, //0, //Attila Molnar, //attilamolnar@hush.com, //20150109, //src/modules/m_spanningtree/commands.h, //137
+CommandFJoin::Handle, //0, //attilamolnar, //attilamolnar@hush.com, //20130715, //src/modules/m_spanningtree/fjoin.cpp, //45
+CommandFMode::Handle, //0, //attilamolnar, //attilamolnar@hush.com, //20130715, //src/modules/m_spanningtree/fmode.cpp, //25
+CommandFTopic::Handle, //0, //attilamolnar, //attilamolnar@hush.com, //20130715, //src/modules/m_spanningtree/ftopic.cpp, //25
+CommandIdle::GetRouting, //0, //attilamolnar, //attilamolnar@hush.com, //20130715, //src/modules/m_spanningtree/commands.h, //274
+CommandMap::GetRouting, //0, //attilamolnar, //attilamolnar@hush.com, //20130701, //src/modules/m_spanningtree/override_map.cpp, //217
+CommandMap::Handle, //0, //attilamolnar, //attilamolnar@hush.com, //20130701, //src/modules/m_spanningtree/override_map.cpp, //167
+CommandMetadata::Handle, //0, //attilamolnar, //attilamolnar@hush.com, //20130715, //src/modules/m_spanningtree/metadata.cpp, //24
+CommandPing::GetRouting, //0, //attilamolnar, //attilamolnar@hush.com, //20130715, //src/modules/m_spanningtree/commands.h, //289
+CommandPing::Handle, //0, //attilamolnar, //attilamolnar@hush.com, //20130715, //src/modules/m_spanningtree/ping.cpp, //27
+CommandPong::GetRouting, //0, //attilamolnar, //attilamolnar@hush.com, //20130715, //src/modules/m_spanningtree/commands.h, //297
+CommandPush::GetRouting, //0, //attilamolnar, //attilamolnar@hush.com, //20130715, //src/modules/m_spanningtree/commands.h, //305
+CommandPush::Handle, //0, //attilamolnar, //attilamolnar@hush.com, //20130715, //src/modules/m_spanningtree/push.cpp, //25
+CommandRConnect::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090921, //src/modules/m_spanningtree/rconnect.cpp, //70
+CommandRConnect::Handle, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20081215, //src/modules/m_spanningtree/rconnect.cpp, //34
+CommandRSQuit::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090921, //src/modules/m_spanningtree/rsquit.cpp, //63
+CommandRSQuit::Handle, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20081215, //src/modules/m_spanningtree/rsquit.cpp, //35
+CommandResync::GetRouting, //0, //Attila Molnar, //attilamolnar@hush.com, //20140612, //src/modules/m_spanningtree/commands.h, //223
+CommandSNONotice::Handle, //0, //attilamolnar, //attilamolnar@hush.com, //20130715, //src/modules/m_spanningtree/misccommands.cpp, //32
+CommandSVSJoin::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20100102, //src/modules/m_spanningtree/svsjoin.cpp, //55
+CommandSVSJoin::Handle, //0, //attilamolnar, //attilamolnar@hush.com, //20130715, //src/modules/m_spanningtree/svsjoin.cpp, //25
+CommandSVSNick::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20100102, //src/modules/m_spanningtree/svsnick.cpp, //73
+CommandSVSNick::Handle, //0, //attilamolnar, //attilamolnar@hush.com, //20130715, //src/modules/m_spanningtree/svsnick.cpp, //26
+CommandSVSPart::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20100102, //src/modules/m_spanningtree/svspart.cpp, //43
+CommandSVSPart::Handle, //0, //attilamolnar, //attilamolnar@hush.com, //20130715, //src/modules/m_spanningtree/svspart.cpp, //25
+CommandSave::Handle, //0, //attilamolnar, //attilamolnar@hush.com, //20130715, //src/modules/m_spanningtree/save.cpp, //29
+BindInterface::OnResult, //0, //Adam, //Adam@anope.org, //20131010, //src/modules/m_ldapoper.cpp, //83
+CoreModInfo::GetVersion, //0, //Attila Molnar, //attilamolnar@hush.com, //20140305, //src/coremods/core_info/core_info.cpp, //47
+CoreModInfo::ReadConfig, //0, //Attila Molnar, //attilamolnar@hush.com, //20140307, //src/coremods/core_info/core_info.cpp, //39
+Module::OnUserKick, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //102
+ModuleChannelNames::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_channames.cpp, //150
+ModuleChannelNames::OnUserKick, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_channames.cpp, //132
+ModuleChannelNames::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_channames.cpp, //102
+ModuleChannelNames::cull, //0, //Attila Molnar, //attilamolnar@hush.com, //20140607, //src/modules/m_channames.cpp, //143
+ModuleChannelNames::init, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_channames.cpp, //60
+NewIsChannelHandler::Call, //0, //Peter Powell, //petpow@saberuk.com, //20130518, //src/modules/m_channames.cpp, //30
+Module::OnPostConnect, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //115
+JoinTimer::Tick, //0, //Daniel Vassdal, //daniel@vassdal.org, //20140130, //src/modules/m_conn_join.cpp, //52
+ModuleConnJoin::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_conn_join.cpp, //86
+ModuleConnJoin::OnPostConnect, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_conn_join.cpp, //91
+ModuleConnJoin::Prioritize, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20071104, //src/modules/m_conn_join.cpp, //81
+ModuleConnJoin::ReadConfig, //0, //Attila Molnar, //attilamolnar@hush.com, //20140130, //src/modules/m_conn_join.cpp, //74
+ModeHandler::DisplayEmptyList, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20071023, //src/mode.cpp, //80
+ModeHandler::DisplayList, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20071023, //src/mode.cpp, //76
+ModeHandler::GetUserParameter, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080831, //src/mode.cpp, //61
+ModeHandler::OnParameterMissing, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080817, //src/mode.cpp, //84
+ModeHandler::RemoveMode, //0, //Attila Molnar, //attilamolnar@hush.com, //20140903, //src/mode.cpp, //843
+ModeHandler::ResolveModeConflict, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090926, //src/mode.cpp, //88
+ModeHandler::cull, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091017, //src/mode.cpp, //36
+ModeWatcher::AfterMode, //0, //attilamolnar, //attilamolnar@hush.com, //20130526, //src/mode.cpp, //151
+ModeWatcher::BeforeMode, //0, //attilamolnar, //attilamolnar@hush.com, //20130526, //src/mode.cpp, //146
+PrefixMode::OnModeChange, //0, //attilamolnar, //attilamolnar@hush.com, //20130901, //src/mode.cpp, //162
+PrefixMode::RemoveMode, //0, //Attila Molnar, //attilamolnar@hush.com, //20140903, //src/mode.cpp, //855
+SimpleChannelModeHandler::OnModeChange, //0, //Shawn Smith, //ShawnSmith0828@gmail.com, //20120706, //src/mode.cpp, //112
+SimpleUserModeHandler::OnModeChange, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/mode.cpp, //93
+Module::OnDecodeMetaData, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //122
+Module::OnSetConnectClass, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //135
+Module::OnUserConnect, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //73
+CommandSSLInfo::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_sslinfo.cpp, //92
+ModuleSSLInfo::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sslinfo.cpp, //155
+ModuleSSLInfo::OnPostConnect, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sslinfo.cpp, //210
+ModuleSSLInfo::OnPreCommand, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sslinfo.cpp, //172
+ModuleSSLInfo::OnSetConnectClass, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sslinfo.cpp, //225
+ModuleSSLInfo::OnUserConnect, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sslinfo.cpp, //203
+ModuleSSLInfo::OnWhois, //0, //Attila Molnar, //attilamolnar@hush.com, //20150428, //src/modules/m_sslinfo.cpp, //160
+SSLCertExt::free, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090913, //src/modules/m_sslinfo.cpp, //72
+SSLCertExt::serialize, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091014, //src/modules/m_sslinfo.cpp, //42
+SSLCertExt::unserialize, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090913, //src/modules/m_sslinfo.cpp, //47
+UserCertificateAPIImpl::GetCertificate, //0, //attilamolnar, //attilamolnar@hush.com, //20130524, //src/modules/m_sslinfo.cpp, //136
+Module::OnPreMode, //0, //Attila Molnar, //attilamolnar@hush.com, //20140904, //src/modules.cpp, //90
+CommandProp::Handle, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20100206, //src/modules/m_namedmodes.cpp, //48
+DummyZ::DisplayList, //0, //Attila Molnar, //attilamolnar@hush.com, //20140904, //src/modules/m_namedmodes.cpp, //97
+ModuleNamedModes::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_namedmodes.cpp, //112
+ModuleNamedModes::OnPreMode, //0, //Attila Molnar, //attilamolnar@hush.com, //20140904, //src/modules/m_namedmodes.cpp, //122
+ModuleNamedModes::Prioritize, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091016, //src/modules/m_namedmodes.cpp, //117
+SearchInterface::OnResult, //0, //Adam, //Adam@anope.org, //20131010, //src/modules/m_ldapoper.cpp, //135
+CommandShowFile::Handle, //0, //Attila Molnar, //attilamolnar@hush.com, //20131218, //src/modules/m_showfile.cpp, //45
+ModuleShowFile::GetVersion, //0, //Attila Molnar, //attilamolnar@hush.com, //20131218, //src/modules/m_showfile.cpp, //163
+ModuleShowFile::ReadConfig, //0, //Attila Molnar, //attilamolnar@hush.com, //20131218, //src/modules/m_showfile.cpp, //131
+CommandAlltime::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090903, //src/modules/m_alltime.cpp, //44
+CommandAlltime::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/modules/m_alltime.cpp, //32
+Modulealltime::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_alltime.cpp, //59
+ModuleMapHide::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_maphide.cpp, //42
+ModuleMapHide::OnPreCommand, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_maphide.cpp, //31
+ModuleMapHide::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_maphide.cpp, //26
+CommandSetname::Handle, //0, //aquanight, //aquanight@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_setname.cpp, //35
+ModuleSetName::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_setname.cpp, //62
+SplitCommand::HandleRemote, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091021, //src/commands.cpp, //43
+LocalUser::HasPrivPermission, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091021, //src/users.cpp, //212
+CommandWhois::HandleLocal, //0, //attilamolnar, //attilamolnar@hush.com, //20130409, //src/coremods/core_whois.cpp, //237
+CommandWhois::HandleRemote, //0, //attilamolnar, //attilamolnar@hush.com, //20130409, //src/coremods/core_whois.cpp, //217
+WhoisContextImpl::SendLine, //0, //Attila Molnar, //attilamolnar@hush.com, //20150428, //src/coremods/core_whois.cpp, //39
+CommandSethost::Handle, //0, //aquanight, //aquanight@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_sethost.cpp, //37
+ModuleSetHost::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sethost.cpp, //86
+ModuleSetHost::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_sethost.cpp, //77
+CommandClose::Handle, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090926, //src/modules/m_close.cpp, //34
+ModuleClose::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_close.cpp, //77
+ModuleDenyChannels::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_denychans.cpp, //79
+ModuleDenyChannels::OnUserPreJoin, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_denychans.cpp, //85
+ModuleDenyChannels::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_denychans.cpp, //35
+ProtocolInterface::SendEncapsulatedData, //0, //Attila Molnar, //attilamolnar@hush.com, //20140126, //include/protocol.h, //69
+CommandFpart::Handle, //0, //aquanight, //aquanight@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_remove.cpp, //185
+CommandRemove::Handle, //0, //aquanight, //aquanight@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_remove.cpp, //167
+ModuleRemove::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_remove.cpp, //218
+ModuleRemove::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_remove.cpp, //206
+ModuleRemove::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_remove.cpp, //211
+Module::OnUserPart, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //78
+ModulePartMsgBan::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_nopartmsg.cpp, //25
+ModulePartMsgBan::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_nopartmsg.cpp, //39
+ModulePartMsgBan::OnUserPart, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_nopartmsg.cpp, //30
+ListModeBase::DisplayEmptyList, //0, //attilamolnar, //attilamolnar@hush.com, //20130403, //src/listmode.cpp, //44
+ListModeBase::DisplayList, //0, //attilamolnar, //attilamolnar@hush.com, //20130403, //src/listmode.cpp, //31
+ListModeBase::OnModeChange, //0, //attilamolnar, //attilamolnar@hush.com, //20130403, //src/listmode.cpp, //124
+ListModeBase::RemoveMode, //0, //Attila Molnar, //attilamolnar@hush.com, //20140903, //src/listmode.cpp, //49
+ListModeBase::TellAlreadyOnList, //0, //attilamolnar, //attilamolnar@hush.com, //20130403, //src/listmode.cpp, //218
+ListModeBase::TellListTooLong, //0, //attilamolnar, //attilamolnar@hush.com, //20130403, //src/listmode.cpp, //213
+ListModeBase::TellNotSet, //0, //attilamolnar, //attilamolnar@hush.com, //20130403, //src/listmode.cpp, //222
+ListModeBase::ValidateParam, //0, //attilamolnar, //attilamolnar@hush.com, //20130403, //src/listmode.cpp, //208
+Module::OnCheckChannelBan, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //107
+Module::OnCleanup, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20071023, //src/modules.cpp, //129
+BanRedirect::BeforeMode, //0, //attilamolnar, //attilamolnar@hush.com, //20130526, //src/modules/m_banredirect.cpp, //57
+ModuleBanRedirect::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_banredirect.cpp, //333
+ModuleBanRedirect::OnCleanup, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_banredirect.cpp, //243
+ModuleBanRedirect::OnUserPreJoin, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_banredirect.cpp, //266
+Module::OnMode, //0, //Attila Molnar, //attilamolnar@hush.com, //20140903, //src/modules.cpp, //82
+ParamModeBase::OnModeChange, //0, //Attila Molnar, //attilamolnar@hush.com, //20140215, //src/mode.cpp, //184
+User::HasModePermission, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091021, //src/users.cpp, //164
+Module::OnCheckBan, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //108
+ModuleGecosBan::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_gecosban.cpp, //25
+ModuleGecosBan::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_gecosban.cpp, //40
+ModuleGecosBan::OnCheckBan, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_gecosban.cpp, //30
+Module::OnPostOper, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //84
+ModuleOperjoin::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_operjoin.cpp, //45
+ModuleOperjoin::OnPostOper, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_operjoin.cpp, //50
+ModuleOperjoin::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_operjoin.cpp, //33
+Module::OnUserPreMessage, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //87
+ModuleStripColor::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_stripcolor.cpp, //86
+ModuleStripColor::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_stripcolor.cpp, //51
+ModuleStripColor::OnUserPreMessage, //0, //attilamolnar, //attilamolnar@hush.com, //20130516, //src/modules/m_stripcolor.cpp, //56
+Module::OnUserJoin, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //76
+JoinFlood::OnSet, //0, //Attila Molnar, //attilamolnar@hush.com, //20140215, //src/modules/m_joinflood.cpp, //93
+ModuleJoinFlood::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_joinflood.cpp, //167
+ModuleJoinFlood::OnUserJoin, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_joinflood.cpp, //146
+ModuleJoinFlood::OnUserPreJoin, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_joinflood.cpp, //132
+Module::OnBackgroundTimer, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //95
+Module::OnGarbageCollect, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //134
+FakeUser::cull, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091023, //src/users.cpp, //336
+Module::OnAddLine, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //126
+Module::OnBuildNeighborList, //0, //Attila Molnar, //attilamolnar@hush.com, //20140124, //src/modules.cpp, //133
+Module::OnChangeHost, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //123
+Module::OnChangeIdent, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //125
+Module::OnChangeLocalUserGECOS, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //112
+Module::OnChangeLocalUserHost, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //111
+Module::OnChangeName, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //124
+Module::OnChannelDelete, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //131
+Module::OnChannelPreDelete, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //130
+Module::OnCheckInvite, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //104
+Module::OnCheckKey, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //105
+Module::OnCheckLimit, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //106
+Module::OnDelLine, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //127
+Module::OnExpireLine, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //128
+Module::OnExtBanCheck, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //109
+Module::OnInfo, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //85
+Module::OnLoadModule, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //93
+Module::OnNamesListItem, //0, //Attila Molnar, //attilamolnar@hush.com, //20140420, //src/modules.cpp, //137
+Module::OnNumeric, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //138
+Module::OnOper, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //83
+Module::OnPassCompare, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //114
+Module::OnPostCommand, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //97
+Module::OnPostJoin, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //77
+Module::OnPostTopicChange, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //118
+Module::OnPreTopicChange, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //113
+Module::OnSendSnotice, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //72
+Module::OnSendWhoLine, //0, //Attila Molnar, //attilamolnar@hush.com, //20140214, //src/modules.cpp, //140
+Module::OnSetAway, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //132
+Module::OnStats, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //110
+Module::OnSyncChannel, //0, //attilamolnar, //attilamolnar@hush.com, //20130902, //src/modules.cpp, //120
+Module::OnSyncNetwork, //0, //attilamolnar, //attilamolnar@hush.com, //20130902, //src/modules.cpp, //121
+Module::OnSyncUser, //0, //attilamolnar, //attilamolnar@hush.com, //20130902, //src/modules.cpp, //119
+Module::OnText, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //136
+Module::OnUserInvite, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //117
+Module::OnUserMessage, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //116
+Module::OnUserPostNick, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //89
+Module::OnUserRegister, //0, //attilamolnar, //attilamolnar@hush.com, //20130804, //src/modules.cpp, //100
+ModuleSpanningTree::OnPreCommand, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20100118, //src/modules/m_spanningtree/precommand.cpp, //25
+CommandWhowas::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_whowas.cpp, //33
+ModuleMLock::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_mlock.cpp, //32
+ModuleMLock::OnRawMode, //0, //Attila Molnar, //attilamolnar@hush.com, //20140221, //src/modules/m_mlock.cpp, //37
+ModuleHostCycle::GetVersion, //0, //attilamolnar, //attilamolnar@hush.com, //20130809, //src/modules/m_hostcycle.cpp, //108
+ModuleHostCycle::OnChangeHost, //0, //attilamolnar, //attilamolnar@hush.com, //20130809, //src/modules/m_hostcycle.cpp, //103
+ModuleHostCycle::OnChangeIdent, //0, //attilamolnar, //attilamolnar@hush.com, //20130809, //src/modules/m_hostcycle.cpp, //98
+ListenSocket::OnEventHandlerRead, //0, //Attila Molnar, //attilamolnar@hush.com, //20150412, //src/listensocket.cpp, //103
+CommandChgident::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_chgident.cpp, //71
+CommandChgident::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/modules/m_chgident.cpp, //38
+ModuleChgIdent::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_chgident.cpp, //89
+Extensible::cull, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091017, //src/base.cpp, //190
+LocalExtItem::serialize, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091014, //src/base.cpp, //221
+LocalExtItem::unserialize, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090913, //src/base.cpp, //226
+LocalIntExt::free, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090913, //src/base.cpp, //275
+LocalIntExt::serialize, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091014, //src/base.cpp, //255
+LocalStringExt::serialize, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091014, //src/base.cpp, //239
+StringExtItem::free, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090913, //src/base.cpp, //318
+StringExtItem::serialize, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091014, //src/base.cpp, //293
+StringExtItem::unserialize, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090913, //src/base.cpp, //298
+DelayJoinMode::OnModeChange, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_delayjoin.cpp, //59
+ModuleDelayJoin::GetVersion, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20080828, //src/modules/m_delayjoin.cpp, //79
+ModuleDelayJoin::OnBuildNeighborList, //0, //Attila Molnar, //attilamolnar@hush.com, //20140124, //src/modules/m_delayjoin.cpp, //129
+ModuleDelayJoin::OnNamesListItem, //0, //Attila Molnar, //attilamolnar@hush.com, //20140420, //src/modules/m_delayjoin.cpp, //84
+ModuleDelayJoin::OnRawMode, //0, //Attila Molnar, //attilamolnar@hush.com, //20140221, //src/modules/m_delayjoin.cpp, //164
+ModuleDelayJoin::OnText, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20080828, //src/modules/m_delayjoin.cpp, //141
+ModuleDelayJoin::OnUserJoin, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090913, //src/modules/m_delayjoin.cpp, //108
+ModuleDelayJoin::OnUserKick, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090913, //src/modules/m_delayjoin.cpp, //123
+ModuleDelayJoin::OnUserPart, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090913, //src/modules/m_delayjoin.cpp, //117
+ProtocolInterface::SendMetaData, //0, //attilamolnar, //attilamolnar@hush.com, //20130902, //include/protocol.h, //93
+CommandTitle::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/modules/m_customtitle.cpp, //36
+ModuleCustomTitle::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_customtitle.cpp, //101
+ModuleCustomTitle::OnWhoisLine, //0, //Attila Molnar, //attilamolnar@hush.com, //20150428, //src/modules/m_customtitle.cpp, //85
+CommandKick::GetRouting, //0, //Attila Molnar, //attilamolnar@hush.com, //20140305, //src/coremods/core_channel/cmd_kick.cpp, //125
+CommandKick::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_channel/cmd_kick.cpp, //32
+ELine::Displayable, //0, //Peter Powell, //petpow@saberuk.com, //20130505, //src/xline.cpp, //696
+ELine::Matches, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20071028, //src/xline.cpp, //595
+ELine::Matches, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20071031, //src/xline.cpp, //662
+ELine::OnAdd, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20071031, //src/xline.cpp, //677
+ELine::Unset, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20071029, //src/xline.cpp, //324
+GLine::Apply, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20071028, //src/xline.cpp, //590
+GLine::Displayable, //0, //Peter Powell, //petpow@saberuk.com, //20130505, //src/xline.cpp, //706
+GLine::Matches, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20071028, //src/xline.cpp, //572
+GLine::Matches, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20071031, //src/xline.cpp, //672
+KLine::Apply, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20071028, //src/xline.cpp, //567
+KLine::Displayable, //0, //Peter Powell, //petpow@saberuk.com, //20130505, //src/xline.cpp, //701
+KLine::IsBurstable, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080217, //src/xline.cpp, //721
+KLine::Matches, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20071028, //src/xline.cpp, //549
+KLine::Matches, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20071031, //src/xline.cpp, //667
+QLine::Apply, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20071028, //src/xline.cpp, //639
+QLine::Displayable, //0, //Peter Powell, //petpow@saberuk.com, //20130505, //src/xline.cpp, //716
+QLine::Matches, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20071028, //src/xline.cpp, //631
+QLine::Matches, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20071028, //src/xline.cpp, //654
+XLine::DisplayExpiry, //0, //attilamolnar, //attilamolnar@hush.com, //20130408, //src/xline.cpp, //689
+XLine::IsBurstable, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080217, //src/xline.cpp, //524
+XLine::Matches, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20071028, //src/xline.cpp, //138
+XLine::OnAdd, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20071031, //include/xline.h, //116
+XLine::SetCreateTime, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20071031, //include/xline.h, //67
+XLine::Unset, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20071031, //include/xline.h, //97
+XLineFactory::AutoApplyToUserList, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080407, //include/xline.h, //387
+XLineFactory::GetType, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20071102, //include/xline.h, //375
+ZLine::Apply, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20071028, //src/xline.cpp, //625
+ZLine::Displayable, //0, //Peter Powell, //petpow@saberuk.com, //20130505, //src/xline.cpp, //711
+ZLine::Matches, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20071028, //src/xline.cpp, //613
+ZLine::Matches, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20071028, //src/xline.cpp, //646
+User::HasPrivPermission, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20081018, //src/users.cpp, //207
+ModuleAuditorium::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_auditorium.cpp, //54
+ModuleAuditorium::OnBuildNeighborList, //0, //Attila Molnar, //attilamolnar@hush.com, //20140124, //src/modules/m_auditorium.cpp, //129
+ModuleAuditorium::OnNamesListItem, //0, //Attila Molnar, //attilamolnar@hush.com, //20140420, //src/modules/m_auditorium.cpp, //88
+ModuleAuditorium::OnSendWhoLine, //0, //Attila Molnar, //attilamolnar@hush.com, //20140214, //src/modules/m_auditorium.cpp, //152
+ModuleAuditorium::OnUserJoin, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_auditorium.cpp, //114
+ModuleAuditorium::OnUserKick, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_auditorium.cpp, //124
+ModuleAuditorium::OnUserPart, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_auditorium.cpp, //119
+ModuleAuditorium::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_auditorium.cpp, //46
+ModuleQuietBan::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_muteban.cpp, //26
+ModuleQuietBan::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_muteban.cpp, //46
+ModuleQuietBan::OnUserPreMessage, //0, //attilamolnar, //attilamolnar@hush.com, //20130516, //src/modules/m_muteban.cpp, //31
+ModuleShowwhois::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_showwhois.cpp, //95
+ModuleShowwhois::OnWhois, //0, //Attila Molnar, //attilamolnar@hush.com, //20150428, //src/modules/m_showwhois.cpp, //100
+ModuleShowwhois::ReadConfig, //0, //Attila Molnar, //attilamolnar@hush.com, //20131219, //src/modules/m_showwhois.cpp, //87
+WhoisNoticeCmd::Handle, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_showwhois.cpp, //57
+LocalUser::HasModePermission, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091021, //src/users.cpp, //169
+CommandCheck::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_check.cpp, //280
+CommandCheck::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/modules/m_check.cpp, //98
+ModuleCheck::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_check.cpp, //296
+ListWatcher::BeforeMode, //0, //Attila Molnar, //attilamolnar@hush.com, //20140910, //src/modules/m_hidelist.cpp, //34
+ModuleHideList::GetVersion, //0, //Attila Molnar, //attilamolnar@hush.com, //20140910, //src/modules/m_hidelist.cpp, //81
+ModuleHideList::ReadConfig, //0, //Attila Molnar, //attilamolnar@hush.com, //20140910, //src/modules/m_hidelist.cpp, //59
+FileLogStream::OnLog, //0, //Peter Powell, //petpow@saberuk.com, //20130419, //src/filelogger.cpp, //36
+DNS::Request::OnError, //0, //Adam, //Adam@anope.org, //20130422, //include/modules/dns.h, //173
+SecurityIPResolver::OnError, //0, //Adam, //Adam@anope.org, //20130422, //src/modules/m_spanningtree/resolvers.cpp, //111
+SecurityIPResolver::OnLookupComplete, //0, //Adam, //Adam@anope.org, //20130422, //src/modules/m_spanningtree/resolvers.cpp, //96
+ServernameResolver::OnError, //0, //Adam, //Adam@anope.org, //20130422, //src/modules/m_spanningtree/resolvers.cpp, //69
+ServernameResolver::OnLookupComplete, //0, //Adam, //Adam@anope.org, //20130422, //src/modules/m_spanningtree/resolvers.cpp, //43
+BindInterface::OnError, //0, //Adam, //Adam@anope.org, //20131010, //src/modules/m_ldapauth.cpp, //183
+ModuleLDAPAuth::GetVersion, //0, //Adam, //Adam@anope.org, //20131010, //src/modules/m_ldapoper.cpp, //242
+ModuleLDAPAuth::ReadConfig, //0, //Adam, //Adam@anope.org, //20131010, //src/modules/m_ldapoper.cpp, //195
+ModuleLDAPAuth::OnCheckReady, //0, //Adam, //Adam@anope.org, //20131010, //src/modules/m_ldapauth.cpp, //423
+ModuleLDAPAuth::OnUserConnect, //0, //Adam, //Adam@anope.org, //20131010, //src/modules/m_ldapauth.cpp, //363
+ModuleLDAPAuth::OnUserRegister, //0, //Adam, //Adam@anope.org, //20131010, //src/modules/m_ldapauth.cpp, //373
+SearchInterface::OnError, //0, //Adam, //Adam@anope.org, //20131010, //src/modules/m_ldapauth.cpp, //249
+CommandSamode::Handle, //0, //aquanight, //aquanight@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_samode.cpp, //38
+ModuleSaMode::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_samode.cpp, //87
+ModuleSaMode::OnPreMode, //0, //Attila Molnar, //attilamolnar@hush.com, //20140904, //src/modules/m_samode.cpp, //92
+ModuleSaMode::Prioritize, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_samode.cpp, //99
+CommandBase::EncodeParameter, //0, //Attila Molnar, //attilamolnar@hush.com, //20150124, //src/command_parse.cpp, //362
+CommandDie::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_oper/cmd_die.cpp, //61
+CommandKill::EncodeParameter, //0, //Attila Molnar, //attilamolnar@hush.com, //20140305, //src/coremods/core_oper/cmd_kill.cpp, //150
+CommandKill::GetRouting, //0, //Attila Molnar, //attilamolnar@hush.com, //20140305, //src/coremods/core_oper/cmd_kill.cpp, //139
+CommandKill::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_oper/cmd_kill.cpp, //36
+CommandOper::HandleLocal, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091021, //src/coremods/core_oper/cmd_oper.cpp, //31
+CommandRestart::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_oper/cmd_restart.cpp, //31
+CommandSATopic::Handle, //0, //om, //om@e03df62e-2008-0410-955e-edbf42e46eb7, //20080804, //src/modules/m_satopic.cpp, //32
+ModuleSATopic::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_satopic.cpp, //64
+ModuleWhoWas::GetVersion, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090903, //src/coremods/core_whowas.cpp, //285
+ModuleWhoWas::OnGarbageCollect, //0, //attilamolnar, //attilamolnar@hush.com, //20120706, //src/coremods/core_whowas.cpp, //256
+ModuleWhoWas::OnStats, //0, //attilamolnar, //attilamolnar@hush.com, //20120706, //src/coremods/core_whowas.cpp, //267
+ModuleWhoWas::OnUserQuit, //0, //attilamolnar, //attilamolnar@hush.com, //20120706, //src/coremods/core_whowas.cpp, //262
+ModuleWhoWas::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/coremods/core_whowas.cpp, //275
+ModuleRestrictChans::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_restrictchans.cpp, //57
+ModuleRestrictChans::OnUserPreJoin, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_restrictchans.cpp, //42
+ModuleRestrictChans::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_restrictchans.cpp, //30
+CommandOpermotd::GetRouting, //0, //attilamolnar, //attilamolnar@hush.com, //20120624, //src/modules/m_opermotd.cpp, //44
+CommandOpermotd::Handle, //0, //attilamolnar, //attilamolnar@hush.com, //20120624, //src/modules/m_opermotd.cpp, //37
+ModuleOpermotd::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_opermotd.cpp, //83
+ModuleOpermotd::OnOper, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_opermotd.cpp, //88
+ModuleOpermotd::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_opermotd.cpp, //94
+CommandAway::GetRouting, //0, //Attila Molnar, //attilamolnar@hush.com, //20140305, //src/coremods/core_user/cmd_away.cpp, //62
+CommandAway::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_user/cmd_away.cpp, //32
+CommandConnect::Handle, //0, //Attila Molnar, //attilamolnar@hush.com, //20140306, //src/coremods/core_stub.cpp, //44
+CommandLinks::Handle, //0, //Attila Molnar, //attilamolnar@hush.com, //20140306, //src/coremods/core_stub.cpp, //71
+BindInterface::OnResult, //0, //Adam, //Adam@anope.org, //20131010, //src/modules/m_ldapauth.cpp, //110
+CommandServer::Handle, //0, //Attila Molnar, //attilamolnar@hush.com, //20140306, //src/coremods/core_stub.cpp, //97
+CommandSquit::Handle, //0, //Attila Molnar, //attilamolnar@hush.com, //20140306, //src/coremods/core_stub.cpp, //130
+CoreModStub::GetVersion, //0, //Attila Molnar, //attilamolnar@hush.com, //20140306, //src/coremods/core_stub.cpp, //150
+CommandAuthenticate::Handle, //0, //aquanight, //aquanight@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_sasl.cpp, //189
+CommandSASL::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090903, //src/modules/m_sasl.cpp, //241
+CommandSASL::Handle, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_sasl.cpp, //219
+ModuleSASL::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sasl.cpp, //289
+ModuleSASL::OnUserRegister, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sasl.cpp, //277
+ModuleSASL::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_sasl.cpp, //272
+ModuleSASL::init, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sasl.cpp, //266
+StreamSocket::cull, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091017, //src/inspsocket.cpp, //126
+ProtocolInterface::PushToClient, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080404, //include/protocol.h, //117
+FakeUser::GetFullHost, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091023, //src/users.cpp, //1170
+FakeUser::GetFullRealHost, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091023, //src/users.cpp, //1177
+FakeUser::SendText, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091021, //src/users.cpp, //944
+LocalUser::SendText, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091021, //src/users.cpp, //934
+LocalUser::SetClientIP, //0, //attilamolnar, //attilamolnar@hush.com, //20130303, //src/users.cpp, //726
+LocalUser::SetClientIP, //0, //attilamolnar, //attilamolnar@hush.com, //20130303, //src/users.cpp, //737
+LocalUser::Write, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091021, //src/users.cpp, //784
+LocalUser::cull, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091021, //src/users.cpp, //329
+RemoteUser::SendText, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091021, //src/users.cpp, //939
+User::HasPermission, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091021, //src/users.cpp, //186
+User::SetClientIP, //0, //attilamolnar, //attilamolnar@hush.com, //20130303, //src/users.cpp, //712
+User::SetClientIP, //0, //attilamolnar, //attilamolnar@hush.com, //20130303, //src/users.cpp, //719
+User::Write, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/users.cpp, //751
+User::cull, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091017, //src/users.cpp, //318
+UserIOHandler::OnError, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091106, //src/users.cpp, //313
+WriteCommonRawHandler::Execute, //0, //Attila Molnar, //attilamolnar@hush.com, //20150124, //src/users.cpp, //854
+CommandAdmin::GetRouting, //0, //Attila Molnar, //attilamolnar@hush.com, //20140305, //src/coremods/core_info/cmd_admin.cpp, //49
+CommandAdmin::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_info/cmd_admin.cpp, //33
+CommandCommands::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_info/cmd_commands.cpp, //32
+CommandInfo::GetRouting, //0, //Attila Molnar, //attilamolnar@hush.com, //20140305, //src/coremods/core_info/cmd_info.cpp, //90
+CommandInfo::Handle, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20100117, //src/coremods/core_info/cmd_info.cpp, //77
+CommandModules::GetRouting, //0, //Attila Molnar, //attilamolnar@hush.com, //20140305, //src/coremods/core_info/cmd_modules.cpp, //87
+CommandModules::Handle, //0, //Daniel Vassdal, //daniel@vassdal.org, //20131112, //src/coremods/core_info/cmd_modules.cpp, //34
+CommandMotd::GetRouting, //0, //Attila Molnar, //attilamolnar@hush.com, //20140305, //src/coremods/core_info/cmd_motd.cpp, //67
+CommandMotd::Handle, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20100119, //src/coremods/core_info/cmd_motd.cpp, //32
+CommandTime::GetRouting, //0, //Attila Molnar, //attilamolnar@hush.com, //20140305, //src/coremods/core_info/cmd_time.cpp, //41
+CommandTime::Handle, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20100119, //src/coremods/core_info/cmd_time.cpp, //30
+CommandVersion::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_info/cmd_version.cpp, //30
+ModuleModesOnConnect::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_conn_umodes.cpp, //34
+ModuleModesOnConnect::OnUserConnect, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_conn_umodes.cpp, //39
+ModuleModesOnConnect::Prioritize, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091025, //src/modules/m_conn_umodes.cpp, //28
+ProtocolInterface::SendMetaData, //0, //attilamolnar, //attilamolnar@hush.com, //20130902, //include/protocol.h, //99
+ProtocolInterface::SendSNONotice, //0, //Attila Molnar, //attilamolnar@hush.com, //20140104, //include/protocol.h, //111
+ModuleSpanningTree::GetVersion, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20070716, //src/modules/m_spanningtree/main.cpp, //742
+ModuleSpanningTree::OnAddLine, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20080211, //src/modules/m_spanningtree/main.cpp, //664
+ModuleSpanningTree::OnBackgroundTimer, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20070716, //src/modules/m_spanningtree/main.cpp, //414
+ModuleSpanningTree::OnChangeHost, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091021, //src/modules/m_spanningtree/main.cpp, //471
+ModuleSpanningTree::OnChangeIdent, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_spanningtree/main.cpp, //487
+ModuleSpanningTree::OnChangeName, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20071015, //src/modules/m_spanningtree/main.cpp, //479
+ModuleSpanningTree::OnDelLine, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20080211, //src/modules/m_spanningtree/main.cpp, //675
+ModuleSpanningTree::OnLoadModule, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091014, //src/modules/m_spanningtree/main.cpp, //611
+ModuleSpanningTree::OnMode, //0, //Attila Molnar, //attilamolnar@hush.com, //20140903, //src/modules/m_spanningtree/main.cpp, //697
+ModuleSpanningTree::OnOper, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20071015, //src/modules/m_spanningtree/main.cpp, //654
+ModuleSpanningTree::OnPostTopicChange, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20090905, //src/modules/m_spanningtree/main.cpp, //374
+ModuleSpanningTree::OnPreRehash, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090524, //src/modules/m_spanningtree/main.cpp, //565
+ModuleSpanningTree::OnSetAway, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_spanningtree/main.cpp, //689
+ModuleSpanningTree::OnUnloadModule, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091014, //src/modules/m_spanningtree/main.cpp, //625
+ModuleSpanningTree::OnUserConnect, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091021, //src/modules/m_spanningtree/main.cpp, //420
+ModuleSpanningTree::OnUserInvite, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20080211, //src/modules/m_spanningtree/main.cpp, //361
+ModuleSpanningTree::OnUserJoin, //0, //attilamolnar, //attilamolnar@hush.com, //20130412, //src/modules/m_spanningtree/main.cpp, //441
+ModuleSpanningTree::OnUserKick, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090913, //src/modules/m_spanningtree/main.cpp, //550
+ModuleSpanningTree::OnUserMessage, //0, //attilamolnar, //attilamolnar@hush.com, //20130817, //src/modules/m_spanningtree/main.cpp, //383
+ModuleSpanningTree::OnUserPart, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090913, //src/modules/m_spanningtree/main.cpp, //495
+ModuleSpanningTree::OnUserPostNick, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20071015, //src/modules/m_spanningtree/main.cpp, //534
+ModuleSpanningTree::OnUserQuit, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20071015, //src/modules/m_spanningtree/main.cpp, //507
+ModuleSpanningTree::Prioritize, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20071104, //src/modules/m_spanningtree/main.cpp, //754
+ModuleSpanningTree::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_spanningtree/main.cpp, //581
+ModuleSpanningTree::cull, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091017, //src/modules/m_spanningtree/main.cpp, //724
+ModuleSpanningTree::init, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20100118, //src/modules/m_spanningtree/main.cpp, //84
+CommandSanick::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_sanick.cpp, //80
+CommandSanick::Handle, //0, //aquanight, //aquanight@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_sanick.cpp, //36
+ModuleSanick::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sanick.cpp, //99
+ModulePassForward::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_passforward.cpp, //27
+ModulePassForward::OnPostConnect, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_passforward.cpp, //75
+ModulePassForward::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_passforward.cpp, //32
+ModuleWaitPong::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_conn_waitpong.cpp, //88
+ModuleWaitPong::OnCheckReady, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_conn_waitpong.cpp, //83
+ModuleWaitPong::OnPreCommand, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_conn_waitpong.cpp, //59
+ModuleWaitPong::OnUserRegister, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_conn_waitpong.cpp, //46
+ModuleWaitPong::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_conn_waitpong.cpp, //39
+CommandUser::HandleLocal, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091021, //src/coremods/core_user/cmd_user.cpp, //32
+ModuleNamesX::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_namesx.cpp, //34
+ModuleNamesX::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_namesx.cpp, //39
+ModuleNamesX::OnNamesListItem, //0, //Attila Molnar, //attilamolnar@hush.com, //20140420, //src/modules/m_namesx.cpp, //62
+ModuleNamesX::OnPreCommand, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_namesx.cpp, //44
+ModuleNamesX::OnSendWhoLine, //0, //Attila Molnar, //attilamolnar@hush.com, //20140214, //src/modules/m_namesx.cpp, //70
+CacheRefreshTimer::Tick, //0, //attilamolnar, //attilamolnar@hush.com, //20130409, //src/modules/m_spanningtree/resolvers.cpp, //135
+BufferedSocket::OnConnected, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090921, //src/inspsocket.cpp, //392
+TreeSocket::OnConnected, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090921, //src/modules/m_spanningtree/treesocket1.cpp, //98
+TreeSocket::OnDataReady, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090921, //src/modules/m_spanningtree/treesocket1.cpp, //165
+TreeSocket::OnError, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20071015, //src/modules/m_spanningtree/treesocket1.cpp, //119
+TreeSocket::cull, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091017, //src/modules/m_spanningtree/treesocket1.cpp, //79
+CommandJumpserver::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_jumpserver.cpp, //45
+ModuleJumpServer::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_jumpserver.cpp, //178
+ModuleJumpServer::OnUserRegister, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_jumpserver.cpp, //158
+ModuleJumpServer::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_jumpserver.cpp, //171
+ModuleHostChange::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_hostchange.cpp, //90
+ModuleHostChange::OnUserConnect, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_hostchange.cpp, //97
+ModuleHostChange::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_hostchange.cpp, //54
+ModuleLDAPAuth::GetVersion, //0, //Adam, //Adam@anope.org, //20131010, //src/modules/m_ldapauth.cpp, //428
+LDAPOperBase::OnError, //0, //Adam, //Adam@anope.org, //20131010, //src/modules/m_ldapoper.cpp, //67
+ModuleLDAPAuth::ReadConfig, //0, //Adam, //Adam@anope.org, //20131010, //src/modules/m_ldapauth.cpp, //318
+ModuleLDAPAuth::OnPreCommand, //0, //Adam, //Adam@anope.org, //20131010, //src/modules/m_ldapoper.cpp, //204
+CommandPass::HandleLocal, //0, //Attila Molnar, //attilamolnar@hush.com, //20140305, //src/coremods/core_user/core_user.cpp, //43
+CommandPing::Handle, //0, //Attila Molnar, //attilamolnar@hush.com, //20140305, //src/coremods/core_user/core_user.cpp, //76
+CommandPong::Handle, //0, //Attila Molnar, //attilamolnar@hush.com, //20140305, //src/coremods/core_user/core_user.cpp, //102
+CoreModUser::GetVersion, //0, //Attila Molnar, //attilamolnar@hush.com, //20140305, //src/coremods/core_user/core_user.cpp, //164
+CoreModUser::ReadConfig, //0, //Attila Molnar, //attilamolnar@hush.com, //20140307, //src/coremods/core_user/core_user.cpp, //158
+ProtocolInterface::BroadcastEncap, //0, //Attila Molnar, //attilamolnar@hush.com, //20140126, //include/protocol.h, //79
+ProtocolInterface::GetServerList, //0, //attilamolnar, //attilamolnar@hush.com, //20130719, //include/protocol.h, //157
+ProtocolInterface::SendMessage, //0, //attilamolnar, //attilamolnar@hush.com, //20130719, //include/protocol.h, //125
+ProtocolInterface::SendMessage, //0, //attilamolnar, //attilamolnar@hush.com, //20130719, //include/protocol.h, //132
+ProtocolInterface::SendMetaData, //0, //attilamolnar, //attilamolnar@hush.com, //20130902, //include/protocol.h, //86
+ProtocolInterface::SendTopic, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080404, //include/protocol.h, //105
+SpanningTreeProtocolInterface::BroadcastEncap, //0, //Attila Molnar, //attilamolnar@hush.com, //20140126, //src/modules/m_spanningtree/protocolinterface.cpp, //74
+SpanningTreeProtocolInterface::GetServerList, //0, //attilamolnar, //attilamolnar@hush.com, //20130719, //src/modules/m_spanningtree/protocolinterface.cpp, //31
+SpanningTreeProtocolInterface::PushToClient, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080404, //src/modules/m_spanningtree/protocolinterface.cpp, //115
+SpanningTreeProtocolInterface::SendEncapsulatedData, //0, //Attila Molnar, //attilamolnar@hush.com, //20140126, //src/modules/m_spanningtree/protocolinterface.cpp, //47
+SpanningTreeProtocolInterface::SendMessage, //0, //attilamolnar, //attilamolnar@hush.com, //20130719, //src/modules/m_spanningtree/protocolinterface.cpp, //120
+SpanningTreeProtocolInterface::SendMessage, //0, //attilamolnar, //attilamolnar@hush.com, //20130719, //src/modules/m_spanningtree/protocolinterface.cpp, //127
+SpanningTreeProtocolInterface::SendMetaData, //0, //attilamolnar, //attilamolnar@hush.com, //20130902, //src/modules/m_spanningtree/protocolinterface.cpp, //85
+SpanningTreeProtocolInterface::SendMetaData, //0, //attilamolnar, //attilamolnar@hush.com, //20130902, //src/modules/m_spanningtree/protocolinterface.cpp, //90
+SpanningTreeProtocolInterface::SendMetaData, //0, //attilamolnar, //attilamolnar@hush.com, //20130902, //src/modules/m_spanningtree/protocolinterface.cpp, //95
+SpanningTreeProtocolInterface::SendSNONotice, //0, //Attila Molnar, //attilamolnar@hush.com, //20140104, //src/modules/m_spanningtree/protocolinterface.cpp, //110
+SpanningTreeProtocolInterface::SendTopic, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080404, //src/modules/m_spanningtree/protocolinterface.cpp, //105
+SpanningTreeProtocolInterface::Server::SendMetaData, //0, //attilamolnar, //attilamolnar@hush.com, //20130902, //src/modules/m_spanningtree/protocolinterface.cpp, //100
+CommandSetident::Handle, //0, //aquanight, //aquanight@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_setident.cpp, //36
+ModuleSetIdent::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_setident.cpp, //66
+PingTimer::Tick, //0, //Attila Molnar, //attilamolnar@hush.com, //20150125, //src/modules/m_spanningtree/pingtimer.cpp, //85
+CommandSVSWatch::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090903, //src/modules/m_watch.cpp, //128
+CommandSVSWatch::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_watch.cpp, //111
+CommandWatch::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_watch.cpp, //255
+Modulewatch::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_watch.cpp, //519
+Modulewatch::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_watch.cpp, //509
+Modulewatch::OnGarbageCollect, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_watch.cpp, //449
+Modulewatch::OnPostConnect, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_watch.cpp, //460
+Modulewatch::OnSetAway, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_watch.cpp, //381
+Modulewatch::OnUserPostNick, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_watch.cpp, //477
+Modulewatch::OnUserQuit, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_watch.cpp, //409
+Modulewatch::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_watch.cpp, //374
+CGIResolver::OnError, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_cgiirc.cpp, //160
+CGIResolver::OnLookupComplete, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_cgiirc.cpp, //137
+CommandWebirc::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/modules/m_cgiirc.cpp, //83
+ModuleCgiIRC::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_cgiirc.cpp, //404
+ModuleCgiIRC::OnCheckReady, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_cgiirc.cpp, //288
+ModuleCgiIRC::OnUserRegister, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_cgiirc.cpp, //307
+ModuleCgiIRC::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_cgiirc.cpp, //239
+ModuleCgiIRC::init, //0, //Googolplexed, //googol@googolplexed.net, //20140223, //src/modules/m_cgiirc.cpp, //234
+ModulePermanentChannels::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_permchannels.cpp, //302
+ModulePermanentChannels::OnBackgroundTimer, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_permchannels.cpp, //265
+ModulePermanentChannels::OnChannelPreDelete, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_permchannels.cpp, //307
+ModulePermanentChannels::OnPostTopicChange, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_permchannels.cpp, //259
+ModulePermanentChannels::OnRawMode, //0, //Attila Molnar, //attilamolnar@hush.com, //20140221, //src/modules/m_permchannels.cpp, //251
+ModulePermanentChannels::Prioritize, //0, //attilamolnar, //attilamolnar@hush.com, //20130421, //src/modules/m_permchannels.cpp, //272
+ModulePermanentChannels::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_permchannels.cpp, //173
+PermChannel::OnModeChange, //0, //attilamolnar, //attilamolnar@hush.com, //20130411, //src/modules/m_permchannels.cpp, //37
+ModuleBlockColor::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_blockcolor.cpp, //80
+ModuleBlockColor::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_blockcolor.cpp, //43
+ModuleBlockColor::OnUserPreMessage, //0, //attilamolnar, //attilamolnar@hush.com, //20130516, //src/modules/m_blockcolor.cpp, //48
+GlobFactory::Create, //0, //Peter Powell, //petpow@saberuk.com, //20130827, //src/modules/m_regex_glob.cpp, //40
+GlobRegex::Matches, //0, //Peter Powell, //petpow@saberuk.com, //20130827, //src/modules/m_regex_glob.cpp, //31
+ModuleRegexGlob::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_regex_glob.cpp, //57
+CBan::Displayable, //0, //Peter Powell, //petpow@saberuk.com, //20130505, //src/modules/m_cban.cpp, //55
+CBan::Matches, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20080408, //src/modules/m_cban.cpp, //43
+CBan::Matches, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20080408, //src/modules/m_cban.cpp, //48
+CBanFactory::AutoApplyToUserList, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20080408, //src/modules/m_cban.cpp, //75
+CBanFactory::Generate, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_cban.cpp, //70
+CommandCBan::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090903, //src/modules/m_cban.cpp, //138
+CommandCBan::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/modules/m_cban.cpp, //91
+ModuleCBan::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_cban.cpp, //193
+ModuleCBan::OnStats, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_cban.cpp, //168
+ModuleCBan::OnUserPreJoin, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_cban.cpp, //177
+ModuleCBan::init, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_cban.cpp, //157
+CommandUserhost::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_userhost.cpp, //46
+SearchInterface::OnResult, //0, //Adam, //Adam@anope.org, //20131010, //src/modules/m_ldapauth.cpp, //217
+ModuleNoCTCP::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_noctcp.cpp, //40
+ModuleNoCTCP::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_noctcp.cpp, //66
+ModuleNoCTCP::OnUserPreMessage, //0, //attilamolnar, //attilamolnar@hush.com, //20130516, //src/modules/m_noctcp.cpp, //45
+CommandEline::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_xline/cmd_eline.cpp, //34
+CommandGloadmodule::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090903, //src/modules/m_globalload.cpp, //60
+CommandGloadmodule::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_globalload.cpp, //38
+CommandGreloadmodule::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090903, //src/modules/m_globalload.cpp, //174
+CommandGreloadmodule::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_globalload.cpp, //148
+CommandGunloadmodule::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090903, //src/modules/m_globalload.cpp, //113
+CommandGunloadmodule::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_globalload.cpp, //77
+GReloadModuleWorker::Call, //0, //Jackmcbarn, //jackmcbarn@jackmcbarn.no-ip.org, //20110323, //src/modules/m_globalload.cpp, //127
+ModuleGlobalLoad::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_globalload.cpp, //192
+ModeUserOperator::OnModeChange, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modes/umode_o.cpp, //29
+ModuleInviteException::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_inviteexception.cpp, //89
+ModuleInviteException::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_inviteexception.cpp, //54
+ModuleInviteException::OnCheckInvite, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_inviteexception.cpp, //59
+ModuleInviteException::OnCheckKey, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_inviteexception.cpp, //76
+ModuleInviteException::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_inviteexception.cpp, //83
+CommandVhost::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_vhost.cpp, //35
+ModuleVHost::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_vhost.cpp, //71
+CommandKnock::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090903, //src/modules/m_knock.cpp, //80
+CommandKnock::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_knock.cpp, //43
+ModuleKnock::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_knock.cpp, //120
+ModuleKnock::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_knock.cpp, //98
+BanWatcher::AfterMode, //0, //attilamolnar, //attilamolnar@hush.com, //20130526, //src/modules/m_timedbans.cpp, //146
+CommandTban::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090903, //src/modules/m_timedbans.cpp, //132
+CommandTban::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_timedbans.cpp, //70
+ModuleTimedBans::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_timedbans.cpp, //233
+ModuleTimedBans::OnBackgroundTimer, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_timedbans.cpp, //194
+ModuleTimedBans::OnChannelDelete, //0, //Attila Molnar, //attilamolnar@hush.com, //20150413, //src/modules/m_timedbans.cpp, //227
+CommandQline::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_xline/cmd_qline.cpp, //34
+CommandUninvite::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090903, //src/modules/m_uninvite.cpp, //93
+CommandUninvite::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_uninvite.cpp, //36
+ModuleUninvite::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_uninvite.cpp, //110
+CWin32Exception::what, //0, //ChrisTX, //xpipe@hotmail.de, //20130323, //win/inspircd_win32wrapper.cpp, //221
+ModuleCensor::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_censor.cpp, //112
+ModuleCensor::OnUserPreMessage, //0, //attilamolnar, //attilamolnar@hush.com, //20130516, //src/modules/m_censor.cpp, //53
+ModuleCensor::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_censor.cpp, //93
+CommandWallops::GetRouting, //0, //attilamolnar, //attilamolnar@hush.com, //20130602, //src/coremods/core_wallops.cpp, //47
+CommandWallops::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_wallops.cpp, //53
+ModuleNickFlood::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_nickflood.cpp, //191
+ModuleNickFlood::OnUserPostNick, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_nickflood.cpp, //165
+ModuleNickFlood::OnUserPreNick, //0, //Attila Molnar, //attilamolnar@hush.com, //20140620, //src/modules/m_nickflood.cpp, //129
+NickFlood::OnSet, //0, //Attila Molnar, //attilamolnar@hush.com, //20140215, //src/modules/m_nickflood.cpp, //89
+CommandWho::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_who.cpp, //234
+ModuleOperLevels::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_operlevels.cpp, //28
+ModuleOperLevels::OnKill, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_operlevels.cpp, //33
+CommandJoin::HandleLocal, //0, //attilamolnar, //attilamolnar@hush.com, //20130412, //src/coremods/core_channel/cmd_join.cpp, //33
+ModuleHTTPAccessList::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_httpd_acl.cpp, //225
+ModuleHTTPAccessList::OnHTTPACLCheck, //0, //Attila Molnar, //attilamolnar@hush.com, //20150211, //src/modules/m_httpd_acl.cpp, //218
+ModuleHTTPAccessList::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_httpd_acl.cpp, //52
+ModuleHttpConfig::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_httpd_config.cpp, //109
+ModuleHttpConfig::OnHTTPRequest, //0, //Attila Molnar, //attilamolnar@hush.com, //20150211, //src/modules/m_httpd_config.cpp, //104
+Thread::SetExitFlag, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090810, //src/threadengine.cpp, //22
+EventHandler::OnEventHandlerError, //0, //Attila Molnar, //attilamolnar@hush.com, //20150412, //src/socketengine.cpp, //60
+EventHandler::OnEventHandlerWrite, //0, //Attila Molnar, //attilamolnar@hush.com, //20150412, //src/socketengine.cpp, //56
+BufferedSocket::OnEventHandlerWrite, //0, //Attila Molnar, //attilamolnar@hush.com, //20150412, //src/inspsocket.cpp, //395
+BufferedSocket::OnTimeout, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090921, //src/inspsocket.cpp, //393
+SocketTimeout::Tick, //0, //attilamolnar, //attilamolnar@hush.com, //20130409, //src/inspsocket.cpp, //364
+StreamSocket::OnEventHandlerError, //0, //Attila Molnar, //attilamolnar@hush.com, //20150412, //src/inspsocket.cpp, //414
+StreamSocket::OnEventHandlerRead, //0, //Attila Molnar, //attilamolnar@hush.com, //20150412, //src/inspsocket.cpp, //447
+StreamSocket::OnEventHandlerWrite, //0, //Attila Molnar, //attilamolnar@hush.com, //20150412, //src/inspsocket.cpp, //464
+ModuleRegOnlyCreate::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_regonlycreate.cpp, //56
+ModuleRegOnlyCreate::OnUserPreJoin, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_regonlycreate.cpp, //36
+ModuleChanHistory::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_chanhistory.cpp, //116
+CommandDevoice::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/modules/m_devoice.cpp, //39
+ModuleDeVoice::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_devoice.cpp, //59
+ModuleBlockCAPS::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_blockcaps.cpp, //96
+ModuleBlockCAPS::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_blockcaps.cpp, //46
+ModuleBlockCAPS::OnUserPreMessage, //0, //attilamolnar, //attilamolnar@hush.com, //20130516, //src/modules/m_blockcaps.cpp, //51
+ModuleBlockCAPS::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_blockcaps.cpp, //85
+ModuleIRCv3::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_ircv3.cpp, //196
+ModuleIRCv3::OnAccountChange, //0, //Attila Molnar, //attilamolnar@hush.com, //20150211, //src/modules/m_ircv3.cpp, //68
+ModuleIRCv3::OnPostJoin, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_ircv3.cpp, //170
+ModuleIRCv3::OnSetAway, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_ircv3.cpp, //155
+ModuleIRCv3::OnUserJoin, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_ircv3.cpp, //82
+ModuleIRCv3::Prioritize, //0, //attilamolnar, //attilamolnar@hush.com, //20120607, //src/modules/m_ircv3.cpp, //191
+ModuleIRCv3::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_ircv3.cpp, //60
+WriteNeighboursWithExt::Execute, //0, //Attila Molnar, //attilamolnar@hush.com, //20150124, //src/modules/m_ircv3.cpp, //28
+TreeSocket::OnTimeout, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20070716, //src/modules/m_spanningtree/treesocket2.cpp, //340
+ModuleNoNotice::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_nonotice.cpp, //66
+ModuleNoNotice::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_nonotice.cpp, //40
+ModuleNoNotice::OnUserPreMessage, //0, //attilamolnar, //attilamolnar@hush.com, //20130516, //src/modules/m_nonotice.cpp, //45
+CommandSvshold::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090903, //src/modules/m_svshold.cpp, //158
+CommandSvshold::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_svshold.cpp, //101
+ModuleSVSHold::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_svshold.cpp, //214
+ModuleSVSHold::OnStats, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_svshold.cpp, //186
+ModuleSVSHold::OnUserPreNick, //0, //Attila Molnar, //attilamolnar@hush.com, //20140620, //src/modules/m_svshold.cpp, //195
+ModuleSVSHold::ReadConfig, //0, //Attila Molnar, //attilamolnar@hush.com, //20140121, //src/modules/m_svshold.cpp, //180
+ModuleSVSHold::init, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_svshold.cpp, //175
+SVSHold::DisplayExpiry, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20080712, //src/modules/m_svshold.cpp, //56
+SVSHold::Displayable, //0, //Peter Powell, //petpow@saberuk.com, //20130505, //src/modules/m_svshold.cpp, //65
+SVSHold::Matches, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20080712, //src/modules/m_svshold.cpp, //44
+SVSHold::Matches, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20080712, //src/modules/m_svshold.cpp, //51
+SVSHoldFactory::AutoApplyToUserList, //0, //attilamolnar, //attilamolnar@hush.com, //20120617, //src/modules/m_svshold.cpp, //85
+SVSHoldFactory::Generate, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_svshold.cpp, //80
+CommandShun::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090903, //src/modules/m_shun.cpp, //158
+CommandShun::Handle, //0, //aquanight, //aquanight@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_shun.cpp, //93
+ModuleShun::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_shun.cpp, //268
+ModuleShun::OnPreCommand, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_shun.cpp, //229
+ModuleShun::OnStats, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_shun.cpp, //197
+ModuleShun::Prioritize, //0, //Jens Voss, //DukePyrolator@anope.org, //20120121, //src/modules/m_shun.cpp, //191
+ModuleShun::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_shun.cpp, //206
+ModuleShun::init, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_shun.cpp, //180
+Shun::Displayable, //0, //Peter Powell, //petpow@saberuk.com, //20130505, //src/modules/m_shun.cpp, //57
+Shun::Matches, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20080407, //src/modules/m_shun.cpp, //37
+Shun::Matches, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20080407, //src/modules/m_shun.cpp, //50
+ShunFactory::AutoApplyToUserList, //0, //attilamolnar, //attilamolnar@hush.com, //20120617, //src/modules/m_shun.cpp, //77
+ShunFactory::Generate, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_shun.cpp, //72
+ModuleXLineDB::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_xline_db.cpp, //218
+ModuleXLineDB::OnAddLine, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_xline_db.cpp, //52
+ModuleXLineDB::OnBackgroundTimer, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_xline_db.cpp, //72
+ModuleXLineDB::OnDelLine, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_xline_db.cpp, //62
+ModuleXLineDB::OnExpireLine, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_xline_db.cpp, //67
+ModuleXLineDB::init, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_xline_db.cpp, //30
+GenRandomHandler::Call, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20100209, //src/helperfuncs.cpp, //424
+IsChannelHandler::Call, //0, //Peter Powell, //petpow@saberuk.com, //20130518, //src/helperfuncs.cpp, //202
+IsIdentHandler::Call, //0, //attilamolnar, //attilamolnar@hush.com, //20130401, //src/helperfuncs.cpp, //252
+IsNickHandler::Call, //0, //Peter Powell, //petpow@saberuk.com, //20130518, //src/helperfuncs.cpp, //225
+OnCheckExemptionHandler::Call, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20100220, //src/helperfuncs.cpp, //440
+HashProvider::Compare, //0, //Daniel Vassdal, //daniel@vassdal.org, //20140702, //include/modules/hash.h, //41
+HashProvider::ToPrintable, //0, //Daniel Vassdal, //daniel@vassdal.org, //20140702, //include/modules/hash.h, //36
+ModuleSecureList::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_securelist.cpp, //30
+ModuleSecureList::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_securelist.cpp, //76
+ModuleSecureList::OnPreCommand, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_securelist.cpp, //51
+ModuleSecureList::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_securelist.cpp, //35
+CommandZline::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_xline/cmd_zline.cpp, //34
+CommandDccallow::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090903, //src/modules/m_dccallow.cpp, //201
+CommandDccallow::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/modules/m_dccallow.cpp, //69
+ModuleDCCAllow::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_dccallow.cpp, //467
+ModuleDCCAllow::OnUserPostNick, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_dccallow.cpp, //278
+ModuleDCCAllow::OnUserPreMessage, //0, //attilamolnar, //attilamolnar@hush.com, //20130516, //src/modules/m_dccallow.cpp, //283
+ModuleDCCAllow::OnUserQuit, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_dccallow.cpp, //265
+ModuleDCCAllow::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_dccallow.cpp, //454
+CommandReloadmodule::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_reloadmodule.cpp, //56
+ReloadModuleWorker::Call, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091014, //src/coremods/core_reloadmodule.cpp, //44
+CommandCycle::HandleLocal, //0, //attilamolnar, //attilamolnar@hush.com, //20130412, //src/modules/m_cycle.cpp, //34
+ModuleCycle::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_cycle.cpp, //85
+ModuleChanHistory::OnUserMessage, //0, //attilamolnar, //attilamolnar@hush.com, //20130516, //src/modules/m_chanhistory.cpp, //124
+CommandKline::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_xline/cmd_kline.cpp, //35
+CommandSakick::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_sakick.cpp, //76
+CommandSakick::Handle, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090227, //src/modules/m_sakick.cpp, //34
+ModuleSakick::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sakick.cpp, //94
+CommandSVSTOPIC::GetRouting, //0, //attilamolnar, //attilamolnar@hush.com, //20121003, //src/modules/m_topiclock.cpp, //83
+CommandSVSTOPIC::Handle, //0, //attilamolnar, //attilamolnar@hush.com, //20121003, //src/modules/m_topiclock.cpp, //30
+FlagExtItem::free, //0, //attilamolnar, //attilamolnar@hush.com, //20121003, //src/modules/m_topiclock.cpp, //131
+FlagExtItem::serialize, //0, //attilamolnar, //attilamolnar@hush.com, //20121003, //src/modules/m_topiclock.cpp, //102
+FlagExtItem::unserialize, //0, //attilamolnar, //attilamolnar@hush.com, //20121003, //src/modules/m_topiclock.cpp, //110
+ModuleTopicLock::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_topiclock.cpp, //160
+ModuleTopicLock::OnPreTopicChange, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_topiclock.cpp, //148
+ModuleMsgFlood::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_messageflood.cpp, //159
+ModuleMsgFlood::OnUserPreMessage, //0, //Attila Molnar, //attilamolnar@hush.com, //20140108, //src/modules/m_messageflood.cpp, //115
+ModuleMsgFlood::Prioritize, //0, //attilamolnar, //attilamolnar@hush.com, //20130102, //src/modules/m_messageflood.cpp, //153
+MsgFlood::OnSet, //0, //Attila Molnar, //attilamolnar@hush.com, //20140215, //src/modules/m_messageflood.cpp, //71
+ModeChannelLimit::OnSet, //0, //Attila Molnar, //attilamolnar@hush.com, //20140215, //src/modes/cmode_l.cpp, //36
+ModeChannelLimit::ResolveModeConflict, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090926, //src/modes/cmode_l.cpp, //30
+ChanFilter::TellAlreadyOnList, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_chanfilter.cpp, //52
+ChanFilter::TellListTooLong, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_chanfilter.cpp, //47
+ChanFilter::TellNotSet, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_chanfilter.cpp, //57
+ChanFilter::ValidateParam, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_chanfilter.cpp, //36
+ModuleChanFilter::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_chanfilter.cpp, //112
+ModuleChanFilter::OnUserPreMessage, //0, //Attila Molnar, //attilamolnar@hush.com, //20140108, //src/modules/m_chanfilter.cpp, //81
+ModuleChanFilter::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_chanfilter.cpp, //75
+ModuleRedirect::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_redirect.cpp, //144
+ModuleRedirect::OnUserPreJoin, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_redirect.cpp, //108
+ModuleRedirect::init, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_redirect.cpp, //102
+Redirect::OnSet, //0, //Attila Molnar, //attilamolnar@hush.com, //20140215, //src/modules/m_redirect.cpp, //35
+ModuleChanHistory::OnPostJoin, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_chanhistory.cpp, //140
+CustomPrefixMode::AccessCheck, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20100220, //src/modules/m_customprefix.cpp, //40
+ModuleCustomPrefix::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_customprefix.cpp, //81
+ModuleCustomPrefix::init, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_customprefix.cpp, //52
+BCryptProvider::Compare, //0, //Daniel Vassdal, //daniel@vassdal.org, //20140702, //src/modules/m_bcrypt.cpp, //943
+BCryptProvider::GenerateRaw, //0, //Daniel Vassdal, //daniel@vassdal.org, //20140702, //src/modules/m_bcrypt.cpp, //938
+BCryptProvider::ToPrintable, //0, //Daniel Vassdal, //daniel@vassdal.org, //20140702, //src/modules/m_bcrypt.cpp, //954
+ModuleBCrypt::GetVersion, //0, //Daniel Vassdal, //daniel@vassdal.org, //20140702, //src/modules/m_bcrypt.cpp, //981
+ModuleBCrypt::ReadConfig, //0, //Daniel Vassdal, //daniel@vassdal.org, //20140702, //src/modules/m_bcrypt.cpp, //975
+CoreModOper::GetVersion, //0, //Attila Molnar, //attilamolnar@hush.com, //20140305, //src/coremods/core_oper/core_oper.cpp, //49
+CoreModXLine::GetVersion, //0, //Attila Molnar, //attilamolnar@hush.com, //20140305, //src/coremods/core_xline/core_xline.cpp, //87
+CoreModXLine::OnUserPreNick, //0, //Attila Molnar, //attilamolnar@hush.com, //20140620, //src/coremods/core_xline/core_xline.cpp, //67
+ModuleChanHistory::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_chanhistory.cpp, //167
+CommandPart::GetRouting, //0, //Attila Molnar, //attilamolnar@hush.com, //20140305, //src/coremods/core_user/cmd_part.cpp, //60
+CommandPart::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_user/cmd_part.cpp, //31
+CommandQuit::GetRouting, //0, //Attila Molnar, //attilamolnar@hush.com, //20140305, //src/coremods/core_user/cmd_quit.cpp, //47
+CommandQuit::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_user/cmd_quit.cpp, //31
+IdentRequestSocket::OnEventHandlerError, //0, //Attila Molnar, //attilamolnar@hush.com, //20150412, //src/modules/m_ident.cpp, //242
+IdentRequestSocket::OnEventHandlerRead, //0, //Attila Molnar, //attilamolnar@hush.com, //20150412, //src/modules/m_ident.cpp, //182
+IdentRequestSocket::OnEventHandlerWrite, //0, //Attila Molnar, //attilamolnar@hush.com, //20150412, //src/modules/m_ident.cpp, //143
+IdentRequestSocket::cull, //0, //Attila Molnar, //attilamolnar@hush.com, //20140528, //src/modules/m_ident.cpp, //248
+ModuleIdent::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_ident.cpp, //266
+ModuleIdent::OnCheckReady, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_ident.cpp, //301
+ModuleIdent::OnSetConnectClass, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_ident.cpp, //345
+ModuleIdent::OnUserInit, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_ident.cpp, //278
+ModuleIdent::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_ident.cpp, //271
+AdminBindInterface::OnResult, //0, //Adam, //Adam@anope.org, //20140212, //src/modules/m_ldapoper.cpp, //158
+AdminBindInterface::OnError, //0, //Adam, //Adam@anope.org, //20140212, //src/modules/m_ldapoper.cpp, //175
+AdminBindInterface::OnResult, //0, //Adam, //Adam@anope.org, //20140212, //src/modules/m_ldapauth.cpp, //272
+AdminBindInterface::OnError, //0, //Adam, //Adam@anope.org, //20140212, //src/modules/m_ldapauth.cpp, //289
+ModulePBKDF2::GetVersion, //0, //Daniel Vassdal, //daniel@vassdal.org, //20140702, //src/modules/m_pbkdf2.cpp, //256
+ModulePBKDF2::OnLoadModule, //0, //Daniel Vassdal, //daniel@vassdal.org, //20140702, //src/modules/m_pbkdf2.cpp, //188
+ModulePBKDF2::OnUnloadModule, //0, //Daniel Vassdal, //daniel@vassdal.org, //20140702, //src/modules/m_pbkdf2.cpp, //234
+ModulePBKDF2::Prioritize, //0, //Daniel Vassdal, //daniel@vassdal.org, //20140702, //src/modules/m_pbkdf2.cpp, //183
+ModulePBKDF2::ReadConfig, //0, //Daniel Vassdal, //daniel@vassdal.org, //20140702, //src/modules/m_pbkdf2.cpp, //251
+PBKDF2Provider::Compare, //0, //Daniel Vassdal, //daniel@vassdal.org, //20140702, //src/modules/m_pbkdf2.cpp, //119
+PBKDF2Provider::GenerateRaw, //0, //Daniel Vassdal, //daniel@vassdal.org, //20140702, //src/modules/m_pbkdf2.cpp, //112
+PBKDF2Provider::ToPrintable, //0, //Daniel Vassdal, //daniel@vassdal.org, //20140702, //src/modules/m_pbkdf2.cpp, //129
+ModuleSpanningTree::OnPostCommand, //0, //attilamolnar, //attilamolnar@hush.com, //20130612, //src/modules/m_spanningtree/postcommand.cpp, //27
+ModuleSpanningTree::OnStats, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_spanningtree/override_stats.cpp, //27
+ModeChannelKey::OnModeChange, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modes/cmode_k.cpp, //31
+ModeChannelKey::OnSet, //0, //Attila Molnar, //attilamolnar@hush.com, //20140215, //src/modes/cmode_k.cpp, //70
+ModeUserServerNoticeMask::GetUserParameter, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080831, //src/modes/umode_s.cpp, //53
+ModeUserServerNoticeMask::OnModeChange, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modes/umode_s.cpp, //30
+ModeUserServerNoticeMask::OnParameterMissing, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080817, //src/modes/umode_s.cpp, //68
+CommandGlobops::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_globops.cpp, //36
+ModuleGlobops::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_globops.cpp, //54
+ModuleGlobops::init, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_globops.cpp, //49
+SplitCommand::Handle, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091021, //src/commands.cpp, //26
+SplitCommand::HandleServer, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091021, //src/commands.cpp, //48
+HashSHA256::GenerateRaw, //0, //Daniel Vassdal, //daniel@vassdal.org, //20140702, //src/modules/m_sha256.cpp, //250
+ModuleSHA256::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sha256.cpp, //268
+CommandStats::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20100119, //src/coremods/core_stats.cpp, //45
+CommandStats::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_stats.cpp, //383
+CommandCAP::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/modules/m_cap.cpp, //53
+ModuleCAP::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_cap.cpp, //142
+ModuleCAP::OnCheckReady, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_cap.cpp, //133
+ModuleAlias::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_alias.cpp, //107
+ModuleAlias::OnPreCommand, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_alias.cpp, //137
+ModuleAlias::OnUserMessage, //0, //attilamolnar, //attilamolnar@hush.com, //20130516, //src/modules/m_alias.cpp, //170
+ModuleAlias::Prioritize, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_alias.cpp, //350
+ModuleAlias::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_alias.cpp, //75
+AutoOpList::AccessCheck, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20100203, //src/modules/m_autoop.cpp, //44
+ModuleAutoOp::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_autoop.cpp, //114
+ModuleAutoOp::OnPostJoin, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_autoop.cpp, //84
+ModuleAutoOp::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_autoop.cpp, //109
+ModuleAbbreviation::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_abbreviation.cpp, //30
+ModuleAbbreviation::OnPreCommand, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_abbreviation.cpp, //35
+ModuleAbbreviation::Prioritize, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20100322, //src/modules/m_abbreviation.cpp, //25
+CommandNicklock::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_nicklock.cpp, //79
+CommandNicklock::Handle, //0, //aquanight, //aquanight@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_nicklock.cpp, //39
+CommandNickunlock::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_nicklock.cpp, //131
+CommandNickunlock::Handle, //0, //aquanight, //aquanight@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_nicklock.cpp, //102
+ModuleNickLock::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_nicklock.cpp, //153
+ModuleNickLock::OnUserPreNick, //0, //Attila Molnar, //attilamolnar@hush.com, //20140620, //src/modules/m_nicklock.cpp, //158
+ModuleNickLock::Prioritize, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20090204, //src/modules/m_nicklock.cpp, //168
+ModulePrivacyMode::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_commonchans.cpp, //38
+ModulePrivacyMode::OnUserPreMessage, //0, //attilamolnar, //attilamolnar@hush.com, //20130516, //src/modules/m_commonchans.cpp, //43
+AccountExtItemImpl::unserialize, //0, //attilamolnar, //attilamolnar@hush.com, //20130903, //src/modules/m_services_account.cpp, //116
+Channel_r::OnModeChange, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_services_account.cpp, //35
+ModuleServicesAccount::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_services_account.cpp, //279
+ModuleServicesAccount::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_services_account.cpp, //152
+ModuleServicesAccount::OnCheckBan, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_services_account.cpp, //216
+ModuleServicesAccount::OnSetConnectClass, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_services_account.cpp, //272
+ModuleServicesAccount::OnUserPostNick, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_services_account.cpp, //175
+ModuleServicesAccount::OnUserPreJoin, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_services_account.cpp, //252
+ModuleServicesAccount::OnUserPreMessage, //0, //attilamolnar, //attilamolnar@hush.com, //20130516, //src/modules/m_services_account.cpp, //182
+User_r::OnModeChange, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_services_account.cpp, //63
+ModuleSQLOper::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sqloper.cpp, //155
+ModuleSQLOper::OnPreCommand, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sqloper.cpp, //128
+ModuleSQLOper::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_sqloper.cpp, //114
+OpMeQuery::OnError, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sqloper.cpp, //52
+OpMeQuery::OnResult, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sqloper.cpp, //33
+HistoryMode::OnSet, //0, //Attila Molnar, //attilamolnar@hush.com, //20140215, //src/modules/m_chanhistory.cpp, //62
+CommandStartTLS::HandleLocal, //0, //Adam, //Adam@anope.org, //20140115, //src/modules/m_starttls.cpp, //43
+ModuleStartTLS::GetVersion, //0, //Adam, //Adam@anope.org, //20140115, //src/modules/m_starttls.cpp, //110
+ModuleStartTLS::On005Numeric, //0, //Adam, //Adam@anope.org, //20140115, //src/modules/m_starttls.cpp, //105
+ModuleStartTLS::ReadConfig, //0, //Adam, //Adam@anope.org, //20140115, //src/modules/m_starttls.cpp, //94
+QueuedThread::SetExitFlag, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090323, //include/threadengine.h, //111
+SocketThread::SetExitFlag, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090323, //include/threadengine.h, //160
+CommandMode::GetRouting, //0, //Attila Molnar, //attilamolnar@hush.com, //20140904, //src/coremods/core_user/cmd_mode.cpp, //103
+CommandMode::Handle, //0, //Attila Molnar, //attilamolnar@hush.com, //20140904, //src/coremods/core_user/cmd_mode.cpp, //33
+CommandNames::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_channel/cmd_names.cpp, //35
+ModuleServerBan::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_serverban.cpp, //25
+ModuleServerBan::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_serverban.cpp, //40
+ModuleServerBan::OnCheckBan, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_serverban.cpp, //30
+ModuleDeaf::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_deaf.cpp, //107
+ModuleDeaf::OnUserPreMessage, //0, //attilamolnar, //attilamolnar@hush.com, //20130516, //src/modules/m_deaf.cpp, //63
+ModuleDeaf::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_deaf.cpp, //56
+User_d::OnModeChange, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_deaf.cpp, //31
+ReloadAction::Call, //0, //attilamolnar, //attilamolnar@hush.com, //20130908, //src/modules.cpp, //461
+UnloadAction::Call, //0, //attilamolnar, //attilamolnar@hush.com, //20130908, //src/modules.cpp, //444
+CommandRLine::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090903, //src/modules/m_rline.cpp, //199
+CommandRLine::Handle, //0, //aquanight, //aquanight@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_rline.cpp, //141
+ModuleRLine::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_rline.cpp, //235
+ModuleRLine::OnBackgroundTimer, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_rline.cpp, //313
+ModuleRLine::OnStats, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_rline.cpp, //287
+ModuleRLine::OnUnloadModule, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_rline.cpp, //322
+ModuleRLine::OnUserPostNick, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_rline.cpp, //296
+ModuleRLine::OnUserRegister, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_rline.cpp, //240
+ModuleRLine::Prioritize, //0, //attilamolnar, //attilamolnar@hush.com, //20130421, //src/modules/m_rline.cpp, //336
+ModuleRLine::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_rline.cpp, //254
+ModuleRLine::init, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_rline.cpp, //224
+RLine::Apply, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20080109, //src/modules/m_rline.cpp, //74
+RLine::Displayable, //0, //Peter Powell, //petpow@saberuk.com, //20130505, //src/modules/m_rline.cpp, //92
+RLine::Matches, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20080109, //src/modules/m_rline.cpp, //59
+RLine::Matches, //0, //w00t, //w00t@e03df62e-2008-0410-955e-edbf42e46eb7, //20080109, //src/modules/m_rline.cpp, //69
+RLineFactory::Generate, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_rline.cpp, //115
+CommandClones::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/modules/m_clones.cpp, //34
+ModuleClones::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_clones.cpp, //73
+ModuleHideChans::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_hidechans.cpp, //40
+ModuleHideChans::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_hidechans.cpp, //45
+ModuleHttpStats::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_httpd_stats.cpp, //238
+ModuleHttpStats::OnHTTPRequest, //0, //Attila Molnar, //attilamolnar@hush.com, //20150211, //src/modules/m_httpd_stats.cpp, //233
+CommandChgname::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_chgname.cpp, //67
+CommandChgname::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/modules/m_chgname.cpp, //36
+ModuleChgName::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_chgname.cpp, //85
+CommandUserip::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_userip.cpp, //34
+ModuleUserIP::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_userip.cpp, //93
+ModuleUserIP::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_userip.cpp, //88
+ModuleBotMode::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_botmode.cpp, //42
+ModuleBotMode::OnWhois, //0, //Attila Molnar, //attilamolnar@hush.com, //20150428, //src/modules/m_botmode.cpp, //47
+ModuleNationalChars::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_nationalchars.cpp, //314
+ModuleNationalChars::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_nationalchars.cpp, //270
+ModuleNationalChars::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_nationalchars.cpp, //275
+ModuleNationalChars::init, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_nationalchars.cpp, //262
+lwbNickHandler::Call, //0, //Peter Powell, //petpow@saberuk.com, //20130518, //src/modules/m_nationalchars.cpp, //69
+ModuleNoNickChange::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_nonicks.cpp, //39
+ModuleNoNickChange::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_nonicks.cpp, //44
+ModuleNoNickChange::OnUserPreNick, //0, //Attila Molnar, //attilamolnar@hush.com, //20140620, //src/modules/m_nonicks.cpp, //49
+ModuleNoNickChange::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_nonicks.cpp, //74
+CommandLusers::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_lusers.cpp, //69
+InvisibleWatcher::AfterMode, //0, //attilamolnar, //attilamolnar@hush.com, //20130526, //src/coremods/core_lusers.cpp, //113
+ModuleLusers::GetVersion, //0, //attilamolnar, //attilamolnar@hush.com, //20130212, //src/coremods/core_lusers.cpp, //167
+ModuleLusers::OnPostConnect, //0, //attilamolnar, //attilamolnar@hush.com, //20130212, //src/coremods/core_lusers.cpp, //154
+ModuleLusers::OnUserQuit, //0, //attilamolnar, //attilamolnar@hush.com, //20121101, //src/coremods/core_lusers.cpp, //161
+CoreModChannel::GetVersion, //0, //Attila Molnar, //attilamolnar@hush.com, //20140305, //src/coremods/core_channel/core_channel.cpp, //56
+CoreModChannel::OnPostJoin, //0, //Attila Molnar, //attilamolnar@hush.com, //20150516, //src/coremods/core_channel/core_channel.cpp, //37
+CoreModChannel::Prioritize, //0, //Attila Molnar, //attilamolnar@hush.com, //20150516, //src/coremods/core_channel/core_channel.cpp, //51
+CommandSajoin::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_sajoin.cpp, //104
+CommandSajoin::Handle, //0, //aquanight, //aquanight@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_sajoin.cpp, //36
+ModuleSajoin::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sajoin.cpp, //122
+ModuleRIPEMD160::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_ripemd160.cpp, //454
+RIProv::GenerateRaw, //0, //Daniel Vassdal, //daniel@vassdal.org, //20140702, //src/modules/m_ripemd160.cpp, //437
+ModuleSSLModes::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sslmodes.cpp, //137
+ModuleSSLModes::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sslmodes.cpp, //132
+ModuleSSLModes::OnCheckBan, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sslmodes.cpp, //118
+ModuleSSLModes::OnUserPreJoin, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sslmodes.cpp, //94
+SSLMode::OnModeChange, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_sslmodes.cpp, //40
+DNSBLResolver::OnError, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_dnsbl.cpp, //198
+DNSBLResolver::OnLookupComplete, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_dnsbl.cpp, //62
+ModuleDNSBL::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_dnsbl.cpp, //246
+ModuleDNSBL::OnCheckReady, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_dnsbl.cpp, //402
+ModuleDNSBL::OnSetConnectClass, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_dnsbl.cpp, //390
+ModuleDNSBL::OnSetUserIP, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_dnsbl.cpp, //325
+ModuleDNSBL::OnStats, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_dnsbl.cpp, //409
+ModuleDNSBL::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_dnsbl.cpp, //253
+CallerIDExtInfo::free, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090913, //src/modules/m_callerid.cpp, //127
+CallerIDExtInfo::serialize, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091014, //src/modules/m_callerid.cpp, //76
+CallerIDExtInfo::unserialize, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090913, //src/modules/m_callerid.cpp, //87
+CommandAccept::EncodeParameter, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_callerid.cpp, //190
+CommandAccept::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20100212, //src/modules/m_callerid.cpp, //242
+CommandAccept::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/modules/m_callerid.cpp, //209
+ModuleCallerID::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_callerid.cpp, //370
+ModuleCallerID::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_callerid.cpp, //375
+ModuleCallerID::OnUserPostNick, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_callerid.cpp, //410
+ModuleCallerID::OnUserPreMessage, //0, //Attila Molnar, //attilamolnar@hush.com, //20140108, //src/modules/m_callerid.cpp, //380
+ModuleCallerID::OnUserQuit, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_callerid.cpp, //416
+ModuleCallerID::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_callerid.cpp, //421
+CommandSapart::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_sapart.cpp, //81
+CommandSapart::Handle, //0, //aquanight, //aquanight@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_sapart.cpp, //35
+ModuleSapart::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sapart.cpp, //100
+CommandRMode::Handle, //0, //Daniel Vassdal, //daniel@vassdal.org, //20130411, //src/modules/m_rmode.cpp, //34
+ModuleRMode::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_rmode.cpp, //104
+CommandGline::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_xline/cmd_gline.cpp, //35
+AuthQuery::OnError, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sqlauth.cpp, //59
+AuthQuery::OnResult, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sqlauth.cpp, //42
+ModuleSQLAuth::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sqlauth.cpp, //158
+ModuleSQLAuth::OnCheckReady, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sqlauth.cpp, //143
+ModuleSQLAuth::OnUserRegister, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_sqlauth.cpp, //101
+ModuleSQLAuth::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_sqlauth.cpp, //87
+MessageCommandBase::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091001, //src/coremods/core_privmsg.cpp, //57
+ModuleCoreMessage::GetVersion, //0, //attilamolnar, //attilamolnar@hush.com, //20130612, //src/coremods/core_privmsg.cpp, //290
+DNS::Request::Tick, //0, //Adam, //Adam@anope.org, //20130422, //include/modules/dns.h, //178
+ModuleConnFlood::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_connflood.cpp, //39
+ModuleConnFlood::OnUserRegister, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_connflood.cpp, //60
+ModuleConnFlood::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_connflood.cpp, //44
+CommandTopic::HandleLocal, //0, //attilamolnar, //attilamolnar@hush.com, //20130819, //src/coremods/core_channel/cmd_topic.cpp, //35
+ModuleNoKicks::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_nokicks.cpp, //57
+ModuleNoKicks::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_nokicks.cpp, //41
+ModuleNoKicks::OnUserPreKick, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_nokicks.cpp, //46
+ModuleBanException::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_banexception.cpp, //105
+ModuleBanException::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_banexception.cpp, //54
+ModuleBanException::OnCheckChannelBan, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_banexception.cpp, //80
+ModuleBanException::OnExtBanCheck, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_banexception.cpp, //59
+ModuleBanException::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_banexception.cpp, //100
+ModuleDNS::GetVersion, //0, //Adam, //Adam@anope.org, //20130422, //src/coremods/core_dns.cpp, //790
+ModuleDNS::OnUnloadModule, //0, //Adam, //Adam@anope.org, //20130422, //src/coremods/core_dns.cpp, //771
+ModuleDNS::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/coremods/core_dns.cpp, //760
+MyManager::GetErrorStr, //0, //Adam, //Adam@anope.org, //20130422, //src/coremods/core_dns.cpp, //489
+MyManager::OnEventHandlerError, //0, //Attila Molnar, //attilamolnar@hush.com, //20150412, //src/coremods/core_dns.cpp, //516
+MyManager::OnEventHandlerRead, //0, //Attila Molnar, //attilamolnar@hush.com, //20150412, //src/coremods/core_dns.cpp, //521
+MyManager::Process, //0, //Adam, //Adam@anope.org, //20130422, //src/coremods/core_dns.cpp, //419
+MyManager::RemoveRequest, //0, //Adam, //Adam@anope.org, //20130422, //src/coremods/core_dns.cpp, //483
+MyManager::Tick, //0, //Adam, //Adam@anope.org, //20130422, //src/coremods/core_dns.cpp, //629
+CommandLoadmodule::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_loadmodule.cpp, //41
+CommandUnloadmodule::Handle, //0, //Attila Molnar, //attilamolnar@hush.com, //20140306, //src/coremods/core_loadmodule.cpp, //78
+CoreModLoadModule::GetVersion, //0, //Attila Molnar, //attilamolnar@hush.com, //20140306, //src/coremods/core_loadmodule.cpp, //120
+CommandModeNotice::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091103, //src/modules/m_modenotice.cpp, //50
+CommandModeNotice::Handle, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091103, //src/modules/m_modenotice.cpp, //31
+ModuleModeNotice::GetVersion, //0, //attilamolnar, //attilamolnar@hush.com, //20130901, //src/modules/m_modenotice.cpp, //66
+RepeatMode::OnSet, //0, //Attila Molnar, //attilamolnar@hush.com, //20140215, //src/modules/m_repeat.cpp, //137
+RepeatModule::GetVersion, //0, //Daniel Vassdal, //daniel@vassdal.org, //20130425, //src/modules/m_repeat.cpp, //395
+RepeatModule::OnUserPreMessage, //0, //Daniel Vassdal, //daniel@vassdal.org, //20130425, //src/modules/m_repeat.cpp, //352
+RepeatModule::Prioritize, //0, //Daniel Vassdal, //daniel@vassdal.org, //20130425, //src/modules/m_repeat.cpp, //390
+RepeatModule::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_repeat.cpp, //347
+CommandSwhois::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_swhois.cpp, //42
+ModuleSWhois::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_swhois.cpp, //127
+ModuleSWhois::OnPostOper, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_swhois.cpp, //113
+ModuleSWhois::OnWhoisLine, //0, //Attila Molnar, //attilamolnar@hush.com, //20150428, //src/modules/m_swhois.cpp, //96
+ModuleOperChans::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_operchans.cpp, //69
+ModuleOperChans::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_operchans.cpp, //64
+ModuleOperChans::OnCheckBan, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_operchans.cpp, //54
+ModuleOperChans::OnUserPreJoin, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_operchans.cpp, //43
+CommandInvite::GetRouting, //0, //Attila Molnar, //attilamolnar@hush.com, //20140305, //src/coremods/core_channel/cmd_invite.cpp, //163
+CommandInvite::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_channel/cmd_invite.cpp, //35
+ELineFactory::Generate, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091021, //src/xline.cpp, //52
+GLineFactory::Generate, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091021, //src/xline.cpp, //36
+KLineFactory::Generate, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091021, //src/xline.cpp, //68
+QLineFactory::Generate, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091021, //src/xline.cpp, //84
+ZLineFactory::Generate, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091021, //src/xline.cpp, //99
+ExemptChanOps::TellAlreadyOnList, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20100209, //src/modules/m_exemptchanops.cpp, //60
+ExemptChanOps::TellListTooLong, //0, //attilamolnar, //attilamolnar@hush.com, //20130403, //src/modules/m_exemptchanops.cpp, //55
+ExemptChanOps::TellNotSet, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20100209, //src/modules/m_exemptchanops.cpp, //65
+ExemptChanOps::ValidateParam, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20100209, //src/modules/m_exemptchanops.cpp, //30
+ExemptHandler::Call, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20100220, //src/modules/m_exemptchanops.cpp, //86
+ModuleExemptChanOps::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_exemptchanops.cpp, //134
+ModuleExemptChanOps::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_exemptchanops.cpp, //139
+ModuleExemptChanOps::init, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_exemptchanops.cpp, //124
+CommandClearChan::Handle, //0, //Attila Molnar, //attilamolnar@hush.com, //20140126, //src/modules/m_clearchan.cpp, //38
+ModuleClearChan::GetVersion, //0, //Attila Molnar, //attilamolnar@hush.com, //20140126, //src/modules/m_clearchan.cpp, //212
+ModuleClearChan::OnBuildNeighborList, //0, //Attila Molnar, //attilamolnar@hush.com, //20140126, //src/modules/m_clearchan.cpp, //159
+ModuleClearChan::OnUserKick, //0, //Attila Molnar, //attilamolnar@hush.com, //20140126, //src/modules/m_clearchan.cpp, //199
+ModuleClearChan::init, //0, //Attila Molnar, //attilamolnar@hush.com, //20140126, //src/modules/m_clearchan.cpp, //153
+HideOperWatcher::AfterMode, //0, //attilamolnar, //attilamolnar@hush.com, //20130526, //src/modules/m_operprefix.cpp, //122
+ModuleOperPrefixMode::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_operprefix.cpp, //103
+ModuleOperPrefixMode::OnPostJoin, //0, //Attila Molnar, //attilamolnar@hush.com, //20150119, //src/modules/m_operprefix.cpp, //75
+ModuleOperPrefixMode::OnPostOper, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_operprefix.cpp, //97
+ModuleOperPrefixMode::OnUserPreJoin, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_operprefix.cpp, //68
+ModuleOperPrefixMode::Prioritize, //0, //attilamolnar, //attilamolnar@hush.com, //20120624, //src/modules/m_operprefix.cpp, //108
+CommandHelpop::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_helpop.cpp, //53
+ModuleHelpop::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_helpop.cpp, //152
+ModuleHelpop::OnWhois, //0, //Attila Molnar, //attilamolnar@hush.com, //20150428, //src/modules/m_helpop.cpp, //144
+ModuleHelpop::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_helpop.cpp, //110
+CommandSetidle::HandleLocal, //0, //attilamolnar, //attilamolnar@hush.com, //20130401, //src/modules/m_setidle.cpp, //34
+ModuleSetIdle::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_setidle.cpp, //63
+SpanningTreeEventListener::OnServerLink, //0, //Attila Molnar, //attilamolnar@hush.com, //20150212, //include/modules/spanningtree.h, //35
+SpanningTreeEventListener::OnServerSplit, //0, //Attila Molnar, //attilamolnar@hush.com, //20150212, //include/modules/spanningtree.h, //40
+HTTPdAPIImpl::SendResponse, //0, //attilamolnar, //attilamolnar@hush.com, //20130524, //src/modules/m_httpd.cpp, //365
+HttpServerSocket::OnDataReady, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090921, //src/modules/m_httpd.cpp, //219
+HttpServerSocket::OnError, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_httpd.cpp, //90
+HttpServerSocket::Tick, //0, //Attila Molnar, //attilamolnar@hush.com, //20141103, //src/modules/m_httpd.cpp, //64
+ModuleHttpServer::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_httpd.cpp, //434
+ModuleHttpServer::OnAcceptConnection, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_httpd.cpp, //399
+ModuleHttpServer::OnUnloadModule, //0, //Attila Molnar, //attilamolnar@hush.com, //20141210, //src/modules/m_httpd.cpp, //410
+ModuleHttpServer::ReadConfig, //0, //Attila Molnar, //attilamolnar@hush.com, //20140121, //src/modules/m_httpd.cpp, //393
+ModuleHttpServer::cull, //0, //Attila Molnar, //attilamolnar@hush.com, //20140121, //src/modules/m_httpd.cpp, //424
+ModuleHttpServer::init, //0, //attilamolnar, //attilamolnar@hush.com, //20130524, //src/modules/m_httpd.cpp, //388
+KickRejoin::OnSet, //0, //Attila Molnar, //attilamolnar@hush.com, //20140215, //src/modules/m_kicknorejoin.cpp, //94
+ModuleKickNoRejoin::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_kicknorejoin.cpp, //154
+ModuleKickNoRejoin::OnUserKick, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_kicknorejoin.cpp, //142
+ModuleKickNoRejoin::OnUserPreJoin, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_kicknorejoin.cpp, //128
+ModuleChanLog::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_chanlog.cpp, //81
+ModuleChanLog::OnSendSnotice, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_chanlog.cpp, //60
+ModuleChanLog::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_chanlog.cpp, //32
+ModuleBadChannelExtban::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_channelban.cpp, //26
+ModuleBadChannelExtban::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_channelban.cpp, //55
+ModuleBadChannelExtban::OnCheckBan, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_channelban.cpp, //31
+ModuleOverride::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_override.cpp, //198
+ModuleOverride::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_override.cpp, //86
+ModuleOverride::OnPreMode, //0, //Attila Molnar, //attilamolnar@hush.com, //20140904, //src/modules/m_override.cpp, //130
+ModuleOverride::OnPreTopicChange, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_override.cpp, //100
+ModuleOverride::OnUserPreJoin, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_override.cpp, //172
+ModuleOverride::OnUserPreKick, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_override.cpp, //116
+ModuleOverride::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_override.cpp, //78
+ModuleOverride::init, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_override.cpp, //73
+ModuleUHNames::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_uhnames.cpp, //34
+ModuleUHNames::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_uhnames.cpp, //39
+ModuleUHNames::OnNamesListItem, //0, //Attila Molnar, //attilamolnar@hush.com, //20140420, //src/modules/m_uhnames.cpp, //62
+ModuleUHNames::OnPreCommand, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_uhnames.cpp, //44
+ModuleChanCreate::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_chancreate.cpp, //32
+ModuleChanCreate::OnUserJoin, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_chancreate.cpp, //37
+ModuleChanCreate::init, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_chancreate.cpp, //27
+ModuleHideOper::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_hideoper.cpp, //44
+ModuleHideOper::OnSendWhoLine, //0, //Attila Molnar, //attilamolnar@hush.com, //20140214, //src/modules/m_hideoper.cpp, //66
+ModuleHideOper::OnStats, //0, //Attila Molnar, //attilamolnar@hush.com, //20140725, //src/modules/m_hideoper.cpp, //84
+CommandList::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_list.cpp, //52
+MD5Provider::GenerateRaw, //0, //Daniel Vassdal, //daniel@vassdal.org, //20140702, //src/modules/m_md5.cpp, //248
+ModuleMD5::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_md5.cpp, //266
+CloakUser::OnModeChange, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_cloaking.cpp, //56
+CommandCloak::Handle, //0, //Daniel De Graaf, //danieldg@inspircd.org, //20100424, //src/modules/m_cloaking.cpp, //375
+ModuleCloaking::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_cloaking.cpp, //308
+ModuleCloaking::OnChangeHost, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_cloaking.cpp, //299
+ModuleCloaking::OnCheckBan, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_cloaking.cpp, //273
+ModuleCloaking::OnUserConnect, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_cloaking.cpp, //365
+ModuleCloaking::Prioritize, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080410, //src/modules/m_cloaking.cpp, //291
+ModuleCloaking::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_cloaking.cpp, //325
+ModuleConnectBan::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_connectban.cpp, //34
+ModuleConnectBan::OnGarbageCollect, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_connectban.cpp, //98
+ModuleConnectBan::OnSetUserIP, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_connectban.cpp, //50
+ModuleConnectBan::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_connectban.cpp, //39
+CommandChghost::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_chghost.cpp, //78
+CommandChghost::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/modules/m_chghost.cpp, //38
+ModuleChgHost::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_chghost.cpp, //107
+ModuleChgHost::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_chghost.cpp, //98
+CommandSVSSilence::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090903, //src/modules/m_silence.cpp, //94
+CommandSVSSilence::Handle, //0, //aquanight, //aquanight@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_silence.cpp, //70
+CommandSilence::Handle, //0, //aquanight, //aquanight@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_silence.cpp, //116
+ModuleSilence::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_silence.cpp, //374
+ModuleSilence::On005Numeric, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_silence.cpp, //315
+ModuleSilence::OnUserPreInvite, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_silence.cpp, //352
+ModuleSilence::OnUserPreMessage, //0, //attilamolnar, //attilamolnar@hush.com, //20130516, //src/modules/m_silence.cpp, //338
+ModuleSilence::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_silence.cpp, //304
+DelayMsgMode::OnSet, //0, //Attila Molnar, //attilamolnar@hush.com, //20140215, //src/modules/m_delaymsg.cpp, //62
+DelayMsgMode::ResolveModeConflict, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090926, //src/modules/m_delaymsg.cpp, //33
+CommandIson::Handle, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20080504, //src/coremods/core_ison.cpp, //66
+CommandSaquit::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_saquit.cpp, //62
+CommandSaquit::Handle, //0, //aquanight, //aquanight@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_saquit.cpp, //35
+ModuleSaquit::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_saquit.cpp, //80
+CommandFilter::GetRouting, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090903, //src/modules/m_filter.cpp, //151
+CommandFilter::Handle, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //src/modules/m_filter.cpp, //199
+ModuleFilter::GetVersion, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091116, //src/modules/m_filter.cpp, //502
+ModuleFilter::OnDecodeMetaData, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091116, //src/modules/m_filter.cpp, //556
+ModuleFilter::OnPreCommand, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20100118, //src/modules/m_filter.cpp, //378
+ModuleFilter::OnStats, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091116, //src/modules/m_filter.cpp, //696
+ModuleFilter::OnSyncNetwork, //0, //attilamolnar, //attilamolnar@hush.com, //20130902, //src/modules/m_filter.cpp, //548
+ModuleFilter::OnUnloadModule, //0, //attilamolnar, //attilamolnar@hush.com, //20130421, //src/modules/m_filter.cpp, //716
+ModuleFilter::OnUserPreMessage, //0, //attilamolnar, //attilamolnar@hush.com, //20130516, //src/modules/m_filter.cpp, //313
+ModuleFilter::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_filter.cpp, //450
+ModuleFilter::cull, //0, //attilamolnar, //attilamolnar@hush.com, //20130421, //src/modules/m_filter.cpp, //299
+ModuleSeeNicks::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_seenicks.cpp, //32
+ModuleSeeNicks::OnUserPostNick, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_seenicks.cpp, //37
+ModuleSeeNicks::init, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_seenicks.cpp, //27
+ModuleHostnameLookup::GetVersion, //0, //Adam, //Adam@anope.org, //20130422, //src/coremods/core_hostname_lookup.cpp, //225
+ModuleHostnameLookup::OnCheckReady, //0, //Adam, //Adam@anope.org, //20130422, //src/coremods/core_hostname_lookup.cpp, //220
+ModuleHostnameLookup::OnUserInit, //0, //Adam, //Adam@anope.org, //20130422, //src/coremods/core_hostname_lookup.cpp, //193
+UserResolver::OnError, //0, //Adam, //Adam@anope.org, //20130422, //src/coremods/core_hostname_lookup.cpp, //166
+UserResolver::OnLookupComplete, //0, //Adam, //Adam@anope.org, //20130422, //src/coremods/core_hostname_lookup.cpp, //59
+CommandMkpasswd::Handle, //0, //aquanight, //aquanight@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_password_hash.cpp, //73
+ModuleOperHash::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_password_hash.cpp, //134
+ModuleOperHash::OnPassCompare, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_password_hash.cpp, //90
+CommandTest::Handle, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090927, //src/modules/m_testnet.cpp, //30
+ModuleTest::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_testnet.cpp, //61
+ModuleTest::init, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_testnet.cpp, //55
+ThreadSignalSocket::OnEventHandlerError, //0, //Attila Molnar, //attilamolnar@hush.com, //20150412, //src/threadengines/threadengine_pthread.cpp, //140
+ThreadSignalSocket::OnEventHandlerRead, //0, //Attila Molnar, //attilamolnar@hush.com, //20150412, //src/threadengines/threadengine_pthread.cpp, //128
+ThreadSignalSocket::OnEventHandlerWrite, //0, //Attila Molnar, //attilamolnar@hush.com, //20150412, //src/threadengines/threadengine_pthread.cpp, //135
+ModuleRandQuote::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_randquote.cpp, //52
+ModuleRandQuote::OnUserConnect, //0, //Peter Powell, //petpow@saberuk.com, //20130517, //src/modules/m_randquote.cpp, //43
+ModuleRandQuote::init, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_randquote.cpp, //34
+ModuleModesOnOper::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_opermodes.cpp, //28
+ModuleModesOnOper::OnPostOper, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_opermodes.cpp, //33
+CommandLockserv::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_lockserv.cpp, //38
+CommandUnlockserv::Handle, //0, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20080505, //src/modules/m_lockserv.cpp, //63
+ModuleLockserv::GetVersion, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_lockserv.cpp, //116
+ModuleLockserv::OnCheckReady, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_lockserv.cpp, //111
+ModuleLockserv::OnUserRegister, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_lockserv.cpp, //101
+ModuleLockserv::ReadConfig, //0, //attilamolnar, //attilamolnar@hush.com, //20130816, //src/modules/m_lockserv.cpp, //94
+ModuleLockserv::init, //0, //Peter Powell, //petpow@saberuk.com, //20130430, //src/modules/m_lockserv.cpp, //89

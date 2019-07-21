@@ -1,0 +1,204 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+Service::Interface::GetPortName, //0, //Lioncash, //mathew1800@gmail.com, //20140817, //src/core/hle/service/service.h, //51
+HID_User::Interface::GetPortName, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141026, //src/core/hle/service/hid_user.h, //107
+Loader::AppLoader_THREEDSX::Load, //0, //ichfly, //Meier.Hanz@gmx.net, //20141207, //src/core/loader/3dsx.cpp, //222
+FileSys::Archive_ExtSaveData::Format, //0, //Subv, //subv2112@gmail.com, //20141229, //src/core/file_sys/archive_extsavedata.cpp, //53
+FileSys::Archive_ExtSaveData::GetMountPoint, //0, //Subv, //subv2112@gmail.com, //20141229, //src/core/file_sys/archive_extsavedata.h, //32
+FileSys::Archive_ExtSaveData::GetName, //0, //Subv, //subv2112@gmail.com, //20141229, //src/core/file_sys/archive_extsavedata.h, //30
+FileSys::Archive_ExtSaveData::Open, //0, //Subv, //subv2112@gmail.com, //20141229, //src/core/file_sys/archive_extsavedata.cpp, //42
+FileSys::DiskArchive::Format, //0, //Subv, //subv2112@gmail.com, //20141229, //src/core/file_sys/disk_archive.h, //28
+FileSys::DiskArchive::GetMountPoint, //0, //Subv, //subv2112@gmail.com, //20141229, //src/core/file_sys/disk_archive.h, //46
+FileSys::DiskArchive::Open, //0, //Subv, //subv2112@gmail.com, //20141229, //src/core/file_sys/disk_archive.h, //38
+SRV::Interface::GetPortName, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141026, //src/core/hle/service/srv.h, //17
+Loader::AppLoader_ELF::Load, //0, //bunnei, //bunneidev@gmail.com, //20140619, //src/core/loader/elf.cpp, //348
+ARM_DynCom::AddTicks, //0, //bunnei, //bunneidev@gmail.com, //20141223, //src/core/arm/dyncom/arm_dyncom.cpp, //78
+ARM_DynCom::ExecuteInstructions, //0, //bunnei, //bunneidev@gmail.com, //20140912, //src/core/arm/dyncom/arm_dyncom.cpp, //82
+ARM_DynCom::GetCPSR, //0, //bunnei, //bunneidev@gmail.com, //20140912, //src/core/arm/dyncom/arm_dyncom.cpp, //66
+ARM_DynCom::GetPC, //0, //bunnei, //bunneidev@gmail.com, //20140912, //src/core/arm/dyncom/arm_dyncom.cpp, //54
+ARM_DynCom::GetReg, //0, //bunnei, //bunneidev@gmail.com, //20140912, //src/core/arm/dyncom/arm_dyncom.cpp, //58
+ARM_DynCom::GetTicks, //0, //bunnei, //bunneidev@gmail.com, //20140912, //src/core/arm/dyncom/arm_dyncom.cpp, //74
+ARM_DynCom::LoadContext, //0, //bunnei, //bunneidev@gmail.com, //20140912, //src/core/arm/dyncom/arm_dyncom.cpp, //107
+ARM_DynCom::PrepareReschedule, //0, //bunnei, //bunneidev@gmail.com, //20140912, //src/core/arm/dyncom/arm_dyncom.cpp, //123
+ARM_DynCom::SaveContext, //0, //bunnei, //bunneidev@gmail.com, //20140912, //src/core/arm/dyncom/arm_dyncom.cpp, //91
+ARM_DynCom::SetCPSR, //0, //bunnei, //bunneidev@gmail.com, //20140912, //src/core/arm/dyncom/arm_dyncom.cpp, //70
+ARM_DynCom::SetPC, //0, //bunnei, //bunneidev@gmail.com, //20140912, //src/core/arm/dyncom/arm_dyncom.cpp, //50
+ARM_DynCom::SetReg, //0, //bunnei, //bunneidev@gmail.com, //20140912, //src/core/arm/dyncom/arm_dyncom.cpp, //62
+Kernel::Event::GetHandleType, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141221, //src/core/hle/kernel/event.cpp, //23
+Kernel::Event::GetName, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141026, //src/core/hle/kernel/event.cpp, //20
+Kernel::Event::GetTypeName, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141026, //src/core/hle/kernel/event.cpp, //19
+Kernel::Event::WaitSynchronization, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141023, //src/core/hle/kernel/event.cpp, //33
+Kernel::Object::GetName, //0, //Lioncash, //mathew1800@gmail.com, //20140817, //src/core/hle/kernel/kernel.h, //57
+Kernel::Object::GetTypeName, //0, //Lioncash, //mathew1800@gmail.com, //20140817, //src/core/hle/kernel/kernel.h, //56
+Kernel::Object::WaitSynchronization, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141205, //src/core/hle/kernel/kernel.h, //64
+DebugInterface::breakNow, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //31
+DebugInterface::clearAllBreakpoints, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //19
+DebugInterface::clearBreakpoint, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //18
+DebugInterface::disasm, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //12
+DebugInterface::getColor, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //34
+DebugInterface::getInstructionSize, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //14
+DebugInterface::getPC, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //27
+DebugInterface::getRawMemoryString, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //13
+DebugInterface::insertBLR, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //32
+DebugInterface::isAlive, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //15
+DebugInterface::isBreakpoint, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //16
+DebugInterface::isMemCheck, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //21
+DebugInterface::readExtraMemory, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //25
+DebugInterface::readInstruction, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //26
+DebugInterface::readMemory, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //23
+DebugInterface::runToBreakpoint, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //30
+DebugInterface::setBreakpoint, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //17
+DebugInterface::setPC, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //28
+DebugInterface::showJitResults, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //33
+DebugInterface::step, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //29
+DebugInterface::toggleBreakpoint, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //20
+DebugInterface::toggleMemCheck, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //22
+DebugInterface::writeExtraMemory, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //24
+Pica::DebugContext::BreakPointObserver::OnPicaBreakPointHit, //0, //Tony Wasserka, //neobrainx@gmail.com, //20141025, //src/video_core/debug_utils/debug_utils.h, //70
+Pica::DebugContext::BreakPointObserver::OnPicaResume, //0, //Tony Wasserka, //neobrainx@gmail.com, //20141025, //src/video_core/debug_utils/debug_utils.h, //77
+BreakPointObserverDock::OnPicaBreakPointHit, //0, //Tony Wasserka, //neobrainx@gmail.com, //20141026, //src/citra_qt/debugger/graphics_framebuffer.cpp, //34
+BreakPointObserverDock::OnPicaResume, //0, //Tony Wasserka, //neobrainx@gmail.com, //20141026, //src/citra_qt/debugger/graphics_framebuffer.cpp, //39
+GraphicsFramebufferWidget::OnResumed, //0, //Tony Wasserka, //neobrainx@gmail.com, //20141026, //src/citra_qt/debugger/graphics_framebuffer.cpp, //139
+RendererOpenGL::Init, //0, //bunnei, //bunneidev@gmail.com, //20140406, //src/video_core/renderer_opengl/renderer_opengl.cpp, //261
+RendererOpenGL::SetWindow, //0, //bunnei, //bunneidev@gmail.com, //20140406, //src/video_core/renderer_opengl/renderer_opengl.cpp, //228
+RendererOpenGL::ShutDown, //0, //bunnei, //bunneidev@gmail.com, //20140406, //src/video_core/renderer_opengl/renderer_opengl.cpp, //275
+RendererOpenGL::SwapBuffers, //0, //bunnei, //bunneidev@gmail.com, //20140406, //src/video_core/renderer_opengl/renderer_opengl.cpp, //58
+HTTP_C::Interface::GetPortName, //0, //purpasmart96, //kanzoconfigz@hotmail.com, //20141221, //src/core/hle/service/http_c.h, //18
+GraphicsDebugger::DebuggerObserver::GXCommandProcessed, //0, //Tony Wasserka, //neobrainx@gmail.com, //20140517, //src/video_core/gpu_debugger.h, //39
+GPUCommandStreamItemModel::GXCommandProcessed, //0, //Tony Wasserka, //neobrainx@gmail.com, //20140517, //src/citra_qt/debugger/graphics.cpp, //57
+EmuWindow::OnMinimalClientAreaChangeRequest, //0, //Tony Wasserka, //neobrainx@gmail.com, //20141012, //src/common/emu_window.h, //142
+GRenderWindow::DoneCurrent, //0, //Mathieu Vaillancourt, //vaillancourtm@gmail.com, //20140331, //src/citra_qt/bootmanager.cpp, //190
+GRenderWindow::MakeCurrent, //0, //Mathieu Vaillancourt, //vaillancourtm@gmail.com, //20140331, //src/citra_qt/bootmanager.cpp, //185
+GRenderWindow::OnMinimalClientAreaChangeRequest, //0, //Tony Wasserka, //neobrainx@gmail.com, //20141012, //src/citra_qt/bootmanager.cpp, //285
+GRenderWindow::PollEvents, //0, //Mathieu Vaillancourt, //vaillancourtm@gmail.com, //20140331, //src/citra_qt/bootmanager.cpp, //195
+GRenderWindow::ReloadSetKeymaps, //0, //archshift, //gh@archshift.com, //20140912, //src/citra_qt/bootmanager.cpp, //260
+GRenderWindow::SwapBuffers, //0, //Mathieu Vaillancourt, //vaillancourtm@gmail.com, //20140331, //src/citra_qt/bootmanager.cpp, //172
+Kernel::Semaphore::GetHandleType, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141221, //src/core/hle/kernel/semaphore.cpp, //21
+Kernel::Semaphore::GetName, //0, //Subv, //subv2112@gmail.com, //20141203, //src/core/hle/kernel/semaphore.cpp, //18
+Kernel::Semaphore::GetTypeName, //0, //Subv, //subv2112@gmail.com, //20141203, //src/core/hle/kernel/semaphore.cpp, //17
+Kernel::Semaphore::WaitSynchronization, //0, //Subv, //subv2112@gmail.com, //20141203, //src/core/hle/kernel/semaphore.cpp, //36
+CFG_I::Interface::GetPortName, //0, //purpasmart96, //kanzoconfigz@hotmail.com, //20141112, //src/core/hle/service/cfg/cfg_i.h, //18
+DSP_DSP::Interface::GetPortName, //0, //purpasmart96, //kanzoconfigz@hotmail.com, //20141112, //src/core/hle/service/dsp_dsp.h, //18
+FileSys::DiskArchive::DeleteFile, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20141218, //src/core/file_sys/disk_archive.cpp, //26
+FileSys::DiskArchive::OpenFile, //0, //Subv, //subv2112@gmail.com, //20141216, //src/core/file_sys/disk_archive.cpp, //18
+FileSys::Directory_RomFS::Close, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/directory_romfs.cpp, //28
+FileSys::Directory_RomFS::Open, //0, //archshift, //gh@archshift.com, //20141207, //src/core/file_sys/directory_romfs.cpp, //20
+FileSys::Directory_RomFS::Read, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/directory_romfs.cpp, //24
+ERR_F::Interface::GetPortName, //0, //purpasmart96, //kanzoconfigz@hotmail.com, //20141112, //src/core/hle/service/err_f.h, //18
+FileSys::Archive_RomFS::CreateDirectory, //0, //bunnei, //bunneidev@gmail.com, //20141111, //src/core/file_sys/archive_romfs.cpp, //51
+FileSys::Archive_RomFS::CreateFile, //0, //archshift, //gh@archshift.com, //20141220, //src/core/file_sys/archive_romfs.cpp, //45
+FileSys::Archive_RomFS::DeleteDirectory, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20141218, //src/core/file_sys/archive_romfs.cpp, //40
+FileSys::Archive_RomFS::DeleteFile, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20141218, //src/core/file_sys/archive_romfs.cpp, //30
+FileSys::Archive_RomFS::Format, //0, //Subv, //subv2112@gmail.com, //20141229, //src/core/file_sys/archive_romfs.cpp, //65
+FileSys::Archive_RomFS::GetName, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141215, //src/core/file_sys/archive_romfs.h, //24
+FileSys::Archive_RomFS::Open, //0, //Subv, //subv2112@gmail.com, //20141229, //src/core/file_sys/archive_romfs.h, //86
+FileSys::Archive_RomFS::OpenDirectory, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141215, //src/core/file_sys/archive_romfs.cpp, //61
+FileSys::Archive_RomFS::OpenFile, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141215, //src/core/file_sys/archive_romfs.cpp, //26
+FileSys::Archive_RomFS::RenameDirectory, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20141218, //src/core/file_sys/archive_romfs.cpp, //56
+FileSys::Archive_RomFS::RenameFile, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20141218, //src/core/file_sys/archive_romfs.cpp, //35
+Loader::AppLoader::ReadBanner, //0, //bunnei, //bunneidev@gmail.com, //20140704, //src/core/loader/loader.h, //75
+Loader::AppLoader::ReadCode, //0, //bunnei, //bunneidev@gmail.com, //20140704, //src/core/loader/loader.h, //57
+Loader::AppLoader::ReadIcon, //0, //bunnei, //bunneidev@gmail.com, //20140704, //src/core/loader/loader.h, //66
+Loader::AppLoader::ReadLogo, //0, //bunnei, //bunneidev@gmail.com, //20140704, //src/core/loader/loader.h, //84
+Loader::AppLoader::ReadRomFS, //0, //bunnei, //bunneidev@gmail.com, //20140704, //src/core/loader/loader.h, //93
+SSL_C::Interface::GetPortName, //0, //purpasmart96, //kanzoconfigz@hotmail.com, //20141221, //src/core/hle/service/ssl_c.h, //18
+CFG_U::Interface::GetPortName, //0, //purpasmart96, //kanzoconfigz@hotmail.com, //20141112, //src/core/hle/service/cfg/cfg_u.h, //18
+CECD_U::Interface::GetPortName, //0, //archshift, //gh@archshift.com, //20141214, //src/core/hle/service/cecd_u.h, //18
+GraphicsBreakPointsWidget::OnPicaResume, //0, //Tony Wasserka, //neobrainx@gmail.com, //20141025, //src/citra_qt/debugger/graphics_breakpoints.cpp, //217
+BOSS_U::Interface::GetPortName, //0, //purpasmart96, //kanzoconfigz@hotmail.com, //20141221, //src/core/hle/service/boss_u.h, //18
+Kernel::AddressArbiter::GetHandleType, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141221, //src/core/hle/kernel/address_arbiter.cpp, //24
+Kernel::AddressArbiter::GetName, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141026, //src/core/hle/kernel/address_arbiter.cpp, //21
+Kernel::AddressArbiter::GetTypeName, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141026, //src/core/hle/kernel/address_arbiter.cpp, //20
+Kernel::Thread::GetHandleType, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141221, //src/core/hle/kernel/thread.cpp, //30
+Kernel::Thread::GetName, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141026, //src/core/hle/kernel/thread.cpp, //26
+Kernel::Thread::GetTypeName, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141026, //src/core/hle/kernel/thread.cpp, //27
+Kernel::Thread::WaitSynchronization, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141023, //src/core/hle/kernel/thread.cpp, //38
+Kernel::Session::GetTypeName, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141214, //src/core/hle/kernel/session.h, //46
+Service::FS::Directory::GetName, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141214, //src/core/hle/service/fs/archive.cpp, //166
+Service::FS::Directory::SyncRequest, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141023, //src/core/hle/service/fs/archive.cpp, //171
+Service::FS::File::GetName, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141214, //src/core/hle/service/fs/archive.cpp, //81
+Service::FS::File::SyncRequest, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141023, //src/core/hle/service/fs/archive.cpp, //86
+Kernel::Session::GetHandleType, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141221, //src/core/hle/kernel/session.h, //49
+PM_APP::Interface::GetPortName, //0, //purpasmart96, //kanzoconfigz@hotmail.com, //20141112, //src/core/hle/service/pm_app.h, //18
+FileSys::DiskArchive::CreateDirectory, //0, //Subv, //subv2112@gmail.com, //20141216, //src/core/file_sys/disk_archive.cpp, //59
+FileSys::DiskArchive::CreateFile, //0, //archshift, //gh@archshift.com, //20141220, //src/core/file_sys/disk_archive.cpp, //38
+FileSys::DiskArchive::DeleteDirectory, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20141218, //src/core/file_sys/disk_archive.cpp, //34
+FileSys::DiskArchive::OpenDirectory, //0, //Subv, //subv2112@gmail.com, //20141216, //src/core/file_sys/disk_archive.cpp, //67
+FileSys::DiskArchive::RenameDirectory, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20141218, //src/core/file_sys/disk_archive.cpp, //63
+FileSys::DiskArchive::RenameFile, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20141218, //src/core/file_sys/disk_archive.cpp, //30
+FileSys::DiskDirectory::Open, //0, //Subv, //subv2112@gmail.com, //20141216, //src/core/file_sys/disk_archive.cpp, //144
+FileSys::DiskDirectory::Read, //0, //Subv, //subv2112@gmail.com, //20141216, //src/core/file_sys/disk_archive.cpp, //152
+FileSys::DiskFile::Close, //0, //Subv, //subv2112@gmail.com, //20141216, //src/core/file_sys/disk_archive.cpp, //130
+FileSys::DiskFile::GetSize, //0, //Subv, //subv2112@gmail.com, //20141216, //src/core/file_sys/disk_archive.cpp, //120
+FileSys::DiskFile::Open, //0, //Subv, //subv2112@gmail.com, //20141216, //src/core/file_sys/disk_archive.cpp, //86
+FileSys::DiskFile::Read, //0, //Subv, //subv2112@gmail.com, //20141216, //src/core/file_sys/disk_archive.cpp, //107
+FileSys::DiskFile::SetSize, //0, //Subv, //subv2112@gmail.com, //20141216, //src/core/file_sys/disk_archive.cpp, //124
+FileSys::DiskFile::Write, //0, //Subv, //subv2112@gmail.com, //20141216, //src/core/file_sys/disk_archive.cpp, //112
+Service::Interface::GetName, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141026, //src/core/hle/service/service.h, //37
+Service::Interface::SyncRequest, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141023, //src/core/hle/service/service.h, //70
+IR_U::Interface::GetPortName, //0, //purpasmart96, //kanzoconfigz@hotmail.com, //20141112, //src/core/hle/service/ir_u.h, //18
+NEWS_U::Interface::GetPortName, //0, //purpasmart96, //kanzoconfigz@hotmail.com, //20141221, //src/core/hle/service/news_u.h, //18
+AC_U::Interface::GetPortName, //0, //purpasmart96, //kanzoconfigz@hotmail.com, //20141112, //src/core/hle/service/ac_u.h, //20
+NWM_UDS::Interface::GetPortName, //0, //purpasmart96, //kanzoconfigz@hotmail.com, //20141112, //src/core/hle/service/nwm_uds.h, //20
+Loader::AppLoader_NCCH::Load, //0, //bunnei, //bunneidev@gmail.com, //20140619, //src/core/loader/ncch.cpp, //196
+Loader::AppLoader_NCCH::ReadBanner, //0, //bunnei, //bunneidev@gmail.com, //20140704, //src/core/loader/ncch.cpp, //274
+Loader::AppLoader_NCCH::ReadCode, //0, //bunnei, //bunneidev@gmail.com, //20140704, //src/core/loader/ncch.cpp, //256
+Loader::AppLoader_NCCH::ReadIcon, //0, //bunnei, //bunneidev@gmail.com, //20140704, //src/core/loader/ncch.cpp, //265
+Loader::AppLoader_NCCH::ReadLogo, //0, //bunnei, //bunneidev@gmail.com, //20140704, //src/core/loader/ncch.cpp, //283
+Loader::AppLoader_NCCH::ReadRomFS, //0, //bunnei, //bunneidev@gmail.com, //20140704, //src/core/loader/ncch.cpp, //292
+LDR_RO::Interface::GetPortName, //0, //archshift, //gh@archshift.com, //20141214, //src/core/hle/service/ldr_ro.h, //18
+EmuWindow_GLFW::DoneCurrent, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/citra/emu_window/emu_window_glfw.cpp, //125
+EmuWindow_GLFW::MakeCurrent, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/citra/emu_window/emu_window_glfw.cpp, //120
+EmuWindow_GLFW::OnMinimalClientAreaChangeRequest, //0, //Tony Wasserka, //neobrainx@gmail.com, //20141012, //src/citra/emu_window/emu_window_glfw.cpp, //148
+EmuWindow_GLFW::PollEvents, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/citra/emu_window/emu_window_glfw.cpp, //115
+EmuWindow_GLFW::ReloadSetKeymaps, //0, //archshift, //gh@archshift.com, //20140912, //src/citra/emu_window/emu_window_glfw.cpp, //129
+EmuWindow_GLFW::SwapBuffers, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/citra/emu_window/emu_window_glfw.cpp, //110
+FRD_U::Interface::GetPortName, //0, //purpasmart96, //kanzoconfigz@hotmail.com, //20141112, //src/core/hle/service/frd_u.h, //18
+NIM_AOC::Interface::GetPortName, //0, //archshift, //gh@archshift.com, //20141214, //src/core/hle/service/nim_aoc.h, //18
+FileSys::DiskDirectory::Close, //0, //Subv, //subv2112@gmail.com, //20141216, //src/core/file_sys/disk_archive.h, //93
+FileSys::DiskFile::Flush, //0, //Subv, //subv2112@gmail.com, //20141216, //src/core/file_sys/disk_archive.h, //70
+SOC_U::Interface::GetPortName, //0, //purpasmart96, //kanzoconfigz@hotmail.com, //20141112, //src/core/hle/service/soc_u.h, //18
+IR_RST::Interface::GetPortName, //0, //purpasmart96, //kanzoconfigz@hotmail.com, //20141112, //src/core/hle/service/ir_rst.h, //18
+FileSys::File_RomFS::Close, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/file_romfs.cpp, //39
+FileSys::File_RomFS::Flush, //0, //Subv, //subv2112@gmail.com, //20141216, //src/core/file_sys/file_romfs.h, //67
+FileSys::File_RomFS::GetSize, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/file_romfs.cpp, //30
+FileSys::File_RomFS::Open, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140927, //src/core/file_sys/file_romfs.cpp, //15
+FileSys::File_RomFS::Read, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/file_romfs.cpp, //19
+FileSys::File_RomFS::SetSize, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140927, //src/core/file_sys/file_romfs.cpp, //34
+FileSys::File_RomFS::Write, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/file_romfs.cpp, //25
+ACT_U::Interface::GetPortName, //0, //purpasmart96, //kanzoconfigz@hotmail.com, //20141221, //src/core/hle/service/act_u.h, //18
+Service::FS::FSUserInterface::GetPortName, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141026, //src/core/hle/service/fs/fs_user.h, //20
+APT_U::Interface::GetPortName, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141026, //src/core/hle/service/apt_u.h, //25
+AM_APP::Interface::GetPortName, //0, //archshift, //gh@archshift.com, //20141214, //src/core/hle/service/am_app.h, //18
+Kernel::SharedMemory::GetHandleType, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141221, //src/core/hle/kernel/shared_memory.cpp, //17
+Kernel::SharedMemory::GetTypeName, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141026, //src/core/hle/kernel/shared_memory.cpp, //14
+NDM_U::Interface::GetPortName, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141026, //src/core/hle/service/ndm_u.h, //20
+ARM_Interpreter::AddTicks, //0, //bunnei, //bunneidev@gmail.com, //20141223, //src/core/arm/interpreter/arm_interpreter.cpp, //69
+ARM_Interpreter::ExecuteInstructions, //0, //bunnei, //bunneidev@gmail.com, //20140517, //src/core/arm/interpreter/arm_interpreter.cpp, //73
+ARM_Interpreter::GetCPSR, //0, //bunnei, //bunneidev@gmail.com, //20140408, //src/core/arm/interpreter/arm_interpreter.cpp, //57
+ARM_Interpreter::GetPC, //0, //bunnei, //bunneidev@gmail.com, //20140408, //src/core/arm/interpreter/arm_interpreter.cpp, //45
+ARM_Interpreter::GetReg, //0, //bunnei, //bunneidev@gmail.com, //20140408, //src/core/arm/interpreter/arm_interpreter.cpp, //49
+ARM_Interpreter::GetTicks, //0, //bunnei, //bunneidev@gmail.com, //20140408, //src/core/arm/interpreter/arm_interpreter.cpp, //65
+ARM_Interpreter::LoadContext, //0, //bunnei, //bunneidev@gmail.com, //20140520, //src/core/arm/interpreter/arm_interpreter.cpp, //94
+ARM_Interpreter::PrepareReschedule, //0, //bunnei, //bunneidev@gmail.com, //20140601, //src/core/arm/interpreter/arm_interpreter.cpp, //110
+ARM_Interpreter::SaveContext, //0, //bunnei, //bunneidev@gmail.com, //20140520, //src/core/arm/interpreter/arm_interpreter.cpp, //78
+ARM_Interpreter::SetCPSR, //0, //bunnei, //bunneidev@gmail.com, //20140511, //src/core/arm/interpreter/arm_interpreter.cpp, //61
+ARM_Interpreter::SetPC, //0, //bunnei, //bunneidev@gmail.com, //20140404, //src/core/arm/interpreter/arm_interpreter.cpp, //41
+ARM_Interpreter::SetReg, //0, //bunnei, //bunneidev@gmail.com, //20140410, //src/core/arm/interpreter/arm_interpreter.cpp, //53
+Kernel::Mutex::GetHandleType, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141221, //src/core/hle/kernel/mutex.cpp, //22
+Kernel::Mutex::GetName, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141026, //src/core/hle/kernel/mutex.cpp, //19
+Kernel::Mutex::GetTypeName, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141026, //src/core/hle/kernel/mutex.cpp, //18
+Kernel::Mutex::WaitSynchronization, //0, //Subv, //subv2112@gmail.com, //20141207, //src/core/hle/kernel/mutex.cpp, //168
+MIC_U::Interface::GetPortName, //0, //purpasmart96, //kanzoconfigz@hotmail.com, //20141112, //src/core/hle/service/mic_u.h, //20
+FileSys::Archive_SaveData::Format, //0, //Subv, //subv2112@gmail.com, //20141229, //src/core/file_sys/archive_savedata.cpp, //38
+FileSys::Archive_SaveData::GetMountPoint, //0, //Subv, //subv2112@gmail.com, //20141229, //src/core/file_sys/archive_savedata.h, //28
+FileSys::Archive_SaveData::GetName, //0, //Subv, //subv2112@gmail.com, //20141216, //src/core/file_sys/archive_savedata.h, //22
+FileSys::Archive_SaveData::Open, //0, //Subv, //subv2112@gmail.com, //20141229, //src/core/file_sys/archive_savedata.cpp, //24
+CSND_SND::Interface::GetPortName, //0, //purpasmart96, //kanzoconfigz@hotmail.com, //20141112, //src/core/hle/service/csnd_snd.h, //18
+APT_A::Interface::GetPortName, //0, //purpasmart96, //kanzoconfigz@hotmail.com, //20141221, //src/core/hle/service/apt_a.h, //18
+PTM_U::Interface::GetPortName, //0, //purpasmart96, //kanzoconfigz@hotmail.com, //20141112, //src/core/hle/service/ptm_u.h, //20
+AM_NET::Interface::GetPortName, //0, //purpasmart96, //kanzoconfigz@hotmail.com, //20141112, //src/core/hle/service/am_net.h, //18
+GSP_GPU::Interface::GetPortName, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141026, //src/core/hle/service/gsp_gpu.h, //163
+FileSys::Archive_SDMC::GetName, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141215, //src/core/file_sys/archive_sdmc.h, //28
+FileSys::Archive_SystemSaveData::GetName, //0, //Subv, //subv2112@gmail.com, //20141217, //src/core/file_sys/archive_systemsavedata.h, //30

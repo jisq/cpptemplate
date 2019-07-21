@@ -1,0 +1,14 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+CBasicKeyStore::GetKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20111121, //src/keystore.h, //74
+CBasicKeyStore::GetKeys, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20110711, //src/keystore.h, //61
+CBasicKeyStore::HaveKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20110705, //src/keystore.h, //54
+CCryptoKeyStore::GetKeys, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20110711, //src/keystore.h, //162
+CCryptoKeyStore::HaveKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20110705, //src/keystore.h, //150
+CKeyStore::GetSecret, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20111121, //src/keystore.h, //32
+CWallet::AddCScript, //0, //Gavin Andresen, //gavinandresen@gmail.com, //20120104, //src/wallet.cpp, //62
+CWallet::AddKey, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110626, //src/wallet.cpp, //35
+std::bad_alloc::what, //0, //cpp, //, //, //src/compat/glibcxx_compat.cpp, //26
+std::bad_cast::what, //0, //cpp, //, //, //src/compat/glibcxx_compat.cpp, //21
+std::bad_exception::what, //0, //cpp, //, //, //src/compat/glibcxx_compat.cpp, //16

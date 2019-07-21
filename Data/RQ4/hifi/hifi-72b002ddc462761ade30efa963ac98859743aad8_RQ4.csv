@@ -1,0 +1,183 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+OctreeInboundPacketProcessor::processPacket, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/octree-server/src/OctreeInboundPacketProcessor.cpp, //42
+Octree::handlesEditPacketType, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/octree/src/Octree.h, //191
+Octree::processEditPacketData, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/octree/src/Octree.h, //192
+Audio::startDrumSound, //0, //Philip Rosedale, //philip@highfidelity.io, //20131204, //interface/src/Audio.cpp, //719
+Avatar::deleteOrDeleteLater, //0, //Stephen Birarda, //commit@birarda.com, //20131107, //interface/src/avatar/Avatar.cpp, //135
+Avatar::parseData, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20130822, //interface/src/avatar/Avatar.cpp, //491
+AvatarData::parseData, //0, //Stephen Birarda, //commit@birarda.com, //20130422, //libraries/avatars/src/AvatarData.cpp, //166
+NodeData::deleteOrDeleteLater, //0, //Stephen Birarda, //commit@birarda.com, //20131107, //libraries/shared/src/NodeData.cpp, //21
+OctreeRenderer::render, //0, //ZappoMan, //bradh@konamoxt.com, //20131209, //libraries/octree/src/OctreeRenderer.cpp, //127
+Octree::expectedDataPacketType, //0, //ZappoMan, //bradh@konamoxt.com, //20131216, //libraries/octree/src/Octree.h, //190
+Octree::getWantSVOfileVersions, //0, //ZappoMan, //bradh@konamoxt.com, //20131216, //libraries/octree/src/Octree.h, //189
+OctreeElement::addChildAtIndex, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/octree/src/OctreeElement.cpp, //1104
+OctreeElement::appendElementData, //0, //ZappoMan, //bradh@konamoxt.com, //20131205, //libraries/octree/src/OctreeElement.h, //80
+OctreeElement::calculateAverageFromChildren, //0, //ZappoMan, //bradh@konamoxt.com, //20131205, //libraries/octree/src/OctreeElement.h, //62
+OctreeElement::collapseChildren, //0, //ZappoMan, //bradh@konamoxt.com, //20131205, //libraries/octree/src/OctreeElement.h, //65
+OctreeElement::findSpherePenetration, //0, //ZappoMan, //bradh@konamoxt.com, //20131219, //libraries/octree/src/OctreeElement.cpp, //1288
+OctreeElement::hasContent, //0, //ZappoMan, //bradh@konamoxt.com, //20131205, //libraries/octree/src/OctreeElement.h, //69
+OctreeElement::isRendered, //0, //ZappoMan, //bradh@konamoxt.com, //20131205, //libraries/octree/src/OctreeElement.h, //91
+OctreeElement::readElementDataFromBuffer, //0, //ZappoMan, //bradh@konamoxt.com, //20131205, //libraries/octree/src/OctreeElement.h, //84
+OctreeElement::requiresSplit, //0, //ZappoMan, //bradh@konamoxt.com, //20131205, //libraries/octree/src/OctreeElement.h, //77
+OctreeElement::splitChildren, //0, //ZappoMan, //bradh@konamoxt.com, //20131205, //libraries/octree/src/OctreeElement.h, //74
+Assignment::parseData, //0, //Stephen Birarda, //commit@birarda.com, //20130930, //libraries/shared/src/Assignment.h, //92
+Octree::update, //0, //ZappoMan, //bradh@konamoxt.com, //20131210, //libraries/octree/src/Octree.h, //196
+ParticleTree::createNewElement, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/particles/src/ParticleTree.cpp, //17
+ParticleTree::handlesEditPacketType, //0, //ZappoMan, //bradh@konamoxt.com, //20131205, //libraries/particles/src/ParticleTree.cpp, //22
+ParticleTree::processEditPacketData, //0, //ZappoMan, //bradh@konamoxt.com, //20131205, //libraries/particles/src/ParticleTree.cpp, //160
+ParticleTree::update, //0, //ZappoMan, //bradh@konamoxt.com, //20131209, //libraries/particles/src/ParticleTree.cpp, //225
+OctreeElement::init, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/octree/src/OctreeElement.cpp, //38
+ParticleTreeElement::addChildAtIndex, //0, //ZappoMan, //bradh@konamoxt.com, //20131205, //libraries/particles/src/ParticleTreeElement.cpp, //39
+ParticleTreeElement::appendElementData, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/particles/src/ParticleTreeElement.cpp, //46
+ParticleTreeElement::calculateAverageFromChildren, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/particles/src/ParticleTreeElement.cpp, //219
+ParticleTreeElement::collapseChildren, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/particles/src/ParticleTreeElement.cpp, //227
+ParticleTreeElement::createNewElement, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/particles/src/ParticleTreeElement.cpp, //28
+ParticleTreeElement::findSpherePenetration, //0, //ZappoMan, //bradh@konamoxt.com, //20131219, //libraries/particles/src/ParticleTreeElement.cpp, //89
+ParticleTreeElement::init, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/particles/src/ParticleTreeElement.cpp, //34
+ParticleTreeElement::readElementDataFromBuffer, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/particles/src/ParticleTreeElement.cpp, //187
+InjectedAudioRingBuffer::parseData, //0, //Stephen Birarda, //commit@birarda.com, //20130605, //libraries/audio/src/InjectedAudioRingBuffer.cpp, //29
+PositionalAudioRingBuffer::parseData, //0, //Stephen Birarda, //commit@birarda.com, //20130605, //libraries/audio/src/PositionalAudioRingBuffer.cpp, //31
+GLCanvas::initializeGL, //0, //Stephen Birarda, //commit@birarda.com, //20130815, //interface/src/GLCanvas.cpp, //16
+GLCanvas::paintGL, //0, //Stephen Birarda, //commit@birarda.com, //20130815, //interface/src/GLCanvas.cpp, //21
+GLCanvas::resizeGL, //0, //Stephen Birarda, //commit@birarda.com, //20130815, //interface/src/GLCanvas.cpp, //25
+PacketSender::process, //0, //ZappoMan, //bradh@konamoxt.com, //20130812, //libraries/shared/src/PacketSender.cpp, //61
+Menu::getActiveScriptsMenu, //0, //ZappoMan, //bradh@konamoxt.com, //20131216, //interface/src/Menu.h, //76
+Menu::removeAction, //0, //ZappoMan, //bradh@konamoxt.com, //20131216, //interface/src/Menu.cpp, //725
+VoxelTree::createNewElement, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/voxels/src/VoxelTree.cpp, //25
+VoxelTree::expectedDataPacketType, //0, //ZappoMan, //bradh@konamoxt.com, //20131216, //libraries/voxels/src/VoxelTree.h, //56
+VoxelTree::handlesEditPacketType, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/voxels/src/VoxelTree.cpp, //642
+VoxelTree::processEditPacketData, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/voxels/src/VoxelTree.cpp, //653
+Model::maybeUpdateEyeRotation, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131022, //interface/src/renderer/Model.cpp, //622
+Model::maybeUpdateNeckRotation, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131022, //interface/src/renderer/Model.cpp, //618
+FaceModel::maybeUpdateEyeRotation, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131022, //interface/src/avatar/FaceModel.cpp, //70
+FaceModel::maybeUpdateNeckRotation, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131022, //interface/src/avatar/FaceModel.cpp, //60
+ParticleNodeData::getMyPacketType, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/particle-server/src/ParticleNodeData.h, //19
+MetavoxelSystem::PointVisitor::visit, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131212, //interface/src/MetavoxelSystem.cpp, //164
+MetavoxelSystem::nodeAdded, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131230, //interface/src/MetavoxelSystem.cpp, //120
+MetavoxelSystem::nodeKilled, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131230, //interface/src/MetavoxelSystem.cpp, //127
+Tool::render, //0, //atlante45, //clement.brisset@gmail.com, //20130702, //interface/src/Tool.cpp, //22
+Swatch::render, //0, //atlante45, //clement.brisset@gmail.com, //20130702, //interface/src/Swatch.cpp, //127
+ParticleTreeRenderer::createTree, //0, //ZappoMan, //bradh@konamoxt.com, //20131209, //interface/src/ParticleTreeRenderer.h, //30
+ParticleTreeRenderer::getExpectedPacketType, //0, //ZappoMan, //bradh@konamoxt.com, //20131209, //interface/src/ParticleTreeRenderer.h, //33
+ParticleTreeRenderer::getMyNodeType, //0, //ZappoMan, //bradh@konamoxt.com, //20131209, //interface/src/ParticleTreeRenderer.h, //31
+ParticleTreeRenderer::getMyQueryMessageType, //0, //ZappoMan, //bradh@konamoxt.com, //20131209, //interface/src/ParticleTreeRenderer.h, //32
+ParticleTreeRenderer::renderElement, //0, //ZappoMan, //bradh@konamoxt.com, //20131211, //interface/src/ParticleTreeRenderer.cpp, //30
+ParticleTree::expectedDataPacketType, //0, //ZappoMan, //bradh@konamoxt.com, //20131216, //libraries/particles/src/ParticleTree.h, //40
+ParticleTree::getWantSVOfileVersions, //0, //ZappoMan, //bradh@konamoxt.com, //20131216, //libraries/particles/src/ParticleTree.h, //39
+OctreeSendThread::process, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/octree-server/src/OctreeSendThread.cpp, //27
+OctreeServer::hasSpecialPacketToSend, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/octree-server/src/OctreeServer.h, //59
+OctreeServer::sendSpecialPacket, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/octree-server/src/OctreeServer.h, //60
+AudioMixerClientData::parseData, //0, //Stephen Birarda, //commit@birarda.com, //20131018, //assignment-client/src/audio/AudioMixerClientData.cpp, //34
+AvatarAudioRingBuffer::parseData, //0, //Stephen Birarda, //commit@birarda.com, //20130605, //assignment-client/src/audio/AvatarAudioRingBuffer.cpp, //18
+DefaultMetavoxelGuide::clone, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131216, //libraries/metavoxels/src/MetavoxelData.cpp, //273
+DefaultMetavoxelGuide::guide, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131216, //libraries/metavoxels/src/MetavoxelData.cpp, //281
+ScriptedMetavoxelGuide::clone, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131216, //libraries/metavoxels/src/MetavoxelData.cpp, //372
+ScriptedMetavoxelGuide::guide, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131216, //libraries/metavoxels/src/MetavoxelData.cpp, //376
+HifiLeapListener::onFrame, //0, //Eric Johnston, //ej@machinelevel.com, //20130627, //interface/src/devices/LeapManager.cpp, //34
+VoxelTreeElement::addChildAtIndex, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/voxels/src/VoxelTreeElement.h, //71
+SkeletonModel::maybeUpdateLeanRotation, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131022, //interface/src/avatar/SkeletonModel.cpp, //196
+SkeletonModel::updateJointState, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131021, //interface/src/avatar/SkeletonModel.cpp, //185
+Model::maybeUpdateLeanRotation, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131022, //interface/src/renderer/Model.cpp, //614
+Model::updateJointState, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131021, //interface/src/renderer/Model.cpp, //583
+ControllerScriptingInterface::getJoystickPosition, //0, //ZappoMan, //bradh@konamoxt.com, //20131218, //interface/src/ControllerScriptingInterface.cpp, //123
+ControllerScriptingInterface::getNumberOfButtons, //0, //ZappoMan, //bradh@konamoxt.com, //20131218, //interface/src/ControllerScriptingInterface.cpp, //78
+ControllerScriptingInterface::getNumberOfJoysticks, //0, //ZappoMan, //bradh@konamoxt.com, //20131218, //interface/src/ControllerScriptingInterface.cpp, //119
+ControllerScriptingInterface::getNumberOfSpatialControls, //0, //ZappoMan, //bradh@konamoxt.com, //20131218, //interface/src/ControllerScriptingInterface.cpp, //133
+ControllerScriptingInterface::getNumberOfTriggers, //0, //ZappoMan, //bradh@konamoxt.com, //20131218, //interface/src/ControllerScriptingInterface.cpp, //105
+ControllerScriptingInterface::getPrimaryJoystickPosition, //0, //ZappoMan, //bradh@konamoxt.com, //20131218, //interface/src/ControllerScriptingInterface.cpp, //69
+ControllerScriptingInterface::getSpatialControlNormal, //0, //ZappoMan, //bradh@konamoxt.com, //20131218, //interface/src/ControllerScriptingInterface.cpp, //167
+ControllerScriptingInterface::getSpatialControlPosition, //0, //ZappoMan, //bradh@konamoxt.com, //20131218, //interface/src/ControllerScriptingInterface.cpp, //137
+ControllerScriptingInterface::getSpatialControlVelocity, //0, //ZappoMan, //bradh@konamoxt.com, //20131218, //interface/src/ControllerScriptingInterface.cpp, //152
+ControllerScriptingInterface::getTriggerValue, //0, //ZappoMan, //bradh@konamoxt.com, //20131218, //interface/src/ControllerScriptingInterface.cpp, //109
+ControllerScriptingInterface::isButtonPressed, //0, //ZappoMan, //bradh@konamoxt.com, //20131218, //interface/src/ControllerScriptingInterface.cpp, //82
+GLWidget::initializeGL, //0, //atlante45, //clement.brisset@gmail.com, //20130816, //interface/src/ImportDialog.cpp, //76
+GLWidget::paintGL, //0, //atlante45, //clement.brisset@gmail.com, //20130816, //interface/src/ImportDialog.cpp, //94
+GLWidget::resizeGL, //0, //atlante45, //clement.brisset@gmail.com, //20130819, //interface/src/ImportDialog.cpp, //83
+AudioRingBuffer::parseData, //0, //Stephen Birarda, //commit@birarda.com, //20130605, //libraries/audio/src/AudioRingBuffer.cpp, //53
+Application::domainChanged, //0, //stojce, //stojce@me.com, //20130910, //interface/src/Application.cpp, //4142
+Application::nodeAdded, //0, //ZappoMan, //bradh@konamoxt.com, //20130806, //interface/src/Application.cpp, //4157
+Application::nodeKilled, //0, //ZappoMan, //bradh@konamoxt.com, //20130806, //interface/src/Application.cpp, //4161
+Application::packetSentNotification, //0, //ZappoMan, //bradh@konamoxt.com, //20130815, //interface/src/Application.cpp, //4416
+OctreeEditPacketSender::adjustEditPacketForClockSkew, //0, //ZappoMan, //bradh@konamoxt.com, //20131219, //libraries/octree/src/OctreeEditPacketSender.h, //89
+OctreeEditPacketSender::process, //0, //ZappoMan, //bradh@konamoxt.com, //20131205, //libraries/octree/src/OctreeEditPacketSender.cpp, //300
+OctreeServer::beforeRun, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/octree-server/src/OctreeServer.h, //58
+ParticleServer::beforeRun, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/particle-server/src/ParticleServer.cpp, //38
+ParticleServer::createOctreeQueryNode, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/particle-server/src/ParticleServer.cpp, //28
+ParticleServer::createTree, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/particle-server/src/ParticleServer.cpp, //32
+ParticleServer::getMyDefaultPersistFilename, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/particle-server/src/ParticleServer.h, //32
+ParticleServer::getMyLoggingServerTargetName, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/particle-server/src/ParticleServer.h, //31
+ParticleServer::getMyNodeType, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/particle-server/src/ParticleServer.h, //28
+ParticleServer::getMyQueryMessageType, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/particle-server/src/ParticleServer.h, //29
+ParticleServer::getMyServerName, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/particle-server/src/ParticleServer.h, //30
+ParticleServer::particleCreated, //0, //ZappoMan, //bradh@konamoxt.com, //20131211, //libraries/particle-server/src/ParticleServer.cpp, //42
+VoxelPacketProcessor::processPacket, //0, //Stephen Birarda, //commit@birarda.com, //20131203, //interface/src/VoxelPacketProcessor.cpp, //17
+ReceivedPacketProcessor::process, //0, //ZappoMan, //bradh@konamoxt.com, //20130815, //libraries/shared/src/ReceivedPacketProcessor.cpp, //32
+JurisdictionListener::nodeAdded, //0, //ZappoMan, //bradh@konamoxt.com, //20130820, //libraries/octree/src/JurisdictionListener.cpp, //36
+JurisdictionListener::nodeKilled, //0, //ZappoMan, //bradh@konamoxt.com, //20130820, //libraries/octree/src/JurisdictionListener.cpp, //40
+JurisdictionListener::process, //0, //ZappoMan, //bradh@konamoxt.com, //20130819, //libraries/octree/src/JurisdictionListener.cpp, //86
+JurisdictionListener::processPacket, //0, //Stephen Birarda, //commit@birarda.com, //20131202, //libraries/octree/src/JurisdictionListener.cpp, //74
+PolymorphicAttribute::merge, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131216, //libraries/metavoxels/src/AttributeRegistry.cpp, //146
+QRgbAttribute::createFromScript, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131217, //libraries/metavoxels/src/AttributeRegistry.cpp, //131
+QRgbAttribute::merge, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131216, //libraries/metavoxels/src/AttributeRegistry.cpp, //111
+OctreeElementBag::elementDeleted, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/octree/src/OctreeElementBag.cpp, //130
+OctreeElement::deleteApproved, //0, //ZappoMan, //bradh@konamoxt.com, //20131211, //libraries/octree/src/OctreeElement.h, //93
+ParticleTreeElement::deleteApproved, //0, //ZappoMan, //bradh@konamoxt.com, //20131212, //libraries/particles/src/ParticleTreeElement.h, //73
+ParticleTreeElement::hasContent, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/particles/src/ParticleTreeElement.h, //51
+ParticleTreeElement::isRendered, //0, //ZappoMan, //bradh@konamoxt.com, //20131205, //libraries/particles/src/ParticleTreeElement.h, //72
+ParticleTreeElement::requiresSplit, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/particles/src/ParticleTreeElement.h, //59
+ParticleTreeElement::splitChildren, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/particles/src/ParticleTreeElement.h, //56
+VoxelEditPacketSender::getMyNodeType, //0, //ZappoMan, //bradh@konamoxt.com, //20131205, //libraries/voxels/src/VoxelEditPacketSender.h, //49
+OctreeServer::nodeAdded, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/octree-server/src/OctreeServer.cpp, //30
+OctreeServer::nodeKilled, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/octree-server/src/OctreeServer.cpp, //34
+JurisdictionSender::process, //0, //ZappoMan, //bradh@konamoxt.com, //20130819, //libraries/octree/src/JurisdictionSender.cpp, //45
+JurisdictionSender::processPacket, //0, //Stephen Birarda, //commit@birarda.com, //20131202, //libraries/octree/src/JurisdictionSender.cpp, //33
+DomainServer::nodeAdded, //0, //Stephen Birarda, //commit@birarda.com, //20131018, //domain-server/src/DomainServer.cpp, //497
+DomainServer::nodeKilled, //0, //Stephen Birarda, //commit@birarda.com, //20131018, //domain-server/src/DomainServer.cpp, //501
+VoxelSystem::applyScaleAndBindProgram, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20130602, //interface/src/VoxelSystem.cpp, //1359
+VoxelSystem::copyWrittenDataSegmentToReadArrays, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20130531, //interface/src/VoxelSystem.cpp, //864
+VoxelSystem::elementDeleted, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //interface/src/VoxelSystem.cpp, //116
+VoxelSystem::elementUpdated, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //interface/src/VoxelSystem.cpp, //134
+VoxelSystem::hideOutOfView, //0, //ZappoMan, //bradh@konamoxt.com, //20131023, //interface/src/VoxelSystem.cpp, //1913
+VoxelSystem::init, //0, //Stephen Birarda, //commit@birarda.com, //20130308, //interface/src/VoxelSystem.cpp, //1055
+VoxelSystem::nodeAdded, //0, //ZappoMan, //bradh@konamoxt.com, //20130805, //interface/src/VoxelSystem.cpp, //2668
+VoxelSystem::nodeKilled, //0, //ZappoMan, //bradh@konamoxt.com, //20130805, //interface/src/VoxelSystem.cpp, //2689
+VoxelSystem::parseData, //0, //Stephen Birarda, //commit@birarda.com, //20130422, //interface/src/VoxelSystem.cpp, //565
+VoxelSystem::removeOutOfView, //0, //ZappoMan, //bradh@konamoxt.com, //20130506, //interface/src/VoxelSystem.cpp, //1796
+VoxelSystem::removeScaleAndReleaseProgram, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20130602, //interface/src/VoxelSystem.cpp, //1382
+VoxelSystem::updateArraysDetails, //0, //ZappoMan, //bradh@konamoxt.com, //20131009, //interface/src/VoxelSystem.cpp, //1016
+VoxelSystem::updateVBOSegment, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20130531, //interface/src/VoxelSystem.cpp, //1161
+OctreePersistThread::process, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/octree-server/src/OctreePersistThread.cpp, //26
+VoxelServer::beforeRun, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/voxel-server/src/VoxelServer.cpp, //56
+VoxelServer::createOctreeQueryNode, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/voxel-server/src/VoxelServer.cpp, //27
+VoxelServer::createTree, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/voxel-server/src/VoxelServer.cpp, //31
+VoxelServer::getMyDefaultPersistFilename, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/voxel-server/src/VoxelServer.h, //43
+VoxelServer::getMyLoggingServerTargetName, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/voxel-server/src/VoxelServer.h, //42
+VoxelServer::getMyNodeType, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/voxel-server/src/VoxelServer.h, //39
+VoxelServer::getMyQueryMessageType, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/voxel-server/src/VoxelServer.h, //40
+VoxelServer::getMyServerName, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/voxel-server/src/VoxelServer.h, //41
+VoxelServer::hasSpecialPacketToSend, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/voxel-server/src/VoxelServer.cpp, //35
+VoxelServer::sendSpecialPacket, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/voxel-server/src/VoxelServer.cpp, //40
+Attribute::createFromScript, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131217, //libraries/metavoxels/src/AttributeRegistry.h, //155
+Attribute::readDelta, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131219, //libraries/metavoxels/src/AttributeRegistry.h, //144
+Attribute::writeDelta, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131219, //libraries/metavoxels/src/AttributeRegistry.h, //145
+MetavoxelServer::processDatagram, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131218, //assignment-client/src/metavoxels/MetavoxelServer.cpp, //28
+MetavoxelServer::run, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131218, //assignment-client/src/metavoxels/MetavoxelServer.cpp, //24
+ParticleEditPacketSender::adjustEditPacketForClockSkew, //0, //ZappoMan, //bradh@konamoxt.com, //20131219, //libraries/particles/src/ParticleEditPacketSender.cpp, //40
+ParticleEditPacketSender::getMyNodeType, //0, //ZappoMan, //bradh@konamoxt.com, //20131205, //libraries/particles/src/ParticleEditPacketSender.h, //32
+OctreeQuery::parseData, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/octree/src/OctreeQuery.cpp, //98
+VoxelTreeElement::appendElementData, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/voxels/src/VoxelTreeElement.cpp, //61
+VoxelTreeElement::calculateAverageFromChildren, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/voxels/src/VoxelTreeElement.cpp, //155
+VoxelTreeElement::collapseChildren, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/voxels/src/VoxelTreeElement.cpp, //200
+VoxelTreeElement::createNewElement, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/voxels/src/VoxelTreeElement.cpp, //29
+VoxelTreeElement::init, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/voxels/src/VoxelTreeElement.cpp, //35
+VoxelTreeElement::readElementDataFromBuffer, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/voxels/src/VoxelTreeElement.cpp, //66
+VoxelTreeElement::requiresSplit, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/voxels/src/VoxelTreeElement.cpp, //46
+VoxelTreeElement::splitChildren, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/voxels/src/VoxelTreeElement.cpp, //50
+Audio::startCollisionSound, //0, //Philip Rosedale, //philip@highfidelity.io, //20131108, //interface/src/Audio.cpp, //711
+VoxelHideShowThread::process, //0, //ZappoMan, //bradh@konamoxt.com, //20131202, //interface/src/VoxelHideShowThread.cpp, //23
+VoxelSystem::domainChanged, //0, //ZappoMan, //bradh@konamoxt.com, //20131011, //interface/src/VoxelSystem.cpp, //2697
+VoxelNodeData::getMyPacketType, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/voxel-server/src/VoxelNodeData.h, //18
+VoxelTreeElement::hasContent, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/voxels/src/VoxelTreeElement.h, //40
+VoxelTreeElement::isRendered, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/voxels/src/VoxelTreeElement.h, //55

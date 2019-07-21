@@ -1,0 +1,16 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+find::find_implementation_t::set_skip_first, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/regexp/src/find.cc, //44
+find::find_implementation_t::set_skip_last, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/regexp/src/find.cc, //45
+file_context_t::set_create_parent, //0, //Allan Odgaard, //git@abetarda.com, //20131214, //Frameworks/file/src/save.cc, //38
+file_context_t::set_make_writable, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/file/src/save.cc, //37
+fs::event_callback_t::set_replaying_history, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/io/src/events.h, //11
+simple_clipboard_t::empty, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/editor/src/clipboard.cc, //13
+command::process_t::did_exit, //0, //Allan Odgaard, //git@abetarda.com, //20130516, //Frameworks/command/src/process.cc, //175
+document::open_callback_t::show_content, //0, //Allan Odgaard, //git@abetarda.com, //20130512, //Frameworks/document/src/document.h, //31
+document::open_callback_t::show_error, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/document/src/document.h, //34
+document::save_callback_t::did_save, //0, //Allan Odgaard, //git@abetarda.com, //20130512, //Frameworks/document/src/document.h, //43
+base_t::close_document, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Applications/TextMate/src/RMateServer.cc, //262
+base_t::save_document, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Applications/TextMate/src/RMateServer.cc, //261
+socket_callback_t::helper_t::operator(), //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Applications/TextMate/src/RMateServer.cc, //84

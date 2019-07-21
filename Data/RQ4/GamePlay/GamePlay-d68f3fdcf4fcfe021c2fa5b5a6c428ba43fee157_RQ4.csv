@@ -1,0 +1,161 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+gameplay::Control::addListener, //0, //Adam Blake, //ablake@rim.com, //20120315, //gameplay/src/Control.cpp, //499
+gameplay::Control::drawBorder, //0, //Adam Blake, //ablake@rim.com, //20120301, //gameplay/src/Control.cpp, //656
+gameplay::Control::drawImages, //0, //Adam Blake, //ablake@rim.com, //20120330, //gameplay/src/Control.cpp, //715
+gameplay::Control::drawText, //0, //Adam Blake, //ablake@rim.com, //20120301, //gameplay/src/Control.cpp, //719
+gameplay::Control::getAnimationPropertyComponentCount, //0, //Adam Blake, //ablake@rim.com, //20120330, //gameplay/src/Control.cpp, //761
+gameplay::Control::getAnimationPropertyValue, //0, //Adam Blake, //ablake@rim.com, //20120330, //gameplay/src/Control.cpp, //781
+gameplay::Control::init, //0, //Adam Blake, //ablake@rim.com, //20120228, //gameplay/src/Control.cpp, //35
+gameplay::Control::isContainer, //0, //Adam Blake, //ablake@rim.com, //20120301, //gameplay/src/Control.cpp, //728
+gameplay::Control::isDirty, //0, //Adam Blake, //ablake@rim.com, //20120124, //gameplay/src/Control.cpp, //723
+gameplay::Control::keyEvent, //0, //Adam Blake, //ablake@rim.com, //20120213, //gameplay/src/Control.cpp, //574
+gameplay::Control::setAnimationPropertyValue, //0, //Adam Blake, //ablake@rim.com, //20120330, //gameplay/src/Control.cpp, //811
+gameplay::Control::touchEvent, //0, //Adam Blake, //ablake@rim.com, //20120228, //gameplay/src/Control.cpp, //545
+gameplay::Control::update, //0, //Adam Blake, //ablake@rim.com, //20120301, //gameplay/src/Control.cpp, //594
+gameplay::Animation::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Animation.cpp, //19
+gameplay::Animation::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Animation.cpp, //15
+gameplay::Animation::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Animation.cpp, //24
+gameplay::Animation::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Animation.cpp, //36
+gameplay::AnimationChannel::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/AnimationChannel.cpp, //26
+gameplay::AnimationChannel::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/AnimationChannel.cpp, //42
+gameplay::Object::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Object.cpp, //15
+gameplay::Object::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Object.cpp, //20
+gameplay::Button::touchEvent, //0, //Adam Blake, //ablake@rim.com, //20120228, //gameplay/src/Button.cpp, //22
+gameplay::Label::addListener, //0, //Adam Blake, //ablake@rim.com, //20120315, //gameplay/src/Label.cpp, //37
+gameplay::Label::init, //0, //Adam Blake, //ablake@rim.com, //20120228, //gameplay/src/Label.cpp, //26
+gameplay::RadioButton::addListener, //0, //Adam Blake, //ablake@rim.com, //20120315, //gameplay/src/RadioButton.cpp, //61
+gameplay::RadioButton::drawImages, //0, //Adam Blake, //ablake@rim.com, //20120330, //gameplay/src/RadioButton.cpp, //117
+gameplay::RadioButton::touchEvent, //0, //Adam Blake, //ablake@rim.com, //20120228, //gameplay/src/RadioButton.cpp, //72
+gameplay::RadioButton::update, //0, //Adam Blake, //ablake@rim.com, //20120301, //gameplay/src/RadioButton.cpp, //171
+gameplay::Theme::Style::Overlay::getAnimationPropertyComponentCount, //0, //Adam Blake, //ablake@rim.com, //20120330, //gameplay/src/Theme.cpp, //1134
+gameplay::Theme::Style::Overlay::getAnimationPropertyValue, //0, //Adam Blake, //ablake@rim.com, //20120330, //gameplay/src/Theme.cpp, //1145
+gameplay::Theme::Style::Overlay::setAnimationPropertyValue, //0, //Adam Blake, //ablake@rim.com, //20120330, //gameplay/src/Theme.cpp, //1157
+gameplay::AbsoluteLayout::getType, //0, //Adam Blake, //ablake@rim.com, //20120124, //gameplay/src/AbsoluteLayout.cpp, //36
+gameplay::AbsoluteLayout::update, //0, //Adam Blake, //ablake@rim.com, //20120213, //gameplay/src/AbsoluteLayout.cpp, //41
+gameplay::PhysicsGhostObject::getType, //0, //Chris Culy, //cculy@rim.com, //20120316, //gameplay/src/PhysicsGhostObject.cpp, //41
+gameplay::PhysicsGhostObject::transformChanged, //0, //Chris Culy, //cculy@rim.com, //20120316, //gameplay/src/PhysicsGhostObject.cpp, //51
+gameplay::AnimationChannel::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/AnimationChannel.cpp, //21
+gameplay::AnimationChannel::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/AnimationChannel.cpp, //17
+gameplay::Light::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Light.cpp, //30
+gameplay::Light::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Light.cpp, //26
+gameplay::Light::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Light.cpp, //97
+gameplay::Light::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Light.cpp, //130
+gameplay::Container::drawBorder, //0, //Adam Blake, //ablake@rim.com, //20120301, //gameplay/src/Container.cpp, //216
+gameplay::Container::drawImages, //0, //Adam Blake, //ablake@rim.com, //20120330, //gameplay/src/Container.cpp, //230
+gameplay::Container::drawText, //0, //Adam Blake, //ablake@rim.com, //20120301, //gameplay/src/Container.cpp, //242
+gameplay::Container::isContainer, //0, //Adam Blake, //ablake@rim.com, //20120301, //gameplay/src/Container.cpp, //347
+gameplay::Container::isDirty, //0, //Adam Blake, //ablake@rim.com, //20120124, //gameplay/src/Container.cpp, //254
+gameplay::Container::keyEvent, //0, //Adam Blake, //ablake@rim.com, //20120213, //gameplay/src/Container.cpp, //329
+gameplay::Container::touchEvent, //0, //Adam Blake, //ablake@rim.com, //20120228, //gameplay/src/Container.cpp, //275
+gameplay::Container::update, //0, //Adam Blake, //ablake@rim.com, //20120301, //gameplay/src/Container.cpp, //205
+gameplay::MeshPart::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/MeshPart.cpp, //22
+gameplay::MeshPart::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/MeshPart.cpp, //17
+gameplay::MeshPart::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/MeshPart.cpp, //27
+gameplay::MeshPart::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/MeshPart.cpp, //43
+gameplay::AudioSource::transformChanged, //0, //Steve Grenier, //sgrenier@rim.com, //20111129, //gameplay/src/AudioSource.cpp, //464
+gameplay::Game::keyEvent, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111222, //gameplay/src/Game.cpp, //272
+gameplay::Game::menu, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay/src/Game.cpp, //268
+gameplay::Game::mouseEvent, //0, //Darryl Gough, //dgough@rim.com, //20120126, //gameplay/src/Game.cpp, //287
+gameplay::Game::touchEvent, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111222, //gameplay/src/Game.cpp, //276
+gameplay::Node::removeChild, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111103, //gameplay/src/Node.cpp, //117
+gameplay::VertexElement::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/VertexElement.cpp, //16
+gameplay::VertexElement::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/VertexElement.cpp, //21
+gameplay::VertexElement::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/VertexElement.cpp, //27
+gameplay::Font::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Font.cpp, //23
+gameplay::Font::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Font.cpp, //19
+gameplay::Font::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Font.cpp, //28
+gameplay::Font::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Font.cpp, //40
+gameplay::Node::cloneSingleNode, //0, //Darryl Gough, //dgough@rim.com, //20120329, //gameplay/src/Node.cpp, //711
+gameplay::Node::getType, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay/src/Node.cpp, //68
+gameplay::Node::removeAllChildren, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111103, //gameplay/src/Node.cpp, //131
+gameplay::Node::transformChanged, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay/src/Node.cpp, //501
+gameplay::Transform::transformChanged, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay/src/Transform.cpp, //772
+gameplay::AudioListener::transformChanged, //0, //Steve Grenier, //sgrenier@rim.com, //20111129, //gameplay/src/AudioListener.cpp, //107
+gameplay::PhysicsRigidBody::getType, //0, //Steve Grenier, //sgrenier@rim.com, //20120302, //gameplay/src/PhysicsRigidBody.cpp, //81
+gameplay::PhysicsRigidBody::transformChanged, //0, //Chris Culy, //cculy@rim.com, //20111212, //gameplay/src/PhysicsRigidBody.cpp, //448
+gameplay::Material::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Material.cpp, //20
+gameplay::Material::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Material.cpp, //16
+gameplay::Material::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Material.cpp, //25
+gameplay::Material::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Material.cpp, //31
+gameplay::MeshSkin::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/MeshSkin.cpp, //30
+gameplay::MeshSkin::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/MeshSkin.cpp, //25
+gameplay::MeshSkin::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/MeshSkin.cpp, //35
+gameplay::MeshSkin::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/MeshSkin.cpp, //64
+gameplay::Reference::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Reference.cpp, //26
+gameplay::Reference::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Reference.cpp, //31
+gameplay::Reference::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Reference.cpp, //38
+gameplay::Scene::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Scene.cpp, //23
+gameplay::Scene::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Scene.cpp, //18
+gameplay::Scene::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Scene.cpp, //28
+gameplay::Scene::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Scene.cpp, //43
+gameplay::Model::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Model.cpp, //21
+gameplay::Model::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Model.cpp, //17
+gameplay::Model::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Model.cpp, //25
+gameplay::Model::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Model.cpp, //54
+gameplay::Animations::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111103, //gameplay-encoder/src/Animations.cpp, //22
+gameplay::Animations::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111103, //gameplay-encoder/src/Animations.cpp, //18
+gameplay::Animations::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111103, //gameplay-encoder/src/Animations.cpp, //27
+gameplay::Animations::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111103, //gameplay-encoder/src/Animations.cpp, //37
+gameplay::TextBox::addListener, //0, //Adam Blake, //ablake@rim.com, //20120315, //gameplay/src/TextBox.cpp, //41
+gameplay::TextBox::drawImages, //0, //Adam Blake, //ablake@rim.com, //20120330, //gameplay/src/TextBox.cpp, //260
+gameplay::TextBox::keyEvent, //0, //Adam Blake, //ablake@rim.com, //20120213, //gameplay/src/TextBox.cpp, //103
+gameplay::TextBox::touchEvent, //0, //Adam Blake, //ablake@rim.com, //20120228, //gameplay/src/TextBox.cpp, //52
+gameplay::TextBox::update, //0, //Adam Blake, //ablake@rim.com, //20120301, //gameplay/src/TextBox.cpp, //246
+gameplay::MaterialParameter::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/MaterialParameter.cpp, //20
+gameplay::MaterialParameter::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/MaterialParameter.cpp, //16
+gameplay::MaterialParameter::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/MaterialParameter.cpp, //25
+gameplay::MaterialParameter::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/MaterialParameter.cpp, //31
+gameplay::Camera::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Camera.cpp, //48
+gameplay::Camera::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Camera.cpp, //44
+gameplay::Camera::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Camera.cpp, //53
+gameplay::Camera::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Camera.cpp, //75
+gameplay::MeshSkin::transformChanged, //0, //Steve Grenier, //sgrenier@rim.com, //20111129, //gameplay/src/MeshSkin.cpp, //196
+gameplay::Slider::addListener, //0, //Adam Blake, //ablake@rim.com, //20120315, //gameplay/src/Slider.cpp, //67
+gameplay::Slider::drawImages, //0, //Adam Blake, //ablake@rim.com, //20120330, //gameplay/src/Slider.cpp, //138
+gameplay::Slider::touchEvent, //0, //Adam Blake, //ablake@rim.com, //20120228, //gameplay/src/Slider.cpp, //78
+gameplay::Effect::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Effect.cpp, //20
+gameplay::Effect::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Effect.cpp, //15
+gameplay::Effect::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Effect.cpp, //25
+gameplay::Effect::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Effect.cpp, //32
+gameplay::Label::drawText, //0, //Adam Blake, //ablake@rim.com, //20120301, //gameplay/src/Label.cpp, //67
+gameplay::Joint::cloneSingleNode, //0, //Darryl Gough, //dgough@rim.com, //20120329, //gameplay/src/Joint.cpp, //22
+gameplay::Joint::getType, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay/src/Joint.cpp, //32
+gameplay::Joint::transformChanged, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay/src/Joint.cpp, //37
+gameplay::MaterialParameter::getAnimationPropertyComponentCount, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay/src/MaterialParameter.cpp, //291
+gameplay::MaterialParameter::getAnimationPropertyValue, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay/src/MaterialParameter.cpp, //323
+gameplay::MaterialParameter::setAnimationPropertyValue, //0, //Kieran Cunney, //kcunney@rim.com, //20120111, //gameplay/src/MaterialParameter.cpp, //382
+gameplay::Glyph::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Glyph.cpp, //18
+gameplay::Glyph::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Glyph.cpp, //23
+gameplay::Glyph::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Glyph.cpp, //33
+gameplay::CheckBox::addListener, //0, //Adam Blake, //ablake@rim.com, //20120315, //gameplay/src/CheckBox.cpp, //47
+gameplay::CheckBox::drawImages, //0, //Adam Blake, //ablake@rim.com, //20120330, //gameplay/src/CheckBox.cpp, //121
+gameplay::CheckBox::touchEvent, //0, //Adam Blake, //ablake@rim.com, //20120228, //gameplay/src/CheckBox.cpp, //58
+gameplay::CheckBox::update, //0, //Adam Blake, //ablake@rim.com, //20120301, //gameplay/src/CheckBox.cpp, //93
+gameplay::Node::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Node.cpp, //29
+gameplay::Node::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Node.cpp, //24
+gameplay::Node::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Node.cpp, //34
+gameplay::Node::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Node.cpp, //81
+gameplay::Transform::getAnimationPropertyComponentCount, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay/src/Transform.cpp, //558
+gameplay::Transform::getAnimationPropertyValue, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay/src/Transform.cpp, //584
+gameplay::Transform::setAnimationPropertyValue, //0, //Kieran Cunney, //kcunney@rim.com, //20120111, //gameplay/src/Transform.cpp, //651
+gameplay::PhysicsCharacter::getType, //0, //Steve Grenier, //sgrenier@rim.com, //20120302, //gameplay/src/PhysicsCharacter.cpp, //87
+gameplay::Camera::transformChanged, //0, //Steve Grenier, //sgrenier@rim.com, //20111129, //gameplay/src/Camera.cpp, //366
+gameplay::Node::getWorldMatrix, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay/src/Node.cpp, //286
+TemplateGame::finalize, //0, //Steve Grenier, //sgrenier@rim.com, //20111208, //gameplay-template/src/TemplateGame.cpp, //30
+TemplateGame::initialize, //0, //Steve Grenier, //sgrenier@rim.com, //20111208, //gameplay-template/src/TemplateGame.cpp, //11
+TemplateGame::render, //0, //Steve Grenier, //sgrenier@rim.com, //20111208, //gameplay-template/src/TemplateGame.cpp, //41
+TemplateGame::touchEvent, //0, //Darryl Gough, //dgough@rim.com, //20120113, //gameplay-template/src/TemplateGame.cpp, //61
+TemplateGame::update, //0, //Steve Grenier, //sgrenier@rim.com, //20111208, //gameplay-template/src/TemplateGame.cpp, //35
+gameplay::Node::addChild, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111103, //gameplay/src/Node.cpp, //73
+gameplay::Mesh::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Mesh.cpp, //21
+gameplay::Mesh::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Mesh.cpp, //16
+gameplay::Mesh::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Mesh.cpp, //26
+gameplay::Mesh::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/Mesh.cpp, //282
+gameplay::VerticalLayout::getType, //0, //Adam Blake, //ablake@rim.com, //20120124, //gameplay/src/VerticalLayout.cpp, //39
+gameplay::VerticalLayout::update, //0, //Adam Blake, //ablake@rim.com, //20120213, //gameplay/src/VerticalLayout.cpp, //44
+gameplay::MeshSubSet::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/MeshSubSet.cpp, //21
+gameplay::MeshSubSet::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111115, //gameplay-encoder/src/MeshSubSet.cpp, //16
+gameplay::MeshSubSet::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/MeshSubSet.cpp, //26
+gameplay::MeshSubSet::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay-encoder/src/MeshSubSet.cpp, //31

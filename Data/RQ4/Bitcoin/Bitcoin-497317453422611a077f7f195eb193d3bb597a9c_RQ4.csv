@@ -1,0 +1,150 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+CryptoPP::SHA256, //6, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/sha.h, //20
+CryptoPP::SHA1, //4, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/sha.h, //9
+CryptoPP::SHA224, //3, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/sha.h, //32
+CryptoPP::SHA384, //2, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/sha.h, //53
+CryptoPP::SHA512, //4, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/sha.h, //44
+
+virtual function, calls, developer, email, edit time, definition file path, line
+CWallet::AddKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20110601, //src/wallet.cpp, //18
+CryptoPP::ASN1Object::BEREncode, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1657
+CryptoPP::Algorithm::AlgorithmName, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //350
+CryptoPP::AuthenticatedSymmetricCipher::GetAlgorithm, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //669
+CryptoPP::AuthenticatedSymmetricCipher::MaxFooterLength, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //654
+CryptoPP::AuthenticatedSymmetricCipher::NeedsPrespecifiedDataLengths, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //657
+CryptoPP::AuthenticatedSymmetricCipher::UncheckedSpecifyDataLengths, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //670
+CryptoPP::BlockCipher::GetAlgorithm, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //618
+CryptoPP::BlockTransformation::IsPermutation, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //458
+CryptoPP::BlockTransformation::OptimalNumberOfParallelBlocks, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //464
+CryptoPP::BufferedTransformation::Attachable, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1022
+CryptoPP::BufferedTransformation::AttachedTransformation, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1024
+CryptoPP::BufferedTransformation::AttachedTransformation, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1026
+CryptoPP::BufferedTransformation::CanModifyInput, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //814
+CryptoPP::BufferedTransformation::CreatePutSpace, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //812
+CryptoPP::BufferedTransformation::Detach, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1029
+CryptoPP::BufferedTransformation::GetAutoSignalPropagation, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //873
+CryptoPP::BufferedTransformation::GetNextMessageSeries, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //962
+CryptoPP::BufferedTransformation::IsolatedInitialize, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //846
+CryptoPP::BufferedTransformation::IsolatedMessageSeriesEnd, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //848
+CryptoPP::BufferedTransformation::NumberOfMessageSeries, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //964
+CryptoPP::BufferedTransformation::NumberOfMessagesInThisSeries, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //963
+CryptoPP::BufferedTransformation::PutModifiable2, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //830
+CryptoPP::BufferedTransformation::SetAutoSignalPropagation, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //870
+CryptoPP::Clonable::Clone, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //338
+CryptoPP::CryptoMaterial::Load, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1085
+CryptoPP::CryptoMaterial::LoadPrecomputation, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1097
+CryptoPP::CryptoMaterial::Precompute, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1094
+CryptoPP::CryptoMaterial::Save, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1078
+CryptoPP::CryptoMaterial::SavePrecomputation, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1100
+CryptoPP::CryptoMaterial::SupportsPrecomputation, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1089
+CryptoPP::CryptoMaterial::ThrowIfInvalid, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1072
+CryptoPP::Exception::what, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //133
+CryptoPP::GeneratableCryptoMaterial::GenerateRandom, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1120
+CryptoPP::HashTransformation::BlockSize, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //571
+CryptoPP::HashTransformation::CalculateDigest, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //580
+CryptoPP::HashTransformation::CalculateTruncatedDigest, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //597
+CryptoPP::HashTransformation::CreateUpdateSpace, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //552
+CryptoPP::HashTransformation::Final, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //556
+CryptoPP::HashTransformation::OptimalBlockSize, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //574
+CryptoPP::HashTransformation::Restart, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //560
+CryptoPP::HashTransformation::Verify, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //586
+CryptoPP::HashTransformation::VerifyDigest, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //590
+CryptoPP::HashTransformation::VerifyTruncatedDigest, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //604
+CryptoPP::KeyAgreementAlgorithm::AccessMaterial, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1193
+CryptoPP::KeyAgreementAlgorithm::GetCryptoParameters, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1197
+CryptoPP::KeyAgreementAlgorithm::GetMaterial, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1194
+CryptoPP::MessageAuthenticationCode::GetAlgorithm, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //632
+CryptoPP::NullNameValuePairs::GetVoidValue, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //324
+CryptoPP::PK_CryptoSystem::FixedCiphertextLength, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1225
+CryptoPP::PK_CryptoSystem::FixedMaxPlaintextLength, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1228
+CryptoPP::PK_MessageAccumulator::DigestSize, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1351
+CryptoPP::PK_MessageAccumulator::TruncatedFinal, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1354
+CryptoPP::PK_SignatureScheme::MaxSignatureLength, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1321
+CryptoPP::PK_SignatureScheme::SignatureUpfront, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1337
+CryptoPP::PrivateKeyAlgorithm::AccessMaterial, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1181
+CryptoPP::PrivateKeyAlgorithm::GetMaterial, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1182
+CryptoPP::PrivateKeyAlgorithm::GetPrivateKey, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1185
+CryptoPP::PublicKeyAlgorithm::AccessMaterial, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1169
+CryptoPP::PublicKeyAlgorithm::GetMaterial, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1170
+CryptoPP::PublicKeyAlgorithm::GetPublicKey, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //1173
+CryptoPP::RandomNumberGenerator::CanIncorporateEntropy, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //687
+CryptoPP::RandomNumberGenerator::IncorporateEntropy, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //684
+CryptoPP::SimpleKeyingInterface::IVSize, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //401
+CryptoPP::SimpleKeyingInterface::IsValidKeyLength, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //370
+CryptoPP::SimpleKeyingInterface::MaxIVLength, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //407
+CryptoPP::SimpleKeyingInterface::MinIVLength, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //405
+CryptoPP::SimpleKeyingInterface::Resynchronize, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //409
+CryptoPP::StreamTransformation::GetOptimalBlockSizeUsed, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //492
+CryptoPP::StreamTransformation::MandatoryBlockSize, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //486
+CryptoPP::StreamTransformation::MinLastBlockSize, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //505
+CryptoPP::StreamTransformation::OptimalBlockSize, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //490
+CryptoPP::StreamTransformation::Seek, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //520
+CryptoPP::SymmetricCipher::GetAlgorithm, //0, //--author=Satoshi Nakamoto, //satoshin@gmx.com, //20100727, //src/cryptopp/cryptlib.h, //625
+std::bad_alloc::what, //0, //cpp, //, //, //src/compat/glibcxx_compat.cpp, //26
+std::bad_cast::what, //0, //cpp, //, //, //src/compat/glibcxx_compat.cpp, //21
+std::bad_exception::what, //0, //cpp, //, //, //src/compat/glibcxx_compat.cpp, //16
+CAboutDialogBase::OnButtonOK, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //222
+CAddressBookDialogBase::OnButtonCancel, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //378
+CAddressBookDialogBase::OnButtonCopy, //0, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20100220, //src/uibase.h, //374
+CAddressBookDialogBase::OnButtonDelete, //0, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20100220, //src/uibase.h, //373
+CAddressBookDialogBase::OnButtonEdit, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //375
+CAddressBookDialogBase::OnButtonNew, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //376
+CAddressBookDialogBase::OnButtonOK, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //377
+CAddressBookDialogBase::OnClose, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //368
+CAddressBookDialogBase::OnListEndLabelEdit, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //370
+CAddressBookDialogBase::OnListItemActivated, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //371
+CAddressBookDialogBase::OnListItemSelected, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //372
+CAddressBookDialogBase::OnNotebookPageChanged, //0, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20100220, //src/uibase.h, //369
+CGetTextFromUserDialogBase::OnButtonCancel, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //411
+CGetTextFromUserDialogBase::OnButtonOK, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //410
+CGetTextFromUserDialogBase::OnClose, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //408
+CGetTextFromUserDialogBase::OnKeyDown, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //409
+CMainFrameBase::OnButtonAddressBook, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //104
+CMainFrameBase::OnButtonCopy, //0, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20100215, //src/uibase.h, //109
+CMainFrameBase::OnButtonNew, //0, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20100220, //src/uibase.h, //108
+CMainFrameBase::OnButtonSend, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //103
+CMainFrameBase::OnClose, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //94
+CMainFrameBase::OnIconize, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090924, //src/uibase.h, //95
+CMainFrameBase::OnIdle, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //96
+CMainFrameBase::OnKeyDown, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //105
+CMainFrameBase::OnListColBeginDrag, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //111
+CMainFrameBase::OnListItemActivated, //0, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20100203, //src/uibase.h, //112
+CMainFrameBase::OnMenuFileExit, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //99
+CMainFrameBase::OnMenuHelpAbout, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //102
+CMainFrameBase::OnMenuOptionsChangeYourAddress, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //100
+CMainFrameBase::OnMenuOptionsOptions, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //101
+CMainFrameBase::OnMouseEvents, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //97
+CMainFrameBase::OnMouseEventsAddress, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //106
+CMainFrameBase::OnNotebookPageChanged, //0, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20100221, //src/uibase.h, //110
+CMainFrameBase::OnPaint, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //98
+CMainFrameBase::OnPaintListCtrl, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //113
+CMainFrameBase::OnSetFocusAddress, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //107
+COptionsDialogBase::OnButtonApply, //0, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20091021, //src/uibase.h, //194
+COptionsDialogBase::OnButtonCancel, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //193
+COptionsDialogBase::OnButtonOK, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //192
+COptionsDialogBase::OnCheckBoxMinimizeToTray, //0, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20091021, //src/uibase.h, //188
+COptionsDialogBase::OnCheckBoxUseProxy, //0, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20091029, //src/uibase.h, //189
+COptionsDialogBase::OnKillFocusProxy, //0, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20091029, //src/uibase.h, //190
+COptionsDialogBase::OnKillFocusTransactionFee, //0, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20101121, //src/uibase.h, //191
+COptionsDialogBase::OnListBox, //0, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20091021, //src/uibase.h, //187
+CSendDialogBase::OnButtonAddressBook, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //264
+CSendDialogBase::OnButtonCancel, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //267
+CSendDialogBase::OnButtonPaste, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //263
+CSendDialogBase::OnButtonSend, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //266
+CSendDialogBase::OnKeyDown, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //261
+CSendDialogBase::OnKillFocusAmount, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //265
+CSendDialogBase::OnTextAddress, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //262
+CSendingDialogBase::OnButtonCancel, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //295
+CSendingDialogBase::OnButtonOK, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //294
+CSendingDialogBase::OnClose, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //292
+CSendingDialogBase::OnPaint, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //293
+CTxDetailsDialogBase::OnButtonOK, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //142
+CYourAddressDialogBase::OnButtonCancel, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //332
+CYourAddressDialogBase::OnButtonCopy, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //330
+CYourAddressDialogBase::OnButtonNew, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //329
+CYourAddressDialogBase::OnButtonOK, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //331
+CYourAddressDialogBase::OnButtonRename, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //328
+CYourAddressDialogBase::OnClose, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //324
+CYourAddressDialogBase::OnListEndLabelEdit, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //325
+CYourAddressDialogBase::OnListItemActivated, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //326
+CYourAddressDialogBase::OnListItemSelected, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uibase.h, //327

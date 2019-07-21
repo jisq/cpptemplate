@@ -1,0 +1,20 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+fs::event_callback_t::set_replaying_history, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/io/src/events.h, //11
+simple_clipboard_t::empty, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/editor/src/clipboard.cc, //24
+base_t::close_document, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Applications/TextMate/src/RMateServer.cc, //263
+base_t::save_document, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Applications/TextMate/src/RMateServer.cc, //262
+socket_callback_t::helper_t::operator(), //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Applications/TextMate/src/RMateServer.cc, //85
+document::open_callback_t::show_content, //0, //Allan Odgaard, //git@abetarda.com, //20130512, //Frameworks/document/src/document.h, //31
+document::open_callback_t::show_error, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/document/src/document.h, //34
+document::save_callback_t::did_save, //0, //Allan Odgaard, //git@abetarda.com, //20130512, //Frameworks/document/src/document.h, //43
+macro_clipboard_t::empty, //0, //Allan Odgaard, //git@abetarda.com, //20140220, //Frameworks/editor/src/dispatch.cc, //13
+find::find_implementation_t::set_skip_first, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/regexp/src/find.cc, //44
+find::find_implementation_t::set_skip_last, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/regexp/src/find.cc, //45
+parse_braces_t::parse, //0, //Allan Odgaard, //git@abetarda.com, //20140419, //Frameworks/regexp/src/parse_glob.cc, //182
+parse_braces_t::parse_escape, //0, //Allan Odgaard, //git@abetarda.com, //20140419, //Frameworks/regexp/src/parse_glob.cc, //203
+parse_glob_t::parse, //0, //Allan Odgaard, //git@abetarda.com, //20140419, //Frameworks/regexp/src/parse_glob.cc, //226
+parse_glob_t::parse_escape, //0, //Allan Odgaard, //git@abetarda.com, //20140417, //Frameworks/regexp/src/parse_glob.cc, //251
+file_context_t::set_create_parent, //0, //Allan Odgaard, //git@abetarda.com, //20131214, //Frameworks/file/src/save.cc, //36
+file_context_t::set_make_writable, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/file/src/save.cc, //35

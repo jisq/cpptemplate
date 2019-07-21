@@ -1,0 +1,261 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+AstScope::addDeclaration, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010315, //idlc/source/astscope.cxx, //97
+FeInheritanceHeader::initializeInherits, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010315, //idlc/source/fehelper.cxx, //142
+FeInterfaceHeader::initializeInherits, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010315, //idlc/source/fehelper.cxx, //169
+AstStruct::dump, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010315, //idlc/source/aststruct.cxx, //91
+AstUnion::addDeclaration, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010315, //idlc/source/astunion.cxx, //135
+AstUnion::dump, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010315, //idlc/source/astunion.cxx, //307
+RdbOptions::initOptions, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //rdbmaker/source/rdbmaker/rdboptions.cxx, //67
+RdbOptions::prepareHelp, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //rdbmaker/source/rdbmaker/rdboptions.cxx, //367
+CorbaOptions::initOptions, //0, //ts, //ts@openoffice.org, //20001211, //codemaker/source/bonobowrappermaker/corbaoptions.cxx, //67
+CorbaOptions::prepareHelp, //0, //ts, //ts@openoffice.org, //20001211, //codemaker/source/bonobowrappermaker/corbaoptions.cxx, //260
+ListElement::Create_and_Add_NewElement, //0, //Nikolai Pretzell, //np@openoffice.org, //20010323, //xml2cmp/source/xcd/xmlelem.cxx, //186
+ListElement::Write2Html, //0, //Nikolai Pretzell, //np@openoffice.org, //20010323, //xml2cmp/source/xcd/xmlelem.cxx, //177
+SglTextElement::Data, //0, //Nikolai Pretzell, //np@openoffice.org, //20010323, //xml2cmp/source/xcd/xmlelem.hxx, //204
+SglTextElement::Write2Html, //0, //Nikolai Pretzell, //np@openoffice.org, //20010323, //xml2cmp/source/xcd/xmlelem.cxx, //217
+XmlElement::Insert2Index, //0, //Nikolai Pretzell, //np@openoffice.org, //20010323, //xml2cmp/source/xcd/xmlelem.cxx, //79
+CdName::Write2Html, //0, //Nikolai Pretzell, //np@openoffice.org, //20010323, //xml2cmp/source/xcd/xmltree.cxx, //236
+CompDescrList::Create_and_Add_NewElement, //0, //Nikolai Pretzell, //np@openoffice.org, //20010323, //xml2cmp/source/xcd/xmltree.cxx, //181
+CompDescrList::Write2Html, //0, //Nikolai Pretzell, //np@openoffice.org, //20010323, //xml2cmp/source/xcd/xmltree.cxx, //173
+MdName::Write2Html, //0, //Nikolai Pretzell, //np@openoffice.org, //20010323, //xml2cmp/source/xcd/xmltree.cxx, //225
+SupportedService::Insert2Index, //0, //Nikolai Pretzell, //np@openoffice.org, //20010323, //xml2cmp/source/xcd/xmltree.cxx, //247
+StructureType::dumpHFile, //0, //mm, //mm@openoffice.org, //20000921, //codemaker/source/idlmaker/idltype.cxx, //1259
+store::OStoreBTreeNodeObject::guard, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //store/source/stortree.cxx, //259
+store::OStoreBTreeNodeObject::split, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //store/source/stortree.cxx, //280
+store::OStoreBTreeNodeObject::swap, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //store/source/stortree.cxx, //248
+store::OStoreBTreeNodeObject::verify, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //store/source/stortree.cxx, //268
+store::OStoreBTreeRootObject::split, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //store/source/stortree.cxx, //578
+store::OStorePageBIOS::flush, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //store/source/storbase.cxx, //1685
+store::OStorePageBIOS::free, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //store/source/storbase.cxx, //1509
+store::OStorePageBIOS::load, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //store/source/storbase.cxx, //1574
+store::OStorePageBIOS::save, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //store/source/storbase.cxx, //1626
+store::OStorePageObject::guard, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //store/source/storbase.cxx, //265
+store::OStorePageObject::swap, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //store/source/storbase.cxx, //255
+store::OStorePageObject::verify, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //store/source/storbase.cxx, //273
+RegistryTypeManager::getSize, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/inc/codemaker/typemanager.hxx, //201
+io_stm::MemFIFO::getSize, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //io/source/stm/streamhelper.hxx, //170
+io_stm::MemFIFO::shrink, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //io/source/stm/streamhelper.hxx, //172
+RegistryTypeManager::getBase, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/inc/codemaker/typemanager.hxx, //199
+TypeManager::getBase, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/inc/codemaker/typemanager.hxx, //140
+StructureType::dumpHFile, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //2783
+EnumType::dumpHFile, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //3494
+SpecialTypeManager::getSize, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //rdbmaker/source/rdbmaker/specialtypemanager.hxx, //101
+SpecialTypeManager::getTypeClass, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //rdbmaker/source/rdbmaker/specialtypemanager.cxx, //127
+SpecialTypeManager::getTypeReader, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //rdbmaker/source/rdbmaker/specialtypemanager.cxx, //105
+SpecialTypeManager::init, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //rdbmaker/source/rdbmaker/specialtypemanager.cxx, //100
+SpecialTypeManager::isValidType, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //rdbmaker/source/rdbmaker/specialtypemanager.hxx, //96
+InterfaceType::checkInheritedMemberCount, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //2153
+ConstantsType::dump, //0, //mm, //mm@openoffice.org, //20000921, //codemaker/source/idlmaker/idltype.cxx, //1188
+RegistryTypeManager::getTypeKey, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/inc/codemaker/typemanager.hxx, //193
+IdlType::checkInheritedMemberCount, //0, //mm, //mm@openoffice.org, //20000921, //codemaker/source/idlmaker/idltype.cxx, //380
+IdlType::dump, //0, //mm, //mm@openoffice.org, //20000921, //codemaker/source/idlmaker/idltype.cxx, //102
+IdlType::dumpDefaultHIncludes, //0, //mm, //mm@openoffice.org, //20000921, //codemaker/source/idlmaker/idltype.cxx, //215
+IdlType::dumpDepIncludes, //0, //mm, //mm@openoffice.org, //20000921, //codemaker/source/idlmaker/idltype.cxx, //251
+IdlType::dumpDependedTypes, //0, //mm, //mm@openoffice.org, //20000921, //codemaker/source/idlmaker/idltype.cxx, //156
+IdlType::dumpHeaderDefine, //0, //mm, //mm@openoffice.org, //20000921, //codemaker/source/idlmaker/idltype.cxx, //191
+IdlType::dumpInclude, //0, //mm, //mm@openoffice.org, //20000921, //codemaker/source/idlmaker/idltype.cxx, //219
+IdlType::dumpNameSpace, //0, //mm, //mm@openoffice.org, //20000921, //codemaker/source/idlmaker/idltype.cxx, //320
+IdlType::dumpType, //0, //mm, //mm@openoffice.org, //20000921, //codemaker/source/idlmaker/idltype.cxx, //430
+IdlType::getInheritedMemberCount, //0, //mm, //mm@openoffice.org, //20000921, //codemaker/source/idlmaker/idltype.cxx, //419
+IdlType::getMemberCount, //0, //mm, //mm@openoffice.org, //20000921, //codemaker/source/idlmaker/idltype.cxx, //364
+ModuleType::dumpHFile, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //2559
+ModuleType::dump, //0, //mm, //mm@openoffice.org, //20000921, //codemaker/source/idlmaker/idltype.cxx, //1052
+ExceptionType::dumpHFile, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //3134
+CunoOptions::initOptions, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunooptions.cxx, //67
+CunoOptions::prepareHelp, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunooptions.cxx, //331
+store::OStorePageBIOS::close, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //store/source/storbase.cxx, //1645
+store::OStorePageBIOS::initialize, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //store/source/storbase.cxx, //953
+ConstantsType::dump, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //2746
+CunoType::checkInheritedMemberCount, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //903
+CunoType::dump, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //150
+CunoType::dumpCGetCunoType, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //721
+CunoType::dumpCloseExternC, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //543
+CunoType::dumpDefaultCIncludes, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //347
+CunoType::dumpDefaultHIncludes, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //331
+CunoType::dumpDepIncludes, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //401
+CunoType::dumpDependedTypes, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //263
+CunoType::dumpGetCunoType, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //587
+CunoType::dumpHeaderDefine, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //298
+CunoType::dumpInclude, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //354
+CunoType::dumpLGetCunoType, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //550
+CunoType::dumpOpenExternC, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //536
+CunoType::dumpType, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //1066
+CunoType::getInheritedMemberCount, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //942
+CunoType::getMemberCount, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //887
+EnumType::dumpCFile, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //3145
+EnumType::dumpCGetCunoType, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //3202
+TypeDefType::dumpHFile, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //3743
+EnumType::dumpGetCunoType, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //3156
+ExceptionType::dumpCFile, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //3050
+InterfaceType::dumpCFile, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //1688
+InterfaceType::dumpCGetCunoType, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //1972
+InterfaceType::dumpGetCunoType, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //1902
+ModuleType::dump, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //2546
+ModuleType::dumpCFile, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //2724
+StructureType::dumpCFile, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //2940
+TypeDefType::dumpCFile, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //3349
+TypeDefType::dumpCGetCunoType, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //3376
+TypeDefType::dumpGetCunoType, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //3362
+TypeDefType::dumpLGetCunoType, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //3380
+AstDeclaration::getRelativName, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010315, //idlc/inc/idlc/astdeclaration.hxx, //123
+ConstantsType::dumpFunctions, //0, //ts, //ts@openoffice.org, //20001211, //codemaker/source/bonobowrappermaker/corbatype.cxx, //2145
+CorbaType::checkInheritedMemberCount, //0, //ts, //ts@openoffice.org, //20001211, //codemaker/source/bonobowrappermaker/corbatype.cxx, //478
+CorbaType::dumpCorbaType, //0, //ts, //ts@openoffice.org, //20001211, //codemaker/source/bonobowrappermaker/corbatype.cxx, //898
+CorbaType::dumpNameSpace, //0, //ts, //ts@openoffice.org, //20001211, //codemaker/source/bonobowrappermaker/corbatype.cxx, //418
+CorbaType::dumpUnoType, //0, //ts, //ts@openoffice.org, //20001211, //codemaker/source/bonobowrappermaker/corbatype.cxx, //664
+CorbaType::getInheritedMemberCount, //0, //ts, //ts@openoffice.org, //20001211, //codemaker/source/bonobowrappermaker/corbatype.cxx, //515
+CorbaType::getMemberCount, //0, //ts, //ts@openoffice.org, //20001211, //codemaker/source/bonobowrappermaker/corbatype.cxx, //462
+CorbaType::printCorbaType, //0, //ts, //ts@openoffice.org, //20001211, //codemaker/source/bonobowrappermaker/corbatype.cxx, //672
+CorbaType::printUnoType, //0, //ts, //ts@openoffice.org, //20001211, //codemaker/source/bonobowrappermaker/corbatype.cxx, //609
+EnumType::dumpFunctions, //0, //ts, //ts@openoffice.org, //20001211, //codemaker/source/bonobowrappermaker/corbatype.cxx, //2563
+ExceptionType::dumpFunctions, //0, //ts, //ts@openoffice.org, //20001211, //codemaker/source/bonobowrappermaker/corbatype.cxx, //2368
+InterfaceType::dumpFunctions, //0, //ts, //ts@openoffice.org, //20001211, //codemaker/source/bonobowrappermaker/corbatype.cxx, //1747
+TypeManager::getTypeReader, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/inc/codemaker/typemanager.hxx, //134
+ModuleType::dumpFunctions, //0, //ts, //ts@openoffice.org, //20001211, //codemaker/source/bonobowrappermaker/corbatype.cxx, //2109
+StructureType::dumpFunctions, //0, //ts, //ts@openoffice.org, //20001211, //codemaker/source/bonobowrappermaker/corbatype.cxx, //2166
+TypeDefType::dumpFunctions, //0, //ts, //ts@openoffice.org, //20001211, //codemaker/source/bonobowrappermaker/corbatype.cxx, //2633
+store::OStoreDirectoryPageObject::guard, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //store/source/stordata.cxx, //910
+store::OStoreDirectoryPageObject::swap, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //store/source/stordata.cxx, //899
+store::OStoreDirectoryPageObject::verify, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //store/source/stordata.cxx, //919
+store::OStoreIndirectionPageObject::guard, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //store/source/stordata.cxx, //152
+store::OStoreIndirectionPageObject::swap, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //store/source/stordata.cxx, //141
+store::OStoreIndirectionPageObject::verify, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //store/source/stordata.cxx, //161
+JavaOptions::initOptions, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/javamaker/javaoptions.cxx, //67
+JavaOptions::prepareHelp, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/javamaker/javaoptions.cxx, //231
+InterfaceType::getMemberCount, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //2131
+TypeManager::isValidType, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/inc/codemaker/typemanager.hxx, //129
+TypeManager::setBase, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/inc/codemaker/typemanager.hxx, //139
+InterfaceType::checkInheritedMemberCount, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //2222
+InterfaceType::checkInheritedMemberCount, //0, //ts, //ts@openoffice.org, //20001211, //codemaker/source/bonobowrappermaker/corbatype.cxx, //2024
+InterfaceType::getInheritedMemberCount, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //2193
+DirectoryTraveller::visit, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //store/workben/t_store.cxx, //231
+AstDeclaration::dump, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010315, //idlc/source/astdeclaration.cxx, //197
+AstEnum::addDeclaration, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010315, //idlc/source/astenum.cxx, //153
+AstEnum::dump, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010315, //idlc/source/astenum.cxx, //102
+MultipleTextElement::Data, //0, //Nikolai Pretzell, //np@openoffice.org, //20010323, //xml2cmp/source/xcd/xmlelem.cxx, //244
+MultipleTextElement::Size, //0, //Nikolai Pretzell, //np@openoffice.org, //20010323, //xml2cmp/source/xcd/xmlelem.hxx, //224
+RegistryTypeManager::isValidType, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/inc/codemaker/typemanager.hxx, //191
+IdlOptions::initOptions, //0, //mm, //mm@openoffice.org, //20000921, //codemaker/source/idlmaker/idloptions.cxx, //67
+IdlOptions::prepareHelp, //0, //mm, //mm@openoffice.org, //20000921, //codemaker/source/idlmaker/idloptions.cxx, //251
+ConstantsType::dumpFile, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/javamaker/javatype.cxx, //1322
+EnumType::dumpFile, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/javamaker/javatype.cxx, //1737
+ExceptionType::dumpFile, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/javamaker/javatype.cxx, //1530
+InterfaceType::dumpFile, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/javamaker/javatype.cxx, //824
+JavaType::dump, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/javamaker/javatype.cxx, //103
+JavaType::dumpDepImports, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/javamaker/javatype.cxx, //176
+JavaType::dumpDependedTypes, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/javamaker/javatype.cxx, //126
+JavaType::dumpFile, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/javamaker/javatype.hxx, //174
+JavaType::dumpType, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/javamaker/javatype.cxx, //219
+ModuleType::dump, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/javamaker/javatype.cxx, //1235
+StructureType::dumpFile, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/javamaker/javatype.cxx, //1400
+TypeDefType::dump, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/javamaker/javatype.cxx, //1844
+FreeChoiceElement::Parse, //0, //Nikolai Pretzell, //np@openoffice.org, //20010323, //xml2cmp/source/xcd/xmlelem.cxx, //149
+FreeChoiceElement::Write2Html, //0, //Nikolai Pretzell, //np@openoffice.org, //20010323, //xml2cmp/source/xcd/xmlelem.cxx, //155
+ListElement::Parse, //0, //Nikolai Pretzell, //np@openoffice.org, //20010323, //xml2cmp/source/xcd/xmlelem.cxx, //171
+MultipleAttrElement::Parse, //0, //Nikolai Pretzell, //np@openoffice.org, //20010323, //xml2cmp/source/xcd/xmlelem.cxx, //290
+MultipleAttrElement::Write2Html, //0, //Nikolai Pretzell, //np@openoffice.org, //20010323, //xml2cmp/source/xcd/xmlelem.cxx, //296
+MultipleElement::FindChild, //0, //Nikolai Pretzell, //np@openoffice.org, //20010323, //xml2cmp/source/xcd/xmlelem.cxx, //85
+MultipleTextElement::Parse, //0, //Nikolai Pretzell, //np@openoffice.org, //20010323, //xml2cmp/source/xcd/xmlelem.cxx, //231
+MultipleTextElement::Write2Html, //0, //Nikolai Pretzell, //np@openoffice.org, //20010323, //xml2cmp/source/xcd/xmlelem.cxx, //237
+SequenceElement::Parse, //0, //Nikolai Pretzell, //np@openoffice.org, //20010323, //xml2cmp/source/xcd/xmlelem.cxx, //113
+SequenceElement::Write2Html, //0, //Nikolai Pretzell, //np@openoffice.org, //20010323, //xml2cmp/source/xcd/xmlelem.cxx, //119
+SglAttrElement::Parse, //0, //Nikolai Pretzell, //np@openoffice.org, //20010323, //xml2cmp/source/xcd/xmlelem.cxx, //266
+SglAttrElement::Write2Html, //0, //Nikolai Pretzell, //np@openoffice.org, //20010323, //xml2cmp/source/xcd/xmlelem.cxx, //272
+SglTextElement::Parse, //0, //Nikolai Pretzell, //np@openoffice.org, //20010323, //xml2cmp/source/xcd/xmlelem.cxx, //211
+InterfaceType::dumpHFile, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //1500
+CppuOptions::initOptions, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cppuoptions.cxx, //67
+CppuOptions::prepareHelp, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cppuoptions.cxx, //310
+InterfaceType::getInheritedMemberCount, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //2262
+RegistryTypeManager::getSize, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //rdbmaker/inc/codemaker/typemanager.hxx, //200
+RegistryTypeManager::init, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //rdbmaker/source/codemaker/typemanager.cxx, //143
+TypeManager::getTypeClass, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/inc/codemaker/typemanager.hxx, //136
+CNullLock::Lock, //0, //Tino Rachui, //tra@openoffice.org, //20000929, //sal/inc/systools/win32/SyncObjects.hxx, //117
+CNullLock::Unlock, //0, //Tino Rachui, //tra@openoffice.org, //20000929, //sal/inc/systools/win32/SyncObjects.hxx, //118
+ConstantsType::dump, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //2668
+CppuType::checkInheritedMemberCount, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //939
+CppuType::dump, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //149
+CppuType::dumpCGetCppuType, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //762
+CppuType::dumpDefaultHIncludes, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //325
+CppuType::dumpDefaultHxxIncludes, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //339
+CppuType::dumpDepIncludes, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //404
+CppuType::dumpDependedTypes, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //257
+CppuType::dumpGetCppuType, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //630
+CppuType::dumpHeaderDefine, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //292
+CppuType::dumpInclude, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //357
+CppuType::dumpLGetCppuType, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //593
+CppuType::dumpNameSpace, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //546
+CppuType::dumpType, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //1072
+CppuType::getInheritedMemberCount, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //978
+CppuType::getMemberCount, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //923
+EnumType::dumpCGetCppuType, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //3626
+EnumType::dumpGetCppuType, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //3580
+EnumType::dumpHxxFile, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //3562
+ExceptionType::dumpHxxFile, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //3235
+InterfaceType::dumpCGetCppuType, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //1929
+InterfaceType::dumpGetCppuType, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //1858
+InterfaceType::dumpHxxFile, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //1634
+ModuleType::dump, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //2449
+ModuleType::dumpHxxFile, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //2632
+StructureType::dumpHxxFile, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //2894
+TypeDefType::dumpCGetCppuType, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //3813
+TypeDefType::dumpGetCppuType, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //3799
+TypeDefType::dumpHxxFile, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //3780
+TypeDefType::dumpLGetCppuType, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/cppumaker/cpputype.cxx, //3899
+MyClassA::funcA, //0, //Joachim Lingner, //jl@openoffice.org, //20010423, //salhelper/test/rtti/samplelibrtti.cxx, //5
+MyClassA::funcB, //0, //Joachim Lingner, //jl@openoffice.org, //20010423, //salhelper/test/rtti/samplelibrtti.cxx, //10
+MyClassA::funcC, //0, //Joachim Lingner, //jl@openoffice.org, //20010423, //salhelper/test/rtti/samplelibrtti.cxx, //14
+MyClassA::funcD, //0, //Joachim Lingner, //jl@openoffice.org, //20010423, //salhelper/test/rtti/samplelibrtti.cxx, //18
+MyClassB::funcA, //0, //Joachim Lingner, //jl@openoffice.org, //20010423, //salhelper/test/rtti/samplelibrtti.cxx, //23
+MyClassB::funcB, //0, //Joachim Lingner, //jl@openoffice.org, //20010423, //salhelper/test/rtti/samplelibrtti.cxx, //29
+MyClassB::funcC, //0, //Joachim Lingner, //jl@openoffice.org, //20010423, //salhelper/test/rtti/samplelibrtti.cxx, //33
+MyClassB::funcD, //0, //Joachim Lingner, //jl@openoffice.org, //20010423, //salhelper/test/rtti/samplelibrtti.cxx, //37
+InterfaceType::getInheritedMemberCount, //0, //ts, //ts@openoffice.org, //20001211, //codemaker/source/bonobowrappermaker/corbatype.cxx, //2062
+EnumType::dumpHFile, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //3082
+StructureType::dumpHFile, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //2861
+RegistryTypeManager::setBase, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //rdbmaker/source/codemaker/typemanager.cxx, //271
+RegistryTypeManager::getBase, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //rdbmaker/inc/codemaker/typemanager.hxx, //198
+TypeManager::getBase, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //rdbmaker/inc/codemaker/typemanager.hxx, //140
+RegistryTypeManager::getTypeKey, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //rdbmaker/inc/codemaker/typemanager.hxx, //192
+TypeManager::getTypeReader, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //rdbmaker/inc/codemaker/typemanager.hxx, //134
+ExceptionType::dumpHFile, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //2971
+RegistryTypeManager::getTypeClass, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //rdbmaker/source/codemaker/typemanager.cxx, //233
+stoc_smgr::ORegistryServiceManager::queryServiceFactory, //0, //Daniel Boelzle, //dbo@openoffice.org, //20010510, //stoc/source/servicemanager/servicemanager.cxx, //1367
+stoc_smgr::OServiceManager::queryServiceFactory, //0, //Daniel Boelzle, //dbo@openoffice.org, //20010510, //stoc/source/servicemanager/servicemanager.cxx, //813
+InterfaceType::getInheritedMemberCount, //0, //mm, //mm@openoffice.org, //20000921, //codemaker/source/idlmaker/idltype.cxx, //1024
+TypeManager::isValidType, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //rdbmaker/inc/codemaker/typemanager.hxx, //129
+TypeManager::setBase, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //rdbmaker/inc/codemaker/typemanager.hxx, //139
+RegistryTypeManager::init, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/codemaker/typemanager.cxx, //179
+TypeManager::getTypeClass, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //rdbmaker/inc/codemaker/typemanager.hxx, //136
+AstService::dump, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010315, //idlc/source/astdump.cxx, //221
+TypeManager::init, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/inc/codemaker/typemanager.hxx, //124
+RegistryTypeManager::isValidType, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //rdbmaker/inc/codemaker/typemanager.hxx, //190
+OThread1::run, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //cppu/test/testthreadpool.cxx, //101
+AstOperation::addDeclaration, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010315, //idlc/source/astoperation.cxx, //183
+RegistryTypeManager::getTypeReader, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/codemaker/typemanager.cxx, //244
+ExceptionType::dumpHFile, //0, //mm, //mm@openoffice.org, //20000921, //codemaker/source/idlmaker/idltype.cxx, //1375
+ModuleType::dumpHFile, //0, //mm, //mm@openoffice.org, //20000921, //codemaker/source/idlmaker/idltype.cxx, //1114
+AstModule::dump, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010315, //idlc/source/astdump.cxx, //94
+TypeManager::getTypeKey, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/inc/codemaker/typemanager.hxx, //132
+InterfaceType::dumpHFile, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //1543
+RegistryTypeManager::getTypeReader, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //rdbmaker/source/codemaker/typemanager.cxx, //208
+TypeManager::getTypeKey, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //rdbmaker/inc/codemaker/typemanager.hxx, //132
+TypeManager::init, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //rdbmaker/inc/codemaker/typemanager.hxx, //124
+AstInterface::dump, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010315, //idlc/source/astinterface.cxx, //91
+AstTypeDef::dump, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010315, //idlc/source/astdump.cxx, //188
+TypeDefType::dumpHFile, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //3310
+InterfaceType::getMemberCount, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //2200
+ModuleType::dumpHFile, //0, //Juergen Schmidt, //jsc@openoffice.org, //20010417, //codemaker/source/cunomaker/cunotype.cxx, //2653
+RegistryTypeManager::getTypeClass, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/codemaker/typemanager.cxx, //269
+TypeManager::getSize, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //rdbmaker/inc/codemaker/typemanager.hxx, //142
+TypeManager::getSize, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/inc/codemaker/typemanager.hxx, //142
+TypeManager::init, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/inc/codemaker/typemanager.hxx, //126
+TypeManager::init, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //rdbmaker/inc/codemaker/typemanager.hxx, //126
+InterfaceType::getMemberCount, //0, //mm, //mm@openoffice.org, //20000921, //codemaker/source/idlmaker/idltype.cxx, //962
+InterfaceType::getMemberCount, //0, //ts, //ts@openoffice.org, //20001211, //codemaker/source/bonobowrappermaker/corbatype.cxx, //2002
+InterfaceType::dumpHFile, //0, //mm, //mm@openoffice.org, //20000921, //codemaker/source/idlmaker/idltype.cxx, //779
+EnumType::dumpHFile, //0, //mm, //mm@openoffice.org, //20000921, //codemaker/source/idlmaker/idltype.cxx, //1495
+RegistryTypeManager::setBase, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //codemaker/source/codemaker/typemanager.cxx, //307
+TypeDefType::dumpHFile, //0, //mm, //mm@openoffice.org, //20000921, //codemaker/source/idlmaker/idltype.cxx, //1572
+InterfaceType::checkInheritedMemberCount, //0, //mm, //mm@openoffice.org, //20000921, //codemaker/source/idlmaker/idltype.cxx, //984

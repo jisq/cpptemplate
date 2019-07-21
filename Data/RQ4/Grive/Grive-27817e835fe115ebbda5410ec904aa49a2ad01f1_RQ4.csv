@@ -1,0 +1,46 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+gr::log::DefaultLog::Log, //0, //Matchman Green, //match065@gmail.com, //20120513, //libgrive/src/util/log/DefaultLog.cc, //40
+gr::http::CurlAgent::Custom, //0, //Nestal Wan, //me@nestal.net, //20120610, //libgrive/src/http/CurlAgent.cc, //255
+gr::http::CurlAgent::Escape, //0, //Nestal Wan, //me@nestal.net, //20120610, //libgrive/src/http/CurlAgent.cc, //286
+gr::http::CurlAgent::Get, //0, //Nestal Wan, //me@nestal.net, //20120610, //libgrive/src/http/CurlAgent.cc, //219
+gr::http::CurlAgent::Post, //0, //Nestal Wan, //me@nestal.net, //20120610, //libgrive/src/http/CurlAgent.cc, //233
+gr::http::CurlAgent::Put, //0, //Nestal Wan, //me@nestal.net, //20120610, //libgrive/src/http/CurlAgent.cc, //175
+gr::http::CurlAgent::Put, //0, //Nestal Wan, //me@nestal.net, //20120717, //libgrive/src/http/CurlAgent.cc, //197
+gr::http::CurlAgent::RedirLocation, //0, //Nestal Wan, //me@nestal.net, //20120610, //libgrive/src/http/CurlAgent.cc, //281
+gr::http::CurlAgent::Unescape, //0, //Nestal Wan, //me@nestal.net, //20120610, //libgrive/src/http/CurlAgent.cc, //297
+gr::http::MockAgent::Escape, //0, //Nestal Wan, //me@nestal.net, //20120617, //libgrive/test/http/MockAgent.cc, //68
+gr::http::MockAgent::RedirLocation, //0, //Nestal Wan, //me@nestal.net, //20120617, //libgrive/test/http/MockAgent.cc, //63
+gr::http::MockAgent::Unescape, //0, //Nestal Wan, //me@nestal.net, //20120617, //libgrive/test/http/MockAgent.cc, //73
+gr::AuthAgent::Custom, //0, //Nestal Wan, //me@nestal.net, //20120720, //libgrive/src/protocol/AuthAgent.cc, //107
+gr::AuthAgent::Escape, //0, //Nestal Wan, //me@nestal.net, //20120720, //libgrive/src/protocol/AuthAgent.cc, //127
+gr::AuthAgent::Get, //0, //Nestal Wan, //me@nestal.net, //20120720, //libgrive/src/protocol/AuthAgent.cc, //78
+gr::AuthAgent::Post, //0, //Nestal Wan, //me@nestal.net, //20120720, //libgrive/src/protocol/AuthAgent.cc, //92
+gr::AuthAgent::Put, //0, //Nestal Wan, //me@nestal.net, //20120720, //libgrive/src/protocol/AuthAgent.cc, //48
+gr::AuthAgent::Put, //0, //Nestal Wan, //me@nestal.net, //20120720, //libgrive/src/protocol/AuthAgent.cc, //63
+gr::AuthAgent::RedirLocation, //0, //Nestal Wan, //me@nestal.net, //20120720, //libgrive/src/protocol/AuthAgent.cc, //122
+gr::AuthAgent::Unescape, //0, //Nestal Wan, //me@nestal.net, //20120720, //libgrive/src/protocol/AuthAgent.cc, //132
+gr::log::CommonLog::Enable, //0, //Nestal Wan, //me@nestal.net, //20120603, //libgrive/src/util/log/CommonLog.cc, //34
+gr::log::CommonLog::IsEnabled, //0, //Nestal Wan, //me@nestal.net, //20120603, //libgrive/src/util/log/CommonLog.cc, //44
+gr::log::CompositeLog::Log, //0, //Nestal Wan, //me@nestal.net, //20120603, //libgrive/src/util/log/CompositeLog.cc, //48
+gr::StringStream::Read, //0, //Nestal Wan, //me@nestal.net, //20130502, //libgrive/src/util/StringStream.cc, //41
+gr::StringStream::Write, //0, //Nestal Wan, //me@nestal.net, //20130502, //libgrive/src/util/StringStream.cc, //50
+gr::Exception::what, //0, //Nestal Wan, //me@nestal.net, //20130428, //libgrive/src/util/Exception.cc, //42
+gr::http::ResponseLog::Read, //0, //Nestal Wan, //me@nestal.net, //20130429, //libgrive/src/http/ResponseLog.cc, //57
+gr::http::ResponseLog::Write, //0, //Nestal Wan, //me@nestal.net, //20130429, //libgrive/src/http/ResponseLog.cc, //46
+gr::http::Download::Read, //0, //Nestal Wan, //me@nestal.net, //20130429, //libgrive/src/http/Download.cc, //79
+gr::http::Download::Write, //0, //Nestal Wan, //me@nestal.net, //20130429, //libgrive/src/http/Download.cc, //68
+gr::File::Read, //0, //Nestal Wan, //me@nestal.net, //20130428, //libgrive/src/util/File.cc, //167
+gr::File::Write, //0, //Nestal Wan, //me@nestal.net, //20130428, //libgrive/src/util/File.cc, //182
+gr::StdStream::Read, //0, //Nestal Wan, //me@nestal.net, //20130502, //libgrive/src/util/StdStream.cc, //32
+gr::StdStream::Write, //0, //Nestal Wan, //me@nestal.net, //20130502, //libgrive/src/util/StdStream.cc, //37
+gr::http::StringResponse::Read, //0, //Nestal Wan, //me@nestal.net, //20130429, //libgrive/src/http/StringResponse.cc, //39
+gr::http::StringResponse::Write, //0, //Nestal Wan, //me@nestal.net, //20130429, //libgrive/src/http/StringResponse.cc, //33
+gr::http::XmlResponse::Read, //0, //Nestal Wan, //me@nestal.net, //20130429, //libgrive/src/http/XmlResponse.cc, //37
+gr::http::XmlResponse::Write, //0, //Nestal Wan, //me@nestal.net, //20130429, //libgrive/src/http/XmlResponse.cc, //31
+gr::http::JsonResponse::Read, //0, //Nestal Wan, //me@nestal.net, //20130429, //libgrive/src/protocol/JsonResponse.cc, //35
+gr::http::JsonResponse::Write, //0, //Nestal Wan, //me@nestal.net, //20130429, //libgrive/src/protocol/JsonResponse.cc, //30
+gr::MockLog::Enable, //0, //Nestal Wan, //me@nestal.net, //20120603, //libgrive/src/util/log/Log.cc, //33
+gr::MockLog::IsEnabled, //0, //Nestal Wan, //me@nestal.net, //20120603, //libgrive/src/util/log/Log.cc, //37
+gr::MockLog::Log, //0, //Matchman Green, //match065@gmail.com, //20120513, //libgrive/src/util/log/Log.cc, //29

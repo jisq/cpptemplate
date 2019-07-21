@@ -1,0 +1,24 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+CBasicKeyStore::AddCScript, //0, //Gavin Andresen, //gavinandresen@gmail.com, //20120104, //src/keystore.cpp, //29
+CBasicKeyStore::AddKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20110625, //src/keystore.cpp, //18
+CBasicKeyStore::GetCScript, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //49
+CBasicKeyStore::GetKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.h, //81
+CBasicKeyStore::HaveCScript, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //38
+CCryptoKeyStore::AddCryptedKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //143
+CCryptoKeyStore::AddKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20110625, //src/keystore.cpp, //120
+CCryptoKeyStore::GetKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //155
+CCryptoKeyStore::GetPubKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //180
+CKeyStore::GetPubKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //9
+CWallet::AddKey, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110626, //src/wallet.cpp, //46
+CBasicKeyStore::GetKeys, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.h, //68
+CBasicKeyStore::HaveKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.h, //59
+CCryptoKeyStore::GetKeys, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.h, //162
+CCryptoKeyStore::HaveKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.h, //150
+CKeyStore::GetSecret, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.h, //37
+CWallet::AddCScript, //0, //Gavin Andresen, //gavinandresen@gmail.com, //20120104, //src/wallet.cpp, //73
+CWallet::AddCryptedKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/wallet.cpp, //57
+std::bad_alloc::what, //0, //cpp, //, //, //src/compat/glibcxx_compat.cpp, //26
+std::bad_cast::what, //0, //cpp, //, //, //src/compat/glibcxx_compat.cpp, //21
+std::bad_exception::what, //0, //cpp, //, //, //src/compat/glibcxx_compat.cpp, //16

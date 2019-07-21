@@ -1,0 +1,59 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+ModList::deleteMod, //0, //Petr Mrázek, //peterix@gmail.com, //20130821, //logic/ModList.cpp, //230
+ModList::deleteMods, //0, //Petr Mrázek, //peterix@gmail.com, //20130821, //logic/ModList.cpp, //247
+ModList::isValid, //0, //Petr Mrázek, //peterix@gmail.com, //20130814, //logic/ModList.cpp, //164
+ModList::moveModDown, //0, //Petr Mrázek, //peterix@gmail.com, //20130821, //logic/ModList.cpp, //303
+ModList::moveModTo, //0, //Petr Mrázek, //peterix@gmail.com, //20130821, //logic/ModList.cpp, //263
+ModList::moveModUp, //0, //Petr Mrázek, //peterix@gmail.com, //20130821, //logic/ModList.cpp, //282
+ModList::moveModsDown, //0, //Petr Mrázek, //peterix@gmail.com, //20130821, //logic/ModList.cpp, //312
+ModList::moveModsUp, //0, //Petr Mrázek, //peterix@gmail.com, //20130821, //logic/ModList.cpp, //289
+ModList::rowCount, //0, //Petr Mrázek, //peterix@gmail.com, //20130817, //logic/ModList.h, //33
+ModList::update, //0, //Petr Mrázek, //peterix@gmail.com, //20130814, //logic/ModList.cpp, //57
+CacheDownload::downloadFinished, //0, //Petr Mrázek, //peterix@gmail.com, //20130908, //logic/net/CacheDownload.cpp, //61
+CacheDownload::downloadReadyRead, //0, //Petr Mrázek, //peterix@gmail.com, //20130908, //logic/net/CacheDownload.cpp, //109
+java::element_value_annotation::toString, //0, //Petr Mrázek, //peterix@gmail.com, //20130111, //depends/classparser/src/annotations.h, //215
+java::element_value_array::toString, //0, //Petr Mrázek, //peterix@gmail.com, //20130111, //depends/classparser/src/annotations.h, //247
+java::element_value_class::toString, //0, //Petr Mrázek, //peterix@gmail.com, //20130111, //depends/classparser/src/annotations.h, //192
+java::element_value_enum::toString, //0, //Petr Mrázek, //peterix@gmail.com, //20130111, //depends/classparser/src/annotations.h, //162
+java::element_value_simple::toString, //0, //Petr Mrázek, //peterix@gmail.com, //20130111, //depends/classparser/src/annotations.h, //126
+ByteArrayDownload::downloadFinished, //0, //Petr Mrázek, //peterix@gmail.com, //20130908, //logic/net/ByteArrayDownload.cpp, //38
+ByteArrayDownload::downloadReadyRead, //0, //Petr Mrázek, //peterix@gmail.com, //20130908, //logic/net/ByteArrayDownload.cpp, //59
+ForgeVersionList::count, //0, //Petr Mrázek, //peterix@gmail.com, //20130916, //logic/lists/ForgeVersionList.cpp, //47
+ForgeVersionList::getLoadTask, //0, //Petr Mrázek, //peterix@gmail.com, //20130916, //logic/lists/ForgeVersionList.cpp, //32
+ForgeVersionList::isLoaded, //0, //Petr Mrázek, //peterix@gmail.com, //20130916, //logic/lists/ForgeVersionList.cpp, //37
+OneSixInstance::cleanupAfterRun, //0, //Petr Mrázek, //peterix@gmail.com, //20130805, //logic/OneSixInstance.cpp, //152
+OneSixInstance::doUpdate, //0, //Petr Mrázek, //peterix@gmail.com, //20130807, //logic/OneSixInstance.cpp, //23
+OneSixInstance::prepareForLaunch, //0, //Petr Mrázek, //peterix@gmail.com, //20130923, //logic/OneSixInstance.cpp, //86
+OneSixInstance::setShouldUpdate, //0, //Petr Mrázek, //peterix@gmail.com, //20130805, //logic/OneSixInstance.cpp, //200
+OneSixInstance::shouldUpdate, //0, //Petr Mrázek, //peterix@gmail.com, //20130805, //logic/OneSixInstance.cpp, //205
+OneSixUpdate::executeTask, //0, //Petr Mrázek, //peterix@gmail.com, //20130804, //logic/OneSixUpdate.cpp, //39
+FileDownload::downloadFinished, //0, //Petr Mrázek, //peterix@gmail.com, //20130908, //logic/net/FileDownload.cpp, //72
+FileDownload::downloadReadyRead, //0, //Petr Mrázek, //peterix@gmail.com, //20130908, //logic/net/FileDownload.cpp, //95
+Task::emitSucceeded, //0, //Petr Mrázek, //peterix@gmail.com, //20130809, //logic/tasks/Task.cpp, //61
+Task::isRunning, //0, //Petr Mrázek, //peterix@gmail.com, //20130805, //logic/tasks/Task.cpp, //68
+LegacyUpdate::executeTask, //0, //Petr Mrázek, //peterix@gmail.com, //20130807, //logic/LegacyUpdate.cpp, //16
+MinecraftVersionList::count, //0, //Andrew, //forkk@forkk.net, //20130503, //logic/lists/MinecraftVersionList.cpp, //58
+MinecraftVersionList::getLoadTask, //0, //Andrew, //forkk@forkk.net, //20130503, //logic/lists/MinecraftVersionList.cpp, //43
+MinecraftVersionList::isLoaded, //0, //Andrew, //forkk@forkk.net, //20130503, //logic/lists/MinecraftVersionList.cpp, //48
+MinecraftVersionList::sort, //0, //Andrew, //forkk@forkk.net, //20130503, //logic/lists/MinecraftVersionList.cpp, //70
+ImplicitRule::applies, //0, //Petr Mrázek, //peterix@gmail.com, //20130911, //logic/OneSixRule.h, //60
+OsRule::applies, //0, //Petr Mrázek, //peterix@gmail.com, //20130911, //logic/OneSixRule.h, //43
+LoginDialog::forgetCurrentUser, //0, //Petr Mrázek, //peterix@gmail.com, //20130326, //gui/logindialog.cpp, //86
+LWJGLVersionList::errored, //0, //Andrew, //forkk@forkk.net, //20130517, //logic/lists/LwjglVersionList.h, //70
+LWJGLVersionList::isLoading, //0, //Andrew, //forkk@forkk.net, //20130517, //logic/lists/LwjglVersionList.cpp, //76
+LWJGLVersionList::rowCount, //0, //Andrew, //forkk@forkk.net, //20130517, //logic/lists/LwjglVersionList.h, //66
+ForgeXzDownload::downloadFinished, //0, //Petr Mrázek, //peterix@gmail.com, //20130930, //logic/net/ForgeXzDownload.cpp, //63
+ForgeXzDownload::downloadReadyRead, //0, //Petr Mrázek, //peterix@gmail.com, //20130930, //logic/net/ForgeXzDownload.cpp, //96
+LoginTask::executeTask, //0, //Petr Mrázek, //peterix@gmail.com, //20130923, //logic/net/LoginTask.cpp, //34
+BaseInstance::settings, //0, //Petr Mrázek, //peterix@gmail.com, //20130803, //logic/BaseInstance.cpp, //140
+LegacyInstance::cleanupAfterRun, //0, //Petr Mrázek, //peterix@gmail.com, //20130828, //logic/LegacyInstance.cpp, //90
+LegacyInstance::doUpdate, //0, //Petr Mrázek, //peterix@gmail.com, //20130807, //logic/LegacyInstance.cpp, //27
+LegacyInstance::prepareForLaunch, //0, //Petr Mrázek, //peterix@gmail.com, //20130923, //logic/LegacyInstance.cpp, //32
+LegacyInstance::setShouldUpdate, //0, //Petr Mrázek, //peterix@gmail.com, //20130812, //logic/LegacyInstance.cpp, //300
+LegacyInstance::shouldUpdate, //0, //Petr Mrázek, //peterix@gmail.com, //20130803, //logic/LegacyInstance.cpp, //290
+VersionSelectDialog::exec, //0, //Andrew, //forkk@forkk.net, //20130328, //gui/versionselectdialog.cpp, //51
+StubKeyring::isValid, //0, //Orochimarufan, //orochimarufan.x3@gmail.com, //20130224, //depends/settings/src/stubkeyring.h, //36
+DownloadJob::getProgress, //0, //Petr Mrázek, //peterix@gmail.com, //20130918, //logic/net/DownloadJob.h, //43
+DownloadJob::isRunning, //0, //Petr Mrázek, //peterix@gmail.com, //20130918, //logic/net/DownloadJob.h, //52

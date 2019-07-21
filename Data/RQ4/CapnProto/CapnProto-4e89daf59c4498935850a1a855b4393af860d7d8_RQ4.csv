@@ -1,0 +1,16 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+kj::NullDisposer::disposeImpl, //0, //Kenton Varda, //kenton@sandstorm.io, //20131118, //c++/src/kj/memory.h, //92
+capnp::benchmark::capnp::CountingOutputStream::write, //0, //Kenton Varda, //kenton@sandstorm.io, //20130322, //c++/src/benchmark/capnproto-common.h, //48
+capnp::benchmark::capnp::CountingOutputStream::write, //0, //Kenton Varda, //kenton@sandstorm.io, //20130529, //c++/src/benchmark/capnproto-common.h, //53
+capnp::Persistent::Server::dispatchCall, //0, //Kenton Varda, //kenton@sandstorm.io, //20150104, //c++/src/capnp/persistent.capnp.h, //882
+capnp::Persistent::Server::save, //0, //Kenton Varda, //kenton@sandstorm.io, //20150104, //c++/src/capnp/persistent.capnp.h, //876
+capnp::RealmGateway::Server::dispatchCall, //0, //Kenton Varda, //kenton@sandstorm.io, //20150104, //c++/src/capnp/persistent.capnp.h, //1253
+capnp::RealmGateway::Server::export_, //0, //Kenton Varda, //kenton@sandstorm.io, //20150104, //c++/src/capnp/persistent.capnp.h, //1247
+capnp::RealmGateway::Server::import, //0, //Kenton Varda, //kenton@sandstorm.io, //20150104, //c++/src/capnp/persistent.capnp.h, //1235
+kj::std::StdInputStream::tryRead, //0, //Scott Purdy, //scott@fer.io, //20141113, //c++/src/kj/std/iostream.h, //72
+kj::std::StdOutputStream::write, //0, //Scott Purdy, //scott@fer.io, //20141113, //c++/src/kj/std/iostream.h, //45
+kj::std::StdOutputStream::write, //0, //Scott Purdy, //scott@fer.io, //20141113, //c++/src/kj/std/iostream.h, //51
+capnp::benchmark::OsException::what, //0, //Kenton Varda, //kenton@sandstorm.io, //20130326, //c++/src/benchmark/common.h, //148
+kj::AsyncIoStream::abortRead, //0, //Jason Paryani, //github@jparyani.com, //20150218, //c++/src/kj/async-io.h, //69

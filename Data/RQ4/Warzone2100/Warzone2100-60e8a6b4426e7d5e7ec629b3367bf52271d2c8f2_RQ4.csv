@@ -1,0 +1,34 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+CBTEditCommandLineInfo::ParseParam, //0, //Giel van Schijndel, //me@mortis.eu, //20080113, //tools/editworld/src/btedit.cpp, //45
+CBTEditApp::InitInstance, //0, //Giel van Schijndel, //me@mortis.eu, //20071226, //tools/editworld/src/btedit.cpp, //121
+Win::Error::what, //0, //Giel van Schijndel, //me@mortis.eu, //20080115, //tools/editworld/src/winapi.cpp, //61
+EditWorldApp::OnInit, //0, //Giel van Schijndel, //me@mortis.eu, //20071227, //tools/editworld/src/wxDialogs/main.cpp, //41
+WIDGET::clicked, //0, //Cyp, //cyp@wz2100.net, //20101220, //lib/widget/widgbase.h, //78
+W_FORM::clicked, //0, //Cyp, //cyp@wz2100.net, //20101220, //lib/widget/form.h, //38
+W_EDITBOX::clicked, //0, //Cyp, //cyp@wz2100.net, //20101220, //lib/widget/editbox.cpp, //462
+InfoDialog::OnInitDialog, //0, //Giel van Schijndel, //me@mortis.eu, //20071224, //tools/editworld/src/infodialog.cpp, //37
+PhysicsFileSystem::caseSensitive, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //53
+PhysicsFileSystem::close, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //54
+PhysicsFileSystem::extension, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //57
+PhysicsFileSystem::flush, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //60
+PhysicsFileSystem::isRelativePath, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //61
+PhysicsFileSystem::isSequential, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //62
+PhysicsFileSystem::mkdir, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110424, //lib/framework/wzfs.h, //63
+PhysicsFileSystem::open, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //96
+PhysicsFileSystem::remove, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110424, //lib/framework/wzfs.h, //66
+PhysicsFileSystem::rmdir, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110424, //lib/framework/wzfs.h, //67
+PhysicsFileSystem::seek, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //68
+PhysicsFileSystem::setFileName, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //91
+PhysicsFileSystem::supportsExtension, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //69
+W_SLIDER::clicked, //0, //Cyp, //cyp@wz2100.net, //20101220, //lib/widget/slider.h, //41
+CPlayerMap::OnInitDialog, //0, //Giel van Schijndel, //me@mortis.eu, //20070703, //tools/editworld/src/playermap.cpp, //68
+RevConfigFile::extractRevision, //0, //Giel van Schijndel, //me@mortis.eu, //20071105, //build_tools/autorevision/autorevision.cpp, //702
+RevFileParse::extractRevision, //0, //Giel van Schijndel, //me@mortis.eu, //20071104, //build_tools/autorevision/autorevision.cpp, //466
+RevGitQuery::extractRevision, //0, //Cyp, //cyp@wz2100.net, //20101007, //build_tools/autorevision/autorevision.cpp, //656
+RevGitSVNQuery::extractRevision, //0, //Giel van Schijndel, //me@mortis.eu, //20080328, //build_tools/autorevision/autorevision.cpp, //590
+RevSVNQuery::extractRevision, //0, //Giel van Schijndel, //me@mortis.eu, //20071104, //build_tools/autorevision/autorevision.cpp, //413
+RevSVNVersionQuery::extractRevision, //0, //Giel van Schijndel, //me@mortis.eu, //20071104, //build_tools/autorevision/autorevision.cpp, //360
+RevisionExtractor::extractRevision, //0, //Giel van Schijndel, //me@mortis.eu, //20071104, //build_tools/autorevision/autorevision.cpp, //159
+W_BUTTON::clicked, //0, //Cyp, //cyp@wz2100.net, //20101220, //lib/widget/button.h, //48

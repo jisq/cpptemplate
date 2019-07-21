@@ -1,0 +1,15 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+icinga::Object, //11, //Gunnar Beutner, //gunnar@beutner.name, //20120328, //base/object.h, //13
+
+virtual function, calls, developer, email, edit time, definition file path, line
+icinga::Socket::WantsToRead, //0, //Gunnar Beutner, //gunnar@beutner.name, //20120328, //base/socket.cpp, //78
+icinga::Socket::WantsToWrite, //0, //Gunnar Beutner, //gunnar@beutner.name, //20120328, //base/socket.cpp, //83
+icinga::JsonRpcClient::Start, //0, //Gunnar Beutner, //gunnar@beutner.name, //20120328, //jsonrpc/jsonrpcclient.cpp, //5
+icinga::TCPClient::Start, //0, //Gunnar Beutner, //gunnar@beutner.name, //20120328, //base/tcpclient.cpp, //11
+icinga::Socket::Start, //0, //Gunnar Beutner, //gunnar@beutner.name, //20120328, //base/socket.cpp, //21
+icinga::Socket::Stop, //0, //Gunnar Beutner, //gunnar@beutner.name, //20120328, //base/socket.cpp, //26
+icinga::TCPClient::WantsToRead, //0, //Gunnar Beutner, //gunnar@beutner.name, //20120328, //base/tcpclient.cpp, //86
+icinga::TCPClient::WantsToWrite, //0, //Gunnar Beutner, //gunnar@beutner.name, //20120328, //base/tcpclient.cpp, //91
+icinga::TCPServer::Start, //0, //Gunnar Beutner, //gunnar@beutner.name, //20120328, //base/tcpserver.cpp, //20
+icinga::TCPServer::WantsToRead, //0, //Gunnar Beutner, //gunnar@beutner.name, //20120328, //base/tcpserver.cpp, //53
+MyApplication::Main, //0, //Gunnar Beutner, //gunnar@beutner.name, //20120328, //miniapp/miniapp.cpp, //25

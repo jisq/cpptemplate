@@ -1,0 +1,169 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+openage::path::Node, //25, //J, //Jono4728@gmail.com, //20141119, //cpp/pathfinding/path.h, //83
+openage::TerrainObject, //77, //Jon0, //Jono4728@gmail.com, //20150327, //cpp/terrain/terrain_object.h, //83
+
+virtual function, calls, developer, email, edit time, definition file path, line
+openage::audio::InMemoryResource::get_data, //0, //Andre Kupka, //kupka@in.tum.de, //20150124, //cpp/audio/in_memory_resource.cpp, //21
+openage::BuldingProducer::id, //0, //Jon0, //Jono4728@gmail.com, //20150416, //cpp/unit/producer.cpp, //484
+openage::BuldingProducer::initialise, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/producer.cpp, //492
+openage::BuldingProducer::name, //0, //Jon0, //Jono4728@gmail.com, //20150416, //cpp/unit/producer.cpp, //488
+openage::BuldingProducer::place, //0, //Jon0, //Jono4728@gmail.com, //20150506, //cpp/unit/producer.cpp, //527
+openage::LivingProducer::initialise, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/producer.cpp, //377
+openage::LivingProducer::place, //0, //Jon0, //Jono4728@gmail.com, //20150506, //cpp/unit/producer.cpp, //434
+openage::MovableProducer::initialise, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/producer.cpp, //329
+openage::MovableProducer::place, //0, //Jon0, //Jono4728@gmail.com, //20150506, //cpp/unit/producer.cpp, //362
+openage::ObjectProducer::id, //0, //Jon0, //Jono4728@gmail.com, //20150416, //cpp/unit/producer.cpp, //138
+openage::ObjectProducer::initialise, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/producer.cpp, //146
+openage::ObjectProducer::name, //0, //Jon0, //Jono4728@gmail.com, //20150416, //cpp/unit/producer.cpp, //142
+openage::ObjectProducer::place, //0, //Jon0, //Jono4728@gmail.com, //20150506, //cpp/unit/producer.cpp, //224
+openage::ProjectileProducer::id, //0, //Jon0, //Jono4728@gmail.com, //20150416, //cpp/unit/producer.cpp, //651
+openage::ProjectileProducer::initialise, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/producer.cpp, //659
+openage::ProjectileProducer::name, //0, //Jon0, //Jono4728@gmail.com, //20150416, //cpp/unit/producer.cpp, //655
+openage::ProjectileProducer::place, //0, //Jon0, //Jono4728@gmail.com, //20150506, //cpp/unit/producer.cpp, //678
+openage::log::tests::TestLogSink::output_log_message, //0, //Michael Enßlin, //michael@ensslin.cc, //20150227, //cpp/log/test.cpp, //32
+openage::log::tests::TestLogSource::logsource_name, //0, //Michael Enßlin, //michael@ensslin.cc, //20150227, //cpp/log/test.cpp, //18
+openage::AttackAction::completed_in_range, //0, //Jon0, //Jono4728@gmail.com, //20150428, //cpp/unit/action.cpp, //841
+openage::AttackAction::update_in_range, //0, //Jon0, //Jono4728@gmail.com, //20150428, //cpp/unit/action.cpp, //828
+openage::BuildAction::update_in_range, //0, //Jon0, //Jono4728@gmail.com, //20150428, //cpp/unit/action.cpp, //684
+openage::ConvertAction::update_in_range, //0, //Jon0, //Jono4728@gmail.com, //20150428, //cpp/unit/action.cpp, //888
+openage::DeadAction::completed, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/action.cpp, //285
+openage::DeadAction::on_completion, //0, //Jon0, //Jono4728@gmail.com, //20150324, //cpp/unit/action.cpp, //281
+openage::DeadAction::update, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/action.cpp, //265
+openage::DecayAction::completed, //0, //Jon0, //Jono4728@gmail.com, //20150324, //cpp/unit/action.cpp, //250
+openage::DecayAction::on_completion, //0, //Jon0, //Jono4728@gmail.com, //20150324, //cpp/unit/action.cpp, //248
+openage::DecayAction::update, //0, //Jon0, //Jono4728@gmail.com, //20150324, //cpp/unit/action.cpp, //244
+openage::FoundationAction::completed, //0, //Jon0, //Jono4728@gmail.com, //20150416, //cpp/unit/action.cpp, //322
+openage::FoundationAction::on_completion, //0, //Jon0, //Jono4728@gmail.com, //20150416, //cpp/unit/action.cpp, //308
+openage::FoundationAction::update, //0, //Jon0, //Jono4728@gmail.com, //20150506, //cpp/unit/action.cpp, //302
+openage::GarrisonAction::update_in_range, //0, //Jon0, //Jono4728@gmail.com, //20150428, //cpp/unit/action.cpp, //587
+openage::GatherAction::update_in_range, //0, //Jon0, //Jono4728@gmail.com, //20150428, //cpp/unit/action.cpp, //738
+openage::IdleAction::completed, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/action.cpp, //378
+openage::IdleAction::on_completion, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/action.cpp, //376
+openage::IdleAction::update, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/action.cpp, //339
+openage::MoveAction::completed, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/action.cpp, //534
+openage::MoveAction::on_completion, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/action.cpp, //532
+openage::MoveAction::update, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/action.cpp, //433
+openage::ProjectileAction::completed, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/action.cpp, //961
+openage::ProjectileAction::on_completion, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/action.cpp, //959
+openage::ProjectileAction::update, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/action.cpp, //930
+openage::RepairAction::update_in_range, //0, //Jon0, //Jono4728@gmail.com, //20150428, //cpp/unit/action.cpp, //726
+openage::TargetAction::completed, //0, //Jon0, //Jono4728@gmail.com, //20150428, //cpp/unit/action.cpp, //194
+openage::TargetAction::on_completion, //0, //Jon0, //Jono4728@gmail.com, //20150501, //cpp/unit/action.cpp, //188
+openage::TargetAction::update, //0, //Jon0, //Jono4728@gmail.com, //20150428, //cpp/unit/action.cpp, //116
+openage::TrainAction::on_completion, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/action.cpp, //675
+openage::TrainAction::update, //0, //Jon0, //Jono4728@gmail.com, //20150326, //cpp/unit/action.cpp, //649
+openage::UngarrisonAction::on_completion, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/action.cpp, //639
+openage::UngarrisonAction::update, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/action.cpp, //605
+openage::Unit::logsource_name, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/unit.cpp, //244
+openage::NyanType::id, //0, //Jon0, //Jono4728@gmail.com, //20150416, //cpp/unit/unit_type.cpp, //47
+openage::NyanType::initialise, //0, //Jon0, //Jono4728@gmail.com, //20150416, //cpp/unit/unit_type.cpp, //55
+openage::NyanType::name, //0, //Jon0, //Jono4728@gmail.com, //20150416, //cpp/unit/unit_type.cpp, //51
+openage::NyanType::place, //0, //Jon0, //Jono4728@gmail.com, //20150506, //cpp/unit/unit_type.cpp, //78
+openage::log::FileSink::output_log_message, //0, //Michael Enßlin, //michael@ensslin.cc, //20150227, //cpp/log/file_logsink.cpp, //15
+openage::log::NamedLogSource::logsource_name, //0, //Michael Enßlin, //michael@ensslin.cc, //20150227, //cpp/log/named_logsource.cpp, //14
+openage::audio::DynamicResource::get_data, //0, //Andre Kupka, //kupka@in.tum.de, //20150124, //cpp/audio/dynamic_resource.cpp, //71
+openage::audio::DynamicResource::stop_using, //0, //Andre Kupka, //kupka@in.tum.de, //20150102, //cpp/audio/dynamic_resource.cpp, //59
+openage::audio::DynamicResource::use, //0, //Andre Kupka, //kupka@in.tum.de, //20150102, //cpp/audio/dynamic_resource.cpp, //36
+openage::audio::Resource::stop_using, //0, //Michael Enßlin, //michael@ensslin.cc, //20150227, //cpp/audio/resource.cpp, //34
+openage::audio::Resource::use, //0, //Michael Enßlin, //michael@ensslin.cc, //20150227, //cpp/audio/resource.cpp, //31
+openage::audio::OpusInMemoryLoader::get_resource, //0, //Andre Kupka, //kupka@in.tum.de, //20141231, //cpp/audio/opus_in_memory_loader.cpp, //27
+openage::util::Error::type_name, //0, //Michael Enßlin, //michael@ensslin.cc, //20150227, //cpp/util/error.cpp, //29
+openage::AttackAbility::can_invoke, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/ability.cpp, //218
+openage::AttackAbility::invoke, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/ability.cpp, //234
+openage::BuildAbility::can_invoke, //0, //Jon0, //Jono4728@gmail.com, //20150325, //cpp/unit/ability.cpp, //166
+openage::BuildAbility::invoke, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/ability.cpp, //176
+openage::GarrisonAbility::can_invoke, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/ability.cpp, //91
+openage::GarrisonAbility::invoke, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/ability.cpp, //109
+openage::GatherAbility::can_invoke, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/ability.cpp, //192
+openage::GatherAbility::invoke, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/ability.cpp, //203
+openage::MoveAbility::can_invoke, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/ability.cpp, //49
+openage::MoveAbility::invoke, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/ability.cpp, //61
+openage::TrainAbility::can_invoke, //0, //Jon0, //Jono4728@gmail.com, //20150326, //cpp/unit/ability.cpp, //145
+openage::TrainAbility::invoke, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/ability.cpp, //153
+openage::UngarrisonAbility::can_invoke, //0, //Jon0, //Jono4728@gmail.com, //20150326, //cpp/unit/ability.cpp, //122
+openage::UngarrisonAbility::invoke, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/ability.cpp, //130
+STDIOWrapper::read, //0, //Michael Enßlin, //michael@ensslin.cc, //20140823, //py/openage/convert/cabextract/lzxd/lzxd_test.cpp, //13
+STDIOWrapper::write, //0, //Michael Enßlin, //michael@ensslin.cc, //20140823, //py/openage/convert/cabextract/lzxd/lzxd_test.cpp, //17
+openage::console::Console::on_drawhud, //0, //Jonas Jelten, //jelten@in.tum.de, //20140811, //cpp/console/console.cpp, //94
+openage::console::Console::on_resize, //0, //Jonas Jelten, //jelten@in.tum.de, //20140811, //cpp/console/console.cpp, //122
+openage::console::Console::on_tick, //0, //Jonas Jelten, //jelten@in.tum.de, //20140811, //cpp/console/console.cpp, //84
+openage::GameMain::on_draw, //0, //Michael Enßlin, //michael@ensslin.cc, //20141014, //cpp/game_main.cpp, //540
+openage::GameMain::on_drawhud, //0, //Michael Enßlin, //michael@ensslin.cc, //20141014, //cpp/game_main.cpp, //582
+openage::GameMain::on_tick, //0, //Michael Enßlin, //michael@ensslin.cc, //20141014, //cpp/game_main.cpp, //533
+openage::Engine::on_resize, //0, //Jonas Jelten, //jelten@in.tum.de, //20140810, //cpp/engine.cpp, //183
+openage::UnitSelection::on_drawhud, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/selection.cpp, //21
+PyIOWrapper::read, //0, //Jonas Jelten, //jelten@in.tum.de, //20140823, //py/openage/convert/cabextract/lzxd/pyinterface.cpp, //26
+PyIOWrapper::write, //0, //Jonas Jelten, //jelten@in.tum.de, //20140823, //py/openage/convert/cabextract/lzxd/pyinterface.cpp, //48
+openage::UnitContainer::on_tick, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/unit_container.cpp, //125
+openage::audio::Resource::get_category, //0, //Andre Kupka, //kupka@in.tum.de, //20140323, //cpp/audio/resource.cpp, //21
+openage::audio::Resource::get_id, //0, //Andre Kupka, //kupka@in.tum.de, //20140323, //cpp/audio/resource.cpp, //26
+openage::log::StdOutSink::output_log_message, //0, //Michael Enßlin, //michael@ensslin.cc, //20150227, //cpp/log/stdout_logsink.cpp, //14
+openage::AttackAbility::type, //0, //Jonas Jelten, //jelten@in.tum.de, //20150322, //cpp/unit/ability.h, //214
+openage::BuildAbility::type, //0, //Jonas Jelten, //jelten@in.tum.de, //20150322, //cpp/unit/ability.h, //176
+openage::GarrisonAbility::type, //0, //Jonas Jelten, //jelten@in.tum.de, //20150322, //cpp/unit/ability.h, //119
+openage::GatherAbility::type, //0, //Jonas Jelten, //jelten@in.tum.de, //20150322, //cpp/unit/ability.h, //195
+openage::MoveAbility::type, //0, //Jonas Jelten, //jelten@in.tum.de, //20150322, //cpp/unit/ability.h, //100
+openage::TrainAbility::type, //0, //Jonas Jelten, //jelten@in.tum.de, //20150322, //cpp/unit/ability.h, //157
+openage::UngarrisonAbility::type, //0, //Jonas Jelten, //jelten@in.tum.de, //20150322, //cpp/unit/ability.h, //138
+openage::AttackAction::name, //0, //Jon0, //Jono4728@gmail.com, //20150324, //cpp/unit/action.h, //433
+openage::BuildAction::completed_in_range, //0, //Jon0, //Jono4728@gmail.com, //20150428, //cpp/unit/action.h, //380
+openage::BuildAction::name, //0, //Jon0, //Jono4728@gmail.com, //20150324, //cpp/unit/action.h, //381
+openage::ConvertAction::completed_in_range, //0, //Jon0, //Jono4728@gmail.com, //20150428, //cpp/unit/action.h, //458
+openage::ConvertAction::name, //0, //Jon0, //Jono4728@gmail.com, //20150324, //cpp/unit/action.h, //459
+openage::DeadAction::allow_control, //0, //Jon0, //Jono4728@gmail.com, //20150330, //cpp/unit/action.h, //213
+openage::DeadAction::allow_interupt, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/action.h, //212
+openage::DeadAction::name, //0, //Jon0, //Jono4728@gmail.com, //20150324, //cpp/unit/action.h, //214
+openage::DecayAction::allow_control, //0, //Jon0, //Jono4728@gmail.com, //20150330, //cpp/unit/action.h, //193
+openage::DecayAction::allow_interupt, //0, //Jon0, //Jono4728@gmail.com, //20150324, //cpp/unit/action.h, //192
+openage::DecayAction::name, //0, //Jon0, //Jono4728@gmail.com, //20150324, //cpp/unit/action.h, //194
+openage::FoundationAction::allow_control, //0, //Jon0, //Jono4728@gmail.com, //20150416, //cpp/unit/action.h, //234
+openage::FoundationAction::allow_interupt, //0, //Jon0, //Jono4728@gmail.com, //20150416, //cpp/unit/action.h, //233
+openage::FoundationAction::name, //0, //Jon0, //Jono4728@gmail.com, //20150416, //cpp/unit/action.h, //235
+openage::GarrisonAction::completed_in_range, //0, //Jon0, //Jono4728@gmail.com, //20150428, //cpp/unit/action.h, //323
+openage::GarrisonAction::name, //0, //Jon0, //Jono4728@gmail.com, //20150324, //cpp/unit/action.h, //324
+openage::GatherAction::completed_in_range, //0, //Jon0, //Jono4728@gmail.com, //20150428, //cpp/unit/action.h, //414
+openage::GatherAction::name, //0, //Jon0, //Jono4728@gmail.com, //20150324, //cpp/unit/action.h, //415
+openage::IdleAction::allow_control, //0, //Jon0, //Jono4728@gmail.com, //20150330, //cpp/unit/action.h, //254
+openage::IdleAction::allow_interupt, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/action.h, //253
+openage::IdleAction::name, //0, //Jon0, //Jono4728@gmail.com, //20150324, //cpp/unit/action.h, //255
+openage::MoveAction::allow_control, //0, //Jon0, //Jono4728@gmail.com, //20150330, //cpp/unit/action.h, //284
+openage::MoveAction::allow_interupt, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/action.h, //283
+openage::MoveAction::name, //0, //Jon0, //Jono4728@gmail.com, //20150324, //cpp/unit/action.h, //285
+openage::ProjectileAction::allow_control, //0, //Jon0, //Jono4728@gmail.com, //20150330, //cpp/unit/action.h, //478
+openage::ProjectileAction::allow_interupt, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/action.h, //477
+openage::ProjectileAction::name, //0, //Jon0, //Jono4728@gmail.com, //20150324, //cpp/unit/action.h, //479
+openage::RepairAction::completed_in_range, //0, //Jon0, //Jono4728@gmail.com, //20150428, //cpp/unit/action.h, //397
+openage::RepairAction::name, //0, //Jon0, //Jono4728@gmail.com, //20150324, //cpp/unit/action.h, //398
+openage::TargetAction::allow_control, //0, //Jon0, //Jono4728@gmail.com, //20150428, //cpp/unit/action.h, //153
+openage::TargetAction::allow_interupt, //0, //Jon0, //Jono4728@gmail.com, //20150428, //cpp/unit/action.h, //152
+openage::TrainAction::allow_control, //0, //Jon0, //Jono4728@gmail.com, //20150330, //cpp/unit/action.h, //362
+openage::TrainAction::allow_interupt, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/action.h, //361
+openage::TrainAction::completed, //0, //Jon0, //Jono4728@gmail.com, //20150326, //cpp/unit/action.h, //360
+openage::TrainAction::name, //0, //Jon0, //Jono4728@gmail.com, //20150326, //cpp/unit/action.h, //363
+openage::UngarrisonAction::allow_control, //0, //Jon0, //Jono4728@gmail.com, //20150330, //cpp/unit/action.h, //342
+openage::UngarrisonAction::allow_interupt, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/unit/action.h, //341
+openage::UngarrisonAction::completed, //0, //Jon0, //Jono4728@gmail.com, //20150326, //cpp/unit/action.h, //340
+openage::UngarrisonAction::name, //0, //Jon0, //Jono4728@gmail.com, //20150324, //cpp/unit/action.h, //343
+openage::RadialObject::contains, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/terrain/terrain_object.cpp, //385
+openage::RadialObject::from_edge, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/terrain/terrain_object.cpp, //376
+openage::RadialObject::get_range, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/terrain/terrain_object.cpp, //359
+openage::RadialObject::intersects, //0, //Jon0, //Jono4728@gmail.com, //20150327, //cpp/terrain/terrain_object.cpp, //389
+openage::RadialObject::min_axis, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/terrain/terrain_object.cpp, //399
+openage::RadialObject::on_edge, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/terrain/terrain_object.cpp, //380
+openage::SquareObject::contains, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/terrain/terrain_object.cpp, //306
+openage::SquareObject::from_edge, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/terrain/terrain_object.cpp, //282
+openage::SquareObject::get_range, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/terrain/terrain_object.cpp, //278
+openage::SquareObject::intersects, //0, //Jon0, //Jono4728@gmail.com, //20150327, //cpp/terrain/terrain_object.cpp, //317
+openage::SquareObject::min_axis, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/terrain/terrain_object.cpp, //341
+openage::SquareObject::on_edge, //0, //Jon0, //Jono4728@gmail.com, //20150321, //cpp/terrain/terrain_object.cpp, //295
+openage::Attribute::copy, //0, //Jon0, //Jono4728@gmail.com, //20150416, //cpp/unit/attribute.h, //121
+openage::Attribute::copy, //0, //Jon0, //Jono4728@gmail.com, //20150416, //cpp/unit/attribute.h, //136
+openage::Attribute::copy, //0, //Jon0, //Jono4728@gmail.com, //20150416, //cpp/unit/attribute.h, //157
+openage::Attribute::copy, //0, //Jon0, //Jono4728@gmail.com, //20150416, //cpp/unit/attribute.h, //181
+openage::Attribute::copy, //0, //Jon0, //Jono4728@gmail.com, //20150416, //cpp/unit/attribute.h, //195
+openage::Attribute::copy, //0, //Jon0, //Jono4728@gmail.com, //20150416, //cpp/unit/attribute.h, //210
+openage::Attribute::copy, //0, //Jon0, //Jono4728@gmail.com, //20150416, //cpp/unit/attribute.h, //228
+openage::Attribute::copy, //0, //Jon0, //Jono4728@gmail.com, //20150416, //cpp/unit/attribute.h, //255
+openage::Attribute::copy, //0, //Jon0, //Jono4728@gmail.com, //20150416, //cpp/unit/attribute.h, //275
+openage::Attribute::copy, //0, //Jon0, //Jono4728@gmail.com, //20150416, //cpp/unit/attribute.h, //294
+openage::audio::OpusDynamicLoader::load_chunk, //0, //Andre Kupka, //kupka@in.tum.de, //20150102, //cpp/audio/opus_dynamic_loader.cpp, //38

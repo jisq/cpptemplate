@@ -1,0 +1,33 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+pattern::constructContextMenu, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //src/tracks/pattern.cpp, //206
+pattern::length, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //src/tracks/pattern.cpp, //720
+trackContentObject::constructContextMenu, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/track.h, //113
+configManager::accept, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050927, //src/core/config_mgr.cpp, //507
+midiDummy::setupWidget::saveSettings, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/midi_dummy.h, //62
+playHandle::checkValidity, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/play_handle.h, //63
+KMultiTabBarButton::hideEvent, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //src/widgets/kmultitabbar.cpp, //421
+KMultiTabBarButton::showEvent, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //src/widgets/kmultitabbar.cpp, //427
+KMultiTabBarInternal::drawContents, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //src/widgets/kmultitabbar.cpp, //134
+KMultiTabBarTab::drawButton, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //src/widgets/kmultitabbar.cpp, //630
+KMultiTabBarTab::drawButtonLabel, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //src/widgets/kmultitabbar.cpp, //627
+KMultiTabBarTab::setIcon, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //src/widgets/kmultitabbar.cpp, //532
+trackContainer::fixedTCOs, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/track_container.h, //75
+songEditor::fixedTCOs, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/song_editor.h, //183
+trackContainer::updateAfterTrackAdd, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050927, //src/core/track_container.cpp, //264
+bbEditor::fixedTCOs, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/bb_editor.h, //67
+bbTCO::constructContextMenu, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //src/tracks/bb_track.cpp, //104
+bbTrack::trackType, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //src/tracks/bb_track.cpp, //344
+notePlayHandle::play, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050927, //src/core/note_play_handle.cpp, //77
+presetPreviewPlayHandle::done, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050927, //src/core/preset_preview_play_handle.cpp, //175
+presetPreviewPlayHandle::play, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050927, //src/core/preset_preview_play_handle.cpp, //167
+blindTrackContainer::fixedTCOs, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050927, //src/core/preset_preview_play_handle.cpp, //62
+notePlayHandle::checkValidity, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050927, //src/core/note_play_handle.cpp, //180
+notePlayHandle::done, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/note_play_handle.h, //56
+samplePlayHandle::done, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050927, //src/core/sample_play_handle.cpp, //94
+samplePlayHandle::play, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050927, //src/core/sample_play_handle.cpp, //67
+mixer::run, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050927, //src/core/mixer.cpp, //181
+audioDummy::setupWidget::saveSettings, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/audio_dummy.h, //62
+ledCheckBox::isOn, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050929, //include/led_checkbox.h, //62
+ledCheckBox::setOn, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050929, //include/led_checkbox.h, //70

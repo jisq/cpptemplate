@@ -1,0 +1,17 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+kj::std::StdInputStream::tryRead, //0, //Scott Purdy, //scott@fer.io, //20141113, //c++/ekam-provider/canonical/kj/std/iostream.h, //72
+kj::std::StdOutputStream::write, //0, //Scott Purdy, //scott@fer.io, //20141113, //c++/ekam-provider/canonical/kj/std/iostream.h, //45
+kj::std::StdOutputStream::write, //0, //Scott Purdy, //scott@fer.io, //20141113, //c++/ekam-provider/canonical/kj/std/iostream.h, //51
+capnp::benchmark::OsException::what, //0, //Kenton Varda, //kenton@sandstorm.io, //20130326, //c++/ekam-provider/canonical/benchmark/common.h, //148
+capnp::Persistent::Server::dispatchCall, //0, //Kenton Varda, //kenton@sandstorm.io, //20150104, //c++/ekam-provider/canonical/capnp/persistent.capnp.h, //892
+capnp::Persistent::Server::save, //0, //Kenton Varda, //kenton@sandstorm.io, //20150104, //c++/ekam-provider/canonical/capnp/persistent.capnp.h, //886
+capnp::RealmGateway::Server::dispatchCall, //0, //Kenton Varda, //kenton@sandstorm.io, //20150104, //c++/ekam-provider/canonical/capnp/persistent.capnp.h, //1263
+capnp::RealmGateway::Server::export_, //0, //Kenton Varda, //kenton@sandstorm.io, //20150104, //c++/ekam-provider/canonical/capnp/persistent.capnp.h, //1257
+capnp::RealmGateway::Server::import, //0, //Kenton Varda, //kenton@sandstorm.io, //20150104, //c++/ekam-provider/canonical/capnp/persistent.capnp.h, //1245
+capnp::VatNetwork::Connection::baseGetPeerVatId, //0, //Kenton Varda, //kenton@sandstorm.io, //20150506, //c++/ekam-provider/canonical/capnp/rpc.h, //396
+kj::AsyncIoStream::abortRead, //0, //Jason Paryani, //github@jparyani.com, //20150218, //c++/ekam-provider/canonical/kj/async-io.h, //69
+kj::NullDisposer::disposeImpl, //0, //Kenton Varda, //kenton@sandstorm.io, //20131118, //c++/ekam-provider/canonical/kj/memory.h, //92
+capnp::benchmark::capnp::CountingOutputStream::write, //0, //Kenton Varda, //kenton@sandstorm.io, //20130322, //c++/ekam-provider/canonical/benchmark/capnproto-common.h, //48
+capnp::benchmark::capnp::CountingOutputStream::write, //0, //Kenton Varda, //kenton@sandstorm.io, //20130529, //c++/ekam-provider/canonical/benchmark/capnproto-common.h, //53

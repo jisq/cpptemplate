@@ -1,0 +1,21 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+CPlayerMap::OnInitDialog, //0, //Giel van Schijndel, //me@mortis.eu, //20070703, //tools/editworld/src/playermap.cpp, //68
+EditWorldApp::OnInit, //0, //Giel van Schijndel, //me@mortis.eu, //20071227, //tools/editworld/src/wxDialogs/main.cpp, //41
+Win::Error::what, //0, //Giel van Schijndel, //me@mortis.eu, //20080115, //tools/editworld/src/winapi.cpp, //61
+InfoDialog::OnInitDialog, //0, //Giel van Schijndel, //me@mortis.eu, //20071224, //tools/editworld/src/infodialog.cpp, //37
+CBTEditCommandLineInfo::ParseParam, //0, //Giel van Schijndel, //me@mortis.eu, //20080113, //tools/editworld/src/btedit.cpp, //45
+CBTEditApp::InitInstance, //0, //Giel van Schijndel, //me@mortis.eu, //20071226, //tools/editworld/src/btedit.cpp, //121
+CAntTweakBarTextField::doFunction, //0, //Dennis Schridde, //devurandom@gmx.net, //20071224, //tools/pietoaster/gui.cpp, //27
+COpenFileDialog::doFunction, //0, //Dennis Schridde, //devurandom@gmx.net, //20071224, //tools/pietoaster/resmaster.cpp, //31
+CAddSubModelDialog::doFunction, //0, //Dennis Schridde, //devurandom@gmx.net, //20071224, //tools/pietoaster/pie_internal.cpp, //48
+CAddSubModelFileDialog::doFunction, //0, //Dennis Schridde, //devurandom@gmx.net, //20071224, //tools/pietoaster/pie_internal.cpp, //59
+CReadAnimFileDialog::doFunction, //0, //Dennis Schridde, //devurandom@gmx.net, //20071224, //tools/pietoaster/pie_internal.cpp, //70
+CWriteAnimFileDialog::doFunction, //0, //Dennis Schridde, //devurandom@gmx.net, //20071224, //tools/pietoaster/pie_internal.cpp, //86
+RevConfigFile::extractRevision, //0, //Giel van Schijndel, //me@mortis.eu, //20071105, //build_tools/autorevision/autorevision.cpp, //587
+RevFileParse::extractRevision, //0, //Giel van Schijndel, //me@mortis.eu, //20071104, //build_tools/autorevision/autorevision.cpp, //429
+RevGitSVNQuery::extractRevision, //0, //Giel van Schijndel, //me@mortis.eu, //20080328, //build_tools/autorevision/autorevision.cpp, //553
+RevSVNQuery::extractRevision, //0, //Giel van Schijndel, //me@mortis.eu, //20071104, //build_tools/autorevision/autorevision.cpp, //376
+RevSVNVersionQuery::extractRevision, //0, //Giel van Schijndel, //me@mortis.eu, //20071104, //build_tools/autorevision/autorevision.cpp, //316
+RevisionExtractor::extractRevision, //0, //Giel van Schijndel, //me@mortis.eu, //20071104, //build_tools/autorevision/autorevision.cpp, //141

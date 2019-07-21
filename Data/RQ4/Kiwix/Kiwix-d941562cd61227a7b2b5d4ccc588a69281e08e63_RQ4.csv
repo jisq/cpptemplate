@@ -1,0 +1,44 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+zim::InflateStreamBuf::overflow, //0, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/src/inflatestream.cpp, //68
+zim::InflateStreamBuf::sync, //0, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/src/inflatestream.cpp, //154
+zim::InflateStreamBuf::underflow, //0, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/src/inflatestream.cpp, //106
+zim::Bzip2StreamBuf::overflow, //0, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/src/bzip2stream.cpp, //63
+zim::Bzip2StreamBuf::sync, //0, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/src/bzip2stream.cpp, //107
+zim::Bzip2StreamBuf::underflow, //0, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/src/bzip2stream.cpp, //102
+MyHtmlParser::opening_tag, //0, //kelson42, //kelson42@user.sourceforge.net, //20091113, //src/common/kiwix/xapian/myhtmlparse.cc, //69
+MyHtmlParser::closing_tag, //0, //kelson42, //kelson42@user.sourceforge.net, //20091113, //src/common/kiwix/xapian/myhtmlparse.cc, //229
+HtmlParser::closing_tag, //0, //kelson42, //kelson42@user.sourceforge.net, //20091113, //src/common/kiwix/xapian/htmlparse.h, //43
+MyHtmlParser::opening_tag, //0, //kelson42, //kelson42@user.sourceforge.net, //20090523, //components/zimXapianIndexer/xapian/myhtmlparse.cc, //69
+MyHtmlParser::closing_tag, //0, //kelson42, //kelson42@user.sourceforge.net, //20090523, //components/zimXapianIndexer/xapian/myhtmlparse.cc, //229
+zim::ptrstreambuf::overflow, //0, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/src/ptrstream.cpp, //24
+zim::ptrstreambuf::sync, //0, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/src/ptrstream.cpp, //34
+zim::ptrstreambuf::underflow, //0, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/src/ptrstream.cpp, //29
+MyHtmlParser::process_text, //0, //kelson42, //kelson42@user.sourceforge.net, //20091113, //src/common/kiwix/xapian/myhtmlparse.cc, //49
+MyHtmlParser::opening_tag, //0, //kelson42, //kelson42@user.sourceforge.net, //20090214, //components/xapianAccessor/xapian/myhtmlparse.cc, //69
+MyHtmlParser::closing_tag, //0, //kelson42, //kelson42@user.sourceforge.net, //20090214, //components/xapianAccessor/xapian/myhtmlparse.cc, //229
+HtmlParser::parse_html, //0, //kelson42, //kelson42@user.sourceforge.net, //20090523, //components/zimXapianIndexer/xapian/htmlparse.cc, //167
+HtmlParser::opening_tag, //0, //kelson42, //kelson42@user.sourceforge.net, //20091113, //src/common/kiwix/xapian/htmlparse.h, //42
+HtmlParser::parse_html, //0, //kelson42, //kelson42@user.sourceforge.net, //20090214, //components/xapianAccessor/xapian/htmlparse.cc, //167
+HtmlParser::process_text, //0, //kelson42, //kelson42@user.sourceforge.net, //20091113, //src/common/kiwix/xapian/htmlparse.h, //41
+HtmlParser::process_text, //0, //kelson42, //kelson42@user.sourceforge.net, //20090523, //components/zimXapianIndexer/xapian/htmlparse.h, //41
+MyHtmlParser::process_text, //0, //kelson42, //kelson42@user.sourceforge.net, //20090214, //components/xapianAccessor/xapian/myhtmlparse.cc, //49
+zim::Bunzip2StreamBuf::overflow, //0, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/src/bunzip2stream.cpp, //67
+zim::Bunzip2StreamBuf::sync, //0, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/src/bunzip2stream.cpp, //153
+zim::Bunzip2StreamBuf::underflow, //0, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/src/bunzip2stream.cpp, //105
+HtmlParser::closing_tag, //0, //kelson42, //kelson42@user.sourceforge.net, //20090214, //components/xapianAccessor/xapian/htmlparse.h, //43
+zim::Ev::onData, //0, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/src/article.cpp, //101
+zim::Ev::onLink, //0, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/src/article.cpp, //129
+zim::Ev::onToken, //0, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/src/article.cpp, //106
+zim::RefCounted::addRef, //0, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/include/zim/refcounted.h, //51
+zim::RefCounted::release, //0, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/include/zim/refcounted.h, //52
+HtmlParser::opening_tag, //0, //kelson42, //kelson42@user.sourceforge.net, //20090214, //components/xapianAccessor/xapian/htmlparse.h, //42
+HtmlParser::parse_html, //0, //kelson42, //kelson42@user.sourceforge.net, //20091113, //src/common/kiwix/xapian/htmlparse.cc, //167
+HtmlParser::process_text, //0, //kelson42, //kelson42@user.sourceforge.net, //20090214, //components/xapianAccessor/xapian/htmlparse.h, //41
+zim::DeflateStreamBuf::overflow, //0, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/src/deflatestream.cpp, //71
+zim::DeflateStreamBuf::sync, //0, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/src/deflatestream.cpp, //115
+zim::DeflateStreamBuf::underflow, //0, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/src/deflatestream.cpp, //110
+HtmlParser::closing_tag, //0, //kelson42, //kelson42@user.sourceforge.net, //20090523, //components/zimXapianIndexer/xapian/htmlparse.h, //43
+HtmlParser::opening_tag, //0, //kelson42, //kelson42@user.sourceforge.net, //20090523, //components/zimXapianIndexer/xapian/htmlparse.h, //42
+MyHtmlParser::process_text, //0, //kelson42, //kelson42@user.sourceforge.net, //20090523, //components/zimXapianIndexer/xapian/myhtmlparse.cc, //49

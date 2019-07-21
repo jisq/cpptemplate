@@ -1,0 +1,68 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+TransactionSignatureChecker::VerifySignature, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20150127, //src/script/interpreter.cpp, //1061
+CachingTransactionSignatureChecker::VerifySignature, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20150127, //src/script/sigcache.cpp, //77
+CBasicKeyStore::AddKeyPubKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130501, //src/keystore.cpp, //26
+CBasicKeyStore::GetKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.h, //85
+CKeyStore::GetPubKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //13
+CCryptoKeyStore::AddCryptedKey, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20131130, //src/wallet/crypter.cpp, //223
+CCryptoKeyStore::AddKeyPubKey, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20131130, //src/wallet/crypter.cpp, //201
+CCryptoKeyStore::GetKey, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20131130, //src/wallet/crypter.cpp, //235
+CCryptoKeyStore::GetPubKey, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20131130, //src/wallet/crypter.cpp, //253
+CWallet::AddCScript, //0, //Gavin Andresen, //gavinandresen@gmail.com, //20120104, //src/wallet/wallet.cpp, //156
+CCoinsView::GetCoins, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/coins.cpp, //44
+CCoinsView::HaveCoins, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/coins.cpp, //45
+CCoinsViewBacked::GetCoins, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/coins.cpp, //52
+CCoinsViewBacked::HaveCoins, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/coins.cpp, //53
+CCoinsViewMemPool::GetCoins, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/txmempool.cpp, //406
+CCoinsViewMemPool::HaveCoins, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/txmempool.cpp, //418
+CValidationInterface::BlockChecked, //0, //Philip Kaufmann, //phil.kaufmann@t-online.de, //20150423, //src/validationinterface.h, //37
+submitblock_StateCatcher::BlockChecked, //0, //Luke Dashjr, //luke-jr+git@utopios.org, //20141020, //src/rpcmining.cpp, //600
+CBasicKeyStore::AddCScript, //0, //Gavin Andresen, //gavinandresen@gmail.com, //20120104, //src/keystore.cpp, //33
+CKeyStore::AddKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130501, //src/keystore.cpp, //22
+CCoinsView::GetBestBlock, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20141215, //src/coins.cpp, //46
+CCoinsView::GetStats, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/coins.cpp, //48
+CCoinsViewTest::GetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20140917, //src/test/coins_tests.cpp, //43
+CCoinsViewTest::GetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20140917, //src/test/coins_tests.cpp, //23
+CCoinsViewTest::GetStats, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20140917, //src/test/coins_tests.cpp, //60
+CCoinsViewTest::HaveCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20140917, //src/test/coins_tests.cpp, //37
+CBasicKeyStore::AddWatchOnly, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20140609, //src/keystore.cpp, //61
+CBasicKeyStore::RemoveWatchOnly, //0, //Cozz Lovan, //cozzlovan@yahoo.com, //20140726, //src/keystore.cpp, //68
+CValidationInterface::EraseFromWallet, //0, //Philip Kaufmann, //phil.kaufmann@t-online.de, //20150423, //src/validationinterface.h, //32
+CValidationInterface::ResendWalletTransactions, //0, //Philip Kaufmann, //phil.kaufmann@t-online.de, //20150423, //src/validationinterface.h, //36
+CValidationInterface::SetBestChain, //0, //Philip Kaufmann, //phil.kaufmann@t-online.de, //20150423, //src/validationinterface.h, //33
+CValidationInterface::SyncTransaction, //0, //Philip Kaufmann, //phil.kaufmann@t-online.de, //20150423, //src/validationinterface.h, //31
+CValidationInterface::UpdatedTransaction, //0, //Philip Kaufmann, //phil.kaufmann@t-online.de, //20150423, //src/validationinterface.h, //34
+CWallet::AddCryptedKey, //0, //Jeff Garzik, //jgarzik@bitpay.com, //20130610, //src/wallet/wallet.cpp, //120
+CWallet::AddKeyPubKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130620, //src/wallet/wallet.cpp, //98
+CWallet::AddWatchOnly, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20140609, //src/wallet/wallet.cpp, //181
+CWallet::EraseFromWallet, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131019, //src/wallet/wallet.cpp, //778
+CWallet::RemoveWatchOnly, //0, //Cozz Lovan, //cozzlovan@yahoo.com, //20140726, //src/wallet/wallet.cpp, //192
+CWallet::ResendWalletTransactions, //0, //Gavin Andresen, //gavinandresen@gmail.com, //20150323, //src/wallet/wallet.cpp, //1368
+CWallet::SetBestChain, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120415, //src/wallet/wallet.cpp, //277
+CWallet::SyncTransaction, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20140609, //src/wallet/wallet.cpp, //762
+CWallet::UpdatedTransaction, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20120505, //src/wallet/wallet.cpp, //2483
+CCoinsViewBacked::GetBestBlock, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/coins.cpp, //54
+CCoinsViewBacked::GetStats, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/coins.cpp, //57
+CCoinsViewCache::GetBestBlock, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/coins.cpp, //138
+CCoinsViewCache::GetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20140903, //src/coins.cpp, //90
+CCoinsViewCache::HaveCoins, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/coins.cpp, //129
+CBasicKeyStore::HaveKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.h, //63
+CCryptoKeyStore::GetKeys, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20131130, //src/wallet/crypter.h, //173
+CCryptoKeyStore::HaveKey, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20131130, //src/wallet/crypter.h, //161
+CBasicKeyStore::GetCScript, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //49
+CBasicKeyStore::HaveCScript, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //43
+CBasicKeyStore::HaveWatchOnly, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20140609, //src/keystore.cpp, //75
+CBasicKeyStore::HaveWatchOnly, //0, //Cozz Lovan, //cozzlovan@yahoo.com, //20140726, //src/keystore.cpp, //81
+CCoinsViewDB::GetBestBlock, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/txdb.cpp, //53
+CCoinsViewDB::GetCoins, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/txdb.cpp, //45
+CCoinsViewDB::GetStats, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/txdb.cpp, //103
+CCoinsViewDB::HaveCoins, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/txdb.cpp, //49
+TransactionSignatureCreator::Checker, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20141104, //src/script/sign.h, //42
+TransactionSignatureCreator::CreateSig, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20141104, //src/script/sign.cpp, //22
+CCoinsViewErrorCatcher::GetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20150108, //src/init.cpp, //119
+CValidationInterface::Inventory, //0, //Philip Kaufmann, //phil.kaufmann@t-online.de, //20150423, //src/validationinterface.h, //35
+BaseSignatureChecker::CheckSig, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20140914, //src/script/interpreter.h, //86
+TransactionSignatureChecker::CheckSig, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20150127, //src/script/interpreter.cpp, //1066
+CWallet::Inventory, //0, //Cory Fields, //cory-nospam-@coryfields.com, //20141218, //src/wallet/wallet.h, //673

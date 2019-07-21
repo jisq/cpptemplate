@@ -1,0 +1,59 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+CCryptoKeyStore::AddCryptedKey, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20131130, //src/crypter.cpp, //221
+CCryptoKeyStore::AddKeyPubKey, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20131130, //src/crypter.cpp, //199
+CBasicKeyStore::AddCScript, //0, //Gavin Andresen, //gavinandresen@gmail.com, //20120104, //src/keystore.cpp, //35
+CBasicKeyStore::AddWatchOnly, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20140609, //src/keystore.cpp, //63
+CWallet::AddCScript, //0, //Gavin Andresen, //gavinandresen@gmail.com, //20120104, //src/wallet.cpp, //136
+CWallet::AddCryptedKey, //0, //Jeff Garzik, //jgarzik@bitpay.com, //20130610, //src/wallet.cpp, //100
+CWallet::AddKeyPubKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130620, //src/wallet.cpp, //85
+CWallet::AddWatchOnly, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20140609, //src/wallet.cpp, //161
+CWallet::EraseFromWallet, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131019, //src/wallet.cpp, //672
+CWallet::ResendWalletTransactions, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110626, //src/wallet.cpp, //965
+CWallet::SetBestChain, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120415, //src/wallet.cpp, //243
+CWallet::SyncTransaction, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20140609, //src/wallet.cpp, //656
+CWallet::UpdatedTransaction, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20120505, //src/wallet.cpp, //2041
+CBasicKeyStore::AddKeyPubKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130501, //src/keystore.cpp, //28
+CBasicKeyStore::GetKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.h, //83
+CBasicKeyStore::GetKeys, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.h, //70
+CBasicKeyStore::HaveKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.h, //61
+CKeyStore::GetPubKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //15
+CCryptoKeyStore::GetKey, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20131130, //src/crypter.cpp, //233
+CCryptoKeyStore::GetKeys, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20131130, //src/crypter.h, //176
+CCryptoKeyStore::GetPubKey, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20131130, //src/crypter.cpp, //257
+CCryptoKeyStore::HaveKey, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20131130, //src/crypter.h, //164
+CCoinsViewBacked::GetCoins, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/coins.cpp, //65
+CCoinsViewBacked::HaveCoins, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/coins.cpp, //67
+CCoinsViewMemPool::GetCoins, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/txmempool.cpp, //635
+CCoinsViewMemPool::HaveCoins, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/txmempool.cpp, //647
+CWallet::Inventory, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110626, //src/wallet.h, //360
+std::bad_alloc::what, //0, //Cory Fields, //cory-nospam-@coryfields.com, //20140409, //src/compat/glibcxx_compat.cpp, //26
+std::bad_cast::what, //0, //Cory Fields, //cory-nospam-@coryfields.com, //20140409, //src/compat/glibcxx_compat.cpp, //21
+std::bad_exception::what, //0, //Cory Fields, //cory-nospam-@coryfields.com, //20140409, //src/compat/glibcxx_compat.cpp, //16
+CBasicKeyStore::GetCScript, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //51
+CBasicKeyStore::HaveCScript, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //45
+CBasicKeyStore::HaveWatchOnly, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20140609, //src/keystore.cpp, //70
+CBasicKeyStore::HaveWatchOnly, //0, //Cozz Lovan, //cozzlovan@yahoo.com, //20140726, //src/keystore.cpp, //76
+CKeyStore::AddKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130501, //src/keystore.cpp, //24
+CCoinsView::GetBestBlock, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/coins.cpp, //58
+CCoinsView::GetCoins, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/coins.cpp, //55
+CCoinsView::GetStats, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/coins.cpp, //61
+CCoinsView::HaveCoins, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/coins.cpp, //57
+CCoinsView::SetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.cpp, //59
+CCoinsView::SetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.cpp, //56
+CCoinsViewBacked::GetBestBlock, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/coins.cpp, //68
+CCoinsViewBacked::GetStats, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/coins.cpp, //72
+CCoinsViewBacked::SetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.cpp, //69
+CCoinsViewBacked::SetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.cpp, //66
+CCoinsViewCache::GetBestBlock, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/coins.cpp, //136
+CCoinsViewCache::GetCoins, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/coins.cpp, //78
+CCoinsViewCache::HaveCoins, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/coins.cpp, //127
+CCoinsViewCache::SetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.cpp, //142
+CCoinsViewCache::SetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.cpp, //122
+CCoinsViewDB::GetBestBlock, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/txdb.cpp, //46
+CCoinsViewDB::GetCoins, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/txdb.cpp, //32
+CCoinsViewDB::GetStats, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/txdb.cpp, //110
+CCoinsViewDB::HaveCoins, //0, //Daniel Kraft, //d@domob.eu, //20140719, //src/txdb.cpp, //42
+CCoinsViewDB::SetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/txdb.cpp, //53
+CCoinsViewDB::SetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130120, //src/txdb.cpp, //36

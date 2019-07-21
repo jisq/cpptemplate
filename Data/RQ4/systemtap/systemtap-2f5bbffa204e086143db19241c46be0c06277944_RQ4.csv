@@ -1,0 +1,621 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+derived_probe::getargs, //0, //Frank Ch. Eigler, //fche@redhat.com, //20110512, //elaborate.h, //151
+derived_probe::initialize_probe_context_vars, //0, //David Smith, //dsmith@redhat.com, //20070521, //elaborate.h, //162
+derived_probe::print_dupe_stamp, //0, //Josh Stone, //jistone@redhat.com, //20090406, //elaborate.h, //157
+derived_probe_builder::build_no_more, //0, //Frank Ch. Eigler, //fche@redhat.com, //20070225, //elaborate.h, //258
+update_visitor::visit_target_symbol, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2734
+mark_builder::build, //0, //Josh Stone, //jistone@redhat.com, //20090507, //tapset-mark.cxx, //597
+mark_builder::build_no_more, //0, //Josh Stone, //jistone@redhat.com, //20090507, //tapset-mark.cxx, //578
+mark_derived_probe::getargs, //0, //Nobuhiro Tachino, //tachino@jp.fujitsu.com, //20100202, //tapset-mark.cxx, //460
+mark_derived_probe::initialize_probe_context_vars, //0, //Josh Stone, //jistone@redhat.com, //20090507, //tapset-mark.cxx, //420
+mark_derived_probe::join_group, //0, //Josh Stone, //jistone@redhat.com, //20090507, //tapset-mark.cxx, //390
+mark_derived_probe::print_dupe_stamp, //0, //Josh Stone, //jistone@redhat.com, //20090507, //tapset-mark.cxx, //411
+mark_derived_probe_group::emit_module_decls, //0, //Josh Stone, //jistone@redhat.com, //20090507, //tapset-mark.cxx, //485
+mark_derived_probe_group::emit_module_exit, //0, //Josh Stone, //jistone@redhat.com, //20090507, //tapset-mark.cxx, //552
+mark_derived_probe_group::emit_module_init, //0, //Josh Stone, //jistone@redhat.com, //20090507, //tapset-mark.cxx, //530
+mark_var_expanding_visitor::visit_target_symbol, //0, //Josh Stone, //jistone@redhat.com, //20090507, //tapset-mark.cxx, //180
+derived_probe::collect_derivation_chain, //0, //Dave Brolley, //brolley@redhat.com, //20080213, //elaborate.cxx, //113
+derived_probe::printsig, //0, //Frank Ch. Eigler, //fche@redhat.com, //20070330, //elaborate.cxx, //79
+embeddedcode::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //972
+functiondecl::printsig, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //482
+probe::get_alias, //0, //Dave Brolley, //brolley@redhat.com, //20080213, //staptree.h, //719
+probe::get_alias_loc, //0, //Serguei Makarov, //smakarov@redhat.com, //20120628, //staptree.h, //720
+vardecl::printsig, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //454
+itrace_builder::build, //0, //Josh Stone, //jistone@redhat.com, //20090507, //tapset-itrace.cxx, //97
+itrace_derived_probe::join_group, //0, //Josh Stone, //jistone@redhat.com, //20090507, //tapset-itrace.cxx, //84
+itrace_derived_probe_group::emit_module_decls, //0, //Josh Stone, //jistone@redhat.com, //20090507, //tapset-itrace.cxx, //172
+itrace_derived_probe_group::emit_module_exit, //0, //Josh Stone, //jistone@redhat.com, //20090507, //tapset-itrace.cxx, //289
+itrace_derived_probe_group::emit_module_init, //0, //Josh Stone, //jistone@redhat.com, //20090507, //tapset-itrace.cxx, //256
+remote::handle_poll, //0, //Frank Ch. Eigler, //fche@redhat.com, //20110512, //remote.h, //28
+remote::prepare, //0, //Josh Stone, //jistone@redhat.com, //20110310, //remote.h, //23
+remote::prepare_poll, //0, //Frank Ch. Eigler, //fche@redhat.com, //20110512, //remote.h, //27
+derived_probe::emit_privilege_assertion, //0, //Dave Brolley, //brolley@redhat.com, //20111011, //elaborate.cxx, //170
+target_symbol::print, //0, //Josh Stone, //jistone@redhat.com, //20090731, //staptree.cxx, //399
+utrace_builder::build, //0, //Josh Stone, //jistone@redhat.com, //20090507, //tapset-utrace.cxx, //639
+utrace_derived_probe::emit_privilege_assertion, //0, //Dave Brolley, //brolley@redhat.com, //20111011, //tapset-utrace.cxx, //206
+utrace_derived_probe::getargs, //0, //Lukas Berk, //lberk@redhat.com, //20110525, //tapset-utrace.cxx, //246
+utrace_derived_probe::join_group, //0, //Josh Stone, //jistone@redhat.com, //20090507, //tapset-utrace.cxx, //193
+utrace_derived_probe::print_dupe_stamp, //0, //Dave Brolley, //brolley@redhat.com, //20091013, //tapset-utrace.cxx, //226
+utrace_derived_probe_group::emit_module_decls, //0, //Josh Stone, //jistone@redhat.com, //20090507, //tapset-utrace.cxx, //796
+utrace_derived_probe_group::emit_module_exit, //0, //Josh Stone, //jistone@redhat.com, //20090507, //tapset-utrace.cxx, //1074
+utrace_derived_probe_group::emit_module_init, //0, //Josh Stone, //jistone@redhat.com, //20090507, //tapset-utrace.cxx, //1051
+utrace_var_expanding_visitor::visit_target_symbol, //0, //Josh Stone, //jistone@redhat.com, //20090507, //tapset-utrace.cxx, //604
+array_in::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //342
+array_in::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1374
+arrayindex::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //494
+arrayindex::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1455
+assignment::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1398
+binary_expression::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //329
+binary_expression::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1328
+block::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //979
+block::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1233
+break_statement::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //1079
+break_statement::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050605, //staptree.cxx, //1304
+cast_op::print, //0, //Josh Stone, //jistone@redhat.com, //20090731, //staptree.cxx, //411
+cast_op::visit, //0, //Josh Stone, //jistone@redhat.com, //20090211, //staptree.cxx, //1434
+comparison::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1380
+concatenation::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1386
+continue_statement::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //1084
+continue_statement::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050605, //staptree.cxx, //1310
+deep_copy_visitor::visit_array_in, //0, //Graydon Hoare, //, //20050708, //staptree.cxx, //2960
+deep_copy_visitor::visit_arrayindex, //0, //Graydon Hoare, //, //20050708, //staptree.cxx, //3024
+deep_copy_visitor::visit_assignment, //0, //Graydon Hoare, //, //20050708, //staptree.cxx, //2984
+deep_copy_visitor::visit_binary_expression, //0, //Graydon Hoare, //, //20050708, //staptree.cxx, //2923
+deep_copy_visitor::visit_block, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2827
+deep_copy_visitor::visit_break_statement, //0, //Graydon Hoare, //, //20050708, //staptree.cxx, //2893
+deep_copy_visitor::visit_cast_op, //0, //Josh Stone, //jistone@redhat.com, //20090211, //staptree.cxx, //3006
+deep_copy_visitor::visit_comparison, //0, //Graydon Hoare, //, //20050708, //staptree.cxx, //2966
+deep_copy_visitor::visit_concatenation, //0, //Graydon Hoare, //, //20050708, //staptree.cxx, //2972
+deep_copy_visitor::visit_continue_statement, //0, //Graydon Hoare, //, //20050708, //staptree.cxx, //2899
+deep_copy_visitor::visit_defined_op, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100223, //staptree.cxx, //3012
+deep_copy_visitor::visit_delete_statement, //0, //Graydon Hoare, //, //20050708, //staptree.cxx, //2881
+deep_copy_visitor::visit_embedded_expr, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100504, //staptree.cxx, //2917
+deep_copy_visitor::visit_embeddedcode, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050726, //staptree.cxx, //2839
+deep_copy_visitor::visit_entry_op, //0, //Josh Stone, //jistone@redhat.com, //20100630, //staptree.cxx, //3018
+deep_copy_visitor::visit_expr_statement, //0, //Graydon Hoare, //, //20050708, //staptree.cxx, //2851
+deep_copy_visitor::visit_for_loop, //0, //Graydon Hoare, //, //20050708, //staptree.cxx, //2863
+deep_copy_visitor::visit_foreach_loop, //0, //Graydon Hoare, //, //20050708, //staptree.cxx, //2869
+deep_copy_visitor::visit_functioncall, //0, //Graydon Hoare, //, //20050708, //staptree.cxx, //3030
+deep_copy_visitor::visit_hist_op, //0, //Graydon Hoare, //, //20051114, //staptree.cxx, //3050
+deep_copy_visitor::visit_if_statement, //0, //Graydon Hoare, //, //20050708, //staptree.cxx, //2857
+deep_copy_visitor::visit_literal_number, //0, //Graydon Hoare, //, //20050708, //staptree.cxx, //2911
+deep_copy_visitor::visit_literal_string, //0, //Graydon Hoare, //, //20050708, //staptree.cxx, //2905
+deep_copy_visitor::visit_logical_and_expr, //0, //Graydon Hoare, //, //20050708, //staptree.cxx, //2954
+deep_copy_visitor::visit_logical_or_expr, //0, //Graydon Hoare, //, //20050708, //staptree.cxx, //2948
+deep_copy_visitor::visit_next_statement, //0, //Graydon Hoare, //, //20050708, //staptree.cxx, //2887
+deep_copy_visitor::visit_null_statement, //0, //Graydon Hoare, //, //20050708, //staptree.cxx, //2845
+deep_copy_visitor::visit_post_crement, //0, //Graydon Hoare, //, //20050708, //staptree.cxx, //2941
+deep_copy_visitor::visit_pre_crement, //0, //Graydon Hoare, //, //20050708, //staptree.cxx, //2935
+deep_copy_visitor::visit_print_format, //0, //Graydon Hoare, //, //20051114, //staptree.cxx, //3038
+deep_copy_visitor::visit_return_statement, //0, //Graydon Hoare, //, //20050708, //staptree.cxx, //2875
+deep_copy_visitor::visit_stat_op, //0, //Graydon Hoare, //, //20051114, //staptree.cxx, //3044
+deep_copy_visitor::visit_symbol, //0, //Graydon Hoare, //, //20050708, //staptree.cxx, //2990
+deep_copy_visitor::visit_target_symbol, //0, //Graydon Hoare, //, //20050810, //staptree.cxx, //2998
+deep_copy_visitor::visit_ternary_expression, //0, //Graydon Hoare, //, //20050708, //staptree.cxx, //2978
+deep_copy_visitor::visit_try_block, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100303, //staptree.cxx, //2833
+deep_copy_visitor::visit_unary_expression, //0, //Graydon Hoare, //, //20050708, //staptree.cxx, //2929
+defined_op::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100223, //staptree.cxx, //425
+defined_op::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100223, //staptree.cxx, //1441
+delete_statement::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //1069
+delete_statement::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1284
+embedded_expr::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100504, //staptree.cxx, //323
+embedded_expr::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100504, //staptree.cxx, //1334
+embeddedcode::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050726, //staptree.cxx, //1247
+entry_op::print, //0, //Josh Stone, //jistone@redhat.com, //20100630, //staptree.cxx, //431
+entry_op::visit, //0, //Josh Stone, //jistone@redhat.com, //20100630, //staptree.cxx, //1448
+expr_statement::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //1057
+expr_statement::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1272
+for_loop::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //1008
+for_loop::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1254
+foreach_loop::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //1021
+foreach_loop::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050602, //staptree.cxx, //1260
+functioncall::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //504
+functioncall::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1461
+functioncall_traversing_visitor::visit_functioncall, //0, //Frank Ch. Eigler, //fche@redhat.com, //20060124, //staptree.cxx, //1906
+functiondecl::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //472
+hist_op::get_tok, //0, //Graydon Hoare, //, //20051114, //staptree.cxx, //1578
+hist_op::is_const_hist_op, //0, //Graydon Hoare, //, //20051114, //staptree.cxx, //1571
+hist_op::is_hist_op, //0, //Graydon Hoare, //, //20051114, //staptree.cxx, //1564
+if_statement::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //1089
+if_statement::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1292
+indexable::is_const_hist_op, //0, //Graydon Hoare, //, //20051114, //staptree.cxx, //1537
+indexable::is_const_symbol, //0, //Graydon Hoare, //, //20051114, //staptree.cxx, //1530
+indexable::is_hist_op, //0, //Graydon Hoare, //, //20051114, //staptree.cxx, //1523
+indexable::is_symbol, //0, //Graydon Hoare, //, //20051114, //staptree.cxx, //1516
+literal_number::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //313
+literal_number::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1322
+literal_string::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //301
+literal_string::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1316
+logical_and_expr::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1368
+logical_or_expr::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1362
+next_statement::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //1074
+next_statement::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050605, //staptree.cxx, //1298
+null_statement::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //1051
+null_statement::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1266
+post_crement::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //354
+post_crement::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1354
+pre_crement::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1346
+print_format::print, //0, //Graydon Hoare, //, //20051114, //staptree.cxx, //891
+print_format::visit, //0, //Graydon Hoare, //, //20051114, //staptree.cxx, //1467
+probe::collect_derivation_chain, //0, //Dave Brolley, //brolley@redhat.com, //20080213, //staptree.cxx, //1158
+probe::printsig, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //1140
+probe_alias::printsig, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //1197
+return_statement::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //1063
+return_statement::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1278
+stat_op::print, //0, //Graydon Hoare, //, //20051114, //staptree.cxx, //910
+stat_op::visit, //0, //Graydon Hoare, //, //20051114, //staptree.cxx, //1473
+symbol::get_tok, //0, //Graydon Hoare, //, //20051114, //staptree.cxx, //1558
+symbol::is_const_symbol, //0, //Graydon Hoare, //, //20051114, //staptree.cxx, //1551
+symbol::is_symbol, //0, //Graydon Hoare, //, //20051114, //staptree.cxx, //1544
+symbol::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //368
+symbol::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1406
+target_symbol::visit, //0, //Graydon Hoare, //, //20050810, //staptree.cxx, //1412
+ternary_expression::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //360
+ternary_expression::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1392
+throwing_visitor::throwone, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //2290
+throwing_visitor::visit_array_in, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //2430
+throwing_visitor::visit_arrayindex, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //2491
+throwing_visitor::visit_assignment, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //2454
+throwing_visitor::visit_binary_expression, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //2393
+throwing_visitor::visit_block, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //2296
+throwing_visitor::visit_break_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050605, //staptree.cxx, //2363
+throwing_visitor::visit_cast_op, //0, //Josh Stone, //jistone@redhat.com, //20090211, //staptree.cxx, //2472
+throwing_visitor::visit_comparison, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //2436
+throwing_visitor::visit_concatenation, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //2442
+throwing_visitor::visit_continue_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050605, //staptree.cxx, //2369
+throwing_visitor::visit_defined_op, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100223, //staptree.cxx, //2478
+throwing_visitor::visit_delete_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //2351
+throwing_visitor::visit_embedded_expr, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100504, //staptree.cxx, //2387
+throwing_visitor::visit_embeddedcode, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050726, //staptree.cxx, //2309
+throwing_visitor::visit_entry_op, //0, //Josh Stone, //jistone@redhat.com, //20100630, //staptree.cxx, //2484
+throwing_visitor::visit_expr_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //2321
+throwing_visitor::visit_for_loop, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //2333
+throwing_visitor::visit_foreach_loop, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050602, //staptree.cxx, //2339
+throwing_visitor::visit_functioncall, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //2497
+throwing_visitor::visit_hist_op, //0, //Graydon Hoare, //, //20051114, //staptree.cxx, //2515
+throwing_visitor::visit_if_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //2327
+throwing_visitor::visit_literal_number, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //2381
+throwing_visitor::visit_literal_string, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //2375
+throwing_visitor::visit_logical_and_expr, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //2424
+throwing_visitor::visit_logical_or_expr, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //2418
+throwing_visitor::visit_next_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050605, //staptree.cxx, //2357
+throwing_visitor::visit_null_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //2315
+throwing_visitor::visit_post_crement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //2411
+throwing_visitor::visit_pre_crement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //2405
+throwing_visitor::visit_print_format, //0, //Graydon Hoare, //, //20051114, //staptree.cxx, //2503
+throwing_visitor::visit_return_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //2345
+throwing_visitor::visit_stat_op, //0, //Graydon Hoare, //, //20051114, //staptree.cxx, //2509
+throwing_visitor::visit_symbol, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //2460
+throwing_visitor::visit_target_symbol, //0, //Graydon Hoare, //, //20050810, //staptree.cxx, //2466
+throwing_visitor::visit_ternary_expression, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //2448
+throwing_visitor::visit_try_block, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100303, //staptree.cxx, //2302
+throwing_visitor::visit_unary_expression, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //2399
+traversing_visitor::visit_array_in, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1796
+traversing_visitor::visit_arrayindex, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1862
+traversing_visitor::visit_assignment, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1824
+traversing_visitor::visit_binary_expression, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1756
+traversing_visitor::visit_block, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1639
+traversing_visitor::visit_break_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20070219, //staptree.cxx, //1731
+traversing_visitor::visit_cast_op, //0, //Josh Stone, //jistone@redhat.com, //20090211, //staptree.cxx, //1842
+traversing_visitor::visit_comparison, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1802
+traversing_visitor::visit_concatenation, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1809
+traversing_visitor::visit_continue_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20070219, //staptree.cxx, //1736
+traversing_visitor::visit_defined_op, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100223, //staptree.cxx, //1849
+traversing_visitor::visit_delete_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1720
+traversing_visitor::visit_embedded_expr, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100504, //staptree.cxx, //1751
+traversing_visitor::visit_embeddedcode, //0, //Frank Ch. Eigler, //fche@redhat.com, //20070219, //staptree.cxx, //1657
+traversing_visitor::visit_entry_op, //0, //Josh Stone, //jistone@redhat.com, //20100630, //staptree.cxx, //1855
+traversing_visitor::visit_expr_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1667
+traversing_visitor::visit_for_loop, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1682
+traversing_visitor::visit_foreach_loop, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050602, //staptree.cxx, //1691
+traversing_visitor::visit_functioncall, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1877
+traversing_visitor::visit_hist_op, //0, //Graydon Hoare, //, //20051114, //staptree.cxx, //1899
+traversing_visitor::visit_if_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1673
+traversing_visitor::visit_literal_number, //0, //Frank Ch. Eigler, //fche@redhat.com, //20070219, //staptree.cxx, //1746
+traversing_visitor::visit_literal_string, //0, //Frank Ch. Eigler, //fche@redhat.com, //20070219, //staptree.cxx, //1741
+traversing_visitor::visit_logical_and_expr, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1789
+traversing_visitor::visit_logical_or_expr, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1782
+traversing_visitor::visit_next_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20070219, //staptree.cxx, //1726
+traversing_visitor::visit_null_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20070219, //staptree.cxx, //1662
+traversing_visitor::visit_post_crement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1775
+traversing_visitor::visit_pre_crement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1769
+traversing_visitor::visit_print_format, //0, //Graydon Hoare, //, //20051114, //staptree.cxx, //1884
+traversing_visitor::visit_return_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1714
+traversing_visitor::visit_stat_op, //0, //Graydon Hoare, //, //20051114, //staptree.cxx, //1893
+traversing_visitor::visit_symbol, //0, //Frank Ch. Eigler, //fche@redhat.com, //20070219, //staptree.cxx, //1831
+traversing_visitor::visit_target_symbol, //0, //Josh Stone, //jistone@redhat.com, //20090803, //staptree.cxx, //1836
+traversing_visitor::visit_ternary_expression, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1816
+traversing_visitor::visit_try_block, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100303, //staptree.cxx, //1646
+traversing_visitor::visit_unary_expression, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1763
+try_block::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100303, //staptree.cxx, //996
+try_block::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100303, //staptree.cxx, //1240
+unary_expression::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //337
+unary_expression::visit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050505, //staptree.cxx, //1340
+update_visitor::visit_array_in, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2688
+update_visitor::visit_arrayindex, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2763
+update_visitor::visit_assignment, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2720
+update_visitor::visit_binary_expression, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2642
+update_visitor::visit_block, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2525
+update_visitor::visit_break_statement, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2612
+update_visitor::visit_cast_op, //0, //Josh Stone, //jistone@redhat.com, //20090211, //staptree.cxx, //2741
+update_visitor::visit_comparison, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2695
+update_visitor::visit_concatenation, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2703
+update_visitor::visit_continue_statement, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2618
+update_visitor::visit_defined_op, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100223, //staptree.cxx, //2749
+update_visitor::visit_delete_statement, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2599
+update_visitor::visit_embedded_expr, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100504, //staptree.cxx, //2636
+update_visitor::visit_embeddedcode, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2542
+update_visitor::visit_entry_op, //0, //Josh Stone, //jistone@redhat.com, //20100630, //staptree.cxx, //2756
+update_visitor::visit_expr_statement, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2554
+update_visitor::visit_for_loop, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2570
+update_visitor::visit_foreach_loop, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2580
+update_visitor::visit_functioncall, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2772
+update_visitor::visit_hist_op, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2796
+update_visitor::visit_if_statement, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2561
+update_visitor::visit_literal_number, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2630
+update_visitor::visit_literal_string, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2624
+update_visitor::visit_logical_and_expr, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2680
+update_visitor::visit_logical_or_expr, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2672
+update_visitor::visit_next_statement, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2606
+update_visitor::visit_null_statement, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2548
+update_visitor::visit_post_crement, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2664
+update_visitor::visit_pre_crement, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2657
+update_visitor::visit_print_format, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2780
+update_visitor::visit_return_statement, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2592
+update_visitor::visit_stat_op, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2789
+update_visitor::visit_symbol, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2728
+update_visitor::visit_ternary_expression, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2711
+update_visitor::visit_try_block, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100303, //staptree.cxx, //2533
+update_visitor::visit_unary_expression, //0, //Josh Stone, //jistone@redhat.com, //20090205, //staptree.cxx, //2650
+vardecl::print, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050905, //staptree.cxx, //437
+varuse_collecting_visitor::visit_arrayindex, //0, //Frank Ch. Eigler, //fche@redhat.com, //20060124, //staptree.cxx, //2131
+varuse_collecting_visitor::visit_assignment, //0, //Frank Ch. Eigler, //fche@redhat.com, //20060124, //staptree.cxx, //2072
+varuse_collecting_visitor::visit_cast_op, //0, //Josh Stone, //jistone@redhat.com, //20090211, //staptree.cxx, //2026
+varuse_collecting_visitor::visit_defined_op, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100223, //staptree.cxx, //2037
+varuse_collecting_visitor::visit_delete_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20060126, //staptree.cxx, //2237
+varuse_collecting_visitor::visit_embedded_expr, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100504, //staptree.cxx, //1977
+varuse_collecting_visitor::visit_embeddedcode, //0, //Frank Ch. Eigler, //fche@redhat.com, //20060124, //staptree.cxx, //1939
+varuse_collecting_visitor::visit_entry_op, //0, //Josh Stone, //jistone@redhat.com, //20100630, //staptree.cxx, //2044
+varuse_collecting_visitor::visit_foreach_loop, //0, //Frank Ch. Eigler, //fche@redhat.com, //20060126, //staptree.cxx, //2187
+varuse_collecting_visitor::visit_post_crement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20060124, //staptree.cxx, //2178
+varuse_collecting_visitor::visit_pre_crement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20060124, //staptree.cxx, //2169
+varuse_collecting_visitor::visit_print_format, //0, //Frank Ch. Eigler, //fche@redhat.com, //20060124, //staptree.cxx, //2052
+varuse_collecting_visitor::visit_symbol, //0, //Frank Ch. Eigler, //fche@redhat.com, //20060124, //staptree.cxx, //2094
+varuse_collecting_visitor::visit_target_symbol, //0, //Frank Ch. Eigler, //fche@redhat.com, //20080303, //staptree.cxx, //2012
+varuse_collecting_visitor::visit_try_block, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100303, //staptree.cxx, //1924
+probe::almost_basest, //0, //Josh Stone, //jistone@redhat.com, //20100622, //staptree.h, //723
+probe::basest, //0, //Josh Stone, //jistone@redhat.com, //20100622, //staptree.h, //722
+probe::collect_derivation_pp_chain, //0, //Frank Ch. Eigler, //fche@redhat.com, //20110512, //staptree.h, //718
+probe::create_alias, //0, //Josh Stone, //jistone@redhat.com, //20100316, //elaborate.cxx, //797
+task_finder_derived_probe_group::emit_module_decls, //0, //Josh Stone, //jistone@redhat.com, //20090507, //task_finder.cxx, //43
+task_finder_derived_probe_group::emit_module_exit, //0, //Josh Stone, //jistone@redhat.com, //20090507, //task_finder.cxx, //75
+task_finder_derived_probe_group::emit_module_init, //0, //Josh Stone, //jistone@redhat.com, //20090507, //task_finder.cxx, //53
+hrtimer_derived_probe::emit_privilege_assertion, //0, //Dave Brolley, //brolley@redhat.com, //20111011, //tapset-timers.cxx, //213
+hrtimer_derived_probe::join_group, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-timers.cxx, //229
+hrtimer_derived_probe::print_dupe_stamp, //0, //Dave Brolley, //brolley@redhat.com, //20091013, //tapset-timers.cxx, //214
+hrtimer_derived_probe_group::emit_module_decls, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-timers.cxx, //263
+hrtimer_derived_probe_group::emit_module_exit, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-timers.cxx, //356
+hrtimer_derived_probe_group::emit_module_init, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-timers.cxx, //329
+profile_derived_probe::join_group, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-timers.cxx, //400
+profile_derived_probe_group::emit_module_decls, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-timers.cxx, //416
+profile_derived_probe_group::emit_module_exit, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-timers.cxx, //500
+profile_derived_probe_group::emit_module_init, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-timers.cxx, //486
+timer_builder::build, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-timers.cxx, //529
+timer_derived_probe::emit_privilege_assertion, //0, //Dave Brolley, //brolley@redhat.com, //20111011, //tapset-timers.cxx, //43
+timer_derived_probe::join_group, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-timers.cxx, //77
+timer_derived_probe::print_dupe_stamp, //0, //Dave Brolley, //brolley@redhat.com, //20091013, //tapset-timers.cxx, //44
+timer_derived_probe_group::emit_module_decls, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-timers.cxx, //98
+timer_derived_probe_group::emit_module_exit, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-timers.cxx, //162
+timer_derived_probe_group::emit_module_init, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-timers.cxx, //141
+direct::finish, //0, //Josh Stone, //jistone@redhat.com, //20101214, //remote.cxx, //99
+direct::start, //0, //Josh Stone, //jistone@redhat.com, //20101214, //remote.cxx, //84
+direct_stapsh::finish, //0, //Josh Stone, //jistone@redhat.com, //20110309, //remote.cxx, //469
+ssh_legacy_remote::finish, //0, //Josh Stone, //jistone@redhat.com, //20101214, //remote.cxx, //818
+ssh_legacy_remote::start, //0, //Josh Stone, //jistone@redhat.com, //20101214, //remote.cxx, //738
+ssh_remote::finish, //0, //Josh Stone, //jistone@redhat.com, //20110309, //remote.cxx, //612
+stapsh::finish, //0, //Josh Stone, //jistone@redhat.com, //20110309, //remote.cxx, //388
+stapsh::handle_poll, //0, //Josh Stone, //jistone@redhat.com, //20110309, //remote.cxx, //141
+stapsh::prepare, //0, //Josh Stone, //jistone@redhat.com, //20110310, //remote.cxx, //303
+stapsh::prepare_poll, //0, //Josh Stone, //jistone@redhat.com, //20110309, //remote.cxx, //125
+stapsh::start, //0, //Josh Stone, //jistone@redhat.com, //20110310, //remote.cxx, //330
+procfs_builder::build, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-procfs.cxx, //523
+procfs_derived_probe::join_group, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-procfs.cxx, //108
+procfs_derived_probe_group::emit_module_decls, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-procfs.cxx, //168
+procfs_derived_probe_group::emit_module_exit, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-procfs.cxx, //377
+procfs_derived_probe_group::emit_module_init, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-procfs.cxx, //344
+procfs_var_expanding_visitor::visit_target_symbol, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-procfs.cxx, //403
+perf_builder::build, //0, //William Cohen, //wcohen@redhat.com, //20100317, //tapset-perfmon.cxx, //207
+perf_derived_probe::join_group, //0, //William Cohen, //wcohen@redhat.com, //20100317, //tapset-perfmon.cxx, //74
+perf_derived_probe_group::emit_module_decls, //0, //William Cohen, //wcohen@redhat.com, //20100317, //tapset-perfmon.cxx, //83
+perf_derived_probe_group::emit_module_exit, //0, //William Cohen, //wcohen@redhat.com, //20100317, //tapset-perfmon.cxx, //185
+perf_derived_probe_group::emit_module_init, //0, //William Cohen, //wcohen@redhat.com, //20100317, //tapset-perfmon.cxx, //166
+alias_expansion_builder::build, //0, //Dave Brolley, //brolley@redhat.com, //20100430, //elaborate.cxx, //811
+alias_expansion_builder::build_with_suffix, //0, //Serguei Makarov, //smakarov@redhat.com, //20120628, //elaborate.cxx, //824
+derived_probe::almost_basest, //0, //Josh Stone, //jistone@redhat.com, //20100622, //elaborate.h, //144
+derived_probe::collect_derivation_pp_chain, //0, //Josh Stone, //jistone@redhat.com, //20100929, //elaborate.cxx, //121
+derived_probe::script_location, //0, //Josh Stone, //jistone@redhat.com, //20100622, //elaborate.cxx, //153
+derived_probe::sole_location, //0, //Frank Ch. Eigler, //fche@redhat.com, //20070330, //elaborate.cxx, //141
+derived_probe_builder::build_with_suffix, //0, //Serguei Makarov, //smakarov@redhat.com, //20120628, //elaborate.cxx, //218
+derived_probe_builder::is_alias, //0, //Dave Brolley, //brolley@redhat.com, //20110825, //elaborate.h, //259
+symresolution_info::visit_arrayindex, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050521, //elaborate.cxx, //2058
+symresolution_info::visit_block, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050521, //elaborate.cxx, //1931
+symresolution_info::visit_delete_statement, //0, //Graydon Hoare, //, //20050809, //elaborate.cxx, //2022
+symresolution_info::visit_foreach_loop, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050602, //elaborate.cxx, //1948
+symresolution_info::visit_functioncall, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050521, //elaborate.cxx, //2092
+symresolution_info::visit_symbol, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050521, //elaborate.cxx, //2030
+typeresolution_info::visit_array_in, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050521, //elaborate.cxx, //4829
+typeresolution_info::visit_arrayindex, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050521, //elaborate.cxx, //4487
+typeresolution_info::visit_assignment, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050603, //elaborate.cxx, //4163
+typeresolution_info::visit_binary_expression, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050603, //elaborate.cxx, //4277
+typeresolution_info::visit_block, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050521, //elaborate.cxx, //4597
+typeresolution_info::visit_break_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20070219, //elaborate.cxx, //4817
+typeresolution_info::visit_cast_op, //0, //Josh Stone, //jistone@redhat.com, //20090211, //elaborate.cxx, //4474
+typeresolution_info::visit_comparison, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050521, //elaborate.cxx, //4119
+typeresolution_info::visit_concatenation, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050521, //elaborate.cxx, //4144
+typeresolution_info::visit_continue_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20070219, //elaborate.cxx, //4823
+typeresolution_info::visit_defined_op, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100223, //elaborate.cxx, //4460
+typeresolution_info::visit_delete_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050521, //elaborate.cxx, //4802
+typeresolution_info::visit_embedded_expr, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100504, //elaborate.cxx, //4262
+typeresolution_info::visit_embeddedcode, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100507, //elaborate.cxx, //4630
+typeresolution_info::visit_entry_op, //0, //Josh Stone, //jistone@redhat.com, //20100630, //elaborate.cxx, //4467
+typeresolution_info::visit_expr_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050521, //elaborate.cxx, //4771
+typeresolution_info::visit_for_loop, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050521, //elaborate.cxx, //4666
+typeresolution_info::visit_foreach_loop, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050602, //elaborate.cxx, //4680
+typeresolution_info::visit_functioncall, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050521, //elaborate.cxx, //4557
+typeresolution_info::visit_hist_op, //0, //Graydon Hoare, //, //20051114, //elaborate.cxx, //5015
+typeresolution_info::visit_if_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050521, //elaborate.cxx, //4649
+typeresolution_info::visit_literal_number, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050521, //elaborate.cxx, //4083
+typeresolution_info::visit_literal_string, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050521, //elaborate.cxx, //4094
+typeresolution_info::visit_logical_and_expr, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050521, //elaborate.cxx, //4112
+typeresolution_info::visit_logical_or_expr, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050521, //elaborate.cxx, //4105
+typeresolution_info::visit_next_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20070219, //elaborate.cxx, //4811
+typeresolution_info::visit_null_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20070219, //elaborate.cxx, //4765
+typeresolution_info::visit_post_crement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050521, //elaborate.cxx, //4308
+typeresolution_info::visit_pre_crement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050521, //elaborate.cxx, //4301
+typeresolution_info::visit_print_format, //0, //Graydon Hoare, //, //20051114, //elaborate.cxx, //4877
+typeresolution_info::visit_return_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050521, //elaborate.cxx, //4849
+typeresolution_info::visit_stat_op, //0, //Graydon Hoare, //, //20051114, //elaborate.cxx, //5001
+typeresolution_info::visit_symbol, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050521, //elaborate.cxx, //4416
+typeresolution_info::visit_target_symbol, //0, //Graydon Hoare, //, //20050810, //elaborate.cxx, //4424
+typeresolution_info::visit_ternary_expression, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050521, //elaborate.cxx, //4332
+typeresolution_info::visit_try_block, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100303, //elaborate.cxx, //4615
+typeresolution_info::visit_unary_expression, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050521, //elaborate.cxx, //4315
+alias_derived_probe::get_alias, //0, //Dave Brolley, //brolley@redhat.com, //20080213, //elaborate.cxx, //771
+alias_derived_probe::get_alias_loc, //0, //Serguei Makarov, //smakarov@redhat.com, //20120628, //elaborate.cxx, //772
+alias_derived_probe::join_group, //0, //Frank Ch. Eigler, //fche@redhat.com, //20070219, //elaborate.cxx, //769
+const_folder::visit_binary_expression, //0, //Josh Stone, //jistone@redhat.com, //20100219, //elaborate.cxx, //3392
+const_folder::visit_comparison, //0, //Josh Stone, //jistone@redhat.com, //20100219, //elaborate.cxx, //3617
+const_folder::visit_concatenation, //0, //Josh Stone, //jistone@redhat.com, //20100219, //elaborate.cxx, //3694
+const_folder::visit_defined_op, //0, //Josh Stone, //jistone@redhat.com, //20100225, //elaborate.cxx, //3745
+const_folder::visit_for_loop, //0, //Josh Stone, //jistone@redhat.com, //20100219, //elaborate.cxx, //3345
+const_folder::visit_foreach_loop, //0, //Josh Stone, //jistone@redhat.com, //20100219, //elaborate.cxx, //3369
+const_folder::visit_if_statement, //0, //Josh Stone, //jistone@redhat.com, //20100219, //elaborate.cxx, //3320
+const_folder::visit_literal_number, //0, //Josh Stone, //jistone@redhat.com, //20100219, //elaborate.cxx, //3299
+const_folder::visit_literal_string, //0, //Josh Stone, //jistone@redhat.com, //20100219, //elaborate.cxx, //3313
+const_folder::visit_logical_and_expr, //0, //Josh Stone, //jistone@redhat.com, //20100219, //elaborate.cxx, //3570
+const_folder::visit_logical_or_expr, //0, //Josh Stone, //jistone@redhat.com, //20100219, //elaborate.cxx, //3523
+const_folder::visit_target_symbol, //0, //Josh Stone, //jistone@redhat.com, //20100318, //elaborate.cxx, //3759
+const_folder::visit_ternary_expression, //0, //Josh Stone, //jistone@redhat.com, //20100219, //elaborate.cxx, //3723
+const_folder::visit_unary_expression, //0, //Josh Stone, //jistone@redhat.com, //20100219, //elaborate.cxx, //3495
+dead_assignment_remover::visit_assignment, //0, //Frank Ch. Eigler, //fche@redhat.com, //20060124, //elaborate.cxx, //2443
+dead_assignment_remover::visit_try_block, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100303, //elaborate.cxx, //2495
+dead_stmtexpr_remover::visit_block, //0, //Frank Ch. Eigler, //fche@redhat.com, //20060124, //elaborate.cxx, //2576
+dead_stmtexpr_remover::visit_expr_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20060124, //elaborate.cxx, //2732
+dead_stmtexpr_remover::visit_for_loop, //0, //Frank Ch. Eigler, //fche@redhat.com, //20070921, //elaborate.cxx, //2702
+dead_stmtexpr_remover::visit_foreach_loop, //0, //Frank Ch. Eigler, //fche@redhat.com, //20070921, //elaborate.cxx, //2686
+dead_stmtexpr_remover::visit_if_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20070921, //elaborate.cxx, //2633
+dead_stmtexpr_remover::visit_null_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20080429, //elaborate.cxx, //2565
+dead_stmtexpr_remover::visit_try_block, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100303, //elaborate.cxx, //2618
+delete_statement_symresolution_info::visit_arrayindex, //0, //Graydon Hoare, //, //20050809, //elaborate.cxx, //1999
+delete_statement_symresolution_info::visit_functioncall, //0, //Graydon Hoare, //, //20050809, //elaborate.cxx, //2003
+delete_statement_symresolution_info::visit_symbol, //0, //Graydon Hoare, //, //20050809, //elaborate.cxx, //2008
+delete_statement_typeresolution_info::visit_arrayindex, //0, //Graydon Hoare, //, //20050809, //elaborate.cxx, //4787
+delete_statement_typeresolution_info::visit_symbol, //0, //Graydon Hoare, //, //20050809, //elaborate.cxx, //4792
+duplicate_function_remover::visit_functioncall, //0, //David Smith, //dsmith@redhat.com, //20060810, //elaborate.cxx, //3805
+embeddedcode_info::visit_embeddedcode, //0, //Mark Wielaard, //mjw@redhat.com, //20100607, //elaborate.cxx, //1422
+mutated_var_collector::visit_arrayindex, //0, //Graydon Hoare, //, //20050723, //elaborate.cxx, //1111
+mutated_var_collector::visit_assignment, //0, //Graydon Hoare, //, //20051114, //elaborate.cxx, //1100
+no_var_mutation_during_iteration_check::visit_arrayindex, //0, //Graydon Hoare, //, //20050723, //elaborate.cxx, //1139
+no_var_mutation_during_iteration_check::visit_foreach_loop, //0, //Graydon Hoare, //, //20050723, //elaborate.cxx, //1183
+no_var_mutation_during_iteration_check::visit_functioncall, //0, //Graydon Hoare, //, //20050723, //elaborate.cxx, //1161
+stat_decl_collector::visit_assignment, //0, //Graydon Hoare, //, //20051124, //elaborate.cxx, //1216
+stat_decl_collector::visit_hist_op, //0, //Graydon Hoare, //, //20051124, //elaborate.cxx, //1228
+stat_decl_collector::visit_stat_op, //0, //Graydon Hoare, //, //20051124, //elaborate.cxx, //1209
+symbol_fetcher::throwone, //0, //Graydon Hoare, //, //20051114, //elaborate.cxx, //1064
+symbol_fetcher::visit_arrayindex, //0, //Graydon Hoare, //, //20051114, //elaborate.cxx, //1054
+symbol_fetcher::visit_cast_op, //0, //Josh Stone, //jistone@redhat.com, //20090211, //elaborate.cxx, //1059
+symbol_fetcher::visit_symbol, //0, //Graydon Hoare, //, //20051114, //elaborate.cxx, //1044
+symbol_fetcher::visit_target_symbol, //0, //Frank Ch. Eigler, //fche@redhat.com, //20080303, //elaborate.cxx, //1049
+void_statement_reducer::visit_array_in, //0, //Josh Stone, //jistone@redhat.com, //20090210, //elaborate.cxx, //2880
+void_statement_reducer::visit_arrayindex, //0, //Josh Stone, //jistone@redhat.com, //20090210, //elaborate.cxx, //2881
+void_statement_reducer::visit_assignment, //0, //Josh Stone, //jistone@redhat.com, //20090210, //elaborate.cxx, //2890
+void_statement_reducer::visit_binary_expression, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //3018
+void_statement_reducer::visit_cast_op, //0, //Josh Stone, //jistone@redhat.com, //20090211, //elaborate.cxx, //3181
+void_statement_reducer::visit_comparison, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //3059
+void_statement_reducer::visit_concatenation, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //3065
+void_statement_reducer::visit_defined_op, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100223, //elaborate.cxx, //3216
+void_statement_reducer::visit_delete_statement, //0, //Josh Stone, //jistone@redhat.com, //20090210, //elaborate.cxx, //2887
+void_statement_reducer::visit_expr_statement, //0, //Josh Stone, //jistone@redhat.com, //20080619, //elaborate.cxx, //2895
+void_statement_reducer::visit_for_loop, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2915
+void_statement_reducer::visit_foreach_loop, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2923
+void_statement_reducer::visit_functioncall, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //3071
+void_statement_reducer::visit_hist_op, //0, //Josh Stone, //jistone@redhat.com, //20090210, //elaborate.cxx, //2883
+void_statement_reducer::visit_if_statement, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2906
+void_statement_reducer::visit_logical_and_expr, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2962
+void_statement_reducer::visit_logical_or_expr, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2931
+void_statement_reducer::visit_post_crement, //0, //Josh Stone, //jistone@redhat.com, //20090210, //elaborate.cxx, //2889
+void_statement_reducer::visit_pre_crement, //0, //Josh Stone, //jistone@redhat.com, //20090210, //elaborate.cxx, //2888
+void_statement_reducer::visit_print_format, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //3113
+void_statement_reducer::visit_return_statement, //0, //Josh Stone, //jistone@redhat.com, //20090210, //elaborate.cxx, //2886
+void_statement_reducer::visit_stat_op, //0, //Josh Stone, //jistone@redhat.com, //20090210, //elaborate.cxx, //2882
+void_statement_reducer::visit_target_symbol, //0, //Josh Stone, //jistone@redhat.com, //20090803, //elaborate.cxx, //3145
+void_statement_reducer::visit_ternary_expression, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2988
+void_statement_reducer::visit_unary_expression, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //3046
+derived_probe::emit_probe_local_init, //0, //Frank Ch. Eigler, //fche@redhat.com, //20080710, //elaborate.h, //166
+derived_probe::needs_global_locks, //0, //David Smith, //dsmith@redhat.com, //20070328, //elaborate.h, //186
+derived_probe_group::emit_module_refresh, //0, //Frank Ch. Eigler, //fche@redhat.com, //20110902, //elaborate.h, //221
+arrayindex_downcaster::visit_arrayindex, //0, //Graydon Hoare, //, //20051208, //translate.cxx, //3092
+c_tmpcounter::visit_array_in, //0, //Graydon Hoare, //, //20050813, //translate.cxx, //3850
+c_tmpcounter::visit_arrayindex, //0, //Graydon Hoare, //, //20051202, //translate.cxx, //4421
+c_tmpcounter::visit_assignment, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050526, //translate.cxx, //4036
+c_tmpcounter::visit_binary_expression, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050608, //translate.cxx, //3676
+c_tmpcounter::visit_block, //0, //Frank Ch. Eigler, //fche@redhat.com, //20051202, //translate.cxx, //2996
+c_tmpcounter::visit_comparison, //0, //Josh Stone, //jistone@redhat.com, //20111017, //translate.cxx, //3923
+c_tmpcounter::visit_concatenation, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050602, //translate.cxx, //3982
+c_tmpcounter::visit_delete_statement, //0, //Josh Stone, //jistone@redhat.com, //20060116, //translate.cxx, //3603
+c_tmpcounter::visit_for_loop, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050824, //translate.cxx, //3027
+c_tmpcounter::visit_foreach_loop, //0, //Graydon Hoare, //, //20050723, //translate.cxx, //3183
+c_tmpcounter::visit_functioncall, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050526, //translate.cxx, //4701
+c_tmpcounter::visit_post_crement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050608, //translate.cxx, //4092
+c_tmpcounter::visit_pre_crement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050608, //translate.cxx, //4072
+c_tmpcounter::visit_print_format, //0, //Graydon Hoare, //, //20051129, //translate.cxx, //4862
+c_tmpcounter::visit_stat_op, //0, //Graydon Hoare, //, //20051124, //translate.cxx, //5132
+c_tmpcounter_assignment::visit_arrayindex, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050526, //translate.cxx, //4578
+c_tmpcounter_assignment::visit_symbol, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050526, //translate.cxx, //4179
+c_unparser::c_funcname, //0, //Serguei Makarov, //smakarov@redhat.com, //20120613, //translate.cxx, //2462
+c_unparser::c_globalname, //0, //Serguei Makarov, //smakarov@redhat.com, //20120613, //translate.cxx, //2453
+c_unparser::c_localname, //0, //Serguei Makarov, //smakarov@redhat.com, //20120613, //translate.cxx, //2441
+c_unparser::emit_common_header, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050526, //translate.cxx, //956
+c_unparser::emit_function, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050526, //translate.cxx, //1966
+c_unparser::emit_functionsig, //0, //Josh Stone, //jistone@redhat.com, //20110927, //translate.cxx, //1515
+c_unparser::emit_global, //0, //Josh Stone, //jistone@redhat.com, //20110927, //translate.cxx, //1476
+c_unparser::emit_global_init, //0, //Josh Stone, //jistone@redhat.com, //20110927, //translate.cxx, //1494
+c_unparser::emit_global_param, //0, //Josh Stone, //jistone@redhat.com, //20110927, //translate.cxx, //1448
+c_unparser::emit_module_exit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050526, //translate.cxx, //1770
+c_unparser::emit_module_init, //0, //Josh Stone, //jistone@redhat.com, //20110927, //translate.cxx, //1523
+c_unparser::emit_module_refresh, //0, //Frank Ch. Eigler, //fche@redhat.com, //20110902, //translate.cxx, //1754
+c_unparser::emit_probe, //0, //Frank Ch. Eigler, //fche@redhat.com, //20060518, //translate.cxx, //2061
+c_unparser::visit_array_in, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050526, //translate.cxx, //3888
+c_unparser::visit_arrayindex, //0, //Graydon Hoare, //, //20051202, //translate.cxx, //4492
+c_unparser::visit_assignment, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050526, //translate.cxx, //4044
+c_unparser::visit_binary_expression, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050608, //translate.cxx, //3715
+c_unparser::visit_block, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050526, //translate.cxx, //2869
+c_unparser::visit_break_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050605, //translate.cxx, //3620
+c_unparser::visit_cast_op, //0, //Josh Stone, //jistone@redhat.com, //20090211, //translate.cxx, //4248
+c_unparser::visit_comparison, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050526, //translate.cxx, //3940
+c_unparser::visit_concatenation, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050526, //translate.cxx, //3992
+c_unparser::visit_continue_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050605, //translate.cxx, //3631
+c_unparser::visit_defined_op, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100223, //translate.cxx, //4255
+c_unparser::visit_delete_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050526, //translate.cxx, //3611
+c_unparser::visit_embedded_expr, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100504, //translate.cxx, //3694
+c_unparser::visit_embeddedcode, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050726, //translate.cxx, //2942
+c_unparser::visit_entry_op, //0, //Josh Stone, //jistone@redhat.com, //20100630, //translate.cxx, //4262
+c_unparser::visit_expr_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050526, //translate.cxx, //2962
+c_unparser::visit_for_loop, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050526, //translate.cxx, //3037
+c_unparser::visit_foreach_loop, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050602, //translate.cxx, //3232
+c_unparser::visit_functioncall, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050526, //translate.cxx, //4718
+c_unparser::visit_hist_op, //0, //Frank Ch. Eigler, //fche@redhat.com, //20070219, //translate.cxx, //5217
+c_unparser::visit_if_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050526, //translate.cxx, //2972
+c_unparser::visit_literal_number, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050526, //translate.cxx, //3663
+c_unparser::visit_literal_string, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050526, //translate.cxx, //3643
+c_unparser::visit_logical_and_expr, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050526, //translate.cxx, //3834
+c_unparser::visit_logical_or_expr, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050526, //translate.cxx, //3818
+c_unparser::visit_next_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050605, //translate.cxx, //3480
+c_unparser::visit_null_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20070219, //translate.cxx, //2955
+c_unparser::visit_post_crement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050608, //translate.cxx, //4100
+c_unparser::visit_pre_crement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050608, //translate.cxx, //4080
+c_unparser::visit_print_format, //0, //Graydon Hoare, //, //20051114, //translate.cxx, //4917
+c_unparser::visit_return_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050526, //translate.cxx, //3464
+c_unparser::visit_stat_op, //0, //Graydon Hoare, //, //20051114, //translate.cxx, //5144
+c_unparser::visit_symbol, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050526, //translate.cxx, //4112
+c_unparser::visit_target_symbol, //0, //Graydon Hoare, //, //20050810, //translate.cxx, //4241
+c_unparser::visit_ternary_expression, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050526, //translate.cxx, //4015
+c_unparser::visit_try_block, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100303, //translate.cxx, //2890
+c_unparser::visit_unary_expression, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050526, //translate.cxx, //3790
+c_unparser_assignment::visit_arrayindex, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050526, //translate.cxx, //4610
+c_unparser_assignment::visit_symbol, //0, //Graydon Hoare, //, //20050720, //translate.cxx, //4218
+delete_statement_operand_tmp_visitor::visit_arrayindex, //0, //Josh Stone, //jistone@redhat.com, //20060116, //translate.cxx, //3553
+delete_statement_operand_visitor::visit_arrayindex, //0, //Graydon Hoare, //, //20050809, //translate.cxx, //3579
+delete_statement_operand_visitor::visit_symbol, //0, //Graydon Hoare, //, //20050809, //translate.cxx, //3515
+mapvar::buckets, //0, //Josh Stone, //jistone@redhat.com, //20060105, //translate.cxx, //740
+mapvar::hist, //0, //Josh Stone, //jistone@redhat.com, //20060105, //translate.cxx, //733
+recursion_info::visit_functioncall, //0, //Frank Ch. Eigler, //fche@redhat.com, //20090818, //translate.cxx, //6507
+var::buckets, //0, //Josh Stone, //jistone@redhat.com, //20060105, //translate.cxx, //418
+var::hist, //0, //Josh Stone, //jistone@redhat.com, //20060105, //translate.cxx, //411
+netfilter_builder::build, //0, //Frank Ch. Eigler, //fche@redhat.com, //20120412, //tapset-netfilter.cxx, //456
+netfilter_derived_probe::join_group, //0, //Frank Ch. Eigler, //fche@redhat.com, //20120412, //tapset-netfilter.cxx, //230
+netfilter_derived_probe_group::emit_module_decls, //0, //Frank Ch. Eigler, //fche@redhat.com, //20120412, //tapset-netfilter.cxx, //239
+netfilter_derived_probe_group::emit_module_exit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20120412, //tapset-netfilter.cxx, //372
+netfilter_derived_probe_group::emit_module_init, //0, //Frank Ch. Eigler, //fche@redhat.com, //20120412, //tapset-netfilter.cxx, //345
+netfilter_var_expanding_visitor::visit_target_symbol, //0, //Chris Meek, //cmeek@redhat.com, //20120503, //tapset-netfilter.cxx, //393
+var_expanding_visitor::visit_assignment, //0, //Josh Stone, //jistone@redhat.com, //20100507, //tapsets.cxx, //2295
+var_expanding_visitor::visit_defined_op, //0, //Frank Ch. Eigler, //fche@redhat.com, //20100223, //tapsets.cxx, //2331
+var_expanding_visitor::visit_delete_statement, //0, //Josh Stone, //jistone@redhat.com, //20100507, //tapsets.cxx, //2321
+var_expanding_visitor::visit_post_crement, //0, //Josh Stone, //jistone@redhat.com, //20100507, //tapsets.cxx, //2312
+var_expanding_visitor::visit_pre_crement, //0, //Josh Stone, //jistone@redhat.com, //20100507, //tapsets.cxx, //2303
+dwarf_builder::build, //0, //Josh Stone, //jistone@redhat.com, //20090721, //tapsets.cxx, //6407
+dwarf_builder::build_no_more, //0, //Frank Ch. Eigler, //fche@redhat.com, //20080722, //tapsets.cxx, //787
+dwarf_cast_expanding_visitor::visit_cast_op, //0, //Josh Stone, //jistone@redhat.com, //20090217, //tapsets.cxx, //4009
+dwarf_cast_query::handle_query_module, //0, //Josh Stone, //jistone@redhat.com, //20090217, //tapsets.cxx, //3826
+dwarf_cast_query::query_library, //0, //Frank Ch. Eigler, //fche@redhat.com, //20110512, //tapsets.cxx, //3820
+dwarf_cast_query::query_plt, //0, //Stan Cox, //scox@redhat.com, //20110916, //tapsets.cxx, //3821
+dwarf_derived_probe::emit_privilege_assertion, //0, //Dave Brolley, //brolley@redhat.com, //20111011, //tapsets.cxx, //4443
+dwarf_derived_probe::emit_probe_local_init, //0, //Frank Ch. Eigler, //fche@redhat.com, //20080710, //tapsets.cxx, //4611
+dwarf_derived_probe::getargs, //0, //Nobuhiro Tachino, //tachino@jp.fujitsu.com, //20100202, //tapsets.cxx, //4436
+dwarf_derived_probe::join_group, //0, //Frank Ch. Eigler, //fche@redhat.com, //20061101, //tapsets.cxx, //4093
+dwarf_derived_probe::print_dupe_stamp, //0, //Dave Brolley, //brolley@redhat.com, //20100215, //tapsets.cxx, //4460
+dwarf_derived_probe::printsig, //0, //Frank Ch. Eigler, //fche@redhat.com, //20070330, //tapsets.cxx, //4079
+dwarf_derived_probe_group::emit_module_decls, //0, //David Smith, //dsmith@redhat.com, //20080414, //tapsets.cxx, //4635
+dwarf_derived_probe_group::emit_module_exit, //0, //Frank Ch. Eigler, //fche@redhat.com, //20061101, //tapsets.cxx, //5027
+dwarf_derived_probe_group::emit_module_init, //0, //Frank Ch. Eigler, //fche@redhat.com, //20061101, //tapsets.cxx, //4852
+dwarf_derived_probe_group::emit_module_refresh, //0, //Frank Ch. Eigler, //fche@redhat.com, //20110909, //tapsets.cxx, //4935
+dwarf_query::handle_query_module, //0, //Jim Keniston, //jkenisto@us.ibm.com, //20080418, //tapsets.cxx, //990
+dwarf_query::query_library, //0, //Stan Cox, //scox@redhat.com, //20110608, //tapsets.cxx, //2098
+dwarf_query::query_plt, //0, //Stan Cox, //scox@redhat.com, //20110916, //tapsets.cxx, //2160
+dwarf_var_expanding_visitor::visit_cast_op, //0, //Josh Stone, //jistone@redhat.com, //20090211, //tapsets.cxx, //3689
+dwarf_var_expanding_visitor::visit_entry_op, //0, //Josh Stone, //jistone@redhat.com, //20100630, //tapsets.cxx, //3700
+dwarf_var_expanding_visitor::visit_target_symbol, //0, //Josh Stone, //jistone@redhat.com, //20090729, //tapsets.cxx, //3518
+hwbkpt_builder::build, //0, //Prerna Saxena, //prerna@linux.vnet.ibm.com, //20100129, //tapsets.cxx, //8501
+hwbkpt_derived_probe::join_group, //0, //Prerna Saxena, //prerna@linux.vnet.ibm.com, //20100129, //tapsets.cxx, //8296
+hwbkpt_derived_probe::printsig, //0, //Prerna Saxena, //prerna@linux.vnet.ibm.com, //20100129, //tapsets.cxx, //8290
+hwbkpt_derived_probe_group::emit_module_decls, //0, //Prerna Saxena, //prerna@linux.vnet.ibm.com, //20100129, //tapsets.cxx, //8319
+hwbkpt_derived_probe_group::emit_module_exit, //0, //Prerna Saxena, //prerna@linux.vnet.ibm.com, //20100129, //tapsets.cxx, //8479
+hwbkpt_derived_probe_group::emit_module_init, //0, //Prerna Saxena, //prerna@linux.vnet.ibm.com, //20100129, //tapsets.cxx, //8414
+kprobe_builder::build, //0, //Wade Farnsworth, //wade_farnsworth@mentor.com, //20120308, //tapsets.cxx, //8130
+kprobe_derived_probe::join_group, //0, //Ananth N Mavinakayanahalli, //ananth@in.ibm.com, //20090421, //tapsets.cxx, //7752
+kprobe_derived_probe::printsig, //0, //Ananth N Mavinakayanahalli, //ananth@in.ibm.com, //20090421, //tapsets.cxx, //7745
+kprobe_derived_probe_group::emit_module_decls, //0, //Ananth N Mavinakayanahalli, //ananth@in.ibm.com, //20090421, //tapsets.cxx, //7768
+kprobe_derived_probe_group::emit_module_exit, //0, //Ananth N Mavinakayanahalli, //ananth@in.ibm.com, //20090421, //tapsets.cxx, //8049
+kprobe_derived_probe_group::emit_module_init, //0, //Ananth N Mavinakayanahalli, //ananth@in.ibm.com, //20090421, //tapsets.cxx, //7955
+plt_expanding_visitor::visit_target_symbol, //0, //Stan Cox, //scox@redhat.com, //20110916, //tapsets.cxx, //5825
+sdt_query::handle_query_module, //0, //Stan Cox, //scox@redhat.com, //20100913, //tapsets.cxx, //6029
+sdt_query::query_library, //0, //Stan Cox, //scox@redhat.com, //20110608, //tapsets.cxx, //6400
+sdt_query::query_plt, //0, //Stan Cox, //scox@redhat.com, //20110916, //tapsets.cxx, //5858
+sdt_uprobe_var_expanding_visitor::visit_cast_op, //0, //Josh Stone, //jistone@redhat.com, //20110916, //tapsets.cxx, //5814
+sdt_uprobe_var_expanding_visitor::visit_target_symbol, //0, //Stan Cox, //scox@redhat.com, //20110204, //tapsets.cxx, //5792
+tracepoint_builder::build, //0, //Josh Stone, //jistone@redhat.com, //20090304, //tapsets.cxx, //9629
+tracepoint_builder::build_no_more, //0, //Josh Stone, //jistone@redhat.com, //20090304, //tapsets.cxx, //9376
+tracepoint_derived_probe::getargs, //0, //Nobuhiro Tachino, //tachino@jp.fujitsu.com, //20100202, //tapsets.cxx, //8988
+tracepoint_derived_probe::join_group, //0, //Josh Stone, //jistone@redhat.com, //20090304, //tapsets.cxx, //8996
+tracepoint_derived_probe::print_dupe_stamp, //0, //Josh Stone, //jistone@redhat.com, //20090406, //tapsets.cxx, //9005
+tracepoint_derived_probe_group::emit_module_decls, //0, //Josh Stone, //jistone@redhat.com, //20090304, //tapsets.cxx, //9058
+tracepoint_derived_probe_group::emit_module_exit, //0, //Josh Stone, //jistone@redhat.com, //20090304, //tapsets.cxx, //9261
+tracepoint_derived_probe_group::emit_module_init, //0, //Josh Stone, //jistone@redhat.com, //20090304, //tapsets.cxx, //9234
+tracepoint_query::handle_query_module, //0, //Josh Stone, //jistone@redhat.com, //20090304, //tapsets.cxx, //9305
+tracepoint_query::query_library, //0, //Frank Ch. Eigler, //fche@redhat.com, //20110512, //tapsets.cxx, //9296
+tracepoint_query::query_plt, //0, //Stan Cox, //scox@redhat.com, //20110916, //tapsets.cxx, //9297
+tracepoint_var_expanding_visitor::visit_target_symbol, //0, //Josh Stone, //jistone@redhat.com, //20090304, //tapsets.cxx, //8826
+uprobe_builder::build, //0, //Josh Stone, //jistone@redhat.com, //20110519, //tapsets.cxx, //7159
+uprobe_derived_probe::emit_privilege_assertion, //0, //Dave Brolley, //brolley@redhat.com, //20111011, //tapsets.cxx, //7148
+uprobe_derived_probe::getargs, //0, //Stan Cox, //scox@redhat.com, //20100728, //tapsets.cxx, //7132
+uprobe_derived_probe::join_group, //0, //Frank Ch. Eigler, //fche@redhat.com, //20070526, //tapsets.cxx, //7117
+uprobe_derived_probe::print_dupe_stamp, //0, //Dave Brolley, //brolley@redhat.com, //20091013, //tapsets.cxx, //499
+uprobe_derived_probe_group::emit_module_decls, //0, //Josh Stone, //jistone@redhat.com, //20110519, //tapsets.cxx, //7605
+uprobe_derived_probe_group::emit_module_exit, //0, //Josh Stone, //jistone@redhat.com, //20110519, //tapsets.cxx, //7625
+uprobe_derived_probe_group::emit_module_init, //0, //Josh Stone, //jistone@redhat.com, //20110519, //tapsets.cxx, //7615
+be_builder::build, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-been.cxx, //81
+be_derived_probe::emit_privilege_assertion, //0, //Dave Brolley, //brolley@redhat.com, //20111011, //tapset-been.cxx, //57
+be_derived_probe::join_group, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-been.cxx, //99
+be_derived_probe::needs_global_locks, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-been.cxx, //61
+be_derived_probe::print_dupe_stamp, //0, //Dave Brolley, //brolley@redhat.com, //20091013, //tapset-been.cxx, //59
+be_derived_probe_group::emit_module_decls, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-been.cxx, //108
+be_derived_probe_group::emit_module_exit, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-been.cxx, //167
+be_derived_probe_group::emit_module_init, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-been.cxx, //150
+never_builder::build, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-been.cxx, //202
+never_derived_probe::emit_privilege_assertion, //0, //Dave Brolley, //brolley@redhat.com, //20111011, //tapset-been.cxx, //194
+never_derived_probe::join_group, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapset-been.cxx, //193
+never_derived_probe::print_dupe_stamp, //0, //Dave Brolley, //brolley@redhat.com, //20091013, //tapset-been.cxx, //195
+alias_expansion_builder::is_alias, //0, //Dave Brolley, //brolley@redhat.com, //20110825, //elaborate.h, //345
+derived_probe::basest, //0, //Josh Stone, //jistone@redhat.com, //20100622, //elaborate.h, //143

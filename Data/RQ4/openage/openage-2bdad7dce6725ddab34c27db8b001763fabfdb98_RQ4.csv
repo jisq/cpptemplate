@@ -1,0 +1,78 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+openage::path::Node, //25, //J, //Jono4728@gmail.com, //20141119, //cpp/pathfinding/path.h, //83
+
+virtual function, calls, developer, email, edit time, definition file path, line
+openage::audio::OpusInMemoryLoader::get_resource, //0, //Andre Kupka, //kupka@in.tum.de, //20140331, //cpp/audio/in_memory_loader.cpp, //46
+openage::audio::DynamicResource::get_data, //0, //Andre Kupka, //kupka@in.tum.de, //20141229, //cpp/audio/resource.cpp, //113
+openage::audio::DynamicResource::stop_using, //0, //Andre Kupka, //kupka@in.tum.de, //20140403, //cpp/audio/resource.cpp, //102
+openage::audio::DynamicResource::use, //0, //Andre Kupka, //kupka@in.tum.de, //20140403, //cpp/audio/resource.cpp, //90
+openage::audio::InMemoryResource::get_data, //0, //Andre Kupka, //kupka@in.tum.de, //20141229, //cpp/audio/resource.cpp, //57
+openage::audio::Resource::get_category, //0, //Andre Kupka, //kupka@in.tum.de, //20140323, //cpp/audio/resource.cpp, //19
+openage::audio::Resource::get_id, //0, //Andre Kupka, //kupka@in.tum.de, //20140323, //cpp/audio/resource.cpp, //23
+openage::audio::Resource::stop_using, //0, //Andre Kupka, //kupka@in.tum.de, //20140403, //cpp/audio/resource.cpp, //30
+openage::audio::Resource::use, //0, //Andre Kupka, //kupka@in.tum.de, //20140403, //cpp/audio/resource.cpp, //27
+openage::AttackAction::allow_destruction, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/action.h, //175
+openage::AttackAction::allow_interupt, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/action.h, //174
+openage::AttackAction::completed, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/action.cpp, //311
+openage::AttackAction::update, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/action.cpp, //284
+openage::DeadAction::allow_destruction, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/action.h, //92
+openage::DeadAction::allow_interupt, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/action.h, //91
+openage::DeadAction::completed, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/action.cpp, //73
+openage::DeadAction::update, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/action.cpp, //66
+openage::GatherAction::allow_destruction, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/action.h, //156
+openage::GatherAction::allow_interupt, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/action.h, //155
+openage::GatherAction::completed, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/action.cpp, //269
+openage::GatherAction::update, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/action.cpp, //244
+openage::IdleAction::allow_destruction, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/action.h, //108
+openage::IdleAction::allow_interupt, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/action.h, //107
+openage::IdleAction::completed, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/action.h, //106
+openage::IdleAction::update, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/action.h, //105
+openage::MoveAction::allow_destruction, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/action.h, //130
+openage::MoveAction::allow_interupt, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/action.h, //129
+openage::MoveAction::completed, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/action.cpp, //188
+openage::MoveAction::update, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/action.cpp, //109
+openage::Engine::on_resize, //0, //Jonas Jelten, //jelten@in.tum.de, //20140810, //cpp/engine.cpp, //183
+STDIOWrapper::read, //0, //Michael Enßlin, //michael@ensslin.cc, //20140823, //py/openage/convert/cabextract/lzxd/lzxd_test.cpp, //13
+STDIOWrapper::write, //0, //Michael Enßlin, //michael@ensslin.cc, //20140823, //py/openage/convert/cabextract/lzxd/lzxd_test.cpp, //17
+openage::audio::OpusDynamicLoader::get_length, //0, //Andre Kupka, //kupka@in.tum.de, //20140403, //cpp/audio/dynamic_loader.cpp, //52
+openage::audio::OpusDynamicLoader::load_chunk, //0, //Andre Kupka, //kupka@in.tum.de, //20140416, //cpp/audio/dynamic_loader.cpp, //56
+openage::console::Console::on_drawhud, //0, //Jonas Jelten, //jelten@in.tum.de, //20140811, //cpp/console/console.cpp, //73
+openage::console::Console::on_resize, //0, //Jonas Jelten, //jelten@in.tum.de, //20140811, //cpp/console/console.cpp, //105
+openage::console::Console::on_tick, //0, //Jonas Jelten, //jelten@in.tum.de, //20140811, //cpp/console/console.cpp, //63
+openage::AttackAbility::can_target, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/ability.cpp, //67
+openage::AttackAbility::can_target, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/ability.cpp, //71
+openage::AttackAbility::target, //0, //sams, //samschet@gmail.com, //20141128, //cpp/unit/ability.cpp, //77
+openage::AttackAbility::target, //0, //sams, //samschet@gmail.com, //20141128, //cpp/unit/ability.cpp, //81
+openage::GatherAbility::can_target, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/ability.cpp, //43
+openage::GatherAbility::can_target, //0, //J, //Jono4728@gmail.com, //20141121, //cpp/unit/ability.cpp, //47
+openage::GatherAbility::target, //0, //sams, //samschet@gmail.com, //20141128, //cpp/unit/ability.cpp, //51
+openage::GatherAbility::target, //0, //sams, //samschet@gmail.com, //20141128, //cpp/unit/ability.cpp, //55
+openage::MoveAbility::can_target, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/ability.cpp, //17
+openage::MoveAbility::can_target, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/ability.cpp, //21
+openage::MoveAbility::target, //0, //sams, //samschet@gmail.com, //20141128, //cpp/unit/ability.cpp, //25
+openage::MoveAbility::target, //0, //sams, //samschet@gmail.com, //20141128, //cpp/unit/ability.cpp, //30
+openage::GameMain::on_draw, //0, //Michael Enßlin, //michael@ensslin.cc, //20141014, //cpp/game_main.cpp, //570
+openage::GameMain::on_drawhud, //0, //Michael Enßlin, //michael@ensslin.cc, //20141014, //cpp/game_main.cpp, //591
+openage::GameMain::on_tick, //0, //Michael Enßlin, //michael@ensslin.cc, //20141014, //cpp/game_main.cpp, //558
+openage::AttackAbility::type, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/ability.h, //102
+openage::GatherAbility::type, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/ability.h, //80
+openage::MoveAbility::type, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/ability.h, //58
+openage::UnitContainer::on_tick, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/unit_container.cpp, //75
+openage::BuldingProducer::default_texture, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/producer.cpp, //185
+openage::BuldingProducer::initialise, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/producer.cpp, //141
+openage::BuldingProducer::place, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/producer.cpp, //150
+openage::UnitTypeTest::default_texture, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/producer.cpp, //119
+openage::UnitTypeTest::initialise, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/producer.cpp, //43
+openage::UnitTypeTest::place, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/producer.cpp, //77
+openage::RadialObject::contains, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/terrain/terrain_object.cpp, //305
+openage::RadialObject::from_edge, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/terrain/terrain_object.cpp, //299
+openage::RadialObject::get_range, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/terrain/terrain_object.cpp, //282
+openage::RadialObject::intersects, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/terrain/terrain_object.cpp, //312
+openage::RadialObject::min_axis, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/terrain/terrain_object.cpp, //324
+openage::SquareObject::contains, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/terrain/terrain_object.cpp, //228
+openage::SquareObject::from_edge, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/terrain/terrain_object.cpp, //215
+openage::SquareObject::get_range, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/terrain/terrain_object.cpp, //199
+openage::SquareObject::intersects, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/terrain/terrain_object.cpp, //239
+openage::SquareObject::min_axis, //0, //J, //Jono4728@gmail.com, //20141119, //cpp/terrain/terrain_object.cpp, //263
+PyIOWrapper::read, //0, //Jonas Jelten, //jelten@in.tum.de, //20140823, //py/openage/convert/cabextract/lzxd/pyinterface.cpp, //26
+PyIOWrapper::write, //0, //Jonas Jelten, //jelten@in.tum.de, //20140823, //py/openage/convert/cabextract/lzxd/pyinterface.cpp, //48

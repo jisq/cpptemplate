@@ -1,0 +1,724 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+Audio::Sample, //29, //Corentin Wallez, //corentin@wallez.net, //20140118, //src/engine/audio/Sample.h, //99
+
+virtual function, calls, developer, email, edit time, definition file path, line
+Rocket::Controls::ElementFormControl::IsSubmitted, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControl.cpp, //55
+Rocket::Controls::ElementFormControl::OnAttributeChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControl.cpp, //79
+Rocket::Core::Element::OnAttributeChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Element.cpp, //1414
+Rocket::Controls::ElementDataGridCell::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementDataGridCell.cpp, //65
+Rocket::Core::Element::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Element.cpp, //1695
+Rocket::Core::ReferenceCountable::RemoveReference, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ReferenceCountable.cpp, //67
+Rocket::Core::Stream::IsEOS, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Stream.cpp, //64
+Rocket::Core::Stream::Read, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Stream.cpp, //94
+Rocket::Core::ReferenceCountable::AddReference, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ReferenceCountable.cpp, //57
+Rocket::Core::Plugin::OnContextDestroy, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/Plugin.cpp, //58
+Rocket::Core::Plugin::OnElementCreate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/Plugin.cpp, //84
+Rocket::Core::Plugin::OnElementDestroy, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/Plugin.cpp, //90
+Rocket::Core::Plugin::OnShutdown, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Plugin.cpp, //47
+Rocket::Debugger::Plugin::OnContextDestroy, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Debugger/Plugin.cpp, //221
+Rocket::Debugger::Plugin::OnElementCreate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Debugger/Plugin.cpp, //241
+Rocket::Debugger::Plugin::OnElementDestroy, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Debugger/Plugin.cpp, //248
+Rocket::Debugger::Plugin::OnShutdown, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Debugger/Plugin.cpp, //202
+Rocket::Debugger::Plugin::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Debugger/Plugin.cpp, //257
+Rocket::Core::FontEffect::GenerateGlyphTexture, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/FontEffect.cpp, //70
+Rocket::Core::FontEffect::GetGlyphMetrics, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/FontEffect.cpp, //60
+Rocket::Core::FontEffect::HasUniqueTexture, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/FontEffect.cpp, //54
+Rocket::Core::FontEffect::OnReferenceDeactivate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/FontEffect.cpp, //121
+Rocket::Core::ReferenceCountable::OnReferenceDeactivate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ReferenceCountable.cpp, //96
+Rocket::Controls::ElementFormControlSelect::GetIntrinsicDimensions, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlSelect.cpp, //162
+Rocket::Controls::ElementFormControlSelect::GetValue, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlSelect.cpp, //49
+Rocket::Controls::ElementFormControlSelect::OnLayout, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlSelect.cpp, //156
+Rocket::Controls::ElementFormControlSelect::OnRender, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlSelect.cpp, //148
+Rocket::Controls::ElementFormControlSelect::OnUpdate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlSelect.cpp, //126
+Rocket::Controls::ElementFormControlSelect::SetValue, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlSelect.cpp, //56
+Rocket::Core::Element::GetIntrinsicDimensions, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/Element.cpp, //450
+Rocket::Core::Element::OnLayout, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Element.cpp, //1409
+Rocket::Core::Element::OnRender, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Element.cpp, //1404
+Rocket::Core::Element::OnUpdate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Element.cpp, //1399
+Rocket::Core::ContextInstancerDefault::InstanceContext, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ContextInstancerDefault.cpp, //43
+Rocket::Core::ContextInstancerDefault::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ContextInstancerDefault.cpp, //55
+Rocket::Core::ContextInstancerDefault::ReleaseContext, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ContextInstancerDefault.cpp, //50
+Rocket::Core::StyleSheetNodeSelectorLastOfType::IsApplicable, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/StyleSheetNodeSelectorLastOfType.cpp, //45
+Rocket::Core::StyleSheetNodeSelectorNthOfType::IsApplicable, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StyleSheetNodeSelectorNthOfType.cpp, //45
+Rocket::Core::Stream::Close, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Stream.cpp, //47
+Rocket::Core::Stream::Peek, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Stream.cpp, //69
+Rocket::Core::Stream::PopFront, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/Stream.cpp, //141
+Rocket::Core::Stream::PushFront, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/Stream.cpp, //121
+Rocket::Core::Stream::Read, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Stream.cpp, //78
+Rocket::Core::Stream::Write, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Stream.cpp, //115
+Rocket::Core::Stream::Write, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Stream.cpp, //110
+Rocket::Core::Stream::Write, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Stream.cpp, //105
+Rocket::Core::StreamMemory::Close, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StreamMemory.cpp, //97
+Rocket::Core::StreamMemory::IsEOS, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StreamMemory.cpp, //102
+Rocket::Core::StreamMemory::IsReadReady, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StreamMemory.cpp, //226
+Rocket::Core::StreamMemory::IsWriteReady, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StreamMemory.cpp, //231
+Rocket::Core::StreamMemory::Length, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StreamMemory.cpp, //113
+Rocket::Core::StreamMemory::Peek, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/StreamMemory.cpp, //131
+Rocket::Core::StreamMemory::PopFront, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StreamMemory.cpp, //206
+Rocket::Core::StreamMemory::PushFront, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StreamMemory.cpp, //193
+Rocket::Core::StreamMemory::Read, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StreamMemory.cpp, //119
+Rocket::Core::StreamMemory::Seek, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StreamMemory.cpp, //168
+Rocket::Core::StreamMemory::Tell, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StreamMemory.cpp, //108
+Rocket::Core::StreamMemory::Truncate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StreamMemory.cpp, //156
+Rocket::Core::StreamMemory::Write, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StreamMemory.cpp, //141
+Rocket::Core::EventInstancerDefault::InstanceEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/EventInstancerDefault.cpp, //43
+Rocket::Core::EventInstancerDefault::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/EventInstancerDefault.cpp, //54
+Rocket::Core::EventInstancerDefault::ReleaseEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/EventInstancerDefault.cpp, //49
+Rocket::Controls::ElementFormControlDataSelect::OnAttributeChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlDataSelect.cpp, //75
+Rocket::Controls::ElementFormControlDataSelect::OnUpdate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlDataSelect.cpp, //60
+Rocket::Core::Element::GetOwnerDocument, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Element.cpp, //872
+Rocket::Core::Element::OnChildAdd, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Element.cpp, //1628
+Rocket::Core::Element::OnChildRemove, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Element.cpp, //1635
+RocketDataSelect::OnAttributeChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140524, //src/engine/client/rocketDataSelect.h, //72
+RocketDataSelect::OnChildAdd, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140524, //src/engine/client/rocketDataSelect.h, //48
+RocketDataSelect::OnChildRemove, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140524, //src/engine/client/rocketDataSelect.h, //59
+RocketDataSelect::OnUpdate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140524, //src/engine/client/rocketDataSelect.h, //93
+RocketDataSelect::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140524, //src/engine/client/rocketDataSelect.h, //83
+Rocket::Core::ElementHandle::OnAttributeChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementHandle.cpp, //52
+Rocket::Core::ElementHandle::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementHandle.cpp, //66
+Rocket::Core::ReferenceCountable::GetReferenceCount, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ReferenceCountable.cpp, //51
+Rocket::Core::ReferenceCountable::OnReferenceActivate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ReferenceCountable.cpp, //91
+Rocket::Controls::DataSourceListener::OnRowAdd, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Controls/DataSourceListener.cpp, //51
+Rocket::Controls::DataSourceListener::OnRowChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Controls/DataSourceListener.cpp, //69
+Rocket::Controls::DataSourceListener::OnRowChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Controls/DataSourceListener.cpp, //78
+Rocket::Controls::DataSourceListener::OnRowRemove, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Controls/DataSourceListener.cpp, //60
+Rocket::Core::Element::OnPropertyChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Element.cpp, //1443
+RocketCircleMenu::GetIntrinsicDimensions, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130718, //src/engine/client/rocketCircleMenu.h, //68
+RocketCircleMenu::OnAttributeChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130718, //src/engine/client/rocketCircleMenu.h, //151
+RocketCircleMenu::OnPropertyChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130718, //src/engine/client/rocketCircleMenu.h, //173
+RocketCircleMenu::OnRowAdd, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130718, //src/engine/client/rocketCircleMenu.h, //188
+RocketCircleMenu::OnRowChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130718, //src/engine/client/rocketCircleMenu.h, //193
+RocketCircleMenu::OnRowChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130718, //src/engine/client/rocketCircleMenu.h, //198
+RocketCircleMenu::OnRowRemove, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130718, //src/engine/client/rocketCircleMenu.h, //203
+RocketCircleMenu::OnUpdate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140111, //src/engine/client/rocketCircleMenu.h, //235
+RocketCircleMenu::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140112, //src/engine/client/rocketCircleMenu.h, //292
+rcContext::doLog, //0, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/recast/Recast.h, //151
+Rocket::Core::EventListenerInstancer::OnReferenceDeactivate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/EventListenerInstancer.cpp, //38
+Rocket::Core::Element::DirtyFont, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Element.cpp, //1675
+Rocket::Core::Element::DirtyLayout, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Element.cpp, //1650
+Rocket::Core::Element::GetBaseline, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Element.cpp, //444
+Rocket::Core::Element::GetInnerRML, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Element.cpp, //953
+Rocket::Core::Element::GetRML, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Element.cpp, //1732
+Rocket::Core::Element::GetStyleSheet, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Element.cpp, //242
+Rocket::Core::Element::IsLayoutDirty, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130517, //src/libs/libRocket/Source/Core/Element.cpp, //1666
+Rocket::Core::Element::IsPointWithinElement, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Element.cpp, //458
+Rocket::Core::Element::LockLayout, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130517, //src/libs/libRocket/Source/Core/Element.cpp, //1658
+Rocket::Core::Element::OnReferenceDeactivate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Element.cpp, //1681
+Rocket::Core::ElementDocument::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementDocument.cpp, //387
+Rocket::Debugger::ElementInfo::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Debugger/ElementInfo.cpp, //119
+Rocket::Core::StyleSheetNodeSelectorNthChild::IsApplicable, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StyleSheetNodeSelectorNthChild.cpp, //46
+Rocket::Core::FontEffectNoneInstancer::InstanceFontEffect, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/FontEffectNoneInstancer.cpp, //44
+Rocket::Core::FontEffectNoneInstancer::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/FontEffectNoneInstancer.cpp, //60
+Rocket::Core::FontEffectNoneInstancer::ReleaseFontEffect, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/FontEffectNoneInstancer.cpp, //54
+Rocket::Core::Stream::OnReferenceDeactivate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Stream.cpp, //163
+Rocket::Core::Stream::PopBack, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Stream.cpp, //150
+Rocket::Core::Stream::PushBack, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Stream.cpp, //131
+Rocket::Core::FontFaceHandle::OnReferenceDeactivate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130517, //src/libs/libRocket/Source/Core/FontFaceHandle.cpp, //394
+Rocket::Controls::DataSourceListener::OnDataSourceDestroy, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Controls/DataSourceListener.cpp, //45
+Rocket::Controls::ElementFormControlDataSelect::OnDataSourceDestroy, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlDataSelect.cpp, //97
+Rocket::Controls::ElementFormControlDataSelect::OnRowAdd, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Controls/ElementFormControlDataSelect.cpp, //110
+Rocket::Controls::ElementFormControlDataSelect::OnRowChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Controls/ElementFormControlDataSelect.cpp, //132
+Rocket::Controls::ElementFormControlDataSelect::OnRowChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Controls/ElementFormControlDataSelect.cpp, //143
+Rocket::Controls::ElementFormControlDataSelect::OnRowRemove, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Controls/ElementFormControlDataSelect.cpp, //121
+Rocket::Controls::ControlsPlugin::GetEventClasses, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/Controls.cpp, //118
+Rocket::Controls::ControlsPlugin::OnShutdown, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/Controls.cpp, //112
+Rocket::Core::Plugin::GetEventClasses, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Plugin.cpp, //38
+Rocket::Core::DecoratorTiledImage::GenerateElementData, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/DecoratorTiledImage.cpp, //58
+Rocket::Core::DecoratorTiledImage::ReleaseElementData, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/DecoratorTiledImage.cpp, //73
+Rocket::Core::DecoratorTiledImage::RenderElement, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/DecoratorTiledImage.cpp, //79
+GLCompileMacro::GetRequiredVertexAttributes, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //641
+GLCompileMacro::HasConflictingMacros, //0, //cmf028, //cmf1292@hotmail.com, //20130402, //src/engine/renderer/gl_shader.h, //631
+GLCompileMacro::MissesRequiredMacros, //0, //cmf028, //cmf1292@hotmail.com, //20130402, //src/engine/renderer/gl_shader.h, //636
+GLCompileMacro_LIGHT_DIRECTIONAL::GetName, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //1050
+GLCompileMacro_LIGHT_DIRECTIONAL::GetType, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //1055
+GLCompileMacro_TWOSIDED::GetName, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //1003
+GLCompileMacro_TWOSIDED::GetRequiredVertexAttributes, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //1013
+GLCompileMacro_TWOSIDED::GetType, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //1008
+GLCompileMacro_USE_DEPTH_FADE::GetName, //0, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20141027, //src/engine/renderer/gl_shader.h, //1176
+GLCompileMacro_USE_DEPTH_FADE::GetType, //0, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20141027, //src/engine/renderer/gl_shader.h, //1181
+GLCompileMacro_USE_GLOW_MAPPING::GetName, //0, //cmf028, //cmf1292@hotmail.com, //20130806, //src/engine/renderer/gl_shader.h, //1134
+GLCompileMacro_USE_GLOW_MAPPING::GetType, //0, //cmf028, //cmf1292@hotmail.com, //20130806, //src/engine/renderer/gl_shader.h, //1139
+GLCompileMacro_USE_NORMAL_MAPPING::GetName, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //868
+GLCompileMacro_USE_NORMAL_MAPPING::GetRequiredVertexAttributes, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //878
+GLCompileMacro_USE_NORMAL_MAPPING::GetType, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //873
+GLCompileMacro_USE_PARALLAX_MAPPING::GetName, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //915
+GLCompileMacro_USE_PARALLAX_MAPPING::GetType, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //920
+GLCompileMacro_USE_PARALLAX_MAPPING::MissesRequiredMacros, //0, //cmf028, //cmf1292@hotmail.com, //20130402, //src/engine/renderer/gl_shader.cpp, //914
+GLCompileMacro_USE_REFLECTIVE_SPECULAR::GetName, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //959
+GLCompileMacro_USE_REFLECTIVE_SPECULAR::GetType, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //964
+GLCompileMacro_USE_REFLECTIVE_SPECULAR::MissesRequiredMacros, //0, //cmf028, //cmf1292@hotmail.com, //20130402, //src/engine/renderer/gl_shader.cpp, //937
+GLCompileMacro_USE_SHADOWING::GetName, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //1092
+GLCompileMacro_USE_SHADOWING::GetType, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //1097
+GLCompileMacro_USE_TCGEN_ENVIRONMENT::GetName, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //779
+GLCompileMacro_USE_TCGEN_ENVIRONMENT::GetRequiredVertexAttributes, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //789
+GLCompileMacro_USE_TCGEN_ENVIRONMENT::GetType, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //784
+GLCompileMacro_USE_TCGEN_LIGHTMAP::GetName, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //826
+GLCompileMacro_USE_TCGEN_LIGHTMAP::GetType, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //831
+GLCompileMacro_USE_VERTEX_ANIMATION::GetName, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //734
+GLCompileMacro_USE_VERTEX_ANIMATION::GetRequiredVertexAttributes, //0, //cmf028, //cmf1292@hotmail.com, //20130402, //src/engine/renderer/gl_shader.cpp, //907
+GLCompileMacro_USE_VERTEX_ANIMATION::GetType, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //739
+GLCompileMacro_USE_VERTEX_ANIMATION::HasConflictingMacros, //0, //cmf028, //cmf1292@hotmail.com, //20130402, //src/engine/renderer/gl_shader.cpp, //891
+GLCompileMacro_USE_VERTEX_SKINNING::GetName, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //684
+GLCompileMacro_USE_VERTEX_SKINNING::GetRequiredVertexAttributes, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //697
+GLCompileMacro_USE_VERTEX_SKINNING::GetType, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //689
+GLCompileMacro_USE_VERTEX_SKINNING::HasConflictingMacros, //0, //cmf028, //cmf1292@hotmail.com, //20130402, //src/engine/renderer/gl_shader.cpp, //869
+GLCompileMacro_USE_VERTEX_SKINNING::MissesRequiredMacros, //0, //cmf028, //cmf1292@hotmail.com, //20130402, //src/engine/renderer/gl_shader.cpp, //886
+GLShader::BuildShaderCompileMacros, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.h, //170
+GLShader::BuildShaderFragmentLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.h, //169
+GLShader::BuildShaderVertexLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.h, //168
+GLShader::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.h, //171
+GLShader_blurX::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1664
+GLShader_blurY::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1677
+GLShader_cameraEffects::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1650
+GLShader_contrast::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1635
+GLShader_debugShadowMap::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1688
+GLShader_depthToColor::BuildShaderVertexLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120906, //src/engine/renderer/gl_shader.cpp, //1701
+GLShader_fogGlobal::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1569
+GLShader_fogQuake3::BuildShaderVertexLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1547
+GLShader_fogQuake3::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1552
+GLShader_forwardLighting_directionalSun::BuildShaderCompileMacros, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1429
+GLShader_forwardLighting_directionalSun::BuildShaderFragmentLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1424
+GLShader_forwardLighting_directionalSun::BuildShaderVertexLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1419
+GLShader_forwardLighting_directionalSun::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1435
+GLShader_forwardLighting_omniXYZ::BuildShaderCompileMacros, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1304
+GLShader_forwardLighting_omniXYZ::BuildShaderFragmentLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1299
+GLShader_forwardLighting_omniXYZ::BuildShaderVertexLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1294
+GLShader_forwardLighting_omniXYZ::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1309
+GLShader_forwardLighting_projXYZ::BuildShaderCompileMacros, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1365
+GLShader_forwardLighting_projXYZ::BuildShaderFragmentLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1360
+GLShader_forwardLighting_projXYZ::BuildShaderVertexLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1355
+GLShader_forwardLighting_projXYZ::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1371
+GLShader_fxaa::BuildShaderFragmentLibNames, //0, //Corentin Wallez, //corentin@wallez.net, //20130904, //src/engine/renderer/gl_shader.cpp, //1800
+GLShader_fxaa::SetShaderProgramUniforms, //0, //Corentin Wallez, //corentin@wallez.net, //20130904, //src/engine/renderer/gl_shader.cpp, //1795
+GLShader_generic::BuildShaderVertexLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1096
+GLShader_generic::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1101
+GLShader_heatHaze::BuildShaderVertexLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1594
+GLShader_heatHaze::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1599
+GLShader_lightMapping::BuildShaderCompileMacros, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1139
+GLShader_lightMapping::BuildShaderFragmentLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1134
+GLShader_lightMapping::BuildShaderVertexLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1129
+GLShader_lightMapping::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1144
+GLShader_lightVolume_omni::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120906, //src/engine/renderer/gl_shader.cpp, //1720
+GLShader_liquid::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120906, //src/engine/renderer/gl_shader.cpp, //1751
+GLShader_motionblur::SetShaderProgramUniforms, //0, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20130127, //src/engine/renderer/gl_shader.cpp, //1784
+GLShader_portal::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1624
+GLShader_reflection::BuildShaderCompileMacros, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1504
+GLShader_reflection::BuildShaderVertexLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1499
+GLShader_reflection::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1509
+GLShader_screen::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1611
+GLShader_shadowFill::BuildShaderVertexLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1473
+GLShader_shadowFill::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1478
+GLShader_skybox::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1526
+GLShader_vertexLighting_DBS_entity::BuildShaderCompileMacros, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1192
+GLShader_vertexLighting_DBS_entity::BuildShaderFragmentLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1187
+GLShader_vertexLighting_DBS_entity::BuildShaderVertexLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1182
+GLShader_vertexLighting_DBS_entity::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1197
+GLShader_vertexLighting_DBS_world::BuildShaderCompileMacros, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1246
+GLShader_vertexLighting_DBS_world::BuildShaderFragmentLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1241
+GLShader_vertexLighting_DBS_world::BuildShaderVertexLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1237
+GLShader_vertexLighting_DBS_world::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1251
+GLShader_volumetricFog::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120906, //src/engine/renderer/gl_shader.cpp, //1771
+GLUniform::GetSize, //0, //cmf028, //cmf1292@hotmail.com, //20130405, //src/engine/renderer/gl_shader.h, //286
+GLUniform1f::GetSize, //0, //cmf028, //cmf1292@hotmail.com, //20130405, //src/engine/renderer/gl_shader.h, //326
+GLUniform2f::GetSize, //0, //cmf028, //cmf1292@hotmail.com, //20130713, //src/engine/renderer/gl_shader.h, //392
+GLUniform3f::GetSize, //0, //cmf028, //cmf1292@hotmail.com, //20130405, //src/engine/renderer/gl_shader.h, //432
+GLUniform4f::GetSize, //0, //cmf028, //cmf1292@hotmail.com, //20130405, //src/engine/renderer/gl_shader.h, //472
+GLUniformMatrix4f::GetSize, //0, //cmf028, //cmf1292@hotmail.com, //20130405, //src/engine/renderer/gl_shader.h, //539
+Rocket::Core::StyleSheetNodeSelectorLastChild::IsApplicable, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/StyleSheetNodeSelectorLastChild.cpp, //45
+Rocket::Core::ScriptInterface::GetScriptObject, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Include/Rocket/Core/ScriptInterface.h, //50
+Cmd::CmdBase::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/common/Command.cpp, //448
+Audio::EntityEmitter::InternalSetupSound, //0, //Corentin Wallez, //corentin@wallez.net, //20131227, //src/engine/audio/Emitter.cpp, //293
+Audio::EntityEmitter::Update, //0, //Corentin Wallez, //corentin@wallez.net, //20131214, //src/engine/audio/Emitter.cpp, //279
+Audio::EntityEmitter::UpdateSound, //0, //Corentin Wallez, //corentin@wallez.net, //20131214, //src/engine/audio/Emitter.cpp, //283
+Audio::LocalEmitter::InternalSetupSound, //0, //Corentin Wallez, //corentin@wallez.net, //20131214, //src/engine/audio/Emitter.cpp, //342
+Audio::LocalEmitter::Update, //0, //Corentin Wallez, //corentin@wallez.net, //20131214, //src/engine/audio/Emitter.cpp, //336
+Audio::LocalEmitter::UpdateSound, //0, //Corentin Wallez, //corentin@wallez.net, //20131227, //src/engine/audio/Emitter.cpp, //339
+Audio::PositionEmitter::InternalSetupSound, //0, //Corentin Wallez, //corentin@wallez.net, //20131214, //src/engine/audio/Emitter.cpp, //318
+Audio::PositionEmitter::Update, //0, //Corentin Wallez, //corentin@wallez.net, //20131214, //src/engine/audio/Emitter.cpp, //308
+Audio::PositionEmitter::UpdateSound, //0, //Corentin Wallez, //corentin@wallez.net, //20131227, //src/engine/audio/Emitter.cpp, //312
+Audio::TestReverbCmd::Complete, //0, //Corentin Wallez, //corentin@wallez.net, //20131231, //src/engine/audio/Emitter.cpp, //367
+Audio::TestReverbCmd::Run, //0, //Corentin Wallez, //corentin@wallez.net, //20131228, //src/engine/audio/Emitter.cpp, //353
+Rocket::Core::PropertyParserString::ParseValue, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/PropertyParserString.cpp, //43
+Rocket::Core::PropertyParserString::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/PropertyParserString.cpp, //54
+Rocket::Core::FontEffectNone::GenerateGlyphTexture, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/FontEffectNone.cpp, //53
+Rocket::Core::FontEffectNone::GetGlyphSize, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/FontEffectNone.cpp, //43
+Rocket::Controls::InputType::GetValue, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputType.cpp, //43
+Rocket::Controls::InputType::IsSubmitted, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputType.cpp, //49
+Rocket::Controls::InputType::OnAttributeChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Controls/InputType.cpp, //65
+Rocket::Controls::InputType::OnChildAdd, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputType.cpp, //79
+Rocket::Controls::InputTypeRadio::GetIntrinsicDimensions, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputTypeRadio.cpp, //88
+Rocket::Controls::InputTypeRadio::IsSubmitted, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputTypeRadio.cpp, //47
+Rocket::Controls::InputTypeRadio::OnAttributeChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputTypeRadio.cpp, //53
+Rocket::Controls::InputTypeRadio::OnChildAdd, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputTypeRadio.cpp, //73
+Rocket::Controls::InputTypeRadio::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputTypeRadio.cpp, //80
+Rocket::Core::DecoratorTiledBox::GenerateElementData, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/DecoratorTiledBox.cpp, //113
+Rocket::Core::DecoratorTiledBox::ReleaseElementData, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/DecoratorTiledBox.cpp, //298
+Rocket::Core::DecoratorTiledBox::RenderElement, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/DecoratorTiledBox.cpp, //304
+Rocket::Controls::ElementDataGridRow::OnDataSourceDestroy, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Controls/ElementDataGridRow.cpp, //248
+Rocket::Controls::ElementDataGridRow::OnRowAdd, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementDataGridRow.cpp, //258
+Rocket::Controls::ElementDataGridRow::OnRowChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementDataGridRow.cpp, //270
+Rocket::Controls::ElementDataGridRow::OnRowChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementDataGridRow.cpp, //276
+Rocket::Controls::ElementDataGridRow::OnRowRemove, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementDataGridRow.cpp, //264
+Rocket::Core::ElementDocument::LockLayout, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementDocument.cpp, //344
+Rocket::Core::ElementDefinition::OnReferenceDeactivate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementDefinition.cpp, //337
+Rocket::Core::FileInterface::Length, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/FileInterface.cpp, //43
+Rocket::Core::RenderInterface::CompileGeometry, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/RenderInterface.cpp, //45
+Rocket::Core::RenderInterface::GenerateTexture, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/RenderInterface.cpp, //80
+Rocket::Core::RenderInterface::LoadTexture, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/RenderInterface.cpp, //70
+Rocket::Core::RenderInterface::ReleaseCompiledGeometry, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/RenderInterface.cpp, //64
+Rocket::Core::RenderInterface::ReleaseTexture, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/RenderInterface.cpp, //90
+Rocket::Core::RenderInterface::RenderCompiledGeometry, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/RenderInterface.cpp, //57
+Rocket::Core::SystemInterface::LogMessage, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/SystemInterface.cpp, //66
+Rocket::Core::SystemInterface::TranslateString, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/SystemInterface.cpp, //75
+DaemonFileInterface::Close, //0, //cmf028, //cmf1292@hotmail.com, //20130112, //src/engine/client/rocket.cpp, //86
+DaemonFileInterface::Length, //0, //cmf028, //cmf1292@hotmail.com, //20130112, //src/engine/client/rocket.cpp, //111
+DaemonFileInterface::Open, //0, //cmf028, //cmf1292@hotmail.com, //20130112, //src/engine/client/rocket.cpp, //79
+DaemonFileInterface::Read, //0, //cmf028, //cmf1292@hotmail.com, //20130112, //src/engine/client/rocket.cpp, //91
+DaemonFileInterface::Seek, //0, //cmf028, //cmf1292@hotmail.com, //20130112, //src/engine/client/rocket.cpp, //96
+DaemonFileInterface::Tell, //0, //cmf028, //cmf1292@hotmail.com, //20130112, //src/engine/client/rocket.cpp, //103
+DaemonRenderInterface::CompileGeometry, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130523, //src/engine/client/rocket.cpp, //222
+DaemonRenderInterface::EnableScissorRegion, //0, //cmf028, //cmf1292@hotmail.com, //20130112, //src/engine/client/rocket.cpp, //272
+DaemonRenderInterface::GenerateTexture, //0, //cmf028, //cmf1292@hotmail.com, //20130112, //src/engine/client/rocket.cpp, //258
+DaemonRenderInterface::LoadTexture, //0, //cmf028, //cmf1292@hotmail.com, //20130112, //src/engine/client/rocket.cpp, //243
+DaemonRenderInterface::ReleaseCompiledGeometry, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130523, //src/engine/client/rocket.cpp, //237
+DaemonRenderInterface::ReleaseTexture, //0, //cmf028, //cmf1292@hotmail.com, //20130112, //src/engine/client/rocket.cpp, //267
+DaemonRenderInterface::RenderCompiledGeometry, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130523, //src/engine/client/rocket.cpp, //230
+DaemonRenderInterface::RenderGeometry, //0, //cmf028, //cmf1292@hotmail.com, //20130112, //src/engine/client/rocket.cpp, //213
+DaemonRenderInterface::SetScissorRegion, //0, //cmf028, //cmf1292@hotmail.com, //20130112, //src/engine/client/rocket.cpp, //278
+DaemonSystemInterface::GetElapsedTime, //0, //cmf028, //cmf1292@hotmail.com, //20130112, //src/engine/client/rocket.cpp, //120
+DaemonSystemInterface::LogMessage, //0, //cmf028, //cmf1292@hotmail.com, //20130112, //src/engine/client/rocket.cpp, //133
+DaemonSystemInterface::TranslateString, //0, //cmf028, //cmf1292@hotmail.com, //20130112, //src/engine/client/rocket.cpp, //125
+Rocket::Controls::ElementFormControlTextArea::GetInnerRML, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlTextArea.cpp, //181
+Rocket::Controls::ElementFormControlTextArea::GetIntrinsicDimensions, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlTextArea.cpp, //120
+Rocket::Controls::ElementFormControlTextArea::GetValue, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlTextArea.cpp, //52
+Rocket::Controls::ElementFormControlTextArea::OnAttributeChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlTextArea.cpp, //147
+Rocket::Controls::ElementFormControlTextArea::OnLayout, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlTextArea.cpp, //141
+Rocket::Controls::ElementFormControlTextArea::OnPropertyChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlTextArea.cpp, //171
+Rocket::Controls::ElementFormControlTextArea::OnRender, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlTextArea.cpp, //135
+Rocket::Controls::ElementFormControlTextArea::OnUpdate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlTextArea.cpp, //129
+Rocket::Controls::ElementFormControlTextArea::SetValue, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlTextArea.cpp, //58
+Rocket::Core::PropertyParserColour::ParseValue, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/PropertyParserColour.cpp, //62
+Rocket::Controls::ElementFormControlInput::GetValue, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlInput.cpp, //55
+RocketColorInput::OnAttributeChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140413, //src/engine/client/rocketColorInput.h, //68
+RocketColorInput::OnChildAdd, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140413, //src/engine/client/rocketColorInput.h, //54
+RocketColorInput::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140413, //src/engine/client/rocketColorInput.h, //79
+Rocket::Core::Python::ElementInstancer::InstanceElement, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Include/Rocket/Core/Python/ElementInstancer.h, //69
+Rocket::Core::Python::ElementInstancer::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Include/Rocket/Core/Python/ElementInstancer.h, //107
+Rocket::Core::Python::ElementInstancer::ReleaseElement, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Include/Rocket/Core/Python/ElementInstancer.h, //99
+Rocket::Core::XMLNodeHandlerHead::ElementData, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/XMLNodeHandlerHead.cpp, //117
+Rocket::Core::XMLNodeHandlerHead::ElementEnd, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/XMLNodeHandlerHead.cpp, //101
+Rocket::Core::XMLNodeHandlerHead::ElementStart, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/XMLNodeHandlerHead.cpp, //45
+Rocket::Core::XMLNodeHandlerHead::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/XMLNodeHandlerHead.cpp, //140
+Rocket::Core::FileInterface::OnReferenceDeactivate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/FileInterface.cpp, //57
+Rocket::Core::FileInterface::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/FileInterface.cpp, //53
+Rocket::Core::FontEffectShadowInstancer::InstanceFontEffect, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/FontEffectShadowInstancer.cpp, //49
+Rocket::Core::FontEffectShadowInstancer::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/FontEffectShadowInstancer.cpp, //73
+Rocket::Core::FontEffectShadowInstancer::ReleaseFontEffect, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/FontEffectShadowInstancer.cpp, //67
+Rocket::Core::DecoratorTiledHorizontalInstancer::InstanceDecorator, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/DecoratorTiledHorizontalInstancer.cpp, //48
+Rocket::Core::DecoratorTiledHorizontalInstancer::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/DecoratorTiledHorizontalInstancer.cpp, //79
+Rocket::Core::DecoratorTiledHorizontalInstancer::ReleaseDecorator, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/DecoratorTiledHorizontalInstancer.cpp, //73
+Rocket::Core::Context::OnReferenceDeactivate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Context.cpp, //1219
+Rocket::Core::StyleSheetNodeSelectorNthLastOfType::IsApplicable, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StyleSheetNodeSelectorNthLastOfType.cpp, //45
+Rocket::Controls::ElementTextSelection::OnPropertyChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementTextSelection.cpp, //50
+Rocket::Controls::XMLNodeHandlerTextArea::ElementData, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/XMLNodeHandlerTextArea.cpp, //69
+Rocket::Controls::XMLNodeHandlerTextArea::ElementEnd, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Controls/XMLNodeHandlerTextArea.cpp, //61
+Rocket::Controls::XMLNodeHandlerTextArea::ElementStart, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/XMLNodeHandlerTextArea.cpp, //43
+Rocket::Controls::XMLNodeHandlerTextArea::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/XMLNodeHandlerTextArea.cpp, //84
+Rocket::Core::FileInterfaceDefault::Close, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/FileInterfaceDefault.cpp, //47
+Rocket::Core::FileInterfaceDefault::Open, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/FileInterfaceDefault.cpp, //41
+Rocket::Core::FileInterfaceDefault::Read, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/FileInterfaceDefault.cpp, //53
+Rocket::Core::FileInterfaceDefault::Seek, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/FileInterfaceDefault.cpp, //59
+Rocket::Core::FileInterfaceDefault::Tell, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/FileInterfaceDefault.cpp, //65
+RocketElementDocument::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130721, //src/engine/client/rocketElementDocument.h, //48
+Rocket::Core::DecoratorTiledVertical::GenerateElementData, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/DecoratorTiledVertical.cpp, //101
+Rocket::Core::DecoratorTiledVertical::ReleaseElementData, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/DecoratorTiledVertical.cpp, //145
+Rocket::Core::DecoratorTiledVertical::RenderElement, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/DecoratorTiledVertical.cpp, //151
+Rocket::Core::ElementDocument::DirtyLayout, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementDocument.cpp, //354
+Rocket::Core::ElementDocument::GetOwnerDocument, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementDocument.cpp, //154
+Rocket::Core::ElementDocument::GetStyleSheet, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementDocument.cpp, //201
+Rocket::Core::ElementDocument::IsLayoutDirty, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130517, //src/libs/libRocket/Source/Core/ElementDocument.cpp, //359
+Rocket::Core::ElementDocument::LoadScript, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/ElementDocument.cpp, //290
+Rocket::Core::ElementDocument::OnPropertyChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementDocument.cpp, //371
+Rocket::Core::ElementDocument::OnUpdate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementDocument.cpp, //365
+RocketMiscText::OnUpdate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140101, //src/engine/client/rocketMiscText.h, //70
+Rocket::Core::Plugin::OnContextCreate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/Plugin.cpp, //52
+Rocket::Core::Plugin::OnDocumentLoad, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/Plugin.cpp, //72
+Rocket::Core::Plugin::OnDocumentOpen, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/Plugin.cpp, //64
+Rocket::Core::Plugin::OnDocumentUnload, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/Plugin.cpp, //78
+Rocket::Core::Plugin::OnInitialise, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Plugin.cpp, //43
+Rocket::Core::Decorator::OnReferenceDeactivate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Decorator.cpp, //74
+Rocket::Core::RenderInterface::GetPixelsPerInch, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/RenderInterface.cpp, //108
+Rocket::Core::WidgetSlider::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/WidgetSlider.cpp, //385
+Rocket::Core::SystemInterface::ActivateKeyboard, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/SystemInterface.cpp, //116
+Rocket::Core::SystemInterface::DeactivateKeyboard, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/SystemInterface.cpp, //121
+Rocket::Core::SystemInterface::JoinPath, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/SystemInterface.cpp, //82
+Rocket::Core::SystemInterface::OnReferenceDeactivate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/SystemInterface.cpp, //130
+Rocket::Core::SystemInterface::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/SystemInterface.cpp, //126
+Cvar::CvarCommand::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/CvarSystem.cpp, //176
+Cvar::ListCvars::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/framework/CvarSystem.cpp, //669
+Cvar::ListCvars::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/CvarSystem.cpp, //592
+Cvar::ResetCmd::Complete, //0, //Corentin Wallez, //corentin@wallez.net, //20140220, //src/engine/framework/CvarSystem.cpp, //564
+Cvar::ResetCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/CvarSystem.cpp, //536
+Cvar::SetCmd::Complete, //0, //Corentin Wallez, //corentin@wallez.net, //20140220, //src/engine/framework/CvarSystem.cpp, //515
+Cvar::SetCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/CvarSystem.cpp, //502
+Rocket::Core::StyleSheetNodeSelectorNthLastChild::IsApplicable, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StyleSheetNodeSelectorNthLastChild.cpp, //45
+DaemonFileSystem::open_directory, //0, //cmf028, //cmf1292@hotmail.com, //20121125, //src/engine/qcommon/translation.cpp, //166
+DaemonFileSystem::open_file, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/qcommon/translation.cpp, //183
+DaemonInputbuf::underflow, //0, //cmf028, //cmf1292@hotmail.com, //20121125, //src/engine/qcommon/translation.cpp, //98
+Rocket::Core::ElementTextDefault::AddLine, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementTextDefault.cpp, //254
+Rocket::Core::ElementTextDefault::ClearLines, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementTextDefault.cpp, //243
+Rocket::Core::ElementTextDefault::DirtyFont, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementTextDefault.cpp, //372
+Rocket::Core::ElementTextDefault::GenerateLine, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementTextDefault.cpp, //170
+Rocket::Core::ElementTextDefault::GenerateToken, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementTextDefault.cpp, //143
+Rocket::Core::ElementTextDefault::GetRML, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementTextDefault.cpp, //366
+Rocket::Core::ElementTextDefault::GetText, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementTextDefault.cpp, //74
+Rocket::Core::ElementTextDefault::OnPropertyChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementTextDefault.cpp, //280
+Rocket::Core::ElementTextDefault::OnRender, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementTextDefault.cpp, //79
+Rocket::Core::ElementTextDefault::SetText, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementTextDefault.cpp, //63
+Rocket::Core::ElementTextDefault::SuppressAutoLayout, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementTextDefault.cpp, //275
+CvarElementFormControlSelect::OnAttributeChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140524, //src/engine/client/rocketFormControlSelect.h, //48
+CvarElementFormControlSelect::OnChildAdd, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140524, //src/engine/client/rocketFormControlSelect.h, //59
+CvarElementFormControlSelect::OnChildRemove, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140524, //src/engine/client/rocketFormControlSelect.h, //71
+CvarElementFormControlSelect::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140524, //src/engine/client/rocketFormControlSelect.h, //80
+Rocket::Core::StyleSheetNodeSelectorOnlyOfType::IsApplicable, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/StyleSheetNodeSelectorOnlyOfType.cpp, //45
+GameVM::Syscall, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20140317, //src/engine/server/sv_game.cpp, //588
+Rocket::Core::WidgetSliderScroll::OnBarChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/WidgetSliderScroll.cpp, //91
+Rocket::Core::WidgetSliderScroll::OnLineDecrement, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/WidgetSliderScroll.cpp, //105
+Rocket::Core::WidgetSliderScroll::OnLineIncrement, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/WidgetSliderScroll.cpp, //98
+Rocket::Core::WidgetSliderScroll::OnPageDecrement, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/WidgetSliderScroll.cpp, //121
+Rocket::Core::WidgetSliderScroll::OnPageIncrement, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/WidgetSliderScroll.cpp, //112
+Rocket::Controls::ElementFormControlInput::OnAttributeChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlInput.cpp, //85
+Rocket::Controls::ElementFormControlInput::OnChildAdd, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlInput.cpp, //139
+Rocket::Controls::ElementFormControlInput::OnChildRemove, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlInput.cpp, //146
+Rocket::Controls::ElementFormControlInput::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlInput.cpp, //153
+Rocket::Controls::ElementFormControlInput::SetValue, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlInput.cpp, //61
+CvarElementFormControlInput::OnAttributeChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140109, //src/engine/client/rocketFormControlInput.h, //48
+CvarElementFormControlInput::OnChildAdd, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140109, //src/engine/client/rocketFormControlInput.h, //64
+CvarElementFormControlInput::OnChildRemove, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140109, //src/engine/client/rocketFormControlInput.h, //76
+CvarElementFormControlInput::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140109, //src/engine/client/rocketFormControlInput.h, //85
+DebugDrawQuake::begin, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/engine/botlib/bot_debug.cpp, //52
+DebugDrawQuake::depthMask, //0, //cmf028, //cmf1292@hotmail.com, //20130526, //src/engine/botlib/bot_debug.cpp, //47
+DebugDrawQuake::end, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/engine/botlib/bot_debug.cpp, //89
+DebugDrawQuake::vertex, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/engine/botlib/bot_debug.cpp, //57
+DebugDrawQuake::vertex, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/engine/botlib/bot_debug.cpp, //70
+DebugDrawQuake::vertex, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/engine/botlib/bot_debug.cpp, //62
+DebugDrawQuake::vertex, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/engine/botlib/bot_debug.cpp, //78
+Rocket::Core::PropertyParserKeyword::ParseValue, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/PropertyParserKeyword.cpp, //43
+Rocket::Core::PropertyParserKeyword::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/PropertyParserKeyword.cpp, //56
+Rocket::Controls::XMLNodeHandlerDataGrid::ElementData, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/XMLNodeHandlerDataGrid.cpp, //111
+Rocket::Controls::XMLNodeHandlerDataGrid::ElementEnd, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Controls/XMLNodeHandlerDataGrid.cpp, //103
+Rocket::Controls::XMLNodeHandlerDataGrid::ElementStart, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/XMLNodeHandlerDataGrid.cpp, //46
+Rocket::Controls::XMLNodeHandlerDataGrid::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/XMLNodeHandlerDataGrid.cpp, //119
+Rocket::Debugger::SystemInterface::ActivateKeyboard, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Debugger/SystemInterface.cpp, //70
+Rocket::Debugger::SystemInterface::DeactivateKeyboard, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Debugger/SystemInterface.cpp, //76
+Rocket::Debugger::SystemInterface::GetElapsedTime, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Debugger/SystemInterface.cpp, //50
+Rocket::Debugger::SystemInterface::LogMessage, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Debugger/SystemInterface.cpp, //62
+Rocket::Debugger::SystemInterface::TranslateString, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Debugger/SystemInterface.cpp, //56
+Rocket::Core::PluginContextRelease::OnContextDestroy, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Core.cpp, //71
+Rocket::Core::PluginContextRelease::OnShutdown, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Core.cpp, //66
+Rocket::Core::FontEffectOutlineInstancer::InstanceFontEffect, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/FontEffectOutlineInstancer.cpp, //46
+Rocket::Core::FontEffectOutlineInstancer::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/FontEffectOutlineInstancer.cpp, //68
+Rocket::Core::FontEffectOutlineInstancer::ReleaseFontEffect, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/FontEffectOutlineInstancer.cpp, //62
+dtTileCacheAlloc::alloc, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/libs/detour/DetourTileCacheBuilder.h, //87
+dtTileCacheAlloc::free, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/libs/detour/DetourTileCacheBuilder.h, //92
+dtTileCacheAlloc::reset, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/libs/detour/DetourTileCacheBuilder.h, //83
+Rocket::Controls::ElementFormControlInput::GetIntrinsicDimensions, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlInput.cpp, //159
+Rocket::Controls::ElementFormControlInput::IsSubmitted, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlInput.cpp, //67
+Rocket::Controls::ElementFormControlInput::OnPropertyChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlInput.cpp, //130
+Rocket::Controls::ElementFormControlInput::OnRender, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlInput.cpp, //79
+Rocket::Controls::ElementFormControlInput::OnUpdate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementFormControlInput.cpp, //73
+Rocket::Controls::WidgetTextInput::SetValue, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/WidgetTextInput.cpp, //114
+Rocket::Controls::WidgetTextInputSingleLine::IsCharacterValid, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/WidgetTextInputSingleLine.cpp, //53
+Rocket::Controls::WidgetTextInputSingleLine::LineBreak, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/WidgetTextInputSingleLine.cpp, //59
+Rocket::Controls::WidgetTextInputSingleLine::SetValue, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/WidgetTextInputSingleLine.cpp, //44
+RocketDataSource::OnAttributeChange, //0, //Gireen, //grrruen@t-online.de, //20140529, //src/engine/client/rocketDataSource.h, //68
+RocketDataSource::OnRowAdd, //0, //Gireen, //grrruen@t-online.de, //20140529, //src/engine/client/rocketDataSource.h, //90
+RocketDataSource::OnRowChange, //0, //Gireen, //grrruen@t-online.de, //20140529, //src/engine/client/rocketDataSource.h, //95
+RocketDataSource::OnRowChange, //0, //Gireen, //grrruen@t-online.de, //20140529, //src/engine/client/rocketDataSource.h, //100
+RocketDataSource::OnRowRemove, //0, //Gireen, //grrruen@t-online.de, //20140529, //src/engine/client/rocketDataSource.h, //105
+RocketDataSource::OnUpdate, //0, //Gireen, //grrruen@t-online.de, //20140529, //src/engine/client/rocketDataSource.h, //111
+RocketDataSource::ProcessEvent, //0, //Gireen, //grrruen@t-online.de, //20140529, //src/engine/client/rocketDataSource.h, //164
+Rocket::Core::DecoratorNone::GenerateElementData, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/DecoratorNone.cpp, //39
+Rocket::Core::DecoratorNone::ReleaseElementData, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/DecoratorNone.cpp, //47
+Rocket::Core::DecoratorNone::RenderElement, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/DecoratorNone.cpp, //53
+Rocket::Core::StyleSheetNodeSelectorFirstOfType::IsApplicable, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/StyleSheetNodeSelectorFirstOfType.cpp, //45
+Rocket::Core::LayoutInlineBox::CalculateBaseline, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/LayoutInlineBox.cpp, //170
+Rocket::Core::LayoutInlineBox::CanOverflow, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/LayoutInlineBox.cpp, //138
+Rocket::Core::LayoutInlineBox::FlowContent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/LayoutInlineBox.cpp, //154
+Rocket::Core::LayoutInlineBox::OffsetBaseline, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/LayoutInlineBox.cpp, //281
+Rocket::Core::LayoutInlineBox::PositionElement, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/LayoutInlineBox.cpp, //313
+Rocket::Core::LayoutInlineBox::SizeElement, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/LayoutInlineBox.cpp, //331
+Rocket::Core::XMLNodeHandlerDefault::ElementData, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/XMLNodeHandlerDefault.cpp, //75
+Rocket::Core::XMLNodeHandlerDefault::ElementEnd, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/XMLNodeHandlerDefault.cpp, //67
+Rocket::Core::XMLNodeHandlerDefault::ElementStart, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/XMLNodeHandlerDefault.cpp, //47
+Rocket::Core::XMLNodeHandlerDefault::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/XMLNodeHandlerDefault.cpp, //84
+Rocket::Core::StyleSheetNodeSelectorFirstChild::IsApplicable, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/StyleSheetNodeSelectorFirstChild.cpp, //45
+Rocket::Controls::InputTypeSubmit::GetIntrinsicDimensions, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Controls/InputTypeSubmit.cpp, //73
+Rocket::Controls::InputTypeSubmit::IsSubmitted, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputTypeSubmit.cpp, //44
+Rocket::Controls::InputTypeSubmit::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputTypeSubmit.cpp, //50
+Cmd::DefaultEnvironment::ExecuteAfter, //0, //Corentin Wallez, //corentin@wallez.net, //20131031, //src/engine/framework/CommandSystem.cpp, //290
+Cmd::DefaultEnvironment::Print, //0, //Corentin Wallez, //corentin@wallez.net, //20131031, //src/engine/framework/CommandSystem.cpp, //286
+Cmd::ListCmdsCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/framework/CommandSystem.cpp, //341
+Cmd::ListCmdsCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/CommandSystem.cpp, //309
+duDisplayList::begin, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/libs/detour/DebugDraw.cpp, //562
+duDisplayList::depthMask, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/libs/detour/DebugDraw.cpp, //557
+duDisplayList::end, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/libs/detour/DebugDraw.cpp, //586
+duDisplayList::vertex, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/libs/detour/DebugDraw.cpp, //569
+duDisplayList::vertex, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/libs/detour/DebugDraw.cpp, //581
+Rocket::Controls::DataFormatter::GetScriptObject, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/DataFormatter.cpp, //69
+Rocket::Core::DecoratorTiledBoxInstancer::InstanceDecorator, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/DecoratorTiledBoxInstancer.cpp, //57
+Rocket::Core::DecoratorTiledBoxInstancer::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/DecoratorTiledBoxInstancer.cpp, //94
+Rocket::Core::DecoratorTiledBoxInstancer::ReleaseDecorator, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/DecoratorTiledBoxInstancer.cpp, //88
+MapCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/server/sv_ccmds.cpp, //77
+MapCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/server/sv_ccmds.cpp, //53
+rcContext::doGetAccumulatedTime, //0, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/recast/Recast.h, //167
+rcContext::doResetLog, //0, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/recast/Recast.h, //145
+rcContext::doResetTimers, //0, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/recast/Recast.h, //154
+rcContext::doStartTimer, //0, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/recast/Recast.h, //158
+rcContext::doStopTimer, //0, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/recast/Recast.h, //162
+Log::LegacyTarget::Process, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/LogSystem.cpp, //165
+Log::LogFileTarget::Process, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/LogSystem.cpp, //111
+Log::TTYTarget::Process, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/LogSystem.cpp, //87
+RconEnvironment::Print, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/server/sv_main.cpp, //804
+Rocket::Core::DecoratorTiledVerticalInstancer::InstanceDecorator, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/DecoratorTiledVerticalInstancer.cpp, //48
+Rocket::Core::DecoratorTiledVerticalInstancer::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/DecoratorTiledVerticalInstancer.cpp, //79
+Rocket::Core::DecoratorTiledVerticalInstancer::ReleaseDecorator, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/DecoratorTiledVerticalInstancer.cpp, //73
+GraphicalTarget::Process, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/client/cl_console.cpp, //1374
+Audio::Sample::Cleanup, //0, //Corentin Wallez, //corentin@wallez.net, //20140121, //src/engine/audio/Sample.cpp, //62
+Audio::Sample::Load, //0, //Corentin Wallez, //corentin@wallez.net, //20140118, //src/engine/audio/Sample.cpp, //47
+FS::filesystem_category_impl::message, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/FileSystem.cpp, //322
+FS::filesystem_category_impl::name, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/FileSystem.cpp, //318
+FS::minizip_category_impl::message, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/FileSystem.cpp, //279
+FS::minizip_category_impl::name, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/FileSystem.cpp, //275
+Rocket::Controls::WidgetSlider::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/WidgetSlider.cpp, //381
+DirCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20140410, //src/engine/qcommon/files.cpp, //738
+ListPathsCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20140410, //src/engine/qcommon/files.cpp, //725
+WhichCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20140410, //src/engine/qcommon/files.cpp, //709
+WhichCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20140410, //src/engine/qcommon/files.cpp, //694
+Rocket::Core::StyleSheetNodeSelectorOnlyChild::IsApplicable, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/StyleSheetNodeSelectorOnlyChild.cpp, //45
+Resource::Resource::IsStillValid, //0, //Corentin Wallez, //corentin@wallez.net, //20140118, //src/engine/framework/Resource.cpp, //46
+Resource::Resource::TagDependencies, //0, //Corentin Wallez, //corentin@wallez.net, //20140118, //src/engine/framework/Resource.cpp, //42
+Rocket::Core::FontEffectShadow::GetGlyphMetrics, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/FontEffectShadow.cpp, //58
+Rocket::Core::FontEffectShadow::HasUniqueTexture, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/FontEffectShadow.cpp, //52
+Rocket::Core::TextureResource::OnReferenceDeactivate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/TextureResource.cpp, //188
+Rocket::Core::DecoratorInstancer::OnReferenceDeactivate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/DecoratorInstancer.cpp, //61
+Rocket::Core::DecoratorTiledImageInstancer::InstanceDecorator, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/DecoratorTiledImageInstancer.cpp, //46
+Rocket::Core::DecoratorTiledImageInstancer::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/DecoratorTiledImageInstancer.cpp, //75
+Rocket::Core::DecoratorTiledImageInstancer::ReleaseDecorator, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/DecoratorTiledImageInstancer.cpp, //69
+Rocket::Controls::InputType::OnPropertyChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Controls/InputType.cpp, //73
+Rocket::Controls::InputType::OnRender, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputType.cpp, //60
+Rocket::Controls::InputType::OnUpdate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputType.cpp, //55
+Rocket::Controls::InputTypeText::GetIntrinsicDimensions, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputTypeText.cpp, //105
+Rocket::Controls::InputTypeText::OnAttributeChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputTypeText.cpp, //68
+Rocket::Controls::InputTypeText::OnPropertyChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputTypeText.cpp, //91
+Rocket::Controls::InputTypeText::OnRender, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputTypeText.cpp, //62
+Rocket::Controls::InputTypeText::OnUpdate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputTypeText.cpp, //56
+Rocket::Controls::InputTypeText::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Controls/InputTypeText.cpp, //99
+Audio::ALInfoCmd::Run, //0, //Corentin Wallez, //corentin@wallez.net, //20131224, //src/engine/audio/Audio.cpp, //498
+Audio::ListSamplesCmd::Run, //0, //Corentin Wallez, //corentin@wallez.net, //20131224, //src/engine/audio/Audio.cpp, //509
+Audio::PlayMusicCmd::Complete, //0, //Corentin Wallez, //corentin@wallez.net, //20141109, //src/engine/audio/Audio.cpp, //599
+Audio::PlayMusicCmd::Run, //0, //Mathieu Westphal, //mathieu.westphal@gmail.com, //20141018, //src/engine/audio/Audio.cpp, //591
+Audio::PlaySoundCmd::Complete, //0, //Corentin Wallez, //corentin@wallez.net, //20141109, //src/engine/audio/Audio.cpp, //574
+Audio::PlaySoundCmd::Run, //0, //Mathieu Westphal, //mathieu.westphal@gmail.com, //20141018, //src/engine/audio/Audio.cpp, //562
+Audio::StartCaptureTestCmd::Run, //0, //Corentin Wallez, //corentin@wallez.net, //20131224, //src/engine/audio/Audio.cpp, //539
+Audio::StopCaptureTestCmd::Run, //0, //Corentin Wallez, //corentin@wallez.net, //20131224, //src/engine/audio/Audio.cpp, //550
+Audio::StopMusicCmd::Run, //0, //Mathieu Westphal, //mathieu.westphal@gmail.com, //20141018, //src/engine/audio/Audio.cpp, //616
+Audio::StopSoundsCmd::Run, //0, //Corentin Wallez, //corentin@wallez.net, //20131224, //src/engine/audio/Audio.cpp, //527
+Rocket::Core::ContextInstancer::OnReferenceDeactivate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ContextInstancer.cpp, //38
+RocketElement::GetIntrinsicDimensions, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130702, //src/engine/client/rocketElement.h, //56
+RocketElement::OnRender, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130325, //src/engine/client/rocketElement.h, //151
+RocketElement::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130325, //src/engine/client/rocketElement.h, //129
+RocketElementInstancer::InstanceElement, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130325, //src/engine/client/rocketElement.h, //172
+RocketElementInstancer::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130325, //src/engine/client/rocketElement.h, //184
+RocketElementInstancer::ReleaseElement, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130325, //src/engine/client/rocketElement.h, //179
+RocketProgressBar::GetIntrinsicDimensions, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130702, //src/engine/client/rocketProgressBar.h, //218
+RocketProgressBar::OnAttributeChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130519, //src/engine/client/rocketProgressBar.h, //203
+RocketProgressBar::OnPropertyChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130519, //src/engine/client/rocketProgressBar.h, //153
+RocketProgressBar::OnRender, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130518, //src/engine/client/rocketProgressBar.h, //94
+Rocket::Controls::ElementDataGrid::GetInnerRML, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementDataGrid.cpp, //279
+Rocket::Controls::ElementDataGrid::OnUpdate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementDataGrid.cpp, //223
+Rocket::Controls::ElementDataGrid::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementDataGrid.cpp, //249
+Rocket::Core::BaseXMLParser::HandleData, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/BaseXMLParser.cpp, //97
+Rocket::Core::BaseXMLParser::HandleElementEnd, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/BaseXMLParser.cpp, //91
+Rocket::Core::BaseXMLParser::HandleElementStart, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/BaseXMLParser.cpp, //84
+Rocket::Core::XMLParser::HandleData, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/XMLParser.cpp, //201
+Rocket::Core::XMLParser::HandleElementEnd, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/XMLParser.cpp, //176
+Rocket::Core::XMLParser::HandleElementStart, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/XMLParser.cpp, //137
+Rocket::Core::XMLNodeHandler::OnReferenceDeactivate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/XMLNodeHandler.cpp, //38
+Rocket::Core::RenderInterface::GetHorizontalTexelOffset, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/RenderInterface.cpp, //96
+Rocket::Core::RenderInterface::GetVerticalTexelOffset, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/RenderInterface.cpp, //102
+Rocket::Core::RenderInterface::OnReferenceDeactivate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/RenderInterface.cpp, //118
+Rocket::Core::RenderInterface::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/RenderInterface.cpp, //114
+Rocket::Core::LayoutInlineBoxText::CalculateBaseline, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/LayoutInlineBoxText.cpp, //84
+Rocket::Core::LayoutInlineBoxText::CanOverflow, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/LayoutInlineBoxText.cpp, //54
+Rocket::Core::LayoutInlineBoxText::FlowContent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/LayoutInlineBoxText.cpp, //60
+Rocket::Core::LayoutInlineBoxText::OffsetBaseline, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/LayoutInlineBoxText.cpp, //91
+Rocket::Core::LayoutInlineBoxText::PositionElement, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/LayoutInlineBoxText.cpp, //109
+Rocket::Core::LayoutInlineBoxText::SizeElement, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/LayoutInlineBoxText.cpp, //125
+Rocket::Core::PropertyParserNumber::ParseValue, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/PropertyParserNumber.cpp, //52
+Rocket::Core::PropertyParserNumber::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/PropertyParserNumber.cpp, //85
+Rocket::Core::XMLNodeHandlerTemplate::ElementData, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/XMLNodeHandlerTemplate.cpp, //67
+Rocket::Core::XMLNodeHandlerTemplate::ElementEnd, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/XMLNodeHandlerTemplate.cpp, //59
+Rocket::Core::XMLNodeHandlerTemplate::ElementStart, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/XMLNodeHandlerTemplate.cpp, //46
+Rocket::Core::XMLNodeHandlerTemplate::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/XMLNodeHandlerTemplate.cpp, //72
+SelectableDataGrid::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130509, //src/engine/client/rocketSelectableDataGrid.h, //61
+RocketDataSourceSingle::OnAttributeChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130705, //src/engine/client/rocketDataSourceSingle.h, //51
+RocketDataSourceSingle::OnUpdate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130705, //src/engine/client/rocketDataSourceSingle.h, //90
+RocketDataSourceSingle::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130705, //src/engine/client/rocketDataSourceSingle.h, //76
+Rocket::Controls::InputTypeRange::GetIntrinsicDimensions, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputTypeRange.cpp, //100
+Rocket::Controls::InputTypeRange::GetValue, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputTypeRange.cpp, //47
+Rocket::Controls::InputTypeRange::OnAttributeChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputTypeRange.cpp, //59
+Rocket::Controls::InputTypeRange::OnUpdate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputTypeRange.cpp, //53
+Rocket::Controls::InputTypeRange::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputTypeRange.cpp, //90
+DemoCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/client/cl_main.cpp, //1318
+DemoCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/client/cl_main.cpp, //1255
+Rocket::Core::ElementInstancer::OnReferenceDeactivate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementInstancer.cpp, //39
+Rocket::Controls::WidgetTextInput::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/WidgetTextInput.cpp, //247
+Rocket::Controls::WidgetDropDown::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/WidgetDropDown.cpp, //278
+Rocket::Controls::ElementTabSet::OnAttach, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Controls/ElementTabSet.cpp, //228
+Rocket::Controls::ElementTabSet::OnChildAdd, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementTabSet.cpp, //176
+Rocket::Controls::ElementTabSet::OnChildRemove, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementTabSet.cpp, //201
+Rocket::Controls::ElementTabSet::OnDetach, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Controls/ElementTabSet.cpp, //235
+Rocket::Controls::ElementTabSet::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementTabSet.cpp, //145
+Rocket::Core::EventListener::OnAttach, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Include/Rocket/Core/EventListener.h, //55
+Rocket::Core::EventListener::OnDetach, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Include/Rocket/Core/EventListener.h, //61
+Rocket::Core::ElementImage::GetIntrinsicDimensions, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementImage.cpp, //50
+Rocket::Core::ElementImage::OnAttributeChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementImage.cpp, //91
+Rocket::Core::ElementImage::OnPropertyChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20131225, //src/libs/libRocket/Source/Core/ElementImage.cpp, //160
+Rocket::Core::ElementImage::OnRender, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementImage.cpp, //79
+Rocket::Core::ElementImage::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementImage.cpp, //178
+Rocket::Core::StyleSheetNodeSelectorEmpty::IsApplicable, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/StyleSheetNodeSelectorEmpty.cpp, //45
+Rocket::Controls::InputType::OnChildRemove, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputType.cpp, //84
+Rocket::Controls::InputTypeButton::GetIntrinsicDimensions, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Controls/InputTypeButton.cpp, //70
+Rocket::Controls::InputTypeButton::IsSubmitted, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputTypeButton.cpp, //52
+Rocket::Controls::InputTypeButton::OnChildAdd, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputTypeButton.cpp, //78
+Rocket::Controls::InputTypeButton::OnChildRemove, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputTypeButton.cpp, //89
+Rocket::Controls::InputTypeButton::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputTypeButton.cpp, //58
+Rocket::Debugger::ElementLog::OnRender, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Debugger/ElementLog.cpp, //185
+Rocket::Debugger::ElementLog::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Debugger/ElementLog.cpp, //226
+RocketConditionalElement::OnAttributeChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140410, //src/engine/client/rocketConditionalElement.h, //48
+RocketConditionalElement::OnUpdate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140410, //src/engine/client/rocketConditionalElement.h, //98
+Rocket::Core::XMLNodeHandlerBody::ElementData, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/XMLNodeHandlerBody.cpp, //77
+Rocket::Core::XMLNodeHandlerBody::ElementEnd, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/XMLNodeHandlerBody.cpp, //69
+Rocket::Core::XMLNodeHandlerBody::ElementStart, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/XMLNodeHandlerBody.cpp, //44
+Rocket::Core::XMLNodeHandlerBody::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/XMLNodeHandlerBody.cpp, //82
+Rocket::Controls::WidgetTextInputSingleLinePassword::SetValue, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/WidgetTextInputSingleLinePassword.cpp, //43
+Rocket::Core::EventInstancer::OnReferenceDeactivate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/EventInstancer.cpp, //38
+RocketKeyBinder::OnAttributeChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130721, //src/engine/client/rocketKeyBinder.h, //50
+RocketKeyBinder::OnChildAdd, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140107, //src/engine/client/rocketKeyBinder.h, //66
+RocketKeyBinder::OnChildRemove, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140107, //src/engine/client/rocketKeyBinder.h, //77
+RocketKeyBinder::OnUpdate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140107, //src/engine/client/rocketKeyBinder.h, //88
+RocketKeyBinder::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130721, //src/engine/client/rocketKeyBinder.h, //103
+RocketIncludeElement::OnAttributeChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140521, //src/engine/client/rocketIncludeElement.h, //45
+VM::CommonVMServices::ProxyCmd::Complete, //0, //Corentin Wallez, //corentin@wallez.net, //20140205, //src/engine/framework/CommonVMServices.cpp, //79
+VM::CommonVMServices::ProxyCmd::Run, //0, //Corentin Wallez, //corentin@wallez.net, //20140205, //src/engine/framework/CommonVMServices.cpp, //75
+VM::CommonVMServices::ProxyCvar::OnValueChanged, //0, //Corentin Wallez, //corentin@wallez.net, //20140205, //src/engine/framework/CommonVMServices.cpp, //137
+ProxyCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/qcommon/cmd.cpp, //489
+ProxyCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/qcommon/cmd.cpp, //484
+Rocket::Core::DecoratorNoneInstancer::InstanceDecorator, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/DecoratorNoneInstancer.cpp, //40
+Rocket::Core::DecoratorNoneInstancer::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/DecoratorNoneInstancer.cpp, //55
+Rocket::Core::DecoratorNoneInstancer::ReleaseDecorator, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/DecoratorNoneInstancer.cpp, //49
+Rocket::Core::FontEffectOutline::GenerateGlyphTexture, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/FontEffectOutline.cpp, //101
+Rocket::Core::FontEffectOutline::GetGlyphMetrics, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/FontEffectOutline.cpp, //82
+Rocket::Core::FontEffectOutline::HasUniqueTexture, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/FontEffectOutline.cpp, //47
+Rocket::Core::FontEffectInstancer::OnReferenceDeactivate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/FontEffectInstancer.cpp, //64
+EventInstancer::InstanceEventListener, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130318, //src/engine/client/rocketEventInstancer.h, //72
+EventInstancer::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130318, //src/engine/client/rocketEventInstancer.h, //78
+RocketEvent::OnDetach, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130318, //src/engine/client/rocketEventInstancer.h, //56
+RocketEvent::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130318, //src/engine/client/rocketEventInstancer.h, //50
+Rocket::Core::ElementScroll::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/ElementScroll.cpp, //217
+RocketChatField::GetIntrinsicDimensions, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130802, //src/engine/client/rocketChatField.h, //255
+RocketChatField::OnAttributeChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140621, //src/engine/client/rocketChatField.h, //94
+RocketChatField::OnChildAdd, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140107, //src/engine/client/rocketChatField.h, //79
+RocketChatField::OnChildRemove, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140107, //src/engine/client/rocketChatField.h, //59
+RocketChatField::OnRender, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130802, //src/engine/client/rocketChatField.h, //73
+RocketChatField::OnUpdate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140107, //src/engine/client/rocketChatField.h, //102
+RocketChatField::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130802, //src/engine/client/rocketChatField.h, //118
+RocketFocusManager::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130705, //src/engine/client/rocketFocusManager.h, //46
+Rocket::Core::PropertyParserColour::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/PropertyParserColour.cpp, //167
+Audio::LoopingSound::InternalUpdate, //0, //Corentin Wallez, //corentin@wallez.net, //20131215, //src/engine/audio/Sound.cpp, //281
+Audio::LoopingSound::SetupSource, //0, //Corentin Wallez, //corentin@wallez.net, //20131214, //src/engine/audio/Sound.cpp, //272
+Audio::OneShotSound::InternalUpdate, //0, //Corentin Wallez, //corentin@wallez.net, //20131215, //src/engine/audio/Sound.cpp, //249
+Audio::OneShotSound::SetupSource, //0, //Corentin Wallez, //corentin@wallez.net, //20131214, //src/engine/audio/Sound.cpp, //244
+Audio::StreamingSound::InternalUpdate, //0, //Corentin Wallez, //corentin@wallez.net, //20131222, //src/engine/audio/Sound.cpp, //316
+Audio::StreamingSound::SetupSource, //0, //Corentin Wallez, //corentin@wallez.net, //20131222, //src/engine/audio/Sound.cpp, //313
+DebugDrawQuake::texture, //0, //cmf028, //cmf1292@hotmail.com, //20130526, //src/engine/botlib/bot_navdraw.h, //46
+Rocket::Controls::ElementDataGridExpandButton::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/ElementDataGridExpandButton.cpp, //43
+Rocket::Controls::InputTypeCheckbox::GetIntrinsicDimensions, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputTypeCheckbox.cpp, //79
+Rocket::Controls::InputTypeCheckbox::IsSubmitted, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputTypeCheckbox.cpp, //43
+Rocket::Controls::InputTypeCheckbox::OnAttributeChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputTypeCheckbox.cpp, //49
+Rocket::Controls::InputTypeCheckbox::ProcessEvent, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/InputTypeCheckbox.cpp, //66
+Cmd::ProxyEnvironment::ExecuteAfter, //0, //Corentin Wallez, //corentin@wallez.net, //20140220, //src/gamelogic/shared/CommonProxies.cpp, //58
+Cmd::ProxyEnvironment::Print, //0, //Corentin Wallez, //corentin@wallez.net, //20140205, //src/gamelogic/shared/CommonProxies.cpp, //55
+TrapProxyCommand::Run, //0, //Corentin Wallez, //corentin@wallez.net, //20140205, //src/gamelogic/shared/CommonProxies.cpp, //173
+VMCvarProxy::OnValueChanged, //0, //Corentin Wallez, //corentin@wallez.net, //20140205, //src/gamelogic/shared/CommonProxies.cpp, //326
+Rocket::Core::Event::OnReferenceDeactivate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Event.cpp, //109
+Rocket::Core::DecoratorTiledHorizontal::GenerateElementData, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/DecoratorTiledHorizontal.cpp, //100
+Rocket::Core::DecoratorTiledHorizontal::ReleaseElementData, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/DecoratorTiledHorizontal.cpp, //144
+Rocket::Core::DecoratorTiledHorizontal::RenderElement, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/DecoratorTiledHorizontal.cpp, //150
+Rocket::Debugger::ElementContextHook::OnRender, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Debugger/ElementContextHook.cpp, //49
+Rocket::Core::StreamFile::Close, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StreamFile.cpp, //72
+Rocket::Core::StreamFile::IsReadReady, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StreamFile.cpp, //127
+Rocket::Core::StreamFile::IsWriteReady, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StreamFile.cpp, //133
+Rocket::Core::StreamFile::Length, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StreamFile.cpp, //84
+Rocket::Core::StreamFile::Read, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StreamFile.cpp, //102
+Rocket::Core::StreamFile::Seek, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StreamFile.cpp, //96
+Rocket::Core::StreamFile::Tell, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StreamFile.cpp, //90
+Rocket::Core::StreamFile::Truncate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/StreamFile.cpp, //118
+Rocket::Core::StreamFile::Write, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/StreamFile.cpp, //108
+RocketCvarInlineElement::OnAttributeChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140522, //src/engine/client/rocketCvarInlineElement.h, //52
+RocketCvarInlineElement::OnUpdate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140522, //src/engine/client/rocketCvarInlineElement.h, //84
+RocketDataFormatter::FormatData, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130322, //src/engine/client/rocketDataFormatter.h, //53
+Cmd::AliasCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/framework/BaseCommands.cpp, //836
+Cmd::AliasCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //790
+Cmd::AliasProxy::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //753
+Cmd::ClearAliasesCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //885
+Cmd::ConcatCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/framework/BaseCommands.cpp, //232
+Cmd::ConcatCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //219
+Cmd::CycleCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/framework/BaseCommands.cpp, //544
+Cmd::CycleCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //509
+Cmd::DelayCmd::Complete, //0, //Corentin Wallez, //corentin@wallez.net, //20141216, //src/engine/framework/BaseCommands.cpp, //649
+Cmd::DelayCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //612
+Cmd::EchoCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //173
+Cmd::ExecCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20140117, //src/engine/framework/BaseCommands.cpp, //126
+Cmd::ExecCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //75
+Cmd::IfCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/framework/BaseCommands.cpp, //420
+Cmd::IfCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //349
+Cmd::ListAliasesCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //898
+Cmd::MathCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/framework/BaseCommands.cpp, //332
+Cmd::MathCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //249
+Cmd::RandomCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/framework/BaseCommands.cpp, //202
+Cmd::RandomCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //189
+Cmd::ToggleCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/framework/BaseCommands.cpp, //488
+Cmd::ToggleCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //437
+Cmd::UnaliasCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/framework/BaseCommands.cpp, //868
+Cmd::UnaliasCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //853
+Cmd::UndelayAllCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //699
+Cmd::UndelayCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/framework/BaseCommands.cpp, //683
+Cmd::UndelayCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //663
+Cmd::VstrCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/framework/BaseCommands.cpp, //58
+Cmd::VstrCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //48
+FastLZCompressor::compress, //0, //cmf028, //cmf1292@hotmail.com, //20130208, //src/engine/botlib/nav.h, //171
+FastLZCompressor::decompress, //0, //cmf028, //cmf1292@hotmail.com, //20130208, //src/engine/botlib/nav.h, //179
+FastLZCompressor::maxCompressedSize, //0, //cmf028, //cmf1292@hotmail.com, //20130208, //src/engine/botlib/nav.h, //166
+LinearAllocator::alloc, //0, //cmf028, //cmf1292@hotmail.com, //20130208, //src/engine/botlib/nav.h, //255
+LinearAllocator::free, //0, //cmf028, //cmf1292@hotmail.com, //20130208, //src/engine/botlib/nav.h, //272
+LinearAllocator::reset, //0, //cmf028, //cmf1292@hotmail.com, //20130208, //src/engine/botlib/nav.h, //249
+MeshProcess::process, //0, //cmf028, //cmf1292@hotmail.com, //20130208, //src/engine/botlib/nav.h, //191
+Rocket::Controls::DataSource::GetScriptObject, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/DataSource.cpp, //109
+Rocket::Controls::WidgetSliderInput::OnBarChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/WidgetSliderInput.cpp, //90
+Rocket::Controls::WidgetSliderInput::OnLineDecrement, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/WidgetSliderInput.cpp, //105
+Rocket::Controls::WidgetSliderInput::OnLineIncrement, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/WidgetSliderInput.cpp, //99
+Rocket::Controls::WidgetSliderInput::OnPageDecrement, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/WidgetSliderInput.cpp, //117
+Rocket::Controls::WidgetSliderInput::OnPageIncrement, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/WidgetSliderInput.cpp, //111
+Rocket::Core::StyleSheet::OnReferenceDeactivate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StyleSheet.cpp, //210
+RocketConsoleTextElement::OnPropertyChange, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130623, //src/engine/client/rocketConsoleTextElement.h, //128
+RocketConsoleTextElement::OnUpdate, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130623, //src/engine/client/rocketConsoleTextElement.h, //62
+Rocket::Controls::XMLNodeHandlerTabSet::ElementData, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/XMLNodeHandlerTabSet.cpp, //140
+Rocket::Controls::XMLNodeHandlerTabSet::ElementEnd, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Controls/XMLNodeHandlerTabSet.cpp, //132
+Rocket::Controls::XMLNodeHandlerTabSet::ElementStart, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/XMLNodeHandlerTabSet.cpp, //45
+Rocket::Controls::XMLNodeHandlerTabSet::Release, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/XMLNodeHandlerTabSet.cpp, //145
+Rocket::Controls::WidgetTextInputMultiLine::IsCharacterValid, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/WidgetTextInputMultiLine.cpp, //44
+Rocket::Controls::WidgetTextInputMultiLine::LineBreak, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Controls/WidgetTextInputMultiLine.cpp, //50
+RocketDataGrid::GetNumRows, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130319, //src/engine/client/rocketDataGrid.h, //62
+RocketDataGrid::GetRow, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130319, //src/engine/client/rocketDataGrid.h, //49

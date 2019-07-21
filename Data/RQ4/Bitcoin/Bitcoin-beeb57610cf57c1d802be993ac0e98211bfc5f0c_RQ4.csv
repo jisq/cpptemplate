@@ -1,0 +1,59 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+CBasicKeyStore::AddCScript, //0, //Gavin Andresen, //gavinandresen@gmail.com, //20120104, //src/keystore.cpp, //29
+CBasicKeyStore::AddKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20110625, //src/keystore.cpp, //18
+CBasicKeyStore::GetCScript, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //49
+CBasicKeyStore::GetKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.h, //81
+CBasicKeyStore::GetKeys, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.h, //68
+CBasicKeyStore::HaveCScript, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //38
+CBasicKeyStore::HaveKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.h, //59
+CCryptoKeyStore::AddCryptedKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //143
+CCryptoKeyStore::AddKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20110625, //src/keystore.cpp, //120
+CCryptoKeyStore::GetKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //155
+CCryptoKeyStore::GetKeys, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.h, //162
+CCryptoKeyStore::GetPubKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //180
+CCryptoKeyStore::HaveKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.h, //150
+CKeyStore::GetPubKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //9
+CKeyStore::GetSecret, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.h, //37
+CWallet::AddKey, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110626, //src/wallet.cpp, //46
+CWallet::AddCScript, //0, //Gavin Andresen, //gavinandresen@gmail.com, //20120104, //src/wallet.cpp, //73
+CCoinsView::BatchWrite, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120706, //src/main.cpp, //173
+CCoinsView::GetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120701, //src/main.cpp, //171
+CCoinsView::GetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120701, //src/main.cpp, //168
+CCoinsView::GetStats, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120925, //src/main.cpp, //174
+CCoinsView::HaveCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120701, //src/main.cpp, //170
+CCoinsView::SetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120701, //src/main.cpp, //172
+CCoinsView::SetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120701, //src/main.cpp, //169
+CCoinsViewBacked::BatchWrite, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120706, //src/main.cpp, //184
+CCoinsViewBacked::GetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120701, //src/main.cpp, //181
+CCoinsViewBacked::GetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120701, //src/main.cpp, //178
+CCoinsViewBacked::GetStats, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120925, //src/main.cpp, //185
+CCoinsViewBacked::HaveCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120701, //src/main.cpp, //180
+CCoinsViewBacked::SetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120701, //src/main.cpp, //182
+CCoinsViewBacked::SetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120701, //src/main.cpp, //179
+CCoinsViewCache::BatchWrite, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120706, //src/main.cpp, //238
+CCoinsViewCache::GetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120701, //src/main.cpp, //227
+CCoinsViewCache::GetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120701, //src/main.cpp, //189
+CCoinsViewCache::HaveCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120701, //src/main.cpp, //223
+CCoinsViewCache::SetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120701, //src/main.cpp, //233
+CCoinsViewCache::SetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120701, //src/main.cpp, //218
+CCoinsViewMemPool::GetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120701, //src/main.cpp, //260
+CCoinsViewMemPool::HaveCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120701, //src/main.cpp, //271
+CCoinsViewDB::BatchWrite, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120903, //src/txdb-leveldb.cpp, //55
+CCoinsViewDB::GetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120903, //src/txdb-leveldb.cpp, //39
+CWallet::AddCryptedKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/wallet.cpp, //57
+CCoinsViewDB::GetStats, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120925, //src/txdb-leveldb.cpp, //100
+CCoinsViewDB::HaveCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120903, //src/txdb-leveldb.cpp, //35
+CCoinsViewDB::GetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120903, //src/txdb-leveldb.cpp, //25
+CCoinsViewDB::SetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120903, //src/txdb-leveldb.cpp, //29
+CCoinsViewDB::HaveCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120903, //src/txdb-bdb.cpp, //70
+CCoinsViewDB::SetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120903, //src/txdb-leveldb.cpp, //49
+std::bad_alloc::what, //0, //cpp, //, //, //src/compat/glibcxx_compat.cpp, //26
+std::bad_cast::what, //0, //cpp, //, //, //src/compat/glibcxx_compat.cpp, //21
+std::bad_exception::what, //0, //cpp, //, //, //src/compat/glibcxx_compat.cpp, //16
+CCoinsViewDB::SetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120903, //src/txdb-bdb.cpp, //80
+CCoinsViewDB::GetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120903, //src/txdb-bdb.cpp, //68
+CCoinsViewDB::GetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120903, //src/txdb-bdb.cpp, //71
+CCoinsViewDB::BatchWrite, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120903, //src/txdb-bdb.cpp, //81
+CCoinsViewDB::SetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120903, //src/txdb-bdb.cpp, //69

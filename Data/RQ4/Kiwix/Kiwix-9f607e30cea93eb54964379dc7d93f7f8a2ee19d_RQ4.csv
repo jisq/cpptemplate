@@ -1,0 +1,16 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+HtmlParser::closing_tag, //0, //kelson42, //kelson42@user.sourceforge.net, //20091113, //src/common/kiwix/xapian/htmlparse.h, //43
+HtmlParser::opening_tag, //0, //kelson42, //kelson42@user.sourceforge.net, //20091113, //src/common/kiwix/xapian/htmlparse.h, //42
+HtmlParser::process_text, //0, //kelson42, //kelson42@user.sourceforge.net, //20091113, //src/common/kiwix/xapian/htmlparse.h, //41
+MyHtmlParser::closing_tag, //0, //kelson42, //kelson42@user.sourceforge.net, //20091113, //src/common/kiwix/xapian/myhtmlparse.cc, //229
+MyHtmlParser::opening_tag, //0, //kelson42, //kelson42@user.sourceforge.net, //20091113, //src/common/kiwix/xapian/myhtmlparse.cc, //69
+MyHtmlParser::process_text, //0, //kelson42, //kelson42@user.sourceforge.net, //20091113, //src/common/kiwix/xapian/myhtmlparse.cc, //49
+HtmlParser::parse_html, //0, //kelson42, //kelson42@user.sourceforge.net, //20091113, //src/common/kiwix/xapian/htmlparse.cc, //167
+kiwix::XapianIndexer::flush, //0, //kelson42, //kelson42@user.sourceforge.net, //20120406, //src/common/kiwix/xapianIndexer.cpp, //85
+kiwix::XapianIndexer::index, //0, //kelson42, //kelson42@user.sourceforge.net, //20120406, //src/common/kiwix/xapianIndexer.cpp, //47
+kiwix::XapianIndexer::indexingPostlude, //0, //kelson42, //kelson42@user.sourceforge.net, //20120406, //src/common/kiwix/xapianIndexer.cpp, //90
+kiwix::XapianIndexer::indexingPrelude, //0, //kelson42, //kelson42@user.sourceforge.net, //20120725, //src/common/kiwix/xapianIndexer.cpp, //32
+kiwix::XapianSearcher::closeIndex, //0, //kelson42, //kelson42@user.sourceforge.net, //20101106, //src/common/kiwix/xapianSearcher.cpp, //37
+kiwix::XapianSearcher::searchInIndex, //0, //kelson42, //kelson42@user.sourceforge.net, //20110322, //src/common/kiwix/xapianSearcher.cpp, //42

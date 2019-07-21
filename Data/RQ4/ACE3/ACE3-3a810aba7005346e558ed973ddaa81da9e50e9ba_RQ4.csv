@@ -1,0 +1,22 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+ace::dispatch, //5, //jaynus, //jaynus@gmail.com, //20150513, //extensions/common/dispatch.hpp, //41
+ace::dynloader, //3, //jaynus, //jaynus@gmail.com, //20150513, //extensions/dynload/dynloader.hpp, //22
+
+virtual function, calls, developer, email, edit time, definition file path, line
+ace::membuf::seekoff, //0, //jaynus, //jaynus@gmail.com, //20150513, //extensions/common/membuf.hpp, //32
+ace::membuf::seekpos, //0, //jaynus, //jaynus@gmail.com, //20150513, //extensions/common/membuf.hpp, //22
+ace::membuf::underflow, //0, //jaynus, //jaynus@gmail.com, //20150513, //extensions/common/membuf.hpp, //15
+ace::dispatcher::call, //0, //jaynus, //jaynus@gmail.com, //20150513, //extensions/common/dispatch.hpp, //17
+el::Configuration::log, //0, //jaynus, //jaynus@gmail.com, //20150513, //extensions/common/easyloggingc++.hpp, //2420
+el::Logger::log, //12, //jaynus, //jaynus@gmail.com, //20150513, //extensions/common/easyloggingc++.hpp, //3451
+el::base::DefaultLogBuilder::build, //0, //jaynus, //jaynus@gmail.com, //20150513, //extensions/common/easyloggingc++.hpp, //4408
+el::base::DefaultLogDispatchCallback::handle, //0, //jaynus, //jaynus@gmail.com, //20150513, //extensions/common/easyloggingc++.hpp, //4205
+el::base::DefaultPerformanceTrackingCallback::handle, //0, //jaynus, //jaynus@gmail.com, //20150513, //extensions/common/easyloggingc++.hpp, //5448
+el::base::LogFormat::log, //0, //jaynus, //jaynus@gmail.com, //20150513, //extensions/common/easyloggingc++.hpp, //2239
+el::base::LogFormat::updateDateFormat, //0, //jaynus, //jaynus@gmail.com, //20150513, //extensions/common/easyloggingc++.hpp, //2247
+el::base::LogFormat::updateFormatSpec, //0, //jaynus, //jaynus@gmail.com, //20150513, //extensions/common/easyloggingc++.hpp, //2276
+el::base::PerformanceTracker::log, //0, //jaynus, //jaynus@gmail.com, //20150513, //extensions/common/easyloggingc++.hpp, //5442
+el::base::threading::ThreadSafe::acquireLock, //0, //jaynus, //jaynus@gmail.com, //20150513, //extensions/common/easyloggingc++.hpp, //1072
+el::base::threading::ThreadSafe::lock, //0, //jaynus, //jaynus@gmail.com, //20150513, //extensions/common/easyloggingc++.hpp, //1074
+el::base::threading::ThreadSafe::releaseLock, //0, //jaynus, //jaynus@gmail.com, //20150513, //extensions/common/easyloggingc++.hpp, //1073
+ace::threaded_dispatcher::call, //0, //jaynus, //jaynus@gmail.com, //20150513, //extensions/common/dispatch.hpp, //89

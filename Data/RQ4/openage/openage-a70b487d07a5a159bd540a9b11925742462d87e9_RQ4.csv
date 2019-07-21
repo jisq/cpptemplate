@@ -1,0 +1,27 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+STDIOWrapper::read, //0, //Michael Ensslin, //michael@ensslin.cc, //20140823, //convert/cabextract/lzxd/lzxd_test.cpp, //11
+STDIOWrapper::write, //0, //Michael Ensslin, //michael@ensslin.cc, //20140823, //convert/cabextract/lzxd/lzxd_test.cpp, //15
+openage::audio::OpusInMemoryLoader::get_resource, //0, //Andre Kupka, //kupka@in.tum.de, //20140331, //src/audio/in_memory_loader.cpp, //42
+openage::audio::OpusDynamicLoader::get_length, //0, //Andre Kupka, //kupka@in.tum.de, //20140403, //src/audio/dynamic_loader.cpp, //50
+openage::audio::OpusDynamicLoader::load_chunk, //0, //Andre Kupka, //kupka@in.tum.de, //20140416, //src/audio/dynamic_loader.cpp, //54
+testing::EngineTest::on_draw, //0, //Jonas Jelten, //jelten@in.tum.de, //20140811, //src/testing/engine_test.cpp, //552
+testing::EngineTest::on_drawhud, //0, //Jonas Jelten, //jelten@in.tum.de, //20140811, //src/testing/engine_test.cpp, //564
+testing::EngineTest::on_tick, //0, //Jonas Jelten, //jelten@in.tum.de, //20140811, //src/testing/engine_test.cpp, //546
+openage::Engine::on_resize, //0, //Jonas Jelten, //jelten@in.tum.de, //20140810, //src/engine.cpp, //181
+openage::console::Console::on_drawhud, //0, //Jonas Jelten, //jelten@in.tum.de, //20140811, //src/console/console.cpp, //71
+openage::console::Console::on_resize, //0, //Jonas Jelten, //jelten@in.tum.de, //20140811, //src/console/console.cpp, //103
+openage::console::Console::on_tick, //0, //Jonas Jelten, //jelten@in.tum.de, //20140811, //src/console/console.cpp, //61
+openage::audio::Resource::get_category, //0, //Andre Kupka, //kupka@in.tum.de, //20140323, //src/audio/resource.cpp, //17
+openage::audio::Resource::get_id, //0, //Andre Kupka, //kupka@in.tum.de, //20140323, //src/audio/resource.cpp, //21
+openage::audio::Resource::stop_using, //0, //Andre Kupka, //kupka@in.tum.de, //20140403, //src/audio/resource.cpp, //28
+openage::audio::Resource::use, //0, //Andre Kupka, //kupka@in.tum.de, //20140403, //src/audio/resource.cpp, //25
+openage::audio::DynamicResource::get_length, //0, //Andre Kupka, //kupka@in.tum.de, //20140403, //src/audio/resource.cpp, //117
+openage::audio::DynamicResource::get_samples, //0, //Andre Kupka, //kupka@in.tum.de, //20140403, //src/audio/resource.cpp, //121
+openage::audio::DynamicResource::stop_using, //0, //Andre Kupka, //kupka@in.tum.de, //20140403, //src/audio/resource.cpp, //106
+openage::audio::DynamicResource::use, //0, //Andre Kupka, //kupka@in.tum.de, //20140403, //src/audio/resource.cpp, //94
+openage::audio::InMemoryResource::get_length, //0, //Andre Kupka, //kupka@in.tum.de, //20140322, //src/audio/resource.cpp, //58
+openage::audio::InMemoryResource::get_samples, //0, //Andre Kupka, //kupka@in.tum.de, //20140403, //src/audio/resource.cpp, //62
+PyIOWrapper::read, //0, //Jonas Jelten, //jelten@in.tum.de, //20140823, //convert/cabextract/lzxd/pyinterface.cpp, //24
+PyIOWrapper::write, //0, //Jonas Jelten, //jelten@in.tum.de, //20140823, //convert/cabextract/lzxd/pyinterface.cpp, //46

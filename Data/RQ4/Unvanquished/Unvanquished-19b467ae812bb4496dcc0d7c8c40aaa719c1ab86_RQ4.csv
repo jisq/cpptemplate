@@ -1,0 +1,239 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+Audio::Sample, //29, //Corentin Wallez, //corentin@wallez.net, //20140118, //src/engine/audio/Sample.h, //99
+
+virtual function, calls, developer, email, edit time, definition file path, line
+duDisplayList::begin, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/libs/detour/DebugDraw.cpp, //562
+duDisplayList::depthMask, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/libs/detour/DebugDraw.cpp, //557
+duDisplayList::end, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/libs/detour/DebugDraw.cpp, //586
+duDisplayList::vertex, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/libs/detour/DebugDraw.cpp, //569
+duDisplayList::vertex, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/libs/detour/DebugDraw.cpp, //581
+Audio::LoopingSound::InternalUpdate, //0, //Corentin Wallez, //corentin@wallez.net, //20131215, //src/engine/audio/Sound.cpp, //281
+Audio::LoopingSound::SetupSource, //0, //Corentin Wallez, //corentin@wallez.net, //20131214, //src/engine/audio/Sound.cpp, //272
+Audio::OneShotSound::InternalUpdate, //0, //Corentin Wallez, //corentin@wallez.net, //20131215, //src/engine/audio/Sound.cpp, //249
+Audio::OneShotSound::SetupSource, //0, //Corentin Wallez, //corentin@wallez.net, //20131214, //src/engine/audio/Sound.cpp, //244
+Audio::StreamingSound::InternalUpdate, //0, //Corentin Wallez, //corentin@wallez.net, //20131222, //src/engine/audio/Sound.cpp, //316
+Audio::StreamingSound::SetupSource, //0, //Corentin Wallez, //corentin@wallez.net, //20131222, //src/engine/audio/Sound.cpp, //313
+Cmd::CmdBase::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/common/Command.cpp, //452
+GameVM::Syscall, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20140317, //src/engine/server/sv_game.cpp, //601
+FS::filesystem_category_impl::message, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/FileSystem.cpp, //298
+FS::filesystem_category_impl::name, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/FileSystem.cpp, //294
+FS::minizip_category_impl::message, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/FileSystem.cpp, //255
+FS::minizip_category_impl::name, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/FileSystem.cpp, //251
+Cmd::DefaultEnvironment::ExecuteAfter, //0, //Corentin Wallez, //corentin@wallez.net, //20131031, //src/engine/framework/CommandSystem.cpp, //288
+Cmd::DefaultEnvironment::Print, //0, //Corentin Wallez, //corentin@wallez.net, //20131031, //src/engine/framework/CommandSystem.cpp, //284
+Cmd::AliasCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/framework/BaseCommands.cpp, //838
+Cmd::AliasCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //792
+Cmd::AliasProxy::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //755
+Cmd::ClearAliasesCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //887
+Cmd::ConcatCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/framework/BaseCommands.cpp, //232
+Cmd::ConcatCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //219
+Cmd::CycleCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/framework/BaseCommands.cpp, //544
+Cmd::CycleCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //509
+Cmd::DelayCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/framework/BaseCommands.cpp, //649
+Cmd::DelayCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //612
+Cmd::EchoCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //173
+Cmd::ExecCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20140117, //src/engine/framework/BaseCommands.cpp, //126
+Cmd::ExecCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //75
+Cmd::IfCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/framework/BaseCommands.cpp, //420
+Cmd::IfCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //349
+Cmd::ListAliasesCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //900
+Cmd::MathCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/framework/BaseCommands.cpp, //332
+Cmd::MathCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //249
+Cmd::RandomCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/framework/BaseCommands.cpp, //202
+Cmd::RandomCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //189
+Cmd::ToggleCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/framework/BaseCommands.cpp, //488
+Cmd::ToggleCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //437
+Cmd::UnaliasCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/framework/BaseCommands.cpp, //870
+Cmd::UnaliasCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //855
+Cmd::UndelayAllCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //701
+Cmd::UndelayCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/framework/BaseCommands.cpp, //685
+Cmd::UndelayCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //665
+Cmd::VstrCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/framework/BaseCommands.cpp, //58
+Cmd::VstrCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/BaseCommands.cpp, //48
+Audio::Sample::Cleanup, //0, //Corentin Wallez, //corentin@wallez.net, //20140121, //src/engine/audio/Sample.cpp, //62
+Audio::Sample::Load, //0, //Corentin Wallez, //corentin@wallez.net, //20140118, //src/engine/audio/Sample.cpp, //47
+Log::LegacyTarget::Process, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/LogSystem.cpp, //165
+Log::LogFileTarget::Process, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/LogSystem.cpp, //111
+Log::TTYTarget::Process, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/LogSystem.cpp, //87
+rcContext::doGetAccumulatedTime, //0, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/recast/Recast.h, //167
+rcContext::doLog, //0, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/recast/Recast.h, //151
+rcContext::doResetLog, //0, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/recast/Recast.h, //145
+rcContext::doResetTimers, //0, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/recast/Recast.h, //154
+rcContext::doStartTimer, //0, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/recast/Recast.h, //158
+rcContext::doStopTimer, //0, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/recast/Recast.h, //162
+DebugDrawQuake::begin, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/engine/botlib/bot_debug.cpp, //53
+DebugDrawQuake::depthMask, //0, //cmf028, //cmf1292@hotmail.com, //20130526, //src/engine/botlib/bot_debug.cpp, //48
+DebugDrawQuake::end, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/engine/botlib/bot_debug.cpp, //90
+DebugDrawQuake::vertex, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/engine/botlib/bot_debug.cpp, //58
+DebugDrawQuake::vertex, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/engine/botlib/bot_debug.cpp, //63
+Resource::Resource::IsStillValid, //0, //Corentin Wallez, //corentin@wallez.net, //20140118, //src/engine/framework/Resource.cpp, //46
+Resource::Resource::TagDependencies, //0, //Corentin Wallez, //corentin@wallez.net, //20140118, //src/engine/framework/Resource.cpp, //42
+DaemonFileSystem::open_directory, //0, //cmf028, //cmf1292@hotmail.com, //20121125, //src/engine/qcommon/translation.cpp, //166
+DaemonFileSystem::open_file, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/qcommon/translation.cpp, //183
+DaemonInputbuf::underflow, //0, //cmf028, //cmf1292@hotmail.com, //20121125, //src/engine/qcommon/translation.cpp, //98
+Cvar::CvarCommand::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/CvarSystem.cpp, //178
+Cvar::ListCvars::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/framework/CvarSystem.cpp, //669
+Cvar::ListCvars::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/CvarSystem.cpp, //592
+Cvar::ResetCmd::Complete, //0, //Corentin Wallez, //corentin@wallez.net, //20140220, //src/engine/framework/CvarSystem.cpp, //564
+Cvar::ResetCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/CvarSystem.cpp, //536
+Cvar::SetCmd::Complete, //0, //Corentin Wallez, //corentin@wallez.net, //20140220, //src/engine/framework/CvarSystem.cpp, //515
+Cvar::SetCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/CvarSystem.cpp, //502
+DebugDrawQuake::texture, //0, //cmf028, //cmf1292@hotmail.com, //20130526, //src/engine/botlib/bot_navdraw.h, //46
+DebugDrawQuake::vertex, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/engine/botlib/bot_debug.cpp, //71
+DebugDrawQuake::vertex, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/engine/botlib/bot_debug.cpp, //79
+Audio::EntityEmitter::InternalSetupSound, //0, //Corentin Wallez, //corentin@wallez.net, //20131227, //src/engine/audio/Emitter.cpp, //293
+Audio::EntityEmitter::Update, //0, //Corentin Wallez, //corentin@wallez.net, //20131214, //src/engine/audio/Emitter.cpp, //279
+Audio::EntityEmitter::UpdateSound, //0, //Corentin Wallez, //corentin@wallez.net, //20131214, //src/engine/audio/Emitter.cpp, //283
+Audio::LocalEmitter::InternalSetupSound, //0, //Corentin Wallez, //corentin@wallez.net, //20131214, //src/engine/audio/Emitter.cpp, //342
+Audio::LocalEmitter::Update, //0, //Corentin Wallez, //corentin@wallez.net, //20131214, //src/engine/audio/Emitter.cpp, //336
+Audio::LocalEmitter::UpdateSound, //0, //Corentin Wallez, //corentin@wallez.net, //20131227, //src/engine/audio/Emitter.cpp, //339
+Audio::PositionEmitter::InternalSetupSound, //0, //Corentin Wallez, //corentin@wallez.net, //20131214, //src/engine/audio/Emitter.cpp, //318
+Audio::PositionEmitter::Update, //0, //Corentin Wallez, //corentin@wallez.net, //20131214, //src/engine/audio/Emitter.cpp, //308
+Audio::PositionEmitter::UpdateSound, //0, //Corentin Wallez, //corentin@wallez.net, //20131227, //src/engine/audio/Emitter.cpp, //312
+Audio::TestReverbCmd::Complete, //0, //Corentin Wallez, //corentin@wallez.net, //20131231, //src/engine/audio/Emitter.cpp, //367
+Audio::TestReverbCmd::Run, //0, //Corentin Wallez, //corentin@wallez.net, //20131228, //src/engine/audio/Emitter.cpp, //353
+RconEnvironment::Print, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/server/sv_main.cpp, //777
+VM::CommonVMServices::ProxyCmd::Complete, //0, //Corentin Wallez, //corentin@wallez.net, //20140205, //src/engine/framework/CommonVMServices.cpp, //79
+VM::CommonVMServices::ProxyCmd::Run, //0, //Corentin Wallez, //corentin@wallez.net, //20140205, //src/engine/framework/CommonVMServices.cpp, //75
+VM::CommonVMServices::ProxyCvar::OnValueChanged, //0, //Corentin Wallez, //corentin@wallez.net, //20140205, //src/engine/framework/CommonVMServices.cpp, //137
+Audio::ALInfoCmd::Run, //0, //Corentin Wallez, //corentin@wallez.net, //20131224, //src/engine/audio/Audio.cpp, //498
+Audio::ListSamplesCmd::Run, //0, //Corentin Wallez, //corentin@wallez.net, //20131224, //src/engine/audio/Audio.cpp, //509
+Audio::StartCaptureTestCmd::Run, //0, //Corentin Wallez, //corentin@wallez.net, //20131224, //src/engine/audio/Audio.cpp, //539
+Audio::StopCaptureTestCmd::Run, //0, //Corentin Wallez, //corentin@wallez.net, //20131224, //src/engine/audio/Audio.cpp, //550
+Audio::StopSoundsCmd::Run, //0, //Corentin Wallez, //corentin@wallez.net, //20131224, //src/engine/audio/Audio.cpp, //527
+dtTileCacheAlloc::alloc, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/libs/detour/DetourTileCacheBuilder.h, //87
+dtTileCacheAlloc::free, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/libs/detour/DetourTileCacheBuilder.h, //92
+dtTileCacheAlloc::reset, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/libs/detour/DetourTileCacheBuilder.h, //83
+MapCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/server/sv_ccmds.cpp, //77
+MapCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/server/sv_ccmds.cpp, //53
+GraphicalTarget::Process, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/client/cl_console.cpp, //1383
+DirCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20140410, //src/engine/qcommon/files.cpp, //684
+ListPathsCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20140410, //src/engine/qcommon/files.cpp, //671
+WhichCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20140410, //src/engine/qcommon/files.cpp, //655
+WhichCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20140410, //src/engine/qcommon/files.cpp, //640
+GLCompileMacro::GetRequiredVertexAttributes, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //645
+GLCompileMacro::HasConflictingMacros, //0, //cmf028, //cmf1292@hotmail.com, //20130402, //src/engine/renderer/gl_shader.h, //635
+GLCompileMacro::MissesRequiredMacros, //0, //cmf028, //cmf1292@hotmail.com, //20130402, //src/engine/renderer/gl_shader.h, //640
+GLCompileMacro_USE_DEFORM_VERTEXES::HasConflictingMacros, //0, //cmf028, //cmf1292@hotmail.com, //20130402, //src/engine/renderer/gl_shader.cpp, //923
+GLCompileMacro_USE_PARALLAX_MAPPING::MissesRequiredMacros, //0, //cmf028, //cmf1292@hotmail.com, //20130402, //src/engine/renderer/gl_shader.cpp, //928
+GLCompileMacro_USE_REFLECTIVE_SPECULAR::MissesRequiredMacros, //0, //cmf028, //cmf1292@hotmail.com, //20130402, //src/engine/renderer/gl_shader.cpp, //951
+GLCompileMacro_USE_VERTEX_ANIMATION::GetRequiredVertexAttributes, //0, //cmf028, //cmf1292@hotmail.com, //20130402, //src/engine/renderer/gl_shader.cpp, //911
+GLCompileMacro_USE_VERTEX_ANIMATION::HasConflictingMacros, //0, //cmf028, //cmf1292@hotmail.com, //20130402, //src/engine/renderer/gl_shader.cpp, //895
+GLCompileMacro_USE_VERTEX_SKINNING::HasConflictingMacros, //0, //cmf028, //cmf1292@hotmail.com, //20130402, //src/engine/renderer/gl_shader.cpp, //873
+GLCompileMacro_USE_VERTEX_SKINNING::MissesRequiredMacros, //0, //cmf028, //cmf1292@hotmail.com, //20130402, //src/engine/renderer/gl_shader.cpp, //890
+GLShader::BuildShaderCompileMacros, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.h, //170
+GLShader::BuildShaderFragmentLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.h, //169
+GLShader::BuildShaderVertexLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.h, //168
+GLShader::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.h, //171
+GLShader_blurX::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1742
+GLShader_blurY::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1755
+GLShader_cameraEffects::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1728
+GLShader_contrast::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1713
+GLShader_debugShadowMap::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1766
+GLShader_depthToColor::BuildShaderVertexLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120906, //src/engine/renderer/gl_shader.cpp, //1779
+GLShader_fogGlobal::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1636
+GLShader_fogQuake3::BuildShaderVertexLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1609
+GLShader_fogQuake3::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1619
+GLShader_forwardLighting_directionalSun::BuildShaderCompileMacros, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1477
+GLShader_forwardLighting_directionalSun::BuildShaderFragmentLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1472
+GLShader_forwardLighting_directionalSun::BuildShaderVertexLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1462
+GLShader_forwardLighting_directionalSun::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1483
+GLShader_forwardLighting_omniXYZ::BuildShaderCompileMacros, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1340
+GLShader_forwardLighting_omniXYZ::BuildShaderFragmentLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1335
+GLShader_forwardLighting_omniXYZ::BuildShaderVertexLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1325
+GLShader_forwardLighting_omniXYZ::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1345
+GLShader_forwardLighting_projXYZ::BuildShaderCompileMacros, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1407
+GLShader_forwardLighting_projXYZ::BuildShaderFragmentLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1402
+GLShader_forwardLighting_projXYZ::BuildShaderVertexLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1392
+GLShader_forwardLighting_projXYZ::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1413
+GLShader_fxaa::BuildShaderFragmentLibNames, //0, //Corentin Wallez, //corentin@wallez.net, //20130904, //src/engine/renderer/gl_shader.cpp, //1878
+GLShader_fxaa::SetShaderProgramUniforms, //0, //Corentin Wallez, //corentin@wallez.net, //20130904, //src/engine/renderer/gl_shader.cpp, //1873
+GLShader_generic::BuildShaderVertexLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1108
+GLShader_generic::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1118
+GLShader_heatHaze::BuildShaderVertexLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1662
+GLShader_heatHaze::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1672
+GLShader_lightMapping::BuildShaderCompileMacros, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1159
+GLShader_lightMapping::BuildShaderFragmentLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1154
+GLShader_lightMapping::BuildShaderVertexLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1146
+GLShader_lightMapping::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1164
+GLShader_lightVolume_omni::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120906, //src/engine/renderer/gl_shader.cpp, //1798
+GLShader_liquid::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120906, //src/engine/renderer/gl_shader.cpp, //1829
+GLShader_motionblur::SetShaderProgramUniforms, //0, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20130127, //src/engine/renderer/gl_shader.cpp, //1862
+GLShader_portal::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1702
+GLShader_reflection::BuildShaderCompileMacros, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1564
+GLShader_reflection::BuildShaderVertexLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1554
+GLShader_reflection::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1569
+GLShader_screen::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1689
+GLShader_shadowFill::BuildShaderVertexLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1522
+GLShader_shadowFill::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1532
+GLShader_skybox::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1586
+GLShader_vertexLighting_DBS_entity::BuildShaderCompileMacros, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1218
+GLShader_vertexLighting_DBS_entity::BuildShaderFragmentLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1213
+GLShader_vertexLighting_DBS_entity::BuildShaderVertexLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1203
+GLShader_vertexLighting_DBS_entity::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1223
+GLShader_vertexLighting_DBS_world::BuildShaderCompileMacros, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1276
+GLShader_vertexLighting_DBS_world::BuildShaderFragmentLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1271
+GLShader_vertexLighting_DBS_world::BuildShaderVertexLibNames, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1264
+GLShader_vertexLighting_DBS_world::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120806, //src/engine/renderer/gl_shader.cpp, //1281
+GLShader_volumetricFog::SetShaderProgramUniforms, //0, //cmf028, //cmf1292@hotmail.com, //20120906, //src/engine/renderer/gl_shader.cpp, //1849
+GLUniform::GetSize, //0, //cmf028, //cmf1292@hotmail.com, //20130405, //src/engine/renderer/gl_shader.h, //286
+GLCompileMacro_BRIGHTPASS_FILTER::GetName, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //1199
+GLCompileMacro_BRIGHTPASS_FILTER::GetType, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //1204
+GLCompileMacro_EYE_OUTSIDE::GetName, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //1157
+GLCompileMacro_EYE_OUTSIDE::GetType, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //1162
+GLCompileMacro_LIGHT_DIRECTIONAL::GetName, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //1241
+GLCompileMacro_LIGHT_DIRECTIONAL::GetType, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //1246
+GLCompileMacro_TWOSIDED::GetName, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //1110
+GLCompileMacro_TWOSIDED::GetRequiredVertexAttributes, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //1120
+GLCompileMacro_TWOSIDED::GetType, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //1115
+GLCompileMacro_USE_DEFORM_VERTEXES::GetName, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //825
+GLCompileMacro_USE_DEFORM_VERTEXES::GetRequiredVertexAttributes, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //837
+GLCompileMacro_USE_DEFORM_VERTEXES::GetType, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //830
+GLCompileMacro_USE_FRUSTUM_CLIPPING::GetName, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //688
+GLCompileMacro_USE_FRUSTUM_CLIPPING::GetType, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //693
+GLCompileMacro_USE_GBUFFER::GetName, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //1325
+GLCompileMacro_USE_GBUFFER::GetType, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //1330
+GLCompileMacro_USE_GLOW_MAPPING::GetName, //0, //cmf028, //cmf1292@hotmail.com, //20130806, //src/engine/renderer/gl_shader.h, //1367
+GLCompileMacro_USE_GLOW_MAPPING::GetType, //0, //cmf028, //cmf1292@hotmail.com, //20130806, //src/engine/renderer/gl_shader.h, //1372
+GLCompileMacro_USE_NORMAL_MAPPING::GetName, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //975
+GLCompileMacro_USE_NORMAL_MAPPING::GetRequiredVertexAttributes, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //985
+GLCompileMacro_USE_NORMAL_MAPPING::GetType, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //980
+GLCompileMacro_USE_PARALLAX_MAPPING::GetName, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //1022
+GLCompileMacro_USE_PARALLAX_MAPPING::GetType, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //1027
+GLCompileMacro_USE_REFLECTIVE_SPECULAR::GetName, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //1066
+GLCompileMacro_USE_REFLECTIVE_SPECULAR::GetType, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //1071
+GLCompileMacro_USE_SHADOWING::GetName, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //1283
+GLCompileMacro_USE_SHADOWING::GetType, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //1288
+GLCompileMacro_USE_TCGEN_ENVIRONMENT::GetName, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //881
+GLCompileMacro_USE_TCGEN_ENVIRONMENT::GetRequiredVertexAttributes, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //891
+GLCompileMacro_USE_TCGEN_ENVIRONMENT::GetType, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //886
+GLCompileMacro_USE_TCGEN_LIGHTMAP::GetName, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //928
+GLCompileMacro_USE_TCGEN_LIGHTMAP::GetRequiredVertexAttributes, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //938
+GLCompileMacro_USE_TCGEN_LIGHTMAP::GetType, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //933
+GLCompileMacro_USE_VERTEX_ANIMATION::GetName, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //780
+GLCompileMacro_USE_VERTEX_ANIMATION::GetType, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //785
+GLCompileMacro_USE_VERTEX_SKINNING::GetName, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //730
+GLCompileMacro_USE_VERTEX_SKINNING::GetRequiredVertexAttributes, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //743
+GLCompileMacro_USE_VERTEX_SKINNING::GetType, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/renderer/gl_shader.h, //735
+GLUniform1f::GetSize, //0, //cmf028, //cmf1292@hotmail.com, //20130405, //src/engine/renderer/gl_shader.h, //326
+GLUniform2f::GetSize, //0, //cmf028, //cmf1292@hotmail.com, //20130713, //src/engine/renderer/gl_shader.h, //392
+GLUniform3f::GetSize, //0, //cmf028, //cmf1292@hotmail.com, //20130405, //src/engine/renderer/gl_shader.h, //432
+GLUniform4f::GetSize, //0, //cmf028, //cmf1292@hotmail.com, //20130405, //src/engine/renderer/gl_shader.h, //472
+GLUniformMatrix4f::GetSize, //0, //cmf028, //cmf1292@hotmail.com, //20130405, //src/engine/renderer/gl_shader.h, //539
+Cmd::ListCmdsCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/framework/CommandSystem.cpp, //339
+Cmd::ListCmdsCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/framework/CommandSystem.cpp, //307
+FastLZCompressor::compress, //0, //cmf028, //cmf1292@hotmail.com, //20130208, //src/engine/botlib/nav.h, //171
+FastLZCompressor::decompress, //0, //cmf028, //cmf1292@hotmail.com, //20130208, //src/engine/botlib/nav.h, //179
+FastLZCompressor::maxCompressedSize, //0, //cmf028, //cmf1292@hotmail.com, //20130208, //src/engine/botlib/nav.h, //166
+LinearAllocator::alloc, //0, //cmf028, //cmf1292@hotmail.com, //20130208, //src/engine/botlib/nav.h, //255
+LinearAllocator::free, //0, //cmf028, //cmf1292@hotmail.com, //20130208, //src/engine/botlib/nav.h, //272
+LinearAllocator::reset, //0, //cmf028, //cmf1292@hotmail.com, //20130208, //src/engine/botlib/nav.h, //249
+MeshProcess::process, //0, //cmf028, //cmf1292@hotmail.com, //20130208, //src/engine/botlib/nav.h, //191
+ProxyCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/qcommon/cmd.cpp, //530
+ProxyCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/qcommon/cmd.cpp, //525
+Cmd::ProxyEnvironment::ExecuteAfter, //0, //Corentin Wallez, //corentin@wallez.net, //20140220, //src/gamelogic/shared/CommonProxies.cpp, //58
+Cmd::ProxyEnvironment::Print, //0, //Corentin Wallez, //corentin@wallez.net, //20140205, //src/gamelogic/shared/CommonProxies.cpp, //55
+TrapProxyCommand::Run, //0, //Corentin Wallez, //corentin@wallez.net, //20140205, //src/gamelogic/shared/CommonProxies.cpp, //173
+VMCvarProxy::OnValueChanged, //0, //Corentin Wallez, //corentin@wallez.net, //20140205, //src/gamelogic/shared/CommonProxies.cpp, //326
+DemoCmd::Complete, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/engine/client/cl_main.cpp, //1318
+DemoCmd::Run, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131128, //src/engine/client/cl_main.cpp, //1255

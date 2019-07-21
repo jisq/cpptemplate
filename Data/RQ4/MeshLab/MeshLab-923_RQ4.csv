@@ -1,0 +1,23 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+MeshColorizeInterface::Compute, //0, //h, //, //, //meshlab/src/meshlab/interfaces.h, //206
+MeshColorizeInterface::Finalize, //0, //h, //, //, //meshlab/src/meshlab/interfaces.h, //208
+MeshColorizeInterface::Show, //0, //h, //, //, //meshlab/src/meshlab/interfaces.h, //207
+MeshDecorateInterface::Finalize, //0, //h, //, //, //meshlab/src/meshlab/interfaces.h, //224
+MeshDecorateInterface::Init, //0, //h, //, //, //meshlab/src/meshlab/interfaces.h, //222
+MeshEditInterface::EndEdit, //0, //h, //, //, //meshlab/src/meshlab/interfaces.h, //239
+MeshEditInterface::StartEdit, //0, //h, //, //, //meshlab/src/meshlab/interfaces.h, //237
+MeshRenderInterface::Finalize, //0, //h, //, //, //meshlab/src/meshlab/interfaces.h, //195
+MeshRenderInterface::Init, //0, //h, //, //, //meshlab/src/meshlab/interfaces.h, //193
+GLLogStream::Log, //0, //cpp, //, //, //meshlab/src/meshlab/GLLogStream.cpp, //55
+DummyPlugin::isSupported, //0, //h, //, //, //meshlab/src/meshlabplugins/dummy/dummy.h, //61
+ExtraMeshFilterPlugin::Info, //0, //cpp, //, //, //meshlab/src/meshlabplugins/meshfilter/meshfilter.cpp, //172
+ExtraMeshFilterPlugin::Info, //0, //cpp, //, //, //meshlab/src/meshlabplugins/meshfilter/meshfilter.cpp, //242
+ExtraMeshFilterPlugin::setLog, //0, //h, //, //, //meshlab/src/meshlabplugins/meshfilter/meshfilter.h, //58
+MeshColorCurvaturePlugin::Compute, //0, //cpp, //, //, //meshlab/src/meshlabplugins/meshcolorize/meshcolorize.cpp, //188
+MeshColorCurvaturePlugin::Info, //0, //cpp, //, //, //meshlab/src/meshlabplugins/meshcolorize/meshcolorize.cpp, //57
+MeshColorCurvaturePlugin::Info, //0, //cpp, //, //, //meshlab/src/meshlabplugins/meshcolorize/meshcolorize.cpp, //64
+DummyPlugin::Render, //0, //cpp, //, //, //meshlab/src/meshlabplugins/dummy/dummy.cpp, //46
+MeshShaderRenderPlugin::Init, //0, //cpp, //, //, //meshlab/src/meshlabplugins/meshrender/meshrender.cpp, //48
+MeshShaderRenderPlugin::Render, //0, //cpp, //, //, //meshlab/src/meshlabplugins/meshrender/meshrender.cpp, //99

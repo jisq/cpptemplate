@@ -1,0 +1,74 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+WIDGET::display, //0, //Cyp, //cyp@wz2100.net, //20130226, //lib/widget/widgbase.h, //101
+WIDGET::highlight, //0, //Cyp, //cyp@wz2100.net, //20130125, //lib/widget/widgbase.h, //97
+WIDGET::highlightLost, //0, //Cyp, //cyp@wz2100.net, //20130214, //lib/widget/widgbase.h, //98
+W_BARGRAPH::display, //0, //Cyp, //cyp@wz2100.net, //20130226, //lib/widget/bar.cpp, //391
+W_BARGRAPH::highlight, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/bar.cpp, //137
+W_BARGRAPH::highlightLost, //0, //Cyp, //cyp@wz2100.net, //20130214, //lib/widget/bar.cpp, //147
+W_EDITBOX::clicked, //0, //Cyp, //cyp@wz2100.net, //20101220, //lib/widget/editbox.cpp, //470
+W_EDITBOX::display, //0, //Cyp, //cyp@wz2100.net, //20130226, //lib/widget/editbox.cpp, //557
+W_EDITBOX::focusLost, //0, //Cyp, //cyp@wz2100.net, //20130227, //lib/widget/editbox.cpp, //507
+W_EDITBOX::highlight, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/editbox.cpp, //521
+W_EDITBOX::highlightLost, //0, //Cyp, //cyp@wz2100.net, //20130214, //lib/widget/editbox.cpp, //539
+W_EDITBOX::run, //0, //Cyp, //cyp@wz2100.net, //20101220, //lib/widget/editbox.cpp, //267
+W_EDITBOX::setState, //0, //Cyp, //cyp@wz2100.net, //20130211, //lib/widget/editbox.cpp, //638
+WIDGET::clicked, //0, //Cyp, //cyp@wz2100.net, //20101220, //lib/widget/widgbase.h, //95
+WIDGET::focusLost, //0, //Cyp, //cyp@wz2100.net, //20130227, //lib/widget/widgbase.h, //99
+WIDGET::run, //0, //Cyp, //cyp@wz2100.net, //20130125, //lib/widget/widgbase.h, //100
+PhysicsFileSystem::caseSensitive, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //53
+PhysicsFileSystem::close, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //54
+PhysicsFileSystem::extension, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //57
+PhysicsFileSystem::flush, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //60
+PhysicsFileSystem::isRelativePath, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //61
+PhysicsFileSystem::isSequential, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //62
+PhysicsFileSystem::mkdir, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110424, //lib/framework/wzfs.h, //63
+PhysicsFileSystem::open, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //96
+PhysicsFileSystem::remove, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110424, //lib/framework/wzfs.h, //66
+PhysicsFileSystem::rmdir, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110424, //lib/framework/wzfs.h, //67
+PhysicsFileSystem::seek, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //68
+PhysicsFileSystem::setFileName, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //91
+PhysicsFileSystem::supportsExtension, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //69
+W_BUTTON::display, //0, //Cyp, //cyp@wz2100.net, //20130226, //lib/widget/button.cpp, //176
+W_BUTTON::setState, //0, //Cyp, //cyp@wz2100.net, //20130211, //lib/widget/button.cpp, //83
+W_FORM::display, //0, //Cyp, //cyp@wz2100.net, //20130226, //lib/widget/form.cpp, //176
+WIDGET::geometryChanged, //0, //Cyp, //cyp@wz2100.net, //20130307, //lib/widget/widgbase.h, //102
+MultibuttonWidget::display, //0, //Cyp, //cyp@wz2100.net, //20130314, //src/multiint.cpp, //1359
+MultibuttonWidget::geometryChanged, //0, //Cyp, //cyp@wz2100.net, //20130314, //src/multiint.cpp, //1365
+WzMultiButton::display, //0, //Cyp, //cyp@wz2100.net, //20130226, //src/multiint.cpp, //4276
+QtGameWidget::initializeGL, //0, //safety0ff, //safety0ff@users.sourceforge.net, //20110713, //lib/qtgame/qtgame.cpp, //241
+W_CLICKFORM::display, //0, //Cyp, //cyp@wz2100.net, //20130226, //lib/widget/form.cpp, //195
+IntMessageButton::display, //0, //Cyp, //cyp@wz2100.net, //20130313, //src/intelmap.cpp, //929
+W_SLIDER::clicked, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/slider.cpp, //242
+W_SLIDER::display, //0, //Cyp, //cyp@wz2100.net, //20130226, //lib/widget/slider.cpp, //262
+W_SLIDER::highlight, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/slider.cpp, //250
+W_SLIDER::highlightLost, //0, //Cyp, //cyp@wz2100.net, //20130214, //lib/widget/slider.cpp, //257
+W_SLIDER::run, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/slider.cpp, //145
+W_CLICKFORM::setState, //0, //Cyp, //cyp@wz2100.net, //20130211, //lib/widget/form.cpp, //80
+ListTabWidget::geometryChanged, //0, //Cyp, //cyp@wz2100.net, //20130307, //lib/widget/listwidget.cpp, //269
+ListWidget::widgetLost, //0, //Cyp, //cyp@wz2100.net, //20130314, //lib/widget/listwidget.cpp, //167
+W_LABEL::display, //0, //Cyp, //cyp@wz2100.net, //20130226, //lib/widget/label.cpp, //58
+W_LABEL::highlight, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/label.cpp, //102
+W_LABEL::highlightLost, //0, //Cyp, //cyp@wz2100.net, //20130214, //lib/widget/label.cpp, //113
+W_BUTTON::clicked, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/button.cpp, //106
+W_BUTTON::getState, //0, //Cyp, //cyp@wz2100.net, //20130211, //lib/widget/button.cpp, //66
+W_BUTTON::highlight, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/button.cpp, //149
+W_BUTTON::highlightLost, //0, //Cyp, //cyp@wz2100.net, //20130214, //lib/widget/button.cpp, //167
+W_BUTTON::released, //0, //Cyp, //cyp@wz2100.net, //20130227, //lib/widget/button.cpp, //132
+W_BUTTON::setFlash, //0, //Cyp, //cyp@wz2100.net, //20130211, //lib/widget/button.cpp, //71
+WIDGET::released, //0, //Cyp, //cyp@wz2100.net, //20130125, //lib/widget/widgbase.h, //96
+IntFormAnimated::display, //0, //Cyp, //cyp@wz2100.net, //20130228, //src/intdisplay.cpp, //950
+IntObjectButton::display, //0, //Cyp, //cyp@wz2100.net, //20130313, //src/intdisplay.cpp, //820
+IntStatsButton::display, //0, //Cyp, //cyp@wz2100.net, //20130313, //src/intdisplay.cpp, //860
+IntStatusButton::display, //0, //Cyp, //cyp@wz2100.net, //20130313, //src/intdisplay.cpp, //669
+IntTransportButton::display, //0, //Cyp, //cyp@wz2100.net, //20130313, //src/intdisplay.cpp, //2234
+WzMainWindow::initializeGL, //0, //Buginator, //buginator@gna.org, //20100516, //lib/qtgame/wzapp_qt.cpp, //203
+W_CLICKFORM::getState, //0, //Cyp, //cyp@wz2100.net, //20130211, //lib/widget/form.cpp, //75
+W_CLICKFORM::clicked, //0, //Cyp, //cyp@wz2100.net, //20130210, //lib/widget/form.cpp, //107
+W_CLICKFORM::highlight, //0, //Cyp, //cyp@wz2100.net, //20130210, //lib/widget/form.cpp, //145
+W_CLICKFORM::highlightLost, //0, //Cyp, //cyp@wz2100.net, //20130214, //lib/widget/form.cpp, //169
+W_CLICKFORM::released, //0, //Cyp, //cyp@wz2100.net, //20130227, //lib/widget/form.cpp, //129
+W_CLICKFORM::setFlash, //0, //Cyp, //cyp@wz2100.net, //20130211, //lib/widget/form.cpp, //88
+W_FORM::clicked, //0, //Cyp, //cyp@wz2100.net, //20130210, //lib/widget/form.cpp, //100
+W_FORM::highlightLost, //0, //Cyp, //cyp@wz2100.net, //20130214, //lib/widget/form.cpp, //163

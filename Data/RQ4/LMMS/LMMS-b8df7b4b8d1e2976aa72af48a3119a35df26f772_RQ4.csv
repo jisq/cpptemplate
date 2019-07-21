@@ -1,0 +1,146 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+KMultiTabBarButton::hideEvent, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060117, //src/widgets/kmultitabbar.cpp, //346
+KMultiTabBarButton::showEvent, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060117, //src/widgets/kmultitabbar.cpp, //352
+KMultiTabBarTab::drawButton, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060117, //src/widgets/kmultitabbar.cpp, //526
+KMultiTabBarTab::drawButtonLabel, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060117, //src/widgets/kmultitabbar.cpp, //523
+KMultiTabBarTab::setIcon, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060117, //src/widgets/kmultitabbar.cpp, //439
+instrument::isFromTrack, //0, //Javier Serrano Polo, //jasp00@terra.es, //20070507, //src/core/instrument.cpp, //102
+instrument::play, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060918, //src/core/instrument.cpp, //54
+playHandle::supportsParallelizing, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060918, //include/play_handle.h, //81
+playHandle::waitForWorkerThread, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060918, //include/play_handle.h, //86
+instrumentPlayHandle::done, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051024, //include/instrument_play_handle.h, //52
+instrumentPlayHandle::isFromTrack, //0, //Javier Serrano Polo, //jasp00@terra.es, //20070507, //include/instrument_play_handle.h, //57
+instrumentPlayHandle::play, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060918, //include/instrument_play_handle.h, //47
+instrumentPlayHandle::supportsParallelizing, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060918, //include/instrument_play_handle.h, //62
+instrumentPlayHandle::waitForWorkerThread, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060918, //include/instrument_play_handle.h, //67
+vstControlDialog::getControlCount, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060921, //plugins/vst_effect/vst_control_dialog.h, //48
+knob::enterValue, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051024, //src/widgets/knob.cpp, //666
+knob::setInitValue, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060314, //include/knob.h, //64
+knob::setRange, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060223, //src/widgets/knob.cpp, //610
+knob::setValue, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060223, //src/widgets/knob.cpp, //596
+trackContentObject::constructContextMenu, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/track.h, //111
+pattern::constructContextMenu, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051219, //src/tracks/pattern.cpp, //594
+pattern::length, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051219, //src/tracks/pattern.cpp, //186
+pattern::resizeEvent, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060123, //include/pattern.h, //169
+patternFreezeThread::run, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051212, //src/tracks/pattern.cpp, //1155
+midiImport::tryImport, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060327, //plugins/midi_import/midi_import.cpp, //80
+bbTCO::constructContextMenu, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //src/tracks/bb_track.cpp, //77
+bbTrack::type, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051219, //src/tracks/bb_track.cpp, //338
+trackContainer::updateAfterTrackAdd, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050927, //src/core/track_container.cpp, //245
+presetPreviewPlayHandle::done, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060117, //src/core/preset_preview_play_handle.cpp, //184
+presetPreviewPlayHandle::isFromTrack, //0, //Javier Serrano Polo, //jasp00@terra.es, //20070507, //src/core/preset_preview_play_handle.cpp, //192
+presetPreviewPlayHandle::play, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060918, //src/core/preset_preview_play_handle.cpp, //176
+lb302Filter::playNote, //0, //Paul Giblock, //p@pgiblock.net, //20070203, //plugins/lb302/lb302.cpp, //124
+audioDevice::registerPort, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051130, //src/audio/audio_device.cpp, //138
+audioDevice::renamePort, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051205, //src/audio/audio_device.cpp, //152
+audioDevice::unregisterPort, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051130, //src/audio/audio_device.cpp, //145
+audioDevice::startProcessing, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051205, //include/audio_device.h, //92
+audioDevice::stopProcessing, //0, //Javier Serrano Polo, //jasp00@terra.es, //20070419, //src/audio/audio_device.cpp, //127
+audioDummy::run, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060103, //include/audio_dummy.h, //97
+audioDummy::setupWidget::saveSettings, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/audio_dummy.h, //67
+audioDummy::startProcessing, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060103, //include/audio_dummy.h, //83
+audioDummy::stopProcessing, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060103, //include/audio_dummy.h, //88
+samplePlayHandle::done, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050927, //src/core/sample_play_handle.cpp, //146
+samplePlayHandle::isFromTrack, //0, //Javier Serrano Polo, //jasp00@terra.es, //20070507, //src/core/sample_play_handle.cpp, //154
+samplePlayHandle::play, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20070804, //src/core/sample_play_handle.cpp, //115
+trackContainer::fixedTCOs, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/track_container.h, //78
+bbEditor::fixedTCOs, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/bb_editor.h, //56
+configManager::accept, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050927, //src/core/config_mgr.cpp, //503
+note::redoStep, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060321, //src/core/note.cpp, //265
+note::undoStep, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060321, //src/core/note.cpp, //234
+trackContentObject::redoStep, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060321, //src/core/track.cpp, //490
+trackContentObject::undoStep, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060321, //src/core/track.cpp, //472
+trackContentWidget::redoStep, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060321, //src/core/track.cpp, //879
+trackContentWidget::undoStep, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060321, //src/core/track.cpp, //839
+trackWidget::redoStep, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060327, //src/core/track.cpp, //1307
+trackWidget::repaint, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060123, //src/core/track.cpp, //1219
+trackWidget::undoStep, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060327, //src/core/track.cpp, //1276
+trackWidget::update, //0, //Javier Serrano Polo, //jasp00@terra.es, //20060827, //src/core/track.cpp, //1228
+volumeKnob::enterValue, //0, //Danny McRae, //khjklujn@yahoo.com, //20060417, //src/widgets/volume_knob.cpp, //184
+automatableSlider::setInitValue, //0, //Javier Serrano Polo, //jasp00@terra.es, //20060708, //src/widgets/automatable_slider.cpp, //88
+automatableSlider::setRange, //0, //Javier Serrano Polo, //jasp00@terra.es, //20060708, //src/widgets/automatable_slider.cpp, //70
+automatableSlider::setValue, //0, //Javier Serrano Polo, //jasp00@terra.es, //20060708, //src/widgets/automatable_slider.cpp, //79
+ladspaControlDialog::getControlCount, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060917, //plugins/ladspa_effect/ladspa_control_dialog.h, //50
+dummyPlugin::loadSettings, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051020, //include/dummy_plugin.h, //50
+dummyPlugin::saveSettings, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051020, //include/dummy_plugin.h, //46
+songEditor::tempoAutomationPattern, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20070723, //src/core/song_editor.cpp, //1289
+trackContainer::tempoAutomationPattern, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20070723, //include/track_container.h, //73
+notePlayHandle::play, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060918, //src/core/note_play_handle.cpp, //160
+previewTrackContainer::fixedTCOs, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050927, //src/core/preset_preview_play_handle.cpp, //67
+automatableButton::isChecked, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060314, //include/automatable_button.h, //47
+automatableButton::setChecked, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060314, //include/automatable_button.h, //68
+kickerInstrument::desiredReleaseFrames, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20061220, //plugins/kicker/kicker.h, //53
+automationTrack::type, //0, //Javier Serrano Polo, //jasp00@terra.es, //20060708, //src/tracks/automation_track.cpp, //49
+plugin::descriptor::subPluginFeatures::fillDescriptionWidget, //0, //Javier Serrano Polo, //jasp00@terra.es, //20070419, //include/plugin.h, //120
+ladspaSubPluginFeatures::fillDescriptionWidget, //0, //Javier Serrano Polo, //jasp00@terra.es, //20070419, //plugins/ladspa_effect/ladspa_subplugin_features.cpp, //49
+plugin::supportsParallelizing, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060918, //src/core/plugin.cpp, //128
+plugin::waitForWorkerThread, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060918, //src/core/plugin.cpp, //136
+midiDummy::setupWidget::saveSettings, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/midi_dummy.h, //62
+lb302Filter::recalc, //0, //Javier Serrano Polo, //jasp00@terra.es, //20070325, //plugins/polyb302/polyb302.cpp, //102
+vstSubPluginFeatures::fillDescriptionWidget, //0, //Javier Serrano Polo, //jasp00@terra.es, //20070419, //plugins/vst_effect/vst_subplugin_features.cpp, //53
+instrument::handleMidiEvent, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20061119, //include/instrument.h, //98
+vestigeInstrument::handleMidiEvent, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20061119, //plugins/vestige/vestige.cpp, //354
+vestigeInstrument::play, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060918, //plugins/vestige/vestige.cpp, //281
+vestigeInstrument::waitForWorkerThread, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060918, //plugins/vestige/vestige.cpp, //256
+remoteVSTPlugin::loadSettings, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060923, //plugins/vst_base/lvsl_client.cpp, //355
+remoteVSTPlugin::saveSettings, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060923, //plugins/vst_base/lvsl_client.cpp, //385
+midiALSASeq::connectRPChanged, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051208, //include/midi_alsa_seq.h, //101
+midiALSASeq::connectWPChanged, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051208, //include/midi_alsa_seq.h, //108
+automationPattern::length, //0, //Javier Serrano Polo, //jasp00@terra.es, //20070507, //src/core/automation_pattern.cpp, //117
+sideBarWidget::contextMenuEvent, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051020, //include/side_bar_widget.h, //54
+trackContainer::allowRubberband, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060123, //src/core/track_container.cpp, //303
+trackContainer::redoStep, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060327, //src/core/track_container.cpp, //414
+trackContainer::undoStep, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060327, //src/core/track_container.cpp, //377
+instrument::desiredReleaseFrames, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20061209, //include/instrument.h, //79
+instrument::isMonophonic, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20061209, //include/instrument.h, //86
+lb302Filter::recalc, //0, //Paul Giblock, //p@pgiblock.net, //20070203, //plugins/lb302/lb302.cpp, //107
+lb302Filter3Pole::getState, //0, //Paul Giblock, //p@pgiblock.net, //20070820, //plugins/lb302/lb302.cpp, //279
+lb302Filter3Pole::setState, //0, //Paul Giblock, //p@pgiblock.net, //20070820, //plugins/lb302/lb302.cpp, //292
+lb302FilterIIR2::getState, //0, //Paul Giblock, //p@pgiblock.net, //20070820, //plugins/lb302/lb302.cpp, //192
+lb302FilterIIR2::setState, //0, //Paul Giblock, //p@pgiblock.net, //20070820, //plugins/lb302/lb302.cpp, //202
+lb302Synth::desiredReleaseFrames, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20070808, //plugins/lb302/lb302.h, //208
+lb302Synth::isMonophonic, //0, //Paul Giblock, //p@pgiblock.net, //20070203, //plugins/lb302/lb302.h, //204
+dummyEffect::createControlDialog, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060917, //include/dummy_effect.h, //58
+dummyEffect::loadSettings, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060917, //include/dummy_effect.h, //49
+dummyEffect::saveSettings, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060917, //include/dummy_effect.h, //45
+audioFileProcessor::desiredReleaseFrames, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20070820, //plugins/audio_file_processor/audio_file_processor.h, //79
+singerBot::synThread::run, //0, //Javier Serrano Polo, //jasp00@terra.es, //20070120, //plugins/singerbot/singerbot.cpp, //352
+bitInvader::desiredReleaseFrames, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20070820, //plugins/bit_invader/bit_invader.h, //82
+lb302Filter3Pole::envRecalc, //0, //Paul Giblock, //p@pgiblock.net, //20070203, //plugins/lb302/lb302.cpp, //232
+notePlayHandle::isFromTrack, //0, //Javier Serrano Polo, //jasp00@terra.es, //20070507, //src/core/note_play_handle.cpp, //283
+songEditor::allowRubberband, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060123, //include/song_editor.h, //203
+songEditor::fixedTCOs, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/song_editor.h, //158
+lb302Filter3Pole::process, //0, //Javier Serrano Polo, //jasp00@terra.es, //20070325, //plugins/polyb302/polyb302.cpp, //271
+track::setName, //0, //Javier Serrano Polo, //jasp00@terra.es, //20060626, //include/track.h, //489
+vstEffect::createControlDialog, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060921, //plugins/vst_effect/vst_effect.h, //52
+lb302FilterIIR2::recalc, //0, //Javier Serrano Polo, //jasp00@terra.es, //20070325, //plugins/polyb302/polyb302.cpp, //159
+instrument::notePlayHandleBased, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060918, //include/instrument.h, //91
+bassBoosterControlDialog::getControlCount, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20061218, //plugins/bass_booster/bassbooster_control_dialog.h, //51
+plugin::descriptor::subPluginFeatures::listSubPluginKeys, //0, //Javier Serrano Polo, //jasp00@terra.es, //20070419, //include/plugin.h, //124
+flpImport::tryImport, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060328, //plugins/flp_import/flp_import.cpp, //136
+lb302Filter3Pole::process, //0, //Paul Giblock, //p@pgiblock.net, //20070203, //plugins/lb302/lb302.cpp, //266
+lb302FilterIIR2::process, //0, //Paul Giblock, //p@pgiblock.net, //20070203, //plugins/lb302/lb302.cpp, //179
+lb302Filter3Pole::recalc, //0, //Paul Giblock, //p@pgiblock.net, //20070203, //plugins/lb302/lb302.cpp, //224
+lb302FilterIIR2::recalc, //0, //Paul Giblock, //p@pgiblock.net, //20070203, //plugins/lb302/lb302.cpp, //157
+notePlayHandle::done, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/note_play_handle.h, //68
+notePlayHandle::supportsParallelizing, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060918, //include/note_play_handle.h, //231
+notePlayHandle::waitForWorkerThread, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060918, //include/note_play_handle.h, //245
+midiClient::connectRPChanged, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051208, //include/midi_client.h, //90
+midiClient::connectWPChanged, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051208, //include/midi_client.h, //94
+midiClient::isRaw, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051208, //include/midi_client.h, //71
+midiClientRaw::isRaw, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051208, //include/midi_client.h, //147
+ladspaEffect::createControlDialog, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060917, //plugins/ladspa_effect/ladspa_effect.h, //66
+tripleOscillator::desiredReleaseFrames, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20070806, //plugins/triple_oscillator/triple_oscillator.h, //114
+lb302FilterIIR2::envRecalc, //0, //Paul Giblock, //p@pgiblock.net, //20070203, //plugins/lb302/lb302.cpp, //164
+lb302Filter::envRecalc, //0, //Paul Giblock, //p@pgiblock.net, //20070203, //plugins/lb302/lb302.cpp, //118
+lb302Filter3Pole::recalc, //0, //Javier Serrano Polo, //jasp00@terra.es, //20070325, //plugins/polyb302/polyb302.cpp, //218
+instrumentTrack::type, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060321, //include/instrument_track.h, //64
+vestigeInstrument::notePlayHandleBased, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060918, //plugins/vestige/vestige.h, //83
+vestigeInstrument::supportsParallelizing, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060918, //plugins/vestige/vestige.h, //76
+lb302Filter3Pole::envRecalc, //0, //Javier Serrano Polo, //jasp00@terra.es, //20070325, //plugins/polyb302/polyb302.cpp, //229
+lb302Filter::playNote, //0, //Javier Serrano Polo, //jasp00@terra.es, //20070325, //plugins/polyb302/polyb302.cpp, //126
+lb302Filter::envRecalc, //0, //Javier Serrano Polo, //jasp00@terra.es, //20070325, //plugins/polyb302/polyb302.cpp, //116
+lb302FilterIIR2::process, //0, //Javier Serrano Polo, //jasp00@terra.es, //20070325, //plugins/polyb302/polyb302.cpp, //185
+lb302FilterIIR2::envRecalc, //0, //Javier Serrano Polo, //jasp00@terra.es, //20070325, //plugins/polyb302/polyb302.cpp, //169

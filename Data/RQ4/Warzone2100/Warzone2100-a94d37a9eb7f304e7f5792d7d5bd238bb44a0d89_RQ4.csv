@@ -1,0 +1,48 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+WIDGET::clicked, //0, //Cyp, //cyp@wz2100.net, //20101220, //lib/widget/widgbase.h, //76
+WIDGET::focusLost, //0, //Cyp, //cyp@wz2100.net, //20130125, //lib/widget/widgbase.h, //80
+WIDGET::highlight, //0, //Cyp, //cyp@wz2100.net, //20130125, //lib/widget/widgbase.h, //78
+WIDGET::highlightLost, //0, //Cyp, //cyp@wz2100.net, //20130125, //lib/widget/widgbase.h, //79
+WIDGET::run, //0, //Cyp, //cyp@wz2100.net, //20130125, //lib/widget/widgbase.h, //81
+W_EDITBOX::clicked, //0, //Cyp, //cyp@wz2100.net, //20101220, //lib/widget/editbox.cpp, //468
+W_EDITBOX::focusLost, //0, //Cyp, //cyp@wz2100.net, //20101220, //lib/widget/editbox.cpp, //505
+W_EDITBOX::highlight, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/editbox.cpp, //519
+W_EDITBOX::highlightLost, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/editbox.cpp, //537
+W_EDITBOX::run, //0, //Cyp, //cyp@wz2100.net, //20101220, //lib/widget/editbox.cpp, //268
+QtGameWidget::initializeGL, //0, //safety0ff, //safety0ff@users.sourceforge.net, //20110713, //lib/qtgame/qtgame.cpp, //241
+W_LABEL::highlight, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/label.cpp, //122
+W_LABEL::highlightLost, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/label.cpp, //136
+WIDGET::released, //0, //Cyp, //cyp@wz2100.net, //20130125, //lib/widget/widgbase.h, //77
+W_SLIDER::clicked, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/slider.cpp, //321
+W_SLIDER::highlight, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/slider.cpp, //355
+W_SLIDER::highlightLost, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/slider.cpp, //362
+W_SLIDER::released, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/slider.cpp, //349
+W_SLIDER::run, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/slider.cpp, //219
+PhysicsFileSystem::caseSensitive, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //53
+PhysicsFileSystem::close, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //54
+PhysicsFileSystem::extension, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //57
+PhysicsFileSystem::flush, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //60
+PhysicsFileSystem::isRelativePath, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //61
+PhysicsFileSystem::isSequential, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //62
+PhysicsFileSystem::mkdir, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110424, //lib/framework/wzfs.h, //63
+PhysicsFileSystem::open, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //96
+PhysicsFileSystem::remove, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110424, //lib/framework/wzfs.h, //66
+PhysicsFileSystem::rmdir, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110424, //lib/framework/wzfs.h, //67
+PhysicsFileSystem::seek, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //68
+PhysicsFileSystem::setFileName, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //91
+PhysicsFileSystem::supportsExtension, //0, //Per Inge Mathisen, //per.mathisen@gmail.com, //20110130, //lib/framework/wzfs.h, //69
+W_BUTTON::clicked, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/button.cpp, //197
+W_BUTTON::highlight, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/button.cpp, //242
+W_BUTTON::highlightLost, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/button.cpp, //263
+W_BUTTON::released, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/button.cpp, //224
+W_BUTTON::run, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/button.cpp, //182
+WzMainWindow::initializeGL, //0, //Buginator, //buginator@gna.org, //20100516, //lib/qtgame/wzapp_qt.cpp, //203
+W_BARGRAPH::highlight, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/bar.cpp, //195
+W_BARGRAPH::highlightLost, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/bar.cpp, //208
+W_FORM::clicked, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/form.cpp, //1061
+W_FORM::highlight, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/form.cpp, //1143
+W_FORM::highlightLost, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/form.cpp, //1171
+W_FORM::released, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/form.cpp, //1094
+W_FORM::run, //0, //Cyp, //cyp@wz2100.net, //20130126, //lib/widget/form.cpp, //971

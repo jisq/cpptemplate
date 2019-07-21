@@ -1,0 +1,60 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+CChainParams::RequireRPCPassword, //0, //Mike Hearn, //mike@plan99.net, //20130507, //src/chainparams.h, //63
+CCoinsView::BatchWrite, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120706, //src/main.cpp, //291
+CCoinsView::GetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120701, //src/main.cpp, //289
+CCoinsView::GetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130120, //src/main.cpp, //286
+CCoinsView::GetStats, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120925, //src/main.cpp, //292
+CCoinsView::HaveCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130120, //src/main.cpp, //288
+CCoinsView::SetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120701, //src/main.cpp, //290
+CCoinsView::SetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130120, //src/main.cpp, //287
+CCoinsViewDB::BatchWrite, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120903, //src/txdb.cpp, //57
+CCoinsViewDB::GetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120903, //src/txdb.cpp, //41
+CCoinsViewDB::GetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130120, //src/txdb.cpp, //27
+CCoinsViewDB::GetStats, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120925, //src/txdb.cpp, //115
+CCoinsViewDB::HaveCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130120, //src/txdb.cpp, //37
+CCoinsViewDB::SetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120903, //src/txdb.cpp, //51
+CCoinsViewDB::SetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130120, //src/txdb.cpp, //31
+CBasicKeyStore::AddCScript, //0, //Gavin Andresen, //gavinandresen@gmail.com, //20120104, //src/keystore.cpp, //29
+CCryptoKeyStore::AddCryptedKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //130
+CCryptoKeyStore::AddKeyPubKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130501, //src/keystore.cpp, //108
+CWallet::AddCScript, //0, //Gavin Andresen, //gavinandresen@gmail.com, //20120104, //src/wallet.cpp, //104
+CWallet::AddCryptedKey, //0, //Jeff Garzik, //jgarzik@bitpay.com, //20130610, //src/wallet.cpp, //69
+CWallet::AddKeyPubKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130620, //src/wallet.cpp, //55
+std::bad_alloc::what, //0, //cpp, //, //, //src/compat/glibcxx_compat.cpp, //26
+std::bad_cast::what, //0, //cpp, //, //, //src/compat/glibcxx_compat.cpp, //21
+std::bad_exception::what, //0, //cpp, //, //, //src/compat/glibcxx_compat.cpp, //16
+CCoinsViewBacked::GetStats, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120925, //src/main.cpp, //303
+CCoinsViewCache::GetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120701, //src/main.cpp, //346
+CCoinsViewCache::GetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130120, //src/main.cpp, //307
+CCoinsViewMemPool::GetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130120, //src/main.cpp, //379
+CCoinsViewBacked::BatchWrite, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120706, //src/main.cpp, //302
+CCoinsViewBacked::GetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120701, //src/main.cpp, //299
+CCoinsViewBacked::GetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130120, //src/main.cpp, //296
+CCoinsViewBacked::HaveCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130120, //src/main.cpp, //298
+CCoinsViewBacked::SetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120701, //src/main.cpp, //300
+CCoinsViewBacked::SetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130120, //src/main.cpp, //297
+CCoinsViewCache::BatchWrite, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120706, //src/main.cpp, //357
+CCoinsViewCache::HaveCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130120, //src/main.cpp, //342
+CCoinsViewCache::SetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120701, //src/main.cpp, //352
+CCoinsViewCache::SetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130120, //src/main.cpp, //337
+CCoinsViewMemPool::HaveCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130120, //src/main.cpp, //390
+CBasicKeyStore::AddKeyPubKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130501, //src/keystore.cpp, //22
+CBasicKeyStore::GetCScript, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //42
+CBasicKeyStore::GetKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.h, //73
+CBasicKeyStore::HaveCScript, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //36
+CCryptoKeyStore::GetKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //142
+CCryptoKeyStore::GetPubKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //166
+CKeyStore::AddKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130501, //src/keystore.cpp, //18
+CKeyStore::GetPubKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //9
+CBasicKeyStore::GetKeys, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.h, //60
+CBasicKeyStore::HaveKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.h, //51
+CCryptoKeyStore::GetKeys, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.h, //153
+CCryptoKeyStore::HaveKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.h, //141
+CMainParams::FixedSeeds, //0, //Mike Hearn, //mike@plan99.net, //20130507, //src/chainparams.cpp, //173
+CMainParams::GenesisBlock, //0, //Mike Hearn, //mike@plan99.net, //20130507, //src/chainparams.cpp, //170
+CMainParams::NetworkID, //0, //Mike Hearn, //mike@plan99.net, //20130507, //src/chainparams.cpp, //171
+CRegTestParams::NetworkID, //0, //Mike Hearn, //mike@plan99.net, //20130507, //src/chainparams.cpp, //247
+CRegTestParams::RequireRPCPassword, //0, //Mike Hearn, //mike@plan99.net, //20130507, //src/chainparams.cpp, //246
+CTestNetParams::NetworkID, //0, //Mike Hearn, //mike@plan99.net, //20130507, //src/chainparams.cpp, //218

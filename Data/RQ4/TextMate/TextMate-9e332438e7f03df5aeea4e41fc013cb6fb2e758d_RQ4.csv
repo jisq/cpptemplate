@@ -1,0 +1,41 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+oak::process_t::did_exit, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/OakSystem/src/process.cc, //207
+ng::callback_t::did_parse, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/buffer/src/buffer.h, //53
+ng::callback_t::did_replace, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/buffer/src/buffer.h, //55
+ng::callback_t::will_replace, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/buffer/src/buffer.h, //54
+ng::meta_data_t::did_parse, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/buffer/src/buffer.h, //24
+ng::meta_data_t::replace, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/buffer/src/buffer.h, //23
+base_t::close_document, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Applications/TextMate/src/RMateServer.cc, //263
+base_t::save_document, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Applications/TextMate/src/RMateServer.cc, //262
+socket_callback_t::helper_t::operator(), //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Applications/TextMate/src/RMateServer.cc, //84
+document::run_callback_t::update_environment, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/document/src/collection.h, //14
+command::callback_t::done, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/command/src/runner.h, //45
+command::callback_t::output, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/command/src/runner.h, //44
+command::delegate_t::accept_html_data, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/command/src/runner.h, //31
+command::delegate_t::detach, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/command/src/runner.h, //37
+command::delegate_t::done, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/command/src/runner.h, //38
+command::delegate_t::update_environment, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/command/src/runner.h, //27
+close_warning_callback_t::will_save_documents, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/DocumentWindow/src/DocumentTabs.h, //10
+filter_t::setup, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/network/src/download.h, //10
+network::save_t::setup, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/network/src/filter_save.h, //27
+oak::command_t::did_exit, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/OakSystem/src/command.cc, //53
+simple_clipboard_t::empty, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/editor/src/clipboard.cc, //13
+op_queue::task_t::was_unscheduled, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Shared/include/oak/op_queue.h, //14
+network::check_signature_t::setup, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/network/src/filter_check_signature.cc, //19
+oak::command_t::did_exit, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/OakSystem/src/command.h, //18
+find::find_implementation_t::set_skip_first, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/regexp/src/find.cc, //44
+find::find_implementation_t::set_skip_last, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/regexp/src/find.cc, //45
+filter_t::receive_data, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/network/src/download.h, //13
+filter_t::receive_end, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/network/src/download.h, //14
+filter_t::receive_header, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/network/src/download.h, //12
+filter_t::receive_status, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/network/src/download.h, //11
+network::tbz_t::setup, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/network/src/filter_tbz.h, //19
+fs::event_callback_t::set_replaying_history, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/io/src/events.h, //11
+document::open_callback_t::show_content, //0, //Allan Odgaard, //git@abetarda.com, //20120826, //Frameworks/document/src/document.h, //32
+document::open_callback_t::show_error, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/document/src/document.h, //35
+document::save_callback_t::did_save, //0, //Allan Odgaard, //git@abetarda.com, //20120826, //Frameworks/document/src/document.h, //44
+file_context_t::set_make_writable, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/file/src/save.cc, //37
+bundles::callback_t::bundles_did_change, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/bundles/src/index.h, //119
+bundles::callback_t::bundles_will_change, //0, //Allan Odgaard, //git@abetarda.com, //20120809, //Frameworks/bundles/src/index.h, //118

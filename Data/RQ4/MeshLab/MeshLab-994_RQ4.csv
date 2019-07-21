@@ -1,0 +1,23 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+DummyPlugin::isSupported, //0, //h, //, //, //meshlab/src/meshlabplugins/dummy/dummy.h, //61
+MeshRenderInterface::Init, //0, //h, //, //, //meshlab/src/meshlab/interfaces.h, //193
+MeshShaderRenderPlugin::Init, //0, //cpp, //, //, //meshlab/src/meshlabplugins/meshrender/meshrender.cpp, //48
+MeshShaderRenderPlugin::Render, //0, //cpp, //, //, //meshlab/src/meshlabplugins/meshrender/meshrender.cpp, //99
+MeshColorizeInterface::Compute, //0, //h, //, //, //meshlab/src/meshlab/interfaces.h, //206
+MeshColorCurvaturePlugin::Compute, //0, //cpp, //, //, //meshlab/src/meshlabplugins/meshcolorize/meshcolorize.cpp, //188
+MeshColorCurvaturePlugin::Info, //0, //cpp, //, //, //meshlab/src/meshlabplugins/meshcolorize/meshcolorize.cpp, //57
+MeshColorCurvaturePlugin::Info, //0, //cpp, //, //, //meshlab/src/meshlabplugins/meshcolorize/meshcolorize.cpp, //64
+ExtraMeshFilterPlugin::Info, //0, //cpp, //, //, //meshlab/src/meshlabplugins/meshfilter/meshfilter.cpp, //172
+ExtraMeshFilterPlugin::Info, //0, //cpp, //, //, //meshlab/src/meshlabplugins/meshfilter/meshfilter.cpp, //242
+MeshColorizeInterface::Finalize, //0, //h, //, //, //meshlab/src/meshlab/interfaces.h, //208
+MeshColorizeInterface::Show, //0, //h, //, //, //meshlab/src/meshlab/interfaces.h, //207
+MeshDecorateInterface::Finalize, //0, //h, //, //, //meshlab/src/meshlab/interfaces.h, //224
+MeshDecorateInterface::Init, //0, //h, //, //, //meshlab/src/meshlab/interfaces.h, //222
+MeshEditInterface::EndEdit, //0, //h, //, //, //meshlab/src/meshlab/interfaces.h, //239
+MeshEditInterface::StartEdit, //0, //h, //, //, //meshlab/src/meshlab/interfaces.h, //237
+MeshRenderInterface::Finalize, //0, //h, //, //, //meshlab/src/meshlab/interfaces.h, //195
+GLLogStream::Log, //0, //cpp, //, //, //meshlab/src/meshlab/GLLogStream.cpp, //55
+ExtraMeshFilterPlugin::setLog, //0, //h, //, //, //meshlab/src/meshlabplugins/meshfilter/meshfilter.h, //58
+DummyPlugin::Render, //0, //cpp, //, //, //meshlab/src/meshlabplugins/dummy/dummy.cpp, //46

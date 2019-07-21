@@ -1,0 +1,71 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+control::UOrbPublicationBase, //3, //jgoppert, //james.goppert@gmail.com, //20130106, //apps/controllib/block/UOrbPublication.hpp, //55
+control::UOrbSubscriptionBase, //4, //jgoppert, //james.goppert@gmail.com, //20130106, //apps/controllib/block/UOrbSubscription.hpp, //55
+
+virtual function, calls, developer, email, edit time, definition file path, line
+PX4FMU::init, //0, //px4dev, //px4@purgatory.org, //20121027, //apps/drivers/px4fmu/fmu.cpp, //218
+PX4FMU::ioctl, //0, //px4dev, //px4@purgatory.org, //20121027, //apps/drivers/px4fmu/fmu.cpp, //561
+PX4FMU::write, //0, //Andrew Tridgell, //andrew@tridgell.net, //20130217, //apps/drivers/px4fmu/fmu.cpp, //734
+PX4IO::init, //0, //px4dev, //px4@purgatory.org, //20120804, //apps/drivers/px4io/px4io.cpp, //347
+PX4IO::ioctl, //0, //px4dev, //px4@purgatory.org, //20121020, //apps/drivers/px4io/px4io.cpp, //1321
+PX4IO::write, //0, //px4dev, //px4@purgatory.org, //20130115, //apps/drivers/px4io/px4io.cpp, //1496
+KalmanNav::updateParams, //0, //jgoppert, //james.goppert@gmail.com, //20130106, //apps/examples/kalman_demo/KalmanNav.cpp, //698
+KalmanNav::updatePublications, //0, //jgoppert, //james.goppert@gmail.com, //20130106, //apps/examples/kalman_demo/KalmanNav.cpp, //259
+LED::init, //0, //px4dev, //px4@purgatory.org, //20121031, //apps/drivers/led/led.cpp, //74
+LED::ioctl, //0, //px4dev, //px4@purgatory.org, //20121031, //apps/drivers/led/led.cpp, //83
+MTK::configure, //0, //Julian Oes, //julian@oes.ch, //20130208, //apps/drivers/gps/mtk.cpp, //63
+MTK::receive, //0, //Julian Oes, //julian@oes.ch, //20130208, //apps/drivers/gps/mtk.cpp, //105
+BMA180::init, //0, //px4dev, //px4@purgatory.org, //20120804, //apps/drivers/bma180/bma180.cpp, //280
+BMA180::ioctl, //0, //px4dev, //px4@purgatory.org, //20120804, //apps/drivers/bma180/bma180.cpp, //393
+BMA180::probe, //0, //px4dev, //px4@purgatory.org, //20120804, //apps/drivers/bma180/bma180.cpp, //340
+BMA180::read, //0, //px4dev, //px4@purgatory.org, //20120804, //apps/drivers/bma180/bma180.cpp, //352
+ORBDevMaster::ioctl, //0, //px4dev, //px4@purgatory.org, //20120804, //apps/uORB/uORB.cpp, //551
+ORBDevNode::close, //0, //px4dev, //px4@purgatory.org, //20120804, //apps/uORB/uORB.cpp, //243
+ORBDevNode::ioctl, //0, //px4dev, //px4@purgatory.org, //20120804, //apps/uORB/uORB.cpp, //344
+ORBDevNode::open, //0, //px4dev, //px4@purgatory.org, //20120804, //apps/uORB/uORB.cpp, //182
+ORBDevNode::poll_notify_one, //0, //px4dev, //px4@purgatory.org, //20120804, //apps/uORB/uORB.cpp, //412
+ORBDevNode::poll_state, //0, //px4dev, //px4@purgatory.org, //20120804, //apps/uORB/uORB.cpp, //398
+ORBDevNode::read, //0, //px4dev, //px4@purgatory.org, //20120804, //apps/uORB/uORB.cpp, //260
+ORBDevNode::write, //0, //px4dev, //px4@purgatory.org, //20120804, //apps/uORB/uORB.cpp, //296
+ADC::close_last, //0, //px4dev, //px4@purgatory.org, //20121231, //apps/drivers/stm32/adc/adc.cpp, //276
+ADC::init, //0, //px4dev, //px4@purgatory.org, //20121231, //apps/drivers/stm32/adc/adc.cpp, //178
+ADC::ioctl, //0, //px4dev, //px4@purgatory.org, //20121231, //apps/drivers/stm32/adc/adc.cpp, //242
+ADC::open_first, //0, //px4dev, //px4@purgatory.org, //20121231, //apps/drivers/stm32/adc/adc.cpp, //264
+ADC::read, //0, //px4dev, //px4@purgatory.org, //20121231, //apps/drivers/stm32/adc/adc.cpp, //248
+MS5611::init, //0, //px4dev, //px4@purgatory.org, //20120804, //apps/drivers/ms5611/ms5611.cpp, //300
+MS5611::ioctl, //0, //px4dev, //px4@purgatory.org, //20120804, //apps/drivers/ms5611/ms5611.cpp, //436
+MS5611::probe, //0, //px4dev, //px4@purgatory.org, //20120804, //apps/drivers/ms5611/ms5611.cpp, //330
+MS5611::read, //0, //px4dev, //px4@purgatory.org, //20120804, //apps/drivers/ms5611/ms5611.cpp, //365
+MB12XX::init, //0, //Greg Hulands, //ghulands@me.com, //20130301, //apps/drivers/mb12xx/mb12xx.cpp, //228
+MB12XX::ioctl, //0, //Greg Hulands, //ghulands@me.com, //20130301, //apps/drivers/mb12xx/mb12xx.cpp, //290
+MB12XX::probe, //0, //Greg Hulands, //ghulands@me.com, //20130301, //apps/drivers/mb12xx/mb12xx.cpp, //260
+MB12XX::read, //0, //Greg Hulands, //ghulands@me.com, //20130301, //apps/drivers/mb12xx/mb12xx.cpp, //406
+L3GD20::init, //0, //px4dev, //px4@purgatory.org, //20120827, //apps/drivers/l3gd20/l3gd20.cpp, //308
+L3GD20::ioctl, //0, //px4dev, //px4@purgatory.org, //20120827, //apps/drivers/l3gd20/l3gd20.cpp, //401
+L3GD20::probe, //0, //px4dev, //px4@purgatory.org, //20120827, //apps/drivers/l3gd20/l3gd20.cpp, //347
+L3GD20::read, //0, //px4dev, //px4@purgatory.org, //20120827, //apps/drivers/l3gd20/l3gd20.cpp, //360
+BlinkM::init, //0, //px4dev, //px4@purgatory.org, //20121201, //apps/drivers/blinkm/blinkm.cpp, //269
+BlinkM::ioctl, //0, //px4dev, //px4@purgatory.org, //20121201, //apps/drivers/blinkm/blinkm.cpp, //317
+BlinkM::probe, //0, //px4dev, //px4@purgatory.org, //20121201, //apps/drivers/blinkm/blinkm.cpp, //303
+BlinkM::setMode, //0, //Marco Bauer, //marco@wtns.de, //20130112, //apps/drivers/blinkm/blinkm.cpp, //286
+ToneAlarm::init, //0, //px4dev, //px4@purgatory.org, //20121021, //apps/drivers/stm32/tone_alarm/tone_alarm.cpp, //487
+ToneAlarm::ioctl, //0, //px4dev, //px4@purgatory.org, //20130310, //apps/drivers/stm32/tone_alarm/tone_alarm.cpp, //857
+ToneAlarm::write, //0, //px4dev, //px4@purgatory.org, //20130310, //apps/drivers/stm32/tone_alarm/tone_alarm.cpp, //900
+HMC5883::init, //0, //px4dev, //px4@purgatory.org, //20120821, //apps/drivers/hmc5883/hmc5883.cpp, //358
+HMC5883::ioctl, //0, //px4dev, //px4@purgatory.org, //20120821, //apps/drivers/hmc5883/hmc5883.cpp, //540
+HMC5883::probe, //0, //px4dev, //px4@purgatory.org, //20120821, //apps/drivers/hmc5883/hmc5883.cpp, //457
+HMC5883::read, //0, //px4dev, //px4@purgatory.org, //20120821, //apps/drivers/hmc5883/hmc5883.cpp, //481
+GPS::init, //0, //Lorenz Meier, //lorenz@px4.io, //20130204, //apps/drivers/gps/gps.cpp, //200
+GPS::ioctl, //0, //Lorenz Meier, //lorenz@px4.io, //20130204, //apps/drivers/gps/gps.cpp, //222
+HIL::init, //0, //Lorenz Meier, //lorenz@px4.io, //20121110, //apps/drivers/hil/hil.cpp, //203
+HIL::ioctl, //0, //Lorenz Meier, //lorenz@px4.io, //20121110, //apps/drivers/hil/hil.cpp, //464
+UBX::configure, //0, //Julian Oes, //julian@oes.ch, //20130208, //apps/drivers/gps/ubx.cpp, //66
+UBX::receive, //0, //Julian Oes, //julian@oes.ch, //20130208, //apps/drivers/gps/ubx.cpp, //234
+MPU6000::gyro_ioctl, //0, //px4dev, //px4@purgatory.org, //20120813, //apps/drivers/mpu6000/mpu6000.cpp, //691
+MPU6000::gyro_read, //0, //px4dev, //px4@purgatory.org, //20120813, //apps/drivers/mpu6000/mpu6000.cpp, //559
+MPU6000::init, //0, //px4dev, //px4@purgatory.org, //20120813, //apps/drivers/mpu6000/mpu6000.cpp, //351
+MPU6000::ioctl, //0, //px4dev, //px4@purgatory.org, //20120813, //apps/drivers/mpu6000/mpu6000.cpp, //579
+MPU6000::probe, //0, //px4dev, //px4@purgatory.org, //20120813, //apps/drivers/mpu6000/mpu6000.cpp, //468
+MPU6000::read, //0, //px4dev, //px4@purgatory.org, //20120813, //apps/drivers/mpu6000/mpu6000.cpp, //528
+MPU6000_gyro::ioctl, //0, //px4dev, //px4@purgatory.org, //20120813, //apps/drivers/mpu6000/mpu6000.cpp, //1021
+MPU6000_gyro::read, //0, //px4dev, //px4@purgatory.org, //20120813, //apps/drivers/mpu6000/mpu6000.cpp, //1015

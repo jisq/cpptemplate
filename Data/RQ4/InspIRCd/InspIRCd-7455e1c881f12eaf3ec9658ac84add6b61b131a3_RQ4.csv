@@ -1,0 +1,30 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+userrec::GetFullHost, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030123, //src/users.cpp, //36
+userrec::GetFullRealHost, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030123, //src/users.cpp, //43
+userrec::InviteTo, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030123, //src/users.cpp, //60
+userrec::IsInvited, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030123, //src/users.cpp, //49
+userrec::RemoveInvite, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030123, //src/users.cpp, //67
+Module::GetVersion, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030123, //src/modules.cpp, //37
+Module::OnUserConnect, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030123, //src/modules.cpp, //29
+ModuleCloaking::GetVersion, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030123, //src/modules/m_cloaking.cpp, //26
+ModuleCloaking::OnUserConnect, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030123, //src/modules/m_cloaking.cpp, //31
+ModuleCloakingFactory::CreateModule, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030123, //src/modules/m_cloaking.cpp, //61
+Module::OnPacketReceive, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030207, //src/modules.cpp, //34
+Module::OnPacketTransmit, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030207, //src/modules.cpp, //33
+Module::OnRehash, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030207, //src/modules.cpp, //35
+Module::OnUserJoin, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030123, //src/modules.cpp, //31
+Module::OnUserPart, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030123, //src/modules.cpp, //32
+Module::OnUserQuit, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030123, //src/modules.cpp, //30
+Server::CommonChannels, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030123, //src/modules.cpp, //93
+Server::GetAdmin, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030123, //src/modules.cpp, //146
+ModuleFoobar::GetVersion, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030123, //src/modules/m_foobar.cpp, //35
+ModuleFoobar::OnUserConnect, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030123, //src/modules/m_foobar.cpp, //43
+ModuleFoobar::OnUserJoin, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030123, //src/modules/m_foobar.cpp, //59
+ModuleFoobar::OnUserPart, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030123, //src/modules/m_foobar.cpp, //68
+ModuleFoobar::OnUserQuit, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030123, //src/modules/m_foobar.cpp, //51
+ModuleFoobarFactory::CreateModule, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030123, //src/modules/m_foobar.cpp, //96
+ModuleRandQuote::GetVersion, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030123, //src/modules/m_randquote.cpp, //44
+ModuleRandQuote::OnUserConnect, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030123, //src/modules/m_randquote.cpp, //49
+ModuleRandQuoteFactory::CreateModule, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20030123, //src/modules/m_randquote.cpp, //77

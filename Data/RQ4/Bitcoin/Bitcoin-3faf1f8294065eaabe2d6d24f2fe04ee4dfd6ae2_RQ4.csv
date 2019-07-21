@@ -1,0 +1,59 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+CBasicKeyStore::AddCScript, //0, //Gavin Andresen, //gavinandresen@gmail.com, //20120104, //src/keystore.cpp, //34
+CBasicKeyStore::AddKeyPubKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130501, //src/keystore.cpp, //27
+CBasicKeyStore::GetCScript, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //50
+CBasicKeyStore::GetKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.h, //75
+CBasicKeyStore::GetKeys, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.h, //62
+CBasicKeyStore::HaveCScript, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //44
+CBasicKeyStore::HaveKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.h, //53
+CKeyStore::AddKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130501, //src/keystore.cpp, //23
+CKeyStore::GetPubKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/keystore.cpp, //14
+CCryptoKeyStore::AddCryptedKey, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20131130, //src/crypter.cpp, //199
+CCryptoKeyStore::AddKeyPubKey, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20131130, //src/crypter.cpp, //177
+CWallet::AddCScript, //0, //Gavin Andresen, //gavinandresen@gmail.com, //20120104, //src/wallet.cpp, //123
+CWallet::AddCryptedKey, //0, //Jeff Garzik, //jgarzik@bitpay.com, //20130610, //src/wallet.cpp, //87
+CWallet::AddKeyPubKey, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130620, //src/wallet.cpp, //72
+CWallet::EraseFromWallet, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131019, //src/wallet.cpp, //670
+CWallet::Inventory, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110626, //src/wallet.h, //363
+CWallet::ResendWalletTransactions, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110626, //src/wallet.cpp, //960
+CWallet::SetBestChain, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120415, //src/wallet.cpp, //214
+CWallet::SyncTransaction, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20140609, //src/wallet.cpp, //654
+CWallet::UpdatedTransaction, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20120505, //src/wallet.cpp, //1968
+CCoinsViewBacked::GetStats, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.cpp, //70
+CCoinsViewCache::GetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.cpp, //113
+CCoinsViewCache::GetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.cpp, //74
+CCoinsViewMemPool::GetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/txmempool.cpp, //598
+CCoinsView::BatchWrite, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.cpp, //58
+CCoinsView::GetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.cpp, //56
+CCoinsView::GetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.cpp, //53
+CCoinsView::GetStats, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.cpp, //59
+CCoinsView::HaveCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.cpp, //55
+CCoinsView::SetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.cpp, //57
+CCoinsView::SetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.cpp, //54
+CCoinsViewDB::BatchWrite, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/txdb.cpp, //57
+CCoinsViewDB::GetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/txdb.cpp, //44
+CCoinsViewDB::GetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130120, //src/txdb.cpp, //30
+CCoinsViewDB::GetStats, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120925, //src/txdb.cpp, //105
+CCoinsViewDB::HaveCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130120, //src/txdb.cpp, //40
+CCoinsViewDB::SetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/txdb.cpp, //51
+CCoinsViewDB::SetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20130120, //src/txdb.cpp, //34
+CCryptoKeyStore::GetKey, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20131130, //src/crypter.cpp, //211
+CCryptoKeyStore::GetKeys, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20131130, //src/crypter.h, //170
+CCryptoKeyStore::GetPubKey, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20131130, //src/crypter.cpp, //235
+CCryptoKeyStore::HaveKey, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20131130, //src/crypter.h, //158
+CCoinsViewBacked::GetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.cpp, //63
+CCoinsViewBacked::HaveCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.cpp, //65
+CCoinsViewMemPool::HaveCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/txmempool.cpp, //609
+CCoinsViewBacked::BatchWrite, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.cpp, //69
+CCoinsViewBacked::GetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.cpp, //66
+CCoinsViewBacked::SetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.cpp, //67
+CCoinsViewBacked::SetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.cpp, //64
+CCoinsViewCache::BatchWrite, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.cpp, //124
+CCoinsViewCache::HaveCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.cpp, //109
+CCoinsViewCache::SetBestBlock, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.cpp, //119
+CCoinsViewCache::SetCoins, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.cpp, //104
+std::bad_alloc::what, //0, //Cory Fields, //cory-nospam-@coryfields.com, //20140409, //src/compat/glibcxx_compat.cpp, //26
+std::bad_cast::what, //0, //Cory Fields, //cory-nospam-@coryfields.com, //20140409, //src/compat/glibcxx_compat.cpp, //21
+std::bad_exception::what, //0, //Cory Fields, //cory-nospam-@coryfields.com, //20140409, //src/compat/glibcxx_compat.cpp, //16

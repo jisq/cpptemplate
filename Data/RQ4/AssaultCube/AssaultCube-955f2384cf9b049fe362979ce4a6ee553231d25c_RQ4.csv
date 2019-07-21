@@ -1,0 +1,252 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+weapon::renderhudmodel, //0, //driAn, //adrian26ch@yahoo.de, //20071224, //source/src/weapon.cpp, //772
+model::rendershadow, //0, //Lee Salzman, //lsalzman@gmail.com, //20080330, //source/src/model.h, //62
+stream::read, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/tools.h, //862
+stream::seek, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/tools.h, //860
+vertmodel::part::begingenshadow, //0, //Lee Salzman, //lsalzman@gmail.com, //20070324, //source/src/vertmodel.h, //939
+md3::load, //0, //Lee Salzman, //lsalzman@gmail.com, //20061109, //source/src/md3.h, //209
+md3::md3part::begingenshadow, //0, //Lee Salzman, //lsalzman@gmail.com, //20070324, //source/src/md3.h, //148
+md3::render, //0, //Lee Salzman, //lsalzman@gmail.com, //20080330, //source/src/md3.h, //156
+md3::rendershadow, //0, //Lee Salzman, //lsalzman@gmail.com, //20080330, //source/src/md3.h, //203
+md3::type, //0, //Lee Salzman, //lsalzman@gmail.com, //20070331, //source/src/md3.h, //48
+weapon::onammopicked, //0, //Lee Salzman, //lsalzman@gmail.com, //20071225, //source/src/weapon.h, //40
+serverconfigfile::read, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20090701, //source/src/protos.h, //835
+serverforbiddenlist::read, //0, //Rafael Barreto, //baarreth@hotmail.com, //20100604, //source/src/serverfiles.h, //673
+serveripblacklist::read, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20090701, //source/src/serverfiles.h, //415
+servermaprot::read, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20090701, //source/src/serverfiles.h, //306
+servernickblacklist::read, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20090701, //source/src/serverfiles.h, //497
+serverpasswords::read, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20090701, //source/src/serverfiles.h, //733
+mitem::focus, //0, //driAn, //adrian26ch@yahoo.de, //20071229, //source/src/protos.h, //112
+mitem::getaction, //0, //flowtron, //flowtron@users.sourceforge.net, //20100716, //source/src/protos.h, //117
+mitem::getdesc, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20080915, //source/src/protos.h, //115
+mitem::gettext, //0, //flowtron, //flowtron@users.sourceforge.net, //20100716, //source/src/protos.h, //116
+mitem::init, //0, //driAn, //adrian26ch@yahoo.de, //20071229, //source/src/protos.h, //114
+mitem::key, //0, //driAn, //adrian26ch@yahoo.de, //20071229, //source/src/protos.h, //113
+mitem::render, //0, //driAn, //adrian26ch@yahoo.de, //20071229, //source/src/menus.cpp, //172
+mitem::select, //0, //driAn, //adrian26ch@yahoo.de, //20071229, //source/src/protos.h, //111
+stream::getchar, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/tools.h, //864
+stream::getcrc, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/tools.h, //870
+stream::getline, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/stream.cpp, //352
+stream::printf, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/tools.h, //869
+stream::putchar, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/tools.h, //865
+stream::putline, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/tools.h, //868
+stream::putstring, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/tools.h, //867
+stream::size, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/stream.cpp, //344
+stream::tell, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/tools.h, //859
+stream::write, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/tools.h, //863
+CACBot::CheckItemPickup, //0, //Lee Salzman, //lsalzman@gmail.com, //20061106, //source/src/bot/ac_bot.cpp, //71
+CACBot::Spawn, //0, //Lee Salzman, //lsalzman@gmail.com, //20061106, //source/src/bot/ac_bot.cpp, //24
+CBot::Spawn, //0, //Lee Salzman, //lsalzman@gmail.com, //20061106, //source/src/bot/bot.cpp, //39
+location::onsourcereassign, //0, //driAn, //adrian26ch@yahoo.de, //20081125, //source/src/soundlocation.cpp, //85
+worldobjreference::attach, //0, //driAn, //adrian26ch@yahoo.de, //20081125, //source/src/sound.h, //272
+worldobjreference::detach, //0, //driAn, //adrian26ch@yahoo.de, //20081125, //source/src/sound.h, //273
+worldobjreference::operator!=, //0, //driAn, //adrian26ch@yahoo.de, //20081125, //source/src/sound.h, //271
+model::endrender, //0, //Lee Salzman, //lsalzman@gmail.com, //20070808, //source/src/model.h, //66
+model::genshadows, //0, //Lee Salzman, //lsalzman@gmail.com, //20070331, //source/src/model.h, //61
+model::hasshadows, //0, //Lee Salzman, //lsalzman@gmail.com, //20070405, //source/src/model.h, //63
+model::startrender, //0, //Lee Salzman, //lsalzman@gmail.com, //20070808, //source/src/model.h, //65
+vertmodel::cleanup, //0, //Lee Salzman, //lsalzman@gmail.com, //20080212, //source/src/vertmodel.h, //1221
+vertmodel::endrender, //0, //Lee Salzman, //lsalzman@gmail.com, //20070808, //source/src/vertmodel.h, //1281
+vertmodel::genshadows, //0, //Lee Salzman, //lsalzman@gmail.com, //20070324, //source/src/vertmodel.h, //1239
+vertmodel::hasshadows, //0, //Lee Salzman, //lsalzman@gmail.com, //20070405, //source/src/vertmodel.h, //1245
+vertmodel::name, //0, //Lee Salzman, //lsalzman@gmail.com, //20070331, //source/src/vertmodel.h, //1219
+vertmodel::part::endgenshadow, //0, //Lee Salzman, //lsalzman@gmail.com, //20070324, //source/src/vertmodel.h, //943
+vertmodel::part::getdefaultanim, //0, //Lee Salzman, //lsalzman@gmail.com, //20070427, //source/src/vertmodel.h, //762
+vertmodel::setskin, //0, //Lee Salzman, //lsalzman@gmail.com, //20080330, //source/src/vertmodel.h, //1232
+vertmodel::startrender, //0, //Lee Salzman, //lsalzman@gmail.com, //20070808, //source/src/vertmodel.h, //1272
+CBot::Think, //0, //Lee Salzman, //lsalzman@gmail.com, //20061106, //source/src/bot/bot.cpp, //92
+CBot::ChoosePreferredWeapon, //0, //Lee Salzman, //lsalzman@gmail.com, //20061106, //source/src/bot/bot_ai.cpp, //686
+CACBot::ChoosePreferredWeapon, //0, //Lee Salzman, //lsalzman@gmail.com, //20061106, //source/src/bot/ac_bot_ai.cpp, //36
+CACBot::DoSPStuff, //0, //Lee Salzman, //lsalzman@gmail.com, //20061106, //source/src/bot/ac_bot_ai.cpp, //310
+CACBot::HeadToTargetEnt, //0, //Lee Salzman, //lsalzman@gmail.com, //20061106, //source/src/bot/ac_bot_ai.cpp, //242
+CACBot::SearchForEnts, //0, //Lee Salzman, //lsalzman@gmail.com, //20061106, //source/src/bot/ac_bot_ai.cpp, //97
+filestream::close, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/stream.cpp, //405
+filestream::end, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/stream.cpp, //410
+filestream::getchar, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/stream.cpp, //415
+filestream::getline, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/stream.cpp, //417
+filestream::printf, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/stream.cpp, //420
+filestream::putchar, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/stream.cpp, //416
+filestream::putstring, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/stream.cpp, //418
+filestream::read, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/stream.cpp, //413
+filestream::seek, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/stream.cpp, //412
+filestream::tell, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/stream.cpp, //411
+filestream::write, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/stream.cpp, //414
+gzstream::close, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/stream.cpp, //609
+gzstream::end, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/stream.cpp, //619
+gzstream::getcrc, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/stream.cpp, //558
+gzstream::read, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/stream.cpp, //657
+gzstream::seek, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/stream.cpp, //622
+gzstream::tell, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/stream.cpp, //620
+gzstream::write, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/stream.cpp, //689
+zipstream::close, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/zip.cpp, //401
+zipstream::end, //0, //Lee Salzman, //lsalzman@gmail.com, //20100101, //source/src/zip.cpp, //409
+zipstream::read, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/zip.cpp, //483
+zipstream::seek, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/zip.cpp, //412
+zipstream::size, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/zip.cpp, //408
+zipstream::tell, //0, //Lee Salzman, //lsalzman@gmail.com, //20091108, //source/src/zip.cpp, //410
+md2::load, //0, //Lee Salzman, //lsalzman@gmail.com, //20061109, //source/src/md2.h, //241
+md2::md2part::begingenshadow, //0, //Lee Salzman, //lsalzman@gmail.com, //20070324, //source/src/md2.h, //172
+md2::md2part::getdefaultanim, //0, //Lee Salzman, //lsalzman@gmail.com, //20070427, //source/src/md2.h, //152
+md2::render, //0, //Lee Salzman, //lsalzman@gmail.com, //20080330, //source/src/md2.h, //180
+md2::rendershadow, //0, //Lee Salzman, //lsalzman@gmail.com, //20080330, //source/src/md2.h, //229
+md2::type, //0, //Lee Salzman, //lsalzman@gmail.com, //20070331, //source/src/md2.h, //33
+autoteamaction::perform, //0, //driAn, //adrian26ch@yahoo.de, //20071014, //source/src/serveractions.h, //231
+banaction::isvalid, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20081201, //source/src/serveractions.h, //188
+banaction::perform, //0, //driAn, //adrian26ch@yahoo.de, //20071014, //source/src/serveractions.h, //182
+cleardemosaction::perform, //0, //driAn, //adrian26ch@yahoo.de, //20071014, //source/src/serveractions.h, //288
+demoplayaction::perform, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20090805, //source/src/serveractions.h, //116
+forceteamaction::isvalid, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20080825, //source/src/serveractions.h, //144
+forceteamaction::perform, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20090805, //source/src/serveractions.h, //143
+giveadminaction::perform, //0, //driAn, //adrian26ch@yahoo.de, //20080421, //source/src/serveractions.h, //154
+kickaction::isvalid, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20081201, //source/src/serveractions.h, //166
+kickaction::perform, //0, //driAn, //adrian26ch@yahoo.de, //20071014, //source/src/serveractions.h, //165
+mapaction::isdisabled, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20090701, //source/src/serveractions.h, //56
+mapaction::isvalid, //0, //Lee Salzman, //lsalzman@gmail.com, //20100531, //source/src/serveractions.h, //55
+mapaction::perform, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20080910, //source/src/serveractions.h, //41
+mastermodeaction::isvalid, //0, //driAn, //adrian26ch@yahoo.de, //20071014, //source/src/serveractions.h, //215
+mastermodeaction::perform, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20090805, //source/src/serveractions.h, //214
+playeraction::isvalid, //0, //driAn, //adrian26ch@yahoo.de, //20080421, //source/src/serveractions.h, //134
+recorddemoaction::isvalid, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20090805, //source/src/serveractions.h, //262
+recorddemoaction::perform, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20090805, //source/src/serveractions.h, //261
+removebansaction::perform, //0, //Lee Salzman, //lsalzman@gmail.com, //20100311, //source/src/serveractions.h, //203
+serveraction::isdisabled, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20081115, //source/src/serveractions.h, //20
+serveraction::isvalid, //0, //driAn, //adrian26ch@yahoo.de, //20071014, //source/src/serveractions.h, //19
+serverdescaction::isvalid, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20081201, //source/src/serveractions.h, //302
+serverdescaction::perform, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20081201, //source/src/serveractions.h, //301
+shuffleteamaction::isvalid, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20080830, //source/src/serveractions.h, //251
+shuffleteamaction::perform, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20080830, //source/src/serveractions.h, //246
+stopdemoaction::isvalid, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20090805, //source/src/serveractions.h, //272
+stopdemoaction::perform, //0, //driAn, //adrian26ch@yahoo.de, //20071014, //source/src/serveractions.h, //273
+weapon::renderaimhelp, //0, //Lee Salzman, //lsalzman@gmail.com, //20081108, //source/src/weapon.cpp, //773
+weapon::renderstats, //0, //driAn, //adrian26ch@yahoo.de, //20071224, //source/src/weapon.cpp, //695
+hudmessages::render, //0, //driAn, //adrian26ch@yahoo.de, //20071125, //source/src/renderhud.cpp, //346
+CACWaypointClass::StartFlood, //0, //Lee Salzman, //lsalzman@gmail.com, //20061106, //source/src/bot/bot_waypoint.cpp, //1690
+console::render, //0, //driAn, //adrian26ch@yahoo.de, //20071125, //source/src/console.cpp, //31
+bounceent::applyphysics, //0, //driAn, //adrian26ch@yahoo.de, //20080510, //source/src/entity.h, //560
+bounceent::destroy, //0, //driAn, //adrian26ch@yahoo.de, //20071224, //source/src/entity.h, //559
+grenadeent::applyphysics, //0, //driAn, //adrian26ch@yahoo.de, //20080510, //source/src/weapon.cpp, //897
+grenadeent::destroy, //0, //driAn, //adrian26ch@yahoo.de, //20080510, //source/src/weapon.cpp, //896
+grenadeent::oncollision, //0, //driAn, //adrian26ch@yahoo.de, //20080525, //source/src/weapon.cpp, //899
+grenadeent::onmoved, //0, //driAn, //adrian26ch@yahoo.de, //20080531, //source/src/weapon.cpp, //905
+physent::oncollision, //0, //Lee Salzman, //lsalzman@gmail.com, //20081014, //source/src/entity.h, //137
+physent::onmoved, //0, //Lee Salzman, //lsalzman@gmail.com, //20081014, //source/src/entity.h, //138
+akimbo::attack, //0, //driAn, //adrian26ch@yahoo.de, //20080416, //source/src/weapon.cpp, //1337
+akimbo::onammopicked, //0, //driAn, //adrian26ch@yahoo.de, //20080416, //source/src/weapon.cpp, //1348
+akimbo::onselecting, //0, //driAn, //adrian26ch@yahoo.de, //20080416, //source/src/weapon.cpp, //1358
+akimbo::renderhudmodel, //0, //driAn, //adrian26ch@yahoo.de, //20080416, //source/src/weapon.cpp, //1368
+akimbo::reset, //0, //Lee Salzman, //lsalzman@gmail.com, //20100508, //source/src/weapon.cpp, //1366
+akimbo::selectable, //0, //driAn, //adrian26ch@yahoo.de, //20080416, //source/src/weapon.cpp, //1364
+akimbo::updatetimers, //0, //driAn, //adrian26ch@yahoo.de, //20080416, //source/src/weapon.cpp, //1365
+assaultrifle::dynrecoil, //0, //driAn, //adrian26ch@yahoo.de, //20080416, //source/src/weapon.cpp, //1215
+assaultrifle::dynspread, //0, //Rafael Barreto, //baarreth@hotmail.com, //20100521, //source/src/weapon.cpp, //1214
+assaultrifle::selectable, //0, //driAn, //adrian26ch@yahoo.de, //20080416, //source/src/weapon.cpp, //1216
+cpistol::attack, //0, //Rafael Barreto, //baarreth@hotmail.com, //20100708, //source/src/weapon.cpp, //1234
+cpistol::ondeselecting, //0, //Rafael Barreto, //baarreth@hotmail.com, //20100708, //source/src/weapon.cpp, //1223
+cpistol::onselecting, //0, //Rafael Barreto, //baarreth@hotmail.com, //20100708, //source/src/weapon.cpp, //1222
+cpistol::reload, //0, //Rafael Barreto, //baarreth@hotmail.com, //20100708, //source/src/weapon.cpp, //1224
+cpistol::selectable, //0, //Rafael Barreto, //baarreth@hotmail.com, //20100710, //source/src/weapon.cpp, //1221
+grenades::attack, //0, //driAn, //adrian26ch@yahoo.de, //20080416, //source/src/weapon.cpp, //918
+grenades::attackfx, //0, //driAn, //adrian26ch@yahoo.de, //20080512, //source/src/weapon.cpp, //957
+grenades::busy, //0, //Lee Salzman, //lsalzman@gmail.com, //20080722, //source/src/weapon.cpp, //916
+grenades::flashtime, //0, //Lee Salzman, //lsalzman@gmail.com, //20080911, //source/src/weapon.cpp, //914
+grenades::modelanim, //0, //driAn, //adrian26ch@yahoo.de, //20080416, //source/src/weapon.cpp, //969
+grenades::onownerdies, //0, //driAn, //adrian26ch@yahoo.de, //20080416, //source/src/weapon.cpp, //1036
+grenades::onselecting, //0, //driAn, //adrian26ch@yahoo.de, //20081125, //source/src/weapon.cpp, //1035
+grenades::removebounceent, //0, //Lee Salzman, //lsalzman@gmail.com, //20090316, //source/src/weapon.cpp, //1042
+grenades::renderstats, //0, //driAn, //adrian26ch@yahoo.de, //20080416, //source/src/weapon.cpp, //1025
+grenades::reset, //0, //driAn, //adrian26ch@yahoo.de, //20080420, //source/src/weapon.cpp, //1033
+grenades::selectable, //0, //driAn, //adrian26ch@yahoo.de, //20080420, //source/src/weapon.cpp, //1032
+gun::attack, //0, //driAn, //adrian26ch@yahoo.de, //20080416, //source/src/weapon.cpp, //1051
+gun::attackfx, //0, //driAn, //adrian26ch@yahoo.de, //20080512, //source/src/weapon.cpp, //1099
+gun::modelanim, //0, //Lee Salzman, //lsalzman@gmail.com, //20081013, //source/src/weapon.cpp, //1108
+knife::attack, //0, //driAn, //adrian26ch@yahoo.de, //20080416, //source/src/weapon.cpp, //1383
+knife::attackfx, //0, //driAn, //adrian26ch@yahoo.de, //20080512, //source/src/weapon.cpp, //1418
+knife::flashtime, //0, //Lee Salzman, //lsalzman@gmail.com, //20080911, //source/src/weapon.cpp, //1381
+knife::modelanim, //0, //Lee Salzman, //lsalzman@gmail.com, //20081013, //source/src/weapon.cpp, //1415
+knife::renderstats, //0, //Lee Salzman, //lsalzman@gmail.com, //20081013, //source/src/weapon.cpp, //1419
+pistol::selectable, //0, //driAn, //adrian26ch@yahoo.de, //20080816, //source/src/weapon.cpp, //1327
+rifle::selectable, //0, //Rafael Barreto, //baarreth@hotmail.com, //20100514, //source/src/weapon.cpp, //1207
+shotgun::attack, //0, //driAn, //adrian26ch@yahoo.de, //20080416, //source/src/weapon.cpp, //1116
+shotgun::attackfx, //0, //driAn, //adrian26ch@yahoo.de, //20080512, //source/src/weapon.cpp, //1124
+shotgun::selectable, //0, //driAn, //adrian26ch@yahoo.de, //20080416, //source/src/weapon.cpp, //1136
+sniperrifle::attackfx, //0, //driAn, //adrian26ch@yahoo.de, //20080512, //source/src/weapon.cpp, //1150
+sniperrifle::dynrecoil, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20081204, //source/src/weapon.cpp, //1180
+sniperrifle::dynspread, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20081204, //source/src/weapon.cpp, //1168
+sniperrifle::ondeselecting, //0, //Rafael Barreto, //baarreth@hotmail.com, //20100802, //source/src/weapon.cpp, //1183
+sniperrifle::onownerdies, //0, //Rafael Barreto, //baarreth@hotmail.com, //20100802, //source/src/weapon.cpp, //1184
+sniperrifle::onselecting, //0, //Rafael Barreto, //baarreth@hotmail.com, //20100802, //source/src/weapon.cpp, //1182
+sniperrifle::reload, //0, //driAn, //adrian26ch@yahoo.de, //20080416, //source/src/weapon.cpp, //1160
+sniperrifle::renderaimhelp, //0, //driAn, //adrian26ch@yahoo.de, //20081025, //source/src/weapon.cpp, //1187
+sniperrifle::renderhudmodel, //0, //driAn, //adrian26ch@yahoo.de, //20080416, //source/src/weapon.cpp, //1185
+sniperrifle::selectable, //0, //driAn, //adrian26ch@yahoo.de, //20080416, //source/src/weapon.cpp, //1181
+subgun::dynspread, //0, //Rafael Barreto, //baarreth@hotmail.com, //20100521, //source/src/weapon.cpp, //1143
+subgun::selectable, //0, //driAn, //adrian26ch@yahoo.de, //20080416, //source/src/weapon.cpp, //1142
+weapon::attackphysics, //0, //driAn, //adrian26ch@yahoo.de, //20071224, //source/src/weapon.cpp, //716
+weapon::attacksound, //0, //driAn, //adrian26ch@yahoo.de, //20071224, //source/src/weapon.cpp, //668
+weapon::busy, //0, //Lee Salzman, //lsalzman@gmail.com, //20080722, //source/src/weapon.h, //28
+weapon::deselectable, //0, //driAn, //adrian26ch@yahoo.de, //20071227, //source/src/weapon.cpp, //777
+weapon::dynrecoil, //0, //Lee Salzman, //lsalzman@gmail.com, //20071225, //source/src/weapon.cpp, //775
+weapon::dynspread, //0, //driAn, //adrian26ch@yahoo.de, //20071224, //source/src/weapon.cpp, //774
+weapon::flashtime, //0, //Lee Salzman, //lsalzman@gmail.com, //20080911, //source/src/weapon.cpp, //650
+weapon::ondeselecting, //0, //Lee Salzman, //lsalzman@gmail.com, //20071225, //source/src/weapon.h, //39
+weapon::onownerdies, //0, //driAn, //adrian26ch@yahoo.de, //20071225, //source/src/weapon.h, //41
+weapon::onselecting, //0, //driAn, //adrian26ch@yahoo.de, //20071224, //source/src/weapon.cpp, //766
+weapon::reload, //0, //driAn, //adrian26ch@yahoo.de, //20071224, //source/src/weapon.cpp, //675
+weapon::removebounceent, //0, //Lee Salzman, //lsalzman@gmail.com, //20090316, //source/src/weapon.h, //42
+weapon::reset, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20090415, //source/src/weapon.h, //27
+weapon::selectable, //0, //driAn, //adrian26ch@yahoo.de, //20071227, //source/src/weapon.cpp, //776
+weapon::updatetimers, //0, //driAn, //adrian26ch@yahoo.de, //20071224, //source/src/weapon.cpp, //761
+CWaypointClass::StartFlood, //0, //Lee Salzman, //lsalzman@gmail.com, //20061106, //source/src/bot/bot_waypoint.cpp, //1283
+playerent::spawnstate, //0, //driAn, //adrian26ch@yahoo.de, //20071224, //source/src/entity.h, //464
+playerstate::spawnstate, //0, //driAn, //adrian26ch@yahoo.de, //20071224, //source/src/entity.h, //305
+bufferhashtable::find, //0, //driAn, //adrian26ch@yahoo.de, //20081125, //source/src/openal.cpp, //359
+camerareference::clone, //0, //driAn, //adrian26ch@yahoo.de, //20081125, //source/src/audiomanager.cpp, //648
+camerareference::currentposition, //0, //driAn, //adrian26ch@yahoo.de, //20081125, //source/src/audiomanager.cpp, //653
+camerareference::nodistance, //0, //driAn, //adrian26ch@yahoo.de, //20081125, //source/src/audiomanager.cpp, //658
+camerareference::operator==, //0, //driAn, //adrian26ch@yahoo.de, //20081125, //source/src/audiomanager.cpp, //663
+entityreference::clone, //0, //driAn, //adrian26ch@yahoo.de, //20081125, //source/src/audiomanager.cpp, //704
+entityreference::currentposition, //0, //driAn, //adrian26ch@yahoo.de, //20081125, //source/src/audiomanager.cpp, //708
+entityreference::nodistance, //0, //driAn, //adrian26ch@yahoo.de, //20081125, //source/src/audiomanager.cpp, //714
+entityreference::operator==, //0, //driAn, //adrian26ch@yahoo.de, //20081125, //source/src/audiomanager.cpp, //715
+physentreference::clone, //0, //driAn, //adrian26ch@yahoo.de, //20081125, //source/src/audiomanager.cpp, //676
+physentreference::currentposition, //0, //driAn, //adrian26ch@yahoo.de, //20081125, //source/src/audiomanager.cpp, //681
+physentreference::nodistance, //0, //driAn, //adrian26ch@yahoo.de, //20081125, //source/src/audiomanager.cpp, //686
+physentreference::operator==, //0, //driAn, //adrian26ch@yahoo.de, //20081125, //source/src/audiomanager.cpp, //691
+staticreference::clone, //0, //driAn, //adrian26ch@yahoo.de, //20081125, //source/src/audiomanager.cpp, //724
+staticreference::currentposition, //0, //driAn, //adrian26ch@yahoo.de, //20081125, //source/src/audiomanager.cpp, //729
+staticreference::nodistance, //0, //driAn, //adrian26ch@yahoo.de, //20081125, //source/src/audiomanager.cpp, //734
+staticreference::operator==, //0, //driAn, //adrian26ch@yahoo.de, //20081125, //source/src/audiomanager.cpp, //739
+oggstream::onsourcereassign, //0, //driAn, //adrian26ch@yahoo.de, //20081125, //source/src/oggstream.cpp, //139
+mitemcheckbox::init, //0, //driAn, //adrian26ch@yahoo.de, //20080102, //source/src/menus.cpp, //750
+mitemcheckbox::render, //0, //driAn, //adrian26ch@yahoo.de, //20080102, //source/src/menus.cpp, //758
+mitemcheckbox::select, //0, //driAn, //adrian26ch@yahoo.de, //20080102, //source/src/menus.cpp, //739
+mitemcheckbox::width, //0, //Lee Salzman, //lsalzman@gmail.com, //20080918, //source/src/menus.cpp, //737
+mitemimagemanual::render, //0, //Lee Salzman, //lsalzman@gmail.com, //20081025, //source/src/menus.cpp, //285
+mitemimagemanual::width, //0, //Lee Salzman, //lsalzman@gmail.com, //20081025, //source/src/menus.cpp, //280
+mitemkeyinput::init, //0, //driAn, //adrian26ch@yahoo.de, //20071229, //source/src/menus.cpp, //690
+mitemkeyinput::key, //0, //driAn, //adrian26ch@yahoo.de, //20080102, //source/src/menus.cpp, //702
+mitemkeyinput::render, //0, //driAn, //adrian26ch@yahoo.de, //20071229, //source/src/menus.cpp, //681
+mitemkeyinput::select, //0, //driAn, //adrian26ch@yahoo.de, //20080102, //source/src/menus.cpp, //696
+mitemkeyinput::width, //0, //Lee Salzman, //lsalzman@gmail.com, //20081010, //source/src/menus.cpp, //679
+mitemmanual::focus, //0, //driAn, //adrian26ch@yahoo.de, //20071229, //source/src/menus.cpp, //206
+mitemmanual::getaction, //0, //flowtron, //flowtron@users.sourceforge.net, //20100716, //source/src/menus.cpp, //228
+mitemmanual::getdesc, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20080915, //source/src/menus.cpp, //226
+mitemmanual::gettext, //0, //flowtron, //flowtron@users.sourceforge.net, //20100716, //source/src/menus.cpp, //227
+mitemmanual::render, //0, //driAn, //adrian26ch@yahoo.de, //20071229, //source/src/menus.cpp, //200
+mitemmanual::select, //0, //driAn, //adrian26ch@yahoo.de, //20071229, //source/src/menus.cpp, //211
+mitemmanual::width, //0, //driAn, //adrian26ch@yahoo.de, //20071229, //source/src/menus.cpp, //198
+mitemmaploadmanual::render, //0, //flowtron, //flowtron@users.sourceforge.net, //20100523, //source/src/menus.cpp, //409
+mitemmaploadmanual::width, //0, //flowtron, //flowtron@users.sourceforge.net, //20100523, //source/src/menus.cpp, //404
+mitemslider::init, //0, //driAn, //adrian26ch@yahoo.de, //20071229, //source/src/menus.cpp, //606
+mitemslider::key, //0, //driAn, //adrian26ch@yahoo.de, //20071229, //source/src/menus.cpp, //600
+mitemslider::render, //0, //driAn, //adrian26ch@yahoo.de, //20071229, //source/src/menus.cpp, //584
+mitemslider::width, //0, //driAn, //adrian26ch@yahoo.de, //20080422, //source/src/menus.cpp, //582
+mitemtextinput::focus, //0, //driAn, //adrian26ch@yahoo.de, //20071229, //source/src/menus.cpp, //525
+mitemtextinput::init, //0, //driAn, //adrian26ch@yahoo.de, //20071229, //source/src/menus.cpp, //543
+mitemtextinput::key, //0, //driAn, //adrian26ch@yahoo.de, //20071229, //source/src/menus.cpp, //538
+mitemtextinput::render, //0, //driAn, //adrian26ch@yahoo.de, //20071229, //source/src/menus.cpp, //500
+mitemtextinput::select, //0, //Lee Salzman, //lsalzman@gmail.com, //20080514, //source/src/menus.cpp, //549
+mitemtextinput::width, //0, //driAn, //adrian26ch@yahoo.de, //20081015, //source/src/menus.cpp, //493
+mitemtextvar::init, //0, //ac_stef, //ac_stef@users.sourceforge.net, //20081224, //source/src/menus.cpp, //258

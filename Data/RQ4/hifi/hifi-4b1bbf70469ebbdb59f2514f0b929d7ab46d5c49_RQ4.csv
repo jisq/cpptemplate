@@ -1,0 +1,195 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+stk::DelayA::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/DelayA.h, //156
+stk::Filter::clear, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Filter.h, //82
+stk::Instrmnt::setFrequency, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Instrmnt.h, //76
+stk::Plucked::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Plucked.h, //81
+stk::Plucked::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Plucked.h, //87
+stk::Envelope::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Envelope.h, //111
+AudioRingBuffer::parseData, //0, //Stephen Birarda, //commit@birarda.com, //20130605, //libraries/audio/src/AudioRingBuffer.cpp, //36
+Tool::render, //0, //atlante45, //clement.brisset@gmail.com, //20130702, //interface/src/Tool.cpp, //22
+stk::Drummer::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Drummer.h, //76
+stk::Drummer::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Drummer.h, //100
+stk::BlitSquare::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/BlitSquare.h, //151
+stk::BlowHole::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/BlowHole.h, //121
+stk::BlowHole::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/BlowHole.h, //156
+stk::Instrmnt::controlChange, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Instrmnt.h, //94
+stk::ReedTable::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/ReedTable.h, //81
+stk::Shakers::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Shakers.h, //230
+stk::Shakers::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Shakers.h, //303
+stk::BiQuad::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/BiQuad.h, //132
+VoxelSystem::applyScaleAndBindProgram, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20130602, //interface/src/VoxelSystem.cpp, //1009
+VoxelSystem::copyWrittenDataSegmentToReadArrays, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20130531, //interface/src/VoxelSystem.cpp, //612
+VoxelSystem::init, //0, //Stephen Birarda, //commit@birarda.com, //20130308, //interface/src/VoxelSystem.cpp, //789
+VoxelSystem::removeOutOfView, //0, //ZappoMan, //bradh@konamoxt.com, //20130506, //interface/src/VoxelSystem.cpp, //1368
+VoxelSystem::removeScaleAndReleaseProgram, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20130602, //interface/src/VoxelSystem.cpp, //1019
+VoxelSystem::updateNodeInArrays, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20130531, //interface/src/VoxelSystem.cpp, //755
+VoxelSystem::updateVBOSegment, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20130531, //interface/src/VoxelSystem.cpp, //877
+AvatarVoxelSystem::applyScaleAndBindProgram, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20130602, //interface/src/avatar/AvatarVoxelSystem.cpp, //217
+AvatarVoxelSystem::copyWrittenDataSegmentToReadArrays, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20130531, //interface/src/avatar/AvatarVoxelSystem.cpp, //183
+AvatarVoxelSystem::init, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20130531, //interface/src/avatar/AvatarVoxelSystem.cpp, //51
+AvatarVoxelSystem::removeOutOfView, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20130604, //interface/src/avatar/AvatarVoxelSystem.cpp, //89
+AvatarVoxelSystem::removeScaleAndReleaseProgram, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20130602, //interface/src/avatar/AvatarVoxelSystem.cpp, //249
+AvatarVoxelSystem::updateNodeInArrays, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20130531, //interface/src/avatar/AvatarVoxelSystem.cpp, //152
+AvatarVoxelSystem::updateVBOSegment, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20130531, //interface/src/avatar/AvatarVoxelSystem.cpp, //200
+NodeWatcher::nodeAdded, //0, //ZappoMan, //bradh@konamoxt.com, //20130822, //libraries/voxel-server-library/src/NodeWatcher.cpp, //15
+NodeWatcher::nodeKilled, //0, //ZappoMan, //bradh@konamoxt.com, //20130822, //libraries/voxel-server-library/src/NodeWatcher.cpp, //19
+Assignment::run, //0, //Stephen Birarda, //commit@birarda.com, //20130917, //libraries/shared/src/Assignment.cpp, //119
+AvatarMixer::run, //0, //Stephen Birarda, //commit@birarda.com, //20130905, //assignment-client/src/avatars/AvatarMixer.cpp, //90
+stk::Moog::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Moog.h, //78
+stk::Moog::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Moog.h, //96
+stk::Effect::setEffectMix, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Effect.h, //49
+stk::ADSR::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/ADSR.h, //160
+stk::JetTable::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/JetTable.h, //54
+stk::PercFlut::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/PercFlut.h, //71
+stk::PercFlut::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/PercFlut.h, //98
+Application::nodeAdded, //0, //ZappoMan, //bradh@konamoxt.com, //20130806, //interface/src/Application.cpp, //3440
+Application::nodeKilled, //0, //ZappoMan, //bradh@konamoxt.com, //20130806, //interface/src/Application.cpp, //3443
+Application::packetSentNotification, //0, //ZappoMan, //bradh@konamoxt.com, //20130815, //interface/src/Application.cpp, //3567
+AvatarData::parseData, //0, //Stephen Birarda, //commit@birarda.com, //20130422, //libraries/avatars/src/AvatarData.cpp, //231
+stk::Noise::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Noise.h, //64
+stk::BowTable::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/BowTable.h, //84
+stk::OneZero::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/OneZero.h, //88
+stk::FileLoop::normalize, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/FileLoop.h, //65
+stk::FileLoop::normalize, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/FileLoop.h, //72
+stk::FileLoop::reset, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/FileLoop.h, //55
+stk::SingWave::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/SingWave.h, //117
+PositionalAudioRingBuffer::parseData, //0, //Stephen Birarda, //commit@birarda.com, //20130605, //libraries/audio/src/PositionalAudioRingBuffer.cpp, //55
+VoxelSendThread::process, //0, //ZappoMan, //bradh@konamoxt.com, //20130822, //libraries/voxel-server-library/src/VoxelSendThread.cpp, //26
+stk::DelayL::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/DelayL.h, //154
+stk::Resonate::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Resonate.h, //91
+stk::Resonate::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Resonate.h, //98
+RtError::getMessage, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtError.h, //50
+RtError::getType, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtError.h, //47
+RtError::printMessage, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtError.h, //44
+RtError::what, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtError.h, //53
+PacketSender::process, //0, //ZappoMan, //bradh@konamoxt.com, //20130812, //libraries/shared/src/PacketSender.cpp, //36
+ReceivedPacketProcessor::process, //0, //ZappoMan, //bradh@konamoxt.com, //20130815, //libraries/shared/src/ReceivedPacketProcessor.cpp, //28
+JurisdictionListener::nodeAdded, //0, //ZappoMan, //bradh@konamoxt.com, //20130820, //libraries/voxels/src/JurisdictionListener.cpp, //31
+JurisdictionListener::nodeKilled, //0, //ZappoMan, //bradh@konamoxt.com, //20130820, //libraries/voxels/src/JurisdictionListener.cpp, //35
+JurisdictionListener::process, //0, //ZappoMan, //bradh@konamoxt.com, //20130819, //libraries/voxels/src/JurisdictionListener.cpp, //77
+JurisdictionListener::processPacket, //0, //ZappoMan, //bradh@konamoxt.com, //20130819, //libraries/voxels/src/JurisdictionListener.cpp, //65
+Agent::run, //0, //Stephen Birarda, //commit@birarda.com, //20130917, //assignment-client/src/Agent.cpp, //26
+Swatch::render, //0, //atlante45, //clement.brisset@gmail.com, //20130702, //interface/src/Swatch.cpp, //127
+stk::Sitar::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Sitar.h, //83
+stk::Sitar::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Sitar.h, //99
+VoxelSystem::nodeAdded, //0, //ZappoMan, //bradh@konamoxt.com, //20130805, //interface/src/VoxelSystem.cpp, //1879
+VoxelSystem::nodeDeleted, //0, //ZappoMan, //bradh@konamoxt.com, //20130729, //interface/src/VoxelSystem.cpp, //101
+VoxelSystem::nodeKilled, //0, //ZappoMan, //bradh@konamoxt.com, //20130805, //interface/src/VoxelSystem.cpp, //1901
+VoxelSystem::parseData, //0, //Stephen Birarda, //commit@birarda.com, //20130422, //interface/src/VoxelSystem.cpp, //414
+VoxelServer::run, //0, //ZappoMan, //bradh@konamoxt.com, //20130916, //libraries/voxel-server-library/src/VoxelServer.cpp, //169
+stk::Asymp::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Asymp.h, //127
+stk::TwoZero::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/TwoZero.h, //102
+stk::Mesh2D::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Mesh2D.h, //115
+stk::TubeBell::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/TubeBell.h, //72
+stk::TubeBell::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/TubeBell.h, //96
+VoxelServerPacketProcessor::processPacket, //0, //ZappoMan, //bradh@konamoxt.com, //20130821, //libraries/voxel-server-library/src/VoxelServerPacketProcessor.cpp, //25
+VoxelPersistThread::process, //0, //ZappoMan, //bradh@konamoxt.com, //20130821, //libraries/voxel-server-library/src/VoxelPersistThread.cpp, //23
+stk::Wurley::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Wurley.h, //75
+stk::Wurley::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Wurley.h, //99
+stk::Brass::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Brass.h, //99
+stk::Brass::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Brass.h, //118
+Avatar::parseData, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20130822, //interface/src/avatar/Avatar.cpp, //803
+stk::Bowed::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Bowed.h, //104
+stk::Bowed::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Bowed.h, //128
+stk::Modal::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Modal.h, //104
+stk::Modal::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Modal.h, //125
+VoxelPacketProcessor::processPacket, //0, //ZappoMan, //bradh@konamoxt.com, //20130815, //interface/src/VoxelPacketProcessor.cpp, //17
+stk::Rhodey::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Rhodey.h, //75
+stk::Rhodey::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Rhodey.h, //99
+AudioMixer::run, //0, //Stephen Birarda, //commit@birarda.com, //20130822, //assignment-client/src/audio/AudioMixer.cpp, //76
+stk::TwoPole::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/TwoPole.h, //106
+stk::Simple::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Simple.h, //90
+stk::Simple::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Simple.h, //100
+stk::PoleZero::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/PoleZero.h, //89
+stk::StifKarp::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/StifKarp.h, //109
+stk::StifKarp::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/StifKarp.h, //125
+stk::Granulate::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Granulate.h, //186
+stk::Saxofony::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Saxofony.h, //116
+stk::Saxofony::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Saxofony.h, //137
+stk::TapDelay::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/TapDelay.h, //154
+stk::BandedWG::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/BandedWG.h, //124
+InjectedAudioRingBuffer::parseData, //0, //Stephen Birarda, //commit@birarda.com, //20130605, //libraries/audio/src/InjectedAudioRingBuffer.cpp, //23
+HifiLeapListener::onFrame, //0, //Eric Johnston, //ej@machinelevel.com, //20130627, //interface/src/devices/LeapManager.cpp, //29
+stk::Fir::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Fir.h, //100
+stk::SineWave::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/SineWave.h, //120
+stk::HevyMetl::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/HevyMetl.h, //70
+stk::HevyMetl::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/HevyMetl.h, //97
+PacketSender::processWithoutSleep, //0, //Stephen Birarda, //commit@birarda.com, //20130920, //libraries/shared/src/PacketSender.cpp, //72
+MidiInDummy::closePort, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //649
+MidiInDummy::getCurrentApi, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //646
+MidiInDummy::getPortCount, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //650
+MidiInDummy::getPortName, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //651
+MidiInDummy::initialize, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //654
+MidiInDummy::openPort, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //647
+MidiInDummy::openVirtualPort, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //648
+MidiOutDummy::closePort, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //664
+MidiOutDummy::getCurrentApi, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //661
+MidiOutDummy::getPortCount, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //665
+MidiOutDummy::getPortName, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //666
+MidiOutDummy::initialize, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //670
+MidiOutDummy::openPort, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //662
+MidiOutDummy::openVirtualPort, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //663
+MidiOutDummy::sendMessage, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //667
+RtMidiIn::closePort, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //429
+RtMidiIn::getPortCount, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //432
+RtMidiIn::getPortName, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //433
+RtMidiIn::openPort, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //427
+RtMidiIn::openVirtualPort, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //428
+RtMidiOut::closePort, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //440
+RtMidiOut::getPortCount, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //441
+RtMidiOut::getPortName, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //442
+RtMidiOut::openPort, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //438
+RtMidiOut::openVirtualPort, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //439
+GLWidget::initializeGL, //0, //atlante45, //clement.brisset@gmail.com, //20130816, //interface/src/ImportDialog.cpp, //76
+GLWidget::paintGL, //0, //atlante45, //clement.brisset@gmail.com, //20130816, //interface/src/ImportDialog.cpp, //94
+GLWidget::resizeGL, //0, //atlante45, //clement.brisset@gmail.com, //20130819, //interface/src/ImportDialog.cpp, //83
+stk::VoicForm::noteOff, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/VoicForm.h, //84
+stk::VoicForm::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/VoicForm.h, //113
+stk::VoicForm::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/VoicForm.h, //132
+VoxelNodeBag::nodeDeleted, //0, //ZappoMan, //bradh@konamoxt.com, //20130729, //libraries/voxels/src/VoxelNodeBag.cpp, //130
+stk::FormSwep::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/FormSwep.h, //153
+stk::Whistle::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Whistle.h, //100
+stk::StkError::getMessage, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Stk.h, //124
+stk::StkError::getMessageCString, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Stk.h, //127
+stk::StkError::getType, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Stk.h, //121
+stk::StkError::printMessage, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Stk.h, //118
+stk::Modulate::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Modulate.h, //89
+stk::OnePole::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/OnePole.h, //89
+stk::Mandolin::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Mandolin.h, //101
+stk::Mandolin::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Mandolin.h, //114
+JurisdictionSender::process, //0, //ZappoMan, //bradh@konamoxt.com, //20130819, //libraries/voxels/src/JurisdictionSender.cpp, //38
+JurisdictionSender::processPacket, //0, //ZappoMan, //bradh@konamoxt.com, //20130819, //libraries/voxels/src/JurisdictionSender.cpp, //26
+stk::BlowBotl::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/BlowBotl.h, //93
+stk::BlowBotl::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/BlowBotl.h, //115
+GLCanvas::initializeGL, //0, //Stephen Birarda, //commit@birarda.com, //20130815, //interface/src/GLCanvas.cpp, //16
+GLCanvas::paintGL, //0, //Stephen Birarda, //commit@birarda.com, //20130815, //interface/src/GLCanvas.cpp, //21
+GLCanvas::resizeGL, //0, //Stephen Birarda, //commit@birarda.com, //20130815, //interface/src/GLCanvas.cpp, //25
+AvatarAudioRingBuffer::parseData, //0, //Stephen Birarda, //commit@birarda.com, //20130605, //assignment-client/src/audio/AvatarAudioRingBuffer.cpp, //26
+stk::Iir::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Iir.h, //135
+stk::Delay::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Delay.h, //141
+stk::BlitSaw::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/BlitSaw.h, //128
+stk::BeeThree::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/BeeThree.h, //74
+stk::BeeThree::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/BeeThree.h, //98
+stk::FileLoop::closeFile, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/FileLoop.h, //52
+stk::FileLoop::getFileRate, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/FileLoop.h, //83
+stk::FileLoop::getSize, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/FileLoop.h, //75
+stk::FileWvIn::getFileRate, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/FileWvIn.h, //100
+stk::FileWvIn::getSize, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/FileWvIn.h, //92
+stk::Clarinet::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Clarinet.h, //98
+stk::Clarinet::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Clarinet.h, //123
+stk::Flute::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Flute.h, //116
+stk::Flute::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Flute.h, //137
+stk::FMVoices::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/FMVoices.h, //81
+stk::FMVoices::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/FMVoices.h, //106
+RtApiDummy::abortStream, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtAudio.h, //993
+RtApiDummy::closeStream, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtAudio.h, //990
+RtApiDummy::getCurrentApi, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtAudio.h, //987
+RtApiDummy::getDeviceCount, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtAudio.h, //988
+RtApiDummy::getDeviceInfo, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtAudio.h, //989
+RtApiDummy::probeDeviceOpen, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtAudio.h, //997
+RtApiDummy::startStream, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtAudio.h, //991
+RtApiDummy::stopStream, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtAudio.h, //992
+stk::Blit::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Blit.h, //132
+stk::Cubic::tick, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Cubic.h, //84

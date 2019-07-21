@@ -1,0 +1,421 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+array_in::print, //0, //fche, //fche, //20050905, //staptree.cxx, //230
+array_in::visit, //0, //fche, //fche, //20050505, //staptree.cxx, //1171
+arrayindex::print, //0, //fche, //fche, //20050905, //staptree.cxx, //333
+arrayindex::visit, //0, //fche, //fche, //20050505, //staptree.cxx, //1215
+assignment::visit, //0, //fche, //fche, //20050505, //staptree.cxx, //1195
+binary_expression::print, //0, //fche, //fche, //20050905, //staptree.cxx, //217
+binary_expression::visit, //0, //fche, //fche, //20050505, //staptree.cxx, //1131
+block::print, //0, //fche, //fche, //20050905, //staptree.cxx, //796
+block::visit, //0, //fche, //fche, //20050505, //staptree.cxx, //1043
+break_statement::print, //0, //fche, //fche, //20050905, //staptree.cxx, //878
+break_statement::visit, //0, //fche, //fche, //20050605, //staptree.cxx, //1107
+comparison::visit, //0, //fche, //fche, //20050505, //staptree.cxx, //1177
+concatenation::visit, //0, //fche, //fche, //20050505, //staptree.cxx, //1183
+continue_statement::print, //0, //fche, //fche, //20050905, //staptree.cxx, //883
+continue_statement::visit, //0, //fche, //fche, //20050605, //staptree.cxx, //1113
+deep_copy_visitor::visit_array_in, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2300
+deep_copy_visitor::visit_arrayindex, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2373
+deep_copy_visitor::visit_assignment, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2342
+deep_copy_visitor::visit_binary_expression, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2236
+deep_copy_visitor::visit_block, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2093
+deep_copy_visitor::visit_break_statement, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2204
+deep_copy_visitor::visit_comparison, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2309
+deep_copy_visitor::visit_concatenation, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2320
+deep_copy_visitor::visit_continue_statement, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2212
+deep_copy_visitor::visit_delete_statement, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2187
+deep_copy_visitor::visit_embeddedcode, //0, //fche, //fche, //20050726, //staptree.cxx, //2107
+deep_copy_visitor::visit_expr_statement, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2124
+deep_copy_visitor::visit_for_loop, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2144
+deep_copy_visitor::visit_foreach_loop, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2156
+deep_copy_visitor::visit_functioncall, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2390
+deep_copy_visitor::visit_hist_op, //0, //graydon, //graydon, //20051114, //staptree.cxx, //2440
+deep_copy_visitor::visit_if_statement, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2133
+deep_copy_visitor::visit_literal_number, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2228
+deep_copy_visitor::visit_literal_string, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2220
+deep_copy_visitor::visit_logical_and_expr, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2289
+deep_copy_visitor::visit_logical_or_expr, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2278
+deep_copy_visitor::visit_next_statement, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2196
+deep_copy_visitor::visit_null_statement, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2116
+deep_copy_visitor::visit_post_crement, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2267
+deep_copy_visitor::visit_pre_crement, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2257
+deep_copy_visitor::visit_print_format, //0, //graydon, //graydon, //20051114, //staptree.cxx, //2406
+deep_copy_visitor::visit_return_statement, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2178
+deep_copy_visitor::visit_stat_op, //0, //graydon, //graydon, //20051114, //staptree.cxx, //2430
+deep_copy_visitor::visit_symbol, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2353
+deep_copy_visitor::visit_target_symbol, //0, //graydon, //graydon, //20050810, //staptree.cxx, //2363
+deep_copy_visitor::visit_ternary_expression, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2331
+deep_copy_visitor::visit_unary_expression, //0, //graydon, //graydon, //20050708, //staptree.cxx, //2247
+delete_statement::print, //0, //fche, //fche, //20050905, //staptree.cxx, //868
+delete_statement::visit, //0, //fche, //fche, //20050505, //staptree.cxx, //1087
+embeddedcode::print, //0, //fche, //fche, //20050905, //staptree.cxx, //789
+embeddedcode::visit, //0, //fche, //fche, //20050726, //staptree.cxx, //1050
+expr_statement::print, //0, //fche, //fche, //20050905, //staptree.cxx, //856
+expr_statement::visit, //0, //fche, //fche, //20050505, //staptree.cxx, //1075
+for_loop::print, //0, //fche, //fche, //20050905, //staptree.cxx, //813
+for_loop::visit, //0, //fche, //fche, //20050505, //staptree.cxx, //1057
+foreach_loop::print, //0, //fche, //fche, //20050905, //staptree.cxx, //826
+foreach_loop::visit, //0, //fche, //fche, //20050602, //staptree.cxx, //1063
+functioncall::print, //0, //fche, //fche, //20050905, //staptree.cxx, //343
+functioncall::visit, //0, //fche, //fche, //20050505, //staptree.cxx, //1221
+functioncall_traversing_visitor::visit_functioncall, //0, //fche, //fche, //20060124, //staptree.cxx, //1625
+functiondecl::print, //0, //fche, //fche, //20050905, //staptree.cxx, //311
+functiondecl::printsig, //0, //fche, //fche, //20050905, //staptree.cxx, //321
+hist_op::get_tok, //0, //graydon, //graydon, //20051114, //staptree.cxx, //1338
+hist_op::is_const_hist_op, //0, //graydon, //graydon, //20051114, //staptree.cxx, //1331
+hist_op::is_hist_op, //0, //graydon, //graydon, //20051114, //staptree.cxx, //1324
+if_statement::print, //0, //fche, //fche, //20050905, //staptree.cxx, //888
+if_statement::visit, //0, //fche, //fche, //20050505, //staptree.cxx, //1095
+indexable::is_const_hist_op, //0, //graydon, //graydon, //20051114, //staptree.cxx, //1297
+indexable::is_const_symbol, //0, //graydon, //graydon, //20051114, //staptree.cxx, //1290
+indexable::is_hist_op, //0, //graydon, //graydon, //20051114, //staptree.cxx, //1283
+indexable::is_symbol, //0, //graydon, //graydon, //20051114, //staptree.cxx, //1276
+literal_number::print, //0, //fche, //fche, //20050905, //staptree.cxx, //211
+literal_number::visit, //0, //fche, //fche, //20050505, //staptree.cxx, //1125
+literal_string::print, //0, //fche, //fche, //20050905, //staptree.cxx, //199
+literal_string::visit, //0, //fche, //fche, //20050505, //staptree.cxx, //1119
+logical_and_expr::visit, //0, //fche, //fche, //20050505, //staptree.cxx, //1165
+logical_or_expr::visit, //0, //fche, //fche, //20050505, //staptree.cxx, //1159
+next_statement::print, //0, //fche, //fche, //20050905, //staptree.cxx, //873
+next_statement::visit, //0, //fche, //fche, //20050605, //staptree.cxx, //1101
+null_statement::print, //0, //fche, //fche, //20050905, //staptree.cxx, //850
+null_statement::visit, //0, //fche, //fche, //20050505, //staptree.cxx, //1069
+post_crement::print, //0, //fche, //fche, //20050905, //staptree.cxx, //242
+post_crement::visit, //0, //fche, //fche, //20050505, //staptree.cxx, //1151
+pre_crement::visit, //0, //fche, //fche, //20050505, //staptree.cxx, //1143
+print_format::print, //0, //graydon, //graydon, //20051114, //staptree.cxx, //708
+print_format::visit, //0, //graydon, //graydon, //20051114, //staptree.cxx, //1227
+probe::basest, //0, //fche, //fche, //20060518, //staptree.h, //619
+probe::collect_derivation_chain, //0, //brolley, //brolley, //20080213, //staptree.cxx, //957
+probe::get_alias, //0, //brolley, //brolley, //20080213, //staptree.h, //618
+probe::printsig, //0, //fche, //fche, //20050905, //staptree.cxx, //939
+probe_alias::printsig, //0, //fche, //fche, //20050905, //staptree.cxx, //1007
+return_statement::print, //0, //fche, //fche, //20050905, //staptree.cxx, //862
+return_statement::visit, //0, //fche, //fche, //20050505, //staptree.cxx, //1081
+stat_op::print, //0, //graydon, //graydon, //20051114, //staptree.cxx, //727
+stat_op::visit, //0, //graydon, //graydon, //20051114, //staptree.cxx, //1233
+symbol::get_tok, //0, //graydon, //graydon, //20051114, //staptree.cxx, //1318
+symbol::is_const_symbol, //0, //graydon, //graydon, //20051114, //staptree.cxx, //1311
+symbol::is_symbol, //0, //graydon, //graydon, //20051114, //staptree.cxx, //1304
+symbol::print, //0, //fche, //fche, //20050905, //staptree.cxx, //256
+symbol::visit, //0, //fche, //fche, //20050505, //staptree.cxx, //1203
+target_symbol::print, //0, //fche, //fche, //20050905, //staptree.cxx, //262
+target_symbol::visit, //0, //graydon, //graydon, //20050810, //staptree.cxx, //1209
+ternary_expression::print, //0, //fche, //fche, //20050905, //staptree.cxx, //248
+ternary_expression::visit, //0, //fche, //fche, //20050505, //staptree.cxx, //1189
+throwing_visitor::throwone, //0, //fche, //fche, //20050505, //staptree.cxx, //1890
+throwing_visitor::visit_array_in, //0, //fche, //fche, //20050505, //staptree.cxx, //2017
+throwing_visitor::visit_arrayindex, //0, //fche, //fche, //20050505, //staptree.cxx, //2059
+throwing_visitor::visit_assignment, //0, //fche, //fche, //20050505, //staptree.cxx, //2041
+throwing_visitor::visit_binary_expression, //0, //fche, //fche, //20050505, //staptree.cxx, //1980
+throwing_visitor::visit_block, //0, //fche, //fche, //20050505, //staptree.cxx, //1896
+throwing_visitor::visit_break_statement, //0, //fche, //fche, //20050605, //staptree.cxx, //1956
+throwing_visitor::visit_comparison, //0, //fche, //fche, //20050505, //staptree.cxx, //2023
+throwing_visitor::visit_concatenation, //0, //fche, //fche, //20050505, //staptree.cxx, //2029
+throwing_visitor::visit_continue_statement, //0, //fche, //fche, //20050605, //staptree.cxx, //1962
+throwing_visitor::visit_delete_statement, //0, //fche, //fche, //20050505, //staptree.cxx, //1944
+throwing_visitor::visit_embeddedcode, //0, //fche, //fche, //20050726, //staptree.cxx, //1902
+throwing_visitor::visit_expr_statement, //0, //fche, //fche, //20050505, //staptree.cxx, //1914
+throwing_visitor::visit_for_loop, //0, //fche, //fche, //20050505, //staptree.cxx, //1926
+throwing_visitor::visit_foreach_loop, //0, //fche, //fche, //20050602, //staptree.cxx, //1932
+throwing_visitor::visit_functioncall, //0, //fche, //fche, //20050505, //staptree.cxx, //2065
+throwing_visitor::visit_hist_op, //0, //graydon, //graydon, //20051114, //staptree.cxx, //2083
+throwing_visitor::visit_if_statement, //0, //fche, //fche, //20050505, //staptree.cxx, //1920
+throwing_visitor::visit_literal_number, //0, //fche, //fche, //20050505, //staptree.cxx, //1974
+throwing_visitor::visit_literal_string, //0, //fche, //fche, //20050505, //staptree.cxx, //1968
+throwing_visitor::visit_logical_and_expr, //0, //fche, //fche, //20050505, //staptree.cxx, //2011
+throwing_visitor::visit_logical_or_expr, //0, //fche, //fche, //20050505, //staptree.cxx, //2005
+throwing_visitor::visit_next_statement, //0, //fche, //fche, //20050605, //staptree.cxx, //1950
+throwing_visitor::visit_null_statement, //0, //fche, //fche, //20050505, //staptree.cxx, //1908
+throwing_visitor::visit_post_crement, //0, //fche, //fche, //20050505, //staptree.cxx, //1998
+throwing_visitor::visit_pre_crement, //0, //fche, //fche, //20050505, //staptree.cxx, //1992
+throwing_visitor::visit_print_format, //0, //graydon, //graydon, //20051114, //staptree.cxx, //2071
+throwing_visitor::visit_return_statement, //0, //fche, //fche, //20050505, //staptree.cxx, //1938
+throwing_visitor::visit_stat_op, //0, //graydon, //graydon, //20051114, //staptree.cxx, //2077
+throwing_visitor::visit_symbol, //0, //fche, //fche, //20050505, //staptree.cxx, //2047
+throwing_visitor::visit_target_symbol, //0, //graydon, //graydon, //20050810, //staptree.cxx, //2053
+throwing_visitor::visit_ternary_expression, //0, //fche, //fche, //20050505, //staptree.cxx, //2035
+throwing_visitor::visit_unary_expression, //0, //fche, //fche, //20050505, //staptree.cxx, //1986
+traversing_visitor::visit_array_in, //0, //fche, //fche, //20050505, //staptree.cxx, //1536
+traversing_visitor::visit_arrayindex, //0, //fche, //fche, //20050505, //staptree.cxx, //1581
+traversing_visitor::visit_assignment, //0, //fche, //fche, //20050505, //staptree.cxx, //1564
+traversing_visitor::visit_binary_expression, //0, //fche, //fche, //20050505, //staptree.cxx, //1496
+traversing_visitor::visit_block, //0, //fche, //fche, //20050505, //staptree.cxx, //1398
+traversing_visitor::visit_break_statement, //0, //fche, //fche, //20070219, //staptree.cxx, //1476
+traversing_visitor::visit_comparison, //0, //fche, //fche, //20050505, //staptree.cxx, //1542
+traversing_visitor::visit_concatenation, //0, //fche, //fche, //20050505, //staptree.cxx, //1549
+traversing_visitor::visit_continue_statement, //0, //fche, //fche, //20070219, //staptree.cxx, //1481
+traversing_visitor::visit_delete_statement, //0, //fche, //fche, //20050505, //staptree.cxx, //1465
+traversing_visitor::visit_embeddedcode, //0, //fche, //fche, //20070219, //staptree.cxx, //1405
+traversing_visitor::visit_expr_statement, //0, //fche, //fche, //20050505, //staptree.cxx, //1415
+traversing_visitor::visit_for_loop, //0, //fche, //fche, //20050505, //staptree.cxx, //1430
+traversing_visitor::visit_foreach_loop, //0, //fche, //fche, //20050602, //staptree.cxx, //1439
+traversing_visitor::visit_functioncall, //0, //fche, //fche, //20050505, //staptree.cxx, //1596
+traversing_visitor::visit_hist_op, //0, //graydon, //graydon, //20051114, //staptree.cxx, //1618
+traversing_visitor::visit_if_statement, //0, //fche, //fche, //20050505, //staptree.cxx, //1421
+traversing_visitor::visit_literal_number, //0, //fche, //fche, //20070219, //staptree.cxx, //1491
+traversing_visitor::visit_literal_string, //0, //fche, //fche, //20070219, //staptree.cxx, //1486
+traversing_visitor::visit_logical_and_expr, //0, //fche, //fche, //20050505, //staptree.cxx, //1529
+traversing_visitor::visit_logical_or_expr, //0, //fche, //fche, //20050505, //staptree.cxx, //1522
+traversing_visitor::visit_next_statement, //0, //fche, //fche, //20070219, //staptree.cxx, //1471
+traversing_visitor::visit_null_statement, //0, //fche, //fche, //20070219, //staptree.cxx, //1410
+traversing_visitor::visit_post_crement, //0, //fche, //fche, //20050505, //staptree.cxx, //1515
+traversing_visitor::visit_pre_crement, //0, //fche, //fche, //20050505, //staptree.cxx, //1509
+traversing_visitor::visit_print_format, //0, //graydon, //graydon, //20051114, //staptree.cxx, //1603
+traversing_visitor::visit_return_statement, //0, //fche, //fche, //20050505, //staptree.cxx, //1459
+traversing_visitor::visit_stat_op, //0, //graydon, //graydon, //20051114, //staptree.cxx, //1612
+traversing_visitor::visit_symbol, //0, //fche, //fche, //20070219, //staptree.cxx, //1571
+traversing_visitor::visit_target_symbol, //0, //fche, //fche, //20070219, //staptree.cxx, //1576
+traversing_visitor::visit_ternary_expression, //0, //fche, //fche, //20050505, //staptree.cxx, //1556
+traversing_visitor::visit_unary_expression, //0, //fche, //fche, //20050505, //staptree.cxx, //1503
+unary_expression::print, //0, //fche, //fche, //20050905, //staptree.cxx, //225
+unary_expression::visit, //0, //fche, //fche, //20050505, //staptree.cxx, //1137
+vardecl::print, //0, //fche, //fche, //20050905, //staptree.cxx, //280
+vardecl::printsig, //0, //fche, //fche, //20050905, //staptree.cxx, //295
+varuse_collecting_visitor::visit_arrayindex, //0, //fche, //fche, //20060124, //staptree.cxx, //1743
+varuse_collecting_visitor::visit_assignment, //0, //fche, //fche, //20060124, //staptree.cxx, //1692
+varuse_collecting_visitor::visit_delete_statement, //0, //fche, //fche, //20060126, //staptree.cxx, //1840
+varuse_collecting_visitor::visit_embeddedcode, //0, //fche, //fche, //20060124, //staptree.cxx, //1643
+varuse_collecting_visitor::visit_foreach_loop, //0, //fche, //fche, //20060126, //staptree.cxx, //1799
+varuse_collecting_visitor::visit_post_crement, //0, //fche, //fche, //20060124, //staptree.cxx, //1790
+varuse_collecting_visitor::visit_pre_crement, //0, //fche, //fche, //20060124, //staptree.cxx, //1781
+varuse_collecting_visitor::visit_print_format, //0, //fche, //fche, //20060124, //staptree.cxx, //1675
+varuse_collecting_visitor::visit_symbol, //0, //fche, //fche, //20060124, //staptree.cxx, //1711
+varuse_collecting_visitor::visit_target_symbol, //0, //fche, //fche, //20080303, //staptree.cxx, //1663
+derived_probe::collect_derivation_chain, //0, //brolley, //brolley, //20080213, //elaborate.cxx, //116
+derived_probe::printsig, //0, //fche, //fche, //20070330, //elaborate.cxx, //82
+derived_probe::sole_location, //0, //fche, //fche, //20070330, //elaborate.cxx, //124
+derived_probe_builder::build_no_more, //0, //fche, //fche, //20070225, //elaborate.h, //189
+symresolution_info::visit_arrayindex, //0, //fche, //fche, //20050521, //elaborate.cxx, //1411
+symresolution_info::visit_block, //0, //fche, //fche, //20050521, //elaborate.cxx, //1288
+symresolution_info::visit_delete_statement, //0, //graydon, //graydon, //20050809, //elaborate.cxx, //1376
+symresolution_info::visit_foreach_loop, //0, //fche, //fche, //20050602, //elaborate.cxx, //1305
+symresolution_info::visit_functioncall, //0, //fche, //fche, //20050521, //elaborate.cxx, //1454
+symresolution_info::visit_symbol, //0, //fche, //fche, //20050521, //elaborate.cxx, //1384
+typeresolution_info::visit_array_in, //0, //fche, //fche, //20050521, //elaborate.cxx, //3500
+typeresolution_info::visit_arrayindex, //0, //fche, //fche, //20050521, //elaborate.cxx, //3204
+typeresolution_info::visit_assignment, //0, //fche, //fche, //20050603, //elaborate.cxx, //2923
+typeresolution_info::visit_binary_expression, //0, //fche, //fche, //20050603, //elaborate.cxx, //3022
+typeresolution_info::visit_block, //0, //fche, //fche, //20050521, //elaborate.cxx, //3314
+typeresolution_info::visit_break_statement, //0, //fche, //fche, //20070219, //elaborate.cxx, //3488
+typeresolution_info::visit_comparison, //0, //fche, //fche, //20050521, //elaborate.cxx, //2879
+typeresolution_info::visit_concatenation, //0, //fche, //fche, //20050521, //elaborate.cxx, //2904
+typeresolution_info::visit_continue_statement, //0, //fche, //fche, //20070219, //elaborate.cxx, //3494
+typeresolution_info::visit_delete_statement, //0, //fche, //fche, //20050521, //elaborate.cxx, //3473
+typeresolution_info::visit_embeddedcode, //0, //fche, //fche, //20070219, //elaborate.cxx, //3332
+typeresolution_info::visit_expr_statement, //0, //fche, //fche, //20050521, //elaborate.cxx, //3442
+typeresolution_info::visit_for_loop, //0, //fche, //fche, //20050521, //elaborate.cxx, //3355
+typeresolution_info::visit_foreach_loop, //0, //fche, //fche, //20050602, //elaborate.cxx, //3369
+typeresolution_info::visit_functioncall, //0, //fche, //fche, //20050521, //elaborate.cxx, //3274
+typeresolution_info::visit_hist_op, //0, //graydon, //graydon, //20051114, //elaborate.cxx, //3690
+typeresolution_info::visit_if_statement, //0, //fche, //fche, //20050521, //elaborate.cxx, //3338
+typeresolution_info::visit_literal_number, //0, //fche, //fche, //20050521, //elaborate.cxx, //2843
+typeresolution_info::visit_literal_string, //0, //fche, //fche, //20050521, //elaborate.cxx, //2854
+typeresolution_info::visit_logical_and_expr, //0, //fche, //fche, //20050521, //elaborate.cxx, //2872
+typeresolution_info::visit_logical_or_expr, //0, //fche, //fche, //20050521, //elaborate.cxx, //2865
+typeresolution_info::visit_next_statement, //0, //fche, //fche, //20070219, //elaborate.cxx, //3482
+typeresolution_info::visit_null_statement, //0, //fche, //fche, //20070219, //elaborate.cxx, //3436
+typeresolution_info::visit_post_crement, //0, //fche, //fche, //20050521, //elaborate.cxx, //3053
+typeresolution_info::visit_pre_crement, //0, //fche, //fche, //20050521, //elaborate.cxx, //3046
+typeresolution_info::visit_print_format, //0, //graydon, //graydon, //20051114, //elaborate.cxx, //3548
+typeresolution_info::visit_return_statement, //0, //fche, //fche, //20050521, //elaborate.cxx, //3520
+typeresolution_info::visit_stat_op, //0, //graydon, //graydon, //20051114, //elaborate.cxx, //3676
+typeresolution_info::visit_symbol, //0, //fche, //fche, //20050521, //elaborate.cxx, //3161
+typeresolution_info::visit_target_symbol, //0, //graydon, //graydon, //20050810, //elaborate.cxx, //3169
+typeresolution_info::visit_ternary_expression, //0, //fche, //fche, //20050521, //elaborate.cxx, //3077
+typeresolution_info::visit_unary_expression, //0, //fche, //fche, //20050521, //elaborate.cxx, //3060
+alias_derived_probe::get_alias, //0, //brolley, //brolley, //20080213, //elaborate.cxx, //451
+alias_derived_probe::join_group, //0, //fche, //fche, //20070219, //elaborate.cxx, //449
+alias_expansion_builder::build, //0, //graydon, //graydon, //20050706, //elaborate.cxx, //468
+dead_assignment_remover::visit_arrayindex, //0, //Stan Cox, //scox@redhat.com, //20080519, //elaborate.cxx, //1875
+dead_assignment_remover::visit_assignment, //0, //fche, //fche, //20060124, //elaborate.cxx, //1819
+dead_assignment_remover::visit_binary_expression, //0, //Stan Cox, //scox@redhat.com, //20080521, //elaborate.cxx, //1864
+dead_assignment_remover::visit_expr_statement, //0, //fche, //fche, //20060124, //elaborate.cxx, //1808
+dead_assignment_remover::visit_for_loop, //0, //Stan Cox, //scox@redhat.com, //20080519, //elaborate.cxx, //1918
+dead_assignment_remover::visit_functioncall, //0, //Stan Cox, //scox@redhat.com, //20080519, //elaborate.cxx, //1894
+dead_assignment_remover::visit_if_statement, //0, //Stan Cox, //scox@redhat.com, //20080519, //elaborate.cxx, //1906
+dead_stmtexpr_remover::visit_block, //0, //fche, //fche, //20060124, //elaborate.cxx, //1989
+dead_stmtexpr_remover::visit_expr_statement, //0, //fche, //fche, //20060124, //elaborate.cxx, //2141
+dead_stmtexpr_remover::visit_for_loop, //0, //fche, //fche, //20070921, //elaborate.cxx, //2109
+dead_stmtexpr_remover::visit_foreach_loop, //0, //fche, //fche, //20070921, //elaborate.cxx, //2093
+dead_stmtexpr_remover::visit_if_statement, //0, //fche, //fche, //20070921, //elaborate.cxx, //2033
+dead_stmtexpr_remover::visit_null_statement, //0, //Frank Ch. Eigler, //fche@redhat.com, //20080429, //elaborate.cxx, //1979
+delete_statement_symresolution_info::visit_arrayindex, //0, //graydon, //graydon, //20050809, //elaborate.cxx, //1353
+delete_statement_symresolution_info::visit_functioncall, //0, //graydon, //graydon, //20050809, //elaborate.cxx, //1357
+delete_statement_symresolution_info::visit_symbol, //0, //graydon, //graydon, //20050809, //elaborate.cxx, //1362
+delete_statement_typeresolution_info::visit_arrayindex, //0, //graydon, //graydon, //20050809, //elaborate.cxx, //3458
+delete_statement_typeresolution_info::visit_symbol, //0, //graydon, //graydon, //20050809, //elaborate.cxx, //3463
+duplicate_function_remover::visit_functioncall, //0, //dsmith, //dsmith, //20060810, //elaborate.cxx, //2612
+mutated_var_collector::visit_arrayindex, //0, //graydon, //graydon, //20050723, //elaborate.cxx, //750
+mutated_var_collector::visit_assignment, //0, //graydon, //graydon, //20051114, //elaborate.cxx, //739
+no_var_mutation_during_iteration_check::visit_arrayindex, //0, //graydon, //graydon, //20050723, //elaborate.cxx, //778
+no_var_mutation_during_iteration_check::visit_foreach_loop, //0, //graydon, //graydon, //20050723, //elaborate.cxx, //822
+no_var_mutation_during_iteration_check::visit_functioncall, //0, //graydon, //graydon, //20050723, //elaborate.cxx, //800
+stat_decl_collector::visit_assignment, //0, //graydon, //graydon, //20051124, //elaborate.cxx, //855
+stat_decl_collector::visit_hist_op, //0, //graydon, //graydon, //20051124, //elaborate.cxx, //867
+stat_decl_collector::visit_stat_op, //0, //graydon, //graydon, //20051124, //elaborate.cxx, //848
+symbol_fetcher::throwone, //0, //graydon, //graydon, //20051114, //elaborate.cxx, //703
+symbol_fetcher::visit_arrayindex, //0, //graydon, //graydon, //20051114, //elaborate.cxx, //698
+symbol_fetcher::visit_symbol, //0, //graydon, //graydon, //20051114, //elaborate.cxx, //688
+symbol_fetcher::visit_target_symbol, //0, //fche, //fche, //20080303, //elaborate.cxx, //693
+void_statement_reducer::visit_array_in, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2284
+void_statement_reducer::visit_arrayindex, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2285
+void_statement_reducer::visit_assignment, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2294
+void_statement_reducer::visit_binary_expression, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2446
+void_statement_reducer::visit_block, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2308
+void_statement_reducer::visit_comparison, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2494
+void_statement_reducer::visit_concatenation, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2500
+void_statement_reducer::visit_delete_statement, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2291
+void_statement_reducer::visit_expr_statement, //0, //Josh Stone, //jistone@redhat.com, //20080619, //elaborate.cxx, //2299
+void_statement_reducer::visit_for_loop, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2335
+void_statement_reducer::visit_foreach_loop, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2344
+void_statement_reducer::visit_functioncall, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2506
+void_statement_reducer::visit_hist_op, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2287
+void_statement_reducer::visit_if_statement, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2320
+void_statement_reducer::visit_logical_and_expr, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2386
+void_statement_reducer::visit_logical_or_expr, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2353
+void_statement_reducer::visit_post_crement, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2293
+void_statement_reducer::visit_pre_crement, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2292
+void_statement_reducer::visit_print_format, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2544
+void_statement_reducer::visit_return_statement, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2290
+void_statement_reducer::visit_stat_op, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2286
+void_statement_reducer::visit_ternary_expression, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2414
+void_statement_reducer::visit_unary_expression, //0, //Josh Stone, //jistone@redhat.com, //20080618, //elaborate.cxx, //2476
+derived_probe::emit_probe_context_vars, //0, //fche, //fche, //20070219, //elaborate.h, //127
+derived_probe::initialize_probe_context_vars, //0, //dsmith, //dsmith, //20070521, //elaborate.h, //131
+derived_probe::needs_global_locks, //0, //dsmith, //dsmith, //20070328, //elaborate.h, //140
+be_builder::build, //0, //fche, //fche, //20070219, //tapsets.cxx, //130
+be_derived_probe::join_group, //0, //fche, //fche, //20061101, //tapsets.cxx, //148
+be_derived_probe::needs_global_locks, //0, //dsmith, //dsmith, //20070328, //tapsets.cxx, //110
+be_derived_probe_group::emit_module_decls, //0, //fche, //fche, //20061101, //tapsets.cxx, //326
+be_derived_probe_group::emit_module_exit, //0, //fche, //fche, //20061101, //tapsets.cxx, //398
+be_derived_probe_group::emit_module_init, //0, //fche, //fche, //20071002, //tapsets.cxx, //380
+dwarf_derived_probe::join_group, //0, //fche, //fche, //20061101, //tapsets.cxx, //4248
+dwarf_derived_probe::printsig, //0, //fche, //fche, //20070330, //tapsets.cxx, //4234
+dwarf_derived_probe_group::emit_module_decls, //0, //David Smith, //dsmith@redhat.com, //20080414, //tapsets.cxx, //4439
+dwarf_derived_probe_group::emit_module_exit, //0, //fche, //fche, //20061101, //tapsets.cxx, //4630
+dwarf_derived_probe_group::emit_module_init, //0, //fche, //fche, //20061101, //tapsets.cxx, //4591
+dwarf_query::handle_query_module, //0, //Jim Keniston, //jkenisto@us.ibm.com, //20080418, //tapsets.cxx, //2768
+dwarf_var_expanding_copy_visitor::visit_target_symbol, //0, //fche, //fche, //20060421, //tapsets.cxx, //3851
+hrtimer_derived_probe::join_group, //0, //fche, //fche, //20061101, //tapsets.cxx, //7589
+hrtimer_derived_probe_group::emit_module_decls, //0, //fche, //fche, //20061101, //tapsets.cxx, //7623
+hrtimer_derived_probe_group::emit_module_exit, //0, //fche, //fche, //20061101, //tapsets.cxx, //7712
+hrtimer_derived_probe_group::emit_module_init, //0, //fche, //fche, //20061101, //tapsets.cxx, //7685
+mark_builder::build, //0, //fche, //fche, //20060330, //tapsets.cxx, //7434
+mark_builder::build_no_more, //0, //dsmith, //dsmith, //20070521, //tapsets.cxx, //7415
+mark_derived_probe::emit_probe_context_vars, //0, //dsmith, //dsmith, //20070521, //tapsets.cxx, //7249
+mark_derived_probe::initialize_probe_context_vars, //0, //dsmith, //dsmith, //20070521, //tapsets.cxx, //7275
+mark_derived_probe::join_group, //0, //dsmith, //dsmith, //20070521, //tapsets.cxx, //7228
+mark_derived_probe_group::emit_module_decls, //0, //David Smith, //dsmith@redhat.com, //20080411, //tapsets.cxx, //7315
+mark_derived_probe_group::emit_module_exit, //0, //dsmith, //dsmith, //20070521, //tapsets.cxx, //7389
+mark_derived_probe_group::emit_module_init, //0, //dsmith, //dsmith, //20070521, //tapsets.cxx, //7367
+mark_var_expanding_copy_visitor::visit_target_symbol, //0, //dsmith, //dsmith, //20080204, //tapsets.cxx, //7044
+never_builder::build, //0, //fche, //fche, //20070219, //tapsets.cxx, //434
+never_derived_probe::join_group, //0, //fche, //fche, //20070219, //tapsets.cxx, //427
+perfmon_builder::build, //0, //wcohen, //wcohen, //20060912, //tapsets.cxx, //7946
+perfmon_derived_probe::join_group, //0, //fche, //fche, //20061101, //tapsets.cxx, //7985
+perfmon_derived_probe_group::emit_module_decls, //0, //fche, //fche, //20070219, //tapsets.cxx, //7937
+perfmon_derived_probe_group::emit_module_exit, //0, //fche, //fche, //20070219, //tapsets.cxx, //7939
+perfmon_derived_probe_group::emit_module_init, //0, //fche, //fche, //20070219, //tapsets.cxx, //7938
+perfmon_var_expanding_copy_visitor::visit_target_symbol, //0, //wcohen, //wcohen, //20060912, //tapsets.cxx, //7853
+procfs_builder::build, //0, //dsmith, //dsmith, //20070910, //tapsets.cxx, //6767
+procfs_derived_probe::join_group, //0, //hunt, //hunt, //20070910, //tapsets.cxx, //6423
+procfs_derived_probe_group::emit_module_decls, //0, //dsmith, //dsmith, //20070910, //tapsets.cxx, //6468
+procfs_derived_probe_group::emit_module_exit, //0, //hunt, //hunt, //20070910, //tapsets.cxx, //6656
+procfs_derived_probe_group::emit_module_init, //0, //dsmith, //dsmith, //20070912, //tapsets.cxx, //6608
+procfs_var_expanding_copy_visitor::visit_target_symbol, //0, //dsmith, //dsmith, //20070912, //tapsets.cxx, //6666
+profile_builder::build, //0, //fche, //fche, //20061101, //tapsets.cxx, //6241
+profile_derived_probe::join_group, //0, //fche, //fche, //20061101, //tapsets.cxx, //6230
+profile_derived_probe_group::emit_module_decls, //0, //fche, //fche, //20061101, //tapsets.cxx, //6260
+profile_derived_probe_group::emit_module_exit, //0, //fche, //fche, //20061101, //tapsets.cxx, //6331
+profile_derived_probe_group::emit_module_init, //0, //fche, //fche, //20061101, //tapsets.cxx, //6317
+task_finder_derived_probe_group::emit_module_decls, //0, //David Smith, //dsmith@redhat.com, //20080415, //tapsets.cxx, //5137
+task_finder_derived_probe_group::emit_module_exit, //0, //David Smith, //dsmith@redhat.com, //20080415, //tapsets.cxx, //5180
+task_finder_derived_probe_group::emit_module_init, //0, //David Smith, //dsmith@redhat.com, //20080415, //tapsets.cxx, //5166
+timer_builder::build, //0, //jistone, //jistone, //20060928, //tapsets.cxx, //7734
+timer_derived_probe::join_group, //0, //fche, //fche, //20061101, //tapsets.cxx, //6098
+timer_derived_probe_group::emit_module_decls, //0, //fche, //fche, //20061101, //tapsets.cxx, //6119
+timer_derived_probe_group::emit_module_exit, //0, //fche, //fche, //20061101, //tapsets.cxx, //6186
+timer_derived_probe_group::emit_module_init, //0, //fche, //fche, //20061101, //tapsets.cxx, //6165
+uprobe_builder::build, //0, //fche, //fche, //20070526, //tapsets.cxx, //5923
+uprobe_derived_probe::join_group, //0, //fche, //fche, //20070526, //tapsets.cxx, //5912
+uprobe_derived_probe_group::emit_module_decls, //0, //David Smith, //dsmith@redhat.com, //20080414, //tapsets.cxx, //5945
+uprobe_derived_probe_group::emit_module_exit, //0, //fche, //fche, //20070526, //tapsets.cxx, //6038
+uprobe_derived_probe_group::emit_module_init, //0, //fche, //fche, //20070526, //tapsets.cxx, //6003
+utrace_builder::build, //0, //David Smith, //dsmith@redhat.com, //20080415, //tapsets.cxx, //5343
+utrace_derived_probe::join_group, //0, //David Smith, //dsmith@redhat.com, //20080415, //tapsets.cxx, //5278
+utrace_derived_probe_group::emit_module_decls, //0, //David Smith, //dsmith@redhat.com, //20080415, //tapsets.cxx, //5545
+utrace_derived_probe_group::emit_module_exit, //0, //David Smith, //dsmith@redhat.com, //20080415, //tapsets.cxx, //5861
+utrace_derived_probe_group::emit_module_init, //0, //David Smith, //dsmith@redhat.com, //20080415, //tapsets.cxx, //5829
+utrace_var_expanding_copy_visitor::visit_target_symbol, //0, //David Smith, //dsmith@redhat.com, //20080415, //tapsets.cxx, //5291
+var_expanding_copy_visitor::visit_assignment, //0, //graydon, //graydon, //20051001, //tapsets.cxx, //3797
+derived_probe::basest, //0, //fche, //fche, //20060518, //elaborate.h, //117
+arrayindex_downcaster::visit_arrayindex, //0, //graydon, //graydon, //20051208, //translate.cxx, //2395
+c_tmpcounter::visit_array_in, //0, //graydon, //graydon, //20050813, //translate.cxx, //3058
+c_tmpcounter::visit_arrayindex, //0, //graydon, //graydon, //20051202, //translate.cxx, //3557
+c_tmpcounter::visit_assignment, //0, //fche, //fche, //20050526, //translate.cxx, //3222
+c_tmpcounter::visit_binary_expression, //0, //fche, //fche, //20050608, //translate.cxx, //2906
+c_tmpcounter::visit_block, //0, //fche, //fche, //20051202, //translate.cxx, //2299
+c_tmpcounter::visit_concatenation, //0, //fche, //fche, //20050602, //translate.cxx, //3168
+c_tmpcounter::visit_delete_statement, //0, //jistone, //jistone, //20060116, //translate.cxx, //2831
+c_tmpcounter::visit_for_loop, //0, //fche, //fche, //20050824, //translate.cxx, //2330
+c_tmpcounter::visit_foreach_loop, //0, //graydon, //graydon, //20050723, //translate.cxx, //2419
+c_tmpcounter::visit_functioncall, //0, //fche, //fche, //20050526, //translate.cxx, //3849
+c_tmpcounter::visit_post_crement, //0, //fche, //fche, //20050608, //translate.cxx, //3280
+c_tmpcounter::visit_pre_crement, //0, //fche, //fche, //20050608, //translate.cxx, //3260
+c_tmpcounter::visit_print_format, //0, //graydon, //graydon, //20051129, //translate.cxx, //3935
+c_tmpcounter::visit_stat_op, //0, //graydon, //graydon, //20051124, //translate.cxx, //4204
+c_tmpcounter_assignment::visit_arrayindex, //0, //fche, //fche, //20050526, //translate.cxx, //3726
+c_tmpcounter_assignment::visit_symbol, //0, //fche, //fche, //20050526, //translate.cxx, //3367
+c_unparser::emit_common_header, //0, //fche, //fche, //20050526, //translate.cxx, //851
+c_unparser::emit_function, //0, //fche, //fche, //20050526, //translate.cxx, //1337
+c_unparser::emit_functionsig, //0, //fche, //fche, //20050526, //translate.cxx, //1064
+c_unparser::emit_global, //0, //fche, //fche, //20050526, //translate.cxx, //1031
+c_unparser::emit_global_init, //0, //fche, //fche, //20071002, //translate.cxx, //1046
+c_unparser::emit_global_param, //0, //fche, //fche, //20060225, //translate.cxx, //1003
+c_unparser::emit_module_exit, //0, //fche, //fche, //20050526, //translate.cxx, //1224
+c_unparser::emit_module_init, //0, //fche, //fche, //20050526, //translate.cxx, //1073
+c_unparser::emit_probe, //0, //fche, //fche, //20060518, //translate.cxx, //1420
+c_unparser::visit_array_in, //0, //fche, //fche, //20050526, //translate.cxx, //3096
+c_unparser::visit_arrayindex, //0, //graydon, //graydon, //20051202, //translate.cxx, //3638
+c_unparser::visit_assignment, //0, //fche, //fche, //20050526, //translate.cxx, //3230
+c_unparser::visit_binary_expression, //0, //fche, //fche, //20050608, //translate.cxx, //2924
+c_unparser::visit_block, //0, //fche, //fche, //20050526, //translate.cxx, //2227
+c_unparser::visit_break_statement, //0, //fche, //fche, //20050605, //translate.cxx, //2848
+c_unparser::visit_comparison, //0, //fche, //fche, //20050526, //translate.cxx, //3131
+c_unparser::visit_concatenation, //0, //fche, //fche, //20050526, //translate.cxx, //3178
+c_unparser::visit_continue_statement, //0, //fche, //fche, //20050605, //translate.cxx, //2860
+c_unparser::visit_delete_statement, //0, //fche, //fche, //20050526, //translate.cxx, //2839
+c_unparser::visit_embeddedcode, //0, //fche, //fche, //20050726, //translate.cxx, //2249
+c_unparser::visit_expr_statement, //0, //fche, //fche, //20050526, //translate.cxx, //2265
+c_unparser::visit_for_loop, //0, //fche, //fche, //20050526, //translate.cxx, //2340
+c_unparser::visit_foreach_loop, //0, //fche, //fche, //20050602, //translate.cxx, //2483
+c_unparser::visit_functioncall, //0, //fche, //fche, //20050526, //translate.cxx, //3866
+c_unparser::visit_hist_op, //0, //fche, //fche, //20070219, //translate.cxx, //4308
+c_unparser::visit_if_statement, //0, //fche, //fche, //20050526, //translate.cxx, //2275
+c_unparser::visit_literal_number, //0, //fche, //fche, //20050526, //translate.cxx, //2893
+c_unparser::visit_literal_string, //0, //fche, //fche, //20050526, //translate.cxx, //2873
+c_unparser::visit_logical_and_expr, //0, //fche, //fche, //20050526, //translate.cxx, //3042
+c_unparser::visit_logical_or_expr, //0, //fche, //fche, //20050526, //translate.cxx, //3026
+c_unparser::visit_next_statement, //0, //fche, //fche, //20050605, //translate.cxx, //2708
+c_unparser::visit_null_statement, //0, //fche, //fche, //20070219, //translate.cxx, //2258
+c_unparser::visit_post_crement, //0, //fche, //fche, //20050608, //translate.cxx, //3288
+c_unparser::visit_pre_crement, //0, //fche, //fche, //20050608, //translate.cxx, //3268
+c_unparser::visit_print_format, //0, //graydon, //graydon, //20051114, //translate.cxx, //3988
+c_unparser::visit_return_statement, //0, //fche, //fche, //20050526, //translate.cxx, //2692
+c_unparser::visit_stat_op, //0, //graydon, //graydon, //20051114, //translate.cxx, //4233
+c_unparser::visit_symbol, //0, //fche, //fche, //20050526, //translate.cxx, //3300
+c_unparser::visit_target_symbol, //0, //graydon, //graydon, //20050810, //translate.cxx, //3429
+c_unparser::visit_ternary_expression, //0, //fche, //fche, //20050526, //translate.cxx, //3201
+c_unparser::visit_unary_expression, //0, //fche, //fche, //20050526, //translate.cxx, //2998
+c_unparser_assignment::visit_arrayindex, //0, //fche, //fche, //20050526, //translate.cxx, //3758
+c_unparser_assignment::visit_symbol, //0, //graydon, //graydon, //20050720, //translate.cxx, //3406
+delete_statement_operand_tmp_visitor::visit_arrayindex, //0, //jistone, //jistone, //20060116, //translate.cxx, //2781
+delete_statement_operand_visitor::visit_arrayindex, //0, //graydon, //graydon, //20050809, //translate.cxx, //2807
+delete_statement_operand_visitor::visit_symbol, //0, //graydon, //graydon, //20050809, //translate.cxx, //2743
+mapvar::buckets, //0, //jistone, //jistone, //20060105, //translate.cxx, //659
+mapvar::hist, //0, //jistone, //jistone, //20060105, //translate.cxx, //652
+var::buckets, //0, //jistone, //jistone, //20060105, //translate.cxx, //346
+var::hist, //0, //jistone, //jistone, //20060105, //translate.cxx, //339

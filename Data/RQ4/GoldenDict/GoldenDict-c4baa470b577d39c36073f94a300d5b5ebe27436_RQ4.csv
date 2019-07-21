@@ -1,0 +1,263 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+BtreeIndexing::BtreeDictionary::ensureInitDone, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090517, //btreeidx.cc, //59
+Mdx::MddResourceRequest::cancel, //0, //Timon Wong, //timon86.wang@gmail.com, //20130423, //mdx.cc, //659
+Mdx::MddResourceRequestRunnable::run, //0, //Timon Wong, //timon86.wang@gmail.com, //20130423, //mdx.cc, //671
+Mdx::MdxArticleRequest::cancel, //0, //Timon Wong, //timon86.wang@gmail.com, //20130423, //mdx.cc, //481
+Mdx::MdxArticleRequestRunnable::run, //0, //Timon Wong, //timon86.wang@gmail.com, //20130423, //mdx.cc, //493
+Mdx::MdxDeferredInitRunnable::run, //0, //Timon Wong, //timon86.wang@gmail.com, //20130423, //mdx.cc, //320
+Mdx::MdxDictionary::deferredInit, //0, //Timon Wong, //timon86.wang@gmail.com, //20130423, //mdx.cc, //326
+Mdx::MdxDictionary::ensureInitDone, //0, //Timon Wong, //timon86.wang@gmail.com, //20130423, //mdx.cc, //345
+Mdx::MdxDictionary::getArticle, //0, //Timon Wong, //timon86.wang@gmail.com, //20130423, //mdx.cc, //608
+Mdx::MdxDictionary::getArticleCount, //0, //Timon Wong, //timon86.wang@gmail.com, //20130423, //mdx.cc, //218
+Mdx::MdxDictionary::getName, //0, //Timon Wong, //timon86.wang@gmail.com, //20130423, //mdx.cc, //208
+Mdx::MdxDictionary::getProperties, //0, //Timon Wong, //timon86.wang@gmail.com, //20130423, //mdx.cc, //213
+Mdx::MdxDictionary::getResource, //0, //Timon Wong, //timon86.wang@gmail.com, //20130423, //mdx.cc, //778
+Mdx::MdxDictionary::getWordCount, //0, //Timon Wong, //timon86.wang@gmail.com, //20130423, //mdx.cc, //223
+Mdx::MdxDictionary::loadIcon, //0, //Timon Wong, //timon86.wang@gmail.com, //20130423, //mdx.cc, //803
+Mdx::ResourceHandler::handleRecord, //0, //Timon Wong, //timon86.wang@gmail.com, //20130428, //mdx.cc, //937
+Mdx::exCorruptDictionary::what, //0, //Timon Wong, //timon86.wang@gmail.com, //20130522, //mdx.cc, //63
+CompletionList::setTranslateLine, //0, //Tvangeste, //i.4m.l33t@yandex.ru, //20130128, //translatebox.hh, //23
+Forvo::ForvoArticleRequest::cancel, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20100613, //forvo.cc, //129
+Forvo::ForvoDictionary::getArticle, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20101123, //forvo.cc, //77
+Forvo::ForvoDictionary::getArticleCount, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20100613, //forvo.cc, //51
+Forvo::ForvoDictionary::getName, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20100613, //forvo.cc, //45
+Forvo::ForvoDictionary::getProperties, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20100613, //forvo.cc, //48
+Forvo::ForvoDictionary::getWordCount, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20100613, //forvo.cc, //54
+Forvo::ForvoDictionary::loadIcon, //0, //Abs62, //ottomann@yandex.ru, //20121203, //forvo.cc, //93
+Forvo::ForvoDictionary::prefixMatch, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20100622, //forvo.cc, //57
+Dictionary::DataRequestInstant::cancel, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090326, //dictionary.hh, //232
+Dictionary::Ex::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //dictionary.hh, //34
+Dictionary::WordSearchRequestInstant::cancel, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090326, //dictionary.hh, //211
+Dictionary::exIndexOutOfRange::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090326, //dictionary.hh, //35
+Dictionary::exRequestUnfinished::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090326, //dictionary.hh, //37
+Dictionary::exSliceOutOfRange::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090326, //dictionary.hh, //36
+Transliteration::TransliterationDictionary::findHeadwordsForSynonym, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090506, //transliteration.cc, //118
+Transliteration::TransliterationDictionary::getAlternateWritings, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090506, //transliteration.cc, //60
+Transliteration::TransliterationDictionary::getArticle, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090506, //transliteration.cc, //53
+Transliteration::TransliterationDictionary::getArticleCount, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090506, //transliteration.cc, //43
+Transliteration::TransliterationDictionary::getName, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090506, //transliteration.cc, //37
+Transliteration::TransliterationDictionary::getProperties, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090506, //transliteration.cc, //40
+Transliteration::TransliterationDictionary::getWordCount, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090506, //transliteration.cc, //46
+Transliteration::TransliterationDictionary::prefixMatch, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090506, //transliteration.cc, //49
+ZipSounds::ZipSoundsDictionary::getArticle, //0, //Abs62, //ottomann@yandex.ru, //20120928, //zipsounds.cc, //161
+ZipSounds::ZipSoundsDictionary::getArticleCount, //0, //Abs62, //ottomann@yandex.ru, //20120928, //zipsounds.cc, //109
+ZipSounds::ZipSoundsDictionary::getName, //0, //Abs62, //ottomann@yandex.ru, //20120928, //zipsounds.cc, //151
+ZipSounds::ZipSoundsDictionary::getProperties, //0, //Abs62, //ottomann@yandex.ru, //20120928, //zipsounds.cc, //106
+ZipSounds::ZipSoundsDictionary::getResource, //0, //Abs62, //ottomann@yandex.ru, //20120928, //zipsounds.cc, //264
+ZipSounds::ZipSoundsDictionary::getWordCount, //0, //Abs62, //ottomann@yandex.ru, //20120928, //zipsounds.cc, //112
+ZipSounds::ZipSoundsDictionary::loadIcon, //0, //Abs62, //ottomann@yandex.ru, //20121203, //zipsounds.cc, //285
+ZipSounds::exInvalidData::what, //0, //Abs62, //ottomann@yandex.ru, //20120928, //zipsounds.cc, //39
+HotkeyWrapper::exInit::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090421, //hotkeywrapper.hh, //51
+Stardict::StardictArticleRequest::cancel, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090416, //stardict.cc, //727
+Stardict::StardictArticleRequestRunnable::run, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090416, //stardict.cc, //739
+Stardict::StardictDictionary::findHeadwordsForSynonym, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090416, //stardict.cc, //672
+Stardict::StardictDictionary::getArticle, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090416, //stardict.cc, //871
+Stardict::StardictDictionary::getArticleCount, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //stardict.cc, //149
+Stardict::StardictDictionary::getName, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //stardict.cc, //143
+Stardict::StardictDictionary::getProperties, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //stardict.cc, //146
+Stardict::StardictDictionary::getResource, //0, //Abs62, //ottomann@yandex.ru, //20130325, //stardict.cc, //1131
+Stardict::StardictDictionary::getWordCount, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //stardict.cc, //152
+Stardict::StardictHeadwordsRequest::cancel, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090416, //stardict.cc, //607
+Stardict::StardictHeadwordsRequestRunnable::run, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090416, //stardict.cc, //619
+Stardict::StardictResourceRequest::cancel, //0, //Abs62, //ottomann@yandex.ru, //20130325, //stardict.cc, //1012
+Stardict::StardictResourceRequestRunnable::run, //0, //Abs62, //ottomann@yandex.ru, //20130325, //stardict.cc, //1024
+Stardict::ex64BitsNotSupported::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //stardict.cc, //62
+Stardict::exBadFieldInIfo::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //stardict.cc, //57
+Stardict::exCantReadFile::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //stardict.cc, //65
+Stardict::exDicttypeNotSupported::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //stardict.cc, //63
+Stardict::exIncorrectOffset::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //stardict.cc, //69
+Stardict::exNoDictFile::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //stardict.cc, //59
+Stardict::exNoIdxFile::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //stardict.cc, //58
+Stardict::exNoSynFile::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //stardict.cc, //60
+Stardict::exNotAnIfoFile::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //stardict.cc, //56
+Stardict::exSuddenEndOfFile::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //stardict.cc, //67
+Stardict::exWordIsTooLarge::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //stardict.cc, //66
+EditDictionaries::accept, //0, //Tvangeste, //i.4m.l33t@yandex.ru, //20110613, //editdictionaries.cc, //84
+WordList::setTranslateLine, //0, //Tvangeste, //i.4m.l33t@yandex.ru, //20130128, //wordlist.hh, //19
+Sdict::SdictArticleRequest::cancel, //0, //Abs62, //ottomann@yandex.ru, //20120209, //sdict.cc, //407
+Sdict::SdictArticleRequestRunnable::run, //0, //Abs62, //ottomann@yandex.ru, //20120209, //sdict.cc, //419
+Sdict::SdictDictionary::getArticle, //0, //Abs62, //ottomann@yandex.ru, //20120209, //sdict.cc, //538
+Sdict::SdictDictionary::getArticleCount, //0, //Abs62, //ottomann@yandex.ru, //20120209, //sdict.cc, //145
+Sdict::SdictDictionary::getName, //0, //Abs62, //ottomann@yandex.ru, //20120209, //sdict.cc, //139
+Sdict::SdictDictionary::getProperties, //0, //Abs62, //ottomann@yandex.ru, //20120209, //sdict.cc, //142
+Sdict::SdictDictionary::getWordCount, //0, //Abs62, //ottomann@yandex.ru, //20120209, //sdict.cc, //148
+Sdict::exCantReadFile::what, //0, //Abs62, //ottomann@yandex.ru, //20120209, //sdict.cc, //48
+Sdict::exNotDctFile::what, //0, //Abs62, //ottomann@yandex.ru, //20120209, //sdict.cc, //47
+Sdict::exSuddenEndOfFile::what, //0, //Abs62, //ottomann@yandex.ru, //20120209, //sdict.cc, //50
+Sdict::exWordIsTooLarge::what, //0, //Abs62, //ottomann@yandex.ru, //20120209, //sdict.cc, //49
+Dsl::DslArticleRequest::cancel, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090416, //dsl.cc, //1174
+Dsl::DslArticleRequestRunnable::run, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090416, //dsl.cc, //1186
+Dsl::DslDeferredInitRunnable::run, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090517, //dsl.cc, //296
+Dsl::DslDictionary::deferredInit, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090517, //dsl.cc, //302
+Dsl::DslDictionary::ensureInitDone, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090517, //dsl.cc, //322
+Dsl::DslDictionary::getArticle, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090416, //dsl.cc, //1319
+Dsl::DslDictionary::getArticleCount, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //dsl.cc, //177
+Dsl::DslDictionary::getName, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //dsl.cc, //171
+Dsl::DslDictionary::getProperties, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //dsl.cc, //174
+Dsl::DslDictionary::getResource, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090328, //dsl.cc, //1495
+Dsl::DslDictionary::getWordCount, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //dsl.cc, //180
+Dsl::DslDictionary::loadIcon, //0, //Abs62, //ottomann@yandex.ru, //20121203, //dsl.cc, //427
+Dsl::DslResourceRequest::cancel, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090328, //dsl.cc, //1375
+Dsl::DslResourceRequestRunnable::run, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090328, //dsl.cc, //1387
+Dsl::exCantReadFile::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //dsl.cc, //71
+MainTabWidget::tabInserted, //0, //Tvangeste, //i.4m.l33t@yandex.ru, //20110623, //maintabwidget.cc, //21
+MainTabWidget::tabRemoved, //0, //Tvangeste, //i.4m.l33t@yandex.ru, //20110623, //maintabwidget.cc, //30
+HunspellMorpho::HunspellArticleRequest::cancel, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090409, //hunspell.cc, //184
+HunspellMorpho::HunspellArticleRequestRunnable::run, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090409, //hunspell.cc, //196
+HunspellMorpho::HunspellDictionary::findHeadwordsForSynonym, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090409, //hunspell.cc, //525
+HunspellMorpho::HunspellDictionary::getArticle, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090529, //hunspell.cc, //301
+HunspellMorpho::HunspellDictionary::getArticleCount, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090409, //hunspell.cc, //54
+HunspellMorpho::HunspellDictionary::getName, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090409, //hunspell.cc, //48
+HunspellMorpho::HunspellDictionary::getProperties, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090409, //hunspell.cc, //51
+HunspellMorpho::HunspellDictionary::getWordCount, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090409, //hunspell.cc, //57
+HunspellMorpho::HunspellDictionary::isLocalDictionary, //0, //Abs62, //ottomann@yandex.ru, //20130609, //hunspell.cc, //72
+HunspellMorpho::HunspellDictionary::loadIcon, //0, //Abs62, //ottomann@yandex.ru, //20121207, //hunspell.cc, //114
+HunspellMorpho::HunspellDictionary::prefixMatch, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090409, //hunspell.cc, //639
+HunspellMorpho::HunspellHeadwordsRequest::cancel, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090409, //hunspell.cc, //359
+HunspellMorpho::HunspellHeadwordsRequestRunnable::run, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090409, //hunspell.cc, //376
+HunspellMorpho::HunspellPrefixMatchRequest::cancel, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090409, //hunspell.cc, //582
+HunspellMorpho::HunspellPrefixMatchRequestRunnable::run, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090409, //hunspell.cc, //594
+File::Ex::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //file.hh, //17
+File::exCantOpen::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //file.hh, //18
+File::exReadError::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //file.hh, //19
+File::exSeekError::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //file.hh, //21
+File::exWriteError::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //file.hh, //20
+Lsa::LsaDictionary::getArticle, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090326, //lsa.cc, //213
+Lsa::LsaDictionary::getArticleCount, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //lsa.cc, //170
+Lsa::LsaDictionary::getName, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090423, //lsa.cc, //189
+Lsa::LsaDictionary::getProperties, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //lsa.cc, //167
+Lsa::LsaDictionary::getResource, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090326, //lsa.cc, //387
+Lsa::LsaDictionary::getWordCount, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //lsa.cc, //173
+Lsa::LsaDictionary::loadIcon, //0, //Abs62, //ottomann@yandex.ru, //20121203, //lsa.cc, //487
+Lsa::exFailedToOpenVorbisData::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //lsa.cc, //42
+Lsa::exFailedToRetrieveVorbisInfo::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //lsa.cc, //44
+Lsa::exFailedToSeekInVorbisData::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //lsa.cc, //43
+Lsa::exInvalidData::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //lsa.cc, //41
+DictdFiles::DictdDictionary::getArticle, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090409, //dictdfiles.cc, //216
+DictdFiles::DictdDictionary::getArticleCount, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090409, //dictdfiles.cc, //103
+DictdFiles::DictdDictionary::getName, //0, //Tvangeste, //i.4m.l33t@yandex.ru, //20130313, //dictdfiles.cc, //97
+DictdFiles::DictdDictionary::getProperties, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090409, //dictdfiles.cc, //100
+DictdFiles::DictdDictionary::getWordCount, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090409, //dictdfiles.cc, //106
+DictdFiles::DictdDictionary::loadIcon, //0, //Julian Depetris Chauvin, //jdepetris@gmail.com, //20130131, //dictdfiles.cc, //177
+DictdFiles::exCantReadFile::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090409, //dictdfiles.cc, //44
+DictdFiles::exFailedToReadLineFromIndex::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090409, //dictdfiles.cc, //45
+DictdFiles::exInvalidBase64::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090409, //dictdfiles.cc, //47
+DictdFiles::exMalformedIndexFileLine::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090409, //dictdfiles.cc, //46
+Config::exCantReadConfigFile::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //config.hh, //522
+Config::exCantUseHomeDir::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //config.hh, //520
+Config::exCantUseIndexDir::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //config.hh, //521
+Config::exCantWriteConfigFile::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //config.hh, //523
+Config::exError::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //config.hh, //519
+Config::exMalformedConfigFile::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //config.hh, //524
+Bgl::BglArticleRequest::cancel, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090416, //bgl.cc, //604
+Bgl::BglArticleRequestRunnable::run, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090416, //bgl.cc, //619
+Bgl::BglDictionary::findHeadwordsForSynonym, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090416, //bgl.cc, //521
+Bgl::BglDictionary::getArticle, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090416, //bgl.cc, //830
+Bgl::BglDictionary::getArticleCount, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //bgl.cc, //231
+Bgl::BglDictionary::getName, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //bgl.cc, //225
+Bgl::BglDictionary::getProperties, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //bgl.cc, //228
+Bgl::BglDictionary::getResource, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090416, //bgl.cc, //976
+Bgl::BglDictionary::getWordCount, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //bgl.cc, //234
+Bgl::BglDictionary::loadIcon, //0, //Abs62, //ottomann@yandex.ru, //20121203, //bgl.cc, //300
+Bgl::BglHeadwordsRequest::cancel, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090416, //bgl.cc, //456
+Bgl::BglHeadwordsRequestRunnable::run, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090416, //bgl.cc, //468
+Bgl::BglResourceRequest::cancel, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090416, //bgl.cc, //894
+Bgl::BglResourceRequestRunnable::run, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090416, //bgl.cc, //906
+Bgl::ResourceHandler::handleBabylonResource, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //bgl.cc, //1033
+Bgl::exChunkIndexOutOfRange::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //bgl.cc, //210
+Bgl::exFailedToDecompressArticle::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //bgl.cc, //209
+LoadDictionaries::indexingDictionary, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090430, //loaddictionaries.cc, //205
+LoadDictionaries::run, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090430, //loaddictionaries.cc, //61
+InitSSLRunnable::run, //0, //Abs62, //ottomann@yandex.ru, //20130607, //mainwindow.cc, //57
+Programs::ProgramDataRequest::cancel, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20110604, //programs.cc, //258
+Programs::ProgramWordSearchRequest::cancel, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20110604, //programs.cc, //297
+Programs::ProgramsDictionary::getArticle, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20110604, //programs.cc, //73
+Programs::ProgramsDictionary::getArticleCount, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20110529, //programs.cc, //37
+Programs::ProgramsDictionary::getName, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20110529, //programs.cc, //31
+Programs::ProgramsDictionary::getProperties, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20110529, //programs.cc, //34
+Programs::ProgramsDictionary::getWordCount, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20110529, //programs.cc, //40
+Programs::ProgramsDictionary::loadIcon, //0, //Abs62, //ottomann@yandex.ru, //20121207, //programs.cc, //119
+Programs::ProgramsDictionary::prefixMatch, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20110604, //programs.cc, //57
+Dictionary::WebMultimediaDownload::cancel, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20100529, //webmultimediadownload.cc, //15
+WebSite::WebSiteDictionary::getArticle, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090529, //website.cc, //72
+WebSite::WebSiteDictionary::getArticleCount, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090516, //website.cc, //43
+WebSite::WebSiteDictionary::getName, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090516, //website.cc, //37
+WebSite::WebSiteDictionary::getProperties, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090516, //website.cc, //40
+WebSite::WebSiteDictionary::getWordCount, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090516, //website.cc, //46
+WebSite::WebSiteDictionary::loadIcon, //0, //Abs62, //ottomann@yandex.ru, //20121203, //website.cc, //143
+WebSite::WebSiteDictionary::prefixMatch, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20100622, //website.cc, //62
+MediaWiki::MediaWikiArticleRequest::cancel, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090326, //mediawiki.cc, //232
+MediaWiki::MediaWikiDictionary::getArticle, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090529, //mediawiki.cc, //410
+MediaWiki::MediaWikiDictionary::getArticleCount, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090326, //mediawiki.cc, //52
+MediaWiki::MediaWikiDictionary::getName, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090326, //mediawiki.cc, //46
+MediaWiki::MediaWikiDictionary::getProperties, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090326, //mediawiki.cc, //49
+MediaWiki::MediaWikiDictionary::getWordCount, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090326, //mediawiki.cc, //55
+MediaWiki::MediaWikiDictionary::loadIcon, //0, //Abs62, //ottomann@yandex.ru, //20121203, //mediawiki.cc, //77
+MediaWiki::MediaWikiDictionary::prefixMatch, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090326, //mediawiki.cc, //395
+MediaWiki::MediaWikiWordSearchRequest::cancel, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090326, //mediawiki.cc, //153
+MediaWiki::MediaWikiWordSearchRequest::downloadFinished, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090326, //mediawiki.cc, //171
+Utf8::exCantDecode::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //utf8.hh, //19
+Iconv::Ex::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //iconv.hh, //18
+Iconv::exCantInit::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //iconv.hh, //19
+Iconv::exIncorrectSeq::what, //0, //Abs62, //ottomann@yandex.ru, //20130924, //iconv.hh, //20
+Iconv::exOther::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //iconv.hh, //22
+Iconv::exPrematureEnd::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //iconv.hh, //21
+BtreeIndexing::BtreeDictionary::prefixMatch, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090326, //btreeidx.cc, //340
+BtreeIndexing::BtreeDictionary::stemmedMatch, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090417, //btreeidx.cc, //347
+BtreeIndexing::BtreeWordSearchRequest::cancel, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090326, //btreeidx.cc, //176
+BtreeIndexing::BtreeWordSearchRunnable::run, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090326, //btreeidx.cc, //188
+SoundDir::SoundDirDictionary::getArticle, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090404, //sounddir.cc, //125
+SoundDir::SoundDirDictionary::getArticleCount, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090404, //sounddir.cc, //87
+SoundDir::SoundDirDictionary::getName, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090404, //sounddir.cc, //81
+SoundDir::SoundDirDictionary::getProperties, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090404, //sounddir.cc, //84
+SoundDir::SoundDirDictionary::getResource, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090404, //sounddir.cc, //245
+SoundDir::SoundDirDictionary::getWordCount, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090404, //sounddir.cc, //90
+SoundDir::SoundDirDictionary::loadIcon, //0, //Julian Depetris Chauvin, //jdepetris@gmail.com, //20130202, //sounddir.cc, //229
+Aard::AardArticleRequest::cancel, //0, //Abs62, //ottomann@yandex.ru, //20120209, //aard.cc, //593
+Aard::AardArticleRequestRunnable::run, //0, //Abs62, //ottomann@yandex.ru, //20120209, //aard.cc, //605
+Aard::AardDictionary::getArticle, //0, //Abs62, //ottomann@yandex.ru, //20120209, //aard.cc, //718
+Aard::AardDictionary::getArticleCount, //0, //Abs62, //ottomann@yandex.ru, //20120209, //aard.cc, //245
+Aard::AardDictionary::getName, //0, //Abs62, //ottomann@yandex.ru, //20120209, //aard.cc, //239
+Aard::AardDictionary::getProperties, //0, //Abs62, //ottomann@yandex.ru, //20120209, //aard.cc, //242
+Aard::AardDictionary::getWordCount, //0, //Abs62, //ottomann@yandex.ru, //20120209, //aard.cc, //248
+Aard::AardDictionary::loadIcon, //0, //Abs62, //ottomann@yandex.ru, //20121203, //aard.cc, //312
+Aard::exCantReadFile::what, //0, //Abs62, //ottomann@yandex.ru, //20120209, //aard.cc, //48
+Aard::exNotDctFile::what, //0, //Abs62, //ottomann@yandex.ru, //20120209, //aard.cc, //47
+Aard::exSuddenEndOfFile::what, //0, //Abs62, //ottomann@yandex.ru, //20120209, //aard.cc, //50
+Aard::exWordIsTooLarge::what, //0, //Abs62, //ottomann@yandex.ru, //20120209, //aard.cc, //49
+ArticleResourceReply::abort, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //article_netmgr.hh, //71
+BlockedNetworkReply::abort, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090831, //article_netmgr.hh, //104
+Xdxf::GzippedFile::atEnd, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090429, //xdxf.cc, //634
+Xdxf::GzippedFile::isSequential, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090429, //xdxf.cc, //598
+Xdxf::XdxfArticleRequest::cancel, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090429, //xdxf.cc, //386
+Xdxf::XdxfArticleRequestRunnable::run, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090429, //xdxf.cc, //398
+Xdxf::XdxfDictionary::getArticle, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090429, //xdxf.cc, //520
+Xdxf::XdxfDictionary::getArticleCount, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090429, //xdxf.cc, //148
+Xdxf::XdxfDictionary::getName, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090429, //xdxf.cc, //142
+Xdxf::XdxfDictionary::getProperties, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090429, //xdxf.cc, //145
+Xdxf::XdxfDictionary::getResource, //0, //Abs62, //ottomann@yandex.ru, //20120131, //xdxf.cc, //1004
+Xdxf::XdxfDictionary::getWordCount, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090429, //xdxf.cc, //151
+Xdxf::XdxfResourceRequest::cancel, //0, //Abs62, //ottomann@yandex.ru, //20120131, //xdxf.cc, //884
+Xdxf::XdxfResourceRequestRunnable::run, //0, //Abs62, //ottomann@yandex.ru, //20120131, //xdxf.cc, //896
+Xdxf::exCantReadFile::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090429, //xdxf.cc, //61
+Xdxf::exCorruptedIndex::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090429, //xdxf.cc, //63
+Xdxf::exNotXdxfFile::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090429, //xdxf.cc, //62
+ChunkedStorage::Ex::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //chunkedstorage.hh, //28
+ChunkedStorage::exAddressOutOfRange::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //chunkedstorage.hh, //30
+ChunkedStorage::exFailedToCompressChunk::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //chunkedstorage.hh, //29
+ChunkedStorage::exFailedToDecompressChunk::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //chunkedstorage.hh, //31
+Dsl::Details::DslScanner::Ex::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //dsl_details.hh, //114
+Dsl::Details::DslScanner::exCantOpen::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //dsl_details.hh, //115
+Dsl::Details::DslScanner::exCantReadDslFile::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //dsl_details.hh, //116
+Dsl::Details::DslScanner::exEncodingError::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //dsl_details.hh, //119
+Dsl::Details::DslScanner::exMalformedDslFile::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //dsl_details.hh, //117
+Dsl::Details::DslScanner::exUnknownCodePage::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //dsl_details.hh, //118
+BtreeIndexing::BtreeDictionary::isLocalDictionary, //0, //Abs62, //ottomann@yandex.ru, //20130609, //btreeidx.hh, //158
+BtreeIndexing::exCorruptedChainData::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //btreeidx.hh, //41
+BtreeIndexing::exFailedToDecompressNode::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //btreeidx.hh, //40
+BtreeIndexing::exIndexWasNotOpened::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //btreeidx.hh, //39
+ExternalViewer::Ex::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //externalviewer.hh, //25
+ExternalViewer::exCantCreateTempFile::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //externalviewer.hh, //26
+ExternalViewer::exCantRunViewer::what, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //externalviewer.hh, //27

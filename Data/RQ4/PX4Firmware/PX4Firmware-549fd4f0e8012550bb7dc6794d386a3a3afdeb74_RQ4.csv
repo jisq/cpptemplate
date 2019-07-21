@@ -1,0 +1,87 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+control::UOrbSubscriptionBase, //4, //jgoppert, //james.goppert@gmail.com, //20130106, //src/modules/controllib/uorb/UOrbSubscription.hpp, //55
+control::UOrbPublicationBase, //3, //jgoppert, //james.goppert@gmail.com, //20130106, //src/modules/controllib/uorb/UOrbPublication.hpp, //55
+
+virtual function, calls, developer, email, edit time, definition file path, line
+MS5611::collect, //0, //px4dev, //px4@purgatory.org, //20130714, //src/drivers/ms5611/ms5611.cpp, //569
+MS5611::init, //0, //px4dev, //px4@purgatory.org, //20130714, //src/drivers/ms5611/ms5611.cpp, //233
+MS5611::ioctl, //0, //px4dev, //px4@purgatory.org, //20130714, //src/drivers/ms5611/ms5611.cpp, //339
+MS5611::measure, //0, //px4dev, //px4@purgatory.org, //20130714, //src/drivers/ms5611/ms5611.cpp, //545
+MS5611::read, //0, //px4dev, //px4@purgatory.org, //20130714, //src/drivers/ms5611/ms5611.cpp, //269
+MB12XX::init, //0, //Greg Hulands, //ghulands@me.com, //20130301, //src/drivers/mb12xx/mb12xx.cpp, //220
+MB12XX::ioctl, //0, //Greg Hulands, //ghulands@me.com, //20130301, //src/drivers/mb12xx/mb12xx.cpp, //280
+MB12XX::probe, //0, //Greg Hulands, //ghulands@me.com, //20130301, //src/drivers/mb12xx/mb12xx.cpp, //250
+MTK::configure, //0, //Julian Oes, //julian@oes.ch, //20130208, //src/drivers/gps/mtk.cpp, //63
+MTK::receive, //0, //Julian Oes, //julian@oes.ch, //20130208, //src/drivers/gps/mtk.cpp, //109
+UBX::configure, //0, //Julian Oes, //julian@oes.ch, //20130208, //src/drivers/gps/ubx.cpp, //80
+UBX::receive, //0, //Julian Oes, //julian@oes.ch, //20130208, //src/drivers/gps/ubx.cpp, //252
+LED::init, //0, //px4dev, //px4@purgatory.org, //20121031, //src/drivers/led/led.cpp, //80
+LED::ioctl, //0, //px4dev, //px4@purgatory.org, //20121031, //src/drivers/led/led.cpp, //89
+HMC5883::init, //0, //px4dev, //px4@purgatory.org, //20120821, //src/drivers/hmc5883/hmc5883.cpp, //367
+HMC5883::ioctl, //0, //px4dev, //px4@purgatory.org, //20120821, //src/drivers/hmc5883/hmc5883.cpp, //548
+HMC5883::probe, //0, //px4dev, //px4@purgatory.org, //20120821, //src/drivers/hmc5883/hmc5883.cpp, //467
+KalmanNav::updateParams, //0, //jgoppert, //james.goppert@gmail.com, //20130106, //src/modules/att_pos_estimator_ekf/KalmanNav.cpp, //747
+KalmanNav::updatePublications, //0, //jgoppert, //james.goppert@gmail.com, //20130106, //src/modules/att_pos_estimator_ekf/KalmanNav.cpp, //310
+ToneAlarm::init, //0, //px4dev, //px4@purgatory.org, //20121021, //src/drivers/stm32/tone_alarm/tone_alarm.cpp, //354
+PX4FMU::init, //0, //px4dev, //px4@purgatory.org, //20121027, //src/drivers/px4fmu/fmu.cpp, //269
+L3GD20::init, //0, //px4dev, //px4@purgatory.org, //20120827, //src/drivers/l3gd20/l3gd20.cpp, //367
+L3GD20::ioctl, //0, //px4dev, //px4@purgatory.org, //20120827, //src/drivers/l3gd20/l3gd20.cpp, //473
+L3GD20::probe, //0, //px4dev, //px4@purgatory.org, //20120827, //src/drivers/l3gd20/l3gd20.cpp, //397
+L3GD20::read, //0, //px4dev, //px4@purgatory.org, //20120827, //src/drivers/l3gd20/l3gd20.cpp, //431
+PX4IO::detect, //0, //Lorenz Meier, //lorenz@px4.io, //20130828, //src/drivers/px4io/px4io.cpp, //532
+PX4IO::init, //0, //px4dev, //px4@purgatory.org, //20120804, //src/drivers/px4io/px4io.cpp, //566
+Airspeed::init, //0, //Lorenz Meier, //lorenz@px4.io, //20130710, //src/drivers/airspeed/airspeed.cpp, //116
+Airspeed::ioctl, //0, //Lorenz Meier, //lorenz@px4.io, //20130710, //src/drivers/airspeed/airspeed.cpp, //158
+Airspeed::print_info, //0, //Lorenz Meier, //lorenz@px4.io, //20130710, //src/drivers/airspeed/airspeed.cpp, //366
+Airspeed::probe, //0, //Lorenz Meier, //lorenz@px4.io, //20130710, //src/drivers/airspeed/airspeed.cpp, //145
+MD25::probe, //0, //James Goppert, //james.goppert@gmail.com, //20130430, //src/drivers/md25/md25.cpp, //346
+BlinkM::init, //0, //px4dev, //px4@purgatory.org, //20121201, //src/drivers/blinkm/blinkm.cpp, //272
+BlinkM::ioctl, //0, //px4dev, //px4@purgatory.org, //20121201, //src/drivers/blinkm/blinkm.cpp, //320
+BlinkM::probe, //0, //px4dev, //px4@purgatory.org, //20121201, //src/drivers/blinkm/blinkm.cpp, //306
+BlinkM::setMode, //0, //Marco Bauer, //marco@wtns.de, //20130112, //src/drivers/blinkm/blinkm.cpp, //289
+ETSAirspeed::collect, //0, //Simon Wilks, //sjwilks@gmail.com, //20130423, //src/drivers/ets_airspeed/ets_airspeed.cpp, //141
+ETSAirspeed::cycle, //0, //Simon Wilks, //sjwilks@gmail.com, //20130423, //src/drivers/ets_airspeed/ets_airspeed.cpp, //203
+ETSAirspeed::measure, //0, //Simon Wilks, //sjwilks@gmail.com, //20130423, //src/drivers/ets_airspeed/ets_airspeed.cpp, //122
+RGBLED::info, //0, //px4dev, //px4@purgatory.org, //20130406, //src/drivers/rgbled/rgbled.cpp, //194
+RGBLED::init, //0, //px4dev, //px4@purgatory.org, //20130406, //src/drivers/rgbled/rgbled.cpp, //152
+RGBLED::ioctl, //0, //px4dev, //px4@purgatory.org, //20130406, //src/drivers/rgbled/rgbled.cpp, //215
+RGBLED::probe, //0, //px4dev, //px4@purgatory.org, //20130406, //src/drivers/rgbled/rgbled.cpp, //169
+ADC::close_last, //0, //px4dev, //px4@purgatory.org, //20121231, //src/drivers/stm32/adc/adc.cpp, //275
+ADC::init, //0, //px4dev, //px4@purgatory.org, //20121231, //src/drivers/stm32/adc/adc.cpp, //178
+ADC::open_first, //0, //px4dev, //px4@purgatory.org, //20121231, //src/drivers/stm32/adc/adc.cpp, //263
+HIL::init, //0, //Lorenz Meier, //lorenz@px4.io, //20121110, //src/drivers/hil/hil.cpp, //204
+BMA180::init, //0, //px4dev, //px4@purgatory.org, //20120804, //src/drivers/bma180/bma180.cpp, //271
+BMA180::ioctl, //0, //px4dev, //px4@purgatory.org, //20120804, //src/drivers/bma180/bma180.cpp, //383
+BMA180::probe, //0, //px4dev, //px4@purgatory.org, //20120804, //src/drivers/bma180/bma180.cpp, //330
+BMA180::read, //0, //px4dev, //px4@purgatory.org, //20120804, //src/drivers/bma180/bma180.cpp, //342
+GPS::init, //0, //Lorenz Meier, //lorenz@px4.io, //20130204, //src/drivers/gps/gps.cpp, //201
+GPS::ioctl, //0, //Lorenz Meier, //lorenz@px4.io, //20130204, //src/drivers/gps/gps.cpp, //223
+MK::init, //0, //marco, //marco@marcos-mbp.bauer.loc, //20130417, //src/drivers/mkblctrl/mkblctrl.cpp, //304
+MEASAirspeed::collect, //0, //Lorenz Meier, //lorenz@px4.io, //20130710, //src/drivers/meas_airspeed/meas_airspeed.cpp, //149
+MEASAirspeed::cycle, //0, //Lorenz Meier, //lorenz@px4.io, //20130710, //src/drivers/meas_airspeed/meas_airspeed.cpp, //233
+MEASAirspeed::measure, //0, //Lorenz Meier, //lorenz@px4.io, //20130710, //src/drivers/meas_airspeed/meas_airspeed.cpp, //131
+LSM303D::init, //0, //Lorenz Meier, //lorenz@px4.io, //20130404, //src/drivers/lsm303d/lsm303d.cpp, //568
+LSM303D::ioctl, //0, //Lorenz Meier, //lorenz@px4.io, //20130404, //src/drivers/lsm303d/lsm303d.cpp, //869
+LSM303D::mag_ioctl, //0, //Julian Oes, //julian@oes.ch, //20130405, //src/drivers/lsm303d/lsm303d.cpp, //1000
+LSM303D::mag_read, //0, //Julian Oes, //julian@oes.ch, //20130405, //src/drivers/lsm303d/lsm303d.cpp, //830
+LSM303D::probe, //0, //Lorenz Meier, //lorenz@px4.io, //20130404, //src/drivers/lsm303d/lsm303d.cpp, //661
+LSM303D::read, //0, //Lorenz Meier, //lorenz@px4.io, //20130404, //src/drivers/lsm303d/lsm303d.cpp, //792
+LSM303D_mag::init, //0, //Andrew Tridgell, //andrew@tridgell.net, //20131207, //src/drivers/lsm303d/lsm303d.cpp, //1701
+LSM303D_mag::ioctl, //0, //Julian Oes, //julian@oes.ch, //20130405, //src/drivers/lsm303d/lsm303d.cpp, //1735
+LSM303D_mag::read, //0, //Julian Oes, //julian@oes.ch, //20130405, //src/drivers/lsm303d/lsm303d.cpp, //1729
+MPU6000::gyro_ioctl, //0, //px4dev, //px4@purgatory.org, //20120813, //src/drivers/mpu6000/mpu6000.cpp, //952
+MPU6000::gyro_read, //0, //px4dev, //px4@purgatory.org, //20120813, //src/drivers/mpu6000/mpu6000.cpp, //767
+MPU6000::init, //0, //px4dev, //px4@purgatory.org, //20120813, //src/drivers/mpu6000/mpu6000.cpp, //443
+MPU6000::ioctl, //0, //px4dev, //px4@purgatory.org, //20120813, //src/drivers/mpu6000/mpu6000.cpp, //802
+MPU6000::probe, //0, //px4dev, //px4@purgatory.org, //20120813, //src/drivers/mpu6000/mpu6000.cpp, //598
+MPU6000::read, //0, //px4dev, //px4@purgatory.org, //20120813, //src/drivers/mpu6000/mpu6000.cpp, //671
+MPU6000_gyro::init, //0, //Andrew Tridgell, //andrew@tridgell.net, //20131207, //src/drivers/mpu6000/mpu6000.cpp, //1345
+MPU6000_gyro::ioctl, //0, //px4dev, //px4@purgatory.org, //20120813, //src/drivers/mpu6000/mpu6000.cpp, //1382
+MPU6000_gyro::read, //0, //px4dev, //px4@purgatory.org, //20120813, //src/drivers/mpu6000/mpu6000.cpp, //1376
+ORBDevMaster::ioctl, //0, //px4dev, //px4@purgatory.org, //20120804, //src/modules/uORB/uORB.cpp, //553
+ORBDevNode::close, //0, //px4dev, //px4@purgatory.org, //20120804, //src/modules/uORB/uORB.cpp, //243
+ORBDevNode::ioctl, //0, //px4dev, //px4@purgatory.org, //20120804, //src/modules/uORB/uORB.cpp, //346
+ORBDevNode::open, //0, //px4dev, //px4@purgatory.org, //20120804, //src/modules/uORB/uORB.cpp, //182
+ORBDevNode::read, //0, //px4dev, //px4@purgatory.org, //20120804, //src/modules/uORB/uORB.cpp, //262
+ORBDevNode::write, //0, //px4dev, //px4@purgatory.org, //20120804, //src/modules/uORB/uORB.cpp, //298
+StateMachineHelperTest::run_tests, //0, //Simon Wilks, //sjwilks@gmail.com, //20130825, //src/modules/commander/commander_tests/state_machine_helper_test.cpp, //232

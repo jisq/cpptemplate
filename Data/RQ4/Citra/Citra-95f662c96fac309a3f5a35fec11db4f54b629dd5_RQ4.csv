@@ -1,0 +1,142 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+Loader::AppLoader_ELF::Load, //0, //bunnei, //bunneidev@gmail.com, //20140619, //src/core/loader/elf.cpp, //348
+GRenderWindow::DoneCurrent, //0, //Mathieu Vaillancourt, //vaillancourtm@gmail.com, //20140331, //src/citra_qt/bootmanager.cpp, //192
+GRenderWindow::MakeCurrent, //0, //Mathieu Vaillancourt, //vaillancourtm@gmail.com, //20140331, //src/citra_qt/bootmanager.cpp, //187
+GRenderWindow::PollEvents, //0, //Mathieu Vaillancourt, //vaillancourtm@gmail.com, //20140331, //src/citra_qt/bootmanager.cpp, //197
+GRenderWindow::SwapBuffers, //0, //Mathieu Vaillancourt, //vaillancourtm@gmail.com, //20140331, //src/citra_qt/bootmanager.cpp, //174
+Service::Interface::GetPortName, //0, //Lioncash, //mathew1800@gmail.com, //20140817, //src/core/hle/service/service.h, //60
+NDM_U::Interface::GetPortName, //0, //Lioncash, //mathew1800@gmail.com, //20140817, //src/core/hle/service/ndm.h, //27
+Kernel::Event::GetHandleType, //0, //bunnei, //bunneidev@gmail.com, //20140527, //src/core/hle/kernel/event.cpp, //23
+Kernel::Event::GetName, //0, //Lioncash, //mathew1800@gmail.com, //20140817, //src/core/hle/kernel/event.cpp, //20
+Kernel::Event::GetTypeName, //0, //Lioncash, //mathew1800@gmail.com, //20140817, //src/core/hle/kernel/event.cpp, //19
+Kernel::Event::WaitSynchronization, //0, //bunnei, //bunneidev@gmail.com, //20140527, //src/core/hle/kernel/event.cpp, //38
+Kernel::Object::GetName, //0, //Lioncash, //mathew1800@gmail.com, //20140817, //src/core/hle/kernel/kernel.h, //51
+Kernel::Object::GetTypeName, //0, //Lioncash, //mathew1800@gmail.com, //20140817, //src/core/hle/kernel/kernel.h, //50
+Kernel::Archive::GetHandleType, //0, //bunnei, //bunneidev@gmail.com, //20140625, //src/core/hle/kernel/archive.cpp, //49
+Kernel::Archive::GetName, //0, //Lioncash, //mathew1800@gmail.com, //20140817, //src/core/hle/kernel/archive.cpp, //46
+Kernel::Archive::GetTypeName, //0, //Lioncash, //mathew1800@gmail.com, //20140817, //src/core/hle/kernel/archive.cpp, //45
+Kernel::Archive::SyncRequest, //0, //bunnei, //bunneidev@gmail.com, //20140627, //src/core/hle/kernel/archive.cpp, //59
+Kernel::Archive::WaitSynchronization, //0, //bunnei, //bunneidev@gmail.com, //20140625, //src/core/hle/kernel/archive.cpp, //122
+Kernel::Directory::GetHandleType, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/hle/kernel/archive.cpp, //219
+Kernel::Directory::GetName, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/hle/kernel/archive.cpp, //216
+Kernel::Directory::GetTypeName, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/hle/kernel/archive.cpp, //215
+Kernel::Directory::SyncRequest, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/hle/kernel/archive.cpp, //229
+Kernel::Directory::WaitSynchronization, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/hle/kernel/archive.cpp, //269
+Kernel::File::GetHandleType, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/hle/kernel/archive.cpp, //135
+Kernel::File::GetName, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/hle/kernel/archive.cpp, //132
+Kernel::File::GetTypeName, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/hle/kernel/archive.cpp, //131
+Kernel::File::SyncRequest, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/hle/kernel/archive.cpp, //145
+Kernel::File::WaitSynchronization, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/hle/kernel/archive.cpp, //206
+Kernel::Object::SyncRequest, //0, //bunnei, //bunneidev@gmail.com, //20140605, //src/core/hle/kernel/kernel.h, //59
+FileSys::Archive_RomFS::GetIdCode, //0, //bunnei, //bunneidev@gmail.com, //20140704, //src/core/file_sys/archive_romfs.h, //29
+FileSys::Archive_RomFS::GetSize, //0, //bunnei, //bunneidev@gmail.com, //20140627, //src/core/file_sys/archive_romfs.cpp, //75
+FileSys::Archive_RomFS::OpenDirectory, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/archive_romfs.cpp, //41
+FileSys::Archive_RomFS::OpenFile, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/archive_romfs.cpp, //32
+FileSys::Archive_RomFS::Read, //0, //bunnei, //bunneidev@gmail.com, //20140627, //src/core/file_sys/archive_romfs.cpp, //52
+FileSys::Archive_RomFS::SetSize, //0, //archshift, //gh@archshift.com, //20140820, //src/core/file_sys/archive_romfs.cpp, //82
+FileSys::Archive_RomFS::Write, //0, //archshift, //gh@archshift.com, //20140820, //src/core/file_sys/archive_romfs.cpp, //66
+Service::Interface::GetHandleType, //0, //bunnei, //bunneidev@gmail.com, //20140520, //src/core/hle/service/service.h, //46
+Service::Interface::GetName, //0, //Lioncash, //mathew1800@gmail.com, //20140817, //src/core/hle/service/service.h, //42
+Service::Interface::GetTypeName, //0, //Lioncash, //mathew1800@gmail.com, //20140817, //src/core/hle/service/service.h, //43
+Service::Interface::SyncRequest, //0, //bunnei, //bunneidev@gmail.com, //20140526, //src/core/hle/service/service.h, //83
+Service::Interface::WaitSynchronization, //0, //bunnei, //bunneidev@gmail.com, //20140526, //src/core/hle/service/service.h, //116
+GPUCommandStreamItemModel::GXCommandProcessed, //0, //Tony Wasserka, //neobrainx@gmail.com, //20140517, //src/citra_qt/debugger/graphics.cpp, //57
+GraphicsDebugger::DebuggerObserver::GXCommandProcessed, //0, //Tony Wasserka, //neobrainx@gmail.com, //20140517, //src/video_core/gpu_debugger.h, //39
+APT_U::Interface::GetPortName, //0, //Lioncash, //mathew1800@gmail.com, //20140817, //src/core/hle/service/apt.h, //32
+HID_User::Interface::GetPortName, //0, //Lioncash, //mathew1800@gmail.com, //20140817, //src/core/hle/service/hid.h, //114
+RendererOpenGL::Init, //0, //bunnei, //bunneidev@gmail.com, //20140406, //src/video_core/renderer_opengl/renderer_opengl.cpp, //247
+RendererOpenGL::SetWindow, //0, //bunnei, //bunneidev@gmail.com, //20140406, //src/video_core/renderer_opengl/renderer_opengl.cpp, //242
+RendererOpenGL::ShutDown, //0, //bunnei, //bunneidev@gmail.com, //20140406, //src/video_core/renderer_opengl/renderer_opengl.cpp, //273
+RendererOpenGL::SwapBuffers, //0, //bunnei, //bunneidev@gmail.com, //20140406, //src/video_core/renderer_opengl/renderer_opengl.cpp, //71
+Kernel::Mutex::GetHandleType, //0, //bunnei, //bunneidev@gmail.com, //20140520, //src/core/hle/kernel/mutex.cpp, //22
+Kernel::Mutex::GetName, //0, //Lioncash, //mathew1800@gmail.com, //20140817, //src/core/hle/kernel/mutex.cpp, //19
+Kernel::Mutex::GetTypeName, //0, //Lioncash, //mathew1800@gmail.com, //20140817, //src/core/hle/kernel/mutex.cpp, //18
+Kernel::Mutex::SyncRequest, //0, //bunnei, //bunneidev@gmail.com, //20140526, //src/core/hle/kernel/mutex.cpp, //35
+Kernel::Mutex::WaitSynchronization, //0, //bunnei, //bunneidev@gmail.com, //20140526, //src/core/hle/kernel/mutex.cpp, //46
+ConsoleListener::Log, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/console_listener.cpp, //241
+FileSys::Archive_SDMC::GetIdCode, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/archive_sdmc.h, //29
+FileSys::Archive_SDMC::GetSize, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/archive_sdmc.cpp, //88
+FileSys::Archive_SDMC::OpenDirectory, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/archive_sdmc.cpp, //53
+FileSys::Archive_SDMC::OpenFile, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/archive_sdmc.cpp, //42
+FileSys::Archive_SDMC::Read, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/archive_sdmc.cpp, //66
+FileSys::Archive_SDMC::SetSize, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/archive_sdmc.cpp, //96
+FileSys::Archive_SDMC::Write, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/archive_sdmc.cpp, //79
+DebuggerLogListener::Log, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/log_manager.cpp, //193
+FileLogListener::Log, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/log_manager.cpp, //184
+FileSys::Directory_RomFS::Close, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/directory_romfs.cpp, //34
+FileSys::Directory_RomFS::Read, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/directory_romfs.cpp, //26
+FileSys::File_SDMC::Close, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/file_sdmc.cpp, //59
+FileSys::File_SDMC::GetSize, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/file_sdmc.cpp, //55
+FileSys::File_SDMC::Read, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/file_sdmc.cpp, //42
+FileSys::File_SDMC::Write, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/file_sdmc.cpp, //47
+ARM_Interpreter::ExecuteInstructions, //0, //bunnei, //bunneidev@gmail.com, //20140517, //src/core/arm/interpreter/arm_interpreter.cpp, //104
+ARM_Interpreter::GetCPSR, //0, //bunnei, //bunneidev@gmail.com, //20140408, //src/core/arm/interpreter/arm_interpreter.cpp, //80
+ARM_Interpreter::GetPC, //0, //bunnei, //bunneidev@gmail.com, //20140408, //src/core/arm/interpreter/arm_interpreter.cpp, //54
+ARM_Interpreter::GetReg, //0, //bunnei, //bunneidev@gmail.com, //20140408, //src/core/arm/interpreter/arm_interpreter.cpp, //63
+ARM_Interpreter::GetTicks, //0, //bunnei, //bunneidev@gmail.com, //20140408, //src/core/arm/interpreter/arm_interpreter.cpp, //96
+ARM_Interpreter::LoadContext, //0, //bunnei, //bunneidev@gmail.com, //20140520, //src/core/arm/interpreter/arm_interpreter.cpp, //135
+ARM_Interpreter::PrepareReschedule, //0, //bunnei, //bunneidev@gmail.com, //20140601, //src/core/arm/interpreter/arm_interpreter.cpp, //152
+ARM_Interpreter::SaveContext, //0, //bunnei, //bunneidev@gmail.com, //20140520, //src/core/arm/interpreter/arm_interpreter.cpp, //114
+ARM_Interpreter::SetCPSR, //0, //bunnei, //bunneidev@gmail.com, //20140511, //src/core/arm/interpreter/arm_interpreter.cpp, //88
+ARM_Interpreter::SetPC, //0, //bunnei, //bunneidev@gmail.com, //20140404, //src/core/arm/interpreter/arm_interpreter.cpp, //46
+ARM_Interpreter::SetReg, //0, //bunnei, //bunneidev@gmail.com, //20140410, //src/core/arm/interpreter/arm_interpreter.cpp, //72
+FileSys::Directory_SDMC::Close, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/directory_sdmc.cpp, //82
+FileSys::Directory_SDMC::Read, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/directory_sdmc.cpp, //37
+FS_User::Interface::GetPortName, //0, //Lioncash, //mathew1800@gmail.com, //20140817, //src/core/hle/service/fs.h, //26
+Loader::AppLoader_NCCH::Load, //0, //bunnei, //bunneidev@gmail.com, //20140619, //src/core/loader/ncch.cpp, //196
+Kernel::Thread::GetHandleType, //0, //bunnei, //bunneidev@gmail.com, //20140520, //src/core/hle/kernel/thread.cpp, //28
+Kernel::Thread::GetName, //0, //Lioncash, //mathew1800@gmail.com, //20140817, //src/core/hle/kernel/thread.cpp, //24
+Kernel::Thread::GetTypeName, //0, //Lioncash, //mathew1800@gmail.com, //20140817, //src/core/hle/kernel/thread.cpp, //25
+Kernel::Thread::WaitSynchronization, //0, //bunnei, //bunneidev@gmail.com, //20140526, //src/core/hle/kernel/thread.cpp, //41
+Kernel::SharedMemory::GetHandleType, //0, //bunnei, //bunneidev@gmail.com, //20140705, //src/core/hle/kernel/shared_memory.cpp, //17
+Kernel::SharedMemory::GetTypeName, //0, //Lioncash, //mathew1800@gmail.com, //20140817, //src/core/hle/kernel/shared_memory.cpp, //14
+Kernel::SharedMemory::WaitSynchronization, //0, //bunnei, //bunneidev@gmail.com, //20140705, //src/core/hle/kernel/shared_memory.cpp, //24
+DebugInterface::breakNow, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //31
+DebugInterface::clearAllBreakpoints, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //19
+DebugInterface::clearBreakpoint, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //18
+DebugInterface::disasm, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //12
+DebugInterface::getColor, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //34
+DebugInterface::getInstructionSize, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //14
+DebugInterface::getPC, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //27
+DebugInterface::getRawMemoryString, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //13
+DebugInterface::insertBLR, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //32
+DebugInterface::isAlive, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //15
+DebugInterface::isBreakpoint, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //16
+DebugInterface::isMemCheck, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //21
+DebugInterface::readExtraMemory, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //25
+DebugInterface::readInstruction, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //26
+DebugInterface::readMemory, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //23
+DebugInterface::runToBreakpoint, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //30
+DebugInterface::setBreakpoint, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //17
+DebugInterface::setPC, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //28
+DebugInterface::showJitResults, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //33
+DebugInterface::step, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //29
+DebugInterface::toggleBreakpoint, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //20
+DebugInterface::toggleMemCheck, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //22
+DebugInterface::writeExtraMemory, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/debug_interface.h, //24
+EmuWindow_GLFW::DoneCurrent, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/citra/emu_window/emu_window_glfw.cpp, //111
+EmuWindow_GLFW::MakeCurrent, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/citra/emu_window/emu_window_glfw.cpp, //106
+EmuWindow_GLFW::PollEvents, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/citra/emu_window/emu_window_glfw.cpp, //101
+EmuWindow_GLFW::SwapBuffers, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/citra/emu_window/emu_window_glfw.cpp, //96
+Loader::AppLoader::ReadBanner, //0, //bunnei, //bunneidev@gmail.com, //20140704, //src/core/loader/loader.h, //74
+Loader::AppLoader::ReadCode, //0, //bunnei, //bunneidev@gmail.com, //20140704, //src/core/loader/loader.h, //56
+Loader::AppLoader::ReadIcon, //0, //bunnei, //bunneidev@gmail.com, //20140704, //src/core/loader/loader.h, //65
+Loader::AppLoader::ReadLogo, //0, //bunnei, //bunneidev@gmail.com, //20140704, //src/core/loader/loader.h, //83
+Loader::AppLoader::ReadRomFS, //0, //bunnei, //bunneidev@gmail.com, //20140704, //src/core/loader/loader.h, //92
+Loader::AppLoader_NCCH::ReadBanner, //0, //bunnei, //bunneidev@gmail.com, //20140704, //src/core/loader/ncch.cpp, //274
+Loader::AppLoader_NCCH::ReadCode, //0, //bunnei, //bunneidev@gmail.com, //20140704, //src/core/loader/ncch.cpp, //256
+Loader::AppLoader_NCCH::ReadIcon, //0, //bunnei, //bunneidev@gmail.com, //20140704, //src/core/loader/ncch.cpp, //265
+Loader::AppLoader_NCCH::ReadLogo, //0, //bunnei, //bunneidev@gmail.com, //20140704, //src/core/loader/ncch.cpp, //283
+Loader::AppLoader_NCCH::ReadRomFS, //0, //bunnei, //bunneidev@gmail.com, //20140704, //src/core/loader/ncch.cpp, //292
+GSP_GPU::Interface::GetPortName, //0, //Lioncash, //mathew1800@gmail.com, //20140817, //src/core/hle/service/gsp.h, //170
+FileSys::File_RomFS::Close, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/file_romfs.cpp, //55
+FileSys::File_RomFS::GetSize, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/file_romfs.cpp, //47
+FileSys::File_RomFS::Read, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/file_romfs.cpp, //27
+FileSys::File_RomFS::Write, //0, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/core/file_sys/file_romfs.cpp, //39
+SRV::Interface::GetPortName, //0, //Lioncash, //mathew1800@gmail.com, //20140817, //src/core/hle/service/srv.h, //25
+Kernel::AddressArbiter::GetHandleType, //0, //bunnei, //bunneidev@gmail.com, //20140706, //src/core/hle/kernel/address_arbiter.cpp, //24
+Kernel::AddressArbiter::GetName, //0, //Lioncash, //mathew1800@gmail.com, //20140817, //src/core/hle/kernel/address_arbiter.cpp, //21
+Kernel::AddressArbiter::GetTypeName, //0, //Lioncash, //mathew1800@gmail.com, //20140817, //src/core/hle/kernel/address_arbiter.cpp, //20
+Kernel::AddressArbiter::WaitSynchronization, //0, //bunnei, //bunneidev@gmail.com, //20140706, //src/core/hle/kernel/address_arbiter.cpp, //33

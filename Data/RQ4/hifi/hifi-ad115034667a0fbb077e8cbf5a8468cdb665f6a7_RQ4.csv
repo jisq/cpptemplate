@@ -1,0 +1,461 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+AudioFilterHSF, //3, //Craig Hansen-Sturm, //chansensturm@comcast.net, //20140828, //libraries/audio/src/AudioFilter.h, //201
+AudioFilterLSF, //3, //Craig Hansen-Sturm, //chansensturm@comcast.net, //20140828, //libraries/audio/src/AudioFilter.h, //160
+AudioFilterPEQ, //7, //Craig Hansen-Sturm, //chansensturm@comcast.net, //20140828, //libraries/audio/src/AudioFilter.h, //278
+AudioFilterALL, //1, //Craig Hansen-Sturm, //chansensturm@comcast.net, //20140828, //libraries/audio/src/AudioFilter.h, //242
+
+virtual function, calls, developer, email, edit time, definition file path, line
+ScriptUndoCommand::redo, //0, //Ryan Huffman, //ryanhuffman@gmail.com, //20141022, //libraries/script-engine/src/UndoStackScriptingInterface.cpp, //44
+ScriptUndoCommand::undo, //0, //Ryan Huffman, //ryanhuffman@gmail.com, //20141022, //libraries/script-engine/src/UndoStackScriptingInterface.cpp, //40
+RenderableSphereEntityItem::render, //0, //ZappoMan, //bradh@konamoxt.com, //20140820, //libraries/entities-renderer/src/RenderableSphereEntityItem.cpp, //26
+EntityItem::render, //0, //ZappoMan, //bradh@konamoxt.com, //20140820, //libraries/entities/src/EntityItem.h, //123
+Resource::reinsert, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140310, //libraries/networking/src/ResourceCache.cpp, //309
+DilatableNetworkTexture::reinsert, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140310, //libraries/render-utils/src/TextureCache.cpp, //631
+ImageReader::run, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140228, //libraries/render-utils/src/TextureCache.cpp, //445
+Referential::packExtraData, //0, //Atlante45, //clement.brisset@gmail.com, //20140804, //libraries/avatars/src/Referential.cpp, //96
+Referential::unpackExtraData, //0, //Atlante45, //clement.brisset@gmail.com, //20140804, //libraries/avatars/src/Referential.cpp, //103
+Referential::update, //0, //Atlante45, //clement.brisset@gmail.com, //20140731, //libraries/avatars/src/Referential.h, //44
+JointReferential::packExtraData, //0, //Atlante45, //clement.brisset@gmail.com, //20140805, //interface/src/avatar/ModelReferential.cpp, //173
+JointReferential::unpackExtraData, //0, //Atlante45, //clement.brisset@gmail.com, //20140805, //interface/src/avatar/ModelReferential.cpp, //183
+JointReferential::update, //0, //Atlante45, //clement.brisset@gmail.com, //20140730, //interface/src/avatar/ModelReferential.cpp, //140
+ModelReferential::packExtraData, //0, //Atlante45, //clement.brisset@gmail.com, //20140804, //interface/src/avatar/ModelReferential.cpp, //86
+ModelReferential::unpackExtraData, //0, //Atlante45, //clement.brisset@gmail.com, //20140804, //interface/src/avatar/ModelReferential.cpp, //92
+ModelReferential::update, //0, //Atlante45, //clement.brisset@gmail.com, //20140730, //interface/src/avatar/ModelReferential.cpp, //62
+GenericThread::terminating, //0, //ZappoMan, //bradh@konamoxt.com, //20140311, //libraries/shared/src/GenericThread.h, //39
+PacketSender::process, //0, //ZappoMan, //bradh@konamoxt.com, //20130812, //libraries/networking/src/PacketSender.cpp, //68
+PacketSender::terminating, //0, //ZappoMan, //bradh@konamoxt.com, //20140311, //libraries/networking/src/PacketSender.cpp, //75
+NetworkPeer::setLocalSocket, //0, //Stephen Birarda, //commit@birarda.com, //20141002, //libraries/networking/src/NetworkPeer.h, //44
+NetworkPeer::setPublicSocket, //0, //Stephen Birarda, //commit@birarda.com, //20141002, //libraries/networking/src/NetworkPeer.h, //42
+Node::setLocalSocket, //0, //Stephen Birarda, //commit@birarda.com, //20141002, //libraries/networking/src/Node.cpp, //86
+Node::setPublicSocket, //0, //Stephen Birarda, //commit@birarda.com, //20141002, //libraries/networking/src/Node.cpp, //71
+Node::setSymmetricSocket, //0, //Stephen Birarda, //commit@birarda.com, //20141002, //libraries/networking/src/Node.cpp, //101
+BillboardOverlay::createClone, //0, //Thijs Wenker, //me@thoys.nl, //20141115, //interface/src/ui/overlays/BillboardOverlay.cpp, //219
+BillboardOverlay::render, //0, //ZappoMan, //bradh@konamoxt.com, //20141029, //interface/src/ui/overlays/BillboardOverlay.cpp, //36
+SimpleEntitySimulation::addEntityInternal, //0, //Andrew Meadows, //andrew@highfidelity.io, //20141205, //libraries/entities/src/SimpleEntitySimulation.cpp, //32
+SimpleEntitySimulation::clearEntitiesInternal, //0, //Andrew Meadows, //andrew@highfidelity.io, //20141205, //libraries/entities/src/SimpleEntitySimulation.cpp, //62
+SimpleEntitySimulation::entityChangedInternal, //0, //Andrew Meadows, //andrew@highfidelity.io, //20141205, //libraries/entities/src/SimpleEntitySimulation.cpp, //47
+SimpleEntitySimulation::removeEntityInternal, //0, //Andrew Meadows, //andrew@highfidelity.io, //20141205, //libraries/entities/src/SimpleEntitySimulation.cpp, //40
+ThreadedAssignment::aboutToFinish, //0, //ZappoMan, //bradh@konamoxt.com, //20140318, //libraries/networking/src/ThreadedAssignment.h, //25
+ThreadedAssignment::sendStatsPacket, //0, //Stephen Birarda, //commit@birarda.com, //20140324, //libraries/networking/src/ThreadedAssignment.cpp, //92
+Sphere3DOverlay::createClone, //0, //Thijs Wenker, //me@thoys.nl, //20141115, //interface/src/ui/overlays/Sphere3DOverlay.cpp, //73
+Sphere3DOverlay::render, //0, //ZappoMan, //bradh@konamoxt.com, //20141029, //interface/src/ui/overlays/Sphere3DOverlay.cpp, //31
+ChatMessageArea::wheelEvent, //0, //Ryan Huffman, //ryanhuffman@gmail.com, //20140412, //interface/src/ui/ChatMessageArea.cpp, //54
+RecurseOctreeToMapOperator::postRecursion, //0, //Seth Alves, //seth.alves@gmail.com, //20150316, //libraries/entities/src/RecurseOctreeToMapOperator.cpp, //37
+RecurseOctreeToMapOperator::preRecursion, //0, //Seth Alves, //seth.alves@gmail.com, //20150316, //libraries/entities/src/RecurseOctreeToMapOperator.cpp, //30
+EntitySimulation::sortEntitiesThatMovedInternal, //0, //Andrew Meadows, //andrew@highfidelity.io, //20141212, //libraries/entities/src/EntitySimulation.h, //83
+EntityItem::appendSubclassData, //0, //ZappoMan, //bradh@konamoxt.com, //20140808, //libraries/entities/src/EntityItem.h, //105
+EntityItem::debugDump, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityItem.cpp, //597
+EntityItem::getEntityProperties, //0, //ZappoMan, //bradh@konamoxt.com, //20140810, //libraries/entities/src/EntityItem.cpp, //100
+EntityItem::getProperties, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityItem.cpp, //814
+EntityItem::needsToCallUpdate, //0, //Andrew Meadows, //andrew@highfidelity.io, //20141208, //libraries/entities/src/EntityItem.h, //137
+EntityItem::readEntitySubclassDataFromBuffer, //0, //ZappoMan, //bradh@konamoxt.com, //20140808, //libraries/entities/src/EntityItem.h, //118
+EntityItem::setProperties, //0, //Andrew Meadows, //andrew@highfidelity.io, //20141218, //libraries/entities/src/EntityItem.cpp, //848
+EntityItem::updateShapeType, //0, //Andrew Meadows, //andrew@highfidelity.io, //20150209, //libraries/entities/src/EntityItem.h, //288
+ModelEntityItem::appendSubclassData, //0, //ZappoMan, //bradh@konamoxt.com, //20140808, //libraries/entities/src/ModelEntityItem.cpp, //155
+ModelEntityItem::debugDump, //0, //ZappoMan, //bradh@konamoxt.com, //20140826, //libraries/entities/src/ModelEntityItem.cpp, //268
+ModelEntityItem::getEntityProperties, //0, //ZappoMan, //bradh@konamoxt.com, //20140810, //libraries/entities/src/ModelEntityItem.cpp, //138
+ModelEntityItem::getProperties, //0, //ZappoMan, //bradh@konamoxt.com, //20140804, //libraries/entities/src/ModelEntityItem.cpp, //44
+ModelEntityItem::getShapeType, //0, //Andrew Meadows, //andrew@highfidelity.io, //20150211, //libraries/entities/src/ModelEntityItem.h, //52
+ModelEntityItem::needsToCallUpdate, //0, //Andrew Meadows, //andrew@highfidelity.io, //20141205, //libraries/entities/src/ModelEntityItem.cpp, //252
+ModelEntityItem::readEntitySubclassDataFromBuffer, //0, //ZappoMan, //bradh@konamoxt.com, //20140808, //libraries/entities/src/ModelEntityItem.cpp, //90
+ModelEntityItem::setProperties, //0, //Andrew Meadows, //andrew@highfidelity.io, //20141218, //libraries/entities/src/ModelEntityItem.cpp, //61
+ModelEntityItem::updateShapeType, //0, //Andrew Meadows, //andrew@highfidelity.io, //20150209, //libraries/entities/src/ModelEntityItem.cpp, //277
+AudioMixer::readPendingDatagrams, //0, //Stephen Birarda, //commit@birarda.com, //20140814, //assignment-client/src/audio/AudioMixer.h, //36
+AudioMixer::sendStatsPacket, //0, //Stephen Birarda, //commit@birarda.com, //20140324, //assignment-client/src/audio/AudioMixer.cpp, //567
+FileLogger::locateLog, //0, //Stojce Slavkovski, //stojce@me.com, //20131223, //interface/src/FileLogger.cpp, //48
+EntityItem::getShapeType, //0, //Andrew Meadows, //andrew@highfidelity.io, //20150208, //libraries/entities/src/EntityItem.h, //267
+EntityItem::supportsDetailedRayIntersection, //0, //ZappoMan, //bradh@konamoxt.com, //20141202, //libraries/entities/src/EntityItem.h, //141
+SphereEntityItem::appendSubclassData, //0, //ZappoMan, //bradh@konamoxt.com, //20140820, //libraries/entities/src/SphereEntityItem.cpp, //82
+SphereEntityItem::debugDump, //0, //ZappoMan, //bradh@konamoxt.com, //20150127, //libraries/entities/src/SphereEntityItem.cpp, //121
+SphereEntityItem::getEntityProperties, //0, //ZappoMan, //bradh@konamoxt.com, //20140820, //libraries/entities/src/SphereEntityItem.cpp, //76
+SphereEntityItem::getProperties, //0, //ZappoMan, //bradh@konamoxt.com, //20140820, //libraries/entities/src/SphereEntityItem.cpp, //38
+SphereEntityItem::getShapeType, //0, //Andrew Meadows, //andrew@highfidelity.io, //20150211, //libraries/entities/src/SphereEntityItem.h, //56
+SphereEntityItem::pureVirtualFunctionPlaceHolder, //0, //ZappoMan, //bradh@konamoxt.com, //20140820, //libraries/entities/src/SphereEntityItem.h, //23
+SphereEntityItem::readEntitySubclassDataFromBuffer, //0, //ZappoMan, //bradh@konamoxt.com, //20140820, //libraries/entities/src/SphereEntityItem.cpp, //62
+SphereEntityItem::setProperties, //0, //Andrew Meadows, //andrew@highfidelity.io, //20141218, //libraries/entities/src/SphereEntityItem.cpp, //44
+SphereEntityItem::supportsDetailedRayIntersection, //0, //ZappoMan, //bradh@konamoxt.com, //20141204, //libraries/entities/src/SphereEntityItem.h, //58
+UpdateEntityOperator::possiblyCreateChildAt, //0, //ZappoMan, //bradh@konamoxt.com, //20140903, //libraries/entities/src/UpdateEntityOperator.cpp, //351
+UpdateEntityOperator::postRecursion, //0, //ZappoMan, //bradh@konamoxt.com, //20140903, //libraries/entities/src/UpdateEntityOperator.cpp, //319
+UpdateEntityOperator::preRecursion, //0, //ZappoMan, //bradh@konamoxt.com, //20140903, //libraries/entities/src/UpdateEntityOperator.cpp, //181
+RecurseOctreeOperator::possiblyCreateChildAt, //0, //ZappoMan, //bradh@konamoxt.com, //20140903, //libraries/octree/src/Octree.h, //46
+OctreeElement::addChildAtIndex, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/octree/src/OctreeElement.cpp, //1140
+OctreeElement::calculateAverageFromChildren, //0, //ZappoMan, //bradh@konamoxt.com, //20131205, //libraries/octree/src/OctreeElement.h, //70
+OctreeElement::canRayIntersect, //0, //ZappoMan, //bradh@konamoxt.com, //20140523, //libraries/octree/src/OctreeElement.h, //119
+OctreeElement::deleteApproved, //0, //ZappoMan, //bradh@konamoxt.com, //20131211, //libraries/octree/src/OctreeElement.h, //117
+OctreeElement::hasContent, //0, //ZappoMan, //bradh@konamoxt.com, //20131205, //libraries/octree/src/OctreeElement.h, //77
+OctreeElement::hasDetailedContent, //0, //ZappoMan, //bradh@konamoxt.com, //20140515, //libraries/octree/src/OctreeElement.h, //81
+OctreeElement::init, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/octree/src/OctreeElement.cpp, //48
+HeadData::getFinalPitch, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140327, //libraries/avatars/src/HeadData.h, //49
+HeadData::getFinalRoll, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140327, //libraries/avatars/src/HeadData.h, //50
+HeadData::getFinalYaw, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140327, //libraries/avatars/src/HeadData.h, //48
+HeadData::setFinalPitch, //0, //Atlante45, //clement.brisset@gmail.com, //20140826, //libraries/avatars/src/HeadData.h, //46
+HeadData::setFinalRoll, //0, //Atlante45, //clement.brisset@gmail.com, //20140826, //libraries/avatars/src/HeadData.h, //47
+HeadData::setFinalYaw, //0, //Atlante45, //clement.brisset@gmail.com, //20140826, //libraries/avatars/src/HeadData.h, //45
+PlaneShape::findRayIntersection, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140909, //libraries/shared/src/PlaneShape.cpp, //55
+Resource::init, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140509, //libraries/networking/src/ResourceCache.cpp, //280
+NetworkGeometry::init, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140509, //libraries/render-utils/src/GeometryCache.cpp, //2121
+NetworkGeometry::reinsert, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140310, //libraries/render-utils/src/GeometryCache.cpp, //2173
+GeometryReader::run, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140228, //libraries/render-utils/src/GeometryCache.cpp, //2073
+OctreeRenderer::getBoundaryLevelAdjust, //0, //ZappoMan, //bradh@konamoxt.com, //20140505, //libraries/octree/src/OctreeRenderer.h, //43
+OctreeRenderer::init, //0, //ZappoMan, //bradh@konamoxt.com, //20131209, //libraries/octree/src/OctreeRenderer.cpp, //27
+OctreeRenderer::render, //0, //Sam Gateau, //sam@highfidelity.io, //20141114, //libraries/octree/src/OctreeRenderer.cpp, //166
+OctreeHeadlessViewer::getBoundaryLevelAdjust, //0, //ZappoMan, //bradh@konamoxt.com, //20140226, //libraries/octree/src/OctreeHeadlessViewer.h, //62
+OctreeHeadlessViewer::init, //0, //ZappoMan, //bradh@konamoxt.com, //20140226, //libraries/octree/src/OctreeHeadlessViewer.cpp, //31
+OctreeHeadlessViewer::render, //0, //ZappoMan, //bradh@konamoxt.com, //20141114, //libraries/octree/src/OctreeHeadlessViewer.h, //36
+OctreeHeadlessViewer::renderElement, //0, //ZappoMan, //bradh@konamoxt.com, //20140903, //libraries/octree/src/OctreeHeadlessViewer.h, //33
+OctreeElementBag::elementDeleted, //0, //ZappoMan, //bradh@konamoxt.com, //20140314, //libraries/octree/src/OctreeElementBag.cpp, //34
+OctreeEditPacketSender::adjustEditPacketForClockSkew, //0, //ZappoMan, //bradh@konamoxt.com, //20140813, //libraries/octree/src/OctreeEditPacketSender.h, //84
+EntityEditPacketSender::adjustEditPacketForClockSkew, //0, //ZappoMan, //bradh@konamoxt.com, //20140813, //libraries/entities/src/EntityEditPacketSender.cpp, //20
+EntityEditPacketSender::getMyNodeType, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityEditPacketSender.h, //32
+RenderableParticleEffectEntityItem::render, //0, //Jason, //2billbrasky@gmail.com, //20150304, //libraries/entities-renderer/src/RenderableParticleEffectEntityItem.cpp, //31
+RenderingClient::cleanupBeforeQuit, //0, //Stephen Birarda, //commit@birarda.com, //20150212, //gvr-interface/src/RenderingClient.cpp, //73
+EntityTreeRenderer::clear, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities-renderer/src/EntityTreeRenderer.cpp, //77
+EntityTreeRenderer::errorInLoadingScript, //0, //ZappoMan, //bradh@konamoxt.com, //20150330, //libraries/entities-renderer/src/EntityTreeRenderer.cpp, //123
+EntityTreeRenderer::getBoundaryLevelAdjust, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities-renderer/src/EntityTreeRenderer.cpp, //634
+EntityTreeRenderer::getCollisionGeometryForEntity, //0, //Seth Alves, //seth.alves@gmail.com, //20150318, //libraries/entities-renderer/src/EntityTreeRenderer.cpp, //450
+EntityTreeRenderer::getGeometryForEntity, //0, //ZappoMan, //bradh@konamoxt.com, //20140806, //libraries/entities-renderer/src/EntityTreeRenderer.cpp, //425
+EntityTreeRenderer::getModelForEntityItem, //0, //ZappoMan, //bradh@konamoxt.com, //20140808, //libraries/entities-renderer/src/EntityTreeRenderer.cpp, //440
+EntityTreeRenderer::getSizeScale, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities-renderer/src/EntityTreeRenderer.cpp, //630
+EntityTreeRenderer::init, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities-renderer/src/EntityTreeRenderer.cpp, //86
+EntityTreeRenderer::render, //0, //Sam Gateau, //sam@highfidelity.io, //20141114, //libraries/entities-renderer/src/EntityTreeRenderer.cpp, //382
+EntityTreeRenderer::renderElement, //0, //ZappoMan, //bradh@konamoxt.com, //20140829, //libraries/entities-renderer/src/EntityTreeRenderer.cpp, //576
+EntityTreeRenderer::setTree, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities-renderer/src/EntityTreeRenderer.cpp, //280
+RenderableModelEntityItem::hasCollisionModel, //0, //Seth Alves, //seth.alves@gmail.com, //20150324, //libraries/entities-renderer/src/RenderableModelEntityItem.cpp, //276
+EntityTree::update, //0, //ZappoMan, //bradh@konamoxt.com, //20140807, //libraries/entities/src/EntityTree.cpp, //726
+OctreeRenderer::clear, //0, //ZappoMan, //bradh@konamoxt.com, //20140124, //libraries/octree/src/OctreeRenderer.cpp, //193
+OctreeRenderer::getSizeScale, //0, //ZappoMan, //bradh@konamoxt.com, //20140505, //libraries/octree/src/OctreeRenderer.h, //42
+OctreeRenderer::setTree, //0, //ZappoMan, //bradh@konamoxt.com, //20140302, //libraries/octree/src/OctreeRenderer.cpp, //40
+DeviceTracker::update, //0, //samcake, //sam@highfidelity.io, //20140707, //interface/src/devices/DeviceTracker.cpp, //87
+Model::simulate, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140402, //libraries/render-utils/src/Model.cpp, //1304
+Model::updateJointState, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131021, //libraries/render-utils/src/Model.cpp, //1390
+FaceModel::maybeUpdateEyeRotation, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140917, //interface/src/avatar/FaceModel.cpp, //72
+FaceModel::maybeUpdateNeckRotation, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131022, //interface/src/avatar/FaceModel.cpp, //50
+FaceModel::simulate, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140404, //interface/src/avatar/FaceModel.cpp, //24
+FaceModel::updateJointState, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140528, //interface/src/avatar/FaceModel.cpp, //87
+Shape::getVolume, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140623, //libraries/shared/src/Shape.h, //87
+SphereShape::findRayIntersection, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140909, //libraries/shared/src/SphereShape.cpp, //16
+SphereShape::getVolume, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140623, //libraries/shared/src/SphereShape.h, //39
+Avatar::isMyAvatar, //0, //Stephen Birarda, //commit@birarda.com, //20140123, //interface/src/avatar/Avatar.h, //112
+SkeletonModel::buildShapes, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140617, //interface/src/avatar/SkeletonModel.cpp, //618
+SkeletonModel::simulate, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140402, //interface/src/avatar/SkeletonModel.cpp, //92
+SkeletonModel::updateJointState, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131021, //interface/src/avatar/SkeletonModel.cpp, //254
+EntityItem::readEntityDataFromBuffer, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityItem.cpp, //306
+EntityTreeElement::addChildAtIndex, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityTreeElement.cpp, //45
+EntityTreeElement::appendElementData, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityTreeElement.cpp, //235
+EntityTreeElement::calculateAverageFromChildren, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityTreeElement.cpp, //795
+EntityTreeElement::collapseChildren, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityTreeElement.cpp, //803
+EntityTreeElement::createNewElement, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityTreeElement.cpp, //33
+EntityTreeElement::debugExtraEncodeData, //0, //ZappoMan, //bradh@konamoxt.com, //20140901, //libraries/entities/src/EntityTreeElement.cpp, //51
+EntityTreeElement::elementEncodeComplete, //0, //ZappoMan, //bradh@konamoxt.com, //20140901, //libraries/entities/src/EntityTreeElement.cpp, //158
+EntityTreeElement::init, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityTreeElement.cpp, //39
+EntityTreeElement::initializeExtraEncodeData, //0, //ZappoMan, //bradh@konamoxt.com, //20140901, //libraries/entities/src/EntityTreeElement.cpp, //67
+EntityTreeElement::readElementDataFromBuffer, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityTreeElement.cpp, //696
+EntityTreeElement::shouldIncludeChildData, //0, //ZappoMan, //bradh@konamoxt.com, //20140903, //libraries/entities/src/EntityTreeElement.cpp, //96
+EntityTreeElement::shouldRecurseChildTree, //0, //ZappoMan, //bradh@konamoxt.com, //20140903, //libraries/entities/src/EntityTreeElement.cpp, //116
+EntityTreeElement::updateEncodedData, //0, //ZappoMan, //bradh@konamoxt.com, //20140901, //libraries/entities/src/EntityTreeElement.cpp, //140
+OctreeElement::appendElementData, //0, //ZappoMan, //bradh@konamoxt.com, //20140610, //libraries/octree/src/OctreeElement.h, //103
+OctreeElement::collapseChildren, //0, //ZappoMan, //bradh@konamoxt.com, //20131205, //libraries/octree/src/OctreeElement.h, //73
+OctreeElement::debugExtraEncodeData, //0, //ZappoMan, //bradh@konamoxt.com, //20140901, //libraries/octree/src/OctreeElement.h, //94
+OctreeElement::elementEncodeComplete, //0, //ZappoMan, //bradh@konamoxt.com, //20140901, //libraries/octree/src/OctreeElement.h, //100
+OctreeElement::initializeExtraEncodeData, //0, //ZappoMan, //bradh@konamoxt.com, //20140901, //libraries/octree/src/OctreeElement.h, //95
+OctreeElement::readElementDataFromBuffer, //0, //ZappoMan, //bradh@konamoxt.com, //20131205, //libraries/octree/src/OctreeElement.h, //108
+OctreeElement::shouldIncludeChildData, //0, //ZappoMan, //bradh@konamoxt.com, //20140903, //libraries/octree/src/OctreeElement.h, //96
+OctreeElement::shouldRecurseChildTree, //0, //ZappoMan, //bradh@konamoxt.com, //20140903, //libraries/octree/src/OctreeElement.h, //97
+OctreeElement::updateEncodedData, //0, //ZappoMan, //bradh@konamoxt.com, //20140901, //libraries/octree/src/OctreeElement.h, //99
+RenderableTextEntityItem::render, //0, //ZappoMan, //bradh@konamoxt.com, //20141114, //libraries/entities-renderer/src/RenderableTextEntityItem.cpp, //30
+Application::computePickRay, //0, //ZappoMan, //bradh@konamoxt.com, //20141216, //interface/src/Application.cpp, //2801
+Application::getBoundaryLevelAdjust, //0, //ZappoMan, //bradh@konamoxt.com, //20141216, //interface/src/Application.cpp, //2797
+Application::getCascadeShadowsEnabled, //0, //ZappoMan, //bradh@konamoxt.com, //20141216, //interface/src/Application.cpp, //3118
+Application::getShadowsEnabled, //0, //ZappoMan, //bradh@konamoxt.com, //20141216, //interface/src/Application.cpp, //3112
+Application::getSizeScale, //0, //ZappoMan, //bradh@konamoxt.com, //20141216, //interface/src/Application.cpp, //2793
+Application::registerScriptEngineWithApplicationServices, //0, //ZappoMan, //bradh@konamoxt.com, //20141031, //interface/src/Application.cpp, //3524
+Application::setupWorldLight, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131120, //interface/src/Application.cpp, //2772
+Application::shouldRenderMesh, //0, //ZappoMan, //bradh@konamoxt.com, //20141216, //interface/src/Application.cpp, //2789
+FramelessDialog::mouseMoveEvent, //0, //stojce, //stojce@me.com, //20140406, //interface/src/ui/FramelessDialog.cpp, //152
+FramelessDialog::mousePressEvent, //0, //stojce, //stojce@me.com, //20140406, //interface/src/ui/FramelessDialog.cpp, //126
+FramelessDialog::mouseReleaseEvent, //0, //stojce, //stojce@me.com, //20140406, //interface/src/ui/FramelessDialog.cpp, //147
+AACubeShape::findRayIntersection, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140909, //libraries/shared/src/AACubeShape.cpp, //20
+InputController::ControllerScriptingInterface::captureMouseEvents, //0, //ZappoMan, //bradh@konamoxt.com, //20140128, //interface/src/scripting/ControllerScriptingInterface.h, //103
+InputController::ControllerScriptingInterface::captureTouchEvents, //0, //ZappoMan, //bradh@konamoxt.com, //20140128, //interface/src/scripting/ControllerScriptingInterface.h, //106
+InputController::ControllerScriptingInterface::captureWheelEvents, //0, //ZappoMan, //bradh@konamoxt.com, //20140128, //interface/src/scripting/ControllerScriptingInterface.h, //109
+InputController::ControllerScriptingInterface::releaseMouseEvents, //0, //ZappoMan, //bradh@konamoxt.com, //20140128, //interface/src/scripting/ControllerScriptingInterface.h, //104
+InputController::ControllerScriptingInterface::releaseTouchEvents, //0, //ZappoMan, //bradh@konamoxt.com, //20140128, //interface/src/scripting/ControllerScriptingInterface.h, //107
+InputController::ControllerScriptingInterface::releaseWheelEvents, //0, //ZappoMan, //bradh@konamoxt.com, //20140128, //interface/src/scripting/ControllerScriptingInterface.h, //110
+InputController::update, //0, //samcake, //sam@highfidelity.io, //20140709, //interface/src/scripting/ControllerScriptingInterface.cpp, //350
+EntityTreeRenderer::createTree, //0, //Andrew Meadows, //andrew@highfidelity.io, //20141202, //libraries/entities-renderer/src/EntityTreeRenderer.h, //121
+EntityTreeRenderer::getExpectedPacketType, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities-renderer/src/EntityTreeRenderer.h, //44
+EntityTreeRenderer::getMyNodeType, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities-renderer/src/EntityTreeRenderer.h, //42
+EntityTreeRenderer::getMyQueryMessageType, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities-renderer/src/EntityTreeRenderer.h, //43
+ScriptUndoCommand::id, //0, //Ryan Huffman, //ryanhuffman@gmail.com, //20141022, //libraries/script-engine/src/UndoStackScriptingInterface.h, //39
+ScriptUndoCommand::mergeWith, //0, //Ryan Huffman, //ryanhuffman@gmail.com, //20141022, //libraries/script-engine/src/UndoStackScriptingInterface.h, //38
+AvatarData::isMyAvatar, //0, //Atlante45, //clement.brisset@gmail.com, //20150109, //libraries/avatars/src/AvatarData.h, //154
+BoxEntityItem::appendSubclassData, //0, //ZappoMan, //bradh@konamoxt.com, //20140808, //libraries/entities/src/BoxEntityItem.cpp, //86
+BoxEntityItem::debugDump, //0, //ZappoMan, //bradh@konamoxt.com, //20150127, //libraries/entities/src/BoxEntityItem.cpp, //99
+BoxEntityItem::getEntityProperties, //0, //ZappoMan, //bradh@konamoxt.com, //20140810, //libraries/entities/src/BoxEntityItem.cpp, //80
+BoxEntityItem::getProperties, //0, //ZappoMan, //bradh@konamoxt.com, //20140805, //libraries/entities/src/BoxEntityItem.cpp, //35
+BoxEntityItem::readEntitySubclassDataFromBuffer, //0, //ZappoMan, //bradh@konamoxt.com, //20140808, //libraries/entities/src/BoxEntityItem.cpp, //66
+BoxEntityItem::setProperties, //0, //Andrew Meadows, //andrew@highfidelity.io, //20141218, //libraries/entities/src/BoxEntityItem.cpp, //47
+LimitedNodeList::sendSTUNRequest, //0, //Stephen Birarda, //commit@birarda.com, //20140916, //libraries/networking/src/LimitedNodeList.cpp, //545
+EntityTree::dumpTree, //0, //ZappoMan, //bradh@konamoxt.com, //20140709, //libraries/entities/src/EntityTree.cpp, //1045
+MotionTracker::isConnected, //0, //samcake, //sam@highfidelity.io, //20140707, //interface/src/devices/MotionTracker.cpp, //75
+ScriptEngine::errorInLoadingScript, //0, //ZappoMan, //bradh@konamoxt.com, //20150330, //libraries/script-engine/src/ScriptEngine.cpp, //296
+Rectangle3DOverlay::createClone, //0, //Thijs Wenker, //me@thoys.nl, //20141115, //interface/src/ui/overlays/Rectangle3DOverlay.cpp, //119
+Rectangle3DOverlay::render, //0, //ZappoMan, //bradh@konamoxt.com, //20141029, //interface/src/ui/overlays/Rectangle3DOverlay.cpp, //34
+NodeList::sendSTUNRequest, //0, //Stephen Birarda, //commit@birarda.com, //20131016, //libraries/networking/src/NodeList.cpp, //225
+OctreeServer::aboutToFinish, //0, //ZappoMan, //bradh@konamoxt.com, //20140318, //assignment-client/src/octree/OctreeServer.cpp, //1219
+OctreeServer::beforeRun, //0, //ZappoMan, //bradh@konamoxt.com, //20140903, //assignment-client/src/octree/OctreeServer.h, //74
+OctreeServer::sendStatsPacket, //0, //ZappoMan, //bradh@konamoxt.com, //20140326, //assignment-client/src/octree/OctreeServer.cpp, //1335
+EntityItem::computeShapeInfo, //0, //Seth Alves, //seth.alves@gmail.com, //20150312, //libraries/entities/src/EntityItem.cpp, //1025
+EntityItem::isReadyToComputeShape, //0, //Seth Alves, //seth.alves@gmail.com, //20150313, //libraries/entities/src/EntityItem.h, //263
+EntityMotionState::computeMass, //0, //Andrew Meadows, //andrew@highfidelity.io, //20150114, //libraries/physics/src/EntityMotionState.cpp, //177
+EntityMotionState::computeShapeInfo, //0, //Seth Alves, //seth.alves@gmail.com, //20150324, //libraries/physics/src/EntityMotionState.cpp, //171
+EntityMotionState::getIncomingDirtyFlags, //0, //Andrew Meadows, //andrew@highfidelity.io, //20150115, //libraries/physics/src/EntityMotionState.cpp, //270
+EntityMotionState::sendUpdate, //0, //Andrew Meadows, //andrew@highfidelity.io, //20141215, //libraries/physics/src/EntityMotionState.cpp, //181
+EntityMotionState::updateObjectVelocities, //0, //Andrew Meadows, //andrew@highfidelity.io, //20150113, //libraries/physics/src/EntityMotionState.cpp, //156
+RenderableBoxEntityItem::render, //0, //ZappoMan, //bradh@konamoxt.com, //20140825, //libraries/entities-renderer/src/RenderableBoxEntityItem.cpp, //25
+MovingEntitiesOperator::possiblyCreateChildAt, //0, //ZappoMan, //bradh@konamoxt.com, //20140903, //libraries/entities/src/MovingEntitiesOperator.cpp, //263
+MovingEntitiesOperator::postRecursion, //0, //ZappoMan, //bradh@konamoxt.com, //20140903, //libraries/entities/src/MovingEntitiesOperator.cpp, //223
+MovingEntitiesOperator::preRecursion, //0, //ZappoMan, //bradh@konamoxt.com, //20140903, //libraries/entities/src/MovingEntitiesOperator.cpp, //143
+InboundAudioStream::writeDroppableSilentSamples, //0, //wangyix, //wangyix@gmail.com, //20140808, //libraries/audio/src/InboundAudioStream.cpp, //188
+InboundAudioStream::writeLastFrameRepeatedWithFade, //0, //wangyix, //wangyix@gmail.com, //20140811, //libraries/audio/src/InboundAudioStream.cpp, //439
+MixedProcessedAudioStream::writeDroppableSilentSamples, //0, //wangyix, //wangyix@gmail.com, //20140811, //libraries/audio/src/MixedProcessedAudioStream.cpp, //27
+MixedProcessedAudioStream::writeLastFrameRepeatedWithFade, //0, //wangyix, //wangyix@gmail.com, //20140811, //libraries/audio/src/MixedProcessedAudioStream.cpp, //36
+Avatar::renderAttachments, //0, //Sam Gateau, //sam@highfidelity.io, //20150331, //interface/src/avatar/Avatar.cpp, //527
+Avatar::renderBody, //0, //Sam Gateau, //sam@highfidelity.io, //20150331, //interface/src/avatar/Avatar.cpp, //478
+Avatar::setFaceModelURL, //0, //Stephen Birarda, //commit@birarda.com, //20140204, //interface/src/avatar/Avatar.cpp, //878
+Avatar::setSkeletonModelURL, //0, //Stephen Birarda, //commit@birarda.com, //20140204, //interface/src/avatar/Avatar.cpp, //884
+MyAvatar::isMyAvatar, //0, //Stephen Birarda, //commit@birarda.com, //20140123, //interface/src/avatar/MyAvatar.h, //92
+MyAvatar::renderAttachments, //0, //Sam Gateau, //sam@highfidelity.io, //20150331, //interface/src/avatar/MyAvatar.cpp, //1394
+LightEntityItem::appendSubclassData, //0, //ZappoMan, //bradh@konamoxt.com, //20141022, //libraries/entities/src/LightEntityItem.cpp, //139
+LightEntityItem::getEntityProperties, //0, //ZappoMan, //bradh@konamoxt.com, //20141022, //libraries/entities/src/LightEntityItem.cpp, //129
+LightEntityItem::getProperties, //0, //ZappoMan, //bradh@konamoxt.com, //20141022, //libraries/entities/src/LightEntityItem.cpp, //49
+LightEntityItem::readEntitySubclassDataFromBuffer, //0, //ZappoMan, //bradh@konamoxt.com, //20141022, //libraries/entities/src/LightEntityItem.cpp, //83
+LightEntityItem::setProperties, //0, //Andrew Meadows, //andrew@highfidelity.io, //20141218, //libraries/entities/src/LightEntityItem.cpp, //61
+RenderableModelEntityItem::computeShapeInfo, //0, //Seth Alves, //seth.alves@gmail.com, //20150317, //libraries/entities-renderer/src/RenderableModelEntityItem.cpp, //310
+RenderableModelEntityItem::getProperties, //0, //ZappoMan, //bradh@konamoxt.com, //20141107, //libraries/entities-renderer/src/RenderableModelEntityItem.cpp, //249
+RenderableModelEntityItem::getShapeType, //0, //Seth Alves, //seth.alves@gmail.com, //20150317, //libraries/entities-renderer/src/RenderableModelEntityItem.cpp, //412
+RenderableModelEntityItem::isReadyToComputeShape, //0, //Seth Alves, //seth.alves@gmail.com, //20150317, //libraries/entities-renderer/src/RenderableModelEntityItem.cpp, //289
+RenderableModelEntityItem::needsToCallUpdate, //0, //Andrew Meadows, //andrew@highfidelity.io, //20141205, //libraries/entities-renderer/src/RenderableModelEntityItem.cpp, //245
+RenderableModelEntityItem::readEntitySubclassDataFromBuffer, //0, //ZappoMan, //bradh@konamoxt.com, //20140820, //libraries/entities-renderer/src/RenderableModelEntityItem.cpp, //46
+RenderableModelEntityItem::render, //0, //ZappoMan, //bradh@konamoxt.com, //20140820, //libraries/entities-renderer/src/RenderableModelEntityItem.cpp, //111
+RenderableModelEntityItem::setProperties, //0, //Andrew Meadows, //andrew@highfidelity.io, //20141218, //libraries/entities-renderer/src/RenderableModelEntityItem.cpp, //37
+ModelEntityItem::hasCollisionModel, //0, //Seth Alves, //seth.alves@gmail.com, //20150324, //libraries/entities/src/ModelEntityItem.h, //60
+Circle3DOverlay::createClone, //0, //Thijs Wenker, //me@thoys.nl, //20141115, //interface/src/ui/overlays/Circle3DOverlay.cpp, //435
+Circle3DOverlay::render, //0, //ZappoMan, //bradh@konamoxt.com, //20141029, //interface/src/ui/overlays/Circle3DOverlay.cpp, //71
+EntityServer::beforeRun, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //assignment-client/src/entities/EntityServer.cpp, //50
+EntityServer::createOctreeQueryNode, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //assignment-client/src/entities/EntityServer.cpp, //34
+EntityServer::createTree, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //assignment-client/src/entities/EntityServer.cpp, //38
+TextEntityItem::appendSubclassData, //0, //ZappoMan, //bradh@konamoxt.com, //20141114, //libraries/entities/src/TextEntityItem.cpp, //114
+TextEntityItem::getEntityProperties, //0, //ZappoMan, //bradh@konamoxt.com, //20141114, //libraries/entities/src/TextEntityItem.cpp, //105
+TextEntityItem::getProperties, //0, //ZappoMan, //bradh@konamoxt.com, //20141114, //libraries/entities/src/TextEntityItem.cpp, //55
+TextEntityItem::getShapeType, //0, //Andrew Meadows, //andrew@highfidelity.io, //20150212, //libraries/entities/src/TextEntityItem.h, //28
+TextEntityItem::pureVirtualFunctionPlaceHolder, //0, //ZappoMan, //bradh@konamoxt.com, //20141114, //libraries/entities/src/TextEntityItem.h, //23
+TextEntityItem::readEntitySubclassDataFromBuffer, //0, //ZappoMan, //bradh@konamoxt.com, //20141114, //libraries/entities/src/TextEntityItem.cpp, //88
+TextEntityItem::setProperties, //0, //Andrew Meadows, //andrew@highfidelity.io, //20141218, //libraries/entities/src/TextEntityItem.cpp, //65
+TextEntityItem::supportsDetailedRayIntersection, //0, //ZappoMan, //bradh@konamoxt.com, //20141204, //libraries/entities/src/TextEntityItem.h, //49
+PhysicsEntity::clearShapes, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140619, //libraries/render-utils/src/PhysicsEntity.cpp, //63
+PhysicsEntity::stepForward, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140903, //libraries/render-utils/src/PhysicsEntity.h, //32
+EntityScriptingInterface::createPacketSender, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityScriptingInterface.h, //59
+EntityScriptingInterface::getServerNodeType, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityScriptingInterface.h, //58
+ReceivedPacketProcessor::process, //0, //ZappoMan, //bradh@konamoxt.com, //20130815, //libraries/networking/src/ReceivedPacketProcessor.cpp, //34
+JurisdictionSender::process, //0, //ZappoMan, //bradh@konamoxt.com, //20130819, //libraries/octree/src/JurisdictionSender.cpp, //42
+CapsuleShape::findRayIntersection, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140909, //libraries/shared/src/CapsuleShape.cpp, //132
+AvatarMixer::readPendingDatagrams, //0, //Stephen Birarda, //commit@birarda.com, //20140207, //assignment-client/src/avatars/AvatarMixer.cpp, //258
+AvatarMixer::sendStatsPacket, //0, //Stephen Birarda, //commit@birarda.com, //20140324, //assignment-client/src/avatars/AvatarMixer.cpp, //319
+AttachmentsDialog::setVisible, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140506, //interface/src/ui/AttachmentsDialog.cpp, //62
+Overlay2D::is3D, //0, //ZappoMan, //bradh@konamoxt.com, //20141021, //interface/src/ui/overlays/Overlay2D.h, //33
+CapsuleShape::getHalfHeight, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140618, //libraries/shared/src/CapsuleShape.h, //32
+Overlay::update, //0, //Atlante45, //clement.brisset@gmail.com, //20140303, //interface/src/ui/overlays/Overlay.h, //41
+ReceivedPacketProcessor::getMaxWait, //0, //wangyix, //wangyix@gmail.com, //20140618, //libraries/networking/src/ReceivedPacketProcessor.h, //63
+ReceivedPacketProcessor::midProcess, //0, //wangyix, //wangyix@gmail.com, //20140618, //libraries/networking/src/ReceivedPacketProcessor.h, //69
+ReceivedPacketProcessor::postProcess, //0, //wangyix, //wangyix@gmail.com, //20140618, //libraries/networking/src/ReceivedPacketProcessor.h, //72
+ReceivedPacketProcessor::preProcess, //0, //wangyix, //wangyix@gmail.com, //20140618, //libraries/networking/src/ReceivedPacketProcessor.h, //66
+ReceivedPacketProcessor::terminating, //0, //ZappoMan, //bradh@konamoxt.com, //20140311, //libraries/networking/src/ReceivedPacketProcessor.cpp, //16
+Octree::canProcessVersion, //0, //ZappoMan, //bradh@konamoxt.com, //20140512, //libraries/octree/src/Octree.h, //230
+Octree::dumpTree, //0, //ZappoMan, //bradh@konamoxt.com, //20140905, //libraries/octree/src/Octree.h, //370
+Octree::eraseAllOctreeElements, //0, //ZappoMan, //bradh@konamoxt.com, //20140827, //libraries/octree/src/Octree.cpp, //582
+Octree::expectedDataPacketType, //0, //Stephen Birarda, //commit@birarda.com, //20140128, //libraries/octree/src/Octree.h, //229
+Octree::expectedVersion, //0, //ZappoMan, //bradh@konamoxt.com, //20140512, //libraries/octree/src/Octree.h, //232
+Octree::getWantSVOfileVersions, //0, //ZappoMan, //bradh@konamoxt.com, //20131216, //libraries/octree/src/Octree.h, //228
+Octree::handlesEditPacketType, //0, //Stephen Birarda, //commit@birarda.com, //20140128, //libraries/octree/src/Octree.h, //233
+Octree::minimumRequiredRootDataBytes, //0, //ZappoMan, //bradh@konamoxt.com, //20140901, //libraries/octree/src/Octree.h, //239
+Octree::mustIncludeAllChildData, //0, //ZappoMan, //bradh@konamoxt.com, //20140905, //libraries/octree/src/Octree.h, //242
+Octree::processEditPacketData, //0, //Stephen Birarda, //commit@birarda.com, //20140128, //libraries/octree/src/Octree.h, //234
+Octree::pruneTree, //0, //ZappoMan, //bradh@konamoxt.com, //20141105, //libraries/octree/src/Octree.h, //371
+Octree::recurseChildrenWithData, //0, //ZappoMan, //bradh@konamoxt.com, //20140516, //libraries/octree/src/Octree.h, //237
+Octree::releaseSceneEncodeData, //0, //ZappoMan, //bradh@konamoxt.com, //20140903, //libraries/octree/src/Octree.h, //241
+Octree::rootElementHasData, //0, //ZappoMan, //bradh@konamoxt.com, //20140520, //libraries/octree/src/Octree.h, //238
+Octree::suppressEmptySubtrees, //0, //ZappoMan, //bradh@konamoxt.com, //20140901, //libraries/octree/src/Octree.h, //240
+Octree::update, //0, //ZappoMan, //bradh@konamoxt.com, //20140903, //libraries/octree/src/Octree.h, //249
+Octree::versionHasSVOfileBreaks, //0, //ZappoMan, //bradh@konamoxt.com, //20140819, //libraries/octree/src/Octree.h, //247
+ImageOverlay::createClone, //0, //Thijs Wenker, //me@thoys.nl, //20141115, //interface/src/ui/overlays/ImageOverlay.cpp, //173
+ImageOverlay::render, //0, //Ryan Huffman, //ryanhuffman@gmail.com, //20150121, //interface/src/ui/overlays/ImageOverlay.cpp, //57
+Line3DOverlay::createClone, //0, //Thijs Wenker, //me@thoys.nl, //20141115, //interface/src/ui/overlays/Line3DOverlay.cpp, //126
+Line3DOverlay::render, //0, //ZappoMan, //bradh@konamoxt.com, //20141029, //interface/src/ui/overlays/Line3DOverlay.cpp, //35
+DdeFaceTracker::isActive, //0, //Atlante45, //clement.brisset@gmail.com, //20140804, //interface/src/devices/DdeFaceTracker.cpp, //171
+DdeFaceTracker::isTracking, //0, //Atlante45, //clement.brisset@gmail.com, //20150226, //interface/src/devices/DdeFaceTracker.h, //29
+DdeFaceTracker::reset, //0, //Atlante45, //clement.brisset@gmail.com, //20150226, //interface/src/devices/DdeFaceTracker.h, //26
+PositionalAudioStream::getAudioStreamStats, //0, //wangyix, //wangyix@gmail.com, //20140728, //libraries/audio/src/PositionalAudioStream.cpp, //93
+GLCanvas::initializeGL, //0, //Stephen Birarda, //commit@birarda.com, //20130815, //interface/src/GLCanvas.cpp, //50
+GLCanvas::paintGL, //0, //Stephen Birarda, //commit@birarda.com, //20130815, //interface/src/GLCanvas.cpp, //61
+GLCanvas::resizeGL, //0, //Stephen Birarda, //commit@birarda.com, //20130815, //interface/src/GLCanvas.cpp, //77
+JurisdictionListener::process, //0, //ZappoMan, //bradh@konamoxt.com, //20130819, //libraries/octree/src/JurisdictionListener.cpp, //67
+OctreeElement::isRendered, //0, //ZappoMan, //bradh@konamoxt.com, //20131205, //libraries/octree/src/OctreeElement.h, //115
+OctreeElement::requiresSplit, //0, //ZappoMan, //bradh@konamoxt.com, //20131205, //libraries/octree/src/OctreeElement.h, //89
+OctreeElement::splitChildren, //0, //ZappoMan, //bradh@konamoxt.com, //20131205, //libraries/octree/src/OctreeElement.h, //86
+EntityTreeElement::canRayIntersect, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityTreeElement.h, //137
+EntityTreeElement::deleteApproved, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityTreeElement.h, //135
+EntityTreeElement::hasContent, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityTreeElement.h, //99
+EntityTreeElement::hasDetailedContent, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityTreeElement.h, //103
+EntityTreeElement::isRendered, //0, //ZappoMan, //bradh@konamoxt.com, //20140430, //libraries/entities/src/EntityTreeElement.h, //134
+EntityTreeElement::requiresSplit, //0, //ZappoMan, //bradh@konamoxt.com, //20140430, //libraries/entities/src/EntityTreeElement.h, //111
+EntityTreeElement::splitChildren, //0, //ZappoMan, //bradh@konamoxt.com, //20140430, //libraries/entities/src/EntityTreeElement.h, //108
+CapsuleShape::getVolume, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140623, //libraries/shared/src/CapsuleShape.h, //51
+CapsuleShape::setHalfHeight, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140221, //libraries/shared/src/CapsuleShape.cpp, //56
+CapsuleShape::setRadiusAndHalfHeight, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140221, //libraries/shared/src/CapsuleShape.cpp, //61
+CapsuleShape::updateBoundingRadius, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140616, //libraries/shared/src/CapsuleShape.h, //55
+Text3DOverlay::createClone, //0, //Thijs Wenker, //me@thoys.nl, //20141115, //interface/src/ui/overlays/Text3DOverlay.cpp, //226
+Text3DOverlay::render, //0, //ZappoMan, //bradh@konamoxt.com, //20141029, //interface/src/ui/overlays/Text3DOverlay.cpp, //75
+EntityTreeHeadlessViewer::init, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityTreeHeadlessViewer.cpp, //22
+EntityItem::appendEntityData, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityItem.cpp, //125
+EntityItem::initFromEntityItemID, //0, //ZappoMan, //bradh@konamoxt.com, //20140627, //libraries/entities/src/EntityItem.cpp, //27
+EntityItem::somethingChangedNotification, //0, //ZappoMan, //bradh@konamoxt.com, //20140820, //libraries/entities/src/EntityItem.h, //83
+gpu::Shader::Source::getCode, //0, //Sam Gateau, //sam@highfidelity.io, //20150228, //libraries/gpu/src/gpu/Shader.h, //37
+OctreeInboundPacketProcessor::getMaxWait, //0, //wangyix, //wangyix@gmail.com, //20140618, //assignment-client/src/octree/OctreeInboundPacketProcessor.cpp, //47
+OctreeInboundPacketProcessor::midProcess, //0, //wangyix, //wangyix@gmail.com, //20140618, //assignment-client/src/octree/OctreeInboundPacketProcessor.cpp, //66
+OctreeInboundPacketProcessor::preProcess, //0, //wangyix, //wangyix@gmail.com, //20140618, //assignment-client/src/octree/OctreeInboundPacketProcessor.cpp, //57
+EntityTree::canProcessVersion, //0, //ZappoMan, //bradh@konamoxt.com, //20150123, //libraries/entities/src/EntityTree.h, //65
+EntityTree::createNewElement, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityTree.cpp, //38
+EntityTree::eraseAllOctreeElements, //0, //ZappoMan, //bradh@konamoxt.com, //20140827, //libraries/entities/src/EntityTree.cpp, //44
+EntityTree::expectedDataPacketType, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityTree.h, //64
+EntityTree::getWantSVOfileVersions, //0, //ZappoMan, //bradh@konamoxt.com, //20140430, //libraries/entities/src/EntityTree.h, //63
+EntityTree::handlesEditPacketType, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityTree.cpp, //60
+EntityTree::minimumRequiredRootDataBytes, //0, //ZappoMan, //bradh@konamoxt.com, //20140901, //libraries/entities/src/EntityTree.h, //74
+EntityTree::mustIncludeAllChildData, //0, //ZappoMan, //bradh@konamoxt.com, //20140905, //libraries/entities/src/EntityTree.h, //77
+EntityTree::pruneTree, //0, //ZappoMan, //bradh@konamoxt.com, //20141105, //libraries/entities/src/EntityTree.cpp, //1062
+EntityTree::rootElementHasData, //0, //ZappoMan, //bradh@konamoxt.com, //20140520, //libraries/entities/src/EntityTree.h, //71
+EntityTree::suppressEmptySubtrees, //0, //ZappoMan, //bradh@konamoxt.com, //20140901, //libraries/entities/src/EntityTree.h, //75
+EntityTree::versionHasSVOfileBreaks, //0, //ZappoMan, //bradh@konamoxt.com, //20140819, //libraries/entities/src/EntityTree.h, //79
+ObjectMotionState::shouldSendUpdate, //0, //Andrew Meadows, //andrew@highfidelity.io, //20150113, //libraries/physics/src/ObjectMotionState.cpp, //105
+EntityServer::getMyDefaultPersistFilename, //0, //ZappoMan, //bradh@konamoxt.com, //20140430, //assignment-client/src/entities/EntityServer.h, //34
+EntityServer::getMyEditNackType, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //assignment-client/src/entities/EntityServer.h, //35
+EntityServer::getMyLoggingServerTargetName, //0, //ZappoMan, //bradh@konamoxt.com, //20140430, //assignment-client/src/entities/EntityServer.h, //33
+EntityServer::getMyNodeType, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //assignment-client/src/entities/EntityServer.h, //30
+EntityServer::getMyQueryMessageType, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //assignment-client/src/entities/EntityServer.h, //31
+EntityServer::getMyServerName, //0, //ZappoMan, //bradh@konamoxt.com, //20140430, //assignment-client/src/entities/EntityServer.h, //32
+TextOverlay::createClone, //0, //Thijs Wenker, //me@thoys.nl, //20141115, //interface/src/ui/overlays/TextOverlay.cpp, //136
+TextOverlay::render, //0, //ZappoMan, //bradh@konamoxt.com, //20141029, //interface/src/ui/overlays/TextOverlay.cpp, //64
+Grid3DOverlay::createClone, //0, //Thijs Wenker, //me@thoys.nl, //20141115, //interface/src/ui/overlays/Grid3DOverlay.cpp, //145
+Grid3DOverlay::render, //0, //Ryan Huffman, //ryanhuffman@gmail.com, //20141111, //interface/src/ui/overlays/Grid3DOverlay.cpp, //34
+LocalModelsOverlay::createClone, //0, //Thijs Wenker, //me@thoys.nl, //20141115, //interface/src/ui/overlays/LocalModelsOverlay.cpp, //61
+LocalModelsOverlay::render, //0, //ZappoMan, //bradh@konamoxt.com, //20141029, //interface/src/ui/overlays/LocalModelsOverlay.cpp, //37
+LocalModelsOverlay::update, //0, //Ryan Huffman, //ryanhuffman@gmail.com, //20140730, //interface/src/ui/overlays/LocalModelsOverlay.cpp, //33
+ModelOverlay::createClone, //0, //Thijs Wenker, //me@thoys.nl, //20141115, //interface/src/ui/overlays/ModelOverlay.cpp, //188
+ModelOverlay::render, //0, //ZappoMan, //bradh@konamoxt.com, //20141029, //interface/src/ui/overlays/ModelOverlay.cpp, //59
+ModelOverlay::update, //0, //Atlante45, //clement.brisset@gmail.com, //20140701, //interface/src/ui/overlays/ModelOverlay.cpp, //44
+Model::renderJointCollisionShapes, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140401, //libraries/render-utils/src/Model.cpp, //1648
+Model::updateVisibleJointStates, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140625, //libraries/render-utils/src/Model.cpp, //1409
+Agent::aboutToFinish, //0, //ZappoMan, //bradh@konamoxt.com, //20140321, //assignment-client/src/Agent.cpp, //225
+Agent::readPendingDatagrams, //0, //Stephen Birarda, //commit@birarda.com, //20140207, //assignment-client/src/Agent.cpp, //52
+OctreeEditPacketSender::process, //0, //ZappoMan, //bradh@konamoxt.com, //20131205, //libraries/octree/src/OctreeEditPacketSender.cpp, //347
+gpu::Texture::Storage::allocateMip, //0, //Sam Gateau, //sam@highfidelity.io, //20150121, //libraries/gpu/src/gpu/Texture.cpp, //70
+gpu::Texture::Storage::assignMipData, //0, //Sam Gateau, //sam@highfidelity.io, //20150121, //libraries/gpu/src/gpu/Texture.cpp, //85
+gpu::Texture::Storage::assignTexture, //0, //Sam Gateau, //sam@highfidelity.io, //20150122, //libraries/gpu/src/gpu/Texture.cpp, //27
+gpu::Texture::Storage::getStamp, //0, //Sam Gateau, //sam@highfidelity.io, //20150121, //libraries/gpu/src/gpu/Texture.cpp, //31
+gpu::Texture::Storage::isMipAvailable, //0, //Sam Gateau, //sam@highfidelity.io, //20150121, //libraries/gpu/src/gpu/Texture.cpp, //65
+gpu::Texture::Storage::notifyGPULoaded, //0, //Sam Gateau, //sam@highfidelity.io, //20150206, //libraries/gpu/src/gpu/Texture.cpp, //57
+gpu::Texture::Storage::reset, //0, //Sam Gateau, //sam@highfidelity.io, //20150121, //libraries/gpu/src/gpu/Texture.cpp, //39
+gpu::Texture::getSize, //0, //Sam Gateau, //sam@highfidelity.io, //20150120, //libraries/gpu/src/gpu/Texture.h, //79
+RenderableLightEntityItem::render, //0, //ZappoMan, //bradh@konamoxt.com, //20141022, //libraries/entities-renderer/src/RenderableLightEntityItem.cpp, //26
+InboundAudioStream::getAudioStreamStats, //0, //wangyix, //wangyix@gmail.com, //20140723, //libraries/audio/src/InboundAudioStream.cpp, //458
+InboundAudioStream::resetStats, //0, //wangyix, //wangyix@gmail.com, //20140724, //libraries/audio/src/InboundAudioStream.cpp, //61
+PositionalAudioStream::resetStats, //0, //wangyix, //wangyix@gmail.com, //20140813, //libraries/audio/src/PositionalAudioStream.cpp, //43
+AnimationsDialog::setVisible, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140519, //interface/src/ui/AnimationsDialog.cpp, //63
+RealSense::update, //0, //Thijs Wenker, //me@thoys.nl, //20141213, //interface/src/devices/RealSense.cpp, //174
+AvatarHashMap::newSharedAvatar, //0, //Stephen Birarda, //commit@birarda.com, //20140417, //libraries/avatars/src/AvatarHashMap.cpp, //76
+AvatarManager::newSharedAvatar, //0, //Stephen Birarda, //commit@birarda.com, //20140417, //interface/src/avatar/AvatarManager.cpp, //171
+AddEntityOperator::possiblyCreateChildAt, //0, //ZappoMan, //bradh@konamoxt.com, //20140903, //libraries/entities/src/AddEntityOperator.cpp, //75
+AddEntityOperator::postRecursion, //0, //ZappoMan, //bradh@konamoxt.com, //20140903, //libraries/entities/src/AddEntityOperator.cpp, //61
+AddEntityOperator::preRecursion, //0, //ZappoMan, //bradh@konamoxt.com, //20140903, //libraries/entities/src/AddEntityOperator.cpp, //31
+gpu::Buffer::getSize, //0, //Sam Gateau, //sam@highfidelity.io, //20141029, //libraries/gpu/src/gpu/Resource.h, //122
+ParticleEffectEntityItem::appendSubclassData, //0, //Jason, //2billbrasky@gmail.com, //20150304, //libraries/entities/src/ParticleEffectEntityItem.cpp, //214
+ParticleEffectEntityItem::debugDump, //0, //Jason, //2billbrasky@gmail.com, //20150304, //libraries/entities/src/ParticleEffectEntityItem.cpp, //279
+ParticleEffectEntityItem::getEntityProperties, //0, //Jason, //2billbrasky@gmail.com, //20150304, //libraries/entities/src/ParticleEffectEntityItem.cpp, //194
+ParticleEffectEntityItem::getProperties, //0, //Jason, //2billbrasky@gmail.com, //20150304, //libraries/entities/src/ParticleEffectEntityItem.cpp, //96
+ParticleEffectEntityItem::getShapeType, //0, //Jason, //2billbrasky@gmail.com, //20150304, //libraries/entities/src/ParticleEffectEntityItem.h, //82
+ParticleEffectEntityItem::needsToCallUpdate, //0, //Jason, //2billbrasky@gmail.com, //20150304, //libraries/entities/src/ParticleEffectEntityItem.cpp, //243
+ParticleEffectEntityItem::readEntitySubclassDataFromBuffer, //0, //Jason, //2billbrasky@gmail.com, //20150304, //libraries/entities/src/ParticleEffectEntityItem.cpp, //148
+ParticleEffectEntityItem::setProperties, //0, //Jason, //2billbrasky@gmail.com, //20150304, //libraries/entities/src/ParticleEffectEntityItem.cpp, //117
+ParticleEffectEntityItem::updateShapeType, //0, //Jason, //2billbrasky@gmail.com, //20150304, //libraries/entities/src/ParticleEffectEntityItem.cpp, //288
+ParticleEffectEntityItem::pureVirtualFunctionPlaceHolder, //0, //Jason, //2billbrasky@gmail.com, //20150304, //libraries/entities/src/ParticleEffectEntityItem.h, //48
+Dependency::customDeleter, //0, //Atlante45, //clement.brisset@gmail.com, //20150113, //libraries/shared/src/DependencyManager.h, //32
+AudioClient::customDeleter, //0, //Stephen Birarda, //commit@birarda.com, //20150212, //libraries/audio-client/src/AudioClient.h, //193
+EntityTreeHeadlessViewer::createTree, //0, //Andrew Meadows, //andrew@highfidelity.io, //20141202, //libraries/entities/src/EntityTreeHeadlessViewer.h, //46
+EntityTreeHeadlessViewer::getExpectedPacketType, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityTreeHeadlessViewer.h, //35
+EntityTreeHeadlessViewer::getMyNodeType, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityTreeHeadlessViewer.h, //33
+EntityTreeHeadlessViewer::getMyQueryMessageType, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityTreeHeadlessViewer.h, //34
+LightEntityItem::pureVirtualFunctionPlaceHolder, //0, //ZappoMan, //bradh@konamoxt.com, //20141022, //libraries/entities/src/LightEntityItem.h, //23
+EntityNodeData::getMyPacketType, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //assignment-client/src/entities/EntityNodeData.h, //25
+BoxEntityItem::getShapeType, //0, //Andrew Meadows, //andrew@highfidelity.io, //20150211, //libraries/entities/src/BoxEntityItem.h, //54
+BoxEntityItem::pureVirtualFunctionPlaceHolder, //0, //ZappoMan, //bradh@konamoxt.com, //20140820, //libraries/entities/src/BoxEntityItem.h, //23
+Leapmotion::update, //0, //samcake, //sam@highfidelity.io, //20140701, //interface/src/devices/Leapmotion.cpp, //136
+InjectedAudioStream::getAudioStreamStats, //0, //wangyix, //wangyix@gmail.com, //20140728, //libraries/audio/src/InjectedAudioStream.cpp, //77
+RenderableLightEntityItem::supportsDetailedRayIntersection, //0, //ZappoMan, //bradh@konamoxt.com, //20141202, //libraries/entities-renderer/src/RenderableLightEntityItem.h, //26
+OctreeSendThread::process, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //assignment-client/src/octree/OctreeSendThread.cpp, //64
+Application::getControllerScriptingInterface, //0, //ZappoMan, //bradh@konamoxt.com, //20141217, //interface/src/Application.h, //236
+Application::getCurrentViewFrustum, //0, //ZappoMan, //bradh@konamoxt.com, //20141216, //interface/src/Application.h, //269
+Application::getMainThread, //0, //ZappoMan, //bradh@konamoxt.com, //20141216, //interface/src/Application.h, //272
+Application::getShadowViewFrustum, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140324, //interface/src/Application.h, //188
+Application::getViewTransform, //0, //ZappoMan, //bradh@konamoxt.com, //20141216, //interface/src/Application.h, //222
+Head::getFinalPitch, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140327, //interface/src/avatar/Head.cpp, //324
+Head::getFinalRoll, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140327, //interface/src/avatar/Head.cpp, //328
+Head::getFinalYaw, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140327, //interface/src/avatar/Head.cpp, //320
+Head::setFinalPitch, //0, //Atlante45, //clement.brisset@gmail.com, //20140826, //interface/src/avatar/Head.cpp, //308
+Head::setFinalRoll, //0, //Atlante45, //clement.brisset@gmail.com, //20140826, //interface/src/avatar/Head.cpp, //316
+Head::setFinalYaw, //0, //Atlante45, //clement.brisset@gmail.com, //20140826, //interface/src/avatar/Head.cpp, //312
+Base3DOverlay::findRayIntersectionExtraInfo, //0, //ZappoMan, //bradh@konamoxt.com, //20141029, //interface/src/ui/overlays/Base3DOverlay.h, //57
+Base3DOverlay::is3D, //0, //ZappoMan, //bradh@konamoxt.com, //20141021, //interface/src/ui/overlays/Base3DOverlay.h, //30
+FaceTracker::reset, //0, //Atlante45, //clement.brisset@gmail.com, //20150226, //interface/src/devices/FaceTracker.h, //31
+Cube3DOverlay::createClone, //0, //Thijs Wenker, //me@thoys.nl, //20141115, //interface/src/ui/overlays/Cube3DOverlay.cpp, //140
+Cube3DOverlay::render, //0, //ZappoMan, //bradh@konamoxt.com, //20141029, //interface/src/ui/overlays/Cube3DOverlay.cpp, //33
+DeleteEntityOperator::postRecursion, //0, //ZappoMan, //bradh@konamoxt.com, //20140903, //libraries/entities/src/DeleteEntityOperator.cpp, //109
+DeleteEntityOperator::preRecursion, //0, //ZappoMan, //bradh@konamoxt.com, //20140903, //libraries/entities/src/DeleteEntityOperator.cpp, //74
+EntityItem::contains, //0, //Andrew Meadows, //andrew@highfidelity.io, //20150306, //libraries/entities/src/EntityItem.h, //260
+EntityItem::containsInDomainUnits, //0, //Andrew Meadows, //andrew@highfidelity.io, //20150304, //libraries/entities/src/EntityItem.h, //261
+EntityItem::findDetailedRayIntersection, //0, //Andrew Meadows, //andrew@highfidelity.io, //20150306, //libraries/entities/src/EntityItem.h, //142
+EntityItem::setDimensions, //0, //Andrew Meadows, //andrew@highfidelity.io, //20150306, //libraries/entities/src/EntityItem.h, //168
+EntityItem::setDimensionsInDomainUnits, //0, //Andrew Meadows, //andrew@highfidelity.io, //20150304, //libraries/entities/src/EntityItem.h, //165
+EntityItem::update, //0, //Andrew Meadows, //andrew@highfidelity.io, //20141205, //libraries/entities/src/EntityItem.h, //130
+PhysicsEngine::addEntityInternal, //0, //Seth Alves, //seth.alves@gmail.com, //20150313, //libraries/physics/src/PhysicsEngine.cpp, //70
+PhysicsEngine::clearEntitiesInternal, //0, //Andrew Meadows, //andrew@highfidelity.io, //20141210, //libraries/physics/src/PhysicsEngine.cpp, //143
+PhysicsEngine::entityChangedInternal, //0, //Andrew Meadows, //andrew@highfidelity.io, //20141210, //libraries/physics/src/PhysicsEngine.cpp, //116
+PhysicsEngine::init, //0, //Andrew Meadows, //andrew@highfidelity.io, //20141211, //libraries/physics/src/PhysicsEngine.cpp, //265
+PhysicsEngine::removeEntityInternal, //0, //Andrew Meadows, //andrew@highfidelity.io, //20141210, //libraries/physics/src/PhysicsEngine.cpp, //97
+PhysicsEngine::sortEntitiesThatMovedInternal, //0, //Andrew Meadows, //andrew@highfidelity.io, //20141212, //libraries/physics/src/PhysicsEngine.cpp, //129
+DebugOperator::postRecursion, //0, //ZappoMan, //bradh@konamoxt.com, //20140903, //libraries/entities/src/EntityTree.cpp, //1035
+DebugOperator::preRecursion, //0, //ZappoMan, //bradh@konamoxt.com, //20140903, //libraries/entities/src/EntityTree.cpp, //1038
+PruneOperator::postRecursion, //0, //ZappoMan, //bradh@konamoxt.com, //20141105, //libraries/entities/src/EntityTree.cpp, //1056
+PruneOperator::preRecursion, //0, //ZappoMan, //bradh@konamoxt.com, //20141105, //libraries/entities/src/EntityTree.cpp, //1052
+ListShape::findRayIntersection, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140923, //libraries/shared/src/ListShape.h, //59
+ModelEntityItem::pureVirtualFunctionPlaceHolder, //0, //ZappoMan, //bradh@konamoxt.com, //20140820, //libraries/entities/src/ModelEntityItem.h, //25
+OctreeServer::hasSpecialPacketToSend, //0, //Stephen Birarda, //commit@birarda.com, //20140206, //assignment-client/src/octree/OctreeServer.h, //75
+OctreeServer::readAdditionalConfiguration, //0, //ZappoMan, //bradh@konamoxt.com, //20141105, //assignment-client/src/octree/OctreeServer.h, //139
+OctreeServer::readPendingDatagrams, //0, //ZappoMan, //bradh@konamoxt.com, //20140905, //assignment-client/src/octree/OctreeServer.h, //130
+OctreeServer::sendSpecialPacket, //0, //wangyix, //wangyix@gmail.com, //20140610, //assignment-client/src/octree/OctreeServer.h, //76
+ObjectMotionState::getMotionType, //0, //Andrew Meadows, //andrew@highfidelity.io, //20141114, //libraries/physics/src/ObjectMotionState.h, //68
+Shape::accumulateDelta, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140620, //libraries/shared/src/Shape.h, //82
+Shape::applyAccumulatedDelta, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140620, //libraries/shared/src/Shape.h, //84
+Shape::computeEffectiveMass, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140620, //libraries/shared/src/Shape.h, //78
+Shape::getMass, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140620, //libraries/shared/src/Shape.h, //69
+Shape::setMass, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140620, //libraries/shared/src/Shape.h, //68
+Shape::setRotation, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140618, //libraries/shared/src/Shape.h, //63
+Shape::setTranslation, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140618, //libraries/shared/src/Shape.h, //65
+RenderableModelEntityItem::somethingChangedNotification, //0, //ZappoMan, //bradh@konamoxt.com, //20140828, //libraries/entities-renderer/src/RenderableModelEntityItem.h, //43
+RenderableModelEntityItem::supportsDetailedRayIntersection, //0, //ZappoMan, //bradh@konamoxt.com, //20141204, //libraries/entities-renderer/src/RenderableModelEntityItem.h, //46
+Avatar::applyCollision, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140327, //interface/src/avatar/Avatar.h, //132
+Avatar::updateJointMappings, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140407, //interface/src/avatar/Avatar.cpp, //535
+Animation::downloadFinished, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140414, //libraries/animation/src/AnimationCache.cpp, //103
+AACubeShape::getVolume, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140825, //libraries/shared/src/AACubeShape.h, //31
+OctreePersistThread::process, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/octree/src/OctreePersistThread.cpp, //121
+EntityMotionState::clearIncomingDirtyFlags, //0, //Andrew Meadows, //andrew@highfidelity.io, //20150225, //libraries/physics/src/EntityMotionState.h, //62
+AnimationReader::run, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140414, //libraries/animation/src/AnimationCache.cpp, //64

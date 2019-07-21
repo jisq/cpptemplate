@@ -1,0 +1,457 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+gameplay::Object::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Object.cpp, //15
+gameplay::Object::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Object.cpp, //20
+gameplay::Scene::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Scene.cpp, //24
+gameplay::Scene::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Scene.cpp, //19
+gameplay::Scene::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Scene.cpp, //29
+gameplay::Scene::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Scene.cpp, //44
+gameplay::MaterialParameter::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/MaterialParameter.cpp, //20
+gameplay::MaterialParameter::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/MaterialParameter.cpp, //16
+gameplay::MaterialParameter::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/MaterialParameter.cpp, //25
+gameplay::MaterialParameter::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/MaterialParameter.cpp, //31
+gameplay::Control::setEnabled, //0, //setaylor, //setaylor@blackberry.com, //20130115, //gameplay/src/Control.cpp, //312
+gameplay::Control::setSize, //0, //Adam Blake, //ablake@rim.com, //20120404, //gameplay/src/Control.cpp, //160
+gameplay::Form::setSize, //0, //Adam Blake, //ablake@rim.com, //20120510, //gameplay/src/Form.cpp, //215
+gameplay::Label::addListener, //0, //Adam Blake, //ablake@rim.com, //20120315, //gameplay/src/Label.cpp, //56
+gameplay::RadioButton::addListener, //0, //Adam Blake, //ablake@rim.com, //20120315, //gameplay/src/RadioButton.cpp, //91
+FormsSample::controlEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/FormsSample.cpp, //381
+FormsSample::finalize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/FormsSample.cpp, //29
+FormsSample::gamepadEvent, //0, //ablake, //ablake@blackberry.com, //20130403, //samples/browser/src/FormsSample.cpp, //421
+FormsSample::initialize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/FormsSample.cpp, //73
+FormsSample::keyEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/FormsSample.cpp, //327
+FormsSample::render, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/FormsSample.cpp, //272
+FormsSample::touchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/FormsSample.cpp, //291
+FormsSample::update, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/FormsSample.cpp, //183
+Sample::gamepadEvent, //0, //ablake, //ablake@blackberry.com, //20130422, //samples/browser/src/Sample.cpp, //240
+Sample::keyEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/Sample.cpp, //140
+Sample::touchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/Sample.cpp, //144
+gameplay::FlowLayout::getType, //0, //Adam Blake, //ablake@rim.com, //20120425, //gameplay/src/FlowLayout.cpp, //34
+gameplay::FlowLayout::update, //0, //Adam Blake, //ablake@rim.com, //20120524, //gameplay/src/FlowLayout.cpp, //39
+gameplay::Control::getType, //0, //Kieran Cunney, //kcunney@rim.com, //20120625, //gameplay/src/Control.cpp, //1210
+gameplay::Control::isContainer, //0, //Kieran Cunney, //kcunney@rim.com, //20120625, //gameplay/src/Control.cpp, //1162
+gameplay::Game::gamepadEvent, //0, //ablake, //ablake@blackberry.com, //20130403, //gameplay/src/Game.cpp, //520
+gameplay::Game::gesturePinchEvent, //0, //setaylor, //setaylor@blackberry.com, //20120905, //gameplay/src/Game.cpp, //512
+gameplay::Game::gestureSwipeEvent, //0, //setaylor, //setaylor@blackberry.com, //20120905, //gameplay/src/Game.cpp, //508
+gameplay::Game::gestureTapEvent, //0, //setaylor, //setaylor@blackberry.com, //20120905, //gameplay/src/Game.cpp, //516
+gameplay::Game::keyEvent, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111222, //gameplay/src/Game.cpp, //471
+gameplay::Game::mouseEvent, //0, //setaylor, //setaylor@blackberry.com, //20120704, //gameplay/src/Game.cpp, //479
+gameplay::Game::touchEvent, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111222, //gameplay/src/Game.cpp, //475
+SamplesGame::controlEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/SamplesGame.cpp, //209
+SamplesGame::finalize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/SamplesGame.cpp, //86
+SamplesGame::gesturePinchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/SamplesGame.cpp, //197
+SamplesGame::gestureSwipeEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/SamplesGame.cpp, //191
+SamplesGame::gestureTapEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/SamplesGame.cpp, //203
+SamplesGame::initialize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/SamplesGame.cpp, //17
+SamplesGame::keyEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/SamplesGame.cpp, //150
+SamplesGame::mouseEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/SamplesGame.cpp, //177
+SamplesGame::render, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/SamplesGame.cpp, //116
+SamplesGame::touchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/SamplesGame.cpp, //133
+SamplesGame::update, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/SamplesGame.cpp, //97
+gameplay::PhysicsVehicle::getType, //0, //Ken Whatmough, //kwhatmough@rim.com, //20120913, //gameplay/src/PhysicsVehicle.cpp, //217
+SpriteBatchSample::finalize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/SpriteBatchSample.cpp, //61
+SpriteBatchSample::initialize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/SpriteBatchSample.cpp, //49
+SpriteBatchSample::render, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/SpriteBatchSample.cpp, //71
+SpriteBatchSample::touchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/SpriteBatchSample.cpp, //136
+SpriteBatchSample::update, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/SpriteBatchSample.cpp, //67
+gameplay::Container::draw, //0, //Adam Blake, //ablake@rim.com, //20120525, //gameplay/src/Container.cpp, //497
+gameplay::Container::gamepadEvent, //0, //Adam Blake, //ablake@rim.com, //20130314, //gameplay/src/Container.cpp, //1046
+gameplay::Container::getAnimationPropertyComponentCount, //0, //Adam Blake, //ablake@rim.com, //20120530, //gameplay/src/Container.cpp, //1881
+gameplay::Container::getAnimationPropertyValue, //0, //Adam Blake, //ablake@rim.com, //20120530, //gameplay/src/Container.cpp, //1892
+gameplay::Container::getType, //0, //Kieran Cunney, //kcunney@rim.com, //20120625, //gameplay/src/Container.cpp, //443
+gameplay::Container::isContainer, //0, //Kieran Cunney, //kcunney@rim.com, //20120625, //gameplay/src/Container.cpp, //1262
+gameplay::Container::isDirty, //0, //Adam Blake, //ablake@rim.com, //20120124, //gameplay/src/Container.cpp, //619
+gameplay::Container::keyEvent, //0, //Adam Blake, //ablake@rim.com, //20120606, //gameplay/src/Container.cpp, //651
+gameplay::Container::mouseEvent, //0, //Adam Blake, //ablake@rim.com, //20120606, //gameplay/src/Container.cpp, //646
+gameplay::Container::setAnimationPropertyValue, //0, //Adam Blake, //ablake@rim.com, //20120530, //gameplay/src/Container.cpp, //1907
+gameplay::Container::timeEvent, //0, //Adam Blake, //ablake@rim.com, //20130314, //gameplay/src/Container.cpp, //998
+gameplay::Container::touchEvent, //0, //Adam Blake, //ablake@rim.com, //20120228, //gameplay/src/Container.cpp, //641
+gameplay::Container::update, //0, //Adam Blake, //ablake@rim.com, //20120524, //gameplay/src/Container.cpp, //458
+gameplay::Control::draw, //0, //Adam Blake, //ablake@rim.com, //20120525, //gameplay/src/Control.cpp, //1132
+gameplay::Control::gamepadEvent, //0, //Adam Blake, //ablake@rim.com, //20130314, //gameplay/src/Control.cpp, //896
+gameplay::Control::getAnimationPropertyComponentCount, //0, //Adam Blake, //ablake@rim.com, //20120330, //gameplay/src/Control.cpp, //1216
+gameplay::Control::getAnimationPropertyValue, //0, //Adam Blake, //ablake@rim.com, //20120330, //gameplay/src/Control.cpp, //1236
+gameplay::Control::isDirty, //0, //Adam Blake, //ablake@rim.com, //20120124, //gameplay/src/Control.cpp, //1157
+gameplay::Control::keyEvent, //0, //Adam Blake, //ablake@rim.com, //20120606, //gameplay/src/Control.cpp, //851
+gameplay::Control::mouseEvent, //0, //Adam Blake, //ablake@rim.com, //20120606, //gameplay/src/Control.cpp, //856
+gameplay::Control::setAnimationPropertyValue, //0, //Adam Blake, //ablake@rim.com, //20120330, //gameplay/src/Control.cpp, //1270
+gameplay::Control::touchEvent, //0, //Adam Blake, //ablake@rim.com, //20120228, //gameplay/src/Control.cpp, //800
+gameplay::Control::update, //0, //Adam Blake, //ablake@rim.com, //20120524, //gameplay/src/Control.cpp, //957
+gameplay::Control::addListener, //0, //Adam Blake, //ablake@rim.com, //20120315, //gameplay/src/Control.cpp, //727
+gameplay::Control::drawBorder, //0, //Adam Blake, //ablake@rim.com, //20120502, //gameplay/src/Control.cpp, //1063
+gameplay::Control::drawImages, //0, //Adam Blake, //ablake@rim.com, //20120330, //gameplay/src/Control.cpp, //1124
+gameplay::Label::drawText, //0, //Adam Blake, //ablake@rim.com, //20120301, //gameplay/src/Label.cpp, //97
+gameplay::Label::getType, //0, //Kieran Cunney, //kcunney@rim.com, //20120625, //gameplay/src/Label.cpp, //111
+gameplay::Label::initialize, //0, //Adam Blake, //ablake@rim.com, //20120404, //gameplay/src/Label.cpp, //44
+gameplay::Label::update, //0, //Adam Blake, //ablake@rim.com, //20120524, //gameplay/src/Label.cpp, //86
+gameplay::Slider::addListener, //0, //Adam Blake, //ablake@rim.com, //20120315, //gameplay/src/Slider.cpp, //155
+gameplay::Slider::draw, //0, //Adam Blake, //ablake@rim.com, //20130314, //gameplay/src/Slider.cpp, //511
+gameplay::Slider::drawImages, //0, //Adam Blake, //ablake@rim.com, //20120330, //gameplay/src/Slider.cpp, //539
+gameplay::Slider::drawText, //0, //Adam Blake, //ablake@rim.com, //20130116, //gameplay/src/Slider.cpp, //592
+gameplay::Slider::gamepadEvent, //0, //Adam Blake, //ablake@rim.com, //20130314, //gameplay/src/Slider.cpp, //325
+gameplay::Slider::getType, //0, //Kieran Cunney, //kcunney@rim.com, //20120625, //gameplay/src/Slider.cpp, //604
+gameplay::Slider::keyEvent, //0, //Adam Blake, //ablake@rim.com, //20130426, //gameplay/src/Slider.cpp, //406
+gameplay::Slider::mouseEvent, //0, //Adam Blake, //ablake@rim.com, //20120619, //gameplay/src/Slider.cpp, //275
+gameplay::Slider::touchEvent, //0, //Adam Blake, //ablake@rim.com, //20120228, //gameplay/src/Slider.cpp, //165
+gameplay::Slider::update, //0, //Adam Blake, //ablake@rim.com, //20120524, //gameplay/src/Slider.cpp, //470
+MeshBatchSample::finalize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/MeshBatchSample.cpp, //52
+MeshBatchSample::initialize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/MeshBatchSample.cpp, //42
+MeshBatchSample::render, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/MeshBatchSample.cpp, //62
+MeshBatchSample::touchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/MeshBatchSample.cpp, //82
+MeshBatchSample::update, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/MeshBatchSample.cpp, //58
+gameplay::AIState::Listener::stateEnter, //0, //Steve Grenier, //sgrenier@rim.com, //20120713, //gameplay/src/AIState.cpp, //65
+gameplay::AIState::Listener::stateExit, //0, //Steve Grenier, //sgrenier@rim.com, //20120713, //gameplay/src/AIState.cpp, //69
+gameplay::AIState::Listener::stateUpdate, //0, //Steve Grenier, //sgrenier@rim.com, //20120713, //gameplay/src/AIState.cpp, //73
+gameplay::MeshSubSet::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/MeshSubSet.cpp, //21
+gameplay::MeshSubSet::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111115, //tools/encoder/src/MeshSubSet.cpp, //16
+gameplay::MeshSubSet::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/MeshSubSet.cpp, //26
+gameplay::MeshSubSet::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/MeshSubSet.cpp, //31
+gameplay::Animation::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Animation.cpp, //19
+gameplay::Animation::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Animation.cpp, //15
+gameplay::Animation::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Animation.cpp, //24
+gameplay::Animation::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Animation.cpp, //36
+gameplay::AnimationChannel::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/AnimationChannel.cpp, //26
+gameplay::AnimationChannel::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/AnimationChannel.cpp, //42
+gameplay::Glyph::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Glyph.cpp, //18
+gameplay::Glyph::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Glyph.cpp, //23
+gameplay::Glyph::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Glyph.cpp, //33
+gameplay::PhysicsVehicleWheel::getType, //0, //Ken Whatmough, //kwhatmough@rim.com, //20120913, //gameplay/src/PhysicsVehicleWheel.cpp, //113
+gameplay::MeshSkin::transformChanged, //0, //Steve Grenier, //sgrenier@rim.com, //20111129, //gameplay/src/MeshSkin.cpp, //218
+gameplay::Theme::Style::Overlay::getAnimationPropertyComponentCount, //0, //Adam Blake, //ablake@rim.com, //20120404, //gameplay/src/ThemeStyle.cpp, //447
+gameplay::Theme::Style::Overlay::getAnimationPropertyValue, //0, //Adam Blake, //ablake@rim.com, //20120404, //gameplay/src/ThemeStyle.cpp, //458
+gameplay::Theme::Style::Overlay::setAnimationPropertyValue, //0, //Adam Blake, //ablake@rim.com, //20120404, //gameplay/src/ThemeStyle.cpp, //472
+gameplay::SocialSessionListener::authenticateEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130807, //gameplay/src/SocialSessionListener.cpp, //18
+gameplay::SocialSessionListener::awardAchievedEvent, //0, //Dale Ducharme, //dducharme@rim.com, //20130930, //gameplay/src/SocialSessionListener.cpp, //38
+gameplay::SocialSessionListener::displayedAchievementsEvent, //0, //Dale Ducharme, //dducharme@rim.com, //20130930, //gameplay/src/SocialSessionListener.cpp, //82
+gameplay::SocialSessionListener::displayedChallengesEvent, //0, //Dale Ducharme, //dducharme@rim.com, //20130930, //gameplay/src/SocialSessionListener.cpp, //86
+gameplay::SocialSessionListener::displayedLeaderboardEvent, //0, //Dale Ducharme, //dducharme@rim.com, //20130930, //gameplay/src/SocialSessionListener.cpp, //78
+gameplay::SocialSessionListener::loadAchievementsEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130807, //gameplay/src/SocialSessionListener.cpp, //26
+gameplay::SocialSessionListener::loadFriendsEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130807, //gameplay/src/SocialSessionListener.cpp, //22
+gameplay::SocialSessionListener::loadSavedDataEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130807, //gameplay/src/SocialSessionListener.cpp, //66
+gameplay::SocialSessionListener::loadScoresEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130807, //gameplay/src/SocialSessionListener.cpp, //42
+gameplay::SocialSessionListener::replyToChallengeEvent, //0, //Dale Ducharme, //dducharme@rim.com, //20130930, //gameplay/src/SocialSessionListener.cpp, //58
+gameplay::SocialSessionListener::submitAchievementEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130807, //gameplay/src/SocialSessionListener.cpp, //34
+gameplay::SocialSessionListener::submitSavedDataEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130807, //gameplay/src/SocialSessionListener.cpp, //70
+gameplay::SocialSessionListener::submitScoreEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130807, //gameplay/src/SocialSessionListener.cpp, //46
+gameplay::SocialSessionListener::synchronizeAchievementEvent, //0, //Dale Ducharme, //dducharme@rim.com, //20130930, //gameplay/src/SocialSessionListener.cpp, //30
+gameplay::SocialSessionListener::uiEvent, //0, //Dale Ducharme, //dducharme@rim.com, //20130930, //gameplay/src/SocialSessionListener.cpp, //74
+gameplay::FileStream::canRead, //0, //Darryl Gough, //dgough@rim.com, //20121123, //gameplay/src/FileSystem.cpp, //658
+gameplay::FileStream::canSeek, //0, //Darryl Gough, //dgough@rim.com, //20121123, //gameplay/src/FileSystem.cpp, //668
+gameplay::FileStream::canWrite, //0, //Darryl Gough, //dgough@rim.com, //20121123, //gameplay/src/FileSystem.cpp, //663
+gameplay::FileStream::close, //0, //Darryl Gough, //dgough@rim.com, //20121123, //gameplay/src/FileSystem.cpp, //673
+gameplay::FileStream::eof, //0, //Darryl Gough, //dgough@rim.com, //20121123, //gameplay/src/FileSystem.cpp, //701
+gameplay::FileStream::length, //0, //Darryl Gough, //dgough@rim.com, //20121123, //gameplay/src/FileSystem.cpp, //708
+gameplay::FileStream::position, //0, //Darryl Gough, //dgough@rim.com, //20121123, //gameplay/src/FileSystem.cpp, //723
+gameplay::FileStream::read, //0, //Darryl Gough, //dgough@rim.com, //20121123, //gameplay/src/FileSystem.cpp, //680
+gameplay::FileStream::readLine, //0, //Darryl Gough, //dgough@rim.com, //20121123, //gameplay/src/FileSystem.cpp, //687
+gameplay::FileStream::rewind, //0, //Darryl Gough, //dgough@rim.com, //20121123, //gameplay/src/FileSystem.cpp, //737
+gameplay::FileStream::seek, //0, //Darryl Gough, //dgough@rim.com, //20121123, //gameplay/src/FileSystem.cpp, //730
+gameplay::FileStream::write, //0, //Darryl Gough, //dgough@rim.com, //20121123, //gameplay/src/FileSystem.cpp, //694
+gameplay::Node::getScene, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay/src/Node.cpp, //385
+MeshGame::finalize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/mesh/src/MeshGame.cpp, //47
+MeshGame::initialize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/mesh/src/MeshGame.cpp, //15
+MeshGame::keyEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/mesh/src/MeshGame.cpp, //72
+MeshGame::render, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/mesh/src/MeshGame.cpp, //60
+MeshGame::touchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/mesh/src/MeshGame.cpp, //85
+MeshGame::update, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/mesh/src/MeshGame.cpp, //53
+gameplay::PhysicsRigidBody::getType, //0, //Steve Grenier, //sgrenier@rim.com, //20120302, //gameplay/src/PhysicsRigidBody.cpp, //95
+gameplay::PhysicsRigidBody::transformChanged, //0, //Chris Culy, //cculy@rim.com, //20111212, //gameplay/src/PhysicsRigidBody.cpp, //363
+gameplay::AudioSource::transformChanged, //0, //Steve Grenier, //sgrenier@rim.com, //20111129, //gameplay/src/AudioSource.cpp, //268
+Sample::mouseEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/Sample.cpp, //148
+TerrainSample::controlEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/TerrainSample.cpp, //293
+TerrainSample::finalize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/TerrainSample.cpp, //81
+TerrainSample::initialize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/TerrainSample.cpp, //40
+TerrainSample::keyEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/TerrainSample.cpp, //178
+TerrainSample::mouseEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/TerrainSample.cpp, //288
+TerrainSample::render, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/TerrainSample.cpp, //128
+TerrainSample::touchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/TerrainSample.cpp, //225
+TerrainSample::update, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/TerrainSample.cpp, //90
+CharacterGame::animationEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/character/src/CharacterGame.cpp, //587
+CharacterGame::collisionEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/character/src/CharacterGame.cpp, //620
+CharacterGame::finalize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/character/src/CharacterGame.cpp, //124
+CharacterGame::gamepadEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/character/src/CharacterGame.cpp, //511
+CharacterGame::initialize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/character/src/CharacterGame.cpp, //30
+CharacterGame::keyEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/character/src/CharacterGame.cpp, //397
+CharacterGame::mouseEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/character/src/CharacterGame.cpp, //501
+CharacterGame::render, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/character/src/CharacterGame.cpp, //364
+CharacterGame::touchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/character/src/CharacterGame.cpp, //474
+CharacterGame::update, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/character/src/CharacterGame.cpp, //200
+gameplay::AnimationChannel::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/AnimationChannel.cpp, //21
+gameplay::AnimationChannel::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/AnimationChannel.cpp, //17
+gameplay::Button::gamepadEvent, //0, //Adam Blake, //ablake@rim.com, //20130314, //gameplay/src/Button.cpp, //90
+gameplay::Button::getType, //0, //Kieran Cunney, //kcunney@rim.com, //20120625, //gameplay/src/Button.cpp, //143
+gameplay::Button::keyEvent, //0, //Adam Blake, //ablake@rim.com, //20130426, //gameplay/src/Button.cpp, //124
+gameplay::Button::touchEvent, //0, //Adam Blake, //ablake@rim.com, //20120228, //gameplay/src/Button.cpp, //42
+gameplay::RadioButton::drawImages, //0, //Adam Blake, //ablake@rim.com, //20120413, //gameplay/src/RadioButton.cpp, //214
+gameplay::RadioButton::gamepadEvent, //0, //Adam Blake, //ablake@rim.com, //20130314, //gameplay/src/RadioButton.cpp, //128
+gameplay::RadioButton::getType, //0, //Kieran Cunney, //kcunney@rim.com, //20120625, //gameplay/src/RadioButton.cpp, //241
+gameplay::RadioButton::keyEvent, //0, //Adam Blake, //ablake@rim.com, //20130426, //gameplay/src/RadioButton.cpp, //165
+gameplay::RadioButton::touchEvent, //0, //Adam Blake, //ablake@rim.com, //20120228, //gameplay/src/RadioButton.cpp, //101
+gameplay::RadioButton::update, //0, //Adam Blake, //ablake@rim.com, //20120524, //gameplay/src/RadioButton.cpp, //177
+BillboardSample::finalize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/BillboardSample.cpp, //60
+BillboardSample::gamepadEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/BillboardSample.cpp, //336
+BillboardSample::initialize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/BillboardSample.cpp, //32
+BillboardSample::keyEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/BillboardSample.cpp, //203
+BillboardSample::mouseEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/BillboardSample.cpp, //266
+BillboardSample::render, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/BillboardSample.cpp, //139
+BillboardSample::touchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/BillboardSample.cpp, //172
+BillboardSample::update, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/BillboardSample.cpp, //73
+SpaceshipGame::authenticateEvent, //0, //Dale Ducharme, //dducharme@rim.com, //20130930, //samples/spaceship/src/SpaceshipGame.cpp, //749
+SpaceshipGame::awardAchievedEvent, //0, //Dale Ducharme, //dducharme@rim.com, //20130930, //samples/spaceship/src/SpaceshipGame.cpp, //807
+SpaceshipGame::controlEvent, //0, //Dale Ducharme, //dducharme@rim.com, //20130930, //samples/spaceship/src/SpaceshipGame.cpp, //595
+SpaceshipGame::finalize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/spaceship/src/SpaceshipGame.cpp, //253
+SpaceshipGame::initialize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/spaceship/src/SpaceshipGame.cpp, //81
+SpaceshipGame::keyEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/spaceship/src/SpaceshipGame.cpp, //559
+SpaceshipGame::loadAchievementsEvent, //0, //Dale Ducharme, //dducharme@rim.com, //20130930, //samples/spaceship/src/SpaceshipGame.cpp, //784
+SpaceshipGame::loadFriendsEvent, //0, //Dale Ducharme, //dducharme@rim.com, //20130930, //samples/spaceship/src/SpaceshipGame.cpp, //762
+SpaceshipGame::loadSavedDataEvent, //0, //Dale Ducharme, //dducharme@rim.com, //20130930, //samples/spaceship/src/SpaceshipGame.cpp, //894
+SpaceshipGame::loadScoresEvent, //0, //Dale Ducharme, //dducharme@rim.com, //20130930, //samples/spaceship/src/SpaceshipGame.cpp, //831
+SpaceshipGame::render, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/spaceship/src/SpaceshipGame.cpp, //498
+SpaceshipGame::replyToChallengeEvent, //0, //Dale Ducharme, //dducharme@rim.com, //20130930, //samples/spaceship/src/SpaceshipGame.cpp, //869
+SpaceshipGame::submitAchievementEvent, //0, //Dale Ducharme, //dducharme@rim.com, //20130930, //samples/spaceship/src/SpaceshipGame.cpp, //797
+SpaceshipGame::submitSavedDataEvent, //0, //Dale Ducharme, //dducharme@rim.com, //20130930, //samples/spaceship/src/SpaceshipGame.cpp, //898
+SpaceshipGame::submitScoreEvent, //0, //Dale Ducharme, //dducharme@rim.com, //20130930, //samples/spaceship/src/SpaceshipGame.cpp, //846
+SpaceshipGame::synchronizeAchievementEvent, //0, //Dale Ducharme, //dducharme@rim.com, //20130930, //samples/spaceship/src/SpaceshipGame.cpp, //802
+SpaceshipGame::touchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/spaceship/src/SpaceshipGame.cpp, //572
+SpaceshipGame::update, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/spaceship/src/SpaceshipGame.cpp, //264
+gameplay::Effect::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Effect.cpp, //20
+gameplay::Effect::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Effect.cpp, //15
+gameplay::Effect::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Effect.cpp, //25
+gameplay::Effect::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Effect.cpp, //32
+gameplay::Node::cloneSingleNode, //0, //Darryl Gough, //dgough@rim.com, //20120329, //gameplay/src/Node.cpp, //984
+gameplay::Node::getType, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay/src/Node.cpp, //86
+gameplay::Node::isStatic, //0, //sgrenier, //sgrenier@rim.com, //20130417, //gameplay/src/Node.cpp, //411
+gameplay::Node::removeAllChildren, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111103, //gameplay/src/Node.cpp, //157
+gameplay::Node::transformChanged, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay/src/Node.cpp, //644
+gameplay::Transform::isStatic, //0, //sgrenier, //sgrenier@rim.com, //20130417, //gameplay/src/Transform.cpp, //745
+gameplay::Transform::transformChanged, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay/src/Transform.cpp, //983
+gameplay::PhysicsCharacter::getType, //0, //Steve Grenier, //sgrenier@rim.com, //20120302, //gameplay/src/PhysicsCharacter.cpp, //143
+gameplay::PhysicsGhostObject::getType, //0, //Chris Culy, //cculy@rim.com, //20120316, //gameplay/src/PhysicsGhostObject.cpp, //83
+gameplay::MeshSkin::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/MeshSkin.cpp, //30
+gameplay::MeshSkin::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/MeshSkin.cpp, //25
+gameplay::MeshSkin::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/MeshSkin.cpp, //35
+gameplay::MeshSkin::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/MeshSkin.cpp, //64
+RacerGame::controlEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/racer/src/RacerGame.cpp, //626
+RacerGame::finalize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/racer/src/RacerGame.cpp, //128
+RacerGame::gamepadEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/racer/src/RacerGame.cpp, //508
+RacerGame::initialize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/racer/src/RacerGame.cpp, //39
+RacerGame::keyEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/racer/src/RacerGame.cpp, //386
+RacerGame::mouseEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/racer/src/RacerGame.cpp, //485
+RacerGame::render, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/racer/src/RacerGame.cpp, //298
+RacerGame::touchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/racer/src/RacerGame.cpp, //472
+RacerGame::update, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/racer/src/RacerGame.cpp, //139
+gameplay::Control::drawText, //0, //Adam Blake, //ablake@rim.com, //20120301, //gameplay/src/Control.cpp, //1128
+gameplay::Control::initialize, //0, //Adam Blake, //ablake@rim.com, //20120404, //gameplay/src/Control.cpp, //34
+gameplay::Node::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Node.cpp, //29
+gameplay::Node::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Node.cpp, //24
+gameplay::Node::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Node.cpp, //34
+gameplay::Node::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Node.cpp, //83
+gameplay::AudioListener::transformChanged, //0, //Steve Grenier, //sgrenier@rim.com, //20111129, //gameplay/src/AudioListener.cpp, //127
+gameplay::PhysicsController::HitFilter::filter, //0, //Steve Grenier, //sgrenier@rim.com, //20120614, //gameplay/src/PhysicsController.cpp, //1456
+TerrainHitFilter::filter, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/TerrainSample.cpp, //15
+gameplay::Control::removeListener, //0, //Darryl Gough, //dgough@rim.com, //20121114, //gameplay/src/Control.cpp, //757
+gameplay::Control::setAutoHeight, //0, //Adam Blake, //ablake@rim.com, //20120409, //gameplay/src/Control.cpp, //253
+gameplay::Control::setAutoWidth, //0, //Adam Blake, //ablake@rim.com, //20120409, //gameplay/src/Control.cpp, //239
+gameplay::Control::setBounds, //0, //Adam Blake, //ablake@rim.com, //20120404, //gameplay/src/Control.cpp, //188
+gameplay::Control::setHeight, //0, //Kieran Cunney, //kcunney@rim.com, //20120810, //gameplay/src/Control.cpp, //179
+gameplay::Control::setWidth, //0, //Kieran Cunney, //kcunney@rim.com, //20120810, //gameplay/src/Control.cpp, //170
+gameplay::PhysicsGhostObject::transformChanged, //0, //Chris Culy, //cculy@rim.com, //20120316, //gameplay/src/PhysicsGhostObject.cpp, //93
+CreateSceneSample::finalize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/CreateSceneSample.cpp, //132
+CreateSceneSample::initialize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/CreateSceneSample.cpp, //67
+CreateSceneSample::render, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/CreateSceneSample.cpp, //144
+CreateSceneSample::touchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/CreateSceneSample.cpp, //155
+CreateSceneSample::update, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/CreateSceneSample.cpp, //138
+Audio3DSample::finalize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/Audio3DSample.cpp, //68
+Audio3DSample::gamepadEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/Audio3DSample.cpp, //342
+Audio3DSample::initialize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/Audio3DSample.cpp, //24
+Audio3DSample::keyEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/Audio3DSample.cpp, //200
+Audio3DSample::mouseEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/Audio3DSample.cpp, //264
+Audio3DSample::render, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/Audio3DSample.cpp, //144
+Audio3DSample::touchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/Audio3DSample.cpp, //169
+Audio3DSample::update, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/Audio3DSample.cpp, //80
+TemplateGame::finalize, //0, //Steve Grenier, //sgrenier@rim.com, //20111208, //template/src/TemplateGame.cpp, //32
+TemplateGame::initialize, //0, //Steve Grenier, //sgrenier@rim.com, //20111208, //template/src/TemplateGame.cpp, //11
+TemplateGame::keyEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20120623, //template/src/TemplateGame.cpp, //63
+TemplateGame::render, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20120623, //template/src/TemplateGame.cpp, //43
+TemplateGame::touchEvent, //0, //Darryl Gough, //dgough@rim.com, //20120113, //template/src/TemplateGame.cpp, //76
+TemplateGame::update, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20120623, //template/src/TemplateGame.cpp, //37
+InputSample::controlEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/InputSample.cpp, //384
+InputSample::finalize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/InputSample.cpp, //76
+InputSample::initialize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/InputSample.cpp, //19
+InputSample::keyEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/InputSample.cpp, //344
+InputSample::mouseEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/InputSample.cpp, //296
+InputSample::render, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/InputSample.cpp, //123
+InputSample::touchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/InputSample.cpp, //237
+InputSample::update, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/InputSample.cpp, //91
+gameplay::Transform::getAnimationPropertyComponentCount, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay/src/Transform.cpp, //750
+gameplay::Transform::getAnimationPropertyValue, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay/src/Transform.cpp, //779
+gameplay::Transform::setAnimationPropertyValue, //0, //Kieran Cunney, //kcunney@rim.com, //20120111, //gameplay/src/Transform.cpp, //837
+LoadSceneSample::finalize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/LoadSceneSample.cpp, //30
+LoadSceneSample::initialize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/LoadSceneSample.cpp, //14
+LoadSceneSample::keyEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/LoadSceneSample.cpp, //71
+LoadSceneSample::render, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/LoadSceneSample.cpp, //41
+LoadSceneSample::touchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/LoadSceneSample.cpp, //52
+LoadSceneSample::update, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/LoadSceneSample.cpp, //36
+gameplay::MeshPart::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/MeshPart.cpp, //22
+gameplay::MeshPart::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/MeshPart.cpp, //17
+gameplay::MeshPart::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/MeshPart.cpp, //27
+gameplay::MeshPart::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/MeshPart.cpp, //43
+gameplay::ScriptTarget::addScriptCallback, //0, //Steve Grenier, //sgrenier@rim.com, //20120723, //gameplay/src/ScriptTarget.cpp, //90
+gameplay::ScriptTarget::removeScriptCallback, //0, //Steve Grenier, //sgrenier@rim.com, //20120723, //gameplay/src/ScriptTarget.cpp, //108
+gameplay::Model::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Model.cpp, //22
+gameplay::Model::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Model.cpp, //18
+gameplay::Model::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Model.cpp, //26
+gameplay::Model::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Model.cpp, //77
+gameplay::Form::setAutoHeight, //0, //Adam Blake, //ablake@rim.com, //20120510, //gameplay/src/Form.cpp, //299
+gameplay::Form::setWidth, //0, //Adam Blake, //ablake@rim.com, //20120926, //gameplay/src/Form.cpp, //275
+Sample::gesturePinchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/Sample.cpp, //232
+Sample::gestureSwipeEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/Sample.cpp, //228
+Sample::gestureTapEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/Sample.cpp, //236
+gameplay::TextBox::addListener, //0, //Adam Blake, //ablake@rim.com, //20120315, //gameplay/src/TextBox.cpp, //52
+gameplay::TextBox::drawImages, //0, //Adam Blake, //ablake@rim.com, //20120330, //gameplay/src/TextBox.cpp, //387
+gameplay::TextBox::drawText, //0, //Marc Plano-Lesay, //marc.planolesay@gmail.com, //20130510, //gameplay/src/TextBox.cpp, //495
+gameplay::TextBox::getType, //0, //Kieran Cunney, //kcunney@rim.com, //20120625, //gameplay/src/TextBox.cpp, //470
+gameplay::TextBox::initialize, //0, //Marc Plano-Lesay, //marc.planolesay@gmail.com, //20130510, //gameplay/src/TextBox.cpp, //39
+gameplay::TextBox::keyEvent, //0, //Adam Blake, //ablake@rim.com, //20120606, //gameplay/src/TextBox.cpp, //118
+gameplay::TextBox::touchEvent, //0, //Adam Blake, //ablake@rim.com, //20120228, //gameplay/src/TextBox.cpp, //62
+gameplay::TextBox::update, //0, //Adam Blake, //ablake@rim.com, //20120524, //gameplay/src/TextBox.cpp, //379
+gameplay::VertexElement::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/VertexElement.cpp, //16
+gameplay::VertexElement::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/VertexElement.cpp, //21
+gameplay::VertexElement::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/VertexElement.cpp, //27
+gameplay::ImageControl::drawImages, //0, //Adam Blake, //ablake@rim.com, //20130301, //gameplay/src/ImageControl.cpp, //126
+gameplay::ImageControl::getType, //0, //Adam Blake, //ablake@rim.com, //20130314, //gameplay/src/ImageControl.cpp, //121
+gameplay::ImageControl::initialize, //0, //Adam Blake, //ablake@rim.com, //20130301, //gameplay/src/ImageControl.cpp, //44
+gameplay::AnimationClip::ScriptListener::animationEvent, //0, //Chris Culy, //cculy@rim.com, //20120717, //gameplay/src/AnimationClip.cpp, //660
+gameplay::Game::ScriptListener::timeEvent, //0, //Chris Culy, //cculy@rim.com, //20120717, //gameplay/src/Game.cpp, //568
+gameplay::Game::ShutdownListener::timeEvent, //0, //sgrenier, //sgrenier@rim.com, //20130110, //gameplay/src/Game.cpp, //646
+gameplay::Game::resizeEvent, //0, //sgrenier, //sgrenier@rim.com, //20130228, //gameplay/src/Game.cpp, //484
+gameplay::Layout::align, //0, //Adam Blake, //ablake@rim.com, //20120409, //gameplay/src/Layout.cpp, //9
+gameplay::VerticalLayout::getType, //0, //Adam Blake, //ablake@rim.com, //20120124, //gameplay/src/VerticalLayout.cpp, //30
+gameplay::VerticalLayout::update, //0, //Adam Blake, //ablake@rim.com, //20120524, //gameplay/src/VerticalLayout.cpp, //35
+PhysicsCollisionObjectSample::controlEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/PhysicsCollisionObjectSample.cpp, //201
+PhysicsCollisionObjectSample::finalize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/PhysicsCollisionObjectSample.cpp, //41
+PhysicsCollisionObjectSample::initialize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/PhysicsCollisionObjectSample.cpp, //21
+PhysicsCollisionObjectSample::keyEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/PhysicsCollisionObjectSample.cpp, //97
+PhysicsCollisionObjectSample::render, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/PhysicsCollisionObjectSample.cpp, //52
+PhysicsCollisionObjectSample::touchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/PhysicsCollisionObjectSample.cpp, //71
+PhysicsCollisionObjectSample::update, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/PhysicsCollisionObjectSample.cpp, //48
+TextSample::controlEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/TextSample.cpp, //151
+TextSample::finalize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/TextSample.cpp, //26
+TextSample::initialize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/TextSample.cpp, //38
+TextSample::render, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/TextSample.cpp, //89
+TextSample::touchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/TextSample.cpp, //145
+TextSample::update, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/TextSample.cpp, //85
+PostProcessSample::finalize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/PostProcessSample.cpp, //137
+PostProcessSample::initialize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/PostProcessSample.cpp, //80
+PostProcessSample::render, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/PostProcessSample.cpp, //167
+PostProcessSample::touchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/PostProcessSample.cpp, //230
+PostProcessSample::update, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/PostProcessSample.cpp, //150
+gameplay::PhysicsCollisionObject::ScriptListener::collisionEvent, //0, //Chris Culy, //cculy@rim.com, //20120717, //gameplay/src/PhysicsCollisionObject.cpp, //310
+LightSample::controlEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/LightSample.cpp, //270
+LightSample::finalize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/LightSample.cpp, //141
+LightSample::initialize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/LightSample.cpp, //43
+LightSample::keyEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/LightSample.cpp, //253
+LightSample::render, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/LightSample.cpp, //159
+LightSample::touchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/LightSample.cpp, //184
+LightSample::update, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/LightSample.cpp, //155
+gameplay::AbsoluteLayout::getType, //0, //Adam Blake, //ablake@rim.com, //20120124, //gameplay/src/AbsoluteLayout.cpp, //34
+gameplay::AbsoluteLayout::update, //0, //Adam Blake, //ablake@rim.com, //20120524, //gameplay/src/AbsoluteLayout.cpp, //39
+GamepadSample::finalize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/GamepadSample.cpp, //11
+GamepadSample::gamepadEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/GamepadSample.cpp, //83
+GamepadSample::initialize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/GamepadSample.cpp, //16
+GamepadSample::render, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/GamepadSample.cpp, //69
+GamepadSample::update, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/GamepadSample.cpp, //62
+gameplay::Terrain::transformChanged, //0, //Steve Grenier, //sgrenier@rim.com, //20130104, //gameplay/src/Terrain.cpp, //520
+gameplay::Camera::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Camera.cpp, //49
+gameplay::Camera::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Camera.cpp, //45
+gameplay::Camera::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Camera.cpp, //54
+gameplay::Camera::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Camera.cpp, //76
+gameplay::CheckBox::addListener, //0, //Adam Blake, //ablake@rim.com, //20120315, //gameplay/src/CheckBox.cpp, //67
+gameplay::Light::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Light.cpp, //96
+gameplay::Light::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Light.cpp, //129
+ParticlesGame::controlEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/particles/src/ParticlesGame.cpp, //489
+ParticlesGame::finalize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/particles/src/ParticlesGame.cpp, //863
+ParticlesGame::initialize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/particles/src/ParticlesGame.cpp, //105
+ParticlesGame::keyEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/particles/src/ParticlesGame.cpp, //1022
+ParticlesGame::mouseEvent, //0, //Steve Grenier, //sgrenier@rim.com, //20130922, //samples/particles/src/ParticlesGame.cpp, //931
+ParticlesGame::render, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/particles/src/ParticlesGame.cpp, //907
+ParticlesGame::resizeEvent, //0, //Steve Grenier, //sgrenier@rim.com, //20130922, //samples/particles/src/ParticlesGame.cpp, //1224
+ParticlesGame::touchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/particles/src/ParticlesGame.cpp, //987
+ParticlesGame::update, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/particles/src/ParticlesGame.cpp, //871
+gameplay::SocialSession::handleEvent, //0, //Dale Ducharme, //dducharme@rim.com, //20130930, //gameplay/src/SocialSession.h, //93
+gameplay::Form::getType, //0, //Kieran Cunney, //kcunney@rim.com, //20120625, //gameplay/src/Form.cpp, //585
+gameplay::Form::setAutoWidth, //0, //Adam Blake, //ablake@rim.com, //20120510, //gameplay/src/Form.cpp, //285
+gameplay::Form::setBounds, //0, //Adam Blake, //ablake@rim.com, //20120510, //gameplay/src/Form.cpp, //269
+gameplay::Form::setHeight, //0, //Adam Blake, //ablake@rim.com, //20120926, //gameplay/src/Form.cpp, //280
+gameplay::Font::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Font.cpp, //23
+gameplay::Font::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Font.cpp, //19
+gameplay::Font::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Font.cpp, //28
+gameplay::Font::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Font.cpp, //40
+gameplay::Camera::transformChanged, //0, //Steve Grenier, //sgrenier@rim.com, //20111129, //gameplay/src/Camera.cpp, //441
+gameplay::Joint::cloneSingleNode, //0, //Darryl Gough, //dgough@rim.com, //20120329, //gameplay/src/Joint.cpp, //22
+gameplay::Joint::getScene, //0, //Steve Grenier, //sgrenier@rim.com, //20130203, //gameplay/src/Joint.cpp, //37
+gameplay::Joint::getType, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay/src/Joint.cpp, //32
+gameplay::Joint::transformChanged, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay/src/Joint.cpp, //58
+MeshPrimitiveSample::finalize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/MeshPrimitiveSample.cpp, //228
+MeshPrimitiveSample::initialize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/MeshPrimitiveSample.cpp, //190
+MeshPrimitiveSample::render, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/MeshPrimitiveSample.cpp, //253
+MeshPrimitiveSample::touchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/MeshPrimitiveSample.cpp, //294
+MeshPrimitiveSample::update, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/MeshPrimitiveSample.cpp, //244
+gameplay::Joystick::addListener, //0, //Chris Culy, //cculy@rim.com, //20120525, //gameplay/src/Joystick.cpp, //111
+gameplay::Joystick::drawImages, //0, //Chris Culy, //cculy@rim.com, //20120525, //gameplay/src/Joystick.cpp, //241
+gameplay::Joystick::getType, //0, //Kieran Cunney, //kcunney@rim.com, //20120625, //gameplay/src/Joystick.cpp, //287
+gameplay::Joystick::initialize, //0, //Chris Culy, //cculy@rim.com, //20120525, //gameplay/src/Joystick.cpp, //39
+gameplay::Joystick::touchEvent, //0, //Chris Culy, //cculy@rim.com, //20120525, //gameplay/src/Joystick.cpp, //121
+TriangleSample::finalize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/TriangleSample.cpp, //72
+TriangleSample::initialize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/TriangleSample.cpp, //49
+TriangleSample::render, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/TriangleSample.cpp, //85
+TriangleSample::touchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/TriangleSample.cpp, //97
+TriangleSample::update, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/TriangleSample.cpp, //79
+gameplay::CheckBox::drawImages, //0, //Adam Blake, //ablake@rim.com, //20120413, //gameplay/src/CheckBox.cpp, //163
+gameplay::CheckBox::gamepadEvent, //0, //Adam Blake, //ablake@rim.com, //20130314, //gameplay/src/CheckBox.cpp, //97
+gameplay::CheckBox::getType, //0, //Kieran Cunney, //kcunney@rim.com, //20120625, //gameplay/src/CheckBox.cpp, //191
+gameplay::CheckBox::keyEvent, //0, //Adam Blake, //ablake@rim.com, //20130426, //gameplay/src/CheckBox.cpp, //116
+gameplay::CheckBox::touchEvent, //0, //Adam Blake, //ablake@rim.com, //20120228, //gameplay/src/CheckBox.cpp, //78
+gameplay::CheckBox::update, //0, //Adam Blake, //ablake@rim.com, //20120524, //gameplay/src/CheckBox.cpp, //126
+gameplay::Animations::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111103, //tools/encoder/src/Animations.cpp, //22
+gameplay::Animations::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111103, //tools/encoder/src/Animations.cpp, //18
+gameplay::Animations::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111103, //tools/encoder/src/Animations.cpp, //27
+gameplay::Animations::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111103, //tools/encoder/src/Animations.cpp, //37
+gameplay::Reference::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Reference.cpp, //26
+gameplay::Reference::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Reference.cpp, //31
+gameplay::Reference::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Reference.cpp, //38
+gameplay::Mesh::writeBinary, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Mesh.cpp, //26
+gameplay::Mesh::writeText, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Mesh.cpp, //70
+GestureSample::finalize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/GestureSample.cpp, //48
+GestureSample::gesturePinchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/GestureSample.cpp, //149
+GestureSample::gestureSwipeEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/GestureSample.cpp, //124
+GestureSample::gestureTapEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/GestureSample.cpp, //156
+GestureSample::initialize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/GestureSample.cpp, //18
+GestureSample::render, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/GestureSample.cpp, //61
+GestureSample::touchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/GestureSample.cpp, //107
+GestureSample::update, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/GestureSample.cpp, //57
+gameplay::Mesh::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Mesh.cpp, //21
+gameplay::Mesh::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Mesh.cpp, //16
+gameplay::Light::getElementName, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Light.cpp, //29
+gameplay::Light::getTypeId, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //tools/encoder/src/Light.cpp, //25
+gameplay::Layout::touchEvent, //0, //Adam Blake, //ablake@rim.com, //20120425, //gameplay/src/Layout.cpp, //87
+gameplay::AnimationTarget::getPropertyId, //0, //Kieran Cunney, //kcunney@rim.com, //20111214, //gameplay/src/AnimationTarget.cpp, //342
+gameplay::PhysicsController::HitFilter::hit, //0, //Steve Grenier, //sgrenier@rim.com, //20120614, //gameplay/src/PhysicsController.cpp, //1461
+gameplay::MaterialParameter::getAnimationPropertyComponentCount, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay/src/MaterialParameter.cpp, //599
+gameplay::MaterialParameter::getAnimationPropertyValue, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay/src/MaterialParameter.cpp, //636
+gameplay::MaterialParameter::setAnimationPropertyValue, //0, //Kieran Cunney, //kcunney@rim.com, //20120111, //gameplay/src/MaterialParameter.cpp, //690
+LuaGame::finalize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/lua/src/LuaGame.cpp, //14
+LuaGame::initialize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/lua/src/LuaGame.cpp, //10
+LuaGame::render, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/lua/src/LuaGame.cpp, //22
+LuaGame::update, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/lua/src/LuaGame.cpp, //18
+TextureSample::finalize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/TextureSample.cpp, //133
+TextureSample::initialize, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/TextureSample.cpp, //49
+TextureSample::render, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/TextureSample.cpp, //155
+TextureSample::touchEvent, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/TextureSample.cpp, //173
+TextureSample::update, //0, //seanpaultaylor, //uber.setaylor@gmail.com, //20130320, //samples/browser/src/TextureSample.cpp, //145
+gameplay::PhysicsController::rayTest::RayTestCallback::needsCollision, //0, //Steve Grenier, //sgrenier@rim.com, //20120614, //gameplay/src/PhysicsController.cpp, //184
+gameplay::PhysicsController::sweepTest::SweepTestCallback::needsCollision, //0, //Steve Grenier, //sgrenier@rim.com, //20120614, //gameplay/src/PhysicsController.cpp, //259
+gameplay::Node::removeChild, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111103, //gameplay/src/Node.cpp, //143
+gameplay::Node::addChild, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111103, //gameplay/src/Node.cpp, //91
+gameplay::Node::getWorldMatrix, //0, //Sean Paul Taylor, //setaylor@blackberry.com, //20111018, //gameplay/src/Node.cpp, //416

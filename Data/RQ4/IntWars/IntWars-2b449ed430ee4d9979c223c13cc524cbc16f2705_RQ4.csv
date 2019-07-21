@@ -1,0 +1,129 @@
+class implementing CRTP, uses, developer, email, edit time, definition file path, line
+
+virtual function, calls, developer, email, edit time, definition file path, line
+Spell::levelUp, //0, //RaptorTeak, //raptorteak@gmail.com, //20140723, //gamed/include/Spell.h, //182
+Stats::getArmor, //0, //RaptorTeak, //raptorteak@gmail.com, //20140723, //gamed/include/Stats.h, //155
+Stats::getArmorPenFlat, //0, //Leonardo Gomes, //lgomes.leo@gmail.com, //20140913, //gamed/include/Stats.h, //167
+Stats::getArmorPenPct, //0, //Leonardo Gomes, //lgomes.leo@gmail.com, //20140913, //gamed/include/Stats.h, //171
+Stats::getAttackSpeedMultiplier, //0, //RaptorTeak, //raptorteak@gmail.com, //20140725, //gamed/include/Stats.h, //228
+Stats::getBaseAttackSpeed, //0, //RaptorTeak, //raptorteak@gmail.com, //20140725, //gamed/include/Stats.h, //224
+Stats::getCurrentHealth, //0, //RaptorTeak, //raptorteak@gmail.com, //20140723, //gamed/include/Stats.h, //183
+Stats::getCurrentMana, //0, //RaptorTeak, //raptorteak@gmail.com, //20140723, //gamed/include/Stats.h, //187
+Stats::getGold, //0, //Gusor, //emailaddress@emailaddress.com, //20140725, //gamed/include/Stats.h, //232
+Stats::getGoldPerSecond, //0, //RaptorTeak, //raptorteak@gmail.com, //20140808, //gamed/include/Stats.h, //236
+Stats::getLevel, //0, //Elyotna, //raptorteak@gmail.com, //20140812, //gamed/include/Stats.h, //240
+Stats::getMagicArmor, //0, //RaptorTeak, //raptorteak@gmail.com, //20140723, //gamed/include/Stats.h, //159
+Stats::getMagicPenFlat, //0, //Leonardo Gomes, //lgomes.leo@gmail.com, //20140913, //gamed/include/Stats.h, //175
+Stats::getMagicPenPct, //0, //Leonardo Gomes, //lgomes.leo@gmail.com, //20140913, //gamed/include/Stats.h, //179
+Stats::getMaxHealth, //0, //RaptorTeak, //raptorteak@gmail.com, //20140723, //gamed/include/Stats.h, //191
+Stats::getMaxMana, //0, //Elyotna, //raptorteak@gmail.com, //20140803, //gamed/include/Stats.h, //195
+Stats::getRange, //0, //RaptorTeak, //raptorteak@gmail.com, //20140723, //gamed/include/Stats.h, //163
+Stats::getSpellCostReduction, //0, //Leonardo Gomes, //lgomes.leo@gmail.com, //20140913, //gamed/include/Stats.h, //390
+Stats::setArmor, //0, //RaptorTeak, //raptorteak@gmail.com, //20140723, //gamed/include/Stats.h, //268
+Stats::setArmorPenFlat, //0, //Leonardo Gomes, //lgomes.leo@gmail.com, //20140913, //gamed/include/Stats.h, //284
+Stats::setArmorPenPct, //0, //Leonardo Gomes, //lgomes.leo@gmail.com, //20140913, //gamed/include/Stats.h, //288
+Stats::setAttackSpeedMultiplier, //0, //RaptorTeak, //raptorteak@gmail.com, //20140725, //gamed/include/Stats.h, //358
+Stats::setBonusAdFlat, //0, //Gusor, //emailaddress@emailaddress.com, //20140806, //gamed/include/Stats.h, //260
+Stats::setBonusApFlat, //0, //Gusor, //emailaddress@emailaddress.com, //20140806, //gamed/include/Stats.h, //264
+Stats::setCritChance, //0, //Gusor, //emailaddress@emailaddress.com, //20140806, //gamed/include/Stats.h, //248
+Stats::setCurrentHealth, //0, //RaptorTeak, //raptorteak@gmail.com, //20140723, //gamed/include/Stats.h, //300
+Stats::setCurrentMana, //0, //RaptorTeak, //raptorteak@gmail.com, //20140723, //gamed/include/Stats.h, //305
+Stats::setMagicArmor, //0, //RaptorTeak, //raptorteak@gmail.com, //20140723, //gamed/include/Stats.h, //272
+Stats::setMagicPenFlat, //0, //Leonardo Gomes, //lgomes.leo@gmail.com, //20140913, //gamed/include/Stats.h, //292
+Stats::setMagicPenPct, //0, //Leonardo Gomes, //lgomes.leo@gmail.com, //20140913, //gamed/include/Stats.h, //296
+Stats::setMaxHealth, //0, //RaptorTeak, //raptorteak@gmail.com, //20140723, //gamed/include/Stats.h, //313
+Stats::setMaxMana, //0, //RaptorTeak, //raptorteak@gmail.com, //20140723, //gamed/include/Stats.h, //309
+Stats::setMovementSpeed, //0, //RaptorTeak, //raptorteak@gmail.com, //20140723, //gamed/include/Stats.h, //318
+Stats::setSize, //0, //MRPixelMC, //mcmrpixel@gmail.com, //20140724, //gamed/include/Stats.h, //342
+Stats::setSpellCostReduction, //0, //Leonardo Gomes, //lgomes.leo@gmail.com, //20140913, //gamed/include/Stats.h, //394
+Stats::setRange, //0, //RaptorTeak, //raptorteak@gmail.com, //20140723, //gamed/include/Stats.h, //256
+TurretStats::getAttackSpeedMultiplier, //0, //Elyotna, //raptorteak@gmail.com, //20140903, //gamed/include/TurretStats.h, //14
+TurretStats::getRange, //0, //Elyotna, //raptorteak@gmail.com, //20140903, //gamed/include/TurretStats.h, //22
+TurretStats::setAttackSpeedMultiplier, //0, //Elyotna, //raptorteak@gmail.com, //20140903, //gamed/include/TurretStats.h, //11
+TurretStats::setRange, //0, //Elyotna, //raptorteak@gmail.com, //20140903, //gamed/include/TurretStats.h, //18
+Spell::applyEffects, //0, //Elyotna, //raptorteak@gmail.com, //20140809, //gamed/src/Spell.cpp, //282
+Spell::cast, //0, //RaptorTeak, //raptorteak@gmail.com, //20140811, //gamed/src/Spell.cpp, //91
+Spell::finishCasting, //0, //RaptorTeak, //raptorteak@gmail.com, //20140723, //gamed/src/Spell.cpp, //113
+Spell::update, //0, //Elyotna, //raptorteak@gmail.com, //20140724, //gamed/src/Spell.cpp, //258
+Map::update, //0, //Nicka101, //nicka101@cloudbro.net, //20140724, //gamed/src/Map.cpp, //6
+Object::update, //0, //Nicka101, //nicka101@cloudbro.net, //20140724, //gamed/src/Object.cpp, //69
+LevelProp::getMoveSpeed, //0, //RaptorTeak, //raptorteak@gmail.com, //20140728, //gamed/include/LevelProp.h, //18
+Target::isSimpleTarget, //0, //RaptorTeak, //raptorteak@gmail.com, //20140721, //gamed/include/Target.h, //14
+Unit::getMoveSpeed, //0, //0x2A, //franky91@arcor.de, //20140822, //gamed/include/Unit.h, //64
+Stats::getMovementSpeed, //0, //RaptorTeak, //raptorteak@gmail.com, //20140723, //gamed/include/Stats.h, //219
+Unit::autoAttackHit, //0, //RaptorTeak, //raptorteak@gmail.com, //20140725, //gamed/src/Unit.cpp, //104
+Unit::die, //0, //Elyotna, //raptorteak@gmail.com, //20140910, //gamed/src/Unit.cpp, //158
+Unit::update, //0, //Elyotna, //raptorteak@gmail.com, //20140724, //gamed/src/Unit.cpp, //23
+SummonersRift::getRespawnLoc, //0, //Elyotna, //raptorteak@gmail.com, //20140910, //gamed/src/SummonersRift.cpp, //155
+SummonersRift::spawn, //0, //Elyotna, //raptorteak@gmail.com, //20140904, //gamed/src/SummonersRift.cpp, //116
+SummonersRift::update, //0, //Elyotna, //raptorteak@gmail.com, //20140726, //gamed/src/SummonersRift.cpp, //112
+Champion::die, //0, //Elyotna, //raptorteak@gmail.com, //20140910, //gamed/src/Champion.cpp, //159
+Champion::update, //0, //Elyotna, //raptorteak@gmail.com, //20140724, //gamed/src/Champion.cpp, //104
+Stats::setExp, //0, //MRPixelMC, //mcmrpixel@gmail.com, //20140724, //gamed/include/Stats.h, //334
+Stats::setGold, //0, //RaptorTeak, //raptorteak@gmail.com, //20140723, //gamed/include/Stats.h, //322
+Stats::setLevel, //0, //Gusor, //emailaddress@emailaddress.com, //20140806, //gamed/include/Stats.h, //338
+AI::update, //0, //RaptorTeak, //raptorteak@gmail.com, //20140722, //gamed/include/AI/AI.h, //16
+Stats::setBaseAd, //0, //RaptorTeak, //raptorteak@gmail.com, //20140723, //gamed/include/Stats.h, //252
+Turret::update, //0, //RaptorTeak, //raptorteak@gmail.com, //20140807, //gamed/src/Turret.cpp, //21
+Stats::getExp, //0, //RaptorTeak, //raptorteak@gmail.com, //20140808, //gamed/include/Stats.h, //244
+Stats::setAdPerLevel, //0, //RaptorTeak, //raptorteak@gmail.com, //20140808, //gamed/include/Stats.h, //362
+Stats::setArmorPerLevel, //0, //RaptorTeak, //raptorteak@gmail.com, //20140808, //gamed/include/Stats.h, //374
+Stats::setBaseAttackSpeed, //0, //RaptorTeak, //raptorteak@gmail.com, //20140725, //gamed/include/Stats.h, //354
+Stats::setGoldPerSecond, //0, //RaptorTeak, //raptorteak@gmail.com, //20140808, //gamed/include/Stats.h, //326
+Stats::setHealthPerLevel, //0, //RaptorTeak, //raptorteak@gmail.com, //20140808, //gamed/include/Stats.h, //366
+Stats::setHp5, //0, //Elyotna, //raptorteak@gmail.com, //20140723, //gamed/include/Stats.h, //276
+Stats::setHp5RegenPerLevel, //0, //RaptorTeak, //raptorteak@gmail.com, //20140811, //gamed/include/Stats.h, //382
+Stats::setMagicArmorPerLevel, //0, //RaptorTeak, //raptorteak@gmail.com, //20140808, //gamed/include/Stats.h, //378
+Stats::setManaPerLevel, //0, //RaptorTeak, //raptorteak@gmail.com, //20140808, //gamed/include/Stats.h, //370
+Stats::setMp5, //0, //Elyotna, //raptorteak@gmail.com, //20140723, //gamed/include/Stats.h, //280
+Stats::setMp5RegenPerLevel, //0, //RaptorTeak, //raptorteak@gmail.com, //20140811, //gamed/include/Stats.h, //386
+MinionAI::onDamageTaken, //0, //RaptorTeak, //raptorteak@gmail.com, //20140722, //gamed/include/AI/MinionAI.h, //12
+MinionAI::onSpawn, //0, //RaptorTeak, //raptorteak@gmail.com, //20140722, //gamed/include/AI/MinionAI.h, //11
+MinionAI::update, //0, //RaptorTeak, //raptorteak@gmail.com, //20140722, //gamed/include/AI/MinionAI.h, //10
+Stats::getLifeSteal, //0, //Leonardo Gomes, //lgomes.leo@gmail.com, //20140913, //gamed/include/Stats.h, //211
+Stats::getSpellVamp, //0, //Leonardo Gomes, //lgomes.leo@gmail.com, //20140913, //gamed/include/Stats.h, //215
+Projectile::getMoveSpeed, //0, //Elyotna, //raptorteak@gmail.com, //20140723, //gamed/include/Projectile.h, //26
+Projectile::update, //0, //Elyotna, //raptorteak@gmail.com, //20140724, //gamed/src/Projectile.cpp, //14
+Stats::getBaseAd, //0, //RaptorTeak, //raptorteak@gmail.com, //20140723, //gamed/include/Stats.h, //131
+MinionStats::getAttackSpeedMultiplier, //0, //Elyotna, //raptorteak@gmail.com, //20140911, //gamed/include/MinionStats.h, //63
+MinionStats::getBaseAd, //0, //Elyotna, //raptorteak@gmail.com, //20140724, //gamed/include/MinionStats.h, //47
+MinionStats::getBaseAttackSpeed, //0, //RaptorTeak, //raptorteak@gmail.com, //20140725, //gamed/include/MinionStats.h, //55
+MinionStats::getCurrentHealth, //0, //Elyotna, //raptorteak@gmail.com, //20140724, //gamed/include/MinionStats.h, //43
+MinionStats::getMaxHealth, //0, //Elyotna, //raptorteak@gmail.com, //20140724, //gamed/include/MinionStats.h, //39
+MinionStats::getMovementSpeed, //0, //Elyotna, //raptorteak@gmail.com, //20140724, //gamed/include/MinionStats.h, //59
+MinionStats::getRange, //0, //Elyotna, //raptorteak@gmail.com, //20140911, //gamed/include/MinionStats.h, //51
+MinionStats::setAttackSpeedMultiplier, //0, //Elyotna, //raptorteak@gmail.com, //20140809, //gamed/include/MinionStats.h, //94
+MinionStats::setBaseAd, //0, //Elyotna, //raptorteak@gmail.com, //20140724, //gamed/include/MinionStats.h, //78
+MinionStats::setBaseAttackSpeed, //0, //RaptorTeak, //raptorteak@gmail.com, //20140725, //gamed/include/MinionStats.h, //86
+MinionStats::setCurrentHealth, //0, //Elyotna, //raptorteak@gmail.com, //20140724, //gamed/include/MinionStats.h, //73
+MinionStats::setMaxHealth, //0, //Elyotna, //raptorteak@gmail.com, //20140724, //gamed/include/MinionStats.h, //68
+MinionStats::setMovementSpeed, //0, //Elyotna, //raptorteak@gmail.com, //20140724, //gamed/include/MinionStats.h, //90
+MinionStats::setRange, //0, //Elyotna, //raptorteak@gmail.com, //20140911, //gamed/include/MinionStats.h, //82
+Minion::update, //0, //Elyotna, //raptorteak@gmail.com, //20140904, //gamed/src/Minion.cpp, //101
+Stats::getHp5, //0, //Elyotna, //raptorteak@gmail.com, //20140803, //gamed/include/Stats.h, //199
+Stats::getMana5, //0, //Elyotna, //raptorteak@gmail.com, //20140803, //gamed/include/Stats.h, //203
+Stats::getSize, //0, //Elyotna, //raptorteak@gmail.com, //20140812, //gamed/src/Stats.cpp, //31
+Stats::getBaseAp, //0, //RaptorTeak, //raptorteak@gmail.com, //20140723, //gamed/include/Stats.h, //147
+Stats::getBonusAdFlat, //0, //RaptorTeak, //raptorteak@gmail.com, //20140725, //gamed/include/Stats.h, //135
+Stats::getBonusAdPct, //0, //RaptorTeak, //raptorteak@gmail.com, //20140725, //gamed/include/Stats.h, //143
+Stats::getBonusApFlat, //0, //Gusor, //emailaddress@emailaddress.com, //20140806, //gamed/include/Stats.h, //139
+Stats::getCDR, //0, //Leonardo Gomes, //lgomes.leo@gmail.com, //20140913, //gamed/include/Stats.h, //207
+Stats::getCritChance, //0, //RaptorTeak, //raptorteak@gmail.com, //20140723, //gamed/include/Stats.h, //151
+Stats::getMovementSpeedPercentageModifier, //0, //Gusor, //emailaddress@emailaddress.com, //20140813, //gamed/include/Stats.h, //117
+Stats::setBaseAp, //0, //MRPixelMC, //mcmrpixel@gmail.com, //20140724, //gamed/include/Stats.h, //330
+Stats::setLifeSteal, //0, //Leonardo Gomes, //lgomes.leo@gmail.com, //20140913, //gamed/include/Stats.h, //346
+Stats::setSpellVamp, //0, //Leonardo Gomes, //lgomes.leo@gmail.com, //20140913, //gamed/include/Stats.h, //350
+sol::base_function::operator(), //0, //Gusor, //emailaddress@emailaddress.com, //20140806, //dep/include/sol/function_types.hpp, //270
+sol::base_function::operator(), //0, //RaptorTeak, //raptorteak@gmail.com, //20140811, //dep/include/sol/function_types.hpp, //274
+sol::functor_function::operator(), //0, //Gusor, //emailaddress@emailaddress.com, //20140806, //dep/include/sol/function_types.hpp, //313
+sol::functor_function::operator(), //0, //RaptorTeak, //raptorteak@gmail.com, //20140811, //dep/include/sol/function_types.hpp, //317
+sol::member_function::operator(), //0, //Gusor, //emailaddress@emailaddress.com, //20140806, //dep/include/sol/function_types.hpp, //363
+sol::member_function::operator(), //0, //RaptorTeak, //raptorteak@gmail.com, //20140811, //dep/include/sol/function_types.hpp, //367
+sol::userdata_function::operator(), //0, //Gusor, //emailaddress@emailaddress.com, //20140806, //dep/include/sol/function_types.hpp, //451
+sol::userdata_function::operator(), //0, //RaptorTeak, //raptorteak@gmail.com, //20140811, //dep/include/sol/function_types.hpp, //455
+sol::userdata_indexing_function::operator(), //0, //RaptorTeak, //raptorteak@gmail.com, //20140811, //dep/include/sol/function_types.hpp, //542
+sol::userdata_indexing_function::operator(), //0, //RaptorTeak, //raptorteak@gmail.com, //20140811, //dep/include/sol/function_types.hpp, //546
+sol::userdata_variable_function::operator(), //0, //RaptorTeak, //raptorteak@gmail.com, //20140811, //dep/include/sol/function_types.hpp, //490
+sol::userdata_variable_function::operator(), //0, //RaptorTeak, //raptorteak@gmail.com, //20140811, //dep/include/sol/function_types.hpp, //494
+SummonersRift::getGoldPerSecond, //0, //RaptorTeak, //raptorteak@gmail.com, //20140808, //gamed/include/SummonersRift.h, //14
+Object::isSimpleTarget, //0, //RaptorTeak, //raptorteak@gmail.com, //20140721, //gamed/include/Object.h, //86
