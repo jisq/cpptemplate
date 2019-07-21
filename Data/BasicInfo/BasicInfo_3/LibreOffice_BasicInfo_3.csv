@@ -1,0 +1,77 @@
+variadic function templates, variadic class templates, alias class templates
+2, //0, //0
+
+old substitutes of variadic function templates, old substitutes of variadic class templates, old substitutes of alias class templates
+6, //1, //13
+
+variadic function templates
+ScopedVclPtrInstance::ScopedVclPtrInstance, //include/vcl/vclptr.hxx, //373
+VclPtrInstance::VclPtrInstance, //include/vcl/vclptr.hxx, //288
+
+variadic class templates
+
+alias class templates
+
+potential variadic function templates
+operator==, //include/vcl/vclptr.hxx, //229
+operator==, //include/vcl/vclptr.hxx, //247
+operator==, //include/vcl/vclptr.hxx, //242
+operator==, //include/vcl/vclptr.hxx, //238
+operator==, //include/vcl/vclptr.hxx, //233
+operator<<, //include/tools/gen.hxx, //241
+operator<<, //include/tools/gen.hxx, //293
+operator<<, //include/tools/gen.hxx, //359
+operator<<, //sc/source/filter/inc/fapihelper.hxx, //291
+operator<<, //include/basegfx/point/b2dpoint.hxx, //141
+operator<<, //include/basegfx/range/b2drange.hxx, //319
+operator<<, //include/tools/poly.hxx, //296
+operator<<, //include/basegfx/polygon/b2dpolygon.hxx, //225
+operator<<, //include/basegfx/polygon/b2dpolypolygon.hxx, //135
+operator<<, //include/basegfx/range/b2ibox.hxx, //261
+operator<<, //include/vcl/region.hxx, //138
+operator<<, //include/vcl/metric.hxx, //83
+operator<<, //sw/inc/swrect.hxx, //351
+operator<<, //include/tools/gen.hxx, //205
+operator<<, //include/tools/gen.hxx, //718
+operator<<, //include/basegfx/vector/b2ivector.hxx, //145
+operator<<, //include/svx/rulritem.hxx, //147
+connectivity::java::sql::ConnectionLog::log, //connectivity/source/inc/java/sql/ConnectionLog.hxx, //94
+connectivity::java::sql::ConnectionLog::log, //connectivity/source/inc/java/sql/ConnectionLog.hxx, //100
+connectivity::java::sql::ConnectionLog::log, //connectivity/source/inc/java/sql/ConnectionLog.hxx, //106
+connectivity::java::sql::ConnectionLog::log, //connectivity/source/inc/java/sql/ConnectionLog.hxx, //112
+connectivity::java::sql::ConnectionLog::log, //connectivity/source/inc/java/sql/ConnectionLog.hxx, //118
+oox::RefMap::forEachMem, //include/oox/helper/refmap.hxx, //78
+oox::RefMap::forEachMem, //include/oox/helper/refmap.hxx, //86
+oox::RefMap::forEachMem, //include/oox/helper/refmap.hxx, //94
+oox::RefMap::forEachMem, //include/oox/helper/refmap.hxx, //102
+oox::RefMap::forEachMem, //include/oox/helper/refmap.hxx, //110
+operator!=, //include/vcl/vclptr.hxx, //252
+operator!=, //include/vcl/vclptr.hxx, //256
+operator!=, //include/vcl/vclptr.hxx, //261
+operator!=, //include/vcl/vclptr.hxx, //265
+operator!=, //include/vcl/vclptr.hxx, //270
+canvas::tools::verifyArgs, //include/canvas/verifyinput.hxx, //426
+canvas::tools::verifyArgs, //include/canvas/verifyinput.hxx, //435
+canvas::tools::verifyArgs, //include/canvas/verifyinput.hxx, //447
+canvas::tools::verifyArgs, //include/canvas/verifyinput.hxx, //462
+canvas::tools::verifyArgs, //include/canvas/verifyinput.hxx, //480
+canvas::tools::verifyArgs, //include/canvas/verifyinput.hxx, //501
+canvas::tools::verifyArgs, //include/canvas/verifyinput.hxx, //525
+
+potential variadic class templates
+Link, //include/tools/link.hxx, //117
+
+potential alias class templates
+component_type, //include/basebmp/rgbmaskpixelformats.hxx, //73
+base_type, //include/basebmp/rgbmaskpixelformats.hxx, //106
+base_type, //include/basebmp/rgbmaskpixelformats.hxx, //169
+ExecutorT, //include/vcl/threadex.hxx, //73
+ExecutorT, //include/vcl/threadex.hxx, //110
+self_type, //include/o3tl/enumarray.hxx, //45
+self_type, //include/o3tl/enumarray.hxx, //85
+const_iterator, //include/o3tl/sorted_vector.hxx, //230
+const_iterator, //include/o3tl/sorted_vector.hxx, //213
+this_type, //svx/source/inc/frmselimpl.hxx, //258
+self, //include/o3tl/range.hxx, //44
+ring_container, //sw/inc/ring.hxx, //43
+iterator, //sw/inc/ring.hxx, //166

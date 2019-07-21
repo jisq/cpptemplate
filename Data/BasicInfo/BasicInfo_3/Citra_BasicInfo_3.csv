@@ -1,0 +1,71 @@
+variadic function templates, variadic class templates, alias class templates
+3, //0, //1
+
+old substitutes of variadic function templates, old substitutes of variadic class templates, old substitutes of alias class templates
+3, //0, //1
+
+variadic function templates
+Common::SynchronizedWrapper::SynchronizedWrapper, //src/common/synchronized_wrapper.h, //20
+ResultVal::WithCode, //src/core/hle/result.h, //279
+ResultVal::emplace, //src/core/hle/result.h, //332
+
+variadic class templates
+
+alias class templates
+SharedPtr, //src/core/hle/kernel/kernel.h, //116
+
+potential variadic function templates
+PointerWrap::Do, //src/common/chunk_file.h, //216
+PointerWrap::Do, //src/common/chunk_file.h, //231
+PointerWrap::Do, //src/common/chunk_file.h, //276
+PointerWrap::Do, //src/common/chunk_file.h, //291
+PointerWrap::Do, //src/common/chunk_file.h, //336
+PointerWrap::Do, //src/common/chunk_file.h, //343
+PointerWrap::Do, //src/common/chunk_file.h, //358
+PointerWrap::Do, //src/common/chunk_file.h, //385
+PointerWrap::Do, //src/common/chunk_file.h, //392
+PointerWrap::Do, //src/common/chunk_file.h, //411
+PointerWrap::Do, //src/common/chunk_file.h, //418
+PointerWrap::Do, //src/common/chunk_file.h, //425
+PointerWrap::Do, //src/common/chunk_file.h, //445
+PointerWrap::Do, //src/common/chunk_file.h, //459
+PointerWrap::Do, //src/common/chunk_file.h, //557
+HLE::Wrap, //src/core/hle/function_wrappers.h, //169
+HLE::Wrap, //src/core/hle/function_wrappers.h, //165
+HLE::Wrap, //src/core/hle/function_wrappers.h, //38
+HLE::Wrap, //src/core/hle/function_wrappers.h, //42
+HLE::Wrap, //src/core/hle/function_wrappers.h, //49
+HLE::Wrap, //src/core/hle/function_wrappers.h, //56
+HLE::Wrap, //src/core/hle/function_wrappers.h, //64
+HLE::Wrap, //src/core/hle/function_wrappers.h, //68
+HLE::Wrap, //src/core/hle/function_wrappers.h, //75
+HLE::Wrap, //src/core/hle/function_wrappers.h, //79
+HLE::Wrap, //src/core/hle/function_wrappers.h, //83
+HLE::Wrap, //src/core/hle/function_wrappers.h, //90
+HLE::Wrap, //src/core/hle/function_wrappers.h, //94
+HLE::Wrap, //src/core/hle/function_wrappers.h, //101
+HLE::Wrap, //src/core/hle/function_wrappers.h, //105
+HLE::Wrap, //src/core/hle/function_wrappers.h, //110
+HLE::Wrap, //src/core/hle/function_wrappers.h, //117
+HLE::Wrap, //src/core/hle/function_wrappers.h, //124
+HLE::Wrap, //src/core/hle/function_wrappers.h, //131
+HLE::Wrap, //src/core/hle/function_wrappers.h, //138
+HLE::Wrap, //src/core/hle/function_wrappers.h, //147
+HLE::Wrap, //src/core/hle/function_wrappers.h, //154
+HLE::Wrap, //src/core/hle/function_wrappers.h, //161
+Math::MakeVec, //src/video_core/math.h, //571
+Math::MakeVec, //src/video_core/math.h, //577
+Math::MakeVec, //src/video_core/math.h, //601
+Math::MakeVec, //src/video_core/math.h, //583
+Math::MakeVec, //src/video_core/math.h, //589
+Math::MakeVec, //src/video_core/math.h, //595
+Math::MakeVec, //src/video_core/math.h, //607
+Math::MakeVec, //src/video_core/math.h, //613
+Math::MakeVec, //src/video_core/math.h, //622
+Math::MakeVec, //src/video_core/math.h, //628
+Math::MakeVec, //src/video_core/math.h, //634
+
+potential variadic class templates
+
+potential alias class templates
+swapped_t, //src/common/swap.h, //144

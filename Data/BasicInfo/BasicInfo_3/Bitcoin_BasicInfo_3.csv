@@ -1,0 +1,114 @@
+variadic function templates, variadic class templates, alias class templates
+5, //0, //0
+
+old substitutes of variadic function templates, old substitutes of variadic class templates, old substitutes of alias class templates
+7, //0, //1
+
+variadic function templates
+tinyformat::format, //src/tinyformat.h, //906
+tinyformat::detail::format, //src/tinyformat.h, //862
+tinyformat::format, //src/tinyformat.h, //899
+tinyformat::format, //src/tinyformat.h, //914
+tinyformat::printf, //src/tinyformat.h, //922
+
+variadic class templates
+
+alias class templates
+
+potential variadic function templates
+CNode::PushMessage, //src/net.h, //576
+CNode::PushMessage, //src/net.h, //448
+CNode::PushMessage, //src/net.h, //464
+CNode::PushMessage, //src/net.h, //480
+CNode::PushMessage, //src/net.h, //496
+CNode::PushMessage, //src/net.h, //512
+CNode::PushMessage, //src/net.h, //528
+CNode::PushMessage, //src/net.h, //544
+CNode::PushMessage, //src/net.h, //560
+GetSerializeSize, //src/serialize.h, //541
+GetSerializeSize, //src/serialize.h, //566
+GetSerializeSize, //src/serialize.h, //609
+GetSerializeSize, //src/serialize.h, //706
+GetSerializeSize, //src/serialize.h, //731
+GetSerializeSize, //src/serialize.h, //767
+Serialize, //src/serialize.h, //201
+Serialize, //src/serialize.h, //202
+Serialize, //src/serialize.h, //203
+Serialize, //src/serialize.h, //204
+Serialize, //src/serialize.h, //205
+Serialize, //src/serialize.h, //206
+Serialize, //src/serialize.h, //207
+Serialize, //src/serialize.h, //208
+Serialize, //src/serialize.h, //209
+Serialize, //src/serialize.h, //210
+Serialize, //src/serialize.h, //211
+Serialize, //src/serialize.h, //226
+Serialize, //src/serialize.h, //547
+Serialize, //src/serialize.h, //689
+Serialize, //src/serialize.h, //572
+Serialize, //src/serialize.h, //632
+Serialize, //src/serialize.h, //712
+Serialize, //src/serialize.h, //740
+Serialize, //src/serialize.h, //776
+error, //src/util.h, //90
+error, //src/util.h, //90
+error, //src/util.h, //90
+error, //src/util.h, //90
+error, //src/util.h, //90
+error, //src/util.h, //90
+error, //src/util.h, //90
+error, //src/util.h, //90
+error, //src/util.h, //90
+error, //src/util.h, //90
+error, //src/util.h, //90
+error, //src/util.h, //90
+error, //src/util.h, //90
+error, //src/util.h, //90
+error, //src/util.h, //90
+error, //src/util.h, //90
+LogPrint, //src/util.h, //90
+LogPrint, //src/util.h, //90
+LogPrint, //src/util.h, //90
+LogPrint, //src/util.h, //90
+LogPrint, //src/util.h, //90
+LogPrint, //src/util.h, //90
+LogPrint, //src/util.h, //90
+LogPrint, //src/util.h, //90
+LogPrint, //src/util.h, //90
+LogPrint, //src/util.h, //90
+LogPrint, //src/util.h, //90
+LogPrint, //src/util.h, //90
+LogPrint, //src/util.h, //90
+LogPrint, //src/util.h, //90
+LogPrint, //src/util.h, //90
+LogPrint, //src/util.h, //90
+memusage::DynamicUsage, //src/memusage.h, //63
+memusage::DynamicUsage, //src/memusage.h, //69
+memusage::DynamicUsage, //src/memusage.h, //75
+memusage::DynamicUsage, //src/memusage.h, //104
+memusage::DynamicUsage, //src/memusage.h, //96
+memusage::DynamicUsage, //src/memusage.h, //90
+Unserialize, //src/serialize.h, //213
+Unserialize, //src/serialize.h, //214
+Unserialize, //src/serialize.h, //215
+Unserialize, //src/serialize.h, //216
+Unserialize, //src/serialize.h, //217
+Unserialize, //src/serialize.h, //218
+Unserialize, //src/serialize.h, //219
+Unserialize, //src/serialize.h, //220
+Unserialize, //src/serialize.h, //221
+Unserialize, //src/serialize.h, //222
+Unserialize, //src/serialize.h, //223
+Unserialize, //src/serialize.h, //227
+Unserialize, //src/serialize.h, //553
+Unserialize, //src/serialize.h, //695
+Unserialize, //src/serialize.h, //580
+Unserialize, //src/serialize.h, //673
+Unserialize, //src/serialize.h, //719
+Unserialize, //src/serialize.h, //748
+Unserialize, //src/serialize.h, //784
+
+potential variadic class templates
+
+potential alias class templates
+DummyType, //src/tinyformat.h, //274

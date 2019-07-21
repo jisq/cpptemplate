@@ -1,0 +1,33 @@
+variadic function templates, variadic class templates, alias class templates
+0, //0, //0
+
+old substitutes of variadic function templates, old substitutes of variadic class templates, old substitutes of alias class templates
+2, //4, //1
+
+variadic function templates
+
+variadic class templates
+
+alias class templates
+
+potential variadic function templates
+osctl::operator>>, //plugins/LadspaEffect/calf/src/calf/osctl.h, //306
+osctl::operator>>, //plugins/LadspaEffect/calf/src/calf/osctl.h, //361
+osctl::operator>>, //plugins/LadspaEffect/calf/src/calf/osctl.h, //317
+osctl::operator>>, //plugins/LadspaEffect/calf/src/calf/osctl.h, //340
+osctl::operator>>, //plugins/LadspaEffect/calf/src/calf/osctl.h, //425
+osctl::operator>>, //plugins/LadspaEffect/calf/src/calf/osctl.h, //432
+osctl::operator<<, //plugins/LadspaEffect/calf/src/calf/osctl.h, //294
+osctl::operator<<, //plugins/LadspaEffect/calf/src/calf/osctl.h, //351
+osctl::operator<<, //plugins/LadspaEffect/calf/src/calf/osctl.h, //328
+osctl::operator<<, //plugins/LadspaEffect/calf/src/calf/osctl.h, //439
+osctl::operator<<, //plugins/LadspaEffect/calf/src/calf/osctl.h, //446
+
+potential variadic class templates
+dsp::onepole, //plugins/LadspaEffect/calf/src/calf/onepole.h, //34
+dsp::biquad_d1, //plugins/LadspaEffect/calf/src/calf/biquad.h, //333
+dsp::biquad_d2, //plugins/LadspaEffect/calf/src/calf/biquad.h, //413
+dsp::biquad_d1_lerp, //plugins/LadspaEffect/calf/src/calf/biquad.h, //482
+
+potential alias class templates
+metadata_class, //plugins/LadspaEffect/calf/src/calf/giface.h, //587

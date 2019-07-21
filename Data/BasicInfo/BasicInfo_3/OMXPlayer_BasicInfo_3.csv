@@ -1,0 +1,92 @@
+variadic function templates, variadic class templates, alias class templates
+25, //21, //0
+
+old substitutes of variadic function templates, old substitutes of variadic class templates, old substitutes of alias class templates
+3, //0, //2
+
+variadic function templates
+std::swap, //utils/variant.hpp, //721
+utils::case_of, //utils/variant.hpp, //619
+utils::get, //utils/variant.hpp, //634
+utils::get, //utils/variant.hpp, //648
+utils::get, //utils/variant.hpp, //680
+utils::get, //utils/variant.hpp, //689
+utils::operator!=, //utils/variant.hpp, //704
+utils::operator<, //utils/variant.hpp, //700
+utils::operator<<, //utils/variant.hpp, //711
+utils::operator<=, //utils/variant.hpp, //708
+utils::operator==, //utils/variant.hpp, //698
+utils::operator>, //utils/variant.hpp, //702
+utils::operator>=, //utils/variant.hpp, //706
+utils::variant::operator=, //utils/variant.hpp, //295
+utils::variant::variant, //utils/variant.hpp, //196
+utils::variant::operator=, //utils/variant.hpp, //324
+utils::variant::variant, //utils/variant.hpp, //204
+utils::variant::operator=, //utils/variant.hpp, //346
+utils::xx_impl::apply_funcs_run, //utils/variant-impl.hpp, //726
+utils::xx_impl::apply_funcs_check, //utils/variant-impl.hpp, //696
+utils::xx_impl::delayed_visitor::operator(), //utils/variant-impl.hpp, //659
+functor_visitor::functor_visitor, //utils/FunctorVisitor.h, //112
+Mailbox::receive, //utils/Mailbox.h, //51
+Mailbox::receive_wait, //utils/Mailbox.h, //71
+utils::xx_impl::apply_funcs_run, //utils/variant-impl.hpp, //710
+
+variadic class templates
+utils::variant, //utils/variant.hpp, //139
+utils::xx_impl::is_one_of_visitor, //utils/variant-impl.hpp, //626
+Mailbox, //utils/Mailbox.h, //40
+utils::is_variant, //utils/variant.hpp, //118
+utils::xx_impl::common_result_type, //utils/variant-impl.hpp, //52
+utils::function_traits, //utils/traits.hpp, //119
+utils::function_traits, //utils/traits.hpp, //166
+utils::function_traits, //utils/traits.hpp, //171
+utils::function_traits, //utils/traits.hpp, //178
+utils::function_traits, //utils/traits.hpp, //185
+utils::function_traits, //utils/traits.hpp, //192
+utils::function_traits, //utils/traits.hpp, //216
+utils::function_traits, //utils/traits.hpp, //220
+utils::function_traits, //utils/traits.hpp, //224
+utils::function_traits, //utils/traits.hpp, //228
+utils::xx_impl::memfn_type, //utils/traits.hpp, //100
+utils::xx_impl::apply_funcs_walker, //utils/variant-impl.hpp, //674
+utils::xx_impl::apply_funcs_walker, //utils/variant-impl.hpp, //685
+utils::xx_impl::get_index, //utils/variant-impl.hpp, //303
+utils::xx_impl::get_index_of_variant, //utils/variant-impl.hpp, //366
+functor_visitor, //utils/FunctorVisitor.h, //107
+
+alias class templates
+
+potential variadic function templates
+utils::apply_visitor, //utils/variant.hpp, //568
+utils::apply_visitor, //utils/variant.hpp, //573
+utils::apply_visitor, //utils/variant.hpp, //587
+utils::apply_visitor, //utils/variant.hpp, //593
+utils::apply_visitor, //utils/variant.hpp, //606
+sscpy, //utils/StdString.h, //1885
+sscpy, //utils/StdString.h, //1890
+sscpy, //utils/StdString.h, //1895
+sscpy, //utils/StdString.h, //1900
+sscpy, //utils/StdString.h, //1905
+CStdStr::Format, //utils/StdString.h, //2906
+CStdStr::Format, //utils/StdString.h, //2911
+CStdStr::Format, //utils/StdString.h, //2901
+CStdStr::Format, //utils/StdString.h, //2917
+CStdStr::Format, //utils/StdString.h, //2924
+CStdStr::Format, //utils/StdString.h, //2931
+CStdStr::Format, //utils/StdString.h, //2940
+CStdStr::Format, //utils/StdString.h, //2949
+CStdStr::Format, //utils/StdString.h, //2959
+CStdStr::Format, //utils/StdString.h, //2970
+CStdStr::Format, //utils/StdString.h, //2981
+CStdStr::Format, //utils/StdString.h, //2992
+CStdStr::Format, //utils/StdString.h, //3006
+CStdStr::Format, //utils/StdString.h, //3020
+CStdStr::Format, //utils/StdString.h, //3034
+CStdStr::Format, //utils/StdString.h, //3049
+CStdStr::Format, //utils/StdString.h, //3065
+
+potential variadic class templates
+
+potential alias class templates
+variant_indices, //utils/variant-impl.hpp, //313
+MYTYPE, //utils/StdString.h, //2042

@@ -1,0 +1,114 @@
+variadic function templates, variadic class templates, alias class templates
+39, //8, //0
+
+old substitutes of variadic function templates, old substitutes of variadic class templates, old substitutes of alias class templates
+7, //0, //12
+
+variadic function templates
+Log::Logger::Warn, //src/common/Log.h, //163
+Sys::Error, //src/common/System.h, //81
+Log::Notice, //src/common/Log.h, //212
+Log::Warn, //src/common/Log.h, //207
+Str::Format, //src/common/String.h, //286
+Cmd::CmdBase::Print, //src/common/Command.h, //186
+Util::Reader::FillTuple, //src/common/Serialize.h, //173
+Util::Writer::WriteArgs, //src/common/Serialize.h, //93
+Util::Writer::WriteArgs, //src/common/Serialize.h, //96
+Util::Writer::WriteTuple, //src/common/Serialize.h, //102
+Sys::Drop, //src/common/System.h, //85
+IPC::SendMsg, //src/common/IPC/Channel.h, //232
+IPC::detail::HandleMsg, //src/common/IPC/Channel.h, //188
+IPC::detail::SendMsg, //src/common/IPC/Channel.h, //139
+IPC::detail::SendMsg, //src/common/IPC/Channel.h, //152
+Log::Logger::Debug, //src/common/Log.h, //177
+Util::optional::emplace, //src/common/Optional.h, //185
+Util::optional::emplace, //src/common/Optional.h, //193
+Util::optional::optional, //src/common/Optional.h, //122
+Util::optional::optional, //src/common/Optional.h, //128
+Log::Debug, //src/common/Log.h, //217
+Log::Logger::Notice, //src/common/Log.h, //170
+VM::SendMsg, //src/gamelogic/shared/VMMain.h, //47
+Util::uninitialized::construct, //src/common/Util.h, //115
+VM::VMBase::SendMsg, //src/engine/framework/VirtualMachine.h, //130
+tinyformat::format, //src/libs/tinyformat/tinyformat.h, //898
+tinyformat::format, //src/libs/tinyformat/tinyformat.h, //905
+FS::File::Printf, //src/common/FileSystem.h, //110
+HandleMsg, //src/engine/client/cl_cgame.cpp, //2145
+IPC::CommandBufferClient::SendMsg, //src/gamelogic/shared/CommandBufferClient.h, //47
+IPC::CommandBufferClient::SendMsgImpl, //src/gamelogic/shared/CommandBufferClient.h, //51
+tinyformat::detail::format, //src/libs/tinyformat/tinyformat.h, //861
+tinyformat::printf, //src/libs/tinyformat/tinyformat.h, //913
+Math::Vector::Vector, //src/common/math/Vector.h, //236
+Math::Vector::Vector, //src/common/math/Vector.h, //253
+Math::Vector::Vector, //src/common/math/Vector.h, //302
+Math::Vector::Vector, //src/common/math/Vector.h, //441
+Math::VectorBase::FillFromList, //src/common/math/Vector.h, //55
+Math::VectorBase::FillFromList, //src/common/math/Vector.h, //60
+
+variadic class templates
+IPC::Message, //src/common/IPC/Common.h, //95
+IPC::SyncMessage, //src/common/IPC/Common.h, //121
+IPC::detail::MapTuple, //src/common/IPC/Channel.h, //183
+IPC::Reply, //src/common/IPC/Common.h, //103
+Util::TypeList, //src/common/Util.h, //85
+Util::TypeListFromTuple, //src/common/Util.h, //87
+Util::concat, //src/common/Util.h, //77
+Util::seq, //src/common/Util.h, //72
+
+alias class templates
+
+potential variadic function templates
+Util::operator>=, //src/common/Optional.h, //299
+Util::operator>=, //src/common/Optional.h, //336
+Util::operator>=, //src/common/Optional.h, //340
+Util::operator>=, //src/common/Optional.h, //385
+Util::operator>=, //src/common/Optional.h, //389
+Util::operator<, //src/common/Optional.h, //291
+Util::operator<, //src/common/Optional.h, //328
+Util::operator<, //src/common/Optional.h, //332
+Util::operator<, //src/common/Optional.h, //377
+Util::operator<, //src/common/Optional.h, //381
+Util::operator!=, //src/common/Optional.h, //287
+Util::operator!=, //src/common/Optional.h, //320
+Util::operator!=, //src/common/Optional.h, //324
+Util::operator!=, //src/common/Optional.h, //369
+Util::operator!=, //src/common/Optional.h, //373
+Util::operator>, //src/common/Optional.h, //307
+Util::operator>, //src/common/Optional.h, //352
+Util::operator>, //src/common/Optional.h, //356
+Util::operator>, //src/common/Optional.h, //401
+Util::operator>, //src/common/Optional.h, //405
+Util::operator==, //src/common/Optional.h, //279
+Util::operator==, //src/common/Optional.h, //312
+Util::operator==, //src/common/Optional.h, //316
+Util::operator==, //src/common/Optional.h, //361
+Util::operator==, //src/common/Optional.h, //365
+Math::Vector::Vector, //src/common/math/Vector.h, //232
+Math::Vector::Vector, //src/common/math/Vector.h, //236
+Math::Vector::Vector, //src/common/math/Vector.h, //249
+Math::Vector::Vector, //src/common/math/Vector.h, //253
+Math::Vector::Vector, //src/common/math/Vector.h, //298
+Math::Vector::Vector, //src/common/math/Vector.h, //302
+Math::Vector::Vector, //src/common/math/Vector.h, //437
+Math::Vector::Vector, //src/common/math/Vector.h, //441
+Util::operator<=, //src/common/Optional.h, //303
+Util::operator<=, //src/common/Optional.h, //344
+Util::operator<=, //src/common/Optional.h, //348
+Util::operator<=, //src/common/Optional.h, //393
+Util::operator<=, //src/common/Optional.h, //397
+
+potential variadic class templates
+
+potential alias class templates
+Message, //src/common/IPC/Channel.h, //190
+Message, //src/common/IPC/Channel.h, //141
+Message, //src/engine/client/cl_cgame.cpp, //2147
+DummyType, //src/libs/tinyformat/tinyformat.h, //273
+info, //src/libs/nacl/native_client/src/include/checked_cast.h, //422
+range_t, //src/libs/nacl/native_client/src/include/checked_cast.h, //274
+trivial_t, //src/libs/nacl/native_client/src/include/checked_cast.h, //273
+detail_t, //src/libs/nacl/native_client/src/include/checked_cast.h, //231
+info, //src/libs/nacl/native_client/src/include/checked_cast.h, //375
+cluster_type, //src/gamelogic/sgame/Clustering.cpp, //265
+point_type, //src/gamelogic/sgame/Clustering.cpp, //266
+component_traits, //src/libs/crunch/crn_decomp.h, //1269
