@@ -1,0 +1,20 @@
+class template, instantiations, multiple overload instantiations, loc, definition file path, line
+oclint::AbstractASTVisitorRule, //0, //0, //31, //oclint-rules/include/oclint/AbstractASTVisitorRule.h, //12
+AbstractNullCheckRule, //0, //0, //174, //oclint-rules/rules/abstract/AbstractNullCheckRule.h, //5
+AbstractEmptyBlockStmtRule, //0, //0, //17, //oclint-rules/rules/abstract/AbstractEmptyBlockStmtRule.h, //5
+
+function template, instantiations, multiple overload instantiations, loc, definition file path, line
+vectorContains, //1, //1, //4, //oclint-rules/include/oclint/util/StdUtil.h, //17
+XMLReporter::writeSummaryProperty, //5, //1, //4, //oclint-reporters/reporters/XMLReporter.cpp, //98
+XMLReporter::writeViolationAttribute, //8, //1, //4, //oclint-reporters/reporters/XMLReporter.cpp, //78
+toString, //24, //2, //6, //oclint-rules/include/oclint/util/StdUtil.h, //9
+oclint::AbstractASTMatcherRule::addMatcher, //0, //0, //4, //oclint-rules/include/oclint/AbstractASTMatcherRule.h, //24
+oclint::RulesetFilter::disableRules, //0, //0, //4, //oclint-driver/include/oclint/RulesetFilter.h, //35
+oclint::RulesetFilter::enableRules, //0, //0, //4, //oclint-driver/include/oclint/RulesetFilter.h, //28
+markedParentsAsSuppress, //2, //1, //24, //oclint-rules/lib/helper/SuppressHelper.cpp, //23
+TooManyParametersRule::applyDecl, //0, //0, //10, //oclint-rules/rules/size/TooManyParametersRule.cpp, //16
+AvoidBranchingStatementAsLastInLoopRule::applyStmt, //0, //0, //8, //oclint-rules/rules/convention/AvoidBranchingStatementAsLastInLoopRule.cpp, //27
+RedundantIfStatementRule::extractStmt, //0, //0, //15, //oclint-rules/rules/redundant/RedundantIfStatementRule.cpp, //13
+ObjCNSNumberLiteralsRule::isLiteralOf, //0, //0, //7, //oclint-rules/rules/migration/ObjCNSNumberLiteralsRule.cpp, //23
+RedundantConditionalOperatorRule::extractFromImplicitCastExpr, //0, //0, //9, //oclint-rules/rules/redundant/RedundantConditionalOperatorRule.cpp, //13
+
