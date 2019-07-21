@@ -1,0 +1,31 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+LinkedList, //37, //15, //Daniel Vogelheim, //dvo@openoffice.org, //20031015, //hwpfilter/source/list.hxx, //54
+doctok::PLCF, //10, //2, //Henning Brinkmann, //hbrinkm@openoffice.org, //20061024, //writerfilter/source/doctok/PLCF.hxx, //70
+LinkedListIterator, //24, //7, //Daniel Vogelheim, //dvo@openoffice.org, //20031015, //hwpfilter/source/list.hxx, //85
+doctok::XNoteHelper, //3, //1, //Henning Brinkmann, //hbrinkm@openoffice.org, //20061024, //writerfilter/source/doctok/XNoteHelper.hxx, //53
+doctok::PLCFHelper, //0, //0, //Henning Brinkmann, //hbrinkm@openoffice.org, //20061116, //writerfilter/source/doctok/WW8DocumentImpl.cxx, //53
+dmapper::removeExistingElements, //0, //0, //Oliver Specht, //os@openoffice.org, //20061213, //writerfilter/source/dmapper/PropertyMap.cxx, //144
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+XMLFilterDialogComponentBase, //Jens-Heiner Rechtien, //hr@openoffice.org, //20030404, //filter/source/xsltdialog/xmlfilterdialogcomponent.cxx, //120, //0:XMLFilterDialogComponentBase//1:XMLFilterDialogComponent
+foo::OInputStreamWrapper, //Aidan Butler, //aidan@openoffice.org, //20020416, //xmerge/java/org/openoffice/xmerge/xmergebridge/streamwrap.hxx, //80, //0:foo::OInputStreamWrapper//1:foo::OSeekableInputStreamWrapper
+ListLevelStyle, //Michael Meeks, //michael.meeks@collabora.com, //20040805, //writerperfect/source/filter/ListStyle.hxx, //38, //0:ListLevelStyle//1:OrderedListLevelStyle//1:UnorderedListLevelStyle
+Style, //Michael Meeks, //michael.meeks@collabora.com, //20040805, //writerperfect/source/filter/Style.hxx, //45, //0:Style//1:TableCellStyle//1:TableRowStyle//1:TableStyle//1:ListStyle//2:OrderedListStyle//2:UnorderedListStyle//1:SpanStyle//1:FontStyle//1:SectionStyle
+doctok::WW8BinTable, //Henning Brinkmann, //hbrinkm@openoffice.org, //20061024, //writerfilter/source/doctok/WW8BinTable.hxx, //56, //0:doctok::WW8BinTable//1:doctok::WW8BinTableImpl
+dmapper::PropertyMap, //Henning Brinkmann, //hbrinkm@openoffice.org, //20061024, //writerfilter/source/dmapper/PropertyMap.hxx, //92, //0:dmapper::PropertyMap//1:dmapper::SectionPropertyMap//1:dmapper::ListPropertyMap
+doctok::WW8StructBase, //Henning Brinkmann, //hbrinkm@openoffice.org, //20061024, //writerfilter/source/doctok/WW8StructBase.hxx, //59, //0:doctok::WW8StructBase//1:doctok::PLCF//1:doctok::WW8FKP//2:doctok::WW8FKPImpl//3:doctok::WW8CHPFKPImpl//3:doctok::WW8PAPFKPImpl//1:doctok::WW8PropertyImpl//1:doctok::WW8PropertySetImpl//1:doctok::WW8Sttbf//1:doctok::WW8BinaryObjReference//1:doctok::DffBlock//1:doctok::DffRecord
+doctok::WW8Value, //Henning Brinkmann, //hbrinkm@openoffice.org, //20061024, //writerfilter/source/doctok/WW8ResourceModelImpl.hxx, //170, //0:doctok::WW8Value//1:doctok::WW8BinaryObjValue//1:doctok::WW8IntValue//1:doctok::WW8PropertiesValue//1:doctok::WW8StreamValue//1:doctok::WW8StringValue
+TopLevelElementStyle, //Michael Meeks, //michael.meeks@collabora.com, //20040805, //writerperfect/source/filter/Style.hxx, //33, //0:TopLevelElementStyle//1:TableStyle
+DocumentElement, //Michael Meeks, //michael.meeks@collabora.com, //20040805, //writerperfect/source/filter/DocumentElement.hxx, //37, //0:DocumentElement//1:CharDataElement//1:TagElement//2:TagCloseElement//2:TagOpenElement//1:TextElement
+DocumentCollector, //Oliver Bolte, //obo@openoffice.org, //20070123, //writerperfect/source/filter/DocumentCollector.hxx, //75, //0:DocumentCollector//1:WordPerfectCollector
+doctok::WW8FKPCache, //Henning Brinkmann, //hbrinkm@openoffice.org, //20061024, //writerfilter/source/doctok/WW8FKP.hxx, //121, //0:doctok::WW8FKPCache//1:doctok::WW8FKPCacheImpl//2:doctok::WW8CHPFKPCacheImpl//2:doctok::WW8PAPFKPCacheImpl
+ooxml::OOXMLProperty, //Henning Brinkmann, //hbrinkm@openoffice.org, //20070221, //writerfilter/source/ooxml/OOXMLPropertySet.hxx, //43, //0:ooxml::OOXMLProperty//1:ooxml::OOXMLPropertyImpl
+ooxml::OOXMLPropertySet, //Henning Brinkmann, //hbrinkm@openoffice.org, //20070221, //writerfilter/source/ooxml/OOXMLPropertySet.hxx, //60, //0:ooxml::OOXMLPropertySet//1:ooxml::OOXMLPropertySetImpl
+HIODev, //Daniel Vogelheim, //dvo@openoffice.org, //20031015, //hwpfilter/source/hiodev.h, //55, //0:HIODev//1:HMemIODev//1:HStreamIODev
+doctok::WW8PieceTable, //Henning Brinkmann, //hbrinkm@openoffice.org, //20061024, //writerfilter/source/doctok/WW8PieceTable.hxx, //68, //0:doctok::WW8PieceTable//1:doctok::WW8PieceTableImpl
+foo::OInputStreamWrapper, //Aidan Butler, //aidan@openoffice.org, //20020717, //xmerge/java/org/openoffice/xmerge/xmergebridge/FlatXml/java/streamwrap.hxx, //80, //0:foo::OInputStreamWrapper//1:foo::OSeekableInputStreamWrapper
+writerfilter::rtftok::RTFInputSource, //Henning Brinkmann, //hbrinkm@openoffice.org, //20061024, //writerfilter/inc/rtftok/RTFInputSource.hxx, //10, //0:writerfilter::rtftok::RTFInputSource//1:writerfilter::rtftok::RtfInputSourceImpl//1:writerfilter::rtftok::RtfInputSourceImpl
+writerfilter::rtftok::RTFScannerHandler, //Henning Brinkmann, //hbrinkm@openoffice.org, //20061024, //writerfilter/inc/rtftok/RTFScannerHandler.hxx, //10, //0:writerfilter::rtftok::RTFScannerHandler//1:writerfilter::rtftok::MyRtfScannerHandler//1:writerfilter::rtftok::XmlRtfScannerHandler
+ooxml::OOXMLValue, //Henning Brinkmann, //hbrinkm@openoffice.org, //20070305, //writerfilter/source/ooxml/OOXMLPropertySetImpl.hxx, //46, //0:ooxml::OOXMLValue//1:ooxml::OOXMLBooleanValue//1:ooxml::OOXMLHexValue//1:ooxml::OOXMLIntegerValue//2:ooxml::OOXMLListValue//1:ooxml::OOXMLPropertySetValue//1:ooxml::OOXMLStringValue
+Node, //Henning Brinkmann, //hbrinkm@openoffice.org, //20061024, //writerfilter/qa/cppunittests/xxml/testXXML.cxx, //10, //0:Node//1:Cell//1:Row//1:Table
+foo::OInputStreamWrapper, //Aidan Butler, //aidan@openoffice.org, //20020409, //filter/source/xmlfilteradaptor/streamwrap.hxx, //80, //0:foo::OInputStreamWrapper//1:foo::OSeekableInputStreamWrapper

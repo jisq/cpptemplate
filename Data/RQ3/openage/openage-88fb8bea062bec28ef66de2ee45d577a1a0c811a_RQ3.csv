@@ -1,0 +1,35 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+openage::datastructure::PairingHeap, //6, //4, //Jonas Jelten, //jelten@in.tum.de, //20141017, //cpp/datastructure/pairing_heap.h, //156
+openage::datastructure::PairingHeapNode, //1, //1, //Jonas Jelten, //jelten@in.tum.de, //20141017, //cpp/datastructure/pairing_heap.h, //31
+openage::job::AbortableJobState, //2, //0, //Andre Kupka, //kupka@in.tum.de, //20150118, //cpp/job/abortable_job_state.h, //22
+openage::job::TypedJobStateBase, //2, //0, //Andre Kupka, //kupka@in.tum.de, //20150118, //cpp/job/typed_job_state_base.h, //26
+openage::job::JobState, //2, //0, //Andre Kupka, //kupka@in.tum.de, //20150118, //cpp/job/job_state.h, //19
+openage::job::Job, //4, //1, //Andre Kupka, //kupka@in.tum.de, //20140331, //cpp/job/job.h, //30
+HuffmanTable, //8, //5, //Michael Enßlin, //michael@ensslin.cc, //20140823, //py/openage/convert/cabextract/lzxd/lzxd.cpp, //194
+openage::datastructure::ConcurrentQueue, //1, //0, //Andre Kupka, //kupka@in.tum.de, //20150102, //cpp/datastructure/concurrent_queue.h, //16
+openage::util::unique_identifier_helpers::value_as_type, //0, //0, //Michael Enßlin, //michael@ensslin.cc, //20141109, //cpp/util/unique_identifier.h, //65
+openage::datastructure::DoublyLinkedList, //1, //1, //Jonas Jelten, //jelten@in.tum.de, //20140827, //cpp/datastructure/doubly_linked_list.h, //43
+openage::datastructure::DoublyLinkedListNode, //0, //0, //Jonas Jelten, //jelten@in.tum.de, //20140827, //cpp/datastructure/doubly_linked_list.h, //17
+openage::util::less, //1, //0, //Jonas Jelten, //jelten@in.tum.de, //20140131, //cpp/util/misc.h, //64
+openage::util::subdata, //0, //0, //Jonas Jelten, //jelten@in.tum.de, //20140727, //cpp/util/file.h, //122
+openage::util::FixedPoint, //1, //1, //Michael Enßlin, //michael@ensslin.cc, //20150227, //cpp/util/strings.h, //70
+openage::util::FloatFixed, //1, //1, //Michael Enßlin, //michael@ensslin.cc, //20150227, //cpp/util/strings.h, //46
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+openage::audio::InMemoryLoader, //Andre Kupka, //kupka@in.tum.de, //20140331, //cpp/audio/in_memory_loader.h, //20, //0:openage::audio::InMemoryLoader//1:openage::audio::OpusInMemoryLoader
+openage::audio::Resource, //Andre Kupka, //kupka@in.tum.de, //20140322, //cpp/audio/resource.h, //24, //0:openage::audio::Resource//1:openage::audio::InMemoryResource//1:openage::audio::DynamicResource
+openage::util::OSStreamPtr, //Michael Enßlin, //michael@ensslin.cc, //20141109, //cpp/util/sstreamcache.h, //62, //0:openage::util::OSStreamPtr//1:openage::util::Formatter
+IOWrapper, //Michael Enßlin, //michael@ensslin.cc, //20140823, //py/openage/convert/cabextract/lzxd/lzxd.h, //8, //0:IOWrapper//1:STDIOWrapper//1:PyIOWrapper
+openage::UnitAbility, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/ability.h, //61, //0:openage::UnitAbility//1:openage::AttackAbility//1:openage::BuildAbility//1:openage::GarrisonAbility//1:openage::GatherAbility//1:openage::MoveAbility//1:openage::TrainAbility//1:openage::UngarrisonAbility
+openage::UnitAction, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/action.h, //24, //0:openage::UnitAction//1:openage::DeadAction//1:openage::DecayAction//1:openage::FoundationAction//1:openage::IdleAction//1:openage::MoveAction//1:openage::ProjectileAction//1:openage::TargetAction//2:openage::AttackAction//2:openage::BuildAction//2:openage::ConvertAction//2:openage::GarrisonAction//2:openage::GatherAction//2:openage::RepairAction//1:openage::TrainAction//1:openage::UngarrisonAction
+openage::UnitType, //Jon0, //Jono4728@gmail.com, //20150416, //cpp/unit/unit_type.h, //32, //0:openage::UnitType//1:openage::NyanType//1:openage::BuldingProducer//1:openage::ObjectProducer//2:openage::MovableProducer//3:openage::LivingProducer//1:openage::ProjectileProducer
+openage::log::LogSink, //Michael Enßlin, //michael@ensslin.cc, //20150227, //cpp/log/logsink.h, //21, //0:openage::log::LogSink//1:openage::log::tests::TestLogSink//1:openage::log::FileSink//1:openage::log::StdOutSink
+openage::log::LogSource, //Michael Enßlin, //michael@ensslin.cc, //20150227, //cpp/log/logsource.h, //18, //0:openage::log::LogSource//1:openage::log::tests::TestLogSource//1:openage::Unit//1:openage::log::NamedLogSource
+openage::AttributeContainer, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/attribute.h, //85, //0:openage::AttributeContainer//1:openage::Attribute//1:openage::Attribute//1:openage::Attribute//1:openage::Attribute//1:openage::Attribute//1:openage::Attribute//1:openage::Attribute//1:openage::Attribute//1:openage::Attribute//1:openage::Attribute
+openage::DrawHandler, //Jonas Jelten, //jelten@in.tum.de, //20140810, //cpp/handlers.h, //18, //0:openage::DrawHandler//1:openage::GameMain
+openage::HudHandler, //Jonas Jelten, //jelten@in.tum.de, //20140811, //cpp/handlers.h, //29, //0:openage::HudHandler//1:openage::console::Console//1:openage::GameMain//1:openage::UnitSelection
+openage::InputHandler, //Jonas Jelten, //jelten@in.tum.de, //20140810, //cpp/handlers.h, //51, //0:openage::InputHandler//1:openage::console::Console//1:openage::GameMain
+openage::ResizeHandler, //Jonas Jelten, //jelten@in.tum.de, //20140810, //cpp/handlers.h, //62, //0:openage::ResizeHandler//1:openage::console::Console//1:openage::Engine
+openage::TickHandler, //Jonas Jelten, //jelten@in.tum.de, //20140810, //cpp/handlers.h, //40, //0:openage::TickHandler//1:openage::console::Console//1:openage::GameMain//1:openage::UnitContainer
+openage::job::JobStateBase, //Andre Kupka, //kupka@in.tum.de, //20150117, //cpp/job/job_state_base.h, //20, //0:openage::job::JobStateBase//1:openage::job::TypedJobStateBase//2:openage::job::AbortableJobState//2:openage::job::JobState
+openage::audio::DynamicLoader, //Andre Kupka, //kupka@in.tum.de, //20140403, //cpp/audio/dynamic_loader.h, //20, //0:openage::audio::DynamicLoader//1:openage::audio::OpusDynamicLoader

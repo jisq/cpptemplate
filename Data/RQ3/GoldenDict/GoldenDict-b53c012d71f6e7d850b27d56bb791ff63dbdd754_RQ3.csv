@@ -1,0 +1,18 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+sptr, //100, //16, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //sptr.hh, //96
+sptr_base, //5, //2, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //sptr.hh, //12
+const_sptr, //0, //0, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //sptr.hh, //129
+Aard::BigEndian, //4, //4, //Abs62, //ottomann@yandex.ru, //20120209, //aard.cc, //60
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+Dictionary::Request, //Konstantin Isakov, //dragonroot@gmail.com, //20090326, //dictionary.hh, //50, //0:Dictionary::Request//1:Dictionary::DataRequest//2:Dictionary::DataRequestInstant//2:Dsl::DslArticleRequest//2:Dsl::DslResourceRequest//2:Bgl::BglArticleRequest//2:Bgl::BglResourceRequest//2:Programs::ProgramDataRequest//2:ArticleRequest//2:Forvo::ForvoArticleRequest//2:Stardict::StardictArticleRequest//2:Stardict::StardictResourceRequest//2:Aard::AardArticleRequest//2:MediaWiki::MediaWikiDataRequestSlots//3:MediaWiki::MediaWikiArticleRequest//2:Xdxf::XdxfArticleRequest//2:Xdxf::XdxfResourceRequest//2:Sdict::SdictArticleRequest//2:HunspellMorpho::HunspellArticleRequest//2:Dictionary::WebMultimediaDownload//1:Dictionary::WordSearchRequest//2:Dictionary::WordSearchRequestInstant//2:BtreeIndexing::BtreeWordSearchRequest//2:Bgl::BglHeadwordsRequest//2:Programs::ProgramWordSearchRequest//2:Stardict::StardictHeadwordsRequest//2:MediaWiki::MediaWikiWordSearchRequestSlots//3:MediaWiki::MediaWikiWordSearchRequest//2:HunspellMorpho::HunspellHeadwordsRequest//2:HunspellMorpho::HunspellPrefixMatchRequest
+Dictionary::Initializing, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //dictionary.hh, //394, //0:Dictionary::Initializing//1:LoadDictionaries
+Iconv, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //iconv.hh, //12, //0:Iconv//1:Dsl::Details::DslIconv
+KeyboardState, //Konstantin Isakov, //dragonroot@gmail.com, //20090201, //keyboardstate.hh, //10, //0:KeyboardState//1:MouseOver//1:ScanPopup
+QtSingleApplication, //Konstantin Isakov, //dragonroot@gmail.com, //20101120, //qtsingleapplication/src/qtsingleapplication.h, //64, //0:QtSingleApplication//1:QHotkeyApplication
+DataCommitter, //Konstantin Isakov, //dragonroot@gmail.com, //20100628, //hotkeywrapper.hh, //159, //0:DataCommitter//1:MainWindow
+ExtLineEdit, //Tvangeste, //i.4m.l33t@yandex.ru, //20121224, //extlineedit.hh, //37, //0:ExtLineEdit//1:QuickFilterLine
+BtreeIndexing::BtreeIndex, //Konstantin Isakov, //dragonroot@gmail.com, //20091025, //btreeidx.hh, //71, //0:BtreeIndexing::BtreeIndex//1:BtreeIndexing::BtreeDictionary//2:Lsa::LsaDictionary//2:Dsl::DslDictionary//2:Bgl::BglDictionary//2:SoundDir::SoundDirDictionary//2:ZipSounds::ZipSoundsDictionary//2:DictdFiles::DictdDictionary//2:Stardict::StardictDictionary//2:Aard::AardDictionary//2:Xdxf::XdxfDictionary//2:Sdict::SdictDictionary//1:IndexedZip
+WordList, //Tvangeste, //i.4m.l33t@yandex.ru, //20130125, //wordlist.hh, //12, //0:WordList//1:CompletionList
+Babylon::ResourceHandler, //Konstantin Isakov, //dragonroot@gmail.com, //20090128, //bgl_babylon.hh, //169, //0:Babylon::ResourceHandler//1:Bgl::ResourceHandler
+AffEntry, //Abs62, //ottomann@yandex.ru, //20110719, //winlibs/include/hunspell/baseaffix.hxx, //6, //0:AffEntry//1:PfxEntry//1:SfxEntry//1:PfxEntry//1:SfxEntry

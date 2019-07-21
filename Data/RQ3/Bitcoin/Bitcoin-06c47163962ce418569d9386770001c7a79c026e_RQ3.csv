@@ -1,0 +1,18 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+CFixedFieldString, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //serialize.h, //268
+base_uint, //2, //2, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //uint256.h, //26
+LockedPageManagerBase, //0, //0, //h, //, //, //src/allocators.h, //28
+secure_allocator, //2, //2, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //serialize.h, //669
+secure_allocator::rebind, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //serialize.h, //683
+secure_allocator, //3, //3, //h, //, //, //src/allocators.h, //181
+secure_allocator::rebind, //0, //0, //h, //, //, //src/allocators.h, //197
+zero_after_free_allocator, //2, //2, //h, //, //, //src/allocators.h, //225
+zero_after_free_allocator::rebind, //0, //0, //h, //, //, //src/allocators.h, //241
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+CDB, //, //, //, //src/db.h, //90, //0:CDB//1:CWalletDB
+CCryptoKeyStore, //, //, //, //src/crypter.h, //113, //0:CCryptoKeyStore//1:CWallet
+CDB, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //db.h, //31, //0:CDB//1:CAddrDB//1:CTxDB//1:CWalletDB
+CTransaction, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //main.h, //369, //0:CTransaction//1:CMerkleTx//2:CWalletTx
+CBlockIndex, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //main.h, //1065, //0:CBlockIndex//1:CDiskBlockIndex
+CBlockHeader, //, //, //, //src/core.h, //403, //0:CBlockHeader//1:CBlock

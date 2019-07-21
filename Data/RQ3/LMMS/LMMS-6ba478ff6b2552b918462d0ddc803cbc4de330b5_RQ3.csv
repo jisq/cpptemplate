@@ -1,0 +1,16 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+basicFilters, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/basic_filters.h, //43
+bufferAllocator::autoCleaner, //1, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/buffer_allocator.h, //55
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+midiTime, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/midi_time.h, //32, //0:midiTime//1:songEditor::playPos
+note, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/note.h, //91, //0:note//1:notePlayHandle
+trackContentObject, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/track.h, //76, //0:trackContentObject//1:bbTCO//1:sampleTCO//1:pattern
+oscillator, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/oscillator.h, //50, //0:oscillator//1:expWaveOsc//1:moogSawWaveOsc//1:noiseWaveOsc//1:sawWaveOsc//1:sinWaveOsc//1:squareWaveOsc//1:triangleWaveOsc//1:userWaveOsc
+track, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/track.h, //258, //0:track//1:bbTrack//1:sampleTrack
+trackContainer, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/track_container.h, //53, //0:trackContainer//1:songEditor//1:bbEditor//1:blindTrackContainer
+playHandle, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/play_handle.h, //46, //0:playHandle//1:notePlayHandle//1:presetPreviewPlayHandle//1:samplePlayHandle
+KMultiTabBar, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/kmultitabbar.h, //79, //0:KMultiTabBar//1:sideBar
+KMultiTabBarButton, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/kmultitabbar.h, //179, //0:KMultiTabBarButton//1:KMultiTabBarTab
+audioDevice, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/audio_device.h, //53, //0:audioDevice//1:audioSampleRecorder//1:audioFileDevice//2:audioFileWave//1:audioDummy
+specialBgHandlingWidget, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/spc_bg_hndl_widget.h, //44, //0:specialBgHandlingWidget//1:envelopeAndLFOWidget//1:tabWidget//2:audioDevice::setupWidget//3:audioDummy::setupWidget

@@ -1,0 +1,45 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+rgbt::RgbTriangle, //10, //3, //h, //, //, //meshlab/src/meshlabplugins/editrgbtri/rgbInfo.h, //304
+rgbt::RgbVertex, //10, //3, //h, //, //, //meshlab/src/meshlabplugins/editrgbtri/rgbInfo.h, //826
+rgbt::EdgeFI, //5, //1, //h, //, //, //meshlab/src/meshlabplugins/editrgbtri/topologicalOp.h, //44
+rgbt::TopologicalOp, //5, //1, //h, //, //, //meshlab/src/meshlabplugins/editrgbtri/topologicalOp.h, //66
+NearestMidPoint, //1, //1, //h, //, //, //meshlab/src/fgt/edit_topo/edit_topomeshbuilder.h, //41
+NVector, //2, //1, //h, //, //, //meshlab/src/meshlabplugins/filter_poisson/src/Vector.h, //88
+Vector, //24, //2, //h, //, //, //meshlab/src/meshlabplugins/filter_poisson/src/Vector.h, //36
+Allocator, //3, //3, //h, //, //, //meshlab/src/meshlabplugins/filter_poisson/src/Allocator.h, //46
+BinaryNode, //0, //0, //h, //, //, //meshlab/src/meshlabplugins/filter_poisson/src/BinaryNode.h, //33
+OctNode, //4, //3, //h, //, //, //meshlab/src/meshlabplugins/filter_poisson/src/Octree.h, //39
+FunctionData, //1, //1, //h, //, //, //meshlab/src/meshlabplugins/filter_poisson/src/FunctionData.h, //36
+PPolynomial, //16, //5, //h, //, //, //meshlab/src/meshlabplugins/filter_poisson/src/PPolynomial.h, //49
+Polynomial, //8, //5, //h, //, //, //meshlab/src/meshlabplugins/filter_poisson/src/Polynomial.h, //35
+StartingPolynomial, //4, //3, //h, //, //, //meshlab/src/meshlabplugins/filter_poisson/src/PPolynomial.h, //35
+rgbt::RgbEdge, //2, //2, //h, //, //, //meshlab/src/meshlabplugins/editrgbtri/rgbInfo.h, //806
+ScalarImage, //4, //3, //h, //, //, //meshlab/src/meshlabplugins/epoch_io/scalar_image.h, //10
+SparseMatrix, //13, //1, //h, //, //, //meshlab/src/meshlabplugins/filter_poisson/src/SparseMatrix.h, //52
+SparseNMatrix, //0, //0, //h, //, //, //meshlab/src/meshlabplugins/filter_poisson/src/SparseMatrix.h, //103
+SparseSymmetricMatrix, //4, //2, //h, //, //, //meshlab/src/meshlabplugins/filter_poisson/src/SparseMatrix.h, //139
+FgtHole, //30, //2, //h, //, //, //meshlab/src/fgt/edit_hole/fgtHole.h, //61
+FgtBridge, //0, //0, //h, //, //, //meshlab/src/fgt/edit_hole/fgtBridge.h, //93
+Octree, //5, //1, //h, //, //, //meshlab/src/meshlabplugins/filter_poisson/src/MultiGridOctreeData.h, //85
+Triangulation, //0, //0, //h, //, //, //meshlab/src/meshlabplugins/filter_poisson/src/Geometry.h, //135
+Point3D, //69, //2, //h, //, //, //meshlab/src/meshlabplugins/filter_poisson/src/Geometry.h, //39
+MatrixEntry, //4, //2, //h, //, //, //meshlab/src/meshlabplugins/filter_poisson/src/SparseMatrix.h, //36
+NMatrixEntry, //2, //1, //h, //, //, //meshlab/src/meshlabplugins/filter_poisson/src/SparseMatrix.h, //44
+BridgeAbutment, //17, //1, //h, //, //, //meshlab/src/fgt/edit_hole/fgtBridge.h, //37
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+CameraCalibration, //, //, //, //meshlab/src/meshlabplugins/edit_phototexturing/src/CameraCalibration.h, //34, //0:CameraCalibration//1:TsaiCameraCalibration
+MeshEditInterface, //, //, //, //meshlab/src/meshlab/interfaces.h, //397, //0:MeshEditInterface//1:EditSegment//1:EditPaintPlugin//1:EditMeasurePlugin//1:EditPaintPlugin//1:EditAlignPlugin//1:SampleEditPlugin//1:EditPickPointsPlugin//1:ExtraMeshSlidePlugin//1:PhotoTexturingPlugin//1:EditStraightener//1:EditTexturePlugin//1:edit_topo//1:ExtraMeshEditPlugin//1:EditHolePlugin//1:rgbt::RgbTPlugin//1:EditFitPlugin
+MeshRenderInterface, //, //, //, //meshlab/src/meshlab/interfaces.h, //336, //0:MeshRenderInterface//1:RenderRFX//1:RmMeshShaderRenderPlugin//1:MeshShaderRenderPlugin
+MeshFilterInterface, //, //, //, //meshlab/src/meshlab/interfaces.h, //186, //0:MeshFilterInterface//1:GeometryAgingPlugin//1:ExtraMeshColorizePlugin//1:FilterTexturePlugin//1:ExtraMeshFilterPlugin//1:FilterMorph//1:AmbientOcclusionPlugin//1:ExtraFilter_SlicePlugin//1:QualityMapperFilter
+RfxTextureLoaderPlugin, //, //, //, //meshlab/src/fgt/render_rfx/rfx_textureloader.h, //52, //0:RfxTextureLoaderPlugin//1:RfxTGAPlugin//1:RfxDDSPlugin//1:RfxQImagePlugin
+QuadTreeLeaf, //, //, //, //meshlab/src/meshlabplugins/edit_phototexturing/src/QuadTree/QuadTreeLeaf.h, //26, //0:QuadTreeLeaf//1:UVFaceTexture
+VrmlTranslator::Buffer, //, //, //, //meshlab/src/meshlabplugins/io_x3d/vrml/Scanner.h, //123, //0:VrmlTranslator::Buffer//1:VrmlTranslator::UTF8Buffer
+MainWindowInterface, //, //, //, //meshlab/src/meshlab/interfaces.h, //137, //0:MainWindowInterface//1:MainWindow
+MeshIOInterface, //, //, //, //meshlab/src/meshlab/interfaces.h, //58, //0:MeshIOInterface//1:EpochIO
+UniformVar, //, //, //, //meshlab/src/meshlabplugins/render_rm/parser/UniformVar.h, //45, //0:UniformVar//1:UniformValue
+LogStream, //, //, //, //meshlab/src/meshlab/LogStream.h, //54, //0:LogStream//1:GLLogStream
+Handle, //, //, //, //meshlab/src/fgt/edit_quality/handle.h, //40, //0:Handle//1:TFHandle
+Primitive, //, //, //, //meshlab/src/meshlabplugins/edit_fit/primitive.h, //23, //0:Primitive//1:Box//1:Cylinder
+EnumWidget, //, //, //, //meshlab/src/meshlab/stdpardialog.h, //219, //0:EnumWidget//1:MeshEnumWidget
+CoredMeshData, //, //, //, //meshlab/src/meshlabplugins/filter_poisson/src/Geometry.h, //162, //0:CoredMeshData//1:CoredFileMeshData//1:CoredVectorMeshData

@@ -1,0 +1,9 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+engine::job::Job, //1, //1, //Andre Kupka, //kupka@in.tum.de, //20140331, //src/engine/job/job.h, //22
+engine::job::JobState, //3, //0, //Andre Kupka, //kupka@in.tum.de, //20140331, //src/engine/job/job_state.h, //20
+engine::util::less, //1, //0, //Jonas Jelten, //jelten@in.tum.de, //20140131, //src/engine/util/misc.h, //57
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+engine::audio::InMemoryLoader, //Andre Kupka, //kupka@in.tum.de, //20140331, //src/engine/audio/in_memory_loader.h, //19, //0:engine::audio::InMemoryLoader//1:engine::audio::OpusInMemoryLoader
+engine::audio::Resource, //Andre Kupka, //kupka@in.tum.de, //20140322, //src/engine/audio/resource.h, //21, //0:engine::audio::Resource//1:engine::audio::InMemoryResource
+engine::job::BaseJobState, //Andre Kupka, //kupka@in.tum.de, //20140331, //src/engine/job/job_state.h, //12, //0:engine::job::BaseJobState//1:engine::job::JobState

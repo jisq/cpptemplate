@@ -1,0 +1,22 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+LinearDiskCache, //0, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/linear_disk_cache.h, //49
+LinearDiskCacheReader, //1, //1, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/linear_disk_cache.h, //30
+Common::FifoQueue, //0, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/fifo_queue.h, //14
+MathUtil::Rectangle, //0, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/math_util.h, //94
+LinkedListItem, //8, //2, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/chunk_file.h, //67
+PointerWrap::DoHelper, //3, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/src/chunk_file.h, //108
+PointerWrap::DoHelper, //0, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/src/chunk_file.h, //123
+swap_16_t, //4, //0, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/src/swap.h, //468
+swap_32_t, //4, //0, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/src/swap.h, //461
+swap_64_t, //4, //0, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/src/swap.h, //454
+swap_double_t, //2, //1, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/src/swap.h, //482
+swap_float_t, //2, //1, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/src/swap.h, //475
+swap_struct_t, //32, //3, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/src/swap.h, //65
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+NonCopyable, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/common.h, //34, //0:NonCopyable//1:LogManager//1:File::IOFile
+LogListener, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/log_manager.h, //21, //0:LogListener//1:DebuggerLogListener//1:FileLogListener//1:ConsoleListener
+EmuWindow, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/src/emu_window.h, //37, //0:EmuWindow//1:GRenderWindow//1:EmuWindow_GLFW
+IFileSystem, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/file_sys.h, //99, //0:IFileSystem//1:EmptyFileSystem//1:MetaFileSystem//1:DirectoryFileSystem//1:VFSFileSystem
+IHandleAllocator, //ShizZy, //shizzy@6bit.net, //20130919, //src/core/src/file_sys/file_sys.h, //43, //0:IHandleAllocator//1:SequentialHandleAllocator//1:MetaFileSystem
+QHexEdit, //ShizZy, //shizzy@6bit.net, //20130829, //externals/qhexedit/qhexedit.h, //51, //0:QHexEdit//1:GRamView

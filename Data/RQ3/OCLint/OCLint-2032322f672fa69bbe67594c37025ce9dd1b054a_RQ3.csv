@@ -1,0 +1,14 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+oclint::AbstractASTVisitorRule, //0, //0, //Longyi Qi, //lqi+git@longyiqi.com, //20130609, //oclint-rules/include/oclint/AbstractASTVisitorRule.h, //12
+AbstractEmptyBlockStmtRule, //0, //0, //Longyi Qi, //lqi+git@longyiqi.com, //20130609, //oclint-rules/rules/abstract/AbstractEmptyBlockStmtRule.h, //5
+AbstractNullCheckRule, //0, //0, //Longyi Qi, //lqi+git@longyiqi.com, //20130609, //oclint-rules/rules/abstract/AbstractNullCheckRule.h, //5
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+oclint::Reporter, //Longyi Qi, //lqi+git@longyiqi.com, //20121111, //oclint-core/include/oclint/Reporter.h, //11, //0:oclint::Reporter//1:TextReporter//1:JSONReporter//1:XMLReporter//1:HTMLReporter//1:PMDReporter
+oclint::Results, //Longyi Qi, //lqi+git@longyiqi.com, //20121112, //oclint-core/include/oclint/Results.h, //12, //0:oclint::Results//1:ResultsTest_ResultsStub
+oclint::RuleBase, //Longyi Qi, //lqi+git@longyiqi.com, //20121111, //oclint-core/include/oclint/RuleBase.h, //11, //0:oclint::RuleBase//1:MockRuleBaseOne//1:MockRuleBaseTwo//1:MockRuleBase//1:MockRuleBase//1:MockRuleBase//1:oclint::AbstractSourceCodeReaderRule//2:SuppressHelperTestSourceCodeReaderRule//2:LongLineRule//1:MockRuleBase//1:MockRuleBase//1:MockRuleBase//1:MockRuleBase//1:MockRuleBase//1:oclint::AbstractASTRuleBase//2:oclint::AbstractASTVisitorRule//3:AbstractEmptyBlockStmtRule//3:AbstractNullCheckRule//3:LanguageSelectionASTRule//1:MockRuleBase
+oclint::AbstractASTMatcherRule, //Longyi Qi, //lqi+git@longyiqi.com, //20130217, //oclint-rules/include/oclint/AbstractASTMatcherRule.h, //12, //0:oclint::AbstractASTMatcherRule//1:GotoStatementRule//1:BitwiseOperatorInConditionalRule//1:AvoidPrivateStaticMembersRule
+MisplacedNullCheckBaseRule, //Longyi Qi, //lqi+git@longyiqi.com, //20130514, //oclint-rules/rules/basic/MisplacedNullCheckRule.cpp, //10, //0:MisplacedNullCheckBaseRule//1:MisplacedNilCheckRule//1:MisplacedNullCheckRule
+oclint::Analyzer, //Longyi Qi, //lqi+git@longyiqi.com, //20130607, //oclint-driver/include/oclint/Analyzer.h, //14, //0:oclint::Analyzer//1:oclint::RulesetBasedAnalyzer
+BrokenNullCheckBaseRule, //Longyi Qi, //lqi+git@longyiqi.com, //20130514, //oclint-rules/rules/basic/BrokenNullCheckRule.cpp, //10, //0:BrokenNullCheckBaseRule//1:BrokenNilCheckRule//1:BrokenNullCheckRule
+PreferEarlyExitRuleTest, //Janusz Chorko, //jchorko@gmail.com, //20131016, //oclint-rules/test/convention/PreferEarlyExitRuleTest.cpp, //4, //0:PreferEarlyExitRuleTest//1:FlowControlStatementsTest//1:LoopsTest

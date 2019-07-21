@@ -1,0 +1,18 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+re2c::basic_null_stream, //1, //1, //Serguei Makarov, //smakarov@redhat.com, //20130110, //re2c-migrate/re2c-emit.cxx, //1945
+re2c::basic_null_streambuf, //2, //2, //Serguei Makarov, //smakarov@redhat.com, //20130110, //re2c-migrate/re2c-emit.cxx, //1932
+re2c::free_list, //4, //2, //Serguei Makarov, //smakarov@redhat.com, //20121106, //re2c-migrate/re2c-regex.h, //135
+save_and_restore, //2, //1, //Chris Meek, //cmeek@redhat.com, //20111220, //util.h, //223
+auto_free_ref, //0, //0, //Tim Moore, //timoore@redhat.com, //20080629, //auto_free.h, //39
+generic_dpg, //0, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapsets.h, //43
+__sdt_type, //0, //0, //Roland McGrath, //roland@redhat.com, //20101122, //includes/sys/sdt.h, //76
+__sdt_type, //0, //0, //Roland McGrath, //roland@redhat.com, //20101122, //includes/sys/sdt.h, //119
+__sdt_type, //0, //0, //Roland McGrath, //roland@redhat.com, //20101122, //includes/sys/sdt.h, //122
+__gnu_cxx::hash, //0, //0, //Josh Stone, //jistone@redhat.com, //20090902, //unordered.h, //42
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+re2c::Action, //Serguei Makarov, //smakarov@redhat.com, //20121106, //re2c-migrate/re2c-dfa.h, //33, //0:re2c::Action//1:re2c::Accept//1:re2c::Enter//2:re2c::Initial//1:re2c::Match//2:re2c::Save//1:re2c::Move//1:re2c::Rule
+re2c::RegExp, //Serguei Makarov, //smakarov@redhat.com, //20121106, //re2c-migrate/re2c-regex.h, //242, //0:re2c::RegExp//1:re2c::AltOp//1:re2c::AnchorOp//1:re2c::CatOp//1:re2c::CloseOp//1:re2c::CloseVOp//1:re2c::MatchOp//1:re2c::NullOp//1:re2c::RuleOp
+re2c::SubStr, //Serguei Makarov, //smakarov@redhat.com, //20121106, //re2c-migrate/re2c-globals.h, //62, //0:re2c::SubStr//1:re2c::Str
+remote, //Josh Stone, //jistone@redhat.com, //20101130, //remote.h, //21, //0:remote//1:direct//1:ssh_legacy_remote//1:stapsh//2:direct_stapsh//2:ssh_remote//2:unix_stapsh
+var, //Graydon Hoare, //, //20050720, //translate.cxx, //334, //0:var//1:aggvar//1:mapvar//1:tmpvar

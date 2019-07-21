@@ -1,0 +1,29 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+RingBuffer, //15, //4, //Arthur Wolf, //wolf.arthur@gmail.com, //20110920, //src/libs/RingBuffer.h, //14
+HeapRing, //20, //2, //Michael Moon, //triffid.hunter@gmail.com, //20140116, //src/libs/HeapRing.h, //4
+CircBuffer, //2, //1, //Michael Moon, //triffid.hunter@gmail.com, //20121101, //src/libs/USBDevice/USBSerial/CircBuffer.h, //27
+Fifo, //13, //3, //Jim Morris, //morris@wolfman.com, //20131222, //src/libs/Network/uip/fifo.h, //138
+Tlink, //18, //1, //Jim Morris, //morris@wolfman.com, //20131222, //src/libs/Network/uip/fifo.h, //19
+list_base, //5, //1, //Jim Morris, //morris@wolfman.com, //20131222, //src/libs/Network/uip/fifo.h, //43
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+Module, //Jim Morris, //morris@wolfman.com, //20140613, //src/libs/Module.h, //35, //0:Module//1:USBMSD//1:PauseButton//1:ToolManager//1:Adc//1:SerialConsole//1:Tool//2:Extruder//1:GcodeDispatch//1:Switch//1:USB//1:Endstops//1:Network//1:Laser//1:Stepper//1:Panel//1:Robot//1:SimpleShell//1:DFU//1:LPC17XX_Ethernet//1:PlayLed//1:ZProbe//1:Conveyor//1:TemperatureSwitch//1:SlowTicker//1:Pwm//1:CurrentControl//1:Planner//1:Touchprobe//1:TemperatureControl//1:Watchdog//1:Player//1:USBSerial//1:Configurator//1:Config//1:Pauser//1:PID_Autotuner
+USB_Class_Receiver, //Michael Moon, //triffid.hunter@gmail.com, //20121101, //src/libs/USBDevice/USBDevice/USBEndpoints.h, //53, //0:USB_Class_Receiver//1:USB_Endpoint_Receiver//2:USBMSD//2:USBHAL//3:USBDevice//4:USB//2:USBCDC//3:USBSerial//1:DFU
+USB_State_Receiver, //Michael Moon, //triffid.hunter@gmail.com, //20121101, //src/libs/USBDevice/USBDevice/USBEndpoints.h, //41, //0:USB_State_Receiver//1:USBMSD//1:USBHAL//2:USBDevice//3:USB
+MSD_Disk, //Michael Moon, //triffid.hunter@gmail.com, //20121101, //src/libs/USBDevice/USBMSD/disk.h, //6, //0:MSD_Disk//1:SDCard
+Pin, //Arthur Wolf, //wolf.arthur@gmail.com, //20120106, //src/libs/Pin.h, //10, //0:Pin//1:Pwm
+ConfigSource, //Arthur Wolf, //wolf.arthur@gmail.com, //20120619, //src/libs/ConfigSource.h, //18, //0:ConfigSource//1:FirmConfigSource//1:FileConfigSource
+mbed::DirHandle, //Adam Green, //adamgr@foo.bar, //20130218, //mbed/src/cpp/DirHandle.h, //48, //0:mbed::DirHandle//1:mbed::LocalDirHandle//1:mbed::FATDirHandle//1:mbed::BaseDirHandle
+mbed::FileHandle, //Adam Green, //adamgr@foo.bar, //20130218, //mbed/src/cpp/FileHandle.h, //42, //0:mbed::FileHandle//1:mbed::LocalFileHandle//1:mbed::FileLike//2:mbed::Stream//3:mbed::Serial//1:mbed::FATFileHandle
+LcdBase, //Jim Morris, //morris@wolfman.com, //20130623, //src/modules/utils/panel/panels/LcdBase.h, //23, //0:LcdBase//1:ReprapDiscountGLCD//1:VikiLCD//1:Smoothiepanel//1:UniversalAdapter//1:I2CLCD//1:ST7565
+StreamOutput, //Jim Morris, //morris@wolfman.com, //20131216, //src/libs/StreamOutput.h, //21, //0:StreamOutput//1:NullStreamOutput//1:SerialConsole//1:AppendFileStream//1:CallbackStream//1:StreamOutputPool//1:FileStream//1:USBSerial
+AjK::FPointer, //Arthur Wolf, //wolf.arthur@gmail.com, //20120326, //src/libs/FPointer.h, //69, //0:AjK::FPointer//1:Hook
+DigipotBase, //Jim Morris, //morris@wolfman.com, //20130612, //src/modules/utils/currentcontrol/DigipotBase.h, //9, //0:DigipotBase//1:AD5206//1:MCP4451
+mbed::TimerEvent, //Adam Green, //adamgr@foo.bar, //20130218, //mbed/src/cpp/TimerEvent.h, //25, //0:mbed::TimerEvent//1:mbed::Ticker//2:mbed::Timeout
+PanelScreen, //Jim Morris, //morris@wolfman.com, //20131106, //src/modules/utils/panel/PanelScreen.h, //15, //0:PanelScreen//1:WatchScreen//1:JogScreen//1:ControlScreen//1:MainMenuScreen//1:PrepareScreen//1:FileScreen//1:ExtruderScreen//1:ModifyValuesScreen//1:CustomScreen
+BaseSolution, //Arthur Wolf, //wolf.arthur@gmail.com, //20110920, //src/modules/robot/arm_solutions/BaseSolution.h, //8, //0:BaseSolution//1:LinearDeltaSolution//1:ExperimentalDeltaSolution//1:HBotSolution//1:RotatableCartesianSolution//1:CartesianSolution
+TempSensor, //hakla, //hakan.langemark@gmail.com, //20140414, //src/modules/tools/temperaturecontrol/TempSensor.h, //11, //0:TempSensor//1:Thermistor//1:Max31855
+USB_Frame_Receiver, //Michael Moon, //triffid.hunter@gmail.com, //20121101, //src/libs/USBDevice/USBDevice/USBEndpoints.h, //48, //0:USB_Frame_Receiver//1:USBHAL//2:USBDevice//3:USB
+mbed::FileBase, //Adam Green, //adamgr@foo.bar, //20130218, //mbed/src/cpp/FileBase.h, //52, //0:mbed::FileBase//1:mbed::FileSystemLike//2:mbed::LocalFileSystem//2:mbed::FATFileSystem//3:SDFAT//1:mbed::FileLike//2:mbed::Stream//3:mbed::Serial
+Encapsulated, //Michael Moon, //triffid.hunter@gmail.com, //20130306, //src/libs/Network/net_util.h, //38, //0:Encapsulated//1:Encapsulator//2:NetworkInterface//3:LPC17XX_Ethernet
+USBSerial_Receiver, //Michael Moon, //triffid.hunter@gmail.com, //20121101, //src/libs/USBDevice/USBSerial/USBSerial.h, //29, //0:USBSerial_Receiver//1:USBSerial

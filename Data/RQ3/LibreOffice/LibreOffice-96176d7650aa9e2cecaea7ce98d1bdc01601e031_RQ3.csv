@@ -1,0 +1,41 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+dbp::OUnoAutoPilot, //0, //0, //Frank Schönheit, //fs@openoffice.org, //20010221, //extensions/source/dbpilots/unoautopilot.hxx, //107
+COMPMOD_NAMESPACE::OMultiInstanceAutoRegistration, //2, //1, //Frank Schönheit, //fs@openoffice.org, //20010212, //extensions/source/inc/componentmodule.hxx, //243
+COMPMOD_NAMESPACE::OOneInstanceAutoRegistration, //2, //1, //Frank Schönheit, //fs@openoffice.org, //20010212, //extensions/source/inc/componentmodule.hxx, //285
+safe_list, //1, //1, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/inc/ucbhelper/ext_content.hxx, //111
+ole_adapter::UnoConversionUtilities, //0, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/source/ole/unoconversionutilities.hxx, //103
+preload::OUnoAutoPilot, //0, //0, //Oliver Specht, //os@openoffice.org, //20011114, //extensions/source/preload/unoautopilot.hxx, //107
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+abp::AddressBookSourcePage, //Frank Schönheit, //fs@openoffice.org, //20010801, //extensions/source/abpilot/abspage.hxx, //94, //0:abp::AddressBookSourcePage//1:abp::TableSelectionPage//1:abp::AdminDialogInvokationPage//1:abp::TypeSelectionPage//1:abp::FieldMappingPage//1:abp::FinalPage
+frm::OErrorBroadcaster, //Frank Schönheit, //fs@openoffice.org, //20010828, //forms/source/component/errorbroadcaster.hxx, //92, //0:frm::OErrorBroadcaster//1:frm::OGridControlModel//1:frm::OListBoxModel//1:frm::OComboBoxModel//1:frm::OFormattedModel
+frm::OGridColumn, //Ocke Janssen, //oj@openoffice.org, //20001123, //forms/source/component/Columns.hxx, //110, //0:frm::OGridColumn//1:frm::CheckBoxColumn//1:frm::ComboBoxColumn//1:frm::CurrencyFieldColumn//1:frm::DateFieldColumn//1:frm::FormattedFieldColumn//1:frm::ListBoxColumn//1:frm::NumericFieldColumn//1:frm::PatternFieldColumn//1:frm::TextFieldColumn//1:frm::TimeFieldColumn
+frm::OInterfaceContainer, //Ocke Janssen, //oj@openoffice.org, //20001123, //forms/source/inc/InterfaceContainer.hxx, //167, //0:frm::OInterfaceContainer//1:frm::OFormComponents//2:frm::ODatabaseForm//1:frm::OGridControlModel
+ZipPackageBuffer, //Martin Gallwey, //martin@gallwey.com, //20011115, //package/inc/ZipPackageBuffer.hxx, //79, //0:ZipPackageBuffer//1:XMemoryStream
+ole_adapter::IClassFactoryWrapper, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/source/ole/servprov.hxx, //102, //0:ole_adapter::IClassFactoryWrapper//1:ole_adapter::OneInstanceOleWrapper_Impl//1:ole_adapter::ProviderOleWrapper_Impl
+dbp::OControlWizard, //Frank Schönheit, //fs@openoffice.org, //20010223, //extensions/source/dbpilots/controlwizard.hxx, //174, //0:dbp::OControlWizard//1:dbp::OListComboWizard//1:dbp::OGroupBoxWizard//1:dbp::OGridWizard
+dbp::OControlWizardPage, //Frank Schönheit, //fs@openoffice.org, //20010530, //extensions/source/dbpilots/controlwizard.hxx, //124, //0:dbp::OControlWizardPage//1:dbp::OLCPage//2:dbp::OContentFieldSelection//2:dbp::OContentTableSelection//2:dbp::OLinkFieldsPage//1:dbp::OGBWPage//2:dbp::OFinalizeGBWPage//2:dbp::OOptionValuesPage//2:dbp::ORadioSelectionPage//1:dbp::OGridPage//2:dbp::OGridFieldsSelection//1:dbp::OMaybeListSelectionPage//2:dbp::ODBFieldPage//3:dbp::OComboDBFieldPage//3:dbp::OOptionDBFieldPage//2:dbp::ODefaultFieldSelectionPage//1:dbp::OTableSelectionPage
+DlgEdObj, //Thomas Benisch, //tbe@openoffice.org, //20010226, //basctl/source/inc/dlgedobj.hxx, //89, //0:DlgEdObj//1:DlgEdForm
+BibToolBarListener, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/source/bibliography/toolbar.hxx, //104, //0:BibToolBarListener//1:BibTBEditListener//1:BibTBListBoxListener//1:BibTBQueryMenuListener
+frm::OLimitedFormats, //Frank Schönheit, //fs@openoffice.org, //20010518, //forms/source/inc/limitedformats.hxx, //88, //0:frm::OLimitedFormats//1:frm::ODateModel//1:frm::OTimeModel
+pcr::OCommonBehaviourControl, //Frank Schönheit, //fs@openoffice.org, //20010112, //extensions/source/propctrlr/commoncontrol.hxx, //80, //0:pcr::OCommonBehaviourControl//1:pcr::OColorControl//1:pcr::OComboboxControl//1:pcr::OCurrencyControl//1:pcr::ODateControl//1:pcr::OEditControl//1:pcr::OListboxControl//1:pcr::OMultilineEditControl//1:pcr::ONumericControl//1:pcr::OTimeControl//1:pcr::OFormatDescriptionControl//1:pcr::OFormattedNumericControl
+frm::OEditBaseModel, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //forms/source/component/EditBase.hxx, //120, //0:frm::OEditBaseModel//1:frm::ONumericModel//1:frm::OEditModel//1:frm::ODateModel//1:frm::OPatternModel//1:frm::OFormattedModel//1:frm::OCurrencyModel//1:frm::OTimeModel
+PluginComm, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/source/plugin/inc/plugin/plcom.hxx, //67, //0:PluginComm//1:PluginComm_Impl//1:UnxPluginComm
+pcr::IPropertyLineListener, //Frank Schönheit, //fs@openoffice.org, //20010112, //extensions/source/propctrlr/proplinelistener.hxx, //75, //0:pcr::IPropertyLineListener//1:pcr::OPropertyBrowserController
+DlgEdFunc, //Thomas Benisch, //tbe@openoffice.org, //20010226, //basctl/source/inc/dlgedfunc.hxx, //78, //0:DlgEdFunc//1:DlgEdFuncInsert//1:DlgEdFuncSelect
+BasicTreeListBox, //Martin Hollmichel, //mh@openoffice.org, //20000929, //basctl/source/basicide/bastype2.hxx, //98, //0:BasicTreeListBox//1:ObjectTreeListBox//1:ExtBasicTreeListBox
+Mediator, //Philipp Lohmann, //pl@openoffice.org, //20011023, //extensions/source/plugin/inc/plugin/unx/mediator.hxx, //136, //0:Mediator//1:PluginConnector//2:UnxPluginComm
+pcr::IPropertyInfoService, //Frank Schönheit, //fs@openoffice.org, //20010112, //extensions/source/propctrlr/propertyinfo.hxx, //86, //0:pcr::IPropertyInfoService//1:pcr::OFormPropertyInfoService
+BasicIDEModuleDummy, //Mathias Bauer, //mba@openoffice.org, //20010720, //basctl/source/basicide/basicmod.hxx, //73, //0:BasicIDEModuleDummy//1:BasicIDEModule
+PluginControl_Impl, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/source/plugin/inc/plugin/plctrl.hxx, //163, //0:PluginControl_Impl//1:XPlugin_Impl
+PropertyChgHelper, //Kevin Hendricks, //khendricks@openoffice.org, //20010908, //lingucomponent/source/spellcheck/spell/sprophelp.hxx, //104, //0:PropertyChgHelper//1:PropertyHelper_Spell
+BasicEntry, //Martin Hollmichel, //mh@openoffice.org, //20000929, //basctl/source/basicide/bastype2.hxx, //161, //0:BasicEntry//1:BasicManagerEntry
+OContent, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/inc/ucbhelper/ext_content.hxx, //144, //0:OContent//1:OFolderContent
+OContentTask, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/inc/ucbhelper/ext_content.hxx, //276, //0:OContentTask//1:OCommandTask//1:OPropertyTask
+bib::OComponentListener, //Frank Schönheit, //fs@openoffice.org, //20011022, //extensions/source/bibliography/loadlisteneradapter.hxx, //88, //0:bib::OComponentListener//1:bib::OLoadListener//2:bib::FormControlContainer//3:bib::BibBeamer//3:bib::BibView
+ole_adapter::InterfaceOleWrapper_Impl, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/source/ole/unoobjw.hxx, //149, //0:ole_adapter::InterfaceOleWrapper_Impl//1:ole_adapter::UnoObjectWrapperRemoteOpt
+BroadcasterHelperHolder, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/source/plugin/inc/plugin/model.hxx, //100, //0:BroadcasterHelperHolder//1:PluginModel
+frm::OComponentEventThread, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //forms/source/component/EventThread.hxx, //99, //0:frm::OComponentEventThread//1:frm::OFormSubmitResetThread
+bib::OComponentAdapterBase, //Frank Schönheit, //fs@openoffice.org, //20011022, //extensions/source/bibliography/loadlisteneradapter.hxx, //115, //0:bib::OComponentAdapterBase//1:bib::OLoadListenerAdapter
+PluginStream, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/source/plugin/inc/plugin/impl.hxx, //374, //0:PluginStream//1:PluginInputStream//1:PluginOutputStream
+PropertyChgHelper, //nidd, //nidd@openoffice.org, //20011225, //lingucomponent/source/hyphenator/altlinuxhyph/hyphen/hprophelp.hxx, //105, //0:PropertyChgHelper//1:PropertyHelper_Hyphen

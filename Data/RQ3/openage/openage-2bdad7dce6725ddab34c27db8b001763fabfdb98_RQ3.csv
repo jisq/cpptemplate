@@ -1,0 +1,30 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+openage::job::Job, //2, //1, //Andre Kupka, //kupka@in.tum.de, //20140331, //cpp/job/job.h, //29
+HuffmanTable, //8, //5, //Michael Enßlin, //michael@ensslin.cc, //20140823, //py/openage/convert/cabextract/lzxd/lzxd.cpp, //194
+openage::datastructure::DoublyLinkedList, //1, //1, //Jonas Jelten, //jelten@in.tum.de, //20140827, //cpp/datastructure/doubly_linked_list.h, //43
+openage::datastructure::DoublyLinkedListNode, //0, //0, //Jonas Jelten, //jelten@in.tum.de, //20140827, //cpp/datastructure/doubly_linked_list.h, //17
+openage::job::JobState, //3, //0, //Andre Kupka, //kupka@in.tum.de, //20140331, //cpp/job/job_state.h, //38
+openage::datastructure::PairingHeap, //6, //4, //Jonas Jelten, //jelten@in.tum.de, //20141017, //cpp/datastructure/pairing_heap.h, //157
+openage::datastructure::PairingHeapNode, //1, //1, //Jonas Jelten, //jelten@in.tum.de, //20141017, //cpp/datastructure/pairing_heap.h, //32
+openage::util::_unique_help::unique_rval, //3, //1, //sams, //samschet@gmail.com, //20141128, //cpp/util/unique.h, //20
+openage::util::_unique_help::unique_rval, //0, //0, //sams, //samschet@gmail.com, //20141128, //cpp/util/unique.h, //25
+openage::util::_unique_help::unique_rval, //0, //0, //sams, //samschet@gmail.com, //20141128, //cpp/util/unique.h, //32
+openage::util::subdata, //0, //0, //Jonas Jelten, //jelten@in.tum.de, //20140727, //cpp/util/file.h, //122
+openage::util::less, //1, //0, //Jonas Jelten, //jelten@in.tum.de, //20140131, //cpp/util/misc.h, //71
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+openage::audio::InMemoryLoader, //Andre Kupka, //kupka@in.tum.de, //20140331, //cpp/audio/in_memory_loader.h, //19, //0:openage::audio::InMemoryLoader//1:openage::audio::OpusInMemoryLoader
+openage::audio::Resource, //Andre Kupka, //kupka@in.tum.de, //20140322, //cpp/audio/resource.h, //31, //0:openage::audio::Resource//1:openage::audio::DynamicResource//1:openage::audio::InMemoryResource
+openage::audio::DynamicLoader, //Andre Kupka, //kupka@in.tum.de, //20140403, //cpp/audio/dynamic_loader.h, //22, //0:openage::audio::DynamicLoader//1:openage::audio::OpusDynamicLoader
+openage::TerrainObject, //Frank Schmidt, //rubiccuber@googlemail.com, //20131218, //cpp/terrain/terrain_object.h, //63, //0:openage::TerrainObject//1:openage::RadialObject//1:openage::SquareObject
+IOWrapper, //Michael Enßlin, //michael@ensslin.cc, //20140823, //py/openage/convert/cabextract/lzxd/lzxd.h, //8, //0:IOWrapper//1:STDIOWrapper//1:PyIOWrapper
+openage::UnitAction, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/action.h, //21, //0:openage::UnitAction//1:openage::AttackAction//1:openage::DeadAction//1:openage::GatherAction//1:openage::IdleAction//1:openage::MoveAction
+openage::DrawHandler, //Jonas Jelten, //jelten@in.tum.de, //20140810, //cpp/handlers.h, //18, //0:openage::DrawHandler//1:openage::GameMain
+openage::HudHandler, //Jonas Jelten, //jelten@in.tum.de, //20140811, //cpp/handlers.h, //29, //0:openage::HudHandler//1:openage::GameMain//1:openage::console::Console
+openage::InputHandler, //Jonas Jelten, //jelten@in.tum.de, //20140810, //cpp/handlers.h, //51, //0:openage::InputHandler//1:openage::GameMain//1:openage::console::Console//1:openage::CoreInputHandler
+openage::ResizeHandler, //Jonas Jelten, //jelten@in.tum.de, //20140810, //cpp/handlers.h, //62, //0:openage::ResizeHandler//1:openage::console::Console//1:openage::Engine
+openage::TickHandler, //Jonas Jelten, //jelten@in.tum.de, //20140810, //cpp/handlers.h, //40, //0:openage::TickHandler//1:openage::GameMain//1:openage::console::Console//1:openage::UnitContainer
+openage::AttributeContainer, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/attribute.h, //28, //0:openage::AttributeContainer//1:openage::Attribute//1:openage::Attribute//1:openage::Attribute//1:openage::Attribute//1:openage::Attribute
+openage::UnitAbility, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/ability.h, //38, //0:openage::UnitAbility//1:openage::AttackAbility//1:openage::GatherAbility//1:openage::MoveAbility
+openage::UnitProducer, //J, //Jono4728@gmail.com, //20141119, //cpp/unit/producer.h, //31, //0:openage::UnitProducer//1:openage::BuldingProducer//1:openage::UnitTypeTest
+openage::job::BaseJobState, //Andre Kupka, //kupka@in.tum.de, //20140331, //cpp/job/job_state.h, //18, //0:openage::job::BaseJobState//1:openage::job::JobState

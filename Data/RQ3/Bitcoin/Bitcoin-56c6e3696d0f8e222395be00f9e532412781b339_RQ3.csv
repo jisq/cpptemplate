@@ -1,0 +1,15 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+base_uint, //2, //2, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uint256.h, //25
+CMedianFilter, //2, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110928, //src/util.h, //560
+CFixedFieldString, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //305
+LockedPageManagerBase, //0, //0, //h, //, //, //src/allocators.h, //28
+secure_allocator, //6, //4, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //782
+secure_allocator::rebind, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //798
+secure_allocator, //3, //3, //h, //, //, //src/allocators.h, //181
+secure_allocator::rebind, //0, //0, //h, //, //, //src/allocators.h, //197
+zero_after_free_allocator, //2, //2, //h, //, //, //src/allocators.h, //225
+zero_after_free_allocator::rebind, //0, //0, //h, //, //, //src/allocators.h, //241
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+CBase58Data, //Pieter Wuille, //pieter.wuille@gmail.com, //20110711, //src/base58.h, //173, //0:CBase58Data//1:CBitcoinAddress//1:CBitcoinSecret
+CBlockHeader, //, //, //, //src/core.h, //403, //0:CBlockHeader//1:CBlock

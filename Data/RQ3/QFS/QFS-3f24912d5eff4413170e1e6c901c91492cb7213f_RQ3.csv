@@ -1,0 +1,20 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+QCDLList, //25, //24, //thilee, //thilee@q..t.com, //20120830, //src/cc/qcdio/QCDLList.h, //128
+QCDLListOp, //31, //26, //thilee, //thilee@q..t.com, //20120830, //src/cc/qcdio/QCDLList.h, //39
+QCStValueIncrementor, //5, //1, //thilee, //thilee@q..t.com, //20120830, //src/cc/qcdio/qcstutils.h, //180
+QCStValueChanger, //1, //1, //thilee, //thilee@q..t.com, //20120830, //src/cc/qcdio/qcstutils.h, //135
+Allocator, //2, //2, //thilee, //thilee@q..t.com, //20120830, //src/cc/devtools/sortedhash_main.cc, //88
+Allocator::rebind, //0, //0, //thilee, //thilee@q..t.com, //20120830, //src/cc/devtools/sortedhash_main.cc, //110
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+QCRefCountedObj, //thilee, //thilee@q..t.com, //20120830, //src/cc/qcdio/qcstutils.h, //259, //0:QCRefCountedObj//1:KFS::client::Writer::Impl//1:KFS::client::Reader::Impl//1:KFS::ReplicatorImpl//2:KFS::RSReplicatorImpl//1:KFS::client::KfsOpenDir::Glob//1:KFS::client::KfsNetClient::Impl
+QCDiskQueue, //thilee, //thilee@q..t.com, //20120830, //src/cc/qcdio/QCDiskQueue.h, //48, //0:QCDiskQueue//1:KFS::DiskQueue
+QCDiskQueue::IoCompletion, //thilee, //thilee@q..t.com, //20120830, //src/cc/qcdio/QCDiskQueue.h, //188, //0:QCDiskQueue::IoCompletion//1:KFS::DiskIo//1:QCDiskQueueTest::RequestWaiter//1:KFS::DiskIoQueues::WriteCancelWaiter//1:QCDiskQueue::RequestWaiter
+QCDiskQueue::Status, //thilee, //thilee@q..t.com, //20120830, //src/cc/qcdio/QCDiskQueue.h, //105, //0:QCDiskQueue::Status//1:QCDiskQueue::CompletionStatus//1:QCDiskQueue::OpenFileStatus
+QCIoBufferPool::Client, //thilee, //thilee@q..t.com, //20120830, //src/cc/qcdio/QCIoBufferPool.h, //52, //0:QCIoBufferPool::Client//1:QCDiskQueueTest::BPClient
+QCCondVar, //thilee, //thilee@q..t.com, //20120830, //src/cc/qcdio/QCMutex.h, //111, //0:QCCondVar//1:KFS::client::ReadRequestCondVar
+QCDiskQueue::DebugTracer, //thilee, //thilee@q..t.com, //20120830, //src/cc/qcdio/QCDiskQueue.h, //227, //0:QCDiskQueue::DebugTracer//1:KFS::DiskQueue
+QCDiskQueue::IoStartObserver, //thilee, //thilee@q..t.com, //20120830, //src/cc/qcdio/QCDiskQueue.h, //211, //0:QCDiskQueue::IoStartObserver//1:KFS::DiskErrorSimulator
+QCRunnable, //thilee, //thilee@q..t.com, //20120830, //src/cc/qcdio/QCThread.h, //38, //0:QCRunnable//1:QCThread//2:QCDiskQueue::Queue::IoThread//1:KFS::ClientManager::ClientThread//1:KFS::client::KfsProtocolWorker::Impl//1:KFS::BufferedLogWriter::Impl//1:KFS::DirChecker::Impl
+AbstractTest, //thilee, //thilee@q..t.com, //20120830, //src/cc/devtools/requestparser_main.cc, //35, //0:AbstractTest//1:Test
+AbstractTest1, //thilee, //thilee@q..t.com, //20120830, //src/cc/devtools/requestparser_main.cc, //70, //0:AbstractTest1//1:Test

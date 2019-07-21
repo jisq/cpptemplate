@@ -1,0 +1,36 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+uORB::Subscription, //5, //2, //James Goppert, //james.goppert@gmail.com, //20140316, //src/modules/uORB/Subscription.hpp, //166
+control::BlockParam, //9, //3, //James Goppert, //james.goppert@gmail.com, //20140316, //src/modules/controllib/block/BlockParam.hpp, //76
+math::Matrix, //78, //6, //Anton Babushkin, //anton.babushkin@me.com, //20131225, //src/lib/mathlib/math/Matrix.hpp, //395
+math::MatrixBase, //2, //2, //Anton Babushkin, //anton.babushkin@me.com, //20131225, //src/lib/mathlib/math/Matrix.hpp, //65
+math::Vector, //210, //5, //Anton Babushkin, //anton.babushkin@me.com, //20131225, //src/lib/mathlib/math/Vector.hpp, //363
+math::VectorBase, //1, //1, //Anton Babushkin, //anton.babushkin@me.com, //20131225, //src/lib/mathlib/math/Vector.hpp, //64
+MavlinkStreamActuatorControlTarget, //9, //5, //Lorenz Meier, //lorenz@px4.io, //20150212, //src/modules/mavlink/mavlink_messages.cpp, //1395
+MavlinkStreamServoOutputRaw, //9, //5, //Anton Babushkin, //anton.babushkin@me.com, //20140728, //src/modules/mavlink/mavlink_messages.cpp, //1315
+simulator::Report, //3, //3, //Mark Charlebois, //charlebm@gmail.com, //20150415, //src/modules/simulator/simulator.h, //86
+uORB::Publication, //5, //3, //James Goppert, //james.goppert@gmail.com, //20150425, //src/modules/uORB/Publication.hpp, //141
+px4::PX4Message, //0, //0, //Thomas Gubler, //thomasgubler@gmail.com, //20150120, //src/platforms/px4_message.h, //52
+px4::Parameter, //5, //4, //Thomas Gubler, //thomasgubler@gmail.com, //20150208, //src/platforms/px4_parameter.h, //120
+px4::Publisher, //7, //1, //Thomas Gubler, //thomasgubler@gmail.com, //20150122, //src/platforms/px4_publisher.h, //68
+px4::PublisherUORB, //1, //1, //Thomas Gubler, //thomasgubler@gmail.com, //20150122, //src/platforms/px4_publisher.h, //124
+px4::Subscriber, //16, //1, //Thomas Gubler, //thomasgubler@gmail.com, //20150120, //src/platforms/px4_subscriber.h, //72
+px4::SubscriberUORB, //2, //1, //Thomas Gubler, //thomasgubler@gmail.com, //20150120, //src/platforms/px4_subscriber.h, //183
+px4::SubscriberUORBCallback, //2, //1, //Thomas Gubler, //thomasgubler@gmail.com, //20150120, //src/platforms/px4_subscriber.h, //236
+px4::ParameterBase, //2, //1, //Thomas Gubler, //thomasgubler@gmail.com, //20150208, //src/platforms/px4_parameter.h, //56
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+GPS_Helper, //Lorenz Meier, //lorenz@px4.io, //20130204, //src/drivers/gps/gps_helper.h, //48, //0:GPS_Helper//1:UBX//1:ASHTECH//1:MTK
+Mixer, //px4dev, //px4@purgatory.org, //20120810, //src/modules/systemlib/mixer/mixer.h, //142, //0:Mixer//1:MixerGroup//1:MultirotorMixer//1:NullMixer//1:SimpleMixer
+Airspeed, //Lorenz Meier, //lorenz@px4.io, //20130714, //src/drivers/airspeed/airspeed.h, //95, //0:Airspeed//1:ETSAirspeed//1:MEASAirspeed
+uORB::SubscriptionBase, //James Goppert, //james.goppert@gmail.com, //20140605, //src/modules/uORB/Subscription.hpp, //53, //0:uORB::SubscriptionBase//1:uORB::SubscriptionNode//2:uORB::Subscription//2:uORB::Subscription//2:uORB::Subscription
+control::Block, //jgoppert, //james.goppert@gmail.com, //20130106, //src/modules/controllib/block/Block.hpp, //65, //0:control::Block//1:control::SuperBlock//2:control::BlockDerivative//2:control::BlockIntegral//2:control::BlockIntegralTrap//2:control::BlockOutput//2:control::BlockPD//2:control::BlockPI//2:control::BlockPID//2:fwPosctrl::BlockFFPILimited//3:fwPosctrl::BlockFFPILimitedCustom//2:fwPosctrl::BlockOutputLimiter//2:fwPosctrl::BlockPDLimited//2:fwPosctrl::BlockPLimited//2:control::fixedwing::BlockStabilization//2:control::fixedwing::BlockYawDamper//2:Geofence//2:control::BlockUorbEnabledAutopilot//3:control::fixedwing::BlockMultiModeBacksideAutopilot//3:BlockSegwayController//2:control::BlockWaypointGuidance//2:NavigatorMode//3:MissionBlock//4:Mission//4:RTL//4:EngineFailure//4:Loiter//4:RCLoss//4:GpsFailure//4:DataLinkLoss//2:Navigator//2:launchdetection::CatapultLaunchMethod//2:fwPosctrl::mTecs//2:launchdetection::LaunchDetector//1:control::BlockHighPass//1:control::BlockLimit//1:control::BlockLimitSym//1:control::BlockLowPass//1:control::BlockP//1:control::BlockRandGauss//1:control::BlockRandUniform//1:BlockSysIdent
+MavlinkStream, //Anton Babushkin, //anton.babushkin@me.com, //20140301, //src/modules/mavlink/mavlink_stream.h, //49, //0:MavlinkStream//1:MavlinkStreamActuatorControlTarget//1:MavlinkStreamAttitude//1:MavlinkStreamAttitudeQuaternion//1:MavlinkStreamAttitudeTarget//1:MavlinkStreamCameraCapture//1:MavlinkStreamCommandLong//1:MavlinkStreamDistanceSensor//1:MavlinkStreamGPSGlobalOrigin//1:MavlinkStreamGPSRawInt//1:MavlinkStreamGlobalPositionInt//1:MavlinkStreamHILControls//1:MavlinkStreamHeartbeat//1:MavlinkStreamHighresIMU//1:MavlinkStreamLocalPositionNED//1:MavlinkStreamLocalPositionSetpoint//1:MavlinkStreamManualControl//1:MavlinkStreamNamedValueFloat//1:MavlinkStreamOpticalFlowRad//1:MavlinkStreamPositionTargetGlobalInt//1:MavlinkStreamRCChannelsRaw//1:MavlinkStreamServoOutputRaw//1:MavlinkStreamStatustext//1:MavlinkStreamSysStatus//1:MavlinkStreamSystemTime//1:MavlinkStreamTimesync//1:MavlinkStreamVFRHUD//1:MavlinkStreamViconPositionEstimate//1:MavlinkParametersManager//1:MavlinkMissionManager//1:MavlinkFTP
+MulticopterAttitudeControlBase, //Thomas Gubler, //thomasgubler@gmail.com, //20141205, //src/modules/mc_att_control_multiplatform/mc_att_control_base.h, //67, //0:MulticopterAttitudeControlBase//1:MulticopterAttitudeControl
+control::BlockParamBase, //jgoppert, //james.goppert@gmail.com, //20130106, //src/modules/controllib/block/BlockParam.hpp, //55, //0:control::BlockParamBase//1:control::BlockParam//1:control::BlockParam//1:control::BlockParam
+IUavcanSensorBridge, //Pavel Kirienko, //pavel.kirienko@gmail.com, //20140822, //src/modules/uavcan/sensors/sensor_bridge.hpp, //48, //0:IUavcanSensorBridge//1:UavcanCDevSensorBridgeBase//2:UavcanMagnetometerBridge//2:UavcanBarometerBridge//1:UavcanGnssBridge
+UnitTest, //Simon Wilks, //sjwilks@gmail.com, //20130825, //src/modules/unit_test/unit_test.h, //41, //0:UnitTest//1:MavlinkFtpTest//1:StateMachineHelperTest
+LidarLite, //Johan Jansen, //jnsn.johan@gmail.com, //20150324, //src/drivers/ll40ls/LidarLite.h, //56, //0:LidarLite//1:LidarLitePWM//1:LidarLiteI2C
+LandDetector, //Johan Jansen, //jnsn.johan@gmail.com, //20150107, //src/modules/land_detector/LandDetector.h, //47, //0:LandDetector//1:FixedwingLandDetector//1:MulticopterLandDetector
+uORB::PublicationBase, //James Goppert, //james.goppert@gmail.com, //20140605, //src/modules/uORB/Publication.hpp, //54, //0:uORB::PublicationBase//1:uORB::PublicationNode//2:uORB::Publication//2:uORB::Publication//2:uORB::Publication//2:uORB::Publication//2:uORB::Publication//2:uORB::Publication
+launchdetection::LaunchMethod, //Thomas Gubler, //thomasgubler@gmail.com, //20131115, //src/lib/launchdetection/LaunchMethod.h, //58, //0:launchdetection::LaunchMethod//1:launchdetection::CatapultLaunchMethod
+px4::SubscriberBase, //Thomas Gubler, //thomasgubler@gmail.com, //20150120, //src/platforms/px4_subscriber.h, //60, //0:px4::SubscriberBase//1:px4::Subscriber//2:px4::SubscriberUORB//3:px4::SubscriberUORBCallback

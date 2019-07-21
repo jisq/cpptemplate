@@ -1,0 +1,28 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+Math::Vec2, //71, //4, //Tony Wasserka, //neobrainx@gmail.com, //20140727, //src/video_core/math.h, //51
+Math::Vec3, //74, //6, //Tony Wasserka, //neobrainx@gmail.com, //20140727, //src/video_core/math.h, //175
+Math::Vec4, //32, //5, //Tony Wasserka, //neobrainx@gmail.com, //20140727, //src/video_core/math.h, //345
+Common::FifoQueue, //0, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/fifo_queue.h, //12
+LinearDiskCache, //0, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/linear_disk_cache.h, //47
+LinearDiskCacheReader, //1, //1, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/linear_disk_cache.h, //28
+BitField, //166, //116, //bunnei, //bunneidev@gmail.com, //20140507, //src/common/bit_field.h, //114
+swap_16_t, //4, //2, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //468
+swap_32_t, //4, //2, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //461
+swap_64_t, //4, //2, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //454
+swap_double_t, //2, //1, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //482
+swap_float_t, //2, //1, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //475
+swap_struct_t, //32, //9, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //65
+MathUtil::Rectangle, //0, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/math_util.h, //99
+Pica::PrimitiveAssembler, //4, //3, //Tony Wasserka, //neobrainx@gmail.com, //20140817, //src/video_core/primitive_assembly.h, //20
+LinkedListItem, //8, //2, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/chunk_file.h, //41
+PointerWrap::DoHelper, //3, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //82
+PointerWrap::DoHelper, //0, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //97
+SourceRegister, //2, //0, //Tony Wasserka, //neobrainx@gmail.com, //20140814, //src/video_core/vertex_shader.h, //123
+Common::ThreadQueueList, //1, //1, //bunnei, //bunneidev@gmail.com, //20140515, //src/common/thread_queue_list.h, //12
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+NonCopyable, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/common.h, //24, //0:NonCopyable//1:FileUtil::IOFile//1:Kernel::Object//2:Kernel::Event//2:Kernel::Archive//2:Kernel::Directory//2:Kernel::File//2:Service::Interface//3:NDM_U::Interface//3:APT_U::Interface//3:HID_User::Interface//3:FS_User::Interface//3:GSP_GPU::Interface//3:SRV::Interface//2:Kernel::Mutex//2:Kernel::Thread//2:Kernel::SharedMemory//2:Kernel::AddressArbiter//1:Kernel::ObjectPool//1:LogManager//1:ARM_Interface//2:ARM_Interpreter//1:FileSys::File//2:FileSys::File_SDMC//2:FileSys::File_RomFS//1:FileSys::Archive//2:FileSys::Archive_RomFS//2:FileSys::Archive_SDMC//1:RendererBase//2:RendererOpenGL//1:FileSys::Directory//2:FileSys::Directory_SDMC//2:FileSys::Directory_RomFS//1:Loader::AppLoader//2:Loader::AppLoader_ELF//2:Loader::AppLoader_NCCH
+EmuWindow, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/emu_window.h, //14, //0:EmuWindow//1:EmuWindow_GLFW//1:GRenderWindow
+GraphicsDebugger::DebuggerObserver, //Tony Wasserka, //neobrainx@gmail.com, //20140517, //src/video_core/gpu_debugger.h, //22, //0:GraphicsDebugger::DebuggerObserver//1:GPUCommandStreamItemModel
+LogListener, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/log_manager.h, //20, //0:LogListener//1:DebuggerLogListener//1:FileLogListener//1:ConsoleListener
+QHexEdit, //ShizZy, //shizzy@6bit.net, //20130829, //externals/qhexedit/qhexedit.h, //51, //0:QHexEdit//1:GRamView

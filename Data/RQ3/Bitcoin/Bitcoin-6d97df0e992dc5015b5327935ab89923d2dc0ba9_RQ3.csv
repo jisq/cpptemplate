@@ -1,0 +1,34 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+base_uint, //2, //2, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //uint256.h, //26
+CFixedFieldString, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //serialize.h, //263
+LockedPageManagerBase, //0, //0, //h, //, //, //src/allocators.h, //28
+secure_allocator, //2, //2, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //serialize.h, //664
+secure_allocator::rebind, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //serialize.h, //678
+secure_allocator, //3, //3, //h, //, //, //src/allocators.h, //181
+secure_allocator::rebind, //0, //0, //h, //, //, //src/allocators.h, //197
+zero_after_free_allocator, //2, //2, //h, //, //, //src/allocators.h, //225
+zero_after_free_allocator::rebind, //0, //0, //h, //, //, //src/allocators.h, //241
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+CBlockIndex, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //main.h, //1020, //0:CBlockIndex//1:CDiskBlockIndex
+CDB, //, //, //, //src/db.h, //90, //0:CDB//1:CWalletDB
+CAboutDialogBase, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //uibase.h, //218, //0:CAboutDialogBase//1:CAboutDialog
+CAddressBookDialogBase, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //uibase.h, //356, //0:CAddressBookDialogBase//1:CAddressBookDialog
+CEditProductDialogBase, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //uibase.h, //418, //0:CEditProductDialogBase//1:CEditProductDialog
+CEditReviewDialogBase, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //uibase.h, //593, //0:CEditReviewDialogBase//1:CEditReviewDialog
+CGetTextFromUserDialogBase, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //uibase.h, //695, //0:CGetTextFromUserDialogBase//1:CGetTextFromUserDialog
+CMainFrameBase, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //uibase.h, //100, //0:CMainFrameBase//1:CMainFrame
+COptionsDialogBase, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //uibase.h, //191, //0:COptionsDialogBase//1:COptionsDialog
+COptionsPanelBitcoinBase, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090924, //uibase.h, //726, //0:COptionsPanelBitcoinBase//1:COptionsPanelBitcoin
+COptionsPanelUIBase, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090924, //uibase.h, //749, //0:COptionsPanelUIBase//1:COptionsPanelUI
+CProductsDialogBase, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //uibase.h, //392, //0:CProductsDialogBase//1:CProductsDialog
+CSendDialogBase, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //uibase.h, //246, //0:CSendDialogBase//1:CSendDialog
+CSendingDialogBase, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //uibase.h, //293, //0:CSendingDialogBase//1:CSendingDialog
+CTxDetailsDialogBase, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //uibase.h, //170, //0:CTxDetailsDialogBase//1:CTxDetailsDialog
+CViewOrderDialogBase, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //uibase.h, //572, //0:CViewOrderDialogBase//1:CViewOrderDialog
+CViewProductDialogBase, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //uibase.h, //540, //0:CViewProductDialogBase//1:CViewProductDialog
+CYourAddressDialogBase, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //uibase.h, //320, //0:CYourAddressDialogBase//1:CYourAddressDialog
+CCryptoKeyStore, //, //, //, //src/crypter.h, //113, //0:CCryptoKeyStore//1:CWallet
+CBlockHeader, //, //, //, //src/core.h, //403, //0:CBlockHeader//1:CBlock
+CDB, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //db.h, //26, //0:CDB//1:CAddrDB//1:CMarketDB//1:CReviewDB//1:CTxDB//1:CWalletDB
+CTransaction, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //main.h, //357, //0:CTransaction//1:CMerkleTx//2:CWalletTx

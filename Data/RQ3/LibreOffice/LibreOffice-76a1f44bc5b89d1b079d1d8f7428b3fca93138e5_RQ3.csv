@@ -1,0 +1,88 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+frm::OMultiInstanceAutoRegistration, //4, //1, //Jens-Heiner Rechtien, //hr@openoffice.org, //20040413, //forms/source/inc/forms_module.hxx, //168
+frm::OOneInstanceAutoRegistration, //4, //1, //Jens-Heiner Rechtien, //hr@openoffice.org, //20040413, //forms/source/inc/forms_module.hxx, //211
+xforms::ODerivedDataType, //3, //3, //Oliver Bolte, //obo@openoffice.org, //20041116, //forms/source/xforms/datatypes.hxx, //295
+xforms::OValueLimitedType, //1, //1, //Vladimir Glazounov, //vg@openoffice.org, //20050323, //forms/source/xforms/datatypes.hxx, //275
+Collection, //1, //1, //Oliver Bolte, //obo@openoffice.org, //20041116, //forms/source/xforms/collection.hxx, //67
+pcr::CommonBehaviourControl, //1, //1, //Vladimir Glazounov, //vg@openoffice.org, //20060314, //extensions/source/propctrlr/commoncontrol.hxx, //204
+pcr::ControlWindow, //3, //2, //Vladimir Glazounov, //vg@openoffice.org, //20060314, //extensions/source/propctrlr/commoncontrol.hxx, //71
+NameContainer, //0, //0, //Oliver Bolte, //obo@openoffice.org, //20041116, //forms/source/xforms/NameContainer.hxx, //56
+preload::OUnoAutoPilot, //0, //0, //Oliver Specht, //os@openoffice.org, //20011114, //extensions/source/preload/unoautopilot.hxx, //81
+NamedCollection, //0, //0, //Oliver Bolte, //obo@openoffice.org, //20041116, //forms/source/xforms/namedcollection.hxx, //46
+dbp::OUnoAutoPilot, //0, //0, //Frank Schönheit, //fs@openoffice.org, //20010221, //extensions/source/dbpilots/unoautopilot.hxx, //81
+safe_list, //1, //1, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/inc/ucbhelper/ext_content.hxx, //85
+COMPMOD_NAMESPACE::OMultiInstanceAutoRegistration, //2, //1, //Frank Schönheit, //fs@openoffice.org, //20010212, //extensions/source/inc/componentmodule.hxx, //217
+COMPMOD_NAMESPACE::OOneInstanceAutoRegistration, //2, //1, //Frank Schönheit, //fs@openoffice.org, //20010212, //extensions/source/inc/componentmodule.hxx, //259
+ole_adapter::UnoConversionUtilities, //0, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/source/ole/unoconversionutilities.hxx, //109
+pcr::ListLikeControlWithModifyHandler, //0, //0, //Vladimir Glazounov, //vg@openoffice.org, //20060314, //extensions/source/propctrlr/standardcontrol.hxx, //100
+APIPropertyAccessor, //0, //0, //Vladimir Glazounov, //vg@openoffice.org, //20050323, //forms/source/xforms/propertysetbase.hxx, //171
+BooleanPropertyAccessor, //0, //0, //Vladimir Glazounov, //vg@openoffice.org, //20050323, //forms/source/xforms/propertysetbase.hxx, //151
+DirectPropertyAccessor, //0, //0, //Vladimir Glazounov, //vg@openoffice.org, //20050323, //forms/source/xforms/propertysetbase.hxx, //131
+GenericPropertyAccessor, //0, //0, //Vladimir Glazounov, //vg@openoffice.org, //20050323, //forms/source/xforms/propertysetbase.hxx, //85
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+xforms::ComputedExpression, //Oliver Bolte, //obo@openoffice.org, //20041116, //forms/source/xforms/computedexpression.hxx, //67, //0:xforms::ComputedExpression//1:xforms::PathExpression//1:xforms::BoolExpression
+ICommStream, //Martin Hollmichel, //mh@openoffice.org, //20021118, //automation/source/inc/icommstream.hxx, //49, //0:ICommStream//1:SvCommStream
+CmdBaseStream, //Martin Hollmichel, //mh@openoffice.org, //20021118, //automation/source/inc/cmdbasestream.hxx, //50, //0:CmdBaseStream//1:SCmdStream//1:CmdStream//1:CRetStream//1:RetStream
+BasicDockingWindow, //Vladimir Glazounov, //vg@openoffice.org, //20030326, //basctl/source/inc/bastypes.hxx, //116, //0:BasicDockingWindow//1:StackWindow//1:WatchWindow
+IDEBaseWindow, //Vladimir Glazounov, //vg@openoffice.org, //20030326, //basctl/source/inc/bastypes.hxx, //201, //0:IDEBaseWindow//1:ModulWindow//1:DialogWindow
+CertificateViewerTP, //Malte Timmermann, //Malte.Timmermann@sun.com, //20040712, //xmlsecurity/inc/xmlsecurity/certificateviewer.hxx, //83, //0:CertificateViewerTP//1:CertificateViewerCertPathTP//1:CertificateViewerDetailsTP//1:CertificateViewerGeneralTP
+CSerialization, //Oliver Bolte, //obo@openoffice.org, //20041116, //forms/source/xforms/submission/serialization.hxx, //58, //0:CSerialization//1:CSerializationURLEncoded//1:CSerializationAppXML
+frm::OControlModel, //Rüdiger Timm, //rt@openoffice.org, //20040507, //forms/source/inc/FormComponent.hxx, //375, //0:frm::OControlModel//1:frm::OBoundControlModel//2:frm::OScrollBarModel//2:frm::OEditBaseModel//3:frm::OTimeModel//3:frm::ODateModel//3:frm::ONumericModel//3:frm::OCurrencyModel//3:frm::OFormattedModel//3:frm::OEditModel//3:frm::OPatternModel//2:frm::OImageControlModel//2:frm::OSpinButtonModel//2:frm::OComboBoxModel//2:frm::OReferenceValueComponent//3:frm::OCheckBoxModel//3:frm::ORadioButtonModel//2:frm::OListBoxModel//1:frm::OFileControlModel//1:frm::ONavigationBarModel//1:frm::ORichTextModel//1:frm::OGridControlModel//1:frm::OGroupBoxModel//1:frm::OFixedTextModel//1:frm::OHiddenModel//1:frm::OClickableImageBaseModel//2:frm::OButtonModel//2:frm::OImageButtonModel
+xforms::OXSDDataType, //Oliver Bolte, //obo@openoffice.org, //20041116, //forms/source/xforms/datatypes.hxx, //95, //0:xforms::OXSDDataType//1:xforms::OValueLimitedType_Base//2:xforms::OValueLimitedType
+frm::FontControlModel, //Jens-Heiner Rechtien, //hr@openoffice.org, //20040413, //forms/source/inc/formcontrolfont.hxx, //60, //0:frm::FontControlModel//1:frm::ONavigationBarModel//1:frm::ORichTextModel//1:frm::OGridControlModel
+frm::OInterfaceContainer, //Ocke Janssen, //oj@openoffice.org, //20001123, //forms/source/inc/InterfaceContainer.hxx, //159, //0:frm::OInterfaceContainer//1:frm::OFormComponents//2:frm::ODatabaseForm//1:frm::OGridControlModel
+frm::OEntryListHelper, //Oliver Bolte, //obo@openoffice.org, //20031021, //forms/source/component/entrylisthelper.hxx, //64, //0:frm::OEntryListHelper//1:frm::OComboBoxModel//1:frm::OListBoxModel
+Mediator, //Philipp Lohmann, //pl@openoffice.org, //20011023, //extensions/source/plugin/inc/plugin/unx/mediator.hxx, //110, //0:Mediator//1:PluginConnector//2:UnxPluginComm
+frm::OLimitedFormats, //Frank Schönheit, //fs@openoffice.org, //20010518, //forms/source/inc/limitedformats.hxx, //62, //0:frm::OLimitedFormats//1:frm::OTimeModel//1:frm::ODateModel
+OInputCompStream, //Kurt Zenker, //kz@openoffice.org, //20030911, //package/source/xstor/ocompinstream.hxx, //72, //0:OInputCompStream//1:OInputSeekStream
+DlgEdObj, //Thomas Benisch, //tbe@openoffice.org, //20010226, //basctl/source/inc/dlgedobj.hxx, //69, //0:DlgEdObj//1:DlgEdForm
+BroadcasterHelperHolder, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/source/plugin/inc/plugin/model.hxx, //74, //0:BroadcasterHelperHolder//1:PluginModel
+abp::AddressBookSourcePage, //Frank Schönheit, //fs@openoffice.org, //20010801, //extensions/source/abpilot/abspage.hxx, //68, //0:abp::AddressBookSourcePage//1:abp::FieldMappingPage//1:abp::TableSelectionPage//1:abp::AdminDialogInvokationPage//1:abp::TypeSelectionPage//1:abp::FinalPage
+PropertyChgHelper, //Jens-Heiner Rechtien, //hr@openoffice.org, //20040204, //lingucomponent/source/thesaurus/libnth/ntprophelp.hxx, //78, //0:PropertyChgHelper//1:PropertyHelper_Thes
+ZipPackageBuffer, //Martin Gallwey, //martin@gallwey.com, //20011115, //package/inc/ZipPackageBuffer.hxx, //53, //0:ZipPackageBuffer//1:XMemoryStream
+ole_adapter::InterfaceOleWrapper_Impl, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/source/ole/unoobjw.hxx, //127, //0:ole_adapter::InterfaceOleWrapper_Impl//1:ole_adapter::UnoObjectWrapperRemoteOpt
+BibToolBarListener, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/source/bibliography/toolbar.hxx, //78, //0:BibToolBarListener//1:BibTBEditListener//1:BibTBListBoxListener//1:BibTBQueryMenuListener
+dbp::OControlWizard, //Frank Schönheit, //fs@openoffice.org, //20010223, //extensions/source/dbpilots/controlwizard.hxx, //151, //0:dbp::OControlWizard//1:dbp::OListComboWizard//1:dbp::OGroupBoxWizard//1:dbp::OGridWizard
+dbp::OControlWizardPage, //Frank Schönheit, //fs@openoffice.org, //20010530, //extensions/source/dbpilots/controlwizard.hxx, //101, //0:dbp::OControlWizardPage//1:dbp::OMaybeListSelectionPage//2:dbp::ODBFieldPage//3:dbp::OComboDBFieldPage//3:dbp::OOptionDBFieldPage//2:dbp::ODefaultFieldSelectionPage//1:dbp::OTableSelectionPage//1:dbp::OLCPage//2:dbp::OContentFieldSelection//2:dbp::OContentTableSelection//2:dbp::OLinkFieldsPage//1:dbp::OGBWPage//2:dbp::OFinalizeGBWPage//2:dbp::OOptionValuesPage//2:dbp::ORadioSelectionPage//1:dbp::OGridPage//2:dbp::OGridFieldsSelection
+PropertyChgHelper, //Jens-Heiner Rechtien, //hr@openoffice.org, //20030326, //lingucomponent/source/hyphenator/altlinuxhyph/hyphen/hprophelp.hxx, //79, //0:PropertyChgHelper//1:PropertyHelper_Hyphen
+IReceiver, //Rüdiger Timm, //rt@openoffice.org, //20050621, //automation/source/simplecm/communiio.hxx, //63, //0:IReceiver//1:TCPIO
+ITransmiter, //Rüdiger Timm, //rt@openoffice.org, //20050621, //automation/source/simplecm/communiio.hxx, //51, //0:ITransmiter//1:TCPIO
+ole_adapter::IClassFactoryWrapper, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/source/ole/servprov.hxx, //76, //0:ole_adapter::IClassFactoryWrapper//1:ole_adapter::OneInstanceOleWrapper_Impl//1:ole_adapter::ProviderOleWrapper_Impl
+RegistryKeyImpl, //Tino Rachui, //tra@openoffice.org, //20040526, //setup_native/source/win32/customactions/reg4msdoc/registry.hxx, //64, //0:RegistryKeyImpl//1:RegistryKeyImplWinNT//1:RegistryKeyImplWin9x
+ElementMark, //Malte Timmermann, //Malte.Timmermann@sun.com, //20040712, //xmlsecurity/source/framework/elementmark.hxx, //48, //0:ElementMark//1:ElementCollector
+ControlItemUId, //Martin Hollmichel, //mh@openoffice.org, //20021118, //automation/source/testtool/objtest.hxx, //197, //0:ControlItemUId//1:ControlItemUIdSon//1:ReverseName
+Registrar, //Tino Rachui, //tra@openoffice.org, //20040526, //setup_native/source/win32/customactions/reg4msdoc/registrar.hxx, //20, //0:Registrar//1:UserRegistrar
+BasicTreeListBox, //Kurt Zenker, //kz@openoffice.org, //20050113, //basctl/source/basicide/bastype2.hxx, //164, //0:BasicTreeListBox//1:ObjectTreeListBox//1:ExtBasicTreeListBox
+PluginControl_Impl, //Jens-Heiner Rechtien, //hr@openoffice.org, //20030630, //extensions/source/plugin/inc/plugin/plctrl.hxx, //137, //0:PluginControl_Impl//1:XPlugin_Impl
+pcr::IButtonClickListener, //Oliver Bolte, //obo@openoffice.org, //20041116, //extensions/source/propctrlr/browserline.hxx, //65, //0:pcr::IButtonClickListener//1:pcr::pcr::OBrowserListBox
+Search, //Martin Hollmichel, //mh@openoffice.org, //20021118, //automation/source/server/statemnt.hxx, //125, //0:Search//1:SearchActive//1:SearchFadeSplitWin//1:SearchPopupFloatingWin//1:SearchRT//2:SearchScroll//1:SearchUID//1:SearchWinPtr//1:FindShortcutErrors
+MacroSecurityTP, //gt, //gt@openoffice.org, //20040716, //xmlsecurity/inc/xmlsecurity/macrosecurity.hxx, //103, //0:MacroSecurityTP//1:MacroSecurityLevelTP//1:MacroSecurityTrustedSourcesTP
+frm::OErrorBroadcaster, //Frank Schönheit, //fs@openoffice.org, //20010828, //forms/source/component/errorbroadcaster.hxx, //66, //0:frm::OErrorBroadcaster//1:frm::OGridControlModel//1:frm::OFormattedModel//1:frm::OComboBoxModel//1:frm::OListBoxModel
+CSubmission, //Oliver Bolte, //obo@openoffice.org, //20041116, //forms/source/xforms/submission/submission.hxx, //121, //0:CSubmission//1:CSubmissionPut//1:CSubmissionPost//1:CSubmissionGet
+frm::IFeatureDispatcher, //Jens-Heiner Rechtien, //hr@openoffice.org, //20040413, //forms/source/inc/featuredispatcher.hxx, //51, //0:frm::IFeatureDispatcher//1:frm::OFormNavigationHelper//2:frm::OButtonControl//2:frm::ONavigationBarPeer
+bib::OComponentAdapterBase, //Frank Schönheit, //fs@openoffice.org, //20011022, //extensions/source/bibliography/loadlisteneradapter.hxx, //91, //0:bib::OComponentAdapterBase//1:bib::OLoadListenerAdapter
+bib::OComponentListener, //Frank Schönheit, //fs@openoffice.org, //20011022, //extensions/source/bibliography/loadlisteneradapter.hxx, //64, //0:bib::OComponentListener//1:bib::OLoadListener//2:bib::FormControlContainer//3:bib::BibBeamer//3:bib::BibView
+BibShortCutHandler, //gt, //gt@openoffice.org, //20020517, //extensions/source/bibliography/bibshortcuthandler.hxx, //53, //0:BibShortCutHandler//1:BibSplitWindow//2:BibBookContainer//2:bib::BibBeamer//1:BibTabPage//2:BibGeneralPage//1:BibWindow//2:BibWindowContainer//2:bib::BibView
+Node, //Martin Hollmichel, //mh@openoffice.org, //20021118, //automation/source/server/XMLParser.cxx, //128, //0:Node//1:ElementNode
+pcr::EFormsHelper, //Oliver Bolte, //obo@openoffice.org, //20041116, //extensions/source/propctrlr/eformshelper.hxx, //89, //0:pcr::EFormsHelper//1:pcr::XSDValidationHelper
+DlgEdFunc, //Thomas Benisch, //tbe@openoffice.org, //20010226, //basctl/source/inc/dlgedfunc.hxx, //52, //0:DlgEdFunc//1:DlgEdFuncInsert//1:DlgEdFuncSelect
+PluginStream, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/source/plugin/inc/plugin/impl.hxx, //368, //0:PluginStream//1:PluginInputStream//1:PluginOutputStream
+winwrap::CWindow, //Kurt Zenker, //kz@openoffice.org, //20040225, //embedserv/source/inc/syswinwrapper.hxx, //60, //0:winwrap::CWindow//1:winwrap::CHatchWin
+PluginComm, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/source/plugin/inc/plugin/plcom.hxx, //41, //0:PluginComm//1:UnxPluginComm//1:PluginComm_Impl
+WizardPage, //Hennes Rohling, //hro@openoffice.org, //20030606, //crashrep/source/unx/interface.hxx, //69, //0:WizardPage//1:MainPage//1:WelcomePage
+frm::OControl, //Rüdiger Timm, //rt@openoffice.org, //20040507, //forms/source/inc/FormComponent.hxx, //208, //0:frm::OControl//1:frm::OBoundControl//2:frm::OTimeControl//2:frm::ODateControl//2:frm::OCheckBoxControl//2:frm::ONumericControl//2:frm::ORadioButtonControl//2:frm::OImageControlControl//2:frm::OCurrencyControl//2:frm::OFormattedControl//2:frm::OEditControl//2:frm::OComboBoxControl//2:frm::OPatternControl//2:frm::OListBoxControl//1:frm::OGroupBoxControl//1:frm::OClickableImageBaseControl//2:frm::OButtonControl//2:frm::OImageButtonControl
+GHEditWindow, //Martin Hollmichel, //mh@openoffice.org, //20021118, //automation/source/miniapp/editwin.hxx, //49, //0:GHEditWindow//1:EditFileWindow
+frm::OCloneableAggregation, //Rüdiger Timm, //rt@openoffice.org, //20040507, //forms/source/inc/cloneable.hxx, //51, //0:frm::OCloneableAggregation//1:frm::OGridColumn//2:frm::CheckBoxColumn//2:frm::ComboBoxColumn//2:frm::CurrencyFieldColumn//2:frm::DateFieldColumn//2:frm::FormattedFieldColumn//2:frm::ListBoxColumn//2:frm::NumericFieldColumn//2:frm::PatternFieldColumn//2:frm::TextFieldColumn//2:frm::TimeFieldColumn
+pcr::ONumericControl, //Vladimir Glazounov, //vg@openoffice.org, //20060314, //extensions/source/propctrlr/standardcontrol.hxx, //257, //0:pcr::ONumericControl//1:pcr::OTimeDurationControl
+PropertyChgHelper, //Jens-Heiner Rechtien, //hr@openoffice.org, //20030326, //lingucomponent/source/spellcheck/spell/sprophelp.hxx, //78, //0:PropertyChgHelper//1:PropertyHelper_Spell
+extensions::apihelper::BroadcasterBase, //Oliver Bolte, //obo@openoffice.org, //20050318, //extensions/source/config/ldap/propertysethelper.hxx, //54, //0:extensions::apihelper::BroadcasterBase//1:extensions::apihelper::PropertySetHelper//2:extensions::apihelper::ReadOnlyPropertySetHelper
+OContent, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/inc/ucbhelper/ext_content.hxx, //118, //0:OContent//1:OFolderContent
+OContentTask, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/inc/ucbhelper/ext_content.hxx, //250, //0:OContentTask//1:OCommandTask//1:OPropertyTask
+BasicEntry, //Kurt Zenker, //kz@openoffice.org, //20040723, //basctl/source/basicide/bastype2.hxx, //75, //0:BasicEntry//1:BasicShellEntry//2:BasicLibEntry
+frm::OComponentEventThread, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //forms/source/component/EventThread.hxx, //70, //0:frm::OComponentEventThread//1:frm::OImageProducerThread_Impl
+ControlSon, //Martin Hollmichel, //mh@openoffice.org, //20021118, //automation/source/testtool/objtest.hxx, //155, //0:ControlSon//1:ControlItemSon//2:ControlDef//1:ControlItemUIdSon
+SecurityEntity, //Rüdiger Timm, //rt@openoffice.org, //20050518, //xmlsecurity/tools/demo/performance.cxx, //167, //0:SecurityEntity//1:SignatureEntity
+res::IResourceType, //Oliver Bolte, //obo@openoffice.org, //20060329, //extensions/source/resource/oooresourceloader.cxx, //159, //0:res::IResourceType//1:res::StringResourceAccess
+PropertyAccessorBase, //Vladimir Glazounov, //vg@openoffice.org, //20050323, //forms/source/xforms/propertysetbase.hxx, //63, //0:PropertyAccessorBase//1:GenericPropertyAccessor//2:BooleanPropertyAccessor//2:DirectPropertyAccessor
+SafePointer, //Martin Hollmichel, //mh@openoffice.org, //20021118, //automation/source/server/statemnt.hxx, //144, //0:SafePointer//1:StatementList//2:StatementCommand//2:StatementControl//2:StatementFlow//2:StatementSlot//3:StatementUnoSlot

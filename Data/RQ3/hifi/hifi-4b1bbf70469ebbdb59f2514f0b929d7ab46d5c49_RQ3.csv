@@ -1,0 +1,29 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+Radix2IntegerScanner, //0, //0, //tosh, //tosh@monster.hlan, //20130404, //libraries/shared/src/Radix2IntegerScanner.h, //42
+Radix2IntegerScanner, //0, //0, //tosh, //tosh@monster.hlan, //20130324, //libraries/shared/src/Radix2IntegerScanner.h, //63
+type_traits::is_signed, //0, //0, //tosh, //tosh@monster.hlan, //20130324, //libraries/shared/src/Radix2IntegerScanner.h, //21
+type_traits::make_unsigned, //0, //0, //tosh, //tosh@monster.hlan, //20130324, //libraries/shared/src/Radix2IntegerScanner.h, //25
+type_traits::make_unsigned, //0, //0, //tosh, //tosh@monster.hlan, //20130324, //libraries/shared/src/Radix2IntegerScanner.h, //26
+type_traits::make_unsigned, //0, //0, //tosh, //tosh@monster.hlan, //20130324, //libraries/shared/src/Radix2IntegerScanner.h, //27
+type_traits::make_unsigned, //0, //0, //tosh, //tosh@monster.hlan, //20130324, //libraries/shared/src/Radix2IntegerScanner.h, //28
+radix2InplaceSort_impl, //0, //0, //tosh, //tosh@monster.hlan, //20130404, //libraries/shared/src/Radix2InplaceSort.h, //28
+floodFill_impl, //0, //0, //tosh, //tosh@monster.hlan, //20130404, //libraries/shared/src/FloodFill.h, //43
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+stk::Stk, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/Stk.h, //131, //0:stk::Stk//1:stk::Skini//1:stk::Phonemes//1:stk::FileWrite//1:stk::Generator//2:stk::Envelope//2:stk::BlitSquare//2:stk::ADSR//2:stk::Noise//2:stk::SingWave//2:stk::Asymp//2:stk::Granulate//2:stk::SineWave//2:stk::Modulate//2:stk::BlitSaw//2:stk::Blit//1:stk::WvOut//2:stk::RtWvOut//2:stk::FileWvOut//2:stk::InetWvOut//1:stk::Effect//2:stk::FreeVerb//2:stk::LentPitShift//2:stk::PRCRev//2:stk::Chorus//2:stk::PitShift//2:stk::Echo//2:stk::NRev//2:stk::JCRev//1:stk::Guitar//1:stk::Voicer//1:stk::WvIn//2:stk::RtWvIn//2:stk::InetWvIn//2:stk::FileWvIn//3:stk::FileLoop//1:stk::Mutex//1:stk::Filter//2:stk::DelayA//2:stk::BiQuad//2:stk::OneZero//2:stk::DelayL//2:stk::TwoZero//2:stk::PoleZero//2:stk::TapDelay//2:stk::Fir//2:stk::FormSwep//2:stk::OnePole//2:stk::Iir//2:stk::Delay//2:stk::TwoPole//1:stk::Socket//2:stk::TcpServer//2:stk::TcpClient//2:stk::UdpSocket//1:stk::Twang//1:stk::Messager//1:stk::MidiFileIn//1:stk::Function//2:stk::JetTable//2:stk::BowTable//2:stk::ReedTable//2:stk::Cubic//1:stk::FileRead//1:stk::Sphere//1:stk::Vector3D//1:stk::Thread//1:stk::Instrmnt//2:stk::Plucked//2:stk::Drummer//2:stk::BlowHole//2:stk::FM//3:stk::PercFlut//3:stk::TubeBell//3:stk::Wurley//3:stk::Rhodey//3:stk::HevyMetl//3:stk::BeeThree//3:stk::FMVoices//2:stk::Shakers//2:stk::Resonate//2:stk::Sampler//3:stk::Moog//2:stk::Sitar//2:stk::Mesh2D//2:stk::Brass//2:stk::Bowed//2:stk::Modal//3:stk::ModalBar//2:stk::Simple//2:stk::StifKarp//2:stk::Saxofony//2:stk::BandedWG//2:stk::VoicForm//2:stk::Whistle//2:stk::Mandolin//2:stk::BlowBotl//2:stk::Clarinet//2:stk::Flute
+VoxelNodeDeleteHook, //ZappoMan, //bradh@konamoxt.com, //20130729, //libraries/voxels/src/VoxelNode.h, //26, //0:VoxelNodeDeleteHook//1:VoxelSystem//2:AvatarVoxelSystem//1:VoxelNodeBag
+NodeData, //Stephen Birarda, //commit@birarda.com, //20130724, //libraries/shared/src/NodeData.h, //16, //0:NodeData//1:AudioRingBuffer//2:PositionalAudioRingBuffer//3:AvatarAudioRingBuffer//3:InjectedAudioRingBuffer//1:VoxelSystem//2:AvatarVoxelSystem//1:AvatarData//2:VoxelNodeData//2:Avatar//3:MyAvatar
+Tool, //atlante45, //clement.brisset@gmail.com, //20130625, //interface/src/Tool.h, //38, //0:Tool//1:Swatch
+HandData, //Eric Johnston, //ej@machinelevel.com, //20130628, //libraries/avatars/src/HandData.h, //44, //0:HandData//1:Hand
+NodeListHook, //ZappoMan, //bradh@konamoxt.com, //20130805, //libraries/shared/src/NodeList.h, //53, //0:NodeListHook//1:NodeWatcher//1:Application//1:JurisdictionListener//1:VoxelSystem//2:AvatarVoxelSystem
+Assignment, //Stephen Birarda, //commit@birarda.com, //20130917, //libraries/shared/src/Assignment.h, //21, //0:Assignment//1:AvatarMixer//1:AudioMixer//1:Agent//1:VoxelServer
+GenericThread, //ZappoMan, //bradh@konamoxt.com, //20130812, //libraries/shared/src/GenericThread.h, //18, //0:GenericThread//1:VoxelSendThread//1:PacketSender//2:JurisdictionListener//2:VoxelEditPacketSender//2:JurisdictionSender//1:VoxelPersistThread//1:ReceivedPacketProcessor//2:JurisdictionListener//2:VoxelServerPacketProcessor//2:VoxelPacketProcessor//2:JurisdictionSender
+DomainChangeListener, //stojce, //stojce@me.com, //20130910, //libraries/shared/src/NodeList.h, //59, //0:DomainChangeListener//1:Application
+PacketSenderNotify, //ZappoMan, //bradh@konamoxt.com, //20130815, //libraries/shared/src/PacketSender.h, //18, //0:PacketSenderNotify//1:Application
+HeadData, //Stephen Birarda, //commit@birarda.com, //20130520, //libraries/avatars/src/HeadData.h, //26, //0:HeadData//1:Head
+UrlReader, //tosh, //tosh@monster.hlan, //20130404, //libraries/shared/src/UrlReader.h, //21, //0:UrlReader//1:starfield::Loader
+Tag, //atlante45, //clement.brisset@gmail.com, //20130708, //libraries/voxels/src/Tags.h, //36, //0:Tag//1:TagByte//1:TagByteArray//1:TagCompound//1:TagDouble//1:TagFloat//1:TagInt//1:TagIntArray//1:TagList//1:TagLong//1:TagShort//1:TagString
+MidiInApi, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //328, //0:MidiInApi//1:MidiInDummy
+MidiOutApi, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //398, //0:MidiOutApi//1:MidiOutDummy
+RtMidi, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //52, //0:RtMidi//1:RtMidiIn//1:RtMidiOut
+RtApi, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtAudio.h, //566, //0:RtApi//1:RtApiDummy

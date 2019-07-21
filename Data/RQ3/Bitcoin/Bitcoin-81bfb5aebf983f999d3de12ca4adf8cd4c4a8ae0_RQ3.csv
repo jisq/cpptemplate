@@ -1,0 +1,42 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+CMutexLock, //1, //1, //Pieter Wuille, //pieter.wuille@gmail.com, //20120511, //src/sync.h, //105
+base_uint, //2, //2, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uint256.h, //26
+mruset, //7, //3, //Pieter Wuille, //pieter.wuille@gmail.com, //20120227, //src/mruset.h, //13
+LockedPageManagerBase, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20120822, //src/allocators.h, //28
+limitedmap, //3, //1, //Matt Corallo, //git@bluematt.me, //20130327, //src/limitedmap.h, //12
+CCheckQueue, //3, //2, //Pieter Wuille, //pieter.wuille@gmail.com, //20121201, //src/checkqueue.h, //27
+CCheckQueueControl, //2, //2, //Pieter Wuille, //pieter.wuille@gmail.com, //20121201, //src/checkqueue.h, //160
+CBitcoinExtKeyBase, //2, //2, //Pieter Wuille, //pieter.wuille@gmail.com, //20130715, //src/base58.h, //397
+SSLIOStreamDevice, //1, //1, //Wladimir J. van der Laan, //laanwj@gmail.com, //20131120, //src/rpcprotocol.h, //78
+AcceptedConnectionImpl, //0, //0, //Giel van Schijndel, //me@mortis.eu, //20110810, //src/rpcserver.cpp, //393
+CMedianFilter, //2, //2, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110928, //src/util.h, //445
+CVarInt, //1, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120615, //src/serialize.h, //345
+AnnotatedMixin, //0, //0, //Alexander Kjeldaas, //alexander.kjeldaas@gmail.com, //20121110, //src/sync.h, //61
+secure_allocator, //6, //4, //Wladimir J. van der Laan, //laanwj@gmail.com, //20120324, //src/allocators.h, //181
+secure_allocator::rebind, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20120324, //src/allocators.h, //197
+zero_after_free_allocator, //4, //4, //Wladimir J. van der Laan, //laanwj@gmail.com, //20120324, //src/allocators.h, //225
+zero_after_free_allocator::rebind, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20120324, //src/allocators.h, //241
+tinyformat::detail::convertToInt, //1, //1, //Wladimir J. van der Laan, //laanwj@gmail.com, //20140116, //src/tinyformat.h, //233
+tinyformat::detail::convertToInt, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20140116, //src/tinyformat.h, //244
+tinyformat::detail::formatValueAsType, //2, //2, //Wladimir J. van der Laan, //laanwj@gmail.com, //20140116, //src/tinyformat.h, //196
+tinyformat::detail::formatValueAsType, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20140116, //src/tinyformat.h, //203
+tinyformat::detail::is_convertible, //3, //3, //Wladimir J. van der Laan, //laanwj@gmail.com, //20140116, //src/tinyformat.h, //156
+tinyformat::detail::is_wchar, //1, //1, //Wladimir J. van der Laan, //laanwj@gmail.com, //20140116, //src/tinyformat.h, //186
+tinyformat::detail::is_wchar, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20140116, //src/tinyformat.h, //189
+tinyformat::detail::is_wchar, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20140116, //src/tinyformat.h, //190
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+CBlockHeader, //Eric Lombrozo, //elombrozo@gmail.com, //20130108, //src/core.h, //344, //0:CBlockHeader//1:CBlock
+CBlockIndex, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/main.h, //690, //0:CBlockIndex//1:CDiskBlockIndex
+CCoinsView, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.h, //258, //0:CCoinsView//1:CCoinsViewBacked//2:CCoinsViewCache//2:CCoinsViewMemPool//1:CCoinsViewDB
+CLevelDBWrapper, //Brandon Dahler, //brandon.dahler@gmail.com, //20131105, //src/leveldbwrapper.h, //57, //0:CLevelDBWrapper//1:CBlockTreeDB
+CChainParams, //Mike Hearn, //mike@plan99.net, //20130507, //src/chainparams.h, //34, //0:CChainParams//1:CMainParams//2:CTestNetParams//3:CRegTestParams
+CTransaction, //Eric Lombrozo, //elombrozo@gmail.com, //20130108, //src/core.h, //183, //0:CTransaction//1:CMerkleTx//2:CWalletTx
+CNetAddr, //Pieter Wuille, //pieter.wuille@gmail.com, //20120103, //src/netbase.h, //40, //0:CNetAddr//1:CService//2:CAddress//3:CAddrInfo
+CKeyStore, //Pieter Wuille, //pieter.wuille@gmail.com, //20110601, //src/keystore.h, //17, //0:CKeyStore//1:CBasicKeyStore//2:CCryptoKeyStore//3:CWallet
+CDB, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/db.h, //90, //0:CDB//1:CWalletDB
+CBase58Data, //Pieter Wuille, //pieter.wuille@gmail.com, //20110711, //src/base58.h, //180, //0:CBase58Data//1:CBitcoinAddress//1:CBitcoinExtKeyBase//1:CBitcoinSecret
+AcceptedConnection, //David Joel Schwartz, //davidjoelschwartz@gmail.com, //20120414, //src/rpcserver.cpp, //382, //0:AcceptedConnection//1:AcceptedConnectionImpl
+CUnsignedAlert, //Gavin Andresen, //gavinandresen@gmail.com, //20120828, //src/alert.h, //30, //0:CUnsignedAlert//1:CAlert
+CWalletInterface, //Pieter Wuille, //pieter.wuille@gmail.com, //20131019, //src/main.h, //1111, //0:CWalletInterface//1:CWallet
+CPartialMerkleTree, //Pieter Wuille, //pieter.wuille@gmail.com, //20121027, //src/main.h, //521, //0:CPartialMerkleTree//1:CPartialMerkleTreeTester

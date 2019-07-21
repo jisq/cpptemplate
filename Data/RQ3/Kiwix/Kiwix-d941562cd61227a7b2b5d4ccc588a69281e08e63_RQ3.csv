@@ -1,0 +1,11 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+zim::SmartPtr, //3, //2, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/include/zim/smartptr.h, //54
+zim::StringLessIgnoreCase, //0, //0, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/include/zim/stringlessignorecase.h, //31
+zim::InternalRefCounted, //0, //0, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/include/zim/smartptr.h, //35
+zim::Cache, //2, //2, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/include/zim/cache.h, //29
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+zim::Article, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/include/zim/article.h, //33, //0:zim::Article//1:zim::IndexArticle
+HtmlParser, //kelson42, //kelson42@user.sourceforge.net, //20090523, //components/zimXapianIndexer/xapian/htmlparse.h, //31, //0:HtmlParser//1:MyHtmlParser//1:MyHtmlParser//1:MyHtmlParser
+zim::TemplateParser::Event, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/include/zim/template.h, //30, //0:zim::TemplateParser::Event//1:zim::Ev
+zim::NonCopyable, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/include/zim/noncopyable.h, //34, //0:zim::NonCopyable//1:zim::RefCounted//2:zim::ClusterImpl//2:zim::FileImpl

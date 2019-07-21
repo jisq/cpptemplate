@@ -1,0 +1,29 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+HandlerBase1, //2, //1, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //57
+HandlerBase2, //2, //1, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //64
+caller2, //2, //1, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //157
+caller1, //6, //5, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //144
+ValueContainer, //5, //5, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20070716, //include/configreader.h, //108
+HandlerBase0, //2, //1, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //50
+HandlerBase3, //2, //1, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //71
+HandlerBase4, //2, //1, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //78
+HandlerBase5, //2, //1, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //85
+HandlerBase6, //2, //1, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //92
+HandlerBase7, //2, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //99
+HandlerBase8, //2, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //106
+caller, //0, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //113
+caller0, //0, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //131
+caller3, //0, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //170
+caller4, //0, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //183
+caller5, //0, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //196
+caller6, //0, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //209
+caller7, //0, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //222
+caller8, //0, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //235
+DLLFactory, //1, //1, //om, //om@e03df62e-2008-0410-955e-edbf42e46eb7, //20070828, //include/dynamic.h, //98
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+VisData, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20070716, //include/users.h, //392, //0:VisData//1:QuietOper
+ValueContainerBase, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20070716, //include/configreader.h, //91, //0:ValueContainerBase//1:ValueContainer
+DLLManager, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20070716, //include/dynamic.h, //20, //0:DLLManager//1:DLLFactory
+RemoveBase, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20070716, //src/modules/m_remove.cpp, //26, //0:RemoveBase//1:CommandFpart//1:CommandRemove
+FounderProtectBase, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20070716, //src/modules/m_chanprotect.cpp, //23, //0:FounderProtectBase//1:ChanFounder//1:ChanProtect

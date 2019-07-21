@@ -1,0 +1,33 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+LockedPageManagerBase, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20120822, //src/allocators.h, //45
+CMutexLock, //1, //1, //Pieter Wuille, //pieter.wuille@gmail.com, //20120511, //src/sync.h, //99
+base_uint, //2, //2, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/uint256.h, //27
+limitedmap, //3, //1, //Matt Corallo, //git@bluematt.me, //20130327, //src/limitedmap.h, //11
+CCheckQueue, //3, //2, //Pieter Wuille, //pieter.wuille@gmail.com, //20121201, //src/checkqueue.h, //25
+CCheckQueueControl, //2, //2, //Pieter Wuille, //pieter.wuille@gmail.com, //20121201, //src/checkqueue.h, //158
+CMedianFilter, //2, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110928, //src/util.h, //463
+mruset, //7, //3, //Pieter Wuille, //pieter.wuille@gmail.com, //20120227, //src/mruset.h, //11
+CVarInt, //4, //1, //Pieter Wuille, //pieter.wuille@gmail.com, //20120615, //src/serialize.h, //340
+AcceptedConnectionImpl, //0, //0, //Giel van Schijndel, //me@mortis.eu, //20110810, //src/bitcoinrpc.cpp, //647
+SSLIOStreamDevice, //1, //1, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110514, //src/bitcoinrpc.cpp, //587
+CBitcoinExtKeyBase, //2, //2, //Pieter Wuille, //pieter.wuille@gmail.com, //20130715, //src/base58.h, //394
+AnnotatedMixin, //0, //0, //Alexander Kjeldaas, //alexander.kjeldaas@gmail.com, //20121110, //src/sync.h, //59
+secure_allocator, //5, //4, //Wladimir J. van der Laan, //laanwj@gmail.com, //20120324, //src/allocators.h, //197
+secure_allocator::rebind, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20120324, //src/allocators.h, //213
+zero_after_free_allocator, //4, //4, //Wladimir J. van der Laan, //laanwj@gmail.com, //20120324, //src/allocators.h, //241
+zero_after_free_allocator::rebind, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20120324, //src/allocators.h, //257
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+CBlockIndex, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/main.h, //692, //0:CBlockIndex//1:CDiskBlockIndex
+CLevelDB, //Pieter Wuille, //pieter.wuille@gmail.com, //20120903, //src/leveldb.h, //55, //0:CLevelDB//1:CBlockTreeDB
+CChainParams, //Mike Hearn, //mike@plan99.net, //20130507, //src/chainparams.h, //35, //0:CChainParams//1:CMainParams//2:CTestNetParams//3:CRegTestParams
+CDB, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/db.h, //91, //0:CDB//1:CWalletDB
+CCoinsView, //Pieter Wuille, //pieter.wuille@gmail.com, //20120701, //src/main.h, //1131, //0:CCoinsView//1:CCoinsViewBacked//2:CCoinsViewCache//2:CCoinsViewMemPool//1:CCoinsViewDB
+CTransaction, //Eric Lombrozo, //elombrozo@gmail.com, //20130108, //src/core.h, //178, //0:CTransaction//1:CMerkleTx//2:CWalletTx
+CKeyStore, //Pieter Wuille, //pieter.wuille@gmail.com, //20110601, //src/keystore.h, //15, //0:CKeyStore//1:CBasicKeyStore//2:CCryptoKeyStore//3:CWallet
+CBlockHeader, //Eric Lombrozo, //elombrozo@gmail.com, //20130108, //src/core.h, //544, //0:CBlockHeader//1:CBlock
+CNetAddr, //Pieter Wuille, //pieter.wuille@gmail.com, //20120103, //src/netbase.h, //38, //0:CNetAddr//1:CService//2:CAddress//3:CAddrInfo
+CUnsignedAlert, //Gavin Andresen, //gavinandresen@gmail.com, //20120828, //src/alert.h, //23, //0:CUnsignedAlert//1:CAlert
+CPartialMerkleTree, //Pieter Wuille, //pieter.wuille@gmail.com, //20121027, //src/main.h, //519, //0:CPartialMerkleTree//1:CPartialMerkleTreeTester
+AcceptedConnection, //David Joel Schwartz, //davidjoelschwartz@gmail.com, //20120414, //src/bitcoinrpc.cpp, //636, //0:AcceptedConnection//1:AcceptedConnectionImpl
+CBase58Data, //Pieter Wuille, //pieter.wuille@gmail.com, //20110711, //src/base58.h, //177, //0:CBase58Data//1:CBitcoinAddress//1:CBitcoinExtKeyBase//1:CBitcoinSecret

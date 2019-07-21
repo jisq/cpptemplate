@@ -1,0 +1,47 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+base_blob, //7, //3, //Wladimir J. van der Laan, //laanwj@gmail.com, //20141215, //src/uint256.h, //18
+CMutexLock, //1, //1, //Pieter Wuille, //pieter.wuille@gmail.com, //20120511, //src/sync.h, //109
+base_uint, //26, //2, //Wladimir J. van der Laan, //laanwj@gmail.com, //20141215, //src/arith_uint256.h, //25
+CCheckQueue, //3, //2, //Pieter Wuille, //pieter.wuille@gmail.com, //20140919, //src/checkqueue.h, //30
+CCheckQueueControl, //1, //1, //Pieter Wuille, //pieter.wuille@gmail.com, //20140919, //src/checkqueue.h, //177
+limitedmap, //3, //1, //Pieter Wuille, //pieter.wuille@gmail.com, //20140919, //src/limitedmap.h, //13
+LimitedString, //9, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20140807, //src/serialize.h, //441
+CMedianFilter, //1, //1, //Pieter Wuille, //pieter.wuille@gmail.com, //20140919, //src/timedata.h, //20
+CBitcoinExtKeyBase, //2, //2, //Pieter Wuille, //pieter.wuille@gmail.com, //20130715, //src/base58.h, //138
+SSLIOStreamDevice, //1, //1, //Wladimir J. van der Laan, //laanwj@gmail.com, //20131120, //src/rpcprotocol.h, //85
+mruset, //8, //4, //Pieter Wuille, //pieter.wuille@gmail.com, //20140919, //src/mruset.h, //14
+AnnotatedMixin, //0, //0, //Alexander Kjeldaas, //alexander.kjeldaas@gmail.com, //20121110, //src/sync.h, //60
+AcceptedConnectionImpl, //0, //0, //Giel van Schijndel, //me@mortis.eu, //20110810, //src/rpcserver.cpp, //458
+CVarInt, //1, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120615, //src/serialize.h, //418
+LockedPageManagerBase, //0, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20140919, //src/support/pagelocker.h, //28
+tinyformat::detail::convertToInt, //1, //1, //Wladimir J. van der Laan, //laanwj@gmail.com, //20140116, //src/tinyformat.h, //234
+tinyformat::detail::convertToInt, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20140116, //src/tinyformat.h, //245
+tinyformat::detail::formatValueAsType, //2, //2, //Wladimir J. van der Laan, //laanwj@gmail.com, //20140116, //src/tinyformat.h, //197
+tinyformat::detail::formatValueAsType, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20140116, //src/tinyformat.h, //204
+tinyformat::detail::is_convertible, //3, //3, //Wladimir J. van der Laan, //laanwj@gmail.com, //20140116, //src/tinyformat.h, //157
+tinyformat::detail::is_wchar, //1, //1, //Wladimir J. van der Laan, //laanwj@gmail.com, //20140116, //src/tinyformat.h, //187
+tinyformat::detail::is_wchar, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20140116, //src/tinyformat.h, //190
+tinyformat::detail::is_wchar, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20140116, //src/tinyformat.h, //191
+secure_allocator, //6, //4, //Cory Fields, //cory-nospam-@coryfields.com, //20150122, //src/support/allocators/secure.h, //18
+secure_allocator::rebind, //0, //0, //Cory Fields, //cory-nospam-@coryfields.com, //20150122, //src/support/allocators/secure.h, //36
+zero_after_free_allocator, //4, //4, //Cory Fields, //cory-nospam-@coryfields.com, //20150122, //src/support/allocators/zeroafterfree.h, //15
+zero_after_free_allocator::rebind, //0, //0, //Cory Fields, //cory-nospam-@coryfields.com, //20150122, //src/support/allocators/zeroafterfree.h, //33
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+CBaseChainParams, //Wladimir J. van der Laan, //laanwj@gmail.com, //20140619, //src/chainparamsbase.h, //15, //0:CBaseChainParams//1:CBaseMainParams//2:CBaseTestNetParams//3:CBaseRegTestParams//2:CBaseUnitTestParams
+CTransaction, //jtimon, //jtimon@jtimon.cc, //20141018, //src/primitives/transaction.h, //176, //0:CTransaction//1:CMerkleTx//2:CWalletTx
+CCoinsView, //Pieter Wuille, //pieter.wuille@gmail.com, //20131105, //src/coins.h, //305, //0:CCoinsView//1:CCoinsViewBacked//2:CCoinsViewCache//2:CCoinsViewMemPool//2:CCoinsViewErrorCatcher//1:CCoinsViewTest//1:CCoinsViewDB
+CKeyStore, //Pieter Wuille, //pieter.wuille@gmail.com, //20110601, //src/keystore.h, //19, //0:CKeyStore//1:CBasicKeyStore//2:CCryptoKeyStore//3:CWallet
+CBase58Data, //Pieter Wuille, //pieter.wuille@gmail.com, //20110711, //src/base58.h, //71, //0:CBase58Data//1:CBitcoinAddress//1:CBitcoinExtKeyBase//1:CBitcoinSecret
+CBlockIndex, //jtimon, //jtimon@jtimon.cc, //20140903, //src/chain.h, //102, //0:CBlockIndex//1:CDiskBlockIndex
+CBlockHeader, //Eric Lombrozo, //elombrozo@gmail.com, //20130108, //src/primitives/block.h, //23, //0:CBlockHeader//1:CBlock
+AcceptedConnection, //Jeff Garzik, //jgarzik@bitpay.com, //20140627, //src/rpcserver.h, //35, //0:AcceptedConnection//1:AcceptedConnectionImpl
+CNetAddr, //Pieter Wuille, //pieter.wuille@gmail.com, //20120103, //src/netbase.h, //41, //0:CNetAddr//1:CService//2:CAddress//3:CAddrInfo
+CDB, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/wallet/db.h, //95, //0:CDB//1:CWalletDB
+CChainParams, //Mike Hearn, //mike@plan99.net, //20130507, //src/chainparams.h, //30, //0:CChainParams//1:CMainParams//2:CTestNetParams//3:CRegTestParams
+CUnsignedAlert, //Gavin Andresen, //gavinandresen@gmail.com, //20120828, //src/alert.h, //30, //0:CUnsignedAlert//1:CAlert
+BaseSignatureChecker, //Pieter Wuille, //pieter.wuille@gmail.com, //20140910, //src/script/interpreter.h, //83, //0:BaseSignatureChecker//1:TransactionSignatureChecker//2:MutableTransactionSignatureChecker//2:CachingTransactionSignatureChecker
+CLevelDBWrapper, //Brandon Dahler, //brandon.dahler@gmail.com, //20131105, //src/leveldbwrapper.h, //64, //0:CLevelDBWrapper//1:CBlockTreeDB
+CValidationInterface, //Jorge Timón, //jtimon@jtimon.cc, //20150205, //src/validationinterface.h, //29, //0:CValidationInterface//1:submitblock_StateCatcher//1:CWallet
+CPartialMerkleTree, //Matt Corallo, //git@bluematt.me, //20141030, //src/merkleblock.h, //50, //0:CPartialMerkleTree//1:CPartialMerkleTreeTester
+BaseSignatureCreator, //Pieter Wuille, //pieter.wuille@gmail.com, //20141104, //src/script/sign.h, //19, //0:BaseSignatureCreator//1:TransactionSignatureCreator

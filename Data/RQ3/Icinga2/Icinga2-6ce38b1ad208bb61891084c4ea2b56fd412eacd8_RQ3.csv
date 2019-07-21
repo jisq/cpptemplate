@@ -1,0 +1,9 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+icinga::ObjectMap, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20120612, //base/objectmap.h, //27
+icinga::ObjectSet, //3, //1, //Gunnar Beutner, //gunnar@beutner.name, //20120612, //base/objectset.h, //27
+icinga::WeakPtrEqual, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20120521, //base/object.h, //94
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+icinga::Object, //Gunnar Beutner, //gunnar@beutner.name, //20120614, //base/object.h, //34, //0:icinga::Object//1:icinga::Dictionary//1:icinga::ThreadPool//1:icinga::ExpressionList//1:icinga::ObjectMap//1:icinga::ComponentDiscoveryInfo//1:icinga::CheckTask//2:icinga::NagiosCheckTask//1:icinga::Application//2:icinga::IcingaApplication//1:icinga::Component//2:icinga::DiscoveryComponent//2:icinga::ConfigFileComponent//2:icinga::DemoComponent//2:icinga::CheckerComponent//2:icinga::CompatComponent//2:icinga::ConfigRpcComponent//2:icinga::DelegationComponent//1:icinga::Timer//1:icinga::ConfigObject//1:icinga::EndpointManager//1:icinga::ObjectSet//1:icinga::Socket//2:icinga::TcpSocket//3:icinga::TcpClient//4:icinga::TlsClient//5:icinga::JsonRpcClient//3:icinga::TcpServer//4:icinga::JsonRpcServer//1:icinga::Endpoint//2:icinga::VirtualEndpoint//2:icinga::JsonRpcEndpoint//1:icinga::Event//1:icinga::FIFO//1:icinga::ConfigItem
+icinga::MessagePart, //Gunnar Beutner, //gunnar@beutner.name, //20120516, //jsonrpc/messagepart.h, //35, //0:icinga::MessagePart//1:icinga::RequestMessage//1:icinga::ResponseMessage//1:icinga::DiscoveryMessage//1:icinga::CheckResult
+icinga::ConfigObjectAdapter, //Gunnar Beutner, //gunnar@beutner.name, //20120613, //icinga/configobjectadapter.h, //7, //0:icinga::ConfigObjectAdapter//1:icinga::Service//1:icinga::Host

@@ -1,0 +1,12 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+uORB::Publication, //8, //6, //James Goppert, //james.goppert@gmail.com, //20140316, //src/modules/uORB/Publication.hpp, //86
+uORB::Subscription, //17, //12, //James Goppert, //james.goppert@gmail.com, //20140316, //src/modules/uORB/Subscription.hpp, //96
+control::BlockParam, //9, //3, //James Goppert, //james.goppert@gmail.com, //20140316, //src/modules/controllib/block/BlockParam.hpp, //74
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+MavlinkStream, //Anton Babushkin, //anton.babushkin@me.com, //20140301, //src/modules/mavlink/mavlink_stream.h, //51, //0:MavlinkStream//1:MavlinkStreamAttitude//1:MavlinkStreamAttitudeControls//1:MavlinkStreamAttitudeQuaternion//1:MavlinkStreamCameraCapture//1:MavlinkStreamGPSGlobalOrigin//1:MavlinkStreamGPSRawInt//1:MavlinkStreamGlobalPositionInt//1:MavlinkStreamGlobalPositionSetpointInt//1:MavlinkStreamHILControls//1:MavlinkStreamHeartbeat//1:MavlinkStreamHighresIMU//1:MavlinkStreamLocalPositionNED//1:MavlinkStreamLocalPositionSetpoint//1:MavlinkStreamManualControl//1:MavlinkStreamNamedValueFloat//1:MavlinkStreamOpticalFlow//1:MavlinkStreamRCChannelsRaw//1:MavlinkStreamRollPitchYawRatesThrustSetpoint//1:MavlinkStreamRollPitchYawThrustSetpoint//1:MavlinkStreamServoOutputRaw//1:MavlinkStreamSysStatus//1:MavlinkStreamVFRHUD
+GPS_Helper, //Lorenz Meier, //lorenz@px4.io, //20130204, //src/drivers/gps/gps_helper.h, //46, //0:GPS_Helper//1:MTK//1:UBX
+launchdetection::LaunchMethod, //Thomas Gubler, //thomasgubler@gmail.com, //20131115, //src/lib/launchdetection/LaunchMethod.h, //47, //0:launchdetection::LaunchMethod//1:launchdetection::CatapultLaunchMethod
+UnitTest, //Simon Wilks, //sjwilks@gmail.com, //20130825, //src/modules/unit_test/unit_test.h, //47, //0:UnitTest//1:StateMachineHelperTest
+Airspeed, //Lorenz Meier, //lorenz@px4.io, //20130714, //src/drivers/airspeed/airspeed.h, //90, //0:Airspeed//1:ETSAirspeed//1:MEASAirspeed
+StateTable, //Julian Oes, //julian@oes.ch, //20131214, //src/modules/systemlib/state_table.h, //43, //0:StateTable//1:Navigator

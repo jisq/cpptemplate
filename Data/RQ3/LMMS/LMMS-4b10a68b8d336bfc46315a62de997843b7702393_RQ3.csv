@@ -1,0 +1,50 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+fifoBuffer, //1, //1, //Javier Serrano Polo, //jasp00@terra.es, //20070419, //include/fifo_buffer.h, //32
+Descriptor, //33, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Descriptor.h, //67
+effectLib::distortion, //4, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20061220, //include/effect_lib.h, //405
+automatableObject, //22, //1, //Javier Serrano Polo, //jasp00@terra.es, //20060626, //include/automatable_object.h, //43
+basicFilters, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/basic_filters.h, //46
+DSP::Eq, //2, //2, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/dsp/Eq.h, //66
+effectLib::stereoEnhancer, //2, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20061218, //include/effect_lib.h, //440
+effectLib::fastBassBoost, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20061221, //include/effect_lib.h, //223
+effectLib::monoToStereoAdaptor, //3, //3, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20061218, //include/effect_lib.h, //88
+DSP::StackedSVF, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/dsp/SVF.h, //156
+DSP::SVF, //2, //2, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/dsp/SVF.h, //79
+effectLib::bassBoost, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20061221, //include/effect_lib.h, //283
+effectLib::chain, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20061220, //include/effect_lib.h, //191
+effectLib::foldbackDistortion, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20061220, //include/effect_lib.h, //362
+effectLib::monoBase, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20061218, //include/effect_lib.h, //44
+effectLib::monoBypass, //1, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20061220, //include/effect_lib.h, //153
+effectLib::stereoBase, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20061218, //include/effect_lib.h, //65
+effectLib::stereoBypass, //1, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20061220, //include/effect_lib.h, //164
+effectLib::stereoToMonoAdaptor, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20061218, //include/effect_lib.h, //130
+sweepOscillator, //1, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20061220, //include/sweep_oscillator.h, //38
+valueRanges, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060410, //include/types.h, //61
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+plugin::descriptor::subPluginFeatures, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060917, //include/plugin.h, //74, //0:plugin::descriptor::subPluginFeatures//1:vstSubPluginFeatures//1:ladspaSubPluginFeatures
+knob, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060314, //include/knob.h, //49, //0:knob//1:volumeKnob//1:tempoSyncKnob
+sideBarWidget, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/side_bar_widget.h, //34, //0:sideBarWidget//1:pluginBrowser//1:fileBrowser
+journallingObject, //Javier Serrano Polo, //jasp00@terra.es, //20070419, //include/journalling_object.h, //102, //0:journallingObject//1:trackContainer//2:songEditor//2:bbEditor//2:previewTrackContainer//1:projectNotes//1:track//2:sampleTrack//2:instrumentTrack//2:automationTrack//2:bbTrack//1:trackContentObject//2:sampleTCO//2:pattern//2:bbTCO//1:trackContentWidget//1:trackWidget//1:remoteVSTPlugin//1:midiTabWidget//1:ladspaControl//1:effectControlDialog//2:ladspaControlDialog//2:bassBoosterControlDialog//2:stereoEnhancerControlDialog//2:vstControlDialog//1:envelopeAndLFOWidget//1:automationEditor//1:rackView//1:rackPlugin//1:timeLine//1:pianoRoll//1:automatableObject//2:lcdSpinBox//2:detuningHelper//1:effectTabWidget//1:plugin//2:effect//3:stereoEnhancerEffect//3:bassBoosterEffect//3:dummyEffect//3:ladspaEffect//3:vstEffect//2:tool//3:ladspaBrowser//3:liveTool//2:dummyPlugin//2:instrument//3:polyb302Synth//3:bitInvader//3:dummyInstrument//3:audioFileProcessor//3:organicInstrument//3:mallets//3:singerBot//3:vestigeInstrument//3:kickerInstrument//3:tripleOscillator//3:lb302Synth//3:patmanSynth//3:pluckedStringSynth//3:vibed//2:importFilter//3:flpImport//3:midiImport//1:note//2:notePlayHandle//1:effectLabel//1:arpAndChordsTabWidget//1:envelopeTabWidget//1:automationPattern
+levelObject, //Javier Serrano Polo, //jasp00@terra.es, //20060626, //include/level_object.h, //32, //0:levelObject//1:automatableObject//2:lcdSpinBox//2:detuningHelper
+midiTime, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/midi_time.h, //33, //0:midiTime//1:songEditor::playPos
+toolButton, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051212, //include/tool_button.h, //33, //0:toolButton//1:nStateButton
+selectableObject, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060123, //include/rubberband.h, //34, //0:selectableObject//1:trackContentObject//2:sampleTCO//2:pattern//2:bbTCO
+playHandle, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060321, //include/play_handle.h, //37, //0:playHandle//1:notePlayHandle//1:presetPreviewPlayHandle//1:samplePlayHandle//1:instrumentPlayHandle
+audioDevice, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/audio_device.h, //53, //0:audioDevice//1:audioFileDevice//2:audioFileWave//1:audioSampleRecorder//1:audioDummy
+midiClient, //Javier Serrano Polo, //jasp00@terra.es, //20070419, //include/midi_client.h, //42, //0:midiClient//1:midiClientRaw//2:midiDummy//1:midiALSASeq
+midiEventProcessor, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051024, //include/midi_event_processor.h, //39, //0:midiEventProcessor//1:instrumentTrack
+automatableButton, //Javier Serrano Polo, //jasp00@terra.es, //20071120, //include/automatable_button.h, //37, //0:automatableButton//1:pixmapButton//1:ledCheckBox
+ladspaManager, //Danny McRae, //khjklujn@yahoo.com, //20060808, //include/ladspa_manager.h, //91, //0:ladspaManager//1:ladspa2LMMS
+lb302Filter, //Javier Serrano Polo, //jasp00@terra.es, //20070419, //plugins/polyb302/polyb302.h, //57, //0:lb302Filter//1:lb302Filter3Pole//1:lb302FilterIIR2
+DSP::RBJ::RBJ, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/dsp/RBJ.h, //33, //0:DSP::RBJ::RBJ//1:DSP::RBJ::BP//1:DSP::RBJ::HP//1:DSP::RBJ::LP//1:DSP::RBJ::Notch//1:DSP::RBJ::PeakShelve//2:DSP::RBJ::HiShelve//2:DSP::RBJ::LoShelve//2:DSP::RBJ::PeakingEQ
+tabWidget, //Javier Serrano Polo, //jasp00@terra.es, //20071110, //include/tab_widget.h, //33, //0:tabWidget//1:midiClient::setupWidget//2:midiALSASeq::setupWidget//2:midiDummy::setupWidget//1:audioDevice::setupWidget//2:audioDummy::setupWidget
+sharedObject, //Javier Serrano Polo, //jasp00@terra.es, //20060824, //include/shared_object.h, //32, //0:sharedObject//1:sampleBuffer
+PlateStub, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Reverb.h, //167, //0:PlateStub//1:Plate//1:Plate2x2
+DSP::Delay, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/dsp/Delay.h, //40, //0:DSP::Delay//1:JVComb//1:Lattice
+ClickStub, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Click.h, //34, //0:ClickStub//1:CEO//1:Click//1:Dirac
+AmpStub, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Amp.h, //44, //0:AmpStub//1:AmpIII//1:AmpIV//1:AmpV//1:PreampIII//2:PreampIV
+KMultiTabBar, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/kmultitabbar.h, //50, //0:KMultiTabBar//1:sideBar
+KMultiTabBarButton, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/kmultitabbar.h, //160, //0:KMultiTabBarButton//1:KMultiTabBarTab
+ChorusStub, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Chorus.h, //40, //0:ChorusStub//1:ChorusI//1:ChorusII//1:StereoChorusI//1:StereoChorusII
+lb302Filter, //Paul Giblock, //p@pgiblock.net, //20070203, //plugins/lb302/lb302.h, //87, //0:lb302Filter//1:lb302Filter3Pole//1:lb302FilterIIR2

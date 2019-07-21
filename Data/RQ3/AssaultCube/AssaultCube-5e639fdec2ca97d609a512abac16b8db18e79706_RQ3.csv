@@ -1,0 +1,22 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+TLinkedList, //44, //6, //Lee Salzman, //lsalzman@gmail.com, //20061106, //source/src/bot/bot_util.h, //34
+TMultiChoice, //5, //2, //Lee Salzman, //lsalzman@gmail.com, //20061106, //source/src/bot/bot_util.h, //472
+TPriorList, //1, //1, //Lee Salzman, //lsalzman@gmail.com, //20061106, //source/src/bot/bot_util.h, //299
+vector, //231, //59, //Lee Salzman, //lsalzman@gmail.com, //20061106, //source/src/tools.h, //375
+hashtable, //29, //11, //Lee Salzman, //lsalzman@gmail.com, //20061106, //source/src/tools.h, //589
+projectilestate, //1, //1, //ac_stef, //ac_stef@users.sourceforge.net, //20090701, //source/src/server.h, //81
+consolebuffer, //3, //2, //Lee Salzman, //lsalzman@gmail.com, //20081011, //source/src/console.h, //3
+databuf, //5, //3, //Lee Salzman, //lsalzman@gmail.com, //20061120, //source/src/tools.h, //207
+modelcacheentry, //5, //1, //Lee Salzman, //lsalzman@gmail.com, //20080913, //source/src/modelcache.h, //1
+modelcachelist, //3, //3, //Lee Salzman, //lsalzman@gmail.com, //20080913, //source/src/modelcache.h, //45
+ringbuf, //1, //1, //Lee Salzman, //lsalzman@gmail.com, //20081203, //source/src/tools.h, //718
+bigint, //48, //8, //flowtron, //flowtron@users.sourceforge.net, //20100816, //source/src/crypto.cpp, //157
+bitbuf, //3, //2, //ac_stef, //ac_stef@users.sourceforge.net, //20090809, //source/src/tools.h, //337
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+CBot, //Lee Salzman, //lsalzman@gmail.com, //20061106, //source/src/bot/bot.h, //157, //0:CBot//1:CACBot
+playerstate, //driAn, //adrian26ch@yahoo.de, //20081208, //source/src/entity.h, //249, //0:playerstate//1:playerent//2:botent//1:clientstate
+worldobject, //driAn, //adrian26ch@yahoo.de, //20081208, //source/src/entity.h, //114, //0:worldobject//1:physent//2:bounceent//3:grenadeent//2:dynent//3:playerent//4:botent
+sourceowner, //driAn, //adrian26ch@yahoo.de, //20081126, //source/src/sound.h, //101, //0:sourceowner//1:location//1:oggstream
+CWaypointClass, //Lee Salzman, //lsalzman@gmail.com, //20061106, //source/src/bot/bot_waypoint.h, //90, //0:CWaypointClass//1:CACWaypointClass//1:CCubeWaypointClass
+worldobjreference, //driAn, //adrian26ch@yahoo.de, //20081126, //source/src/sound.h, //263, //0:worldobjreference//1:camerareference//1:entityreference//1:physentreference//1:staticreference

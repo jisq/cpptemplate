@@ -1,0 +1,34 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+automatableObject, //1, //1, //Javier Serrano Polo, //jasp00@terra.es, //20060626, //include/automatable_object.h, //55
+bufferAllocator::autoCleaner, //1, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/buffer_allocator.h, //61
+DSP::SVF, //2, //2, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/dsp/SVF.h, //79
+DSP::Eq, //2, //2, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/dsp/Eq.h, //66
+DSP::StackedSVF, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/dsp/SVF.h, //156
+basicFilters, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/basic_filters.h, //46
+Descriptor, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Descriptor.h, //67
+valueRanges, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060410, //include/types.h, //61
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+specialBgHandlingWidget, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/spc_bg_hndl_widget.h, //45, //0:specialBgHandlingWidget//1:bitInvader//1:organicInstrument//1:audioFileProcessor//1:envelopeAndLFOWidget//1:tabWidget//2:audioDevice::setupWidget//3:audioDummy::setupWidget//2:midiClient::setupWidget//3:midiDummy::setupWidget//3:midiALSASeq::setupWidget//1:vestigeInstrument
+midiTime, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/midi_time.h, //33, //0:midiTime//1:songEditor::playPos
+levelObject, //Javier Serrano Polo, //jasp00@terra.es, //20060626, //include/level_object.h, //34, //0:levelObject//1:automatableObject//2:knob//3:volumeKnob//3:tempoSyncKnob//2:lcdSpinBox
+engineObject, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060207, //include/engine.h, //149, //0:engineObject//1:exportProjectDialog//1:impulseEditor//1:mixer//1:cpuloadWidget//1:patternFreezeThread//1:audioPort//1:nameLabel//1:ladspaPortDialog//1:effectChain//1:stringPairDrag//1:journallingObject//2:automatableObject//3:knob//4:volumeKnob//4:tempoSyncKnob//3:lcdSpinBox//2:effectLabel//2:track//3:sampleTrack//3:instrumentTrack//3:automationTrack//3:bbTrack//2:trackContentObject//3:sampleTCO//3:pattern//3:bbTCO//2:trackContentWidget//2:trackWidget//2:ladspaControl//2:rackPlugin//2:pianoRoll//2:arpAndChordsTabWidget//2:automationPattern//2:rackView//2:timeLine//2:envelopeAndLFOWidget//2:trackContainer//3:previewTrackContainer//3:bbEditor//3:songEditor//2:projectNotes//2:remoteVSTPlugin//2:automationEditor//2:midiTabWidget//2:effectControlDialog//3:ladspaControlDialog//3:vstControlDialog//2:envelopeTabWidget//2:plugin//3:dummyPlugin//3:importFilter//4:midiImport//4:flpImport//3:instrument//4:bitInvader//4:mallets//4:organicInstrument//4:audioFileProcessor//4:vibed//4:pluckedStringSynth//4:tripleOscillator//4:vestigeInstrument//3:effect//4:vstEffect//4:dummyEffect//4:ladspaEffect//2:note//3:notePlayHandle//2:effectTabWidget//1:fileBrowser//1:listView//1:presetPreviewPlayHandle//1:groupBox//1:nineButtonSelector//1:visualizationWidget//1:sampleBuffer//1:samplePlayHandle//1:graph//1:projectJournal//1:effectList//1:effectSelectDialog//1:pluginBrowser//1:pluginDescWidget//1:midiClient//2:midiClientRaw//3:midiDummy//2:midiALSASeq//1:graph//1:mainWindow//1:setupDialog
+selectableObject, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060123, //include/rubberband.h, //45, //0:selectableObject//1:trackContentObject//2:sampleTCO//2:pattern//2:bbTCO
+DSP::Delay, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/dsp/Delay.h, //40, //0:DSP::Delay//1:JVComb//1:Lattice
+PlateStub, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Reverb.h, //167, //0:PlateStub//1:Plate//1:Plate2x2
+sideBarWidget, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/side_bar_widget.h, //46, //0:sideBarWidget//1:fileBrowser//1:pluginBrowser
+playHandle, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060321, //include/play_handle.h, //47, //0:playHandle//1:instrumentPlayHandle//1:notePlayHandle//1:presetPreviewPlayHandle//1:samplePlayHandle
+audioDevice, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/audio_device.h, //63, //0:audioDevice//1:audioFileDevice//2:audioFileWave//1:audioDummy//1:audioSampleRecorder
+AmpStub, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Amp.h, //44, //0:AmpStub//1:AmpIII//1:AmpIV//1:AmpV//1:PreampIII//2:PreampIV
+plugin::descriptor::subPluginFeatures, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060917, //include/plugin.h, //91, //0:plugin::descriptor::subPluginFeatures//1:ladspaSubPluginFeatures//1:vstSubPluginFeatures
+toolButton, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051212, //include/tool_button.h, //44, //0:toolButton//1:nStateButton
+ChorusStub, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Chorus.h, //40, //0:ChorusStub//1:ChorusI//1:ChorusII//1:StereoChorusI//1:StereoChorusII
+KMultiTabBar, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060117, //include/kmultitabbar-qt3.h, //61, //0:KMultiTabBar//1:sideBar
+KMultiTabBarButton, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060117, //include/kmultitabbar-qt3.h, //161, //0:KMultiTabBarButton//1:KMultiTabBarTab
+midiEventProcessor, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051024, //include/midi_event_processor.h, //41, //0:midiEventProcessor//1:instrumentTrack
+sharedObject, //Javier Serrano Polo, //jasp00@terra.es, //20060824, //include/shared_object.h, //42, //0:sharedObject//1:sampleBuffer
+automatableButton, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060314, //include/automatable_button.h, //48, //0:automatableButton//1:pixmapButton//1:ledCheckBox
+ClickStub, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Click.h, //34, //0:ClickStub//1:CEO//1:Click//1:Dirac
+DescriptorStub, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Descriptor.h, //46, //0:DescriptorStub//1:Descriptor
+ladspaManager, //Danny McRae, //khjklujn@yahoo.com, //20060808, //plugins/ladspa_base/ladspa_manager.h, //106, //0:ladspaManager//1:ladspa2LMMS
+DSP::RBJ::RBJ, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/dsp/RBJ.h, //33, //0:DSP::RBJ::RBJ//1:DSP::RBJ::BP//1:DSP::RBJ::HP//1:DSP::RBJ::LP//1:DSP::RBJ::Notch//1:DSP::RBJ::PeakShelve//2:DSP::RBJ::HiShelve//2:DSP::RBJ::LoShelve//2:DSP::RBJ::PeakingEQ

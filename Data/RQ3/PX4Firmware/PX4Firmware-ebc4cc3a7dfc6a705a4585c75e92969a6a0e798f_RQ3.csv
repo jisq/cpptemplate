@@ -1,0 +1,20 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+uORB::Subscription, //14, //10, //James Goppert, //james.goppert@gmail.com, //20140316, //src/modules/uORB/Subscription.hpp, //96
+uORB::Publication, //6, //4, //James Goppert, //james.goppert@gmail.com, //20140316, //src/modules/uORB/Publication.hpp, //86
+control::BlockParam, //9, //3, //James Goppert, //james.goppert@gmail.com, //20140316, //src/modules/controllib/block/BlockParam.hpp, //74
+math::Matrix, //67, //6, //Anton Babushkin, //anton.babushkin@me.com, //20131225, //src/lib/mathlib/math/Matrix.hpp, //330
+math::MatrixBase, //2, //2, //Anton Babushkin, //anton.babushkin@me.com, //20131225, //src/lib/mathlib/math/Matrix.hpp, //57
+math::Vector, //165, //5, //Anton Babushkin, //anton.babushkin@me.com, //20131225, //src/lib/mathlib/math/Vector.hpp, //351
+math::VectorBase, //1, //1, //Anton Babushkin, //anton.babushkin@me.com, //20131225, //src/lib/mathlib/math/Vector.hpp, //57
+MavlinkStreamServoOutputRaw, //9, //5, //Anton Babushkin, //anton.babushkin@me.com, //20140728, //src/modules/mavlink/mavlink_messages.cpp, //1189
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+IUavcanSensorBridge, //Pavel Kirienko, //pavel.kirienko@gmail.com, //20140822, //src/modules/uavcan/sensors/sensor_bridge.hpp, //48, //0:IUavcanSensorBridge//1:UavcanCDevSensorBridgeBase//2:UavcanBarometerBridge//2:UavcanMagnetometerBridge//1:UavcanGnssBridge
+Mixer, //px4dev, //px4@purgatory.org, //20120810, //src/modules/systemlib/mixer/mixer.h, //142, //0:Mixer//1:MixerGroup//1:MultirotorMixer//1:NullMixer//1:SimpleMixer
+NavigatorMode, //Julian Oes, //julian@oes.ch, //20140606, //src/modules/navigator/navigator_mode.h, //56, //0:NavigatorMode//1:MissionBlock//2:DataLinkLoss//2:GpsFailure//2:Loiter//2:Mission//2:RCLoss//2:RTL//2:EngineFailure
+GPS_Helper, //Lorenz Meier, //lorenz@px4.io, //20130204, //src/drivers/gps/gps_helper.h, //46, //0:GPS_Helper//1:MTK//1:UBX//1:ASHTECH
+Airspeed, //Lorenz Meier, //lorenz@px4.io, //20130714, //src/drivers/airspeed/airspeed.h, //90, //0:Airspeed//1:ETSAirspeed//1:MEASAirspeed
+MavlinkStream, //Anton Babushkin, //anton.babushkin@me.com, //20140301, //src/modules/mavlink/mavlink_stream.h, //49, //0:MavlinkStream//1:MavlinkMissionManager//1:MavlinkStreamAttitude//1:MavlinkStreamAttitudeControls//1:MavlinkStreamAttitudeQuaternion//1:MavlinkStreamAttitudeTarget//1:MavlinkStreamCameraCapture//1:MavlinkStreamCommandLong//1:MavlinkStreamDistanceSensor//1:MavlinkStreamGPSGlobalOrigin//1:MavlinkStreamGPSRawInt//1:MavlinkStreamGlobalPositionInt//1:MavlinkStreamHILControls//1:MavlinkStreamHeartbeat//1:MavlinkStreamHighresIMU//1:MavlinkStreamLocalPositionNED//1:MavlinkStreamLocalPositionSetpoint//1:MavlinkStreamManualControl//1:MavlinkStreamNamedValueFloat//1:MavlinkStreamOpticalFlowRad//1:MavlinkStreamPositionTargetGlobalInt//1:MavlinkStreamRCChannelsRaw//1:MavlinkStreamServoOutputRaw//1:MavlinkStreamStatustext//1:MavlinkStreamSysStatus//1:MavlinkStreamVFRHUD//1:MavlinkStreamViconPositionEstimate//1:MavlinkParametersManager
+launchdetection::LaunchMethod, //Thomas Gubler, //thomasgubler@gmail.com, //20131115, //src/lib/launchdetection/LaunchMethod.h, //58, //0:launchdetection::LaunchMethod//1:launchdetection::CatapultLaunchMethod
+UnitTest, //Simon Wilks, //sjwilks@gmail.com, //20130825, //src/modules/unit_test/unit_test.h, //41, //0:UnitTest//1:StateMachineHelperTest
+fwPosctrl::BlockFFPILimited, //Thomas Gubler, //thomasgubler@gmail.com, //20140319, //src/modules/fw_pos_control_l1/mtecs/mTecs_blocks.h, //103, //0:fwPosctrl::BlockFFPILimited//1:fwPosctrl::BlockFFPILimitedCustom

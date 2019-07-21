@@ -1,0 +1,51 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+preload::OUnoAutoPilot, //0, //0, //Oliver Specht, //os@openoffice.org, //20011114, //extensions/source/preload/unoautopilot.hxx, //107
+dbp::OUnoAutoPilot, //0, //0, //Frank Schönheit, //fs@openoffice.org, //20010221, //extensions/source/dbpilots/unoautopilot.hxx, //107
+COMPMOD_NAMESPACE::OMultiInstanceAutoRegistration, //2, //1, //Frank Schönheit, //fs@openoffice.org, //20010212, //extensions/source/inc/componentmodule.hxx, //243
+COMPMOD_NAMESPACE::OOneInstanceAutoRegistration, //2, //1, //Frank Schönheit, //fs@openoffice.org, //20010212, //extensions/source/inc/componentmodule.hxx, //285
+ole_adapter::UnoConversionUtilities, //0, //0, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/source/ole/unoconversionutilities.hxx, //125
+safe_list, //1, //1, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/inc/ucbhelper/ext_content.hxx, //111
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+DlgEdFunc, //Thomas Benisch, //tbe@openoffice.org, //20010226, //basctl/source/inc/dlgedfunc.hxx, //78, //0:DlgEdFunc//1:DlgEdFuncInsert//1:DlgEdFuncSelect
+DlgEdObj, //Thomas Benisch, //tbe@openoffice.org, //20010226, //basctl/source/inc/dlgedobj.hxx, //89, //0:DlgEdObj//1:DlgEdForm
+Mediator, //Philipp Lohmann, //pl@openoffice.org, //20011023, //extensions/source/plugin/inc/plugin/unx/mediator.hxx, //136, //0:Mediator//1:PluginConnector//2:UnxPluginComm
+pcr::OCommonBehaviourControl, //Frank Schönheit, //fs@openoffice.org, //20010112, //extensions/source/propctrlr/commoncontrol.hxx, //80, //0:pcr::OCommonBehaviourControl//1:pcr::OFormatDescriptionControl//1:pcr::OFormattedNumericControl//1:pcr::OColorControl//1:pcr::OComboboxControl//1:pcr::OCurrencyControl//1:pcr::ODateControl//1:pcr::OEditControl//1:pcr::OListboxControl//1:pcr::OMultilineEditControl//1:pcr::ONumericControl//1:pcr::OTimeControl
+PropertyChgHelper, //Jens-Heiner Rechtien, //hr@openoffice.org, //20030326, //lingucomponent/source/spellcheck/spell/sprophelp.hxx, //104, //0:PropertyChgHelper//1:PropertyHelper_Spell
+ole_adapter::IClassFactoryWrapper, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/source/ole/servprov.hxx, //102, //0:ole_adapter::IClassFactoryWrapper//1:ole_adapter::OneInstanceOleWrapper_Impl//1:ole_adapter::ProviderOleWrapper_Impl
+SafePointer, //Martin Hollmichel, //mh@openoffice.org, //20021118, //automation/source/server/statemnt.hxx, //164, //0:SafePointer//1:StatementList//2:StatementCommand//2:StatementControl//2:StatementFlow//2:StatementSlot//2:StatementUnoSlot
+Search, //Martin Hollmichel, //mh@openoffice.org, //20021118, //automation/source/server/statemnt.hxx, //145, //0:Search//1:SearchActive//1:SearchFadeSplitWin//1:SearchPopupFloatingWin//1:SearchRT//2:SearchScroll//1:SearchUID//1:SearchWinPtr//1:FindShortcutErrors
+frm::OInterfaceContainer, //Ocke Janssen, //oj@openoffice.org, //20001123, //forms/source/inc/InterfaceContainer.hxx, //185, //0:frm::OInterfaceContainer//1:frm::OFormComponents//2:frm::ODatabaseForm//1:frm::OGridControlModel
+GHEditWindow, //Martin Hollmichel, //mh@openoffice.org, //20021118, //automation/source/miniapp/editwin.hxx, //75, //0:GHEditWindow//1:EditFileWindow
+abp::AddressBookSourcePage, //Frank Schönheit, //fs@openoffice.org, //20010801, //extensions/source/abpilot/abspage.hxx, //94, //0:abp::AddressBookSourcePage//1:abp::AdminDialogInvokationPage//1:abp::TypeSelectionPage//1:abp::TableSelectionPage//1:abp::FieldMappingPage//1:abp::FinalPage
+BasicIDEModuleDummy, //Mathias Bauer, //mba@openoffice.org, //20010720, //basctl/source/basicide/basicmod.hxx, //73, //0:BasicIDEModuleDummy//1:BasicIDEModule
+ICommStream, //Martin Hollmichel, //mh@openoffice.org, //20021118, //automation/source/inc/icommstream.hxx, //75, //0:ICommStream//1:SvCommStream
+ZipPackageBuffer, //Martin Gallwey, //martin@gallwey.com, //20011115, //package/inc/ZipPackageBuffer.hxx, //79, //0:ZipPackageBuffer//1:XMemoryStream
+frm::OEditBaseModel, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //forms/source/component/EditBase.hxx, //120, //0:frm::OEditBaseModel//1:frm::OCurrencyModel//1:frm::ONumericModel//1:frm::OFormattedModel//1:frm::OEditModel//1:frm::OPatternModel//1:frm::OTimeModel//1:frm::ODateModel
+PluginComm, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/source/plugin/inc/plugin/plcom.hxx, //67, //0:PluginComm//1:UnxPluginComm//1:PluginComm_Impl
+frm::OErrorBroadcaster, //Frank Schönheit, //fs@openoffice.org, //20010828, //forms/source/component/errorbroadcaster.hxx, //92, //0:frm::OErrorBroadcaster//1:frm::OFormattedModel//1:frm::OGridControlModel//1:frm::OComboBoxModel//1:frm::OListBoxModel
+PluginStream, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/source/plugin/inc/plugin/impl.hxx, //377, //0:PluginStream//1:PluginInputStream//1:PluginOutputStream
+PluginControl_Impl, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/source/plugin/inc/plugin/plctrl.hxx, //163, //0:PluginControl_Impl//1:XPlugin_Impl
+CmdBaseStream, //Martin Hollmichel, //mh@openoffice.org, //20021118, //automation/source/inc/cmdbasestream.hxx, //76, //0:CmdBaseStream//1:SCmdStream//1:CmdStream//1:CRetStream//1:RetStream
+dbp::OControlWizard, //Frank Schönheit, //fs@openoffice.org, //20010223, //extensions/source/dbpilots/controlwizard.hxx, //174, //0:dbp::OControlWizard//1:dbp::OGroupBoxWizard//1:dbp::OGridWizard//1:dbp::OListComboWizard
+dbp::OControlWizardPage, //Frank Schönheit, //fs@openoffice.org, //20010530, //extensions/source/dbpilots/controlwizard.hxx, //124, //0:dbp::OControlWizardPage//1:dbp::OGBWPage//2:dbp::OFinalizeGBWPage//2:dbp::OOptionValuesPage//2:dbp::ORadioSelectionPage//1:dbp::OGridPage//2:dbp::OGridFieldsSelection//1:dbp::OLCPage//2:dbp::OContentFieldSelection//2:dbp::OContentTableSelection//2:dbp::OLinkFieldsPage//1:dbp::OMaybeListSelectionPage//2:dbp::ODBFieldPage//3:dbp::OOptionDBFieldPage//3:dbp::OComboDBFieldPage//2:dbp::ODefaultFieldSelectionPage//1:dbp::OTableSelectionPage
+pcr::IPropertyInfoService, //Frank Schönheit, //fs@openoffice.org, //20010112, //extensions/source/propctrlr/propertyinfo.hxx, //86, //0:pcr::IPropertyInfoService//1:pcr::OFormPropertyInfoService
+pcr::IPropertyLineListener, //Frank Schönheit, //fs@openoffice.org, //20010112, //extensions/source/propctrlr/proplinelistener.hxx, //75, //0:pcr::IPropertyLineListener//1:pcr::OPropertyBrowserController
+frm::OLimitedFormats, //Frank Schönheit, //fs@openoffice.org, //20010518, //forms/source/inc/limitedformats.hxx, //88, //0:frm::OLimitedFormats//1:frm::OTimeModel//1:frm::ODateModel
+BasicEntry, //Martin Hollmichel, //mh@openoffice.org, //20000929, //basctl/source/basicide/bastype2.hxx, //174, //0:BasicEntry//1:BasicManagerEntry
+BasicTreeListBox, //Martin Hollmichel, //mh@openoffice.org, //20000929, //basctl/source/basicide/bastype2.hxx, //105, //0:BasicTreeListBox//1:ObjectTreeListBox//1:ExtBasicTreeListBox
+IDEBaseWindow, //Vladimir Glazounov, //vg@openoffice.org, //20030326, //basctl/source/inc/bastypes.hxx, //224, //0:IDEBaseWindow//1:DialogWindow//1:ModulWindow
+BibToolBarListener, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/source/bibliography/toolbar.hxx, //104, //0:BibToolBarListener//1:BibTBEditListener//1:BibTBListBoxListener//1:BibTBQueryMenuListener
+BibShortCutHandler, //gt, //gt@openoffice.org, //20020517, //extensions/source/bibliography/bibshortcuthandler.hxx, //79, //0:BibShortCutHandler//1:BibSplitWindow//2:bib::BibBeamer//2:BibBookContainer//1:BibTabPage//2:BibGeneralPage//1:BibWindow//2:bib::BibView//2:BibWindowContainer
+frm::OGridColumn, //Ocke Janssen, //oj@openoffice.org, //20001123, //forms/source/component/Columns.hxx, //113, //0:frm::OGridColumn//1:frm::CheckBoxColumn//1:frm::ComboBoxColumn//1:frm::CurrencyFieldColumn//1:frm::DateFieldColumn//1:frm::FormattedFieldColumn//1:frm::ListBoxColumn//1:frm::NumericFieldColumn//1:frm::PatternFieldColumn//1:frm::TextFieldColumn//1:frm::TimeFieldColumn
+Node, //Martin Hollmichel, //mh@openoffice.org, //20021118, //automation/source/server/XMLParser.cxx, //154, //0:Node//1:ElementNode
+bib::OComponentAdapterBase, //Frank Schönheit, //fs@openoffice.org, //20011022, //extensions/source/bibliography/loadlisteneradapter.hxx, //115, //0:bib::OComponentAdapterBase//1:bib::OLoadListenerAdapter
+bib::OComponentListener, //Frank Schönheit, //fs@openoffice.org, //20011022, //extensions/source/bibliography/loadlisteneradapter.hxx, //88, //0:bib::OComponentListener//1:bib::OLoadListener//2:bib::FormControlContainer//3:bib::BibBeamer//3:bib::BibView
+ControlItemUId, //Martin Hollmichel, //mh@openoffice.org, //20021118, //automation/source/testtool/objtest.hxx, //215, //0:ControlItemUId//1:ControlItemUIdSon//1:ReverseName
+ControlSon, //Martin Hollmichel, //mh@openoffice.org, //20021118, //automation/source/testtool/objtest.hxx, //173, //0:ControlSon//1:ControlItemSon//2:ControlDef//1:ControlItemUIdSon
+BasicDockingWindow, //Vladimir Glazounov, //vg@openoffice.org, //20030326, //basctl/source/inc/bastypes.hxx, //134, //0:BasicDockingWindow//1:StackWindow//1:WatchWindow
+OContent, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/inc/ucbhelper/ext_content.hxx, //144, //0:OContent//1:OFolderContent
+OContentTask, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/inc/ucbhelper/ext_content.hxx, //276, //0:OContentTask//1:OCommandTask//1:OPropertyTask
+ole_adapter::InterfaceOleWrapper_Impl, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/source/ole/unoobjw.hxx, //151, //0:ole_adapter::InterfaceOleWrapper_Impl//1:ole_adapter::UnoObjectWrapperRemoteOpt
+PropertyChgHelper, //Jens-Heiner Rechtien, //hr@openoffice.org, //20030326, //lingucomponent/source/hyphenator/altlinuxhyph/hyphen/hprophelp.hxx, //105, //0:PropertyChgHelper//1:PropertyHelper_Hyphen
+BroadcasterHelperHolder, //Jens-Heiner Rechtien, //hr@openoffice.org, //20000918, //extensions/source/plugin/inc/plugin/model.hxx, //100, //0:BroadcasterHelperHolder//1:PluginModel

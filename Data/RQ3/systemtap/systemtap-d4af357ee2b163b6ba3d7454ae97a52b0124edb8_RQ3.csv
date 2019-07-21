@@ -1,0 +1,16 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+auto_free_ref, //0, //0, //Tim Moore, //timoore@redhat.com, //20080629, //auto_free.h, //39
+systemtap::Singleton, //2, //1, //Tim Moore, //timoore@redhat.com, //20091222, //grapher/Time.hxx, //19
+systemtap::GraphData, //0, //0, //Tim Moore, //timoore@redhat.com, //20090527, //grapher/GraphData.hxx, //56
+generic_dpg, //0, //0, //Josh Stone, //jistone@redhat.com, //20090506, //tapsets.h, //36
+__gnu_cxx::hash, //0, //0, //Josh Stone, //jistone@redhat.com, //20090902, //unordered.h, //42
+__sdt_type, //0, //0, //Roland McGrath, //roland@redhat.com, //20101122, //includes/sys/sdt.h, //72
+__sdt_type, //0, //0, //Roland McGrath, //roland@redhat.com, //20101122, //includes/sys/sdt.h, //115
+__sdt_type, //0, //0, //Roland McGrath, //roland@redhat.com, //20101122, //includes/sys/sdt.h, //118
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+systemtap::CairoWidget, //Tim Moore, //timoore@redhat.com, //20090415, //grapher/CairoWidget.hxx, //15, //0:systemtap::CairoWidget//1:systemtap::CairoPlayButton//1:systemtap::CairoTextBox//1:systemtap::Graph
+systemtap::GraphStyle, //Tim Moore, //timoore@redhat.com, //20091201, //grapher/GraphStyle.hxx, //20, //0:systemtap::GraphStyle//1:systemtap::GraphStyleBar//1:systemtap::GraphStyleDot//1:systemtap::GraphStyleEvent
+remote, //Josh Stone, //jistone@redhat.com, //20101130, //remote.h, //21, //0:remote//1:direct//1:ssh_legacy_remote//1:stapsh//2:direct_stapsh//2:ssh_remote
+var, //Graydon Hoare, //, //20050720, //translate.cxx, //313, //0:var//1:aggvar//1:mapvar//1:tmpvar
+ChildDeathReader, //Tim Moore, //timoore@redhat.com, //20090923, //grapher/grapher.cxx, //92, //0:ChildDeathReader//1:StapLauncher

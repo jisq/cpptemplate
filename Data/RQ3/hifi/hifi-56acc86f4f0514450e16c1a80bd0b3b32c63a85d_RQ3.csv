@@ -1,0 +1,92 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+PropertyFlags, //67, //3, //ZappoMan, //bradh@konamoxt.com, //20140604, //libraries/shared/src/PropertyFlags.h, //30
+TemplateSingleton, //6, //2, //samcake, //sam@highfidelity.io, //20140707, //interface/src/devices/DeviceTracker.h, //21
+AudioFrameBuffer, //14, //3, //Craig Hansen-Sturm, //chansensturm@comcast.net, //20140906, //libraries/audio/src/AudioBuffer.h, //18
+SharedObjectPointerTemplate, //27, //4, //Andrzej Kapolka, //drzej.k@gmail.com, //20140303, //libraries/metavoxels/src/SharedObject.h, //99
+TimeWeightedAvg, //1, //1, //wangyix, //wangyix@gmail.com, //20140729, //libraries/shared/src/TimeWeightedAvg.h, //18
+Radix2IntegerScanner, //0, //0, //tosh, //tosh@monster.hlan, //20130404, //libraries/shared/src/Radix2IntegerScanner.h, //45
+Radix2IntegerScanner, //0, //0, //tosh, //tosh@monster.hlan, //20130324, //libraries/shared/src/Radix2IntegerScanner.h, //66
+MovingMinMaxAvg, //11, //2, //wangyix, //wangyix@gmail.com, //20140807, //libraries/shared/src/MovingMinMaxAvg.h, //77
+RingBufferHistory, //4, //2, //wangyix, //wangyix@gmail.com, //20140709, //libraries/shared/src/RingBufferHistory.h, //21
+ByteCountCoded, //6, //3, //ZappoMan, //bradh@konamoxt.com, //20140605, //libraries/shared/src/ByteCountCoding.h, //29
+AudioFilterBank, //10, //10, //Craig Hansen-Sturm, //chansensturm@comcast.net, //20140824, //libraries/audio/src/AudioFilterBank.h, //19
+MinMaxAvg, //12, //1, //wangyix, //wangyix@gmail.com, //20140807, //libraries/shared/src/MovingMinMaxAvg.h, //21
+InlineAttribute, //2, //1, //Andrzej Kapolka, //drzej.k@gmail.com, //20131216, //libraries/metavoxels/src/AttributeRegistry.h, //309
+SimpleInlineAttribute, //1, //1, //Andrzej Kapolka, //drzej.k@gmail.com, //20140331, //libraries/metavoxels/src/AttributeRegistry.h, //347
+LazyItemEditorCreator, //1, //1, //Andrzej Kapolka, //drzej.k@gmail.com, //20140210, //libraries/metavoxels/src/MetavoxelUtil.cpp, //87
+AudioSourceNoise, //1, //0, //Craig Hansen-Sturm, //chansensturm@comcast.net, //20140906, //libraries/audio/src/AudioSourceNoise.h, //18
+AudioFilter, //0, //0, //Craig Hansen-Sturm, //chansensturm@comcast.net, //20140825, //libraries/audio/src/AudioFilter.h, //100
+AudioEditBuffer, //8, //3, //Craig Hansen-Sturm, //chansensturm@comcast.net, //20140920, //libraries/audio/src/AudioEditBuffer.h, //16
+CollectionTypeStreamer, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140318, //libraries/metavoxels/src/Bitstream.h, //1457
+RepeatedValueStreamer, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140314, //libraries/metavoxels/src/Bitstream.h, //84
+SimpleTypeStreamer, //0, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140110, //libraries/metavoxels/src/Bitstream.h, //1295
+StreamableTypeStreamer, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140318, //libraries/metavoxels/src/Bitstream.h, //1406
+type_traits::is_signed, //0, //0, //tosh, //tosh@monster.hlan, //20130324, //libraries/shared/src/Radix2IntegerScanner.h, //24
+type_traits::make_unsigned, //0, //0, //tosh, //tosh@monster.hlan, //20130324, //libraries/shared/src/Radix2IntegerScanner.h, //28
+type_traits::make_unsigned, //0, //0, //tosh, //tosh@monster.hlan, //20130324, //libraries/shared/src/Radix2IntegerScanner.h, //29
+type_traits::make_unsigned, //0, //0, //tosh, //tosh@monster.hlan, //20130324, //libraries/shared/src/Radix2IntegerScanner.h, //30
+type_traits::make_unsigned, //0, //0, //Stephen Birarda, //commit@birarda.com, //20140128, //libraries/shared/src/Radix2IntegerScanner.h, //31
+floodFill_impl, //0, //0, //tosh, //tosh@monster.hlan, //20130404, //libraries/shared/src/FloodFill.h, //45
+radix2InplaceSort_impl, //0, //0, //tosh, //tosh@monster.hlan, //20130404, //libraries/shared/src/Radix2InplaceSort.h, //31
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+HTTPConnection, //Stephen Birarda, //commit@birarda.com, //20140117, //libraries/embedded-webserver/src/HTTPConnection.h, //41, //0:HTTPConnection//1:HTTPSConnection
+HTTPRequestHandler, //Stephen Birarda, //commit@birarda.com, //20140117, //libraries/embedded-webserver/src/HTTPManager.h, //24, //0:HTTPRequestHandler//1:HTTPManager//2:HTTPSManager//1:OctreeServer//2:ParticleServer//2:EntityServer//2:VoxelServer//1:HTTPSRequestHandler//2:HTTPSManager//2:DomainServer
+NodeData, //Stephen Birarda, //commit@birarda.com, //20130724, //libraries/networking/src/NodeData.h, //20, //0:NodeData//1:Assignment//2:ThreadedAssignment//3:OctreeServer//4:ParticleServer//4:EntityServer//4:VoxelServer//3:MetavoxelServer//3:AudioMixer//3:AvatarMixer//3:Agent//1:OctreeQuery//2:OctreeQueryNode//3:ParticleNodeData//3:EntityNodeData//3:VoxelNodeData//1:VoxelSystem//1:DomainServerNodeData//1:AudioMixerClientData//1:Endpoint//2:MetavoxelSession//2:TestEndpoint//2:MetavoxelClient//3:MetavoxelSystemClient//1:InboundAudioStream//2:MixedAudioStream//2:MixedProcessedAudioStream//2:PositionalAudioStream//3:InjectedAudioStream//3:AvatarAudioStream//1:AvatarMixerClientData
+Octree, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/octree/src/Octree.h, //216, //0:Octree//1:EntityTree//1:VoxelTree//1:ParticleTree
+EntityItem, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityItem.h, //40, //0:EntityItem//1:ModelEntityItem//2:RenderableModelEntityItem//1:BoxEntityItem//2:RenderableBoxEntityItem//1:SphereEntityItem//2:RenderableSphereEntityItem
+LimitedNodeList, //Stephen Birarda, //commit@birarda.com, //20140401, //libraries/networking/src/LimitedNodeList.h, //54, //0:LimitedNodeList//1:NodeList
+Resource, //Andrzej Kapolka, //drzej.k@gmail.com, //20140227, //libraries/networking/src/ResourceCache.h, //80, //0:Resource//1:NetworkTexture//2:DilatableNetworkTexture//1:NetworkGeometry//1:Animation//1:NetworkProgram
+ResourceCache, //Andrzej Kapolka, //drzej.k@gmail.com, //20140227, //libraries/networking/src/ResourceCache.h, //31, //0:ResourceCache//1:TextureCache//1:GeometryCache//1:AnimationCache//1:ScriptCache
+Texture, //Andrzej Kapolka, //drzej.k@gmail.com, //20130926, //interface/src/renderer/TextureCache.h, //120, //0:Texture//1:NetworkTexture//2:DilatableNetworkTexture
+FaceTracker, //Andrzej Kapolka, //drzej.k@gmail.com, //20140408, //interface/src/devices/FaceTracker.h, //22, //0:FaceTracker//1:Visage//1:Faceplus//1:CaraFaceTracker//1:Faceshift//1:DdeFaceTracker
+AttributeValue, //Andrzej Kapolka, //drzej.k@gmail.com, //20131210, //libraries/metavoxels/src/AttributeRegistry.h, //158, //0:AttributeValue//1:OwnedAttributeValue
+MetavoxelClientManager, //Andrzej Kapolka, //drzej.k@gmail.com, //20140626, //libraries/metavoxels/src/MetavoxelClientManager.h, //25, //0:MetavoxelClientManager//1:MetavoxelSystem
+MetavoxelVisitor, //Andrzej Kapolka, //drzej.k@gmail.com, //20131211, //libraries/metavoxels/src/MetavoxelData.h, //287, //0:MetavoxelVisitor//1:RayIntersectionVisitor//2:RaySpannerIntersectionVisitor//3:FirstRaySpannerIntersectionVisitor//2:RayHeightfieldIntersectionVisitor//1:SpannerVisitor//2:GatherSpannerAttributesVisitor//2:GatherUnmaskedSpannersVisitor//1:MutateVisitor//1:RandomVisitor//1:AugmentVisitor//1:BufferRenderVisitor//1:HeightfieldCursorRenderVisitor//1:HeightfieldHeightVisitor//1:HeightfieldRegionVisitor//1:HeightfieldUpdateVisitor//1:PointAugmentVisitor//1:RenderVisitor//1:SimulateVisitor//1:VoxelAugmentVisitor//1:VoxelizationVisitor//1:BoxSetEditVisitor//1:GlobalSetEditVisitor//1:PaintHeightfieldHeightEditVisitor//1:PaintHeightfieldMaterialEditVisitor//1:SetSpannerEditVisitor//1:UpdateSpannerVisitor//1:VoxelMaterialBoxEditVisitor//1:VoxelMaterialSphereEditVisitor
+SpannerRenderer, //Andrzej Kapolka, //drzej.k@gmail.com, //20140217, //libraries/metavoxels/src/MetavoxelData.h, //667, //0:SpannerRenderer//1:ClippedRenderer//2:SphereRenderer//2:StaticModelRenderer
+BufferData, //Andrzej Kapolka, //drzej.k@gmail.com, //20140728, //interface/src/MetavoxelSystem.h, //118, //0:BufferData//1:HeightfieldBuffer//1:PointBuffer//1:VoxelBuffer
+OctreeElement, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/octree/src/OctreeElement.h, //54, //0:OctreeElement//1:EntityTreeElement//1:ParticleTreeElement//1:VoxelTreeElement
+HeadData, //Stephen Birarda, //commit@birarda.com, //20130520, //libraries/avatars/src/HeadData.h, //32, //0:HeadData//1:Head
+GenericThread, //Brad Hefta-Gaub, //brad@highfidelity.io, //20140109, //libraries/shared/src/GenericThread.h, //23, //0:GenericThread//1:PacketSender//2:OctreeEditPacketSender//3:VoxelEditPacketSender//3:ParticleEditPacketSender//3:EntityEditPacketSender//1:ReceivedPacketProcessor//2:JurisdictionSender//2:JurisdictionListener//2:OctreePacketProcessor//2:OctreeInboundPacketProcessor//1:VoxelHideShowThread//1:OctreeSendThread//1:OctreePersistThread
+SharedObject, //Andrzej Kapolka, //drzej.k@gmail.com, //20140205, //libraries/metavoxels/src/SharedObject.h, //32, //0:SharedObject//1:MetavoxelGuide//2:DefaultMetavoxelGuide//3:ScriptedMetavoxelGuide//3:ThrobbingMetavoxelGuide//1:MetavoxelRenderer//2:DefaultMetavoxelRenderer//1:MetavoxelRendererImplementation//2:DefaultMetavoxelRendererImplementation//1:Spanner//2:Transformable//3:Sphere//3:StaticModel//1:Attribute//2:InlineAttribute//3:SimpleInlineAttribute//1:MaterialObject//1:TestSharedObjectA//1:GenericSharedObject
+NetworkValue, //Andrzej Kapolka, //drzej.k@gmail.com, //20140204, //libraries/metavoxels/src/ScriptCache.h, //101, //0:NetworkValue//1:DerivedNetworkValue//1:RootNetworkValue
+DeviceTracker, //samcake, //sam@highfidelity.io, //20140709, //interface/src/devices/DeviceTracker.h, //49, //0:DeviceTracker//1:MotionTracker//2:Leapmotion
+AbstractControllerScriptingInterface, //ZappoMan, //bradh@konamoxt.com, //20131218, //libraries/script-engine/src/AbstractControllerScriptingInterface.h, //46, //0:AbstractControllerScriptingInterface//1:InputController::ControllerScriptingInterface
+AbstractInputController, //samcake, //sam@highfidelity.io, //20140701, //libraries/script-engine/src/AbstractControllerScriptingInterface.h, //22, //0:AbstractInputController//1:InputController
+ArrayBufferViewClass, //Atlante45, //clement.brisset@gmail.com, //20140708, //libraries/script-engine/src/ArrayBufferViewClass.h, //29, //0:ArrayBufferViewClass//1:TypedArray//2:Float32ArrayClass//2:Float64ArrayClass//2:Int16ArrayClass//2:Int32ArrayClass//2:Int8ArrayClass//2:Uint16ArrayClass//2:Uint32ArrayClass//2:Uint8ArrayClass//2:Uint8ClampedArrayClass//1:DataViewClass
+AbstractAudioInterface, //Stephen Birarda, //commit@birarda.com, //20131219, //libraries/audio/src/AbstractAudioInterface.h, //17, //0:AbstractAudioInterface//1:Audio
+AvatarData, //Andrew Meadows, //andrew@highfidelity.io, //20140317, //libraries/avatars/src/AvatarData.h, //108, //0:AvatarData//1:ScriptableAvatar//1:Avatar//2:MyAvatar
+HandData, //Eric Johnston, //ej@machinelevel.com, //20130628, //libraries/avatars/src/HandData.h, //32, //0:HandData//1:Hand
+FramelessDialog, //stojce, //stojce@me.com, //20140406, //interface/src/ui/FramelessDialog.h, //18, //0:FramelessDialog//1:LoginDialog//1:AddressBarDialog
+AngularConstraint, //Andrew Meadows, //andrew@highfidelity.io, //20140630, //libraries/shared/src/AngularConstraint.h, //17, //0:AngularConstraint//1:ConeRollerConstraint//1:HingeConstraint
+Shape, //Andrew Meadows, //andrew@highfidelity.io, //20140221, //libraries/shared/src/Shape.h, //35, //0:Shape//1:CapsuleShape//2:VerletCapsuleShape//1:AACubeShape//1:ListShape//1:SphereShape//2:VerletSphereShape//1:PlaneShape
+DataBlock, //Andrzej Kapolka, //drzej.k@gmail.com, //20140825, //libraries/metavoxels/src/AttributeRegistry.h, //464, //0:DataBlock//1:HeightfieldColorData//1:HeightfieldHeightData//1:HeightfieldMaterialData//1:VoxelColorData//1:VoxelHermiteData//1:VoxelMaterialData
+QRgbAttribute, //Andrzej Kapolka, //drzej.k@gmail.com, //20131216, //libraries/metavoxels/src/AttributeRegistry.h, //380, //0:QRgbAttribute//1:PackedNormalAttribute//2:SpannerPackedNormalAttribute//1:SpannerQRgbAttribute
+SharedObjectSetAttribute, //Andrzej Kapolka, //drzej.k@gmail.com, //20140214, //libraries/metavoxels/src/AttributeRegistry.h, //811, //0:SharedObjectSetAttribute//1:SpannerSetAttribute
+OctreeRenderer, //ZappoMan, //bradh@konamoxt.com, //20140226, //libraries/octree/src/OctreeRenderer.h, //32, //0:OctreeRenderer//1:ParticleTreeRenderer//1:OctreeHeadlessViewer//2:ParticleTreeHeadlessViewer//2:VoxelTreeHeadlessViewer//2:EntityTreeHeadlessViewer//1:EntityTreeRenderer
+OctreeElementDeleteHook, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/octree/src/OctreeElement.h, //42, //0:OctreeElementDeleteHook//1:OctreeElementBag//1:VoxelSystem
+OctreeElementUpdateHook, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/octree/src/OctreeElement.h, //48, //0:OctreeElementUpdateHook//1:VoxelSystem
+ObjectStreamer, //Andrzej Kapolka, //drzej.k@gmail.com, //20140612, //libraries/metavoxels/src/Bitstream.h, //1075, //0:ObjectStreamer//1:GenericObjectStreamer//1:MappedObjectStreamer
+TypeStreamer, //Andrew Meadows, //andrew@highfidelity.io, //20140110, //libraries/metavoxels/src/Bitstream.h, //1220, //0:TypeStreamer//1:EnumTypeStreamer//1:GenericTypeStreamer//2:GenericEnumTypeStreamer//2:GenericListTypeStreamer//3:GenericSetTypeStreamer//2:GenericMapTypeStreamer//2:GenericStreamableTypeStreamer//1:MappedEnumTypeStreamer//1:MappedListTypeStreamer//2:MappedSetTypeStreamer//1:MappedMapTypeStreamer//1:MappedStreamableTypeStreamer//1:SimpleTypeStreamer//2:CollectionTypeStreamer//2:StreamableTypeStreamer
+AvatarHashMap, //Stephen Birarda, //commit@birarda.com, //20140417, //libraries/avatars/src/AvatarHashMap.h, //26, //0:AvatarHashMap//1:AvatarManager
+Referential, //Atlante45, //clement.brisset@gmail.com, //20140730, //libraries/avatars/src/Referential.h, //21, //0:Referential//1:ModelReferential//2:JointReferential
+EntityItemFBXService, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityTree.h, //26, //0:EntityItemFBXService//1:EntityTreeRenderer
+Constraint, //Andrew Meadows, //andrew@highfidelity.io, //20140724, //libraries/shared/src/Constraint.h, //15, //0:Constraint//1:MuscleConstraint//1:FixedConstraint//1:DistanceConstraint
+Model::Locations, //Andrzej Kapolka, //drzej.k@gmail.com, //20140722, //interface/src/renderer/Model.h, //299, //0:Model::Locations//1:Model::SkinLocations
+Primitive, //matsukaze, //matsukaze314@gmail.com, //20140204, //interface/src/voxels/PrimitiveRenderer.h, //71, //0:Primitive//1:Cube
+Renderer, //matsukaze, //matsukaze314@gmail.com, //20140204, //interface/src/voxels/PrimitiveRenderer.h, //248, //0:Renderer//1:PrimitiveRenderer
+RecurseOctreeOperator, //ZappoMan, //bradh@konamoxt.com, //20140506, //libraries/octree/src/Octree.h, //41, //0:RecurseOctreeOperator//1:MovingEntitiesOperator//1:AddEntityOperator//1:VoxelTreeDebugOperator//1:DeleteEntityOperator//1:UpdateEntityOperator//1:DebugOperator
+WalletTransaction, //Stephen Birarda, //commit@birarda.com, //20140520, //libraries/networking/src/WalletTransaction.h, //19, //0:WalletTransaction//1:SignedWalletTransaction
+PhysicsEntity, //Andrew Meadows, //andrew@highfidelity.io, //20140619, //libraries/shared/src/PhysicsEntity.h, //31, //0:PhysicsEntity//1:VoxelShapeManager//1:Model//2:SkeletonModel//2:FaceModel
+Tag, //atlante45, //clement.brisset@gmail.com, //20130708, //libraries/voxels/src/Tags.h, //41, //0:Tag//1:TagByte//1:TagByteArray//1:TagCompound//1:TagDouble//1:TagFloat//1:TagInt//1:TagIntArray//1:TagList//1:TagLong//1:TagShort//1:TagString
+PacketRecord, //Andrzej Kapolka, //drzej.k@gmail.com, //20140626, //libraries/metavoxels/src/Endpoint.h, //71, //0:PacketRecord//1:TestReceiveRecord//1:TestSendRecord
+NewlyCreatedParticleHook, //ZappoMan, //bradh@konamoxt.com, //20131211, //libraries/particles/src/ParticleTree.h, //18, //0:NewlyCreatedParticleHook//1:ParticleServer
+NewlyCreatedEntityHook, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityTree.h, //21, //0:NewlyCreatedEntityHook//1:EntityServer
+Ragdoll, //Andrew Meadows, //andrew@highfidelity.io, //20140613, //libraries/shared/src/Ragdoll.h, //30, //0:Ragdoll//1:SkeletonRagdoll
+TestMessageA, //Andrzej Kapolka, //drzej.k@gmail.com, //20140209, //tests/metavoxels/src/MetavoxelTests.h, //201, //0:TestMessageA//1:TestMessageC
+OctreeScriptingInterface, //ZappoMan, //bradh@konamoxt.com, //20131214, //libraries/octree/src/OctreeScriptingInterface.h, //21, //0:OctreeScriptingInterface//1:VoxelsScriptingInterface//1:EntityScriptingInterface//1:ParticlesScriptingInterface
+BaseVec3Editor, //Andrzej Kapolka, //drzej.k@gmail.com, //20140407, //libraries/metavoxels/src/MetavoxelUtil.h, //194, //0:BaseVec3Editor//1:QuatEditor//1:Vec3Editor
+DeferredLightingEffect::PointLight, //Andrzej Kapolka, //drzej.k@gmail.com, //20140918, //interface/src/renderer/DeferredLightingEffect.h, //97, //0:DeferredLightingEffect::PointLight//1:DeferredLightingEffect::SpotLight
+AbstractLoggerInterface, //Stojce Slavkovski, //stojce@me.com, //20131222, //interface/src/AbstractLoggerInterface.h, //19, //0:AbstractLoggerInterface//1:FileLogger
+MetavoxelTool, //Andrzej Kapolka, //drzej.k@gmail.com, //20140212, //interface/src/ui/MetavoxelEditor.h, //89, //0:MetavoxelTool//1:BoxTool//2:BoxSetTool//2:VoxelColorBoxTool//2:VoxelMaterialBoxTool//1:ClearSpannersTool//1:GlobalSetTool//1:HeightfieldBrushTool//2:HeightfieldColorBrushTool//2:HeightfieldHeightBrushTool//2:HeightfieldMaterialBrushTool//1:HeightfieldTool//2:EraseHeightfieldTool//2:ImportHeightfieldTool//1:PlaceSpannerTool//2:InsertSpannerTool//2:SetSpannerTool//1:RemoveSpannerTool//1:SphereTool//2:VoxelColorSphereTool//2:VoxelMaterialSphereTool
+MetavoxelEdit, //Andrzej Kapolka, //drzej.k@gmail.com, //20140212, //libraries/metavoxels/src/MetavoxelMessages.h, //89, //0:MetavoxelEdit//1:BoxSetEdit//1:ClearSpannersEdit//1:GlobalSetEdit//1:InsertSpannerEdit//1:PaintHeightfieldColorEdit//1:PaintHeightfieldHeightEdit//1:PaintHeightfieldMaterialEdit//1:RemoveSpannerEdit//1:SetDataEdit//1:SetSpannerEdit//1:VoxelColorBoxEdit//1:VoxelColorSphereEdit//1:VoxelMaterialBoxEdit//1:VoxelMaterialSphereEdit

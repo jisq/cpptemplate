@@ -1,0 +1,36 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+CommandModule, //0, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090903, //include/inspircd.h, //844
+caller2, //5, //2, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //151
+caller1, //4, //4, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //138
+caller3, //1, //1, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //164
+SimpleExtItem, //17, //12, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20091011, //include/extensible.h, //97
+HandlerBase1, //6, //2, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091014, //include/caller.h, //57
+HandlerBase2, //2, //1, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091014, //include/caller.h, //64
+HandlerBase3, //2, //1, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091014, //include/caller.h, //71
+dynamic_reference, //8, //3, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091116, //include/modules.h, //292
+HandlerBase0, //4, //2, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091014, //include/caller.h, //50
+HandlerBase4, //2, //1, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091014, //include/caller.h, //78
+HandlerBase5, //2, //1, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091014, //include/caller.h, //85
+HandlerBase6, //2, //1, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091014, //include/caller.h, //92
+HandlerBase7, //2, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091014, //include/caller.h, //99
+HandlerBase8, //2, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091014, //include/caller.h, //106
+caller, //0, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //113
+caller0, //0, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //125
+caller4, //0, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //177
+caller5, //0, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //190
+caller6, //0, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //203
+caller7, //0, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //216
+caller8, //0, //0, //brain, //brain@e03df62e-2008-0410-955e-edbf42e46eb7, //20070725, //include/caller.h, //229
+vtable, //0, //0, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091025, //src/modules/m_testnet.cpp, //24
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+irc::sepstream, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091017, //include/hashcomp.h, //354, //0:irc::sepstream//1:irc::commasepstream//1:irc::spacesepstream
+XLineFactory, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091018, //include/xline.h, //361, //0:XLineFactory//1:SVSHoldFactory//1:CBanFactory//1:ShunFactory//1:ELineFactory//1:GLineFactory//1:KLineFactory//1:QLineFactory//1:ZLineFactory//1:RLineFactory
+Thread, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090810, //include/threadengine.h, //33, //0:Thread//1:QueuedThread//1:SocketThread//2:DispatcherThread//2:QueryThread//1:ConfigReaderThread//1:IPCThread//1:TestSuiteThread
+Resolver, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091017, //include/dns.h, //160, //0:Resolver//1:SecurityIPResolver//1:ServernameResolver//1:CGIResolver//1:UserResolver//1:DNSBLResolver
+ProtocolInterface, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091018, //include/protocol.h, //36, //0:ProtocolInterface//1:SpanningTreeProtocolInterface
+SocketEngine, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //include/socketengine.h, //221, //0:SocketEngine//1:PollEngine//1:EPollEngine//1:PortsEngine//1:KQueueEngine//1:SelectEngine
+HostItem, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091017, //include/channels.h, //23, //0:HostItem//1:BanItem
+Timer, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20090902, //include/timer.h, //27, //0:Timer//1:ReconnectTimer//1:CacheRefreshTimer//1:CacheTimer//1:RequestTimeout//1:SocketTimeout//1:WhoWasMaintainTimer
+FilterResult, //danieldg, //danieldg@e03df62e-2008-0410-955e-edbf42e46eb7, //20091017, //src/modules/m_filter.cpp, //30, //0:FilterResult//1:ImplFilter
+FounderProtectBase, //peavey, //peavey@e03df62e-2008-0410-955e-edbf42e46eb7, //20070716, //src/modules/m_chanprotect.cpp, //34, //0:FounderProtectBase//1:ChanFounder//1:ChanProtect

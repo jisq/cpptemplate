@@ -1,0 +1,16 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+gr::Function, //0, //0, //Matchman Green, //match065@gmail.com, //20120428, //libgrive/src/util/Function.hh, //135
+gr::impl::FuncHolder, //1, //1, //Matchman Green, //match065@gmail.com, //20120428, //libgrive/src/util/Function.hh, //81
+gr::impl::FuncImpl, //0, //0, //Matchman Green, //match065@gmail.com, //20120428, //libgrive/src/util/Function.hh, //31
+gr::impl::FuncImpl, //0, //0, //Matchman Green, //match065@gmail.com, //20120428, //libgrive/src/util/Function.hh, //39
+gr::impl::FuncImpl, //0, //0, //Matchman Green, //match065@gmail.com, //20120428, //libgrive/src/util/Function.hh, //47
+gr::impl::FuncTrait, //0, //0, //Matchman Green, //match065@gmail.com, //20120428, //libgrive/src/util/Function.hh, //60
+gr::impl::FuncTrait, //0, //0, //Matchman Green, //match065@gmail.com, //20120428, //libgrive/src/util/Function.hh, //67
+gr::impl::FuncTrait, //0, //0, //Matchman Green, //match065@gmail.com, //20120428, //libgrive/src/util/Function.hh, //74
+gr::impl::NullFunc, //0, //0, //Matchman Green, //match065@gmail.com, //20120428, //libgrive/src/util/Function.hh, //108
+gr::Json::Val_, //2, //1, //Nestal Wan, //me@nestal.net, //20130428, //libgrive/src/protocol/Json.hh, //54
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+gr::LogBase, //Matchman Green, //match065@gmail.com, //20120513, //libgrive/src/util/log/Log.hh, //61, //0:gr::LogBase//1:gr::log::CommonLog//2:gr::log::DefaultLog//2:gr::log::CompositeLog//1:gr::MockLog
+gr::DataStream, //Nestal Wan, //me@nestal.net, //20130428, //libgrive/src/util/DataStream.hh, //29, //0:gr::DataStream//1:gr::http::Download//1:gr::File//1:gr::StdStream//1:gr::http::StringResponse//1:gr::http::XmlResponse//1:gr::http::JsonResponse//1:gr::http::ValResponse//1:gr::StringStream//1:gr::http::ResponseLog
+gr::http::Agent, //Matchman Green, //match065@gmail.com, //20120505, //libgrive/src/http/Agent.hh, //33, //0:gr::http::Agent//1:gr::http::CurlAgent//1:gr::http::MockAgent//1:gr::AuthAgent

@@ -1,0 +1,30 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+ResultVal, //40, //6, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141023, //src/core/hle/result.h, //268
+Common::ConcurrentRingBuffer, //1, //1, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141028, //src/common/concurrent_ring_buffer.h, //23
+Common::FifoQueue, //0, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/fifo_queue.h, //12
+Math::Vec2, //74, //4, //Tony Wasserka, //neobrainx@gmail.com, //20140727, //src/video_core/math.h, //51
+Math::Vec4, //35, //5, //Tony Wasserka, //neobrainx@gmail.com, //20140727, //src/video_core/math.h, //345
+Math::Vec3, //74, //6, //Tony Wasserka, //neobrainx@gmail.com, //20140727, //src/video_core/math.h, //175
+LinearDiskCache, //0, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/linear_disk_cache.h, //47
+LinearDiskCacheReader, //1, //1, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/linear_disk_cache.h, //28
+BitField, //161, //109, //bunnei, //bunneidev@gmail.com, //20140507, //src/common/bit_field.h, //114
+MathUtil::Rectangle, //3, //1, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/math_util.h, //100
+Common::ThreadQueueList, //1, //1, //bunnei, //bunneidev@gmail.com, //20140515, //src/common/thread_queue_list.h, //12
+swap_16_t, //4, //2, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //467
+swap_32_t, //4, //2, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //460
+swap_64_t, //4, //2, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //453
+swap_double_t, //2, //1, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //481
+swap_float_t, //2, //1, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //474
+swap_struct_t, //32, //9, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //65
+detail::ScopeExitHelper, //2, //1, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141102, //src/common/scope_exit.h, //9
+Pica::PrimitiveAssembler, //4, //3, //Tony Wasserka, //neobrainx@gmail.com, //20140817, //src/video_core/primitive_assembly.h, //20
+LinkedListItem, //8, //2, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/chunk_file.h, //41
+PointerWrap::DoHelper, //3, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //82
+PointerWrap::DoHelper, //0, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //97
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+QHexEdit, //ShizZy, //shizzy@6bit.net, //20130829, //externals/qhexedit/qhexedit.h, //51, //0:QHexEdit//1:GRamView
+NonCopyable, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/common.h, //24, //0:NonCopyable//1:Kernel::HandleTable//1:Kernel::Object//2:Kernel::Event//2:Kernel::Semaphore//2:Kernel::AddressArbiter//2:Kernel::Thread//2:Kernel::Session//3:Service::FS::Directory//3:Service::FS::File//3:Service::Interface//4:HID_User::Interface//4:SRV::Interface//4:HTTP_C::Interface//4:CFG_I::Interface//4:DSP_DSP::Interface//4:ERR_F::Interface//4:SSL_C::Interface//4:CFG_U::Interface//4:CECD_U::Interface//4:BOSS_U::Interface//4:PM_APP::Interface//4:IR_U::Interface//4:NEWS_U::Interface//4:AC_U::Interface//4:NWM_UDS::Interface//4:LDR_RO::Interface//4:FRD_U::Interface//4:NIM_AOC::Interface//4:SOC_U::Interface//4:IR_RST::Interface//4:ACT_U::Interface//4:Service::FS::FSUserInterface//4:APT_U::Interface//4:AM_APP::Interface//4:NDM_U::Interface//4:MIC_U::Interface//4:CSND_SND::Interface//4:APT_A::Interface//4:PTM_U::Interface//4:AM_NET::Interface//4:GSP_GPU::Interface//2:Kernel::SharedMemory//2:Kernel::Mutex//1:FileSys::DirectoryBackend//2:FileSys::Directory_RomFS//2:FileSys::DiskDirectory//1:Loader::AppLoader//2:Loader::AppLoader_THREEDSX//2:Loader::AppLoader_ELF//2:Loader::AppLoader_NCCH//1:RendererBase//2:RendererOpenGL//1:FileSys::ArchiveBackend//2:FileSys::Archive_RomFS//2:FileSys::DiskArchive//3:FileSys::Archive_ExtSaveData//3:FileSys::Archive_SaveData//3:FileSys::Archive_SDMC//3:FileSys::Archive_SystemSaveData//1:FileSys::FileBackend//2:FileSys::DiskFile//2:FileSys::File_RomFS//1:Common::ConcurrentRingBuffer//1:ARM_Interface//2:ARM_DynCom//2:ARM_Interpreter//1:FileUtil::IOFile
+EmuWindow, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/emu_window.h, //30, //0:EmuWindow//1:GRenderWindow//1:EmuWindow_GLFW
+Pica::DebugContext::BreakPointObserver, //Tony Wasserka, //neobrainx@gmail.com, //20141025, //src/video_core/debug_utils/debug_utils.h, //42, //0:Pica::DebugContext::BreakPointObserver//1:BreakPointObserverDock//2:GraphicsFramebufferWidget//1:GraphicsBreakPointsWidget
+GraphicsDebugger::DebuggerObserver, //Tony Wasserka, //neobrainx@gmail.com, //20140517, //src/video_core/gpu_debugger.h, //22, //0:GraphicsDebugger::DebuggerObserver//1:GPUCommandStreamItemModel

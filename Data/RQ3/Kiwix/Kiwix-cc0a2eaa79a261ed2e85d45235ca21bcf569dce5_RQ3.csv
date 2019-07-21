@@ -1,0 +1,28 @@
+class template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+zim::Cache, //3, //3, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/include/zim/cache.h, //29
+CTPP::CharIterator, //1, //1, //kelson42, //kelson42@user.sourceforge.net, //20101223, //src/ctpp2/include/CTPP2CharIterator.hpp, //49
+CTPP::SymbolTable, //10, //2, //kelson42, //kelson42@user.sourceforge.net, //20101223, //src/ctpp2/include/CTPP2SymbolTable.hpp, //53
+zim::SmartPtr, //5, //4, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/include/zim/smartptr.h, //35
+CTPP::SymbolTable::SymbolRecord, //12, //2, //kelson42, //kelson42@user.sourceforge.net, //20101223, //src/ctpp2/include/CTPP2SymbolTable.hpp, //60
+axis_to_type, //13, //1, //kelson42, //kelson42@user.sourceforge.net, //20110328, //src/pugixml/pugixml.cpp, //6753
+strconv_attribute_impl, //16, //2, //kelson42, //kelson42@user.sourceforge.net, //20110328, //src/pugixml/pugixml.cpp, //1694
+strconv_pcdata_impl, //4, //4, //kelson42, //kelson42@user.sourceforge.net, //20110328, //src/pugixml/pugixml.cpp, //1643
+utf_decoder, //22, //10, //kelson42, //kelson42@user.sourceforge.net, //20110328, //src/pugixml/pugixml.cpp, //768
+
+base class, developer, email, edit time, definition file path, line, sub-class hierarchy
+CTPP::Logger, //kelson42, //kelson42@user.sourceforge.net, //20101223, //src/ctpp2/include/CTPP2Logger.hpp, //67, //0:CTPP::Logger//1:CTPP::FileLogger
+CTPP::SyscallHandler, //kelson42, //kelson42@user.sourceforge.net, //20101223, //src/ctpp2/include/CTPP2VMSyscall.hpp, //58, //0:CTPP::SyscallHandler//1:CTPP::FnJSON//1:CTPP::FnError//1:CTPP::FnURIEscape//1:CTPP::FnCast//1:CTPP::FnConcat//1:CTPP::FnHTMLEscape//1:CTPP::FnDateFormat//1:CTPP::FnJSEscape//1:CTPP::FnSize//1:CTPP::FnIconv//1:CTPP::FnDefined//1:CTPP::FnArrayElement//1:CTPP::FnGetText_//1:CTPP::FnGetText//1:CTPP::FnHrefParam//1:CTPP::FnSubstring//1:CTPP::FnDefault//1:CTPP::FnMBSubstring//1:CTPP::FnXMLEscape//1:CTPP::FnRandom//1:CTPP::FnMBSize//1:CTPP::FnSprintf//1:CTPP::FnBase64Encode//1:CTPP::FnInSet//1:CTPP::FnAvg//1:CTPP::FnObjDump//1:CTPP::FnMax//1:CTPP::FnFormParam//1:CTPP::FnTruncate//1:CTPP::FnBase64Decode//1:CTPP::FnURLEscape//1:CTPP::FnMin//1:CTPP::FnNumeral//1:CTPP::FnListElement//1:CTPP::FnNumFormat//1:CTPP::FnHashElement//1:CTPP::FnVersion//1:CTPP::FnWMLEscape//1:CTPP::FnMBTruncate//1:CTPP::FnLog//1:CTPP::FnEmitter
+kiwix::Indexer, //kelson42, //kelson42@user.sourceforge.net, //20091217, //src/common/kiwix/indexer.h, //60, //0:kiwix::Indexer//1:kiwix::XapianIndexer//1:kiwix::CluceneIndexer
+HtmlParser, //kelson42, //kelson42@user.sourceforge.net, //20091113, //src/common/kiwix/xapian/htmlparse.h, //31, //0:HtmlParser//1:MyHtmlParser
+pugi::xml_node, //kelson42, //kelson42@user.sourceforge.net, //20110328, //src/pugixml/pugixml.hpp, //338, //0:pugi::xml_node//1:pugi::xml_document
+CTPP::OutputCollector, //kelson42, //kelson42@user.sourceforge.net, //20101223, //src/ctpp2/include/CTPP2OutputCollector.hpp, //49, //0:CTPP::OutputCollector//1:CTPP::FileOutputCollector//1:CTPP::StringIconvOutputCollector//1:CTPP::StringOutputCollector//1:CTPP::StreamOutputCollector
+CTPP::CTPP2SourceLoader, //kelson42, //kelson42@user.sourceforge.net, //20101223, //src/ctpp2/include/CTPP2SourceLoader.hpp, //49, //0:CTPP::CTPP2SourceLoader//1:CTPP::CTPP2TextLoader//1:CTPP::CTPP2FileSourceLoader
+CTPP::CDT::SortingComparator, //kelson42, //kelson42@user.sourceforge.net, //20101223, //src/ctpp2/include/CDT.hpp, //1688, //0:CTPP::CDT::SortingComparator//1:CTPP::SortCompareNum//1:CTPP::SortCompareNumArrayElement//1:CTPP::SortCompareNumHashElement//1:CTPP::SortCompareStr//1:CTPP::SortCompareStrArrayElement//1:CTPP::SortCompareStrHashElement
+kiwix::Searcher, //kelson42, //kelson42@user.sourceforge.net, //20100123, //src/common/kiwix/searcher.h, //63, //0:kiwix::Searcher//1:kiwix::CluceneSearcher//1:kiwix::XapianSearcher
+zim::Article, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/include/zim/article.h, //32, //0:zim::Article//1:zim::IndexArticle
+zim::TemplateParser::Event, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/include/zim/template.h, //30, //0:zim::TemplateParser::Event//1:zim::Ev
+CTPP::CTPP2JSONParser, //kelson42, //kelson42@user.sourceforge.net, //20101223, //src/ctpp2/include/CTPP2JSONParser.hpp, //52, //0:CTPP::CTPP2JSONParser//1:CTPP::CTPP2JSONFileParser
+pugi::xml_writer, //kelson42, //kelson42@user.sourceforge.net, //20110328, //src/pugixml/pugixml.hpp, //216, //0:pugi::xml_writer//1:pugi::xml_writer_file//1:pugi::xml_writer_stream
+pugi::xpath_variable, //kelson42, //kelson42@user.sourceforge.net, //20110328, //src/pugixml/pugixml.hpp, //818, //0:pugi::xpath_variable//1:xpath_variable_boolean//1:xpath_variable_node_set//1:xpath_variable_number//1:xpath_variable_string
+zim::NonCopyable, //kelson42, //kelson42@user.sourceforge.net, //20091029, //src/zimlib/include/zim/noncopyable.h, //34, //0:zim::NonCopyable//1:zim::RefCounted//2:zim::FileImpl//2:zim::streambuf::FileInfo//2:zim::streambuf::OpenfileInfo//2:zim::ClusterImpl
+CTPP::VMLoader, //kelson42, //kelson42@user.sourceforge.net, //20101223, //src/ctpp2/include/CTPP2VMLoader.hpp, //51, //0:CTPP::VMLoader//1:CTPP::VMFileLoader
