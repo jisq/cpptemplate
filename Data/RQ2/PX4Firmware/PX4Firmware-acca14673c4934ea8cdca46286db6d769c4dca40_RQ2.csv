@@ -1,0 +1,62 @@
+function template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+
+generic function-like macro, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+POW2, //3, //2, //px4dev, //px4@purgatory.org, //20130714, //src/drivers/ms5611/ms5611.cpp, //84
+LL_APPEND, //3, //2, //px4dev, //px4@purgatory.org, //20120819, //src/modules/systemlib/uthash/utlist.h, //307
+LL_FOREACH, //9, //3, //px4dev, //px4@purgatory.org, //20120819, //src/modules/systemlib/uthash/utlist.h, //377
+ut_assert, //25, //5, //Don Gagne, //don@thegagnes.com, //20140327, //src/modules/unit_test/unit_test.h, //61
+
+function implemented with void*, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+orb_copy, //115, //3, //px4dev, //px4@purgatory.org, //20120804, //src/modules/uORB/uORB.cpp, //974
+px::ObstacleMap::set_data, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //mavlink/share/pyshared/pymavlink/generator/C/include_v1.0/pixhawk/pixhawk.pb.h, //2568
+orb_advertise, //87, //2, //px4dev, //px4@purgatory.org, //20120804, //src/modules/uORB/uORB.cpp, //931
+orb_publish, //75, //3, //px4dev, //px4@purgatory.org, //20120821, //src/modules/uORB/uORB.cpp, //968
+ORBDevNode::publish, //1, //1, //px4dev, //px4@purgatory.org, //20120821, //src/modules/uORB/uORB.cpp, //374
+ORBDevNode::update_deferred_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //src/modules/uORB/uORB.cpp, //514
+node_open, //2, //1, //px4dev, //px4@purgatory.org, //20120804, //src/modules/uORB/uORB.cpp, //873
+mav_array_memcpy, //152, //18, //Lorenz Meier, //lorenz@px4.io, //20130910, //mavlink/include/mavlink/v1.0/protocol.h, //165
+RingBuffer::force, //19, //1, //px4dev, //px4@purgatory.org, //20130909, //src/drivers/device/ringbuffer.h, //288
+RingBuffer::get, //38, //1, //px4dev, //px4@purgatory.org, //20130909, //src/drivers/device/ringbuffer.h, //362
+MS5611::cycle_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20130714, //src/drivers/ms5611/ms5611.cpp, //518
+MB12XX::cycle_trampoline, //0, //0, //Greg Hulands, //ghulands@me.com, //20130301, //src/drivers/mb12xx/mb12xx.cpp, //558
+mixer_handle_text, //0, //0, //px4dev, //px4@purgatory.org, //20121229, //src/modules/px4iofirmware/mixer.cpp, //334
+MavlinkFTP::_workerTrampoline, //0, //0, //px4dev, //px4@purgatory.org, //20140504, //src/modules/mavlink/mavlink_ftp.cpp, //92
+RingBuffer::put, //11, //1, //px4dev, //px4@purgatory.org, //20130909, //src/drivers/device/ringbuffer.h, //213
+UBX::send_message, //1, //1, //Lorenz Meier, //lorenz@px4.io, //20130505, //src/drivers/gps/ubx.cpp, //732
+SF0X::cycle_trampoline, //0, //0, //Lorenz Meier, //lorenz@px4.io, //20140308, //src/drivers/sf0x/sf0x.cpp, //688
+Airspeed::cycle_trampoline, //0, //0, //Lorenz Meier, //lorenz@px4.io, //20130710, //src/drivers/airspeed/airspeed.cpp, //379
+MavlinkOrbSubscription::update, //30, //1, //Anton Babushkin, //anton.babushkin@me.com, //20140611, //src/modules/mavlink/mavlink_orb_subscription.cpp, //69
+MavlinkOrbSubscription::update, //7, //1, //Anton Babushkin, //anton.babushkin@me.com, //20140611, //src/modules/mavlink/mavlink_orb_subscription.cpp, //99
+LSM303D::mag_measure_trampoline, //1, //1, //Julian Oes, //julian@oes.ch, //20130405, //src/drivers/lsm303d/lsm303d.cpp, //1458
+LSM303D::measure_trampoline, //0, //0, //Lorenz Meier, //lorenz@px4.io, //20130404, //src/drivers/lsm303d/lsm303d.cpp, //1449
+LSM303D_mag::measure_trampoline, //0, //0, //Julian Oes, //julian@oes.ch, //20130405, //src/drivers/lsm303d/lsm303d.cpp, //1764
+utarray_str_cpy, //0, //0, //px4dev, //px4@purgatory.org, //20120819, //src/modules/systemlib/uthash/utarray.h, //220
+utarray_str_dtor, //0, //0, //px4dev, //px4@purgatory.org, //20120819, //src/modules/systemlib/uthash/utarray.h, //224
+MPU6000::measure_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20120813, //src/drivers/mpu6000/mpu6000.cpp, //1158
+Mavlink::message_buffer_get_ptr, //2, //1, //Julian Oes, //julian@oes.ch, //20140403, //src/modules/mavlink/mavlink_main.cpp, //1739
+Mavlink::message_buffer_write, //2, //1, //Julian Oes, //julian@oes.ch, //20140403, //src/modules/mavlink/mavlink_main.cpp, //1705
+commander_low_prio_loop, //0, //0, //Julian Oes, //julian@oes.ch, //20130326, //src/modules/commander/commander.cpp, //1917
+device::interrupt, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //src/drivers/device/device.cpp, //214
+ToneAlarm::next_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20130310, //src/drivers/stm32/tone_alarm/tone_alarm.cpp, //723
+ADC::_tick_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20121231, //src/drivers/stm32/adc/adc.cpp, //290
+px::RGBDImage::set_imagedata2, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //mavlink/share/pyshared/pymavlink/generator/C/include_v1.0/pixhawk/pixhawk.pb.h, //3207
+px::RGBDImage::set_imagedata1, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //mavlink/share/pyshared/pymavlink/generator/C/include_v1.0/pixhawk/pixhawk.pb.h, //3105
+px::GLOverlay::set_data, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //mavlink/share/pyshared/pymavlink/generator/C/include_v1.0/pixhawk/pixhawk.pb.h, //2107
+MavlinkReceiver::receive_thread, //1, //1, //Lorenz Meier, //lorenz@px4.io, //20140126, //src/modules/mavlink/mavlink_receiver.cpp, //939
+MavlinkReceiver::start_helper, //0, //0, //Lorenz Meier, //lorenz@px4.io, //20140128, //src/modules/mavlink/mavlink_receiver.cpp, //997
+L3GD20::measure_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20120827, //src/drivers/l3gd20/l3gd20.cpp, //803
+BMA180::measure_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //src/drivers/bma180/bma180.cpp, //661
+mav_array_memcpy, //55, //22, //px4dev, //px4@purgatory.org, //20120804, //mavlink/share/pyshared/pymavlink/generator/C/include_v1.0/protocol.h, //159
+HMC5883::cycle_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20120821, //src/drivers/hmc5883/hmc5883.cpp, //706
+GPS::task_main_trampoline, //0, //0, //Lorenz Meier, //lorenz@px4.io, //20130204, //src/drivers/gps/gps.cpp, //246
+px::RGBDImage::set_imagedata2, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //mavlink/include/mavlink/v1.0/pixhawk/pixhawk.pb.h, //3207
+px::GLOverlay::set_data, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //mavlink/include/mavlink/v1.0/pixhawk/pixhawk.pb.h, //2107
+mav_array_memcpy, //3, //1, //px4dev, //px4@purgatory.org, //20120804, //mavlink/share/pyshared/pymavlink/generator/C/include_v0.9/protocol.h, //159
+BlinkM::led_trampoline, //0, //0, //Marco Bauer, //marco@wtns.de, //20130112, //src/drivers/blinkm/blinkm.cpp, //407
+PCA8574::led_trampoline, //0, //0, //Lorenz Meier, //lorenz@px4.io, //20140429, //src/drivers/pca8574/pca8574.cpp, //250
+read_with_retry, //3, //2, //Andrew Tridgell, //andrew@tridgell.net, //20130127, //src/drivers/px4io/px4io_uploader.cpp, //398
+RGBLED::led_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20130406, //src/drivers/rgbled/rgbled.cpp, //255
+PX4FLOW::cycle_trampoline, //0, //0, //dominiho, //dominik.honegger@inf.ethz.ch, //20140313, //src/drivers/px4flow/px4flow.cpp, //529
+px::ObstacleMap::set_data, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //mavlink/include/mavlink/v1.0/pixhawk/pixhawk.pb.h, //2568
+px::RGBDImage::set_imagedata1, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //mavlink/include/mavlink/v1.0/pixhawk/pixhawk.pb.h, //3105
+

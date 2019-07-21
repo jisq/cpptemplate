@@ -1,0 +1,58 @@
+function template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+
+generic function-like macro, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+toCart, //133, //3, //Paul Corner, //paul_c@users.sourceforge.net, //20040125, //src/libnml/posemath/posemath.h, //937
+toHom, //4, //3, //Paul Corner, //paul_c@users.sourceforge.net, //20040125, //src/libnml/posemath/posemath.h, //957
+toMat, //21, //3, //Paul Corner, //paul_c@users.sourceforge.net, //20040125, //src/libnml/posemath/posemath.h, //947
+toPose, //24, //4, //Paul Corner, //paul_c@users.sourceforge.net, //20040125, //src/libnml/posemath/posemath.h, //955
+toQuat, //58, //3, //Paul Corner, //paul_c@users.sourceforge.net, //20040125, //src/libnml/posemath/posemath.h, //943
+toRot, //7, //3, //Paul Corner, //paul_c@users.sourceforge.net, //20040125, //src/libnml/posemath/posemath.h, //945
+CHK, //204, //134, //John Kasunich, //jmkasunich@fastmail.fm, //20050504, //src/emc/rs274ngc/interp_internal.hh, //413
+CHP, //141, //10, //John Kasunich, //jmkasunich@fastmail.fm, //20050504, //src/emc/rs274ngc/interp_internal.hh, //420
+CYCLE_MACRO, //27, //3, //John Kasunich, //jmkasunich@fastmail.fm, //20050504, //src/emc/rs274ngc/interp_internal.hh, //430
+ERM, //69, //54, //John Kasunich, //jmkasunich@fastmail.fm, //20050504, //src/emc/rs274ngc/interp_internal.hh, //400
+ERP, //11, //5, //John Kasunich, //jmkasunich@fastmail.fm, //20050504, //src/emc/rs274ngc/interp_internal.hh, //407
+CLOSE, //12, //5, //Paul Corner, //paul_c@users.sourceforge.net, //20040125, //src/emc/usr_intf/emcsh.cc, //696
+logDebug, //35, //5, //Kenneth Lerman, //lerman-emc@se-ltd.com, //20051207, //src/emc/rs274ngc/rs274ngc.hh, //34
+
+function implemented with void*, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+CMS::main_access, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cms.cc, //868
+SHMEM::main_access, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/buffer/shmem.cc, //456
+LinkedList::store_at_tail, //22, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040125, //src/libnml/linklist/linklist.cc, //283
+emcFormat, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040125, //src/emc/nml_intf/emc.cc, //48
+NML::operator delete, //61, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/nml/nml.cc, //122
+nmlErrorFormat, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/nml/nml_oi.cc, //37
+CMS_UPDATER::set_encoded_data, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cms_up.cc, //127
+CMS_XDR_UPDATER::set_encoded_data, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cms_xup.cc, //183
+RCS_TIMER::RCS_TIMER, //1, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040125, //src/libnml/os_intf/timer.cc, //87
+tcpsvr_handle_blocking_request, //1, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040126, //src/libnml/cms/tcp_srv.cc, //513
+PHANTOMMEM::main_access, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/buffer/phantom.cc, //29
+PHYSMEM_HANDLE::read, //46, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/buffer/physmem.cc, //86
+PHYSMEM_HANDLE::set_to_ptr, //2, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/buffer/physmem.cc, //73
+PHYSMEM_HANDLE::write, //33, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/buffer/physmem.cc, //137
+CMS::calculate_and_store_diag_info, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cmsdiag.cc, //103
+CMS::internal_access, //2, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cms_in.cc, //58
+CMS::internal_access, //1, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cms_in.cc, //84
+CMS::internal_retrieve_diag_info, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cmsdiag.cc, //230
+CMS::queue_write_if_read_raw, //1, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cms_in.cc, //1830
+CMS::queue_write_raw, //1, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cms_in.cc, //1405
+CMS::write_if_read_raw, //1, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cms_in.cc, //1755
+CMS::write_raw, //1, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cms_in.cc, //1328
+TCPMEM::write, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040126, //src/libnml/buffer/tcpmem.cc, //1439
+TCPMEM::write_if_read, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040126, //src/libnml/buffer/tcpmem.cc, //1566
+CMS::write, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cms.cc, //1012
+CMS::write_if_read, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cms.cc, //1020
+NML::peek, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/nml/nml.cc, //1279
+NML::read, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/nml/nml.cc, //1258
+NML::run_format_chain, //4, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/nml/nml.cc, //1949
+CMS::set_encoded_data, //2, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cms.cc, //814
+LinkedList::store_after_current_node, //2, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20050626, //src/libnml/linklist/linklist.cc, //370
+LinkedList::store_at_head, //1, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040125, //src/libnml/linklist/linklist.cc, //202
+LinkedList::store_before_current_node, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040125, //src/libnml/linklist/linklist.cc, //489
+LinkedListNode::LinkedListNode, //9, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20031031, //src/libnml/linklist/linklist.cc, //28
+RCS_CMD_MSG_format, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/nml/cmd_msg.cc, //37
+iniFind, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20050806, //src/libnml/inifile/inifile.cc, //474
+RCS_STAT_MSG_format, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/nml/stat_msg.cc, //39
+LOCMEM::main_access, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/buffer/locmem.cc, //117
+CMS::operator delete, //12, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cms.cc, //102
+

@@ -1,0 +1,62 @@
+function template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+math::MatrixBase::operator*, //4, //1, //Anton Babushkin, //anton.babushkin@me.com, //20131219, //src/lib/mathlib/math/Matrix.hpp, //275
+UavcanCDevSensorBridgeBase::UavcanCDevSensorBridgeBase, //0, //0, //Pavel Kirienko, //pavel.kirienko@gmail.com, //20140823, //src/modules/uavcan/sensors/sensor_bridge.hpp, //106
+
+generic function-like macro, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+ut_assert, //17, //7, //Don Gagne, //don@thegagnes.com, //20140327, //src/modules/unit_test/unit_test.h, //85
+ut_compare, //66, //11, //Don Gagne, //don@thegagnes.com, //20140902, //src/modules/unit_test/unit_test.h, //97
+LL_APPEND, //5, //4, //px4dev, //px4@purgatory.org, //20120819, //src/modules/systemlib/uthash/utlist.h, //307
+LL_FOREACH, //11, //3, //px4dev, //px4@purgatory.org, //20120819, //src/modules/systemlib/uthash/utlist.h, //377
+debug, //7, //3, //px4dev, //px4@purgatory.org, //20121229, //src/modules/systemlib/mixer/mixer_multirotor.cpp, //58
+MOTOR_BIT, //2, //2, //Holger Steinhaus, //holger@steinhaus-home.de, //20140814, //src/modules/uavcan/actuators/esc.cpp, //44
+POW2, //3, //2, //px4dev, //px4@purgatory.org, //20130714, //src/drivers/ms5611/ms5611.cpp, //85
+MIXER_SIMPLE_SIZE, //2, //2, //px4dev, //px4@purgatory.org, //20120811, //src/drivers/drv_mixer.h, //96
+debug, //16, //3, //px4dev, //px4@purgatory.org, //20121229, //src/modules/systemlib/mixer/mixer_simple.cpp, //57
+
+function implemented with void*, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+orb_copy, //159, //4, //px4dev, //px4@purgatory.org, //20120804, //src/modules/uORB/uORB.cpp, //974
+ToneAlarm::next_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20130310, //src/drivers/stm32/tone_alarm/tone_alarm.cpp, //727
+orb_advertise, //103, //8, //px4dev, //px4@purgatory.org, //20120804, //src/modules/uORB/uORB.cpp, //931
+orb_publish, //95, //5, //px4dev, //px4@purgatory.org, //20120821, //src/modules/uORB/uORB.cpp, //968
+mixer_handle_text, //0, //0, //px4dev, //px4@purgatory.org, //20121229, //src/modules/px4iofirmware/mixer.cpp, //354
+MavlinkReceiver::receive_thread, //1, //1, //Lorenz Meier, //lorenz@px4.io, //20140126, //src/modules/mavlink/mavlink_receiver.cpp, //1344
+MavlinkReceiver::start_helper, //0, //0, //Lorenz Meier, //lorenz@px4.io, //20140128, //src/modules/mavlink/mavlink_receiver.cpp, //1397
+Airspeed::cycle_trampoline, //0, //0, //Lorenz Meier, //lorenz@px4.io, //20130710, //src/drivers/airspeed/airspeed.cpp, //381
+BlinkM::led_trampoline, //0, //0, //Marco Bauer, //marco@wtns.de, //20130112, //src/drivers/blinkm/blinkm.cpp, //407
+commander_low_prio_loop, //0, //0, //Julian Oes, //julian@oes.ch, //20130326, //src/modules/commander/commander.cpp, //2485
+RingBuffer::force, //23, //1, //px4dev, //px4@purgatory.org, //20130909, //src/drivers/device/ringbuffer.h, //292
+RingBuffer::get, //49, //1, //px4dev, //px4@purgatory.org, //20130909, //src/drivers/device/ringbuffer.h, //366
+LL40LS::cycle_trampoline, //0, //0, //akdslr, //allyson.kreft@dslrpros.com, //20140415, //src/drivers/ll40ls/ll40ls.cpp, //645
+utarray_str_cpy, //0, //0, //px4dev, //px4@purgatory.org, //20120819, //src/modules/systemlib/uthash/utarray.h, //220
+utarray_str_dtor, //0, //0, //px4dev, //px4@purgatory.org, //20120819, //src/modules/systemlib/uthash/utarray.h, //224
+PX4FLOW::cycle_trampoline, //0, //0, //Lorenz Meier, //lorenz@px4.io, //20141028, //src/drivers/px4flow/px4flow.cpp, //612
+RGBLED::led_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20130406, //src/drivers/rgbled/rgbled.cpp, //255
+ADC::_tick_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20121231, //src/drivers/stm32/adc/adc.cpp, //290
+BATT_SMBUS::cycle_trampoline, //0, //0, //Randy Mackay, //rmackay9@yahoo.com, //20141125, //src/drivers/batt_smbus/batt_smbus.cpp, //288
+PCA9685::i2cpwm_trampoline, //0, //0, //Thomas Gubler, //thomasgubler@gmail.com, //20140820, //src/drivers/pca9685/pca9685.cpp, //291
+TRONE::cycle_trampoline, //0, //0, //Luis Rodrigues, //lfrodrigues@gmail.com, //20140723, //src/drivers/trone/trone.cpp, //618
+BMA180::measure_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //src/drivers/bma180/bma180.cpp, //661
+Mavlink::message_buffer_get_ptr, //1, //1, //Julian Oes, //julian@oes.ch, //20140403, //src/modules/mavlink/mavlink_main.cpp, //1119
+Mavlink::message_buffer_write, //0, //0, //Anton Babushkin, //anton.babushkin@me.com, //20140614, //src/modules/mavlink/mavlink_main.cpp, //1085
+Mavlink::send_message, //0, //0, //Anton Babushkin, //anton.babushkin@me.com, //20140725, //src/modules/mavlink/mavlink_main.cpp, //750
+MavlinkOrbSubscription::update, //30, //1, //Anton Babushkin, //anton.babushkin@me.com, //20140611, //src/modules/mavlink/mavlink_orb_subscription.cpp, //69
+MB12XX::cycle_trampoline, //0, //0, //Greg Hulands, //ghulands@me.com, //20130301, //src/drivers/mb12xx/mb12xx.cpp, //579
+read_with_retry, //3, //2, //Andrew Tridgell, //andrew@tridgell.net, //20130127, //src/drivers/px4io/px4io_uploader.cpp, //394
+RingBuffer::put, //11, //1, //px4dev, //px4@purgatory.org, //20130909, //src/drivers/device/ringbuffer.h, //217
+LSM303D::mag_measure_trampoline, //1, //1, //Julian Oes, //julian@oes.ch, //20130405, //src/drivers/lsm303d/lsm303d.cpp, //1410
+LSM303D::measure_trampoline, //0, //0, //Lorenz Meier, //lorenz@px4.io, //20130404, //src/drivers/lsm303d/lsm303d.cpp, //1401
+LSM303D_mag::measure_trampoline, //0, //0, //Julian Oes, //julian@oes.ch, //20130405, //src/drivers/lsm303d/lsm303d.cpp, //1796
+MavlinkOrbSubscription::update, //7, //1, //Anton Babushkin, //anton.babushkin@me.com, //20140611, //src/modules/mavlink/mavlink_orb_subscription.cpp, //99
+MPU6000::measure_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20120813, //src/drivers/mpu6000/mpu6000.cpp, //1490
+ORBDevNode::publish, //1, //1, //px4dev, //px4@purgatory.org, //20120821, //src/modules/uORB/uORB.cpp, //374
+ORBDevNode::update_deferred_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //src/modules/uORB/uORB.cpp, //514
+node_open, //2, //1, //px4dev, //px4@purgatory.org, //20120804, //src/modules/uORB/uORB.cpp, //873
+GPS::task_main_trampoline, //0, //0, //Lorenz Meier, //lorenz@px4.io, //20130204, //src/drivers/gps/gps.cpp, //269
+SF0X::cycle_trampoline, //0, //0, //Lorenz Meier, //lorenz@px4.io, //20140308, //src/drivers/sf0x/sf0x.cpp, //623
+MS5611::cycle_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20130714, //src/drivers/ms5611/ms5611.cpp, //520
+MavlinkFTP::_worker_trampoline, //0, //0, //Don Gagne, //don@thegagnes.com, //20140902, //src/modules/mavlink/mavlink_ftp.cpp, //141
+device::interrupt, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //src/drivers/device/device.cpp, //223
+HMC5883::cycle_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20120821, //src/drivers/hmc5883/hmc5883.cpp, //807
+L3GD20::measure_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20120827, //src/drivers/l3gd20/l3gd20.cpp, //891
+PCA8574::led_trampoline, //0, //0, //Lorenz Meier, //lorenz@px4.io, //20140429, //src/drivers/pca8574/pca8574.cpp, //250
+

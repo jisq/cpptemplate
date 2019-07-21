@@ -1,0 +1,467 @@
+function template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+Str::Format, //25, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/common/String.h, //286
+Cmd::CmdBase::Print, //44, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/common/Command.h, //186
+Rocket::Core::Property::Property, //18, //1, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Include/Rocket/Core/Property.h, //78
+Log::Notice, //8, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/common/Log.h, //212
+Log::Warn, //31, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/common/Log.h, //207
+Sys::Error, //18, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20140826, //src/common/System.h, //81
+rcAbs, //8, //4, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/recast/Recast.h, //572
+rcClamp, //10, //3, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/recast/Recast.h, //584
+rcMax, //32, //8, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/recast/Recast.h, //567
+rcMin, //34, //7, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/recast/Recast.h, //561
+rcSwap, //12, //4, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/recast/Recast.h, //555
+Log::Logger::Debug, //15, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/common/Log.h, //177
+Sys::Drop, //60, //1, //TimePath, //andrew.hardaker1995@gmail.com, //20150415, //src/common/System.h, //85
+Rocket::Core::Event::GetParameter, //48, //1, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Include/Rocket/Core/Event.h, //100
+Rocket::Core::Property::Get, //25, //1, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Include/Rocket/Core/Property.h, //93
+Rocket::Controls::DataQuery::Get, //5, //1, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Include/Rocket/Controls/DataQuery.h, //61
+Rocket::Core::StringUtilities::IsWhitespace, //14, //1, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Include/Rocket/Core/StringUtilities.h, //89
+Rocket::Core::Math::Max, //66, //1, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Include/Rocket/Core/Math.h, //41
+Rocket::Core::Math::Min, //30, //1, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Include/Rocket/Core/Math.h, //47
+Math::Clamp, //62, //1, //Corentin Wallez, //corentin@wallez.net, //20150413, //src/common/Math.h, //36
+dtClamp, //16, //1, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/detour/DetourCommon.h, //67
+dtSqr, //19, //4, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/detour/DetourCommon.h, //60
+dtSwap, //11, //3, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/detour/DetourCommon.h, //38
+FS::File::Printf, //2, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20140402, //src/common/FileSystem.h, //110
+SwapArray, //9, //8, //cmf028, //cmf1292@hotmail.com, //20130608, //src/engine/botlib/nav.h, //52
+Util::Reader::FillTuple, //5, //1, //Corentin Wallez, //corentin@wallez.net, //20150201, //src/common/Serialize.h, //171
+Util::Reader::FillTuple, //5, //1, //Corentin Wallez, //corentin@wallez.net, //20150201, //src/common/Serialize.h, //173
+Util::Reader::Read, //41, //1, //Corentin Wallez, //corentin@wallez.net, //20150201, //src/common/Serialize.h, //164
+Util::Reader::ReadSize, //9, //1, //Corentin Wallez, //corentin@wallez.net, //20150201, //src/common/Serialize.h, //146
+Util::Writer::Write, //44, //1, //Corentin Wallez, //corentin@wallez.net, //20150201, //src/common/Serialize.h, //73
+Util::Writer::WriteArgs, //5, //1, //Corentin Wallez, //corentin@wallez.net, //20150201, //src/common/Serialize.h, //93
+Util::Writer::WriteArgs, //5, //1, //Corentin Wallez, //corentin@wallez.net, //20150201, //src/common/Serialize.h, //96
+Util::Writer::WriteTuple, //2, //1, //Corentin Wallez, //corentin@wallez.net, //20150201, //src/common/Serialize.h, //102
+Util::Writer::WriteTuple, //2, //1, //Corentin Wallez, //corentin@wallez.net, //20150201, //src/common/Serialize.h, //107
+Cvar::Range::Range, //8, //1, //Corentin Wallez, //corentin@wallez.net, //20140105, //src/common/Cvar.h, //375
+Log::Logger::Notice, //8, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/common/Log.h, //170
+Rocket::Core::Math::Clamp, //22, //1, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Include/Rocket/Core/Math.h, //65
+IPC::CommandBufferClient::SendMsg, //30, //1, //Corentin Wallez, //corentin@wallez.net, //20150205, //src/gamelogic/shared/CommandBufferClient.h, //47
+IPC::HandleMsg, //177, //1, //Corentin Wallez, //corentin@wallez.net, //20150204, //src/common/IPC/Channel.h, //239
+VM::SendMsg, //155, //1, //Corentin Wallez, //corentin@wallez.net, //20140220, //src/gamelogic/shared/VMMain.h, //47
+crnd::color_quad::operator=, //0, //0, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //1334
+Cvar::Callback::Callback, //1, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/common/Cvar.h, //315
+Util::optional::operator=, //2, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //173
+dtAbs, //4, //2, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/detour/DetourCommon.h, //55
+dtMax, //14, //5, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/detour/DetourCommon.h, //50
+dtMin, //14, //6, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/detour/DetourCommon.h, //44
+Math::VectorBase::Swizzle, //0, //0, //Paweł Redman, //pawel.redman@gmail.com, //20150512, //src/common/math/Vector.h, //821
+nacl::operator!=, //10, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20130712, //src/libs/nacl/native_client/src/include/nacl_scoped_ptr.h, //151
+nacl::operator!=, //6, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20130712, //src/libs/nacl/native_client/src/include/nacl_scoped_ptr.h, //255
+nacl::operator!=, //1, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20130712, //src/libs/nacl/native_client/src/include/nacl_scoped_ptr.h, //374
+nacl::operator==, //5, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20130712, //src/libs/nacl/native_client/src/include/nacl_scoped_ptr.h, //146
+nacl::operator==, //3, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20130712, //src/libs/nacl/native_client/src/include/nacl_scoped_ptr.h, //250
+nacl::operator==, //1, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20130712, //src/libs/nacl/native_client/src/include/nacl_scoped_ptr.h, //369
+nacl::swap, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20130712, //src/libs/nacl/native_client/src/include/nacl_scoped_ptr.h, //141
+nacl::swap, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20130712, //src/libs/nacl/native_client/src/include/nacl_scoped_ptr.h, //245
+nacl::swap, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20130712, //src/libs/nacl/native_client/src/include/nacl_scoped_ptr.h, //364
+Cvar::Callback::Callback, //0, //0, //Corentin Wallez, //corentin@wallez.net, //20140205, //src/common/Cvar.h, //323
+Cvar::Modified::Modified, //0, //0, //Corentin Wallez, //corentin@wallez.net, //20131227, //src/common/Cvar.h, //342
+Cvar::Modified::Modified, //0, //0, //Corentin Wallez, //corentin@wallez.net, //20140205, //src/common/Cvar.h, //349
+Cvar::Range::Range, //0, //0, //Corentin Wallez, //corentin@wallez.net, //20140205, //src/common/Cvar.h, //382
+Log::Logger::DoDebugCode, //1, //1, //Corentin Wallez, //corentin@wallez.net, //20150325, //src/common/Log.h, //198
+Log::Logger::Warn, //24, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/common/Log.h, //163
+Rocket::Controls::DataQuery::Get, //2, //1, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Include/Rocket/Controls/DataQuery.h, //91
+Rocket::Controls::DataQuery::GetInto, //3, //1, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Include/Rocket/Controls/DataQuery.h, //101
+Rocket::Controls::DataQuery::GetInto, //3, //1, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Include/Rocket/Controls/DataQuery.h, //78
+IPC::SendMsg, //101, //1, //Corentin Wallez, //corentin@wallez.net, //20150201, //src/common/IPC/Channel.h, //232
+IPC::CommandBufferClient::SendMsgImpl, //1, //1, //Corentin Wallez, //corentin@wallez.net, //20150205, //src/gamelogic/shared/CommandBufferClient.h, //51
+crnd::color_quad::color_quad, //0, //0, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //1311
+Util::make_optional, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //274
+Util::operator!=, //1, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //287
+Util::operator!=, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //320
+Util::operator!=, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //324
+Util::operator!=, //1, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //369
+Util::operator!=, //1, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //373
+Util::operator<, //18, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //291
+Util::operator<, //14, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //328
+Util::operator<, //14, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //332
+Util::operator<, //8, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //377
+Util::operator<, //7, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //381
+Util::operator<=, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //303
+Util::operator<=, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //344
+Util::operator<=, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //348
+Util::operator<=, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //393
+Util::operator<=, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //397
+Util::operator==, //8, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //279
+Util::operator==, //6, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //312
+Util::operator==, //6, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //316
+Util::operator==, //4, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //361
+Util::operator==, //3, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //365
+Util::operator>, //1, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //307
+Util::operator>, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //352
+Util::operator>, //1, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //356
+Util::operator>, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //401
+Util::operator>, //1, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //405
+Util::operator>=, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //299
+Util::operator>=, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //336
+Util::operator>=, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //340
+Util::operator>=, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //385
+Util::operator>=, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //389
+Util::optional::emplace, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //185
+Util::optional::emplace, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //193
+Util::optional::move_or, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //259
+Util::optional::optional, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //122
+Util::optional::optional, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //128
+Util::optional::value_or, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //255
+Util::swap, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131216, //src/common/Optional.h, //269
+rcSqr, //5, //2, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/recast/Recast.h, //577
+Math::VectorBase::Apply2, //1, //1, //Paweł Redman, //pawel.redman@gmail.com, //20150512, //src/common/math/Vector.h, //852
+VM::VMBase::SendMsg, //25, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20140317, //src/engine/framework/VirtualMachine.h, //130
+FS::ZipArchive::ForEachFile, //1, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131209, //src/common/FileSystem.cpp, //819
+Math::VectorBase::Swizzle, //0, //0, //Paweł Redman, //pawel.redman@gmail.com, //20150512, //src/common/math/Vector.h, //816
+Sys::DynamicLib::LoadSym, //1, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20141127, //src/common/System.h, //155
+GLShaderManager::load, //22, //1, //cmf028, //cmf1292@hotmail.com, //20130402, //src/engine/renderer/gl_shader.h, //232
+Rocket::Core::Math::ClampLower, //1, //1, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Include/Rocket/Core/Math.h, //53
+Rocket::Core::Math::ClampUpper, //3, //1, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Include/Rocket/Core/Math.h, //59
+Rocket::Core::Python::NameIndexInterface::visit, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Include/Rocket/Core/Python/NameIndexInterface.h, //70
+Math::Clamp, //1, //1, //Paweł Redman, //pawel.redman@gmail.com, //20150512, //src/common/math/Vector.h, //889
+Math::Clamp, //1, //1, //Paweł Redman, //pawel.redman@gmail.com, //20150512, //src/common/math/Vector.h, //894
+Math::Cross, //0, //0, //Paweł Redman, //pawel.redman@gmail.com, //20150512, //src/common/math/Vector.h, //928
+Math::Distance, //0, //0, //Paweł Redman, //pawel.redman@gmail.com, //20150512, //src/common/math/Vector.h, //921
+Math::DistanceSq, //0, //0, //Paweł Redman, //pawel.redman@gmail.com, //20150512, //src/common/math/Vector.h, //916
+Math::Dot, //2, //1, //Paweł Redman, //pawel.redman@gmail.com, //20150512, //src/common/math/Vector.h, //901
+Math::Length, //1, //1, //Paweł Redman, //pawel.redman@gmail.com, //20150512, //src/common/math/Vector.h, //911
+Math::LengthSq, //2, //1, //Paweł Redman, //pawel.redman@gmail.com, //20150512, //src/common/math/Vector.h, //906
+Math::Max, //1, //1, //Paweł Redman, //pawel.redman@gmail.com, //20150512, //src/common/math/Vector.h, //884
+Math::Min, //1, //1, //Paweł Redman, //pawel.redman@gmail.com, //20150512, //src/common/math/Vector.h, //879
+Math::Mix, //0, //0, //Paweł Redman, //pawel.redman@gmail.com, //20150512, //src/common/math/Vector.h, //942
+Math::Mix, //0, //0, //Paweł Redman, //pawel.redman@gmail.com, //20150512, //src/common/math/Vector.h, //947
+Math::Mix, //0, //0, //Paweł Redman, //pawel.redman@gmail.com, //20150512, //src/common/math/Vector.h, //952
+Math::Normalize, //0, //0, //Paweł Redman, //pawel.redman@gmail.com, //20150512, //src/common/math/Vector.h, //935
+Math::Project, //2, //1, //Paweł Redman, //pawel.redman@gmail.com, //20150512, //src/common/math/Vector.h, //959
+Math::Reflect, //0, //0, //Paweł Redman, //pawel.redman@gmail.com, //20150512, //src/common/math/Vector.h, //973
+Math::Reject, //0, //0, //Paweł Redman, //pawel.redman@gmail.com, //20150512, //src/common/math/Vector.h, //966
+Math::Vector::Vector, //0, //0, //Paweł Redman, //pawel.redman@gmail.com, //20150512, //src/common/math/Vector.h, //232
+Math::Vector::Vector, //0, //0, //Corentin Wallez, //corentin@wallez.net, //20150413, //src/common/math/Vector.h, //236
+Math::Vector::Vector, //0, //0, //Corentin Wallez, //corentin@wallez.net, //20150413, //src/common/math/Vector.h, //249
+Math::Vector::Vector, //0, //0, //Corentin Wallez, //corentin@wallez.net, //20150413, //src/common/math/Vector.h, //253
+Math::Vector::Vector, //0, //0, //Corentin Wallez, //corentin@wallez.net, //20150413, //src/common/math/Vector.h, //298
+Math::Vector::Vector, //0, //0, //Corentin Wallez, //corentin@wallez.net, //20150413, //src/common/math/Vector.h, //302
+Math::Vector::Vector, //0, //0, //Corentin Wallez, //corentin@wallez.net, //20150413, //src/common/math/Vector.h, //437
+Math::Vector::Vector, //0, //0, //Corentin Wallez, //corentin@wallez.net, //20150413, //src/common/math/Vector.h, //441
+Math::VectorBase::Apply, //0, //0, //Paweł Redman, //pawel.redman@gmail.com, //20150512, //src/common/math/Vector.h, //844
+Math::VectorBase::Apply3, //0, //0, //Paweł Redman, //pawel.redman@gmail.com, //20150512, //src/common/math/Vector.h, //860
+Math::VectorBase::FillFromList, //2, //1, //Corentin Wallez, //corentin@wallez.net, //20150413, //src/common/math/Vector.h, //51
+Math::VectorBase::FillFromList, //2, //1, //Corentin Wallez, //corentin@wallez.net, //20150413, //src/common/math/Vector.h, //55
+Math::VectorBase::FillFromList, //2, //1, //Corentin Wallez, //corentin@wallez.net, //20150413, //src/common/math/Vector.h, //60
+Math::VectorBase::Reduce, //0, //0, //Paweł Redman, //pawel.redman@gmail.com, //20150512, //src/common/math/Vector.h, //870
+Log::Debug, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131214, //src/common/Log.h, //217
+Log::Logger::DoNoticeCode, //0, //0, //Corentin Wallez, //corentin@wallez.net, //20150325, //src/common/Log.h, //191
+Log::Logger::DoWarnCode, //0, //0, //Corentin Wallez, //corentin@wallez.net, //20150325, //src/common/Log.h, //184
+Util::apply, //120, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20140217, //src/common/Util.h, //106
+Util::apply_impl, //1, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20140205, //src/common/Util.h, //101
+Util::binary_find, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20140205, //src/common/Util.h, //53
+Util::binary_find, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20140205, //src/common/Util.h, //62
+Util::ref_tuple, //158, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20140217, //src/common/Util.h, //94
+Util::ref_tuple_impl, //1, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20140217, //src/common/Util.h, //90
+Util::uninitialized::assign, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20140214, //src/common/Util.h, //125
+Util::uninitialized::construct, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20140214, //src/common/Util.h, //115
+tinyformat::format, //4, //1, //Corentin Wallez, //corentin@wallez.net, //20131006, //src/libs/tinyformat/tinyformat.h, //898
+tinyformat::format, //3, //1, //Corentin Wallez, //corentin@wallez.net, //20131006, //src/libs/tinyformat/tinyformat.h, //905
+crnd::crnd_delete, //5, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //636
+crnd::crnd_delete_array, //6, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //646
+crnd::crnd_new, //3, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //598
+crnd::crnd_new, //1, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //608
+crnd::crnd_new_array, //4, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //618
+crnd::helpers::construct, //8, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //457
+crnd::helpers::construct, //7, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //463
+crnd::helpers::construct_array, //4, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //469
+crnd::helpers::construct_array, //2, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //477
+crnd::helpers::destruct, //4, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //485
+crnd::helpers::destruct_array, //4, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //491
+crnd::math::clamp, //2, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //698
+crnd::math::maximum, //13, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //688
+crnd::math::maximum, //2, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //693
+crnd::math::minimum, //11, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //678
+crnd::math::minimum, //3, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //683
+crnd::math::square, //4, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //703
+crnd::utils::swap, //4, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //774
+crnd::utils::zero_object, //3, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //763
+crnd::utils::zero_this, //2, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //768
+Rocket::Core::Python::Utilities::Call, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Include/Rocket/Core/Python/Utilities.h, //51
+Rocket::Core::Python::Utilities::MakeObject, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Include/Rocket/Core/Python/Utilities.h, //69
+Rocket::Core::Python::Utilities::MakeObject, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Include/Rocket/Core/Python/Utilities.h, //79
+IPC::detail::HandleMsg, //10, //1, //Corentin Wallez, //corentin@wallez.net, //20150204, //src/common/IPC/Channel.h, //188
+IPC::detail::HandleMsg, //79, //1, //Corentin Wallez, //corentin@wallez.net, //20150204, //src/common/IPC/Channel.h, //204
+IPC::detail::SendMsg, //1, //1, //Corentin Wallez, //corentin@wallez.net, //20150201, //src/common/IPC/Channel.h, //139
+IPC::detail::SendMsg, //13, //1, //Corentin Wallez, //corentin@wallez.net, //20150201, //src/common/IPC/Channel.h, //152
+tinyformat::detail::FormatIterator::accept, //2, //1, //Corentin Wallez, //corentin@wallez.net, //20131006, //src/libs/tinyformat/tinyformat.h, //584
+tinyformat::detail::FormatIterator::formatCStringTruncate, //1, //1, //Corentin Wallez, //corentin@wallez.net, //20131006, //src/libs/tinyformat/tinyformat.h, //504
+tinyformat::detail::format, //1, //1, //Corentin Wallez, //corentin@wallez.net, //20131006, //src/libs/tinyformat/tinyformat.h, //853
+tinyformat::detail::format, //1, //1, //Corentin Wallez, //corentin@wallez.net, //20131006, //src/libs/tinyformat/tinyformat.h, //861
+tinyformat::formatValue, //2, //1, //Corentin Wallez, //corentin@wallez.net, //20131006, //src/libs/tinyformat/tinyformat.h, //267
+tinyformat::printf, //0, //0, //Corentin Wallez, //corentin@wallez.net, //20131006, //src/libs/tinyformat/tinyformat.h, //913
+HandleMsg, //31, //1, //Corentin Wallez, //corentin@wallez.net, //20150205, //src/engine/client/cl_cgame.cpp, //2145
+HandleMsg, //31, //4, //Corentin Wallez, //corentin@wallez.net, //20150205, //src/engine/client/cl_cgame.cpp, //2155
+nacl::CheckedCast::detail::cast_max, //3, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20130712, //src/libs/nacl/native_client/src/include/checked_cast.h, //134
+nacl::CheckedCast::detail::cast_min, //4, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20130712, //src/libs/nacl/native_client/src/include/checked_cast.h, //129
+nacl::assert_cast, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20130712, //src/libs/nacl/native_client/src/include/checked_cast.h, //399
+nacl::can_cast, //1, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20130712, //src/libs/nacl/native_client/src/include/checked_cast.h, //374
+nacl::checked_cast, //2, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20130712, //src/libs/nacl/native_client/src/include/checked_cast.h, //354
+nacl::saturate_cast, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20130712, //src/libs/nacl/native_client/src/include/checked_cast.h, //408
+Math::VectorBase::Swizzle, //0, //0, //Paweł Redman, //pawel.redman@gmail.com, //20150512, //src/common/math/Vector.h, //806
+Math::VectorBase::Swizzle, //0, //0, //Paweł Redman, //pawel.redman@gmail.com, //20150512, //src/common/math/Vector.h, //811
+
+generic function-like macro, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+Q_strncpyz, //403, //106, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/q_shared.h, //1792
+ColorIndex, //24, //10, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/q_shared.h, //471
+DEG2RAD, //32, //3, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/q_shared.h, //517
+DotProduct, //274, //21, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/q_shared.h, //619
+Q_ftol, //13, //3, //Amanieu d'Antras, //amanieu@gmail.com, //20130729, //src/engine/qcommon/q_shared.h, //534
+Square, //71, //7, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/q_shared.h, //2507
+Vector4Copy, //116, //7, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/q_shared.h, //649
+Vector4Set, //128, //5, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/q_shared.h, //648
+VectorAdd, //155, //17, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/q_shared.h, //621
+VectorClear, //90, //4, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/q_shared.h, //640
+VectorCopy, //906, //32, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/q_shared.h, //622
+VectorMA, //264, //44, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/q_shared.h, //624
+VectorNegate, //25, //6, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/q_shared.h, //641
+VectorScale, //165, //21, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/q_shared.h, //623
+VectorSet, //130, //17, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/q_shared.h, //642
+VectorSubtract, //239, //13, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/q_shared.h, //620
+BUFFER_OFFSET, //4, //2, //TimePath, //andrew.hardaker1995@gmail.com, //20150415, //src/engine/renderer/tr_local.h, //37
+Q_UNUSED, //38, //12, //Amanieu d'Antras, //amanieu@gmail.com, //20130919, //src/engine/qcommon/q_shared.h, //82
+LittleLong, //221, //5, //Amanieu d'Antras, //amanieu@gmail.com, //20130811, //src/common/Endian.h, //170
+LittleShort, //13, //4, //Amanieu d'Antras, //amanieu@gmail.com, //20130811, //src/common/Endian.h, //169
+Hunk_Alloc, //109, //44, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/q_shared.h, //277
+ROCKET_ASSERT, //64, //18, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Include/Rocket/Core/Debug.h, //66
+ARRAY_LEN, //107, //55, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/q_shared.h, //375
+FOFS, //51, //10, //Viech, //viech@unvanquished.net, //20131028, //src/gamelogic/sgame/sg_definitions.h, //55
+UNREFERENCED_PARAMETER, //10, //4, //Amanieu d'Antras, //amanieu@gmail.com, //20130712, //src/libs/nacl/native_client/src/include/nacl_compiler_annotations.h, //37
+ROCKET_UNUSED, //140, //3, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Include/Rocket/Core/Platform.h, //82
+ROCKET_UNUSED_ASSERT, //3, //2, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Include/Rocket/Core/Platform.h, //107
+ROCKET_UNUSED_ASSERT_PARAMETER, //3, //2, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Include/Rocket/Core/Platform.h, //106
+trap_CM_BoxTrace, //4, //3, //Corentin Wallez, //corentin@wallez.net, //20140831, //src/engine/client/cg_api.h, //152
+RAD2DEG, //31, //5, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/q_shared.h, //518
+_, //176, //4, //dolcetriade, //vcelestialragev@gmail.com, //20130614, //src/gamelogic/cgame/cg_ui.h, //39
+Vector4Lerp, //4, //2, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/q_shared.h, //652
+VectorLerpTrem, //7, //4, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/q_shared.h, //625
+QuatCopy, //8, //3, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/q_shared.h, //919
+BigShort, //14, //4, //Amanieu d'Antras, //amanieu@gmail.com, //20130811, //src/common/Endian.h, //173
+SnapVector, //15, //2, //Amanieu d'Antras, //amanieu@gmail.com, //20130817, //src/engine/qcommon/q_shared.h, //659
+Q_clamp, //9, //6, //Corentin Wallez, //corentin@wallez.net, //20150413, //src/engine/qcommon/q_shared.h, //520
+Vector2Subtract, //4, //3, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/q_shared.h, //646
+Vector2Copy, //5, //2, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/q_shared.h, //645
+D, //67, //9, //cmf028, //cmf1292@hotmail.com, //20130506, //src/gamelogic/sgame/sg_bot_parse.h, //29
+allocNode, //6, //4, //cmf028, //cmf1292@hotmail.com, //20130506, //src/gamelogic/sgame/sg_bot_parse.h, //27
+PAD, //20, //5, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/q_shared.h, //189
+XSTRING, //6, //5, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/q_shared.h, //199
+ANGLE2SHORT, //22, //3, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/q_shared.h, //2053
+ROCKET_UNUSED_SWITCH_ENUM, //9, //3, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Include/Rocket/Core/Platform.h, //133
+SB_BUILDABLE_FROM_IBE, //2, //2, //Darren Salt, //devspam@moreofthesa.me.uk, //20131019, //src/gamelogic/shared/bg_public.h, //279
+ROCKET_ASSERTMSG, //2, //2, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Include/Rocket/Core/Debug.h, //74
+ROCKET_STATIC_ASSERT, //3, //3, //dolcetriade, //vcelestialragev@gmail.com, //20140712, //src/libs/libRocket/Include/Rocket/Core/Debug.h, //106
+ROCKET_VERIFY, //2, //2, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Include/Rocket/Core/Debug.h, //92
+ADMBP, //30, //8, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/gamelogic/sgame/sg_admin.h, //31
+ADMP, //169, //16, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/gamelogic/sgame/sg_admin.h, //29
+ADMP_P, //2, //2, //Darren Salt, //devspam@moreofthesa.me.uk, //20130212, //src/gamelogic/sgame/sg_admin.h, //30
+AP, //32, //8, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/gamelogic/sgame/sg_admin.h, //26
+G_ADMIN_BAN_IS_WARNING, //8, //2, //Darren Salt, //devspam@moreofthesa.me.uk, //20130925, //src/gamelogic/sgame/sg_admin.h, //45
+NETF, //61, //3, //Corentin Wallez, //corentin@wallez.net, //20130713, //src/engine/qcommon/msg.cpp, //914
+PARSE, //147, //2, //Corentin Wallez, //corentin@wallez.net, //20130227, //src/gamelogic/shared/bg_parse.cpp, //38
+PUSH_OP, //6, //2, //dolcetriade, //vcelestialragev@gmail.com, //20130614, //src/gamelogic/cgame/cg_parseutils.cpp, //204
+irc_string_t, //5, //3, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/client/cl_irc.cpp, //176
+LL, //82, //4, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20131102, //src/engine/renderer/tr_model_iqm.cpp, //37
+SET_VARIANT, //8, //5, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Variant.cpp, //80
+ARRAY_LEN, //3, //2, //Darren Salt, //devspam@moreofthesa.me.uk, //20131211, //src/engine/client/libmumblelink.cpp, //44
+VQ2TO2, //3, //3, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/client/cl_cin.cpp, //613
+VQ2TO4, //9, //3, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/client/cl_cin.cpp, //590
+
+function implemented with void*, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+RB_TakeScreenshotCmd, //1, //1, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/renderer/tr_init.cpp, //639
+RB_TakeVideoFrameCmd, //1, //1, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/renderer/tr_init.cpp, //753
+RB_Draw2dPolys, //1, //1, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/renderer/tr_backend.cpp, //4880
+RB_Draw2dPolysIndexed, //1, //1, //cmf028, //cmf1292@hotmail.com, //20130113, //src/engine/renderer/tr_backend.cpp, //4933
+RB_DrawBuffer, //1, //1, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/renderer/tr_backend.cpp, //5358
+RB_DrawView, //1, //1, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/renderer/tr_backend.cpp, //5190
+RB_ExecuteRenderCommands, //2, //2, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/renderer/tr_backend.cpp, //5586
+RB_Finish, //1, //1, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/renderer/tr_backend.cpp, //5551
+RB_RenderToTexture, //1, //1, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/renderer/tr_backend.cpp, //5529
+RB_RotatedPic, //1, //1, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/renderer/tr_backend.cpp, //5006
+RB_RunVisTests, //1, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20130304, //src/engine/renderer/tr_backend.cpp, //5218
+RB_ScissorSet, //1, //1, //Corentin Wallez, //corentin@wallez.net, //20130518, //src/engine/renderer/tr_backend.cpp, //4862
+RB_SetColor, //1, //1, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/renderer/tr_backend.cpp, //4700
+RB_SetColorGrading, //1, //1, //cmf028, //cmf1292@hotmail.com, //20130903, //src/engine/renderer/tr_backend.cpp, //4718
+RB_StretchPic, //1, //1, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/renderer/tr_backend.cpp, //4779
+RB_StretchPicGradient, //1, //1, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/renderer/tr_backend.cpp, //5104
+RB_SwapBuffers, //1, //1, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/renderer/tr_backend.cpp, //5475
+FS_Write, //43, //21, //Amanieu d'Antras, //amanieu@gmail.com, //20140410, //src/engine/qcommon/files.cpp, //326
+Sys_SendPacket, //2, //2, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/qcommon/net_ip.cpp, //839
+dtFree, //34, //20, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/detour/DetourAlloc.cpp, //46
+dtTileCacheAlloc::free, //0, //0, //cmf028, //cmf1292@hotmail.com, //20130204, //src/libs/detour/DetourTileCacheBuilder.h, //92
+Com_AddToGrowList, //22, //10, //Darren Salt, //devspam@moreofthesa.me.uk, //20131214, //src/engine/qcommon/q_shared.cpp, //64
+R_LoadMD3, //1, //1, //TimePath, //andrew.hardaker1995@gmail.com, //20150415, //src/engine/renderer/tr_model_md3.cpp, //34
+rcFree, //45, //20, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/recast/RecastAlloc.cpp, //55
+cmdcmp, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/gamelogic/shared/bg_misc.cpp, //2804
+NaClUnmap, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20130712, //src/libs/nacl/native_client/src/shared/imc/win/nacl_shm.cc, //122
+trap_FS_Read, //18, //4, //Corentin Wallez, //corentin@wallez.net, //20140831, //src/gamelogic/shared/CommonProxies.cpp, //530
+CG_MapLoadNameCompare, //0, //0, //Thomas Debesse, //dev@illwieckz.net, //20150308, //src/gamelogic/cgame/cg_gameinfo.cpp, //151
+operator delete, //106, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20140826, //src/common/System.cpp, //339
+Rocket::Core::Stream::Peek, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Stream.cpp, //69
+Rocket::Core::Stream::PushBack, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Stream.cpp, //131
+Rocket::Core::Stream::PushFront, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/Stream.cpp, //121
+NaClMap, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20130712, //src/libs/nacl/native_client/src/shared/imc/win/nacl_shm.cc, //62
+eventCmdCmp, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130411, //src/gamelogic/cgame/cg_rocket_events.cpp, //415
+trap_FS_Write, //38, //6, //Corentin Wallez, //corentin@wallez.net, //20140831, //src/gamelogic/shared/CommonProxies.cpp, //537
+Rocket::Core::LayoutBlockBoxSpace::operator delete, //2, //1, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/LayoutBlockBoxSpace.cpp, //275
+Rocket::Core::LayoutEngine::DeallocateLayoutChunk, //5, //1, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/LayoutEngine.cpp, //302
+InitLink, //3, //2, ///dev/humancontroller, //devhc@example.com, //20120619, //src/engine/renderer/tr_local.h, //265
+AddVertexToHashTable, //1, //1, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/renderer/tr_bsp.cpp, //6360
+BSPSurfaceCompare, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/renderer/tr_bsp.cpp, //2797
+InteractionCacheCompare, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/renderer/tr_bsp.cpp, //4956
+LeafSurfaceCompare, //0, //0, //cmf028, //cmf1292@hotmail.com, //20130912, //src/engine/renderer/tr_bsp.cpp, //2879
+LightmapNameCompare, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/renderer/tr_bsp.cpp, //183
+Rocket::Core::LayoutInlineBoxText::operator delete, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/LayoutInlineBoxText.cpp, //135
+R_LoadDDSImageData, //1, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140102, //src/engine/renderer/tr_image_dds.cpp, //151
+trap_Rocket_GetProperty, //10, //5, //Corentin Wallez, //corentin@wallez.net, //20141106, //src/gamelogic/cgame/cg_api.cpp, //814
+elementRenderCmdCmp, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130411, //src/gamelogic/cgame/cg_rocket_draw.cpp, //2654
+compareItemY, //0, //0, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/detour/DetourNavMeshBuilder.cpp, //51
+progressBarCmdCmp, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130518, //src/gamelogic/cgame/cg_rocket_progressbar.cpp, //192
+Rocket::Core::FileInterfaceDefault::Read, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/FileInterfaceDefault.cpp, //53
+FS_Read, //32, //23, //Amanieu d'Antras, //amanieu@gmail.com, //20140410, //src/engine/qcommon/files.cpp, //340
+Z_Free, //53, //16, //Amanieu d'Antras, //amanieu@gmail.com, //20130807, //src/engine/qcommon/qcommon.h, //741
+dtFreeCustom, //0, //0, //cmf028, //cmf1292@hotmail.com, //20130129, //src/engine/botlib/bot_load.cpp, //317
+Com_IndexForGrowListElement, //0, //0, //Darren Salt, //devspam@moreofthesa.me.uk, //20131214, //src/engine/qcommon/q_shared.cpp, //117
+MemStreamRead, //4, //1, //Darren Salt, //devspam@moreofthesa.me.uk, //20131214, //src/engine/qcommon/q_shared.cpp, //165
+Util::Reader::ReadData, //6, //1, //Corentin Wallez, //corentin@wallez.net, //20150201, //src/common/Serialize.h, //138
+Util::Writer::WriteData, //6, //1, //Corentin Wallez, //corentin@wallez.net, //20150201, //src/common/Serialize.h, //63
+FS_FreeFile, //4, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20140410, //src/engine/qcommon/files.cpp, //431
+FS_ReadFile, //1, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20140410, //src/engine/qcommon/files.cpp, //409
+Audio::AL::CaptureDevice::Capture, //1, //1, //Corentin Wallez, //corentin@wallez.net, //20131222, //src/engine/audio/ALObjects.cpp, //875
+FS::File::Read, //5, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131115, //src/common/FileSystem.cpp, //572
+FS::File::Write, //5, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131115, //src/common/FileSystem.cpp, //581
+Com_BlockChecksum, //1, //1, //Corentin Wallez, //corentin@wallez.net, //20140227, //src/engine/qcommon/md5.cpp, //309
+BG_Free, //54, //19, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/gamelogic/shared/bg_alloc.cpp, //39
+CompareBuildablesForRemoval, //0, //0, //Viech, //viech@unvanquished.net, //20130605, //src/gamelogic/sgame/sg_buildable.cpp, //3942
+CompareEntityDistance, //0, //0, //Viech, //viech@unvanquished.net, //20130524, //src/gamelogic/sgame/sg_buildable.cpp, //592
+Rocket::Core::LayoutLineBox::operator delete, //1, //1, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/LayoutLineBox.cpp, //366
+Rocket::Core::LayoutBlockBox::operator delete, //3, //1, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/LayoutBlockBox.cpp, //578
+Rocket::Core::Variant::Set, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/Variant.cpp, //149
+IPC::CommandBuffer::Init, //2, //1, //Corentin Wallez, //corentin@wallez.net, //20150210, //src/common/IPC/CommandBuffer.cpp, //35
+Rocket::Core::StreamMemory::Write, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StreamMemory.cpp, //141
+NaClMap, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20130712, //src/libs/nacl/native_client/src/shared/imc/nacl/nacl_imc.cc, //90
+NaClUnmap, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20130712, //src/libs/nacl/native_client/src/shared/imc/nacl/nacl_imc.cc, //113
+qnettle_random, //0, //0, //Corentin Wallez, //corentin@wallez.net, //20150223, //src/engine/qcommon/crypto.cpp, //30
+Com_Free_Aligned, //2, //2, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140820, //src/engine/qcommon/common.cpp, //709
+Com_QueueEvent, //28, //2, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/common.cpp, //1192
+Hunk_FreeTempMemory, //2, //2, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/common.cpp, //1112
+FS_WriteFile, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20140410, //src/engine/qcommon/files.cpp, //398
+uc_search_cp, //0, //0, //Darren Salt, //devspam@moreofthesa.me.uk, //20131214, //src/engine/qcommon/q_unicode.cpp, //321
+uc_search_range, //0, //0, //Darren Salt, //devspam@moreofthesa.me.uk, //20131214, //src/engine/qcommon/q_unicode.cpp, //291
+Rocket::Core::LayoutInlineBox::operator delete, //1, //1, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/LayoutInlineBox.cpp, //406
+Audio::StreamData, //0, //0, //Corentin Wallez, //corentin@wallez.net, //20140120, //src/engine/null/NullAudio.cpp, //85
+Rocket::Core::StreamFile::Read, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StreamFile.cpp, //102
+Rocket::Core::StreamFile::Write, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/StreamFile.cpp, //108
+compareItemX, //0, //0, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/detour/DetourNavMeshBuilder.cpp, //40
+IN_Init, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131011, //src/engine/null/null_input.cpp, //32
+PlayerListCmpByScore, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130515, //src/gamelogic/cgame/cg_rocket_datasource.cpp, //1057
+ResolutionListCmpByWidth, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130505, //src/gamelogic/cgame/cg_rocket_datasource.cpp, //575
+ServerListCmpByMap, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140816, //src/gamelogic/cgame/cg_rocket_datasource.cpp, //357
+ServerListCmpByName, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140816, //src/gamelogic/cgame/cg_rocket_datasource.cpp, //341
+ServerListCmpByPing, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130505, //src/gamelogic/cgame/cg_rocket_datasource.cpp, //327
+ServerListCmpByPlayers, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140816, //src/gamelogic/cgame/cg_rocket_datasource.cpp, //365
+dataSourceCmdCmp, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130411, //src/gamelogic/cgame/cg_rocket_datasource.cpp, //2038
+IN_Init, //0, //0, //cmf028, //cmf1292@hotmail.com, //20130915, //src/engine/sys/sdl_input.cpp, //1606
+LinearAllocator::free, //0, //0, //cmf028, //cmf1292@hotmail.com, //20130208, //src/engine/botlib/nav.h, //272
+nacl::ScopedPtrMallocFree::operator(), //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20130712, //src/libs/nacl/native_client/src/include/nacl_scoped_ptr.h, //263
+dtFreeDefault, //0, //0, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/detour/DetourAlloc.cpp, //27
+InteractionCompare, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/renderer/tr_light.cpp, //957
+MSG_ReadData, //2, //2, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/msg.cpp, //623
+MSG_WriteData, //12, //7, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/msg.cpp, //343
+NET_SendPacket, //7, //4, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/qcommon/net_chan.cpp, //568
+Beacon::TagTrace_EntCmp, //0, //0, //enneract, //trem.redman@gmail.com, //20140719, //src/gamelogic/sgame/Beacon.cpp, //591
+GLimp_WakeRenderer, //1, //1, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/sys/sdl_glimp.cpp, //303
+compareItemX, //0, //0, //cmf028, //cmf1292@hotmail.com, //20130208, //src/libs/recast/ChunkyTriMesh.cpp, //31
+Rocket_GetProperty, //1, //1, //dolcetriade, //vcelestialragev@gmail.com, //20130522, //src/engine/client/rocket_element.cpp, //193
+Rocket::Core::FontDatabase::AddFace, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20131218, //src/libs/libRocket/Source/Core/FontDatabase.cpp, //260
+Audio::AL::CaptureDevice::CaptureDevice, //0, //0, //Corentin Wallez, //corentin@wallez.net, //20131222, //src/engine/audio/ALObjects.cpp, //904
+Audio::AL::Context::Context, //0, //0, //Corentin Wallez, //corentin@wallez.net, //20131217, //src/engine/audio/ALObjects.cpp, //826
+Audio::AL::Device::Device, //0, //0, //Corentin Wallez, //corentin@wallez.net, //20131217, //src/engine/audio/ALObjects.cpp, //792
+G_admin_flag_sort, //0, //0, //Darren Salt, //devspam@moreofthesa.me.uk, //20130111, //src/gamelogic/sgame/sg_admin.cpp, //4685
+admin_match, //0, //0, //TimePath, //andrew.hardaker1995@gmail.com, //20150415, //src/gamelogic/sgame/sg_admin.cpp, //1182
+admin_match_inactive, //0, //0, //TimePath, //andrew.hardaker1995@gmail.com, //20150415, //src/gamelogic/sgame/sg_admin.cpp, //3492
+admin_out, //0, //0, //Darren Salt, //devspam@moreofthesa.me.uk, //20120512, //src/gamelogic/sgame/sg_admin.cpp, //1196
+admin_search, //5, //3, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/gamelogic/sgame/sg_admin.cpp, //1088
+ban_matchip, //0, //0, //TimePath, //andrew.hardaker1995@gmail.com, //20150415, //src/gamelogic/sgame/sg_admin.cpp, //3792
+ban_matchname, //0, //0, //TimePath, //andrew.hardaker1995@gmail.com, //20150415, //src/gamelogic/sgame/sg_admin.cpp, //3798
+ban_out, //0, //0, //Darren Salt, //devspam@moreofthesa.me.uk, //20120512, //src/gamelogic/sgame/sg_admin.cpp, //3806
+cmplevel, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/gamelogic/sgame/sg_admin.cpp, //1733
+llsort, //2, //2, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/gamelogic/sgame/sg_admin.cpp, //1674
+namelog_matchip, //0, //0, //TimePath, //andrew.hardaker1995@gmail.com, //20150415, //src/gamelogic/sgame/sg_admin.cpp, //4405
+namelog_matchname, //0, //0, //TimePath, //andrew.hardaker1995@gmail.com, //20150415, //src/gamelogic/sgame/sg_admin.cpp, //4422
+namelog_out, //0, //0, //Darren Salt, //devspam@moreofthesa.me.uk, //20120512, //src/gamelogic/sgame/sg_admin.cpp, //4441
+Audio::OggCallbackRead, //0, //0, //Theodor, //theodoridisgr@gmail.com, //20140417, //src/engine/audio/OggCodec.cpp, //65
+SV_QsortEntityNumbers, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/server/sv_snapshot.cpp, //288
+NaClMap, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20130712, //src/libs/nacl/native_client/src/shared/imc/posix/nacl_imc_posix.cc, //200
+NaClUnmap, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20130712, //src/libs/nacl/native_client/src/shared/imc/posix/nacl_imc_posix.cc, //228
+ReadAll, //4, //3, //Amanieu d'Antras, //amanieu@gmail.com, //20130712, //src/libs/nacl/native_client/src/shared/imc/win/nacl_imc.cc, //117
+WriteAll, //7, //2, //Amanieu d'Antras, //amanieu@gmail.com, //20130712, //src/libs/nacl/native_client/src/shared/imc/win/nacl_imc.cc, //132
+compareItemY, //0, //0, //cmf028, //cmf1292@hotmail.com, //20130208, //src/libs/recast/ChunkyTriMesh.cpp, //42
+dataFormatterCmdCmp, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20130411, //src/gamelogic/cgame/cg_rocket_dataformatter.cpp, //484
+qsort_entitystatefields, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/msg.cpp, //981
+qsort_playerstatefields, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/msg.cpp, //1494
+R_LoadMD5, //1, //1, //TimePath, //andrew.hardaker1995@gmail.com, //20150415, //src/engine/renderer/tr_model_md5.cpp, //33
+NET_QueuePacket, //2, //1, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/net_chan.cpp, //509
+NET_SendLoopPacket, //1, //1, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/qcommon/net_chan.cpp, //481
+configVarComparator, //0, //0, //Corentin Wallez, //corentin@wallez.net, //20130407, //src/gamelogic/shared/bg_parse.cpp, //525
+BotInitNode, //6, //4, //cmf028, //cmf1292@hotmail.com, //20130506, //src/gamelogic/sgame/sg_bot_parse.cpp, //728
+DL_cb_FWriteFile, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/client/dl_main.cpp, //55
+DL_cb_Progress, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/client/dl_main.cpp, //65
+SortRanks, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/gamelogic/sgame/sg_main.cpp, //1087
+cvarCompare, //0, //0, //cmf028, //cmf1292@hotmail.com, //20130524, //src/gamelogic/sgame/sg_main.cpp, //570
+Audio::OpusCallbackRead, //0, //0, //Theodor, //theodoridisgr@gmail.com, //20140418, //src/engine/audio/OpusCodec.cpp, //59
+Audio::StreamData, //1, //1, //Corentin Wallez, //corentin@wallez.net, //20140106, //src/engine/audio/Audio.cpp, //346
+FS::ZipArchive::ReadFile, //3, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20131115, //src/common/FileSystem.cpp, //890
+FS::my_pread, //2, //1, //Amanieu d'Antras, //amanieu@gmail.com, //20140415, //src/common/FileSystem.cpp, //252
+Rocket::Core::StreamMemory::Peek, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140809, //src/libs/libRocket/Source/Core/StreamMemory.cpp, //131
+Rocket::Core::StreamMemory::PushFront, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StreamMemory.cpp, //193
+Rocket::Core::StreamMemory::Read, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20121218, //src/libs/libRocket/Source/Core/StreamMemory.cpp, //119
+R_LoadMD5Anim, //1, //1, //TimePath, //andrew.hardaker1995@gmail.com, //20150415, //src/engine/renderer/tr_animation.cpp, //71
+crnd::crnd_get_level_info, //1, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //2798
+crnd::crnd_get_texture_info, //1, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //2773
+crnd::crnd_unpack_begin, //1, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //4733
+crnd::crnd_unpack_level, //1, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //4770
+Audio::GetCapturedData, //0, //0, //Corentin Wallez, //corentin@wallez.net, //20140120, //src/engine/null/NullAudio.cpp, //110
+Audio::GetCapturedData, //1, //1, //Corentin Wallez, //corentin@wallez.net, //20131222, //src/engine/audio/Audio.cpp, //440
+IRC_SystemThreadProc, //0, //0, //Sixthly, //contact@sixthly.net, //20120314, //src/engine/client/cl_irc.cpp, //2583
+LoadIQMFile, //1, //1, //TimePath, //andrew.hardaker1995@gmail.com, //20150415, //src/engine/renderer/tr_model_iqm.cpp, //80
+R_LoadIQModel, //1, //1, //TimePath, //andrew.hardaker1995@gmail.com, //20150415, //src/engine/renderer/tr_model_iqm.cpp, //444
+SafeFS_Write, //14, //5, ///dev/humancontroller, //devhc@example.com, //20120619, //src/engine/client/cl_avi.cpp, //81
+RB_AddFlare, //1, //1, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/renderer/tr_flares.cpp, //110
+Tess_SurfaceSkip, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/renderer/tr_surface.cpp, //1500
+rcFreeDefault, //0, //0, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/recast/RecastAlloc.cpp, //28
+EnQueue, //0, //0, ///dev/humancontroller, //devhc@example.com, //20120619, //src/engine/renderer/tr_local.h, //350
+StackPush, //0, //0, ///dev/humancontroller, //devhc@example.com, //20120619, //src/engine/renderer/tr_local.h, //304
+SortMaps, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/gamelogic/sgame/sg_cmds.cpp, //4022
+crnd::crc16, //4, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //2094
+crnd::crn_unpacker::init, //1, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //3674
+crnd::crn_unpacker::unpack_level, //1, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //3692
+crnd::crn_unpacker::unpack_level, //2, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //3707
+crnd::crnd_create_segmented_file, //0, //0, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //2879
+crnd::crnd_default_msize, //0, //0, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //2480
+crnd::crnd_default_realloc, //0, //0, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //2417
+crnd::crnd_free, //6, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //2571
+crnd::crnd_get_data, //0, //0, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //4751
+crnd::crnd_get_header, //7, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //2690
+crnd::crnd_get_level_data, //0, //0, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //2828
+crnd::crnd_get_segmented_file_size, //1, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //2858
+crnd::crnd_msize, //0, //0, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //2585
+crnd::crnd_realloc, //1, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //2546
+crnd::crnd_set_memory_callbacks, //0, //0, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //2496
+crnd::crnd_unpack_level_segmented, //0, //0, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //4786
+crnd::crnd_validate_file, //1, //1, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //2707
+crnd::utils::invert_buf, //0, //0, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //781
+crnd::vector::object_mover, //0, //0, //Matthias Bentrup, //matthias.bentrup@googlemail.com, //20140103, //src/libs/crunch/crn_decomp.h, //1111
+RE_FreeFontFile, //5, //1, //dolcetriade, //vcelestialragev@gmail.com, //20120827, //src/engine/renderer/tr_font.cpp, //602
+RE_LoadFontFile, //2, //1, //dolcetriade, //vcelestialragev@gmail.com, //20120827, //src/engine/renderer/tr_font.cpp, //547
+GLimp_CompareModes, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/sys/sdl_glimp.cpp, //374
+GLimp_DebugCallback, //0, //0, //Amanieu d'Antras, //amanieu@gmail.com, //20131118, //src/engine/sys/sdl_glimp.cpp, //946
+GLimp_RenderThreadWrapper, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/engine/sys/sdl_glimp.cpp, //276
+IPC::InternalSendMsg, //1, //1, //Corentin Wallez, //corentin@wallez.net, //20150201, //src/common/IPC/Primitives.cpp, //209
+CG_SortDistance, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20120124, //src/gamelogic/cgame/cg_buildable.cpp, //2173
+DaemonFileInterface::Read, //0, //0, //cmf028, //cmf1292@hotmail.com, //20130112, //src/engine/client/rocket.cpp, //91
+Rocket_GetProperty, //0, //0, //dolcetriade, //vcelestialragev@gmail.com, //20140523, //src/engine/null/null_rocket.cpp, //65
+compareItemZ, //0, //0, //cmf028, //cmf1292@hotmail.com, //20120208, //src/libs/detour/DetourNavMeshBuilder.cpp, //62
+CompareBeaconsByDist, //0, //0, //Viech, //viech@unvanquished.net, //20150305, //src/gamelogic/cgame/cg_beacon.cpp, //306
+

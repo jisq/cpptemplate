@@ -1,0 +1,55 @@
+function template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+angleConvert, //3, //1, //tosh, //tosh@monster.hlan, //20130404, //libraries/shared/src/AngleUtil.h, //39
+angleHorizontalPolar, //2, //1, //tosh, //tosh@monster.hlan, //20130404, //libraries/shared/src/AngleUtil.h, //82
+angleSignedNormal, //2, //1, //tosh, //tosh@monster.hlan, //20130404, //libraries/shared/src/AngleUtil.h, //49
+angleUnsignedNormal, //1, //1, //tosh, //tosh@monster.hlan, //20130404, //libraries/shared/src/AngleUtil.h, //68
+UrlReader::readUrl, //1, //1, //tosh, //tosh@monster.hlan, //20130515, //libraries/shared/src/UrlReader.h, //186
+floodFill, //0, //0, //tosh, //tosh@monster.hlan, //20130404, //libraries/shared/src/FloodFill.h, //101
+UrlReader::callback_template, //0, //0, //tosh, //tosh@monster.hlan, //20130418, //libraries/shared/src/UrlReader.h, //265
+UrlReader::feedBuffered, //1, //1, //tosh, //tosh@monster.hlan, //20130418, //libraries/shared/src/UrlReader.h, //204
+radix2InplaceSort, //2, //2, //tosh, //tosh@monster.hlan, //20130324, //libraries/shared/src/Radix2InplaceSort.h, //87
+
+generic function-like macro, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+
+function implemented with void*, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+UDPSocket::receive, //11, //1, //Stephen Birarda, //commit@birarda.com, //20130515, //libraries/shared/src/UDPSocket.cpp, //217
+UDPSocket::send, //23, //1, //Stephen Birarda, //commit@birarda.com, //20130515, //libraries/shared/src/UDPSocket.cpp, //230
+Application::networkReceive, //1, //1, //Andrzej Kapolka, //drzej.k@gmail.com, //20130513, //interface/src/Application.cpp, //2744
+Application::sendVoxelsOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20130604, //interface/src/Application.cpp, //1191
+receiveAgentData, //0, //0, //Stephen Birarda, //commit@birarda.com, //20130423, //eve/src/main.cpp, //44
+animateVoxels, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20130517, //animation-server/src/main.cpp, //620
+VoxelTree::recurseTreeWithOperation, //15, //1, //ZappoMan, //bradh@konamoxt.com, //20130419, //libraries/voxels/src/VoxelTree.cpp, //56
+AudioInjectionManager::injectAudioViaThread, //0, //0, //Stephen Birarda, //commit@birarda.com, //20130516, //libraries/audio/src/AudioInjectionManager.cpp, //51
+VoxelSystem::collectStatsForTreesAndVBOsOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20130509, //interface/src/VoxelSystem.cpp, //1030
+VoxelSystem::falseColorizeDistanceFromViewOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20130501, //interface/src/VoxelSystem.cpp, //766
+VoxelSystem::falseColorizeInViewOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20130501, //interface/src/VoxelSystem.cpp, //746
+VoxelSystem::falseColorizeOccludedOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20130613, //interface/src/VoxelSystem.cpp, //1188
+VoxelSystem::falseColorizeRandomEveryOtherOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20130509, //interface/src/VoxelSystem.cpp, //977
+VoxelSystem::falseColorizeRandomOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20130501, //interface/src/VoxelSystem.cpp, //717
+VoxelSystem::falseColorizeSubTreeOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20130613, //interface/src/VoxelSystem.cpp, //1181
+VoxelSystem::getDistanceFromViewRangeOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20130501, //interface/src/VoxelSystem.cpp, //789
+VoxelSystem::randomColorOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20130501, //interface/src/VoxelSystem.cpp, //701
+VoxelSystem::removeOutOfViewOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20130506, //interface/src/VoxelSystem.cpp, //842
+VoxelSystem::trueColorizeOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20130501, //interface/src/VoxelSystem.cpp, //731
+VoxelTree::recurseNodeWithOperation, //3, //1, //ZappoMan, //bradh@konamoxt.com, //20130419, //libraries/voxels/src/VoxelTree.cpp, //61
+VoxelTree::recurseTreeWithOperationDistanceSorted, //1, //1, //ZappoMan, //bradh@konamoxt.com, //20130612, //libraries/voxels/src/VoxelTree.cpp, //74
+insertIntoSortedArrays, //3, //1, //ZappoMan, //bradh@konamoxt.com, //20130430, //libraries/shared/src/SharedUtil.cpp, //412
+VoxelTree::countVoxelsOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20130508, //libraries/voxels/src/VoxelTree.cpp, //1486
+VoxelTree::deleteVoxelCodeFromTreeRecursion, //2, //1, //ZappoMan, //bradh@konamoxt.com, //20130605, //libraries/voxels/src/VoxelTree.cpp, //339
+VoxelTree::readCodeColorBufferToTreeRecursion, //2, //1, //ZappoMan, //bradh@konamoxt.com, //20130606, //libraries/voxels/src/VoxelTree.cpp, //468
+VoxelTree::recurseNodeWithOperationDistanceSorted, //2, //1, //ZappoMan, //bradh@konamoxt.com, //20130612, //libraries/voxels/src/VoxelTree.cpp, //80
+PointerStack::growAndPush, //1, //1, //ZappoMan, //bradh@konamoxt.com, //20130513, //libraries/shared/src/PointerStack.cpp, //27
+PointerStack::push, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20130513, //libraries/shared/src/PointerStack.h, //25
+UrlReader::transferBegin, //1, //1, //tosh, //tosh@monster.hlan, //20130515, //libraries/shared/src/UrlReader.cpp, //99
+RtMidiIn::setCallback, //0, //0, //Stephen Birarda, //commit@birarda.com, //20130530, //externals/stk/include/RtMidi.h, //430
+Audio::audioCallback, //0, //0, //tosh, //tosh@monster.hlan, //20130617, //interface/src/Audio.cpp, //275
+distributeVoxelsToListeners, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20130427, //voxel-server/src/main.cpp, //411
+countVoxelsOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20130503, //voxel-edit/src/main.cpp, //16
+UDPSocket::receive, //0, //0, //Stephen Birarda, //commit@birarda.com, //20130515, //libraries/shared/src/UDPSocket.cpp, //212
+UDPSocket::send, //1, //1, //Stephen Birarda, //commit@birarda.com, //20130515, //libraries/shared/src/UDPSocket.cpp, //243
+pingUnknownAgents, //0, //0, //Stephen Birarda, //commit@birarda.com, //20130410, //libraries/shared/src/AgentList.cpp, //389
+removeSilentAgents, //0, //0, //Stephen Birarda, //commit@birarda.com, //20130222, //libraries/shared/src/AgentList.cpp, //429
+findCapsulePenetrationOp, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20130521, //libraries/voxels/src/VoxelTree.cpp, //926
+findRayIntersectionOp, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20130521, //libraries/voxels/src/VoxelTree.cpp, //853
+findSpherePenetrationOp, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20130521, //libraries/voxels/src/VoxelTree.cpp, //889
+

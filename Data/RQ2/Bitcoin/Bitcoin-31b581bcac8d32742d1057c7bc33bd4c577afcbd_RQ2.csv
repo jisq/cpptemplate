@@ -1,0 +1,234 @@
+function template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+CAutoFile::GetSerializeSize, //1, //1, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //1161
+CAutoFile::operator<<, //5, //1, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //1168
+CAutoFile::operator>>, //6, //1, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //1178
+CDataStream::operator>>, //62, //1, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //1005
+GetSerializeSize, //21, //8, //Pieter Wuille, //pieter.wuille@gmail.com, //20120416, //src/serialize.h, //339
+REF, //26, //1, //Giel van Schijndel, //me@mortis.eu, //20110811, //src/serialize.h, //36
+SerReadWrite, //408, //1, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //670
+SerReadWrite, //302, //1, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //676
+SerReadWrite, //313, //1, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //683
+Hash, //22, //6, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110514, //src/util.h, //384
+Hash, //2, //1, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110514, //src/util.h, //395
+SerializeHash, //6, //1, //Gavin Andresen, //gavinandresen@gmail.com, //20111216, //src/util.h, //429
+CAlert::Serialize, //0, //0, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20100825, //src/main.h, //1508
+CAlert::Unserialize, //0, //0, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20100825, //src/main.h, //1508
+CTxIn::Unserialize, //0, //0, //h, //, //, //src/core.h, //85
+CBlock::Unserialize, //0, //0, //h, //, //, //src/core.h, //475
+CBlockLocator::Serialize, //0, //0, //h, //, //, //src/core.h, //523
+CDiskBlockIndex::Serialize, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/main.h, //1200
+CDiskBlockIndex::Unserialize, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/main.h, //1200
+CDiskTxPos::Serialize, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/main.h, //138
+CDiskTxPos::Unserialize, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/main.h, //138
+CMerkleTx::Serialize, //0, //0, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20091113, //src/main.h, //726
+CMerkleTx::Unserialize, //0, //0, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20091113, //src/main.h, //726
+CNode::PushMessage, //6, //1, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/net.h, //423
+CTransaction::Unserialize, //0, //0, //h, //, //, //src/core.h, //241
+Serialize, //0, //0, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20101127, //src/serialize.h, //571
+COutPoint::Unserialize, //0, //0, //h, //, //, //src/core.h, //30
+CBlock::Serialize, //0, //0, //h, //, //, //src/core.h, //475
+Unserialize, //0, //0, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20101127, //src/serialize.h, //580
+CTxIndex::Serialize, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/main.h, //769
+CTxIndex::Unserialize, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/main.h, //769
+CBlockLocator::Unserialize, //0, //0, //h, //, //, //src/core.h, //523
+GetSerializeSize_impl, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //398
+CUnsignedAlert::Serialize, //0, //0, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20100825, //src/main.h, //1416
+CUnsignedAlert::Unserialize, //0, //0, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20100825, //src/main.h, //1416
+secure_allocator::secure_allocator, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20120324, //src/allocators.h, //62
+CTxIn::Serialize, //0, //0, //h, //, //, //src/core.h, //85
+CTransaction::Serialize, //0, //0, //h, //, //, //src/core.h, //241
+CTxOut::Unserialize, //0, //0, //h, //, //, //src/core.h, //157
+CTxOut::Serialize, //0, //0, //h, //, //, //src/core.h, //157
+GetSerializeSize, //10, //6, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //407
+Serialize, //10, //6, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //124
+Serialize, //10, //6, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //125
+Serialize, //10, //6, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //126
+Serialize, //10, //6, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //127
+Serialize, //10, //6, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //128
+Serialize, //12, //6, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //129
+Serialize, //10, //6, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //130
+Serialize, //10, //6, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //131
+Serialize, //10, //6, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //132
+Serialize, //10, //6, //Wladimir J. van der Laan, //laanwj@gmail.com, //20111221, //src/serialize.h, //133
+Serialize, //10, //6, //Wladimir J. van der Laan, //laanwj@gmail.com, //20111221, //src/serialize.h, //134
+Serialize, //10, //6, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //135
+Serialize, //10, //6, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //136
+Serialize, //10, //6, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //153
+Serialize, //10, //6, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110515, //src/serialize.h, //370
+Serialize, //10, //6, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //430
+Serialize, //10, //6, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //487
+Serialize, //10, //6, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //510
+Serialize, //10, //6, //Pieter Wuille, //pieter.wuille@gmail.com, //20120416, //src/serialize.h, //345
+Serialize, //10, //6, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //639
+Serialize, //10, //6, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //603
+Unserialize, //10, //5, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //138
+Unserialize, //10, //5, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //139
+Unserialize, //10, //5, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //140
+Unserialize, //10, //5, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //141
+Unserialize, //10, //5, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //142
+Unserialize, //12, //5, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //143
+Unserialize, //10, //5, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //144
+Unserialize, //10, //5, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //145
+Unserialize, //10, //5, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //146
+Unserialize, //10, //5, //Wladimir J. van der Laan, //laanwj@gmail.com, //20111221, //src/serialize.h, //147
+Unserialize, //10, //5, //Wladimir J. van der Laan, //laanwj@gmail.com, //20111221, //src/serialize.h, //148
+Unserialize, //10, //5, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //149
+Unserialize, //10, //5, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //150
+Unserialize, //10, //5, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //154
+Unserialize, //10, //5, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110515, //src/serialize.h, //378
+Unserialize, //10, //5, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //471
+Unserialize, //10, //5, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //493
+Unserialize, //10, //5, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //517
+Unserialize, //10, //5, //Pieter Wuille, //pieter.wuille@gmail.com, //20120416, //src/serialize.h, //351
+Unserialize, //10, //5, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //647
+Unserialize, //10, //5, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //611
+CBigNum::Serialize, //0, //0, //Gavin Andresen, //gavinandresen@gmail.com, //20111216, //src/bignum.h, //363
+CBigNum::Unserialize, //0, //0, //Gavin Andresen, //gavinandresen@gmail.com, //20111216, //src/bignum.h, //369
+CDataStream::operator<<, //47, //1, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //997
+Hash, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110514, //src/util.h, //411
+HexStr, //4, //4, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110514, //src/util.h, //238
+PrintHex, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110514, //src/util.h, //262
+alignup, //4, //4, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110514, //src/util.h, //63
+skipspaces, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110514, //src/util.h, //301
+CTxOut::Serialize, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/main.h, //325
+CNode::PushMessage, //3, //1, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/net.h, //439
+CNode::PushMessage, //4, //1, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/net.h, //455
+CNode::PushMessage, //2, //1, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/net.h, //471
+CNode::PushMessage, //2, //1, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20091029, //src/net.h, //487
+CNode::PushMessage, //2, //1, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20091029, //src/net.h, //503
+CNode::PushMessage, //2, //1, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20091029, //src/net.h, //519
+CNode::PushMessage, //3, //1, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20091029, //src/net.h, //535
+CNode::PushMessage, //2, //1, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20091029, //src/net.h, //551
+CNode::PushRequest, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/net.h, //582
+CNode::PushRequest, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/net.h, //597
+RelayMessage, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/net.h, //661
+CDB::Erase, //7, //1, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/db.h, //155
+CDB::Exists, //2, //1, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/db.h, //177
+CDB::Read, //14, //1, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/db.h, //91
+CDB::Write, //18, //1, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/db.h, //126
+CTxIn::Unserialize, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/main.h, //257
+CBlockHeader::Serialize, //0, //0, //h, //, //, //src/core.h, //420
+CBlockHeader::Unserialize, //0, //0, //h, //, //, //src/core.h, //420
+CBlock::Unserialize, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/main.h, //842
+CBlockLocator::Serialize, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/main.h, //1287
+CFeeRate::Serialize, //0, //0, //h, //, //, //src/core.h, //137
+CFeeRate::Unserialize, //0, //0, //h, //, //, //src/core.h, //137
+CMutableTransaction::Serialize, //0, //0, //h, //, //, //src/core.h, //300
+CMutableTransaction::Unserialize, //0, //0, //h, //, //, //src/core.h, //300
+CTransaction::Unserialize, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/main.h, //403
+COutPoint::Unserialize, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/main.h, //194
+CBlock::Serialize, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/main.h, //842
+CTxInUndo::Serialize, //0, //0, //h, //, //, //src/core.h, //364
+CTxInUndo::Unserialize, //0, //0, //h, //, //, //src/core.h, //372
+CBlockLocator::Unserialize, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/main.h, //1287
+CTxOutCompressor::Serialize, //0, //0, //h, //, //, //src/core.h, //326
+CTxOutCompressor::Unserialize, //0, //0, //h, //, //, //src/core.h, //326
+CTxUndo::Serialize, //0, //0, //h, //, //, //src/core.h, //390
+CTxUndo::Unserialize, //0, //0, //h, //, //, //src/core.h, //390
+CTxIn::Serialize, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/main.h, //257
+CTransaction::Serialize, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/main.h, //403
+CTxOut::Unserialize, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/main.h, //325
+CNetAddr::Serialize, //0, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120103, //src/netbase.h, //85
+CNetAddr::Unserialize, //0, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120103, //src/netbase.h, //85
+CService::Serialize, //0, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120103, //src/netbase.h, //125
+CService::Unserialize, //0, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120103, //src/netbase.h, //125
+CDataStream::GetSerializeSize, //1, //1, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //990
+CPubKey::Serialize, //0, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/key.h, //76
+CPubKey::Unserialize, //0, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120514, //src/key.h, //76
+base_uint::Serialize, //0, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120416, //src/uint256.h, //365
+base_uint::Unserialize, //0, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120416, //src/uint256.h, //372
+CAddress::Serialize, //0, //0, //Giel van Schijndel, //me@mortis.eu, //20110811, //src/protocol.h, //74
+CAddress::Unserialize, //0, //0, //Giel van Schijndel, //me@mortis.eu, //20110811, //src/protocol.h, //74
+CInv::Serialize, //0, //0, //Giel van Schijndel, //me@mortis.eu, //20110811, //src/protocol.h, //110
+CInv::Unserialize, //0, //0, //Giel van Schijndel, //me@mortis.eu, //20110811, //src/protocol.h, //110
+CMessageHeader::Serialize, //0, //0, //Giel van Schijndel, //me@mortis.eu, //20110811, //src/protocol.h, //42
+CMessageHeader::Unserialize, //0, //0, //Giel van Schijndel, //me@mortis.eu, //20110811, //src/protocol.h, //42
+CMasterKey::Serialize, //0, //0, //Matt Corallo, //git@bluematt.me, //20110708, //src/crypter.h, //43
+CMasterKey::Unserialize, //0, //0, //Matt Corallo, //git@bluematt.me, //20110708, //src/crypter.h, //43
+CWalletDB::ReadSetting, //0, //0, //Jeff Garzik, //jgarzik@bitpay.com, //20120415, //src/walletdb.h, //150
+CWalletDB::WriteSetting, //1, //1, //Jeff Garzik, //jgarzik@bitpay.com, //20120415, //src/walletdb.h, //155
+ConvertTo, //11, //1, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110514, //src/bitcoinrpc.cpp, //3168
+COutPoint::Serialize, //0, //0, //h, //, //, //src/core.h, //30
+Unserialize_impl, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //453
+Serialize_impl, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //422
+GetSerializeSize, //0, //0, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20101127, //src/serialize.h, //560
+zero_after_free_allocator::zero_after_free_allocator, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20120324, //src/allocators.h, //106
+CAccount::Serialize, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110626, //src/wallet.h, //687
+CAccount::Unserialize, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110626, //src/wallet.h, //687
+CAccountingEntry::Serialize, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110626, //src/wallet.h, //723
+CAccountingEntry::Unserialize, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110626, //src/wallet.h, //723
+CKeyPool::Serialize, //0, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120415, //src/wallet.h, //49
+CKeyPool::Unserialize, //0, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120415, //src/wallet.h, //49
+CWalletKey::Serialize, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110626, //src/wallet.h, //653
+CWalletKey::Unserialize, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110626, //src/wallet.h, //653
+CWalletTx::Serialize, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110626, //src/wallet.h, //376
+CWalletTx::Unserialize, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110626, //src/wallet.h, //376
+CAddrInfo::Serialize, //0, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120104, //src/addrman.h, //48
+CAddrInfo::Unserialize, //0, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120104, //src/addrman.h, //48
+CAddrMan::Serialize, //0, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120104, //src/addrman.h, //248
+CAddrMan::Unserialize, //0, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120104, //src/addrman.h, //248
+CDataStream::Serialize, //0, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120416, //src/serialize.h, //982
+CFlatData::Serialize, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //266
+CFlatData::Unserialize, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //272
+GetSerializeSize, //8, //4, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110515, //src/serialize.h, //364
+GetSerializeSize, //8, //4, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //504
+GetSerializeSize, //8, //4, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //594
+GetSerializeSize, //8, //4, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //630
+ReadCompactSize, //5, //1, //Wladimir J. van der Laan, //laanwj@gmail.com, //20111221, //src/serialize.h, //209
+WriteCompactSize, //5, //1, //Wladimir J. van der Laan, //laanwj@gmail.com, //20111221, //src/serialize.h, //177
+COutPoint::Serialize, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/main.h, //194
+Unserialize_impl, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //437
+Serialize_impl, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //414
+GetSerializeSize, //0, //0, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20101127, //src/serialize.h, //529
+CCorruptAddress::Serialize, //0, //0, //Matt Corallo, //git@bluematt.me, //20110710, //src/wallet.cpp, //162
+CCorruptAddress::Unserialize, //0, //0, //Matt Corallo, //git@bluematt.me, //20110710, //src/wallet.cpp, //162
+Serialize, //0, //0, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20101127, //src/serialize.h, //539
+Unserialize, //0, //0, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20101127, //src/serialize.h, //547
+GetSerializeSize_impl, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //392
+
+generic function-like macro, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+BEGIN, //16, //2, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110514, //src/util.h, //39
+END, //16, //2, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110514, //src/util.h, //40
+strprintf, //72, //19, //Wladimir J. van der Laan, //laanwj@gmail.com, //20120318, //src/util.h, //132
+closesocket, //35, //2, //Pieter Wuille, //pieter.wuille@gmail.com, //20120103, //src/compat.h, //60
+ARRAYLEN, //5, //3, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110514, //src/util.h, //43
+X, //11, //5, //Jeff Garzik, //jgarzik@bitpay.com, //20120629, //src/net.cpp, //610
+
+function implemented with void*, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+CFlatData::CFlatData, //24, //1, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/serialize.h, //254
+Shutdown, //2, //1, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110514, //src/init.cpp, //53
+CreateThread, //16, //4, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110514, //src/util.h, //549
+EnterCritical, //4, //1, //Pieter Wuille, //pieter.wuille@gmail.com, //20120511, //src/sync.h, //26
+CNode::PushRequest, //0, //0, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/net.h, //567
+CRequestTracker::CRequestTracker, //3, //1, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/net.h, //83
+StartNode, //0, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20120219, //src/net.cpp, //1853
+ThreadFlushWalletDB, //0, //0, //Jeff Garzik, //jgarzik@bitpay.com, //20120415, //src/walletdb.cpp, //324
+ThreadIRCSeed, //1, //1, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/irc.cpp, //189
+Shutdown, //0, //0, //Vegard Nossum, //vegard.nossum@gmail.com, //20110731, //src/test/test_bitcoin.cpp, //29
+ThreadIRCSeed2, //1, //1, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20100907, //src/irc.cpp, //204
+FormatHashBlocks, //2, //2, //Pieter Wuille, //pieter.wuille@gmail.com, //20110601, //src/main.cpp, //3194
+SHA256Transform, //3, //3, //Nils Schneider, //nils.schneider@gmail.com, //20110927, //src/main.cpp, //3212
+ThreadBitcoinMiner, //0, //0, //Pieter Wuille, //pieter.wuille@gmail.com, //20110601, //src/main.cpp, //3710
+ThreadRPCServer, //1, //1, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110514, //src/bitcoinrpc.cpp, //2707
+secure_allocator::allocate, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20120324, //src/allocators.h, //67
+ipcThread, //0, //0, //Matt Corallo, //git@bluematt.me, //20111223, //src/qt/qtipcserver.cpp, //23
+ThreadDNSAddressSeed, //1, //1, //Matt Corallo, //git@bluematt.me, //20111121, //src/net.cpp, //1146
+ThreadDNSAddressSeed2, //1, //1, //Matt Corallo, //git@bluematt.me, //20111121, //src/net.cpp, //1165
+ThreadDumpAddress, //1, //1, //Pieter Wuille, //pieter.wuille@gmail.com, //20120104, //src/net.cpp, //1315
+ThreadDumpAddress2, //1, //1, //Pieter Wuille, //pieter.wuille@gmail.com, //20120104, //src/net.cpp, //1302
+ThreadGetMyExternalIP, //0, //0, //s_nakamoto, //s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20101215, //src/net.cpp, //408
+ThreadMessageHandler, //1, //1, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/net.cpp, //1610
+ThreadMessageHandler2, //1, //1, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/net.cpp, //1629
+ThreadOpenAddedConnections, //1, //1, //Matt Corallo, //git@bluematt.me, //20111216, //src/net.cpp, //1481
+ThreadOpenAddedConnections2, //1, //1, //Matt Corallo, //git@bluematt.me, //20111216, //src/net.cpp, //1500
+ThreadOpenConnections, //1, //1, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/net.cpp, //1328
+ThreadOpenConnections2, //1, //1, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/net.cpp, //1365
+ThreadSocketHandler, //1, //1, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/net.cpp, //636
+ThreadSocketHandler2, //1, //1, //sirius-m, //sirius-m@1a98c847-1fd6-4fd8-948a-caf3550aa51b, //20090830, //src/net.cpp, //655
+ThreadCleanWalletPassphrase, //0, //0, //Matt Corallo, //git@bluematt.me, //20110708, //src/bitcoinrpc.cpp, //1769
+ThreadRPCServer2, //1, //1, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110514, //src/bitcoinrpc.cpp, //2802
+ThreadRPCServer3, //1, //1, //David Joel Schwartz, //davidjoelschwartz@gmail.com, //20120414, //src/bitcoinrpc.cpp, //2990
+ThreadTopUpKeyPool, //0, //0, //Matt Corallo, //git@bluematt.me, //20110708, //src/bitcoinrpc.cpp, //1764
+CBase58Data::SetData, //2, //1, //Pieter Wuille, //pieter.wuille@gmail.com, //20110711, //src/base58.h, //196
+ExitTimeout, //0, //0, //Wladimir J. van der Laan, //laanwj@gmail.com, //20110514, //src/init.cpp, //34
+

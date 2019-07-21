@@ -1,0 +1,125 @@
+function template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+math::MatrixBase::operator*, //9, //1, //Anton Babushkin, //anton.babushkin@me.com, //20131219, //src/lib/mathlib/math/Matrix.hpp, //314
+uORBTest::UnitTest::latency_test, //4, //1, //Mark Charlebois, //charlebm@gmail.com, //20150505, //src/modules/uORB/uORBTest_UnitTest.hpp, //94
+printEigen, //0, //0, //Johan Jansen, //jnsn.johan@gmail.com, //20150317, //src/systemcmds/tests/test_eigen.cpp, //86
+px4::NodeHandle::advertise, //0, //0, //Thomas Gubler, //thomasgubler@gmail.com, //20150122, //src/platforms/px4_nodehandle.h, //240
+px4::NodeHandle::subscribe, //0, //0, //Thomas Gubler, //thomasgubler@gmail.com, //20150123, //src/platforms/px4_nodehandle.h, //197
+px4::NodeHandle::subscribe, //0, //0, //Thomas Gubler, //thomasgubler@gmail.com, //20150123, //src/platforms/px4_nodehandle.h, //212
+px4::NodeHandle::subscribe, //0, //0, //Thomas Gubler, //thomasgubler@gmail.com, //20150123, //src/platforms/px4_nodehandle.h, //227
+px4::NodeHandle::update_sub_min_interval, //3, //1, //Thomas Gubler, //thomasgubler@gmail.com, //20150123, //src/platforms/px4_nodehandle.h, //303
+
+generic function-like macro, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+REG_TO_SIGNED, //7, //2, //px4dev, //px4@purgatory.org, //20130113, //src/modules/px4iofirmware/protocol.h, //73
+ut_assert, //21, //4, //Don Gagne, //don@thegagnes.com, //20140327, //src/modules/unit_test/unit_test.h, //85
+ut_compare, //89, //15, //Don Gagne, //don@thegagnes.com, //20140902, //src/modules/unit_test/unit_test.h, //97
+LL_APPEND, //11, //5, //px4dev, //px4@purgatory.org, //20120819, //src/modules/systemlib/uthash/utlist.h, //307
+LL_FOREACH, //21, //3, //px4dev, //px4@purgatory.org, //20120819, //src/modules/systemlib/uthash/utlist.h, //377
+MOTOR_BIT, //2, //2, //Holger Steinhaus, //holger@steinhaus-home.de, //20140814, //src/modules/uavcan/actuators/esc.cpp, //44
+POW2, //3, //2, //Mark Charlebois, //charlebm@gmail.com, //20150410, //src/platforms/posix/drivers/barosim/baro.cpp, //85
+MIXER_SIMPLE_SIZE, //2, //2, //px4dev, //px4@purgatory.org, //20120811, //src/drivers/drv_mixer.h, //97
+debug, //16, //3, //px4dev, //px4@purgatory.org, //20121229, //src/modules/systemlib/mixer/mixer_simple.cpp, //57
+SWAP16, //5, //2, //Kynos, //mail01@delago.net, //20140613, //src/drivers/gps/ubx.cpp, //73
+UBX_WARN, //14, //8, //Kynos, //mail01@delago.net, //20140613, //src/drivers/gps/ubx.cpp, //85
+POW2, //3, //2, //px4dev, //px4@purgatory.org, //20130714, //src/drivers/ms5611/ms5611_nuttx.cpp, //94
+debug, //7, //3, //px4dev, //px4@purgatory.org, //20121229, //src/modules/systemlib/mixer/mixer_multirotor.cpp, //60
+
+function implemented with void*, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+dm_read, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150507, //src/platforms/qurt/px4_layer/px4_qurt_impl.cpp, //112
+orb_copy, //68, //2, //Mark Charlebois, //charlebm@gmail.com, //20150505, //src/modules/uORB/uORB.cpp, //210
+uORB::SubscriptionBase::update, //2, //1, //James Goppert, //james.goppert@gmail.com, //20140605, //src/modules/uORB/Subscription.hpp, //88
+orb_advertise_multi, //18, //1, //Mark Charlebois, //charlebm@gmail.com, //20150505, //src/modules/uORB/uORB.cpp, //93
+orb_advertise, //0, //0, //Daniel Agar, //daniel@agar.ca, //20150302, //unittests/uorb_stub.cpp, //13
+orb_publish, //0, //0, //Daniel Agar, //daniel@agar.ca, //20150302, //unittests/uorb_stub.cpp, //18
+BMA180::measure_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //src/drivers/bma180/bma180.cpp, //661
+MavlinkOrbSubscription::update, //10, //1, //Anton Babushkin, //anton.babushkin@me.com, //20140611, //src/modules/mavlink/mavlink_orb_subscription.cpp, //77
+MavlinkOrbSubscription::update, //2, //1, //Anton Babushkin, //anton.babushkin@me.com, //20140611, //src/modules/mavlink/mavlink_orb_subscription.cpp, //109
+device::px4_dev_t::px4_dev_t, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150312, //src/drivers/device/vdev.cpp, //57
+simulator::Report::copyData, //2, //1, //Mark Charlebois, //charlebm@gmail.com, //20150415, //src/modules/simulator/simulator.h, //97
+BAROSIM::cycle_trampoline, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150410, //src/platforms/posix/drivers/barosim/baro.cpp, //527
+MavlinkFtpTest::receive_message_handler_burst, //0, //0, //Don Gagne, //don@thegagnes.com, //20150503, //src/modules/mavlink/mavlink_tests/mavlink_ftp_test.cpp, //757
+MavlinkFtpTest::receive_message_handler_generic, //0, //0, //Don Gagne, //don@thegagnes.com, //20150503, //src/modules/mavlink/mavlink_tests/mavlink_ftp_test.cpp, //744
+entry_adapter, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150513, //src/platforms/qurt/px4_layer/px4_qurt_tasks.cpp, //79
+LSM303D::mag_measure_trampoline, //1, //1, //Julian Oes, //julian@oes.ch, //20130405, //src/drivers/lsm303d/lsm303d.cpp, //1426
+LSM303D::measure_trampoline, //0, //0, //Lorenz Meier, //lorenz@px4.io, //20130404, //src/drivers/lsm303d/lsm303d.cpp, //1417
+LSM303D_mag::measure_trampoline, //0, //0, //Julian Oes, //julian@oes.ch, //20130405, //src/drivers/lsm303d/lsm303d.cpp, //1831
+LidarLitePWM::cycle_trampoline, //0, //0, //Ban Siesta, //bansiesta@gmail.com, //20150524, //src/drivers/ll40ls/LidarLitePWM.cpp, //153
+Mavlink::send_message, //0, //0, //philipoe, //philipp.oettershagen@mavt.ethz.ch, //20150409, //src/modules/mavlink/mavlink_main.cpp, //790
+MPU6000::measure_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20120813, //src/drivers/mpu6000/mpu6000.cpp, //1518
+ACCELSIM::mag_measure_trampoline, //1, //1, //Mark Charlebois, //charlebm@gmail.com, //20150407, //src/platforms/posix/drivers/accelsim/accelsim.cpp, //958
+ACCELSIM::measure_trampoline, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150407, //src/platforms/posix/drivers/accelsim/accelsim.cpp, //949
+ACCELSIM_mag::measure_trampoline, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150407, //src/platforms/posix/drivers/accelsim/accelsim.cpp, //1236
+read_with_retry, //3, //2, //Andrew Tridgell, //andrew@tridgell.net, //20130127, //src/drivers/px4io/px4io_uploader.cpp, //394
+uORB::DeviceNode::update_deferred_trampoline, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150505, //src/modules/uORB/uORBDevices_nuttx.cpp, //417
+uORB::Manager::orb_advertise_multi, //1, //1, //Mark Charlebois, //charlebm@gmail.com, //20150505, //src/modules/uORB/uORBManager_nuttx.cpp, //84
+pwmin_tim_isr, //0, //0, //Andrew Tridgell, //andrew@tridgell.net, //20150221, //src/drivers/pwm_input/pwm_input.cpp, //536
+ADCSIM::_tick_trampoline, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150409, //src/platforms/posix/drivers/adcsim/adcsim.cpp, //199
+dm_write, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150507, //src/platforms/qurt/px4_layer/px4_qurt_impl.cpp, //124
+calibrate_from_orientation, //2, //1, //Don Gagne, //don@thegagnes.com, //20150425, //src/modules/commander/calibration_routines.cpp, //403
+ToneAlarm::next_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20130310, //src/drivers/stm32/tone_alarm/tone_alarm.cpp, //729
+MS5611::cycle_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20130714, //src/drivers/ms5611/ms5611_posix.cpp, //538
+MavlinkReceiver::receive_thread, //1, //1, //Lorenz Meier, //lorenz@px4.io, //20140126, //src/modules/mavlink/mavlink_receiver.cpp, //1541
+MavlinkReceiver::start_helper, //0, //0, //Lorenz Meier, //lorenz@px4.io, //20140128, //src/modules/mavlink/mavlink_receiver.cpp, //1616
+commander_low_prio_loop, //0, //0, //Julian Oes, //julian@oes.ch, //20130326, //src/modules/commander/commander.cpp, //2603
+orb_publish, //58, //2, //Mark Charlebois, //charlebm@gmail.com, //20150505, //src/modules/uORB/uORB.cpp, //113
+MS5611_I2C::dev_read, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150313, //src/drivers/ms5611/ms5611_i2c.cpp, //142
+utarray_str_cpy, //0, //0, //px4dev, //px4@purgatory.org, //20120819, //src/modules/systemlib/uthash/utarray.h, //220
+utarray_str_dtor, //0, //0, //px4dev, //px4@purgatory.org, //20120819, //src/modules/systemlib/uthash/utarray.h, //224
+px4_read, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150313, //src/drivers/device/vdev_posix.cpp, //153
+px4_write, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150313, //src/drivers/device/vdev_posix.cpp, //171
+timer_handler, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150313, //src/drivers/device/vdev_posix.cpp, //64
+Simulator::send_mavlink_message, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150511, //src/modules/simulator/simulator_mavlink.cpp, //183
+Simulator::sending_trampoline, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150511, //src/modules/simulator/simulator_mavlink.cpp, //231
+simulator::Report::writeData, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150415, //src/modules/simulator/simulator.h, //107
+uORB::PublicationBase::update, //2, //1, //James Goppert, //james.goppert@gmail.com, //20140605, //src/modules/uORB/Publication.hpp, //74
+gyro_calibration_worker, //1, //1, //Lorenz Meier, //lorenz@px4.io, //20150508, //src/modules/commander/gyro_calibration.cpp, //80
+LidarLiteI2C::cycle_trampoline, //0, //0, //Johan Jansen, //jnsn.johan@gmail.com, //20150324, //src/drivers/ll40ls/LidarLiteI2C.cpp, //493
+GYROSIM::measure_trampoline, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150408, //src/platforms/posix/drivers/gyrosim/gyrosim.cpp, //1235
+WQueueTest::hp_worker_cb, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150325, //src/platforms/posix/tests/wqueue/wqueue_test.cpp, //50
+WQueueTest::lp_worker_cb, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150325, //src/platforms/posix/tests/wqueue/wqueue_test.cpp, //57
+MB12XX::cycle_trampoline, //0, //0, //Greg Hulands, //ghulands@me.com, //20130301, //src/drivers/mb12xx/mb12xx.cpp, //645
+device::interrupt, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150313, //src/drivers/device/device_nuttx.cpp, //223
+SF0X::cycle_trampoline, //0, //0, //Lorenz Meier, //lorenz@px4.io, //20140308, //src/drivers/sf0x/sf0x.cpp, //656
+Mavlink::message_buffer_get_ptr, //1, //1, //Mark Charlebois, //charlebm@gmail.com, //20150313, //src/modules/mavlink/mavlink_main_posix.cpp, //1142
+timer_expired, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150504, //src/platforms/posix/tests/hrt_test/hrt_test.cpp, //53
+LandDetector::orb_update, //0, //0, //Johan Jansen, //jnsn.johan@gmail.com, //20150107, //src/modules/land_detector/LandDetector.cpp, //106
+HMC5883::cycle_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20120821, //src/drivers/hmc5883/hmc5883.cpp, //777
+accel_calibration_worker, //0, //0, //Don Gagne, //don@thegagnes.com, //20150425, //src/modules/commander/accelerometer_calibration.cpp, //322
+PCA8574::led_trampoline, //0, //0, //Lorenz Meier, //lorenz@px4.io, //20140429, //src/drivers/pca8574/pca8574.cpp, //250
+Mavlink::send_message, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150420, //src/modules/mavlink/mavlink_main_posix.cpp, //767
+entry_adapter, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150410, //src/platforms/posix/px4_layer/px4_posix_tasks.cpp, //79
+Airspeed::cycle_trampoline, //0, //0, //Lorenz Meier, //lorenz@px4.io, //20130710, //src/drivers/airspeed/airspeed.cpp, //381
+mixer_handle_text, //0, //0, //px4dev, //px4@purgatory.org, //20121229, //src/modules/px4iofirmware/mixer.cpp, //354
+L3GD20::measure_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20120827, //src/drivers/l3gd20/l3gd20.cpp, //907
+BARO_SIM::dev_read, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150410, //src/platforms/posix/drivers/barosim/baro_sim.cpp, //119
+ToneAlarm::next_trampoline, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150427, //src/platforms/posix/drivers/tonealrmsim/tone_alarm.cpp, //588
+uORB::Manager::orb_publish, //1, //1, //Mark Charlebois, //charlebm@gmail.com, //20150505, //src/modules/uORB/uORBManager_nuttx.cpp, //124
+Mavlink::message_buffer_write, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150313, //src/modules/mavlink/mavlink_main_posix.cpp, //1108
+MS5611::cycle_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20130714, //src/drivers/ms5611/ms5611_nuttx.cpp, //537
+BlinkM::led_trampoline, //0, //0, //Marco Bauer, //marco@wtns.de, //20130112, //src/drivers/blinkm/blinkm.cpp, //411
+uORB::Manager::node_open, //3, //1, //Mark Charlebois, //charlebm@gmail.com, //20150505, //src/modules/uORB/uORBManager_nuttx.cpp, //202
+uORB::Manager::orb_advertise, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150505, //src/modules/uORB/uORBManager_nuttx.cpp, //79
+uORB::Manager::orb_copy, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150505, //src/modules/uORB/uORBManager_nuttx.cpp, //129
+uORB::Manager::node_open, //3, //1, //Mark Charlebois, //charlebm@gmail.com, //20150505, //src/modules/uORB/uORBManager_posix.cpp, //212
+GPS::task_main_trampoline, //0, //0, //Lorenz Meier, //lorenz@px4.io, //20130204, //src/drivers/gps/gps.cpp, //269
+mag_calibration_worker, //0, //0, //Don Gagne, //don@thegagnes.com, //20150425, //src/modules/commander/mag_calibration.cpp, //190
+PX4FLOW::cycle_trampoline, //0, //0, //Lorenz Meier, //lorenz@px4.io, //20141028, //src/drivers/px4flow/px4flow.cpp, //590
+orb_advertise, //54, //2, //Mark Charlebois, //charlebm@gmail.com, //20150505, //src/modules/uORB/uORB.cpp, //63
+uORB::DeviceNode::publish, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150505, //src/modules/uORB/uORBDevices_nuttx.cpp, //272
+OREOLED::cycle_trampoline, //0, //0, //Randy Mackay, //rmackay9@yahoo.com, //20141224, //src/drivers/oreoled/oreoled.cpp, //229
+BATT_SMBUS::cycle_trampoline, //0, //0, //Randy Mackay, //rmackay9@yahoo.com, //20141125, //src/drivers/batt_smbus/batt_smbus.cpp, //370
+PCA9685::i2cpwm_trampoline, //0, //0, //Thomas Gubler, //thomasgubler@gmail.com, //20140820, //src/drivers/pca9685/pca9685.cpp, //291
+Gimbal::cycle_trampoline, //0, //0, //Lorenz Meier, //lorenz@px4.io, //20150111, //src/drivers/gimbal/gimbal.cpp, //264
+RGBLED::led_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20130406, //src/drivers/rgbled/rgbled.cpp, //270
+ADC::_tick_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20121231, //src/drivers/stm32/adc/adc.cpp, //290
+TRONE::cycle_trampoline, //0, //0, //Luis Rodrigues, //lfrodrigues@gmail.com, //20140723, //src/drivers/trone/trone.cpp, //641
+MS5611_SIM::dev_read, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150406, //src/drivers/ms5611/ms5611_sim.cpp, //119
+uORB::Manager::orb_advertise, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150505, //src/modules/uORB/uORBManager_posix.cpp, //80
+uORB::Manager::orb_copy, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150505, //src/modules/uORB/uORBManager_posix.cpp, //139
+Mavlink::message_buffer_write, //0, //0, //Anton Babushkin, //anton.babushkin@me.com, //20140614, //src/modules/mavlink/mavlink_main.cpp, //1175
+uORB::DeviceNode::publish, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150505, //src/modules/uORB/uORBDevices_posix.cpp, //283
+Airspeed::cycle_trampoline, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150430, //src/platforms/posix/drivers/airspeedsim/airspeedsim.cpp, //378
+uORB::DeviceNode::update_deferred_trampoline, //0, //0, //Mark Charlebois, //charlebm@gmail.com, //20150505, //src/modules/uORB/uORBDevices_posix.cpp, //433
+uORB::Manager::orb_advertise_multi, //1, //1, //Mark Charlebois, //charlebm@gmail.com, //20150505, //src/modules/uORB/uORBManager_posix.cpp, //86
+uORB::Manager::orb_publish, //1, //1, //Mark Charlebois, //charlebm@gmail.com, //20150505, //src/modules/uORB/uORBManager_posix.cpp, //134
+Mavlink::message_buffer_get_ptr, //1, //1, //Julian Oes, //julian@oes.ch, //20140403, //src/modules/mavlink/mavlink_main.cpp, //1209
+

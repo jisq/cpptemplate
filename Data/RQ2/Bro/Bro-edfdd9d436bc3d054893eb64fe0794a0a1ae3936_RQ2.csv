@@ -1,0 +1,70 @@
+function template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+CompositeHash::AlignAndPadType, //7, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/CompHash.h, //56
+CompositeHash::AlignType, //7, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/CompHash.h, //62
+CompositeHash::SizeAlignType, //0, //0, //Robin Sommer, //robin@icir.org, //20100927, //src/CompHash.h, //68
+delete_each, //2, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/util.h, //75
+
+generic function-like macro, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+ASSERT, //42, //7, //Robin Sommer, //robin@icir.org, //20100927, //src/util.h, //30
+loop_over_list, //209, //43, //Robin Sommer, //robin@icir.org, //20100927, //src/List.h, //193
+SERIALIZE, //119, //29, //Robin Sommer, //robin@icir.org, //20100927, //src/SerialObj.h, //241
+SERIALIZE_OPTIONAL, //37, //11, //Robin Sommer, //robin@icir.org, //20100927, //src/SerialObj.h, //265
+UNSERIALIZE, //105, //12, //Robin Sommer, //robin@icir.org, //20100927, //src/SerialObj.h, //250
+UNSERIALIZE_OPTIONAL, //28, //11, //Robin Sommer, //robin@icir.org, //20100927, //src/SerialObj.h, //299
+UNSERIALIZE_STR, //17, //2, //Robin Sommer, //robin@icir.org, //20100927, //src/SerialObj.h, //253
+padded_sizeof, //42, //8, //Robin Sommer, //robin@icir.org, //20100927, //src/util.h, //269
+DO_UNIT, //6, //6, //Robin Sommer, //robin@icir.org, //20100927, //src/Val.cc, //813
+loop_over_queue, //2, //2, //Robin Sommer, //robin@icir.org, //20100927, //src/Queue.h, //107
+SMTP_CMD_WORD, //4, //2, //Robin Sommer, //robin@icir.org, //20100927, //src/SMTP.cc, //22
+CHECK_CLASS, //9, //4, //Robin Sommer, //robin@icir.org, //20100927, //src/net_util.cc, //131
+READ_CHUNK, //5, //2, //Robin Sommer, //robin@icir.org, //20100927, //src/RemoteSerializer.cc, //242
+VIOLATION_IF, //14, //2, //Robin Sommer, //robin@icir.org, //20100927, //src/BitTorrentTracker.cc, //526
+
+function implemented with void*, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+TCP_Rewriter::RewriteTCPOption, //0, //0, //Robin Sommer, //robin@icir.org, //20100927, //src/TCP_Rewriter.cc, //1272
+Continuation::SaveState, //6, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/Continuation.h, //45
+PrefixTable::Insert, //5, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/PrefixTable.cc, //50
+table_entry_val_delete_func, //0, //0, //Robin Sommer, //robin@icir.org, //20100927, //src/Val.cc, //1633
+DNS_Mgr_mapping_delete_func, //0, //0, //Robin Sommer, //robin@icir.org, //20100927, //src/DNS_Mgr.cc, //133
+Dictionary::Insert, //58, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/Dict.h, //47
+Dictionary::NthEntry, //29, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/Dict.cc, //242
+Dictionary::Remove, //33, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/Dict.cc, //161
+ones_complement_checksum, //16, //11, //Robin Sommer, //robin@icir.org, //20100927, //src/net_util.cc, //20
+SerializationFormat::ReadData, //10, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/SerializationFormat.cc, //56
+SerializationFormat::WriteData, //31, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/SerializationFormat.cc, //70
+DPM::ExpectConnection, //1, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/DPM.cc, //388
+bro_obj_delete_func, //0, //0, //Robin Sommer, //robin@icir.org, //20100927, //src/Obj.cc, //267
+NFA_state_cmp_neg, //0, //0, //Robin Sommer, //robin@icir.org, //20100927, //src/NFA.cc, //347
+int_delete_func, //0, //0, //Robin Sommer, //robin@icir.org, //20100927, //src/OSFinger.cc, //27
+Dictionary::Insert, //2, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/Dict.cc, //137
+Dictionary::Lookup, //1, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/Dict.cc, //110
+generic_delete_func, //0, //0, //Robin Sommer, //robin@icir.org, //20100927, //src/Dict.cc, //583
+PrefixTable::Insert, //4, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/PrefixTable.cc, //32
+Connection::operator delete, //0, //0, //Robin Sommer, //robin@icir.org, //20100927, //src/Conn.h, //308
+ARP_Analyzer::ConstructAddrVal, //4, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/ARP.cc, //251
+safe_realloc, //3, //3, //Robin Sommer, //robin@icir.org, //20100927, //src/util.h, //273
+HashKey::HashKey, //9, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/Hash.cc, //329
+DeleteConnPQ, //0, //0, //Robin Sommer, //robin@icir.org, //20100927, //src/PacketSort.cc, //259
+ODesc::AddBytes, //9, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/Desc.cc, //187
+TCP_Analyzer::ParseTCPOptions, //4, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/TCP.cc, //1410
+TCP_Analyzer::TCPOptionEvent, //0, //0, //Robin Sommer, //robin@icir.org, //20100927, //src/TCP.cc, //1455
+H3::operator(), //1, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/H3.h, //67
+HashKey::CopyKey, //3, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/Hash.cc, //348
+HashKey::HashBytes, //11, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/Hash.cc, //355
+HashKey::HashKey, //1, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/Hash.cc, //271
+HashKey::HashKey, //1, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/Hash.cc, //296
+HashKey::HashKey, //7, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/Hash.cc, //312
+HashKey::HashKey, //1, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/Hash.cc, //320
+pem_passwd_cb, //0, //0, //Robin Sommer, //robin@icir.org, //20100927, //src/ChunkedIO.cc, //693
+DictEntry::DictEntry, //1, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/Dict.cc, //23
+parse_tcp_options, //0, //0, //Robin Sommer, //robin@icir.org, //20100927, //src/ConnCompressor.cc, //255
+Continuation::voidPList::append, //0, //0, //Robin Sommer, //robin@icir.org, //20100927, //src/Continuation.h, //55
+Continuation::voidPList::insert, //0, //0, //Robin Sommer, //robin@icir.org, //20100927, //src/Continuation.h, //55
+Continuation::voidPList::is_member, //0, //0, //Robin Sommer, //robin@icir.org, //20100927, //src/Continuation.h, //55
+Continuation::voidPList::member_pos, //0, //0, //Robin Sommer, //robin@icir.org, //20100927, //src/Continuation.h, //55
+Continuation::voidPList::remove, //0, //0, //Robin Sommer, //robin@icir.org, //20100927, //src/Continuation.h, //55
+Continuation::voidPList::replace, //1, //1, //Robin Sommer, //robin@icir.org, //20100927, //src/Continuation.h, //55
+Continuation::voidPList::sortedinsert, //0, //0, //Robin Sommer, //robin@icir.org, //20100927, //src/Continuation.h, //55
+int_list_cmp, //0, //0, //Robin Sommer, //robin@icir.org, //20100927, //src/util.cc, //762
+rpc_callinfo_delete_func, //0, //0, //Robin Sommer, //robin@icir.org, //20100927, //src/RPC.cc, //64
+

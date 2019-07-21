@@ -1,0 +1,35 @@
+function template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+icinga::String::String, //5, //1, //Gunnar Beutner, //gunnar@beutner.name, //20120802, //lib/base/qstring.h, //54
+icinga::Convert::ToDouble, //20, //1, //Gunnar Beutner, //gunnar@beutner.name, //20131108, //lib/base/convert.h, //51
+icinga::Convert::ToLong, //41, //1, //Gunnar Beutner, //gunnar@beutner.name, //20131108, //lib/base/convert.h, //39
+icinga::DiagnosticInformation, //8, //1, //Gunnar Beutner, //gunnar@beutner.name, //20131119, //lib/base/exception.h, //52
+icinga::Value::IsObjectType, //25, //1, //Gunnar Beutner, //gunnar@beutner.name, //20120711, //lib/base/value.h, //117
+icinga::Convert::ToString, //25, //1, //Gunnar Beutner, //gunnar@beutner.name, //20131108, //lib/base/convert.h, //65
+icinga::StatusDataWriter::DumpNameList, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20130317, //components/compat/statusdatawriter.h, //61
+icinga::StatusDataWriter::DumpStringList, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20130317, //components/compat/statusdatawriter.h, //77
+icinga::String::insert, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20130310, //lib/base/qstring.h, //100
+icinga::Value::Value, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20120802, //lib/base/value.h, //64
+icinga::ScriptFunctionWrapperR, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20130820, //lib/base/scriptfunctionwrapper.h, //37
+
+generic function-like macro, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+ASSERT, //166, //6, //Gunnar Beutner, //gunnar@beutner.name, //20130828, //lib/base/debug.h, //26
+VERIFY, //3, //3, //Gunnar Beutner, //gunnar@beutner.name, //20130828, //lib/base/debug.h, //31
+
+function implemented with void*, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+icinga::TlsStream::Read, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20130404, //lib/base/tlsstream.cpp, //133
+icinga::TlsStream::Write, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20130404, //lib/base/tlsstream.cpp, //173
+I2Stream_ctrl, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20130202, //lib/base/stream_bio.cpp, //129
+icinga::NetworkStream::Read, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20130404, //lib/base/networkstream.cpp, //43
+icinga::NetworkStream::Write, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20130404, //lib/base/networkstream.cpp, //71
+icinga::StdioStream::Read, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20121123, //lib/base/stdiostream.cpp, //42
+icinga::StdioStream::Write, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20121123, //lib/base/stdiostream.cpp, //50
+__cxa_throw, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20130307, //lib/base/exception.cpp, //29
+icinga::Socket::Read, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20130404, //lib/base/socket.cpp, //243
+icinga::Socket::Write, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20130404, //lib/base/socket.cpp, //221
+icinga::Utility::NullDeleter, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20120807, //lib/base/utility.cpp, //177
+icinga::BufferedStream::Read, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20130404, //lib/base/bufferedstream.cpp, //147
+icinga::BufferedStream::Write, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20130404, //lib/base/bufferedstream.cpp, //169
+icinga::FIFO::Read, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20130404, //lib/base/fifo.cpp, //85
+icinga::FIFO::Write, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20120716, //lib/base/fifo.cpp, //104
+icinga::WeakPtrEqual::WeakPtrEqual, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20120521, //lib/base/object.h, //173
+

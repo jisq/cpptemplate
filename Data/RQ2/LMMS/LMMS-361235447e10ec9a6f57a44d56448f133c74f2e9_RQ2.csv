@@ -1,0 +1,69 @@
+function template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+tMax, //20, //10, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/templates.h, //65
+tAbs, //4, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/templates.h, //43
+tLimit, //6, //5, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/templates.h, //78
+JVRev::one_cycle, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Reverb.cc, //122
+Scape::one_cycle, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Scape.cc, //62
+min, //13, //5, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/basics.h, //116
+White::one_cycle, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/White.cc, //35
+Roessler::one_cycle, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Roessler.cc, //45
+Lorenz::one_cycle, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Lorenz.cc, //45
+AmpIII::one_cycle, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Amp.cc, //85
+AmpV::one_cycle, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Amp.cc, //342
+PreampIII::one_cycle, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Preamp.cc, //43
+CabinetI::one_cycle, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Cabinet.cc, //109
+CabinetII::one_cycle, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Cabinet.cc, //236
+VCOs::one_cycle, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/VCO.cc, //60
+tMin, //9, //5, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //include/templates.h, //52
+DSP::blackman, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/dsp/windows.h, //64
+DSP::blackman_harris, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/dsp/windows.h, //82
+DSP::hanning, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/dsp/windows.h, //51
+DSP::kaiser, //3, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/dsp/windows.h, //141
+SweepVFI::one_cycle, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/SweepVF.cc, //55
+DSP::RBJ::HiShelve::HiShelve, //1, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/dsp/RBJ.h, //219
+ChorusI::one_cycle, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Chorus.cc, //35
+Pan::one_cycle, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Pan.cc, //62
+max, //10, //4, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/basics.h, //122
+HRTF::one_cycle, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/HRTF.cc, //73
+sharedObject::ref, //3, //1, //Javier Serrano Polo, //jasp00@terra.es, //20060824, //include/shared_object.h, //51
+sharedObject::unref, //0, //0, //Javier Serrano Polo, //jasp00@terra.es, //20060824, //include/shared_object.h, //60
+Compress::one_cycle, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Compress.cc, //42
+Clip::one_cycle, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Clip.cc, //78
+ClickStub::one_cycle, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Click.cc, //48
+readValue, //7, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051130, //plugins/vst_base/communication.h, //42
+writeValue, //7, //2, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051130, //plugins/vst_base/communication.h, //53
+remoteVSTPlugin::readValueS, //11, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060131, //plugins/vst_base/lvsl_client.h, //134
+remoteVSTPlugin::writeValueS, //14, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060131, //plugins/vst_base/lvsl_client.h, //140
+Sin::one_cycle, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Sin.cc, //43
+DSP::RBJ::LoShelve::LoShelve, //4, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/dsp/RBJ.h, //176
+pointSize, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050928, //include/gui_templates.h, //50
+PhaserI::one_cycle, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Phaser.cc, //38
+DSP::FIR::upsample, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/dsp/FIR.h, //129
+Eq::one_cycle, //2, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Eq.cc, //68
+effectControlDialog::getEffect, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060917, //include/effect_control_dialog.h, //65
+DSP::RBJ::BP::BP, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/dsp/RBJ.h, //98
+DSP::RBJ::HP::HP, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/dsp/RBJ.h, //118
+DSP::RBJ::LP::LP, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/dsp/RBJ.h, //78
+DSP::RBJ::Notch::Notch, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/dsp/RBJ.h, //138
+DSP::RBJ::PeakingEQ::PeakingEQ, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/dsp/RBJ.h, //199
+DSP::RBJ::RBJ::make_direct_I, //7, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/dsp/RBJ.h, //53
+DSP::BP::BP, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/dsp/Eq.h, //42
+
+generic function-like macro, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+L, //12, //2, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Reverb.cc, //210
+LENGTH, //3, //2, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060925, //plugins/ladspa_effect/caps/Click.cc, //120
+
+function implemented with void*, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+lmms_plugin_main, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051020, //plugins/audio_file_processor/audio_file_processor.cpp, //676
+dump_mem, //1, //1, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060917, //plugins/flp_import/flp_import.cpp, //113
+audioFileDevice::writeData, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060206, //src/audio/audio_file_device.cpp, //93
+plugin::instantiate, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051020, //src/core/plugin.cpp, //106
+lmms_plugin_main, //0, //0, //Andreas Brandmaier, //andy@brandmaier.de, //20060218, //plugins/organic/organic.cpp, //553
+bufferAllocator::free, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20050922, //src/lib/buffer_allocator.cpp, //137
+lmms_plugin_main, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051020, //plugins/triple_oscillator/triple_oscillator.cpp, //970
+lmms_plugin_main, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060328, //plugins/flp_import/flp_import.cpp, //968
+lmms_plugin_main, //0, //0, //Danny McRae, //khjklujn@yahoo.com, //20060908, //plugins/stk/mallets/mallets.cpp, //660
+lmms_plugin_main, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20051020, //plugins/vestige/vestige.cpp, //537
+lmms_plugin_main, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060327, //plugins/vibed/vibed.cpp, //718
+lmms_plugin_main, //0, //0, //Tobias Doerffel, //tobias.doerffel@gmail.com, //20060120, //plugins/bit_invader/bit_invader.cpp, //806
+

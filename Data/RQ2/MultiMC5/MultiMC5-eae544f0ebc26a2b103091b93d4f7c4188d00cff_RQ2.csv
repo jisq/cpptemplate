@@ -1,0 +1,52 @@
+function template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+TestUtils::compare, //11, //1, //Petr Mrázek, //peterix@gmail.com, //20131202, //mmc_updater/src/tests/TestUtils.h, //35
+TestUtils::runTest, //2, //1, //Petr Mrázek, //peterix@gmail.com, //20131202, //mmc_updater/src/tests/TestUtils.h, //52
+TestUtils::toString, //4, //1, //Petr Mrázek, //peterix@gmail.com, //20131202, //mmc_updater/src/tests/TestUtils.h, //46
+intToStr, //12, //4, //Petr Mrázek, //peterix@gmail.com, //20131202, //mmc_updater/src/StringUtils.h, //9
+MMCJson::writeObjectList, //0, //0, //Petr Mrázek, //peterix@gmail.com, //20140906, //logic/MMCJson.h, //88
+MMCJson::writeObjectList, //0, //0, //Petr Mrázek, //peterix@gmail.com, //20140906, //logic/MMCJson.h, //75
+XcbCallVoid, //0, //0, //Orochimarufan, //orochimarufan.x3@gmail.com, //20131018, //gui/Platform_X11.cpp, //25
+ShowPageDialog, //0, //0, //Petr Mrázek, //peterix@gmail.com, //20140618, //gui/MainWindow.cpp, //1330
+util::membuffer::read, //2, //1, //Petr Mrázek, //peterix@gmail.com, //20131104, //depends/classparser/src/membuffer.h, //26
+util::membuffer::read_be, //36, //1, //Petr Mrázek, //peterix@gmail.com, //20131104, //depends/classparser/src/membuffer.h, //35
+Bindable::bind, //0, //0, //Petr Mrázek, //peterix@gmail.com, //20140906, //depends/LogicalGui/LogicalGui.h, //67
+Bindable::bind, //0, //0, //Petr Mrázek, //peterix@gmail.com, //20140906, //depends/LogicalGui/LogicalGui.h, //76
+Bindable::wait, //0, //0, //Petr Mrázek, //peterix@gmail.com, //20140906, //depends/LogicalGui/LogicalGui.h, //121
+Bindable::waitVoid, //0, //0, //Petr Mrázek, //peterix@gmail.com, //20140906, //depends/LogicalGui/LogicalGui.h, //179
+
+generic function-like macro, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+LOG, //47, //9, //Petr Mrázek, //peterix@gmail.com, //20131202, //mmc_updater/src/Log.h, //43
+BYTES_OF, //5, //2, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/bytes.h, //110
+NEW, //4, //3, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/defines.h, //44
+GET_INT_HI, //11, //3, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/zip.cpp, //67
+GET_INT_LO, //11, //3, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/zip.cpp, //65
+SWAP_BYTES, //40, //4, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/zip.cpp, //62
+CODING_INIT, //117, //2, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/coding.h, //37
+T_NEW, //7, //3, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/defines.h, //46
+U_NEW, //30, //5, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/defines.h, //45
+ADH_BYTE, //22, //2, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/constants.h, //186
+IS_NEG_CODE, //3, //2, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/coding.cpp, //58
+
+function implemented with void*, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+QtXdg::QIconLoaderEngineFixed::virtual_hook, //0, //0, //Petr Mrázek, //peterix@gmail.com, //20150301, //depends/iconfix/internal/qiconloader.cpp, //654
+UpdateMessage::UpdateMessage, //3, //1, //Petr Mrázek, //peterix@gmail.com, //20131202, //mmc_updater/src/UpdateMessage.h, //19
+UpdateMessage::init, //2, //1, //Petr Mrázek, //peterix@gmail.com, //20131202, //mmc_updater/src/UpdateMessage.h, //35
+runUpdaterThread, //0, //0, //Petr Mrázek, //peterix@gmail.com, //20131202, //mmc_updater/src/main.cpp, //33
+fillbytes::append, //4, //1, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/bytes.h, //198
+jar::write_data, //5, //1, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/zip.cpp, //77
+read_input_via_gzip, //0, //0, //Petr Mrázek, //peterix@gmail.com, //20130929, //depends/pack200/src/zip.cpp, //440
+Win32xx::CFile::Read, //0, //0, //Petr Mrázek, //peterix@gmail.com, //20131202, //mmc_updater/depends/win32cpp/file.h, //251
+Win32xx::CFile::Write, //0, //0, //Petr Mrázek, //peterix@gmail.com, //20131202, //mmc_updater/depends/win32cpp/file.h, //377
+bytes::copyFrom, //7, //1, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/bytes.cpp, //128
+bytes::inBounds, //6, //1, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/bytes.cpp, //37
+bytes::saveFrom, //2, //1, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/bytes.cpp, //115
+ptrlist::indexOf, //1, //1, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/bytes.cpp, //183
+Win32xx::CMenu::LoadMenuIndirect, //0, //0, //Petr Mrázek, //peterix@gmail.com, //20131202, //mmc_updater/depends/win32cpp/menu.h, //483
+extractFileFromBinary, //1, //1, //Petr Mrázek, //peterix@gmail.com, //20131202, //mmc_updater/src/UpdateDialogGtkFactory.cpp, //24
+unpacker::start, //3, //1, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/unpack.cpp, //3544
+outputEntry_cmp, //0, //0, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/unpack.cpp, //3408
+raw_address_cmp, //0, //0, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/unpack.cpp, //4376
+read_input_via_stdio, //0, //0, //Petr Mrázek, //peterix@gmail.com, //20130929, //depends/pack200/src/unpack200.cpp, //46
+Win32xx::CListBox::SetItemDataPtr, //0, //0, //Petr Mrázek, //peterix@gmail.com, //20131202, //mmc_updater/depends/win32cpp/stdcontrols.h, //746
+TiXmlBase::SetUserData, //0, //0, //Petr Mrázek, //peterix@gmail.com, //20131202, //mmc_updater/depends/tinyxml/tinyxml.h, //247
+

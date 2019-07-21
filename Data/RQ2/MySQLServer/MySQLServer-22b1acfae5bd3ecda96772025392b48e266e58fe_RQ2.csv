@@ -1,0 +1,1565 @@
+function template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+LocalProxy::ssQueue, //2, //1, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20080827, //storage/ndb/src/kernel/blocks/LocalProxy.hpp, //278
+LocalProxy::ssRelease, //5, //1, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20080811, //storage/ndb/src/kernel/blocks/LocalProxy.hpp, //269
+LocalProxy::ssSeize, //7, //1, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20080811, //storage/ndb/src/kernel/blocks/LocalProxy.hpp, //194
+lp_test, //0, //0, //pekka@mysql.com, //, //20051114, //storage/ndb/src/kernel/vm/testSuperPool.cpp, //207
+sp_test, //0, //0, //pekka@mysql.com, //, //20051108, //storage/ndb/src/kernel/vm/testSuperPool.cpp, //90
+NdbApiDriver::initOperationsFeat, //2, //1, //Martin Zaun, //martin.zaun@oracle.com, //20101005, //storage/ndb/test/crund/src/crundndb/NdbApiDriver.cpp, //282
+copy_integer, //5, //2, //Martin Hansson, //martin.hansson@oracle.com, //20120530, //sql/field.h, //428
+ensureMinBufferSize, //0, //0, //Bernd Ocklin, //bernd.ocklin@oracle.com, //20100122, //storage/ndb/src/ndbjtie/jtie/jtie_tconv_ptrbybb_impl.hpp, //234
+wrapAddressAsByteBuffer, //0, //0, //Bernd Ocklin, //bernd.ocklin@oracle.com, //20100122, //storage/ndb/src/ndbjtie/jtie/jtie_tconv_ptrbybb_impl.hpp, //371
+wrapByteBufferAsReadOnly, //0, //0, //Bernd Ocklin, //bernd.ocklin@oracle.com, //20100122, //storage/ndb/src/ndbjtie/jtie/jtie_tconv_ptrbybb_impl.hpp, //381
+cast_constptr, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20100817, //storage/ndb/include/kernel/signaldata/SignalData.hpp, //44
+cast_ptr, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20100817, //storage/ndb/include/kernel/signaldata/SignalData.hpp, //35
+parse_mask, //5, //3, //Magnus Blåudd, //magnus.blaudd@oracle.com, //20100827, //storage/ndb/src/common/util/parse_mask.hpp, //29
+Dbdict::copyRope, //0, //0, //pekka@sama.ndb.mysql.com, //, //20071225, //storage/ndb/src/kernel/blocks/dbdict/Dbdict.hpp, //1349
+Dbdict::findSchemaOp, //0, //0, //pekka@sama.ndb.mysql.com, //, //20071225, //storage/ndb/src/kernel/blocks/dbdict/Dbdict.hpp, //1836
+Dbdict::find_object, //0, //0, //Mauritz Sundell, //mauritz.sundell@oracle.com, //20111111, //storage/ndb/src/kernel/blocks/dbdict/Dbdict.hpp, //755
+Dbdict::find_object, //0, //0, //Mauritz Sundell, //mauritz.sundell@oracle.com, //20111111, //storage/ndb/src/kernel/blocks/dbdict/Dbdict.hpp, //771
+Dbdict::getError, //36, //1, //pekka@sama.ndb.mysql.com, //, //20071225, //storage/ndb/src/kernel/blocks/dbdict/Dbdict.hpp, //1460
+Dbdict::getOpRec, //149, //1, //pekka@sama.ndb.mysql.com, //, //20071225, //storage/ndb/src/kernel/blocks/dbdict/Dbdict.hpp, //1736
+Dbdict::handleDictConf, //26, //1, //pekka@sama.ndb.mysql.com, //, //20071225, //storage/ndb/src/kernel/blocks/dbdict/Dbdict.hpp, //2257
+Dbdict::handleDictRef, //26, //1, //pekka@sama.ndb.mysql.com, //, //20071225, //storage/ndb/src/kernel/blocks/dbdict/Dbdict.hpp, //2269
+Dbdict::link_object, //5, //1, //Mauritz Sundell, //mauritz.sundell@oracle.com, //20111111, //storage/ndb/src/kernel/blocks/dbdict/Dbdict.hpp, //806
+Dbdict::releaseOpRec, //18, //1, //pekka@sama.ndb.mysql.com, //, //20071225, //storage/ndb/src/kernel/blocks/dbdict/Dbdict.hpp, //1763
+Dbdict::seizeLinkedSchemaOp, //0, //0, //Mauritz Sundell, //mauritz.sundell@oracle.com, //20111007, //storage/ndb/src/kernel/blocks/dbdict/Dbdict.hpp, //1820
+Dbdict::seizeOpRec, //18, //1, //pekka@sama.ndb.mysql.com, //, //20071225, //storage/ndb/src/kernel/blocks/dbdict/Dbdict.hpp, //1748
+Dbdict::seizeSchemaOp, //2, //1, //Mauritz Sundell, //mauritz.sundell@oracle.com, //20111007, //storage/ndb/src/kernel/blocks/dbdict/Dbdict.hpp, //1778
+Dbdict::seizeSchemaOp, //0, //0, //Mauritz Sundell, //mauritz.sundell@oracle.com, //20111007, //storage/ndb/src/kernel/blocks/dbdict/Dbdict.hpp, //1784
+Dbdict::seizeSchemaOp, //2, //1, //Mauritz Sundell, //mauritz.sundell@oracle.com, //20111007, //storage/ndb/src/kernel/blocks/dbdict/Dbdict.hpp, //1794
+Dbdict::seizeSchemaOp, //2, //1, //Mauritz Sundell, //mauritz.sundell@oracle.com, //20111007, //storage/ndb/src/kernel/blocks/dbdict/Dbdict.hpp, //1810
+Dbdict::setError, //1, //1, //pekka@sama.ndb.mysql.com, //, //20071225, //storage/ndb/src/kernel/blocks/dbdict/Dbdict.hpp, //1454
+Dbdict::setOpRec, //0, //0, //pekka@sama.ndb.mysql.com, //, //20071225, //storage/ndb/src/kernel/blocks/dbdict/Dbdict.hpp, //1726
+Dbdict::startClientReq, //5, //1, //pekka@sama.ndb.mysql.com, //, //20071225, //storage/ndb/src/kernel/blocks/dbdict/Dbdict.hpp, //2196
+array_size, //4, //2, //Tor Didriksen, //tor.didriksen@oracle.com, //20121204, //unittest/gunit/test_utils.h, //34
+my_testing::delete_container_pointers, //1, //1, //Jorgen Loland, //jorgen.loland@oracle.com, //20121129, //unittest/gunit/test_utils.h, //42
+init, //0, //0, //jonas@eel.(none), //, //20060122, //storage/ndb/src/kernel/vm/bench_pool.cpp, //74
+init, //0, //0, //jonas@eel.(none), //, //20060228, //storage/ndb/src/kernel/vm/bench_pool.cpp, //81
+init, //0, //0, //jonas@eel.(none), //, //20060228, //storage/ndb/src/kernel/vm/bench_pool.cpp, //90
+test_ap, //0, //0, //jonas@eel.(none), //, //20060228, //storage/ndb/src/kernel/vm/bench_pool.cpp, //394
+test_pool, //0, //0, //jonas@eel.(none), //, //20060122, //storage/ndb/src/kernel/vm/bench_pool.cpp, //99
+test_rw, //0, //0, //jonas@eel.(none), //, //20060228, //storage/ndb/src/kernel/vm/bench_pool.cpp, //403
+test_wo, //0, //0, //jonas@eel.(none), //, //20060228, //storage/ndb/src/kernel/vm/bench_pool.cpp, //412
+LocalProxy::ssFind, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20080811, //storage/ndb/src/kernel/blocks/LocalProxy.hpp, //229
+LocalProxy::ssFindSeize, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20081116, //storage/ndb/src/kernel/blocks/LocalProxy.hpp, //242
+LocalProxy::ssRelease, //1, //1, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20081116, //storage/ndb/src/kernel/blocks/LocalProxy.hpp, //256
+LocalProxy::ssSearch, //2, //1, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20081116, //storage/ndb/src/kernel/blocks/LocalProxy.hpp, //180
+LocalProxy::ssSeize, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20080811, //storage/ndb/src/kernel/blocks/LocalProxy.hpp, //209
+ensureMinArraySize, //0, //0, //Bernd Ocklin, //bernd.ocklin@oracle.com, //20100122, //storage/ndb/src/ndbjtie/jtie/jtie_tconv_ptrbyval_impl.hpp, //40
+SignalSender::find_node, //3, //1, //Magnus Svensson, //magnus.svensson@sun.com, //20081106, //storage/ndb/src/ndbapi/SignalSender.cpp, //307
+SignalSender::waitFor, //0, //0, //tomas@poseidon.ndb.mysql.com, //, //20050908, //storage/ndb/src/ndbapi/SignalSender.cpp, //228
+slave_sleep, //3, //2, //Davi Arnaut, //davi.arnaut@oracle.com, //20110428, //sql/rpl_slave.cc, //2957
+opt_explain_json_namespace::get_id, //1, //1, //Gleb Shchepa, //gleb.shchepa@oracle.com, //20120229, //sql/opt_explain_json.cc, //1273
+call, //2, //2, //Martin Zaun, //martin.zaun@oracle.com, //20100405, //storage/ndb/src/ndbjtie/jtie/test/myapi/myapi_test.cpp, //710
+call, //2, //1, //Martin Zaun, //martin.zaun@oracle.com, //20100405, //storage/ndb/src/ndbjtie/jtie/test/myapi/myapi_test.cpp, //716
+list_copy_and_replace_each_value, //7, //6, //kostja@vajra.(none), //, //20070528, //sql/sql_list.h, //742
+Rpl_info_handler::get_info, //18, //1, //Alfranio Correia, //alfranio.correia@oracle.com, //20100824, //sql/rpl_info_handler.h, //218
+Rpl_info_handler::get_info, //19, //1, //Andrei Elkin, //andrei.elkin@oracle.com, //20110819, //sql/rpl_info_handler.h, //246
+Rpl_info_handler::set_info, //42, //1, //Alfranio Correia, //alfranio.correia@oracle.com, //20100824, //sql/rpl_info_handler.h, //181
+Rpl_info_handler::set_info, //1, //1, //Andrei Elkin, //andrei.elkin@oracle.com, //20110819, //sql/rpl_info_handler.h, //193
+operator<<, //4, //1, //joreland@mysql.com, //, //20050712, //storage/ndb/src/kernel/blocks/ndbfs/MemoryChannel.hpp, //106
+LHBits::LHBits, //0, //0, //Mauritz Sundell, //mauritz.sundell@oracle.com, //20120928, //storage/ndb/src/kernel/vm/LHLevel.hpp, //150
+lock, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20120320, //storage/ndb/src/kernel/vm/mt-lock.hpp, //83
+lock, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20120320, //storage/ndb/src/kernel/vm/mt-lock.hpp, //137
+trylock, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20120320, //storage/ndb/src/kernel/vm/mt-lock.hpp, //110
+trylock, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20120320, //storage/ndb/src/kernel/vm/mt-lock.hpp, //155
+unlock, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20120320, //storage/ndb/src/kernel/vm/mt-lock.hpp, //96
+unlock, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20120320, //storage/ndb/src/kernel/vm/mt-lock.hpp, //146
+BackupRestore::convert_array, //0, //0, //Martin Zaun, //martin.zaun@oracle.com, //20110218, //storage/ndb/tools/restore/consumer_restore.cpp, //84
+BackupRestore::convert_integral, //0, //0, //Martin Zaun, //martin.zaun@oracle.com, //20110218, //storage/ndb/tools/restore/consumer_restore.cpp, //134
+gcd, //1, //1, //Mauritz Sundell, //mauritz.sundell@oracle.com, //20120921, //storage/ndb/include/util/ndb_math.h, //27
+lcm, //0, //0, //Mauritz Sundell, //mauritz.sundell@oracle.com, //20120921, //storage/ndb/include/util/ndb_math.h, //44
+SafeCounter::init, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/kernel/vm/SafeCounter.hpp, //198
+SafeCounter::init, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/kernel/vm/SafeCounter.hpp, //233
+SafeCounter::init, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20100906, //storage/ndb/src/kernel/vm/SafeCounter.hpp, //253
+BaseString::getPrettyText, //2, //1, //Jonas Oreland, //jonas.oreland@oracle.com, //20090606, //storage/ndb/include/util/BaseString.hpp, //214
+BaseString::getPrettyText, //2, //1, //Jonas Oreland, //jonas.oreland@oracle.com, //20090606, //storage/ndb/include/util/BaseString.hpp, //228
+BaseString::getPrettyTextShort, //2, //1, //Jonas Oreland, //jonas.oreland@oracle.com, //20090606, //storage/ndb/include/util/BaseString.hpp, //218
+BaseString::getPrettyTextShort, //2, //1, //Jonas Oreland, //jonas.oreland@oracle.com, //20090606, //storage/ndb/include/util/BaseString.hpp, //232
+BaseString::getText, //2, //1, //Jonas Oreland, //jonas.oreland@oracle.com, //20090606, //storage/ndb/include/util/BaseString.hpp, //209
+BaseString::getText, //2, //1, //Jonas Oreland, //jonas.oreland@oracle.com, //20090606, //storage/ndb/include/util/BaseString.hpp, //223
+ReportMethodInt, //27, //1, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/acid.cpp, //111
+ReportMethodPtr, //12, //1, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/acid.cpp, //123
+ReportMethodVoid, //4, //1, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/acid.cpp, //135
+find, //2, //2, //jonas@eel.hemma.oreland.se, //, //20070924, //storage/ndb/test/run-test/db.cpp, //251
+Diagnostics_information::evaluate, //3, //1, //Davi Arnaut, //davi.arnaut@oracle.com, //20110715, //sql/sql_get_diagnostics.h, //115
+Dbtup::Tablerec::getExtraAttrId, //0, //0, //Frazer Clement, //frazer.clement@oracle.com, //20110518, //storage/ndb/src/kernel/blocks/dbtup/Dbtup.hpp, //1083
+NDBT_ThreadSet::set_output, //3, //1, //pekka@clam.ndb.mysql.com/clam.(none), //, //20070714, //storage/ndb/test/include/NDBT_Thread.hpp, //212
+bounded_queue_unittest::array_size, //4, //1, //Tor Didriksen, //tor.didriksen@oracle.com, //20101217, //unittest/gunit/bounded_queue-t.cc, //32
+bounded_queue_unittest::insert_and_sort, //0, //0, //Tor Didriksen, //tor.didriksen@oracle.com, //20101217, //unittest/gunit/bounded_queue-t.cc, //374
+NDBT_Thread::set_output, //2, //1, //pekka@clam.ndb.mysql.com/clam.(none), //, //20070714, //storage/ndb/test/include/NDBT_Thread.hpp, //108
+cast, //0, //0, //Bernd Ocklin, //bernd.ocklin@oracle.com, //20100122, //storage/ndb/src/ndbjtie/jtie/jtie_tconv_impl.hpp, //259
+filesort_compare_unittest::array_size, //1, //1, //Tor Didriksen, //tor.didriksen@oracle.com, //20120207, //unittest/gunit/filesort_compare-t.cc, //52
+sql_list_unittest::insert_values, //0, //0, //Tor Didriksen, //tor.didriksen@oracle.com, //20100317, //unittest/gunit/sql_list-t.cc, //39
+MEMCOPY, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/kernel/vm/testCopy/testCopy.cpp, //74
+doCopyLap, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/kernel/vm/testCopy/testCopy.cpp, //278
+doTime, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/kernel/vm/testCopy/testCopy.cpp, //252
+append, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/kernel/vm/LongSignal.hpp, //83
+put, //2, //2, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/util/Properties.cpp, //151
+Bitmask::operator=, //0, //0, //tomas@poseidon.mysql.com, //, //20070105, //storage/ndb/include/util/Bitmask.hpp, //1444
+Bitmask::operator=, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20100830, //storage/ndb/include/util/Bitmask.hpp, //1463
+segfault_unittest::array_size, //0, //0, //Tor Didriksen, //tor.didriksen@oracle.com, //20111202, //unittest/gunit/segfault-t.cc, //76
+insert_sort, //10, //4, //Jorgen Loland, //jorgen.loland@oracle.com, //20120223, //sql/merge_sort.h, //62
+merge_sort, //16, //5, //Jorgen Loland, //jorgen.loland@oracle.com, //20120223, //sql/merge_sort.h, //100
+SPJSanityTest::lessOrEqual, //0, //0, //Jan Wedvik, //jan.wedvik@oracle.com, //20101101, //storage/ndb/test/tools/spj_sanity_test.cpp, //281
+SPJSanityTest::operator<<, //8, //1, //Jan Wedvik, //jan.wedvik@oracle.com, //20101101, //storage/ndb/test/tools/spj_sanity_test.cpp, //291
+SPJSanityTest::operator==, //4, //1, //Jan Wedvik, //jan.wedvik@oracle.com, //20101101, //storage/ndb/test/tools/spj_sanity_test.cpp, //260
+SPJSanityTest::operator==, //1, //1, //Jan Wedvik, //jan.wedvik@oracle.com, //20101101, //storage/ndb/test/tools/spj_sanity_test.cpp, //270
+utils::toI, //1, //1, //Martin Zaun, //martin.zaun@oracle.com, //20100930, //storage/ndb/test/crund/martins_little_helpers/src/utils/string_helpers.hpp, //94
+RequestTracker::init, //0, //0, //jonas@perch.ndb.mysql.com, //, //20060626, //storage/ndb/src/kernel/vm/RequestTracker.hpp, //31
+valid_buffer_range, //3, //3, //Nuno Carvalho, //nuno.carvalho@oracle.com, //20121012, //sql/sql_priv.h, //177
+available_buffer, //2, //1, //Nuno Carvalho, //nuno.carvalho@oracle.com, //20121012, //sql/sql_priv.h, //159
+try_reserve, //1, //1, //Tor Didriksen, //tor.didriksen@oracle.com, //20120207, //sql/filesort_utils.cc, //163
+Mutex::Mutex, //0, //0, //joreland@mysql.com, //, //20041115, //storage/ndb/src/kernel/vm/Mutex.hpp, //188
+alloc_type, //3, //2, //anozdrin/alik@ibm., //, //20070628, //sql/sql_trigger.cc, //40
+update, //0, //0, //jonas@eel.(none), //, //20050916, //storage/ndb/src/ndbapi/Ndblist.cpp, //518
+sql_plist_unittest::insert_values, //0, //0, //Davi Arnaut, //davi.arnaut@oracle.com, //20110413, //unittest/gunit/sql_plist-t.cc, //27
+sql_plist_unittest::operator<<, //1, //1, //Davi Arnaut, //davi.arnaut@oracle.com, //20110413, //unittest/gunit/sql_plist-t.cc, //83
+dth_encode_fp, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110925, //storage/ndb/memcache/src/DataTypeHandler.cc, //1094
+dth_length_s, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //524
+dth_length_u, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //532
+dth_read32, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //541
+dth_write32, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110925, //storage/ndb/memcache/src/DataTypeHandler.cc, //548
+compare, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/kernel/vm/testDataBuffer/testDataBuffer.cpp, //44
+test, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/kernel/vm/testDataBuffer/testDataBuffer.cpp, //67
+
+generic function-like macro, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+CHECK, //152, //18, //Bernd Ocklin, //bernd.ocklin@oracle.com, //20100122, //storage/ndb/src/ndbjtie/utils/helpers.hpp, //36
+TRACE, //2355, //2, //Bernd Ocklin, //bernd.ocklin@oracle.com, //20100122, //storage/ndb/src/ndbjtie/utils/helpers.hpp, //80
+ERR, //789, //4, //tomas@poseidon.ndb.mysql.com, //, //20050307, //storage/ndb/test/include/NDBT_Error.hpp, //96
+DBUG_ASSERT, //3701, //297, //monty@hundin.mysql.fi, //, //20010908, //include/my_dbug.h, //96
+DBUG_PRINT, //2435, //178, //bk@work.mysql.com, //, //20000731, //include/my_dbug.h, //82
+DBUG_RETURN, //6354, //221, //serg@serg.mylan, //, //20060214, //include/my_dbug.h, //72
+MYF, //2173, //11, //monty@hundin.mysql.fi, //, //20010915, //include/my_global.h, //971
+STATIC_CONST, //1000, //27, //tomas@mc05.(none), //, //20040507, //storage/ndb/include/ndb_global.h, //137
+APIERROR, //5, //2, //tomas@whalegate.ndb.mysql.com, //, //20070704, //storage/ndb/test/ndbapi/ndbapi_50compat1.cpp, //37
+int4store, //77, //2, //Tor Didriksen, //tor.didriksen@oracle.com, //20120111, //include/byte_order_generic_x86_64.h, //64
+memcpy, //1606, //164, //bk@work.mysql.com, //, //20000731, //include/m_string.h, //49
+likely, //4221, //13, //sasha@mysql.sashanet.com, //, //20020126, //include/my_global.h, //189
+unlikely, //1176, //52, //sasha@mysql.sashanet.com, //, //20020126, //include/my_global.h, //190
+NDB_ARRAY_SIZE, //166, //8, //Jonas Oreland, //jonas.oreland@oracle.com, //20080912, //storage/ndb/include/ndb_global.h, //198
+D, //458, //8, //Stewart Smith, //stewart@flamingspork.com, //20081009, //storage/ndb/src/kernel/vm/SimulatedBlock.hpp, //73
+ndbassert, //679, //8, //Stewart Smith, //stewart@flamingspork.com, //20081009, //storage/ndb/src/kernel/vm/pc.hpp, //219
+ndbrequire, //3254, //63, //tomas@poseidon.ndb.mysql.com, //, //20051003, //storage/ndb/src/kernel/vm/pc.hpp, //228
+ndbrequireErr, //3260, //2, //tomas@poseidon.ndb.mysql.com, //, //20051003, //storage/ndb/src/kernel/vm/pc.hpp, //222
+ptrNull, //6, //2, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/kernel/vm/pc.hpp, //109
+mysql_mutex_lock, //434, //2, //Marc Alff, //marc.alff@oracle.com, //20091130, //include/mysql/psi/mysql_thread.h, //314
+mysql_mutex_unlock, //518, //2, //Marc Alff, //marc.alff@oracle.com, //20091130, //include/mysql/psi/mysql_thread.h, //342
+int2store, //94, //26, //Tor Didriksen, //tor.didriksen@oracle.com, //20120111, //include/byte_order_generic_x86_64.h, //56
+uint2korr, //132, //11, //Tor Didriksen, //tor.didriksen@oracle.com, //20120111, //include/byte_order_generic_x86_64.h, //29
+test, //192, //33, //monty@hundin.mysql.fi, //, //20010915, //include/my_global.h, //456
+int3store, //31, //12, //Tor Didriksen, //tor.didriksen@oracle.com, //20120111, //include/byte_order_generic_x86_64.h, //60
+int8store, //22, //10, //Tor Didriksen, //tor.didriksen@oracle.com, //20120111, //include/byte_order_generic_x86_64.h, //81
+uint8korr, //19, //10, //Tor Didriksen, //tor.didriksen@oracle.com, //20120111, //include/byte_order_generic_x86_64.h, //53
+detail, //49, //8, //John David Duncan, //john.duncan@oracle.com, //20110921, //storage/ndb/memcache/unit/all_tests.h, //30
+require, //78, //8, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/unit/all_tests.h, //27
+MY_MIN, //34, //4, //Mats Kindahl, //mats.kindahl@oracle.com, //20110601, //include/my_global.h, //1068
+DBUG_PRINT_BITSET, //5, //2, //rafal@quant.(none), //, //20070826, //sql/rpl_utility.h, //479
+array_elements, //295, //20, //monty@hundin.mysql.fi, //, //20010915, //include/my_global.h, //460
+btr_page_get_level, //22, //5, //Marko Mäkelä, //marko.makela@oracle.com, //20120523, //storage/innobase/include/btr0btr.h, //320
+btr_cur_get_index, //11, //3, //Marko Mäkelä, //marko.makela@oracle.com, //20110929, //storage/innobase/include/btr0cur.h, //120
+btr_cur_get_rec, //58, //3, //Marko Mäkelä, //marko.makela@oracle.com, //20110215, //storage/innobase/include/btr0cur.h, //91
+btr_pcur_get_block, //27, //2, //Marko Mäkelä, //marko.makela@oracle.com, //20110321, //storage/innobase/include/btr0pcur.h, //404
+btr_pcur_get_btr_cur, //38, //2, //Marko Mäkelä, //marko.makela@oracle.com, //20110321, //storage/innobase/include/btr0pcur.h, //401
+btr_pcur_get_page, //11, //2, //Marko Mäkelä, //marko.makela@oracle.com, //20110321, //storage/innobase/include/btr0pcur.h, //403
+btr_pcur_get_rec, //91, //3, //Marko Mäkelä, //marko.makela@oracle.com, //20110321, //storage/innobase/include/btr0pcur.h, //405
+dict_table_get_first_index, //133, //2, //marko, //, //20070813, //storage/innobase/include/dict0dict.h, //683
+dict_table_get_next_index, //85, //3, //marko, //, //20070813, //storage/innobase/include/dict0dict.h, //685
+page_get_infimum_rec, //41, //4, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/include/page0page.h, //282
+rec_get_offsets, //132, //29, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/include/rem0rec.h, //448
+DECLARE_MYSQL_SYSVAR_SIMPLE, //81, //4, //antony@ppcg5.local, //, //20070302, //include/mysql/plugin.h, //260
+my_strcasecmp, //198, //18, //bar@bar.mysql.r18.ru, //, //20030523, //include/m_ctype.h, //764
+DEBUG_ASSERT, //4, //2, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/include/debug.h, //69
+my_ispunct, //2, //2, //monty@mysql.com, //, //20040318, //include/m_ctype.h, //747
+my_isspace, //121, //15, //monty@mysql.com, //, //20040318, //include/m_ctype.h, //746
+my_strnncoll, //24, //13, //serg@serg.mylan, //, //20040610, //include/m_ctype.h, //760
+LINT_INIT, //46, //14, //Davi Arnaut, //davi.arnaut@oracle.com, //20100702, //include/my_global.h, //419
+test_all_bits, //11, //3, //monty@hundin.mysql.fi, //, //20010915, //include/my_global.h, //459
+IS_TIME_T_VALID_FOR_TIMESTAMP, //2, //2, //Georgi Kodinov, //georgi.kodinov@oracle.com, //20110202, //include/my_time.h, //65
+set_timespec, //15, //4, //Guilhem Bichot, //guilhem.bichot@oracle.com, //20100519, //include/my_pthread.h, //393
+mysql_cond_broadcast, //41, //2, //Marc Alff, //marc.alff@oracle.com, //20091130, //include/mysql/psi/mysql_thread.h, //564
+mysql_cond_timedwait, //14, //4, //Marc Alff, //marc.alff@oracle.com, //20091130, //include/mysql/psi/mysql_thread.h, //547
+mysql_mutex_init, //67, //2, //Marc Alff, //marc.alff@oracle.com, //20091130, //include/mysql/psi/mysql_thread.h, //284
+my_charpos, //12, //3, //serg@serg.mylan, //, //20040813, //include/m_ctype.h, //765
+STRING_WITH_LEN, //869, //3, //monty@mysql.com/narttu.mysql.fi, //, //20070510, //include/m_string.h, //200
+set_if_smaller, //54, //13, //serg@serg.mylan, //, //20040217, //include/my_global.h, //458
+DBUG_EXECUTE, //50, //10, //bk@work.mysql.com, //, //20000731, //include/my_dbug.h, //74
+DBUG_EXECUTE_IF, //296, //39, //serg@serg.mylan, //, //20060214, //include/my_dbug.h, //76
+ALIGN_SIZE, //94, //6, //monty@hundin.mysql.fi, //, //20010915, //include/my_global.h, //813
+set_if_bigger, //61, //8, //serg@serg.mylan, //, //20040217, //include/my_global.h, //457
+DBUG_PUSH, //8, //2, //bk@work.mysql.com, //, //20000731, //include/my_dbug.h, //84
+flush_io_cache, //19, //2, //monty@mysql.com, //, //20040310, //include/my_sys.h, //783
+my_b_inited, //24, //2, //bk@work.mysql.com, //, //20000731, //include/my_sys.h, //523
+my_b_tell, //45, //3, //bk@work.mysql.com, //, //20000731, //include/my_sys.h, //552
+mysql_file_pread, //4, //3, //Marc Alff, //marc.alff@oracle.com, //20091130, //include/mysql/psi/mysql_file.h, //364
+queue_element, //8, //3, //bk@work.mysql.com, //, //20000731, //include/queues.h, //44
+btr_pcur_restore_position, //32, //7, //marko, //, //20100204, //storage/innobase/include/btr0pcur.h, //268
+dict_index_get_nth_field, //77, //6, //marko, //, //20061019, //storage/innobase/include/dict0dict.h, //1100
+dict_table_get_nth_col, //33, //7, //marko, //, //20061019, //storage/innobase/include/dict0dict.h, //830
+rec_get_nth_field, //68, //18, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/include/rem0rec.h, //537
+rec_offs_init, //53, //3, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/include/rem0rec.h, //662
+btr_pcur_open, //10, //8, //marko, //, //20100204, //storage/innobase/include/btr0pcur.h, //111
+rec_offs_make_valid, //19, //7, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/include/rem0rec.h, //494
+compile_time_assert, //9, //5, //antony@ppcg5.local, //, //20070323, //include/my_global.h, //375
+my_isalpha, //6, //2, //monty@mysql.com, //, //20040318, //include/m_ctype.h, //740
+my_isdigit, //46, //12, //monty@mysql.com, //, //20040318, //include/m_ctype.h, //743
+my_toupper, //23, //4, //bar@gw.udmsearch.izhnet.ru, //, //20020306, //include/m_ctype.h, //738
+page_cur_get_block, //8, //2, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/include/page0cur.h, //90
+page_cur_get_page, //8, //2, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/include/page0cur.h, //89
+page_cur_get_page_zip, //5, //2, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/include/page0cur.h, //91
+page_dir_get_nth_slot, //52, //5, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/include/page0page.h, //431
+page_get_supremum_rec, //15, //2, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/include/page0page.h, //283
+page_header_get_ptr, //17, //6, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/include/page0page.h, //239
+cmp_dtuple_rec_with_match, //6, //3, //Marko Mäkelä, //marko.makela@oracle.com, //20120530, //storage/innobase/include/rem0cmp.h, //163
+rec_get_end, //7, //2, //Marko Mäkelä, //marko.makela@oracle.com, //20110321, //storage/innobase/include/rem0rec.h, //728
+rec_get_start, //4, //2, //Marko Mäkelä, //marko.makela@oracle.com, //20110321, //storage/innobase/include/rem0rec.h, //727
+my_casedn_str, //39, //9, //bar@bar.mysql.r18.ru, //, //20030523, //include/m_ctype.h, //773
+btr_block_get, //27, //6, //Marko Mäkelä, //marko.makela@oracle.com, //20110815, //storage/innobase/include/btr0btr.h, //287
+btr_pcur_get_page_cur, //4, //2, //Marko Mäkelä, //marko.makela@oracle.com, //20110321, //storage/innobase/include/btr0pcur.h, //402
+page_cur_get_rec, //37, //2, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/include/page0cur.h, //92
+error_handler, //819, //2, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_error.hpp, //28
+bitmap_buffer_size, //9, //2, //monty@mysql.com, //, //20060604, //include/my_bitmap.h, //73
+DICT_TF_HAS_DATA_DIR, //14, //2, //kevin.lewis@oracle.com, //, //20120615, //storage/innobase/include/dict0mem.h, //177
+ibuf_page, //2, //2, //Marko Mäkelä, //marko.makela@oracle.com, //20101201, //storage/innobase/include/ibuf0ibuf.h, //312
+TRASH, //9, //3, //Guilhem Bichot, //guilhem.bichot@oracle.com, //20110719, //include/my_sys.h, //185
+my_hash_init, //46, //21, //Ingo Struewing, //ingo.struewing@oracle.com, //20081001, //include/hash.h, //66
+my_hash_inited, //7, //2, //V Narayanan, //v.narayanan@sun.com, //20090619, //include/hash.h, //101
+sint2korr, //13, //2, //Tor Didriksen, //tor.didriksen@oracle.com, //20120111, //include/byte_order_generic_x86_64.h, //19
+shortget, //8, //5, //Tor Didriksen, //tor.didriksen@oracle.com, //20120111, //include/little_endian.h, //58
+shortstore, //6, //3, //Tor Didriksen, //tor.didriksen@oracle.com, //20120111, //include/little_endian.h, //61
+NDBT_TESTSUITE_INSTANCE, //30, //30, //jonas@mysql.com, //, //20080804, //storage/ndb/test/include/NDBT_Test.hpp, //514
+TC_PROPERTY, //261, //2, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/include/NDBT_Test.hpp, //468
+my_strntod, //15, //3, //bar@bar.mysql.r18.ru, //, //20030523, //include/m_ctype.h, //778
+UNINIT_VAR, //42, //20, //Staale Smedseng, //staale.smedseng@sun.com, //20090828, //include/my_global.h, //442
+ASSERT_RANGE, //7, //3, //magnus@neptunus.(none), //, //20040414, //storage/ndb/include/kernel/signaldata/SignalData.hpp, //26
+DBUG_DUMP, //49, //18, //serg@serg.mylan, //, //20060214, //include/my_dbug.h, //92
+bitmap_set_all, //22, //2, //mronstrom@mysql.com, //, //20050512, //include/my_bitmap.h, //122
+btr_cur_get_block, //49, //3, //Marko Mäkelä, //marko.makela@oracle.com, //20110215, //storage/innobase/include/btr0cur.h, //90
+RSS_AP_SNAPSHOT_CHECK, //19, //2, //jonas@perch.ndb.mysql.com, //, //20080529, //storage/ndb/src/kernel/vm/SimulatedBlock.hpp, //1352
+RSS_AP_SNAPSHOT_SAVE, //19, //2, //jonas@perch.ndb.mysql.com, //, //20080529, //storage/ndb/src/kernel/vm/SimulatedBlock.hpp, //1351
+string2decimal, //26, //2, //monty@mysql.com, //, //20050219, //include/decimal.h, //94
+my_pthread_getspecific_ptr, //5, //2, //bk@work.mysql.com, //, //20000731, //include/my_pthread.h, //207
+my_pthread_setspecific_ptr, //9, //6, //bk@work.mysql.com, //, //20000731, //include/my_pthread.h, //208
+my_init_dynamic_array, //39, //21, //Davi Arnaut, //davi.arnaut@oracle.com, //20100708, //include/my_sys.h, //800
+DICT_TF2_FLAG_IS_SET, //38, //7, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/include/dict0mem.h, //217
+DICT_TF2_FLAG_SET, //4, //2, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/include/dict0mem.h, //214
+DECLARE_MYSQL_THDVAR_SIMPLE, //9, //4, //antony@ppcg5.local, //, //20070302, //include/mysql/plugin.h, //283
+MYSQL_CALLBACK, //13, //4, //Mats Kindahl, //mats.kindahl@oracle.com, //20100607, //sql/sql_callback.h, //33
+EXIT_COND, //19, //2, //Marc Alff, //marc.alff@oracle.com, //20110721, //sql/mdl.h, //56
+MDL_BIT, //58, //2, //Dmitry Lenev, //Dmitry.Lenev@oracle.com, //20100201, //sql/mdl.cc, //333
+MY_SOCKET_FORMAT_VALUE, //9, //2, //Stewart Smith, //stewart@flamingspork.com, //20080821, //storage/ndb/include/portlib/ndb_socket_posix.h, //28
+LOWER_BITS, //5, //4, //Guilhem Bichot, //guilhem.bichot@oracle.com, //20120116, //sql/sql_select.h, //44
+APIERROR, //20, //2, //tomas@poseidon.ndb.mysql.com, //, //20050915, //storage/ndb/ndbapi-examples/ndbapi_simple_index/main.cpp, //61
+longlong10_to_str, //43, //17, //bk@work.mysql.com, //, //20000731, //include/m_string.h, //166
+MY_MAX, //8, //4, //Mats Kindahl, //mats.kindahl@oracle.com, //20110601, //include/my_global.h, //1067
+my_isinf, //4, //3, //msvensson@pilot.blaudden, //, //20070516, //include/my_global.h, //788
+mi_int8store, //3, //2, //bk@work.mysql.com, //, //20000731, //include/myisampack.h, //125
+f_settype, //7, //2, //bk@work.mysql.com, //, //20000731, //sql/field.h, //4157
+FLAGSTR, //11, //5, //Mats Kindahl, //mats.kindahl@oracle.com, //20120403, //sql/sql_class.h, //51
+btr_pcur_open_with_no_init, //8, //6, //marko, //, //20100204, //storage/innobase/include/btr0pcur.h, //140
+DICT_TF2_FLAG_UNSET, //3, //2, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/include/dict0mem.h, //220
+APIERROR, //19, //2, //mskold/marty@mysql.com/linux.site, //, //20060901, //storage/ndb/ndbapi-examples/ndbapi_simple_dual/main.cpp, //63
+MYSQLERROR, //4, //2, //mskold/marty@mysql.com/linux.site, //, //20060901, //storage/ndb/ndbapi-examples/ndbapi_simple_dual/main.cpp, //60
+CHN, //31, //4, //pekka@mysql.com, //, //20040629, //storage/ndb/test/ndbapi/testDeadlock.cpp, //70
+DBG, //19, //3, //pekka@mysql.com, //, //20040629, //storage/ndb/test/ndbapi/testDeadlock.cpp, //55
+MAKE_VERSION, //98, //2, //tomas@whalegate.ndb.mysql.com, //, //20070711, //storage/ndb/include/util/version.h, //25
+rec_get_nth_field_old, //95, //18, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/include/rem0rec.h, //510
+require, //357, //29, //jack andrews, //jack@sun.com, //20091204, //storage/ndb/src/kernel/vm/DynArr256.cpp, //88
+returnErrIf, //38, //9, //Jonas Oreland, //jonas.oreland@oracle.com, //20110406, //storage/ndb/src/ndbapi/NdbQueryBuilder.cpp, //75
+mysql_file_close, //75, //4, //Marc Alff, //marc.alff@oracle.com, //20091130, //include/mysql/psi/mysql_file.h, //325
+mysql_file_read, //20, //14, //Marc Alff, //marc.alff@oracle.com, //20091130, //include/mysql/psi/mysql_file.h, //338
+mysql_file_seek, //21, //8, //Marc Alff, //marc.alff@oracle.com, //20091130, //include/mysql/psi/mysql_file.h, //390
+get_object, //3, //3, //He Zhenxing, //hezx@greatopensource.com, //20100625, //sql/rpl_master.cc, //44
+CRASH_INSERTION, //171, //2, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/kernel/vm/pc.hpp, //231
+DEBUG, //4, //2, //joreland@mysql.com, //, //20040526, //storage/ndb/src/kernel/blocks/qmgr/QmgrMain.cpp, //58
+DEBUG_START3, //6, //3, //joreland@mysql.com, //, //20040526, //storage/ndb/src/kernel/blocks/qmgr/QmgrMain.cpp, //61
+my_ismbchar, //22, //7, //bar@bar.mysql.r18.ru, //, //20030523, //include/m_ctype.h, //769
+my_mbcharlen, //17, //5, //bar@bar.mysql.r18.ru, //, //20030523, //include/m_ctype.h, //770
+mysql_rwlock_unlock, //72, //2, //Marc Alff, //marc.alff@oracle.com, //20091130, //include/mysql/psi/mysql_thread.h, //486
+my_isvar, //2, //2, //bar@gw.udmsearch.izhnet.ru, //, //20020312, //include/m_ctype.h, //753
+longlong2str, //17, //6, //Sergei Golubchik, //serg@mysql.com, //20091222, //include/m_string.h, //186
+IF_WIN, //26, //11, //Sergei Golubchik, //serg@mysql.com, //20091222, //include/my_global.h, //82
+STRINGIFY_ARG, //11, //2, //monty@mysql.com, //, //20040525, //include/my_global.h, //404
+swap_variables, //31, //8, //kostja@dipika.(none), //, //20080408, //include/my_global.h, //455
+dynamic_element, //55, //8, //bk@work.mysql.com, //, //20000731, //include/my_sys.h, //822
+simple_command, //4, //4, //Georgi Kodinov, //georgi.kodinov@oracle.com, //20100809, //include/sql_common.h, //74
+CHECK_CONNECTED, //41, //2, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/mgmapi/mgmapi.cpp, //201
+CHECK_HANDLE, //46, //2, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/mgmapi/mgmapi.cpp, //196
+CHECK_REPLY, //40, //2, //stewart@mysql.com[stewart], //, //20070322, //storage/ndb/src/mgmapi/mgmapi.cpp, //207
+CHECK_TIMEDOUT_RET, //12, //2, //stewart@mysql.com[stewart], //, //20070322, //storage/ndb/src/mgmapi/mgmapi.cpp, //219
+SET_ERROR, //185, //6, //stewart@flamingspork.com, //, //20080821, //storage/ndb/src/mgmapi/mgmapi.cpp, //181
+RECOVERY_CRASH, //11, //2, //Marko Mäkelä, //marko.makela@oracle.com, //20121001, //storage/innobase/srv/srv0start.cc, //362
+mysql_file_write, //33, //20, //Marc Alff, //marc.alff@oracle.com, //20091130, //include/mysql/psi/mysql_file.h, //351
+CHECK, //207, //6, //Magnus Blaudd, //msvensson@peek02.mysql.com, //20090916, //storage/ndb/test/ndbapi/testMgmd.cpp, //335
+strtok_r, //19, //3, //monty@hundin.mysql.fi, //, //20010915, //include/my_global.h, //702
+YY_STATE_EOF, //5, //5, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/pars/lexyy.cc, //137
+free, //2, //2, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/pars/lexyy.cc, //965
+malloc, //2, //2, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/pars/lexyy.cc, //964
+realloc, //2, //2, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/pars/lexyy.cc, //966
+btr_cur_optimistic_delete, //8, //4, //Marko Mäkelä, //marko.makela@oracle.com, //20120201, //storage/innobase/include/btr0cur.h, //468
+ibuf_bitmap_get_map_page, //11, //4, //marko, //, //20091226, //storage/innobase/ibuf/ibuf0ibuf.cc, //874
+ibuf_bitmap_page_get_bits, //8, //5, //Marko Mäkelä, //marko.makela@oracle.com, //20101201, //storage/innobase/ibuf/ibuf0ibuf.cc, //691
+ibuf_get_merge_page_nos, //2, //2, //Marko Mäkelä, //marko.makela@oracle.com, //20110324, //storage/innobase/ibuf/ibuf0ibuf.cc, //2301
+ibuf_rec_get_op_type, //3, //2, //Marko Mäkelä, //marko.makela@oracle.com, //20110324, //storage/innobase/ibuf/ibuf0ibuf.cc, //1399
+ibuf_rec_get_page_no, //10, //3, //Marko Mäkelä, //marko.makela@oracle.com, //20110324, //storage/innobase/ibuf/ibuf0ibuf.cc, //1238
+ibuf_rec_get_space, //10, //3, //Marko Mäkelä, //marko.makela@oracle.com, //20110324, //storage/innobase/ibuf/ibuf0ibuf.cc, //1275
+PFS_MALLOC_ARRAY, //38, //3, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/pfs_global.h, //52
+NODE_ARRAY_SIZE, //9, //2, //magnus@neptunus.(none), //, //20040414, //storage/ndb/include/kernel/NodeBitmask.hpp, //45
+thd_proc_info, //30, //4, //Marc Alff, //marc.alff@oracle.com, //20110721, //sql/sql_class.h, //63
+plugin_decl, //12, //2, //antony@ppcg5.local, //, //20070302, //sql/sql_plugin.h, //126
+push_dynamic, //9, //7, //serg@serg.mylan, //, //20060104, //include/my_sys.h, //823
+mysql_rwlock_rdlock, //28, //2, //Marc Alff, //marc.alff@oracle.com, //20091130, //include/mysql/psi/mysql_thread.h, //406
+PRINT_ERROR, //34, //2, //Frazer Clement, //frazer.clement@oracle.com, //20100429, //storage/ndb/test/ndbapi/testNativeDefault.cpp, //60
+my_plugin_lock_by_name, //7, //4, //Davi Arnaut, //davi.arnaut@oracle.com, //20100708, //sql/sql_plugin.h, //147
+my_wildcmp, //4, //3, //bar@bar.mysql.r18.ru, //, //20030523, //include/m_ctype.h, //763
+use_mb, //22, //3, //bar@bar.mysql.r18.ru, //, //20030523, //include/m_ctype.h, //768
+INIT_SIGNAL_SENDER, //8, //2, //tomas@poseidon.ndb.mysql.com, //, //20050912, //storage/ndb/src/mgmsrv/MgmtSrvr.cpp, //73
+DICT_MAX_FIELD_LEN_BY_FORMAT, //5, //2, //Jimmy Yang, //jimmy.yang@oracle.com, //20110531, //storage/innobase/include/dict0mem.h, //454
+DICT_TF_GET_ZIP_SSIZE, //3, //2, //kevin.lewis@oracle.com, //, //20111021, //storage/innobase/include/dict0mem.h, //169
+CHECKEQUAL, //62, //4, //Frazer Clement, //frazer.clement@oracle.com, //20080701, //storage/ndb/test/ndbapi/testLimits.cpp, //26
+CHECKNOTNULL, //29, //5, //Frazer Clement, //frazer.clement@oracle.com, //20080701, //storage/ndb/test/ndbapi/testLimits.cpp, //20
+rows2double, //22, //2, //monty@mashka.mysql.fi, //, //20021114, //include/my_base.h, //618
+mysql_file_chsize, //3, //2, //Marc Alff, //marc.alff@oracle.com, //20091130, //include/mysql/psi/mysql_file.h, //188
+recv_recover_page, //2, //2, //marko, //, //20090324, //storage/innobase/include/log0recv.h, //103
+dict_table_get_sys_col, //9, //6, //marko, //, //20061019, //storage/innobase/include/dict0dict.h, //832
+row_upd_changes_ord_field_binary, //6, //3, //Marko Mäkelä, //marko.makela@oracle.com, //20110131, //storage/innobase/include/row0upd.h, //319
+upd_get_nth_field, //21, //4, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/include/row0upd.h, //71
+APIERROR, //260, //2, //frazer@forth.ndb.mysql.com, //, //20080401, //storage/ndb/ndbapi-examples/ndbapi_recattr_vs_record/main.cpp, //50
+MYSQLERROR, //5, //2, //frazer@forth.ndb.mysql.com, //, //20080401, //storage/ndb/ndbapi-examples/ndbapi_recattr_vs_record/main.cpp, //47
+my_plugin_lock, //21, //4, //Davi Arnaut, //davi.arnaut@oracle.com, //20100708, //sql/sql_plugin.h, //149
+CHECK, //5, //2, //Frazer Clement, //frazer.clement@oracle.com, //20090306, //storage/ndb/test/ndbapi/testPartitioning.cpp, //747
+CHECKNOTNULL, //9, //5, //Frazer Clement, //frazer.clement@oracle.com, //20090306, //storage/ndb/test/ndbapi/testPartitioning.cpp, //756
+dynamic_array_ptr, //18, //5, //bk@work.mysql.com, //, //20000731, //include/my_sys.h, //821
+PCN_SIZE_OF, //40, //3, //magnus@neptunus.(none), //, //20040414, //storage/ndb/include/newtonapi/defs/pcn_types.h, //33
+DBA_BINDING, //20, //3, //magnus@neptunus.(none), //, //20040414, //storage/ndb/include/newtonapi/dba.h, //175
+CRASH_INSERTION2, //22, //3, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/kernel/vm/pc.hpp, //237
+CHECK, //61, //2, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/src/NdbRestarts.cpp, //357
+ROOT, //15, //2, //sunny, //, //20080227, //storage/innobase/ut/ut0rbt.cc, //51
+sint8korr, //11, //3, //Tor Didriksen, //tor.didriksen@oracle.com, //20120111, //include/byte_order_generic_x86_64.h, //54
+EE, //15, //15, //ingo@mysql.com, //, //20041223, //include/mysys_err.h, //24
+row_mysql_freeze_data_dictionary, //8, //2, //marko, //, //20081222, //storage/innobase/include/row0mysql.h, //394
+STR_EQ, //8, //4, //marko, //, //20080218, //storage/innobase/row/row0mysql.cc, //112
+LOAD_ALIGNED_DATA, //15, //2, //John David Duncan, //john.duncan@oracle.com, //20110928, //storage/ndb/memcache/include/DataTypeHandler.h, //30
+STORE_ALIGNED_DATA, //10, //3, //John David Duncan, //john.duncan@oracle.com, //20110928, //storage/ndb/memcache/include/DataTypeHandler.h, //34
+clear_alloc_root, //3, //2, //monty@mishka.local, //, //20041014, //include/my_sys.h, //840
+ABORT_ERROR, //31, //2, //Martin Zaun, //martin.zaun@oracle.com, //20100213, //storage/ndb/test/crund/martins_little_helpers/src/utils/helpers.hpp, //40
+DBUG_EVALUATE_IF, //33, //4, //serg@serg.mylan, //, //20060214, //include/my_dbug.h, //80
+ERR_RETURN, //20, //3, //tomas@poseidon.ndb.mysql.com, //, //20060504, //storage/ndb/src/ndbapi/NdbDictionaryImpl.cpp, //54
+BUF_DUMP_CREATE, //2, //2, //Vasil Dimov, //vasil.dimov@oracle.com, //20110623, //storage/innobase/buf/buf0dump.cc, //67
+APIERROR, //2, //2, //tomas@poseidon.ndb.mysql.com, //, //20050915, //storage/ndb/ndbapi-examples/ndbapi_async/ndbapi_async.cpp, //80
+MYSQLERROR, //4, //2, //tomas@poseidon.ndb.mysql.com, //, //20050915, //storage/ndb/ndbapi-examples/ndbapi_async/ndbapi_async.cpp, //77
+PROPAGATE_REPORTED_ERROR, //27, //11, //Sven Sandberg, //sven.sandberg@oracle.com, //20110924, //sql/rpl_gtid.h, //173
+btr_assert_not_corrupted, //6, //3, //Marko Mäkelä, //marko.makela@oracle.com, //20120126, //storage/innobase/include/btr0btr.h, //122
+APIERROR, //4, //2, //tomas@poseidon.ndb.mysql.com, //, //20050915, //storage/ndb/ndbapi-examples/ndbapi_retries/ndbapi_retries.cpp, //52
+require, //22, //3, //jack andrews, //jack@sun.com, //20091204, //storage/ndb/test/ndbapi/slow_select.cpp, //43
+require2, //8, //3, //jack andrews, //jack@sun.com, //20091204, //storage/ndb/test/ndbapi/slow_select.cpp, //44
+mysql_file_pwrite, //6, //4, //Marc Alff, //marc.alff@oracle.com, //20091130, //include/mysql/psi/mysql_file.h, //377
+INT_DEBUG, //42, //2, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/ndbapi/NdbOperationInt.cpp, //28
+plugin_data, //33, //3, //antony@ppcg5.local, //, //20070302, //sql/sql_plugin.h, //128
+plugin_foreach, //22, //21, //serg@janus.mylan, //, //20060906, //sql/sql_plugin.h, //168
+plugin_int_to_ref, //5, //2, //He Zhenxing, //hezx@greatopensource.com, //20090926, //sql/sql_plugin.h, //52
+isnan, //4, //2, //kaa@polly.local, //, //20070429, //include/my_global.h, //768
+my_offsetof, //135, //5, //monty@mysql.com/nosik.monty.fi, //, //20061127, //include/my_global.h, //830
+ha_storage_put_str_memlim, //6, //2, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/include/ha0storage.h, //103
+CHECK2, //120, //3, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/testIndex.cpp, //1309
+CHECKRET, //27, //3, //Frazer Clement, //frazer.clement@oracle.com, //20091203, //storage/ndb/test/ndbapi/testIndex.cpp, //36
+YY_STATE_EOF, //2, //2, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0blex.cc, //154
+APIERROR, //11, //2, //tomas@poseidon.ndb.mysql.com, //, //20050915, //storage/ndb/ndbapi-examples/ndbapi_event/ndbapi_event.cpp, //107
+UNUSED, //3, //2, //Jonas Oreland, //jonas.oreland@oracle.com, //20110406, //storage/ndb/src/ndbapi/NdbQueryOperation.cpp, //48
+CHK_RET_FAILED, //4, //2, //jonas oreland, //jonas.oreland@oracle.com, //20110405, //storage/ndb/test/ndbapi/testScan.cpp, //1763
+btr_cur_get_page_cur, //15, //2, //Marko Mäkelä, //marko.makela@oracle.com, //20110215, //storage/innobase/include/btr0cur.h, //89
+APIERROR, //5, //2, //tomas@poseidon.ndb.mysql.com, //, //20050915, //storage/ndb/ndbapi-examples/ndbapi_async1/ndbapi_async1.cpp, //42
+MYSQLERROR, //4, //2, //mskold/marty@mysql.com/linux.site, //, //20060901, //storage/ndb/ndbapi-examples/ndbapi_async1/ndbapi_async1.cpp, //39
+VerifyMethodInt, //49, //4, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/acid.cpp, //89
+VerifyMethodPtr, //18, //3, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/acid.cpp, //90
+print_decimal, //15, //3, //Tor Didriksen, //tor.didriksen@oracle.com, //20110826, //unittest/gunit/decimal-t.cc, //70
+test_d2b2d, //14, //3, //Tor Didriksen, //tor.didriksen@oracle.com, //20110826, //unittest/gunit/decimal-t.cc, //79
+test_f2d, //5, //2, //Tor Didriksen, //tor.didriksen@oracle.com, //20110826, //unittest/gunit/decimal-t.cc, //82
+test_mx, //15, //3, //Tor Didriksen, //tor.didriksen@oracle.com, //20110826, //unittest/gunit/decimal-t.cc, //121
+test_pr, //7, //2, //Tor Didriksen, //tor.didriksen@oracle.com, //20110826, //unittest/gunit/decimal-t.cc, //124
+test_sh, //85, //2, //Tor Didriksen, //tor.didriksen@oracle.com, //20110826, //unittest/gunit/decimal-t.cc, //127
+DEBUG, //28, //2, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/kernel/blocks/dbtc/DbtcMain.cpp, //98
+OPTION_SET_LIMITS, //12, //6, //antony@ppcg5.local, //, //20070302, //sql/sql_plugin.cc, //3163
+my_intern_plugin_lock, //5, //2, //Davi Arnaut, //davi.arnaut@oracle.com, //20100708, //sql/sql_plugin.cc, //284
+my_intern_plugin_lock_ci, //2, //2, //Davi Arnaut, //davi.arnaut@oracle.com, //20100708, //sql/sql_plugin.cc, //285
+JFPD, //957, //2, //Bernd Ocklin, //bernd.ocklin@oracle.com, //20100122, //storage/ndb/src/ndbjtie/jtie/jtie_gcalls.hpp, //455
+CHECK, //25, //2, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/testRestartGci.cpp, //47
+MYSQL_QUERY_EXEC_DONE, //4, //3, //Tatjana Azundris Nuernberg, //tatjana.nuernberg@oracle.com, //20110512, //include/probes_mysql_nodtrace.h, //34
+APIERROR, //45, //2, //Ole John Aske, //ole.john.aske@oracle.com, //20090610, //storage/ndb/ndbapi-examples/ndbapi_multi_cursor/main.cpp, //50
+mysql_file_tell, //4, //2, //Marc Alff, //marc.alff@oracle.com, //20091130, //include/mysql/psi/mysql_file.h, //403
+ERR, //38, //2, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20091221, //storage/ndb/test/src/HugoOperations.cpp, //21
+CHECK, //264, //4, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/testBasic.cpp, //372
+CHK_RET_FAILED, //4, //2, //jonas oreland, //jonas.oreland@oracle.com, //20110507, //storage/ndb/test/ndbapi/testBasic.cpp, //2275
+check, //24, //2, //Frazer Clement, //frazer.clement@oracle.com, //20100128, //storage/ndb/test/ndbapi/testBasic.cpp, //1917
+chk1, //15, //2, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20091221, //storage/ndb/test/ndbapi/testBasic.cpp, //1691
+DEBUG, //16, //3, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/transporter/TransporterInternalDefinitions.hpp, //39
+row_ins_index_entry_big_rec, //2, //2, //Marko Mäkelä, //marko.makela@oracle.com, //20120308, //storage/innobase/include/row0ins.h, //150
+mysql_socket_setsockopt, //2, //2, //Christopher Powers, //chris.powers@oracle.com, //20101207, //include/mysql/psi/mysql_socket.h, //479
+page_zip_fail, //47, //4, //marko, //, //20071115, //storage/innobase/page/page0zip.cc, //147
+BLOCK_SIZE, //114, //3, //Sergei Golubchik, //serg@mysql.com, //20091222, //sql/sys_vars.h, //40
+DEFAULT, //255, //54, //Sergei Golubchik, //serg@mysql.com, //20091222, //sql/sys_vars.h, //39
+GLOBAL_VAR, //165, //11, //Sergei Golubchik, //serg@mysql.com, //20091222, //sql/sys_vars.h, //41
+ON_CHECK, //102, //3, //Sergei Golubchik, //serg@mysql.com, //20091222, //sql/sys_vars.h, //53
+ON_UPDATE, //77, //3, //Sergei Golubchik, //serg@mysql.com, //20091222, //sql/sys_vars.h, //54
+REVERSE, //2, //2, //Sergei Golubchik, //serg@mysql.com, //20091222, //sql/sys_vars.h, //63
+SESSION_ONLY, //4, //3, //Sergei Golubchik, //serg@mysql.com, //20091222, //sql/sys_vars.h, //43
+SESSION_VAR, //91, //12, //Sergei Golubchik, //serg@mysql.com, //20091222, //sql/sys_vars.h, //42
+VALID_RANGE, //115, //18, //Sergei Golubchik, //serg@mysql.com, //20091222, //sql/sys_vars.h, //38
+chkdb, //47, //2, //pekka@mysql.com, //, //20051227, //storage/ndb/test/ndbapi/test_event_merge.cpp, //141
+chkrc, //58, //4, //pekka@mysql.com, //, //20051227, //storage/ndb/test/ndbapi/test_event_merge.cpp, //144
+ll0, //21, //2, //pekka@mysql.com, //, //20051227, //storage/ndb/test/ndbapi/test_event_merge.cpp, //150
+ll1, //31, //2, //pekka@mysql.com, //, //20051227, //storage/ndb/test/ndbapi/test_event_merge.cpp, //153
+ll2, //28, //4, //pekka@mysql.com, //, //20051227, //storage/ndb/test/ndbapi/test_event_merge.cpp, //156
+ll3, //4, //2, //pekka@clam.ndb.mysql.com, //, //20060621, //storage/ndb/test/ndbapi/test_event_merge.cpp, //159
+chkdb, //56, //2, //pekka@orca.ndb.mysql.com, //, //20061001, //storage/ndb/test/ndbapi/testIndexStat.cpp, //142
+chkrc, //49, //3, //pekka@orca.ndb.mysql.com, //, //20061001, //storage/ndb/test/ndbapi/testIndexStat.cpp, //148
+ll0, //27, //2, //pekka@orca.ndb.mysql.com, //, //20061001, //storage/ndb/test/ndbapi/testIndexStat.cpp, //154
+ll1, //26, //4, //pekka@orca.ndb.mysql.com, //, //20061001, //storage/ndb/test/ndbapi/testIndexStat.cpp, //155
+ll2, //6, //2, //pekka@orca.ndb.mysql.com, //, //20061001, //storage/ndb/test/ndbapi/testIndexStat.cpp, //156
+ll3, //21, //4, //pekka@orca.ndb.mysql.com, //, //20061001, //storage/ndb/test/ndbapi/testIndexStat.cpp, //157
+mysql_file_fclose, //3, //2, //Marc Alff, //marc.alff@oracle.com, //20091130, //include/mysql/psi/mysql_file.h, //221
+CHK, //734, //8, //pekka@mysql.com, //, //20040610, //storage/ndb/test/ndbapi/testBlobs.cpp, //319
+DBG, //132, //8, //pekka@mysql.com, //, //20040610, //storage/ndb/test/ndbapi/testBlobs.cpp, //324
+DBUG_PRINT_EVENT, //29, //7, //tomas@poseidon.ndb.mysql.com, //, //20060509, //storage/ndb/src/ndbapi/NdbEventOperationImpl.hpp, //41
+DBUG_RETURN_EVENT, //32, //4, //tomas@poseidon.ndb.mysql.com, //, //20060509, //storage/ndb/src/ndbapi/NdbEventOperationImpl.hpp, //39
+CHECK, //19, //2, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/src/NdbBackup.cpp, //29
+TRX_I_S_STRING_COPY, //2, //2, //Jimmy Yang, //jimmy.yang@oracle.com, //20100512, //storage/innobase/include/trx0i_s.h, //62
+CHK, //409, //4, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/testOIBasic.cpp, //270
+LL0, //456, //3, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/testOIBasic.cpp, //255
+LL1, //62, //6, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/testOIBasic.cpp, //256
+LL2, //9, //3, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/testOIBasic.cpp, //257
+LL3, //46, //5, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/testOIBasic.cpp, //258
+LL4, //40, //8, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/testOIBasic.cpp, //259
+LL5, //12, //3, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/testOIBasic.cpp, //260
+CHK_RET_FAILED, //6, //2, //Jonas Oreland, //jonas.oreland@oracle.com, //20110331, //storage/ndb/test/ndbapi/testInterpreter.cpp, //485
+ROW_MERGE_READ_GET_NEXT, //2, //2, //Jimmy Yang, //jimmy.yang@oracle.com, //20101209, //storage/innobase/row/row0ftsort.cc, //36
+ROW2, //3, //2, //tomas@poseidon.ndb.mysql.com, //, //20050119, //storage/ndb/src/mgmapi/ndb_logevent.cpp, //429
+mysql_file_fgets, //2, //2, //Marc Alff, //marc.alff@oracle.com, //20091130, //include/mysql/psi/mysql_file.h, //72
+mysql_file_fread, //3, //3, //Marc Alff, //marc.alff@oracle.com, //20091130, //include/mysql/psi/mysql_file.h, //234
+APIERROR, //19, //2, //jonas@perch.ndb.mysql.com, //, //20070612, //storage/ndb/test/ndbapi/ndbapi_50compat0.cpp, //53
+DEBUG, //4, //2, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/kernel/blocks/dblqh/DblqhMain.cpp, //163
+TRACENR, //53, //3, //Stewart Smith, //stewart@flamingspork.com, //20081009, //storage/ndb/src/kernel/blocks/dblqh/DblqhMain.cpp, //198
+TRACE_OP, //15, //3, //Jonas Oreland, //jonas.oreland@oracle.com, //20100322, //storage/ndb/src/kernel/blocks/dblqh/DblqhMain.cpp, //207
+btr_rec_get_field_ref, //3, //2, //Marko Mäkelä, //marko.makela@oracle.com, //20110202, //storage/innobase/btr/btr0cur.cc, //4065
+CHECK, //83, //3, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/testDict.cpp, //63
+CHECK2, //50, //2, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/testDict.cpp, //69
+CHK2, //96, //4, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20101204, //storage/ndb/test/ndbapi/testDict.cpp, //8191
+CHK3, //8, //4, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20101204, //storage/ndb/test/ndbapi/testDict.cpp, //8200
+chk1, //327, //11, //pekka@sama.ndb.mysql.com, //, //20071225, //storage/ndb/test/ndbapi/testDict.cpp, //4243
+Q, //43, //2, //tomas@whalegate.ndb.mysql.com, //, //20070614, //storage/ndb/src/mgmclient/CommandInterpreter.cpp, //687
+CHECK, //125, //9, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/testNdbApi.cpp, //33
+CHECKN, //61, //10, //Frazer Clement, //frazer.clement@oracle.com, //20100128, //storage/ndb/test/ndbapi/testNdbApi.cpp, //3747
+APIERROR, //46, //2, //knielsen@ymer.(none), //, //20070326, //storage/ndb/ndbapi-examples/ndbapi_blob_ndbrecord/main.cpp, //49
+MYSQLERROR, //5, //2, //knielsen@ymer.(none), //, //20070326, //storage/ndb/ndbapi-examples/ndbapi_blob_ndbrecord/main.cpp, //46
+APIERROR, //7, //2, //tomas@poseidon.ndb.mysql.com, //, //20050915, //storage/ndb/ndbapi-examples/ndbapi_scan/ndbapi_scan.cpp, //102
+MYSQLERROR, //4, //2, //tomas@poseidon.ndb.mysql.com, //, //20050915, //storage/ndb/ndbapi-examples/ndbapi_scan/ndbapi_scan.cpp, //99
+ROW_MERGE_WRITE_GET_NEXT, //5, //2, //Marko Mäkelä, //marko.makela@oracle.com, //20120607, //storage/innobase/row/row0merge.cc, //1773
+PUSH, //9, //3, //bk@work.mysql.com, //, //20000731, //sql/sql_load.cc, //1465
+require, //43, //2, //Frazer Clement, //frazer.clement@oracle.com, //20120813, //storage/ndb/test/ndbapi/testRedo.cpp, //31
+CHK1, //48, //4, //Frazer Clement, //frazer.clement@oracle.com, //20120813, //storage/ndb/test/ndbapi/testRedo.cpp, //39
+ABORT_NDB_ERROR, //67, //2, //Martin Zaun, //martin.zaun@oracle.com, //20101019, //storage/ndb/test/crund/tws/tws_cpp/NdbApiTwsDriver.cpp, //48
+make_keypart_map, //7, //3, //serg@janus.mylan, //, //20070317, //sql/handler.h, //1786
+CHECK, //37, //2, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/testOperations.cpp, //112
+MAKE_COPY_BUFFER, //13, //2, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //556
+APIERROR, //41, //2, //Justin.He/justin.he@dev3-240.dev.cn.tlan, //, //20070301, //storage/ndb/test/ndbapi/testScanFilter.cpp, //40
+ERR_EXIT, //11, //4, //Justin.He/justin.he@dev3-240.dev.cn.tlan, //, //20070301, //storage/ndb/test/ndbapi/testScanFilter.cpp, //21
+normalize_table_name, //8, //4, //Nisha Gopalakrishnan, //nisha.gopalakrishnan@oracle.com, //20121031, //storage/innobase/handler/ha_innodb.cc, //418
+YY_STATE_EOF, //2, //2, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0tlex.cc, //154
+SET_MASK, //29, //6, //Jonas Oreland, //jonas.oreland@oracle.com, //20080930, //storage/ndb/test/ndbapi/bench/ndb_async2.cpp, //73
+CHECK, //25, //7, //Magnus Svensson, //magnus.svensson@sun.com, //20080916, //storage/ndb/src/mgmsrv/testConfig.cpp, //25
+APIERROR, //20, //2, //tomas@poseidon.ndb.mysql.com, //, //20050915, //storage/ndb/ndbapi-examples/ndbapi_simple/ndbapi_simple.cpp, //53
+MYSQLERROR, //3, //2, //tomas@poseidon.ndb.mysql.com, //, //20050915, //storage/ndb/ndbapi-examples/ndbapi_simple/ndbapi_simple.cpp, //50
+YYSTACK_RELOCATE, //3, //2, //Jimmy Yang, //jimmy.yang@oracle.com, //20101107, //storage/innobase/fts/fts0pars.cc, //377
+YY_, //5, //2, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0pars.cc, //235
+APIERROR, //46, //2, //knielsen@ymer.(none), //, //20070326, //storage/ndb/ndbapi-examples/ndbapi_blob/ndbapi_blob.cpp, //48
+MYSQLERROR, //5, //2, //knielsen@ymer.(none), //, //20070326, //storage/ndb/ndbapi-examples/ndbapi_blob/ndbapi_blob.cpp, //45
+SETMSG, //47, //19, //Sergey Glukhov, //sergey.glukhov@oracle.com, //20091015, //sql/handler.cc, //502
+CHECK, //17, //4, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/testTransactions.cpp, //208
+ABORT_NDB_ERROR, //115, //2, //Martin Zaun, //martin.zaun@oracle.com, //20100213, //storage/ndb/test/crund/src/crundndb/CrundNdbApiOperations.cpp, //62
+VERIFY, //18, //2, //Martin Zaun, //martin.zaun@oracle.com, //20100213, //storage/ndb/test/crund/src/crundndb/CrundNdbApiOperations.cpp, //75
+APIERROR, //23, //2, //knielsen@ymer.(none), //, //20070214, //storage/ndb/ndbapi-examples/ndbapi_s_i_ndbrecord/main.cpp, //61
+btr_page_get_father_node_ptr, //3, //3, //marko, //, //20100204, //storage/innobase/btr/btr0btr.cc, //1459
+
+function implemented with void*, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+HugoAsynchTransactions::callbackFunc, //0, //0, //Frazer Clement, //frazer.clement@oracle.com, //20081016, //storage/ndb/test/src/HugoAsynchTransactions.cpp, //375
+s110, //4, //4, //Bernd Ocklin, //bernd.ocklin@oracle.com, //20100122, //storage/ndb/src/ndbjtie/jtie/test/myapi/myapi.cpp, //247
+s130, //2, //2, //Bernd Ocklin, //bernd.ocklin@oracle.com, //20100122, //storage/ndb/src/ndbjtie/jtie/test/myapi/myapi.cpp, //261
+s150, //4, //4, //Bernd Ocklin, //bernd.ocklin@oracle.com, //20100122, //storage/ndb/src/ndbjtie/jtie/test/myapi/myapi.cpp, //275
+s170, //2, //2, //Bernd Ocklin, //bernd.ocklin@oracle.com, //20100122, //storage/ndb/src/ndbjtie/jtie/test/myapi/myapi.cpp, //289
+s310, //4, //4, //Bernd Ocklin, //bernd.ocklin@oracle.com, //20100122, //storage/ndb/src/ndbjtie/jtie/test/myapi/myapi.cpp, //353
+s330, //2, //2, //Bernd Ocklin, //bernd.ocklin@oracle.com, //20100122, //storage/ndb/src/ndbjtie/jtie/test/myapi/myapi.cpp, //365
+s350, //4, //4, //Bernd Ocklin, //bernd.ocklin@oracle.com, //20100122, //storage/ndb/src/ndbjtie/jtie/test/myapi/myapi.cpp, //377
+s370, //2, //2, //Bernd Ocklin, //bernd.ocklin@oracle.com, //20100122, //storage/ndb/src/ndbjtie/jtie/test/myapi/myapi.cpp, //389
+os_mem_free_large, //4, //3, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/os/os0proc.cc, //178
+SuperPool::getPageI, //0, //0, //pekka@mysql.com, //, //20051108, //storage/ndb/src/kernel/vm/SuperPool.cpp, //158
+NdbTransaction::executeAsynchPrepare, //25, //1, //jonas@perch.ndb.mysql.com, //, //20070130, //storage/ndb/src/ndbapi/NdbTransaction.cpp, //691
+table_esgs_by_host_by_event_name::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110506, //storage/perfschema/table_esgs_by_host_by_event_name.cc, //150
+NDBT_Thread::set_input, //1, //1, //pekka@clam.ndb.mysql.com/clam.(none), //, //20070714, //storage/ndb/test/include/NDBT_Thread.hpp, //94
+NDBT_ThreadSet::set_input, //3, //1, //pekka@clam.ndb.mysql.com/clam.(none), //, //20070714, //storage/ndb/test/src/NDBT_Thread.cpp, //231
+NDBT_Thread_run, //0, //0, //pekka@clam.ndb.mysql.com/clam.(none), //, //20070714, //storage/ndb/test/src/NDBT_Thread.cpp, //81
+pars_info_add_literal, //10, //9, //marko, //, //20060412, //storage/innobase/pars/pars0pars.cc, //2329
+pars_info_bind_function, //14, //14, //Jimmy Yang, //jimmy.yang@oracle.com, //20111111, //storage/innobase/pars/pars0pars.cc, //2567
+dict_stats_fetch_index_stats_step, //0, //0, //Vasil Dimov, //vasil.dimov@oracle.com, //20100420, //storage/innobase/dict/dict0stats.cc, //2475
+dict_stats_fetch_table_stats_step, //0, //0, //Vasil Dimov, //vasil.dimov@oracle.com, //20100420, //storage/innobase/dict/dict0stats.cc, //2374
+table_ews_global_by_event_name::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20100923, //storage/perfschema/table_ews_global_by_event_name.cc, //207
+fts_doc_fetch_by_doc_id, //5, //4, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20110902, //storage/innobase/fts/fts0fts.cc, //3582
+fts_query_expansion_fetch_doc, //0, //0, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20110902, //storage/innobase/fts/fts0fts.cc, //3135
+ConfigValues::pack, //0, //0, //joreland@mysql.com, //, //20040526, //storage/ndb/src/common/util/ConfigValues.cpp, //609
+ConfigValuesFactory::unpack, //1, //1, //joreland@mysql.com, //, //20040526, //storage/ndb/src/common/util/ConfigValues.cpp, //662
+length_update, //0, //0, //Harin Vadodaria, //harin.vadodaria@oracle.com, //20121205, //plugin/password_validation/validate_password.cc, //287
+validate_password_deinit, //0, //0, //Ashish Agarwal, //ashish.y.agarwal@oracle.com, //20120523, //plugin/password_validation/validate_password.cc, //272
+SimpleProperties::Writer::add, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/util/SimpleProperties.cpp, //80
+SimpleProperties::pack, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/util/SimpleProperties.cpp, //244
+SimpleProperties::unpack, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/util/SimpleProperties.cpp, //187
+Scheduler_stockholm::add_stats, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/schedulers/Stockholm.cc, //233
+run_stockholm_commit_thread, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/schedulers/Stockholm.cc, //260
+cmpPtrI, //0, //0, //pekka@mysql.com, //, //20050321, //storage/ndb/src/kernel/vm/testSuperPool.cpp, //71
+cmpPtrP, //0, //0, //pekka@mysql.com, //, //20050321, //storage/ndb/src/kernel/vm/testSuperPool.cpp, //79
+example_init_func, //0, //0, //brian@zim.(none), //, //20060915, //storage/example/ha_example.cc, //133
+PFS_engine_table::PFS_engine_table, //45, //1, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/pfs_engine_table.h, //184
+PFS_engine_table::set_position, //50, //1, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/pfs_engine_table.cc, //456
+table_setup_actors::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20100512, //storage/perfschema/table_setup_actors.cc, //155
+key_rec_cmp, //0, //0, //Mattias Jonsson, //mattias.jonsson@oracle.com, //20081010, //sql/key.cc, //564
+fts_ast_create_node_list, //7, //1, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0ast.cc, //182
+fts_ast_create_node_oper, //5, //1, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0ast.cc, //52
+fts_ast_create_node_subexp_list, //2, //1, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0ast.cc, //203
+fts_ast_create_node_term, //2, //1, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0ast.cc, //73
+fts_ast_create_node_text, //1, //1, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0ast.cc, //142
+fts_ast_visit, //4, //2, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0ast.cc, //458
+fts_ast_visit_sub_exp, //1, //1, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0que.cc, //2696
+thd_set_scheduler_data, //0, //0, //Mikael Ronström, //mikael@dator9, //20110210, //sql/sql_class.cc, //229
+trx_rollback_or_clean_all_recovered, //0, //0, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20110902, //storage/innobase/trx/trx0roll.cc, //804
+Geometry::operator delete, //0, //0, //monty@mysql.com, //, //20041022, //sql/spatial.h, //211
+Geometry::operator delete, //0, //0, //monty@mysql.com, //, //20050518, //sql/spatial.h, //214
+Geometry::operator new, //0, //0, //hf@deer.(none), //, //20040315, //sql/spatial.h, //206
+createTCPTransporter, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/transporter/perftest/perfTransporterTest.cpp, //673
+T5_Callback_2, //1, //1, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_async2.cpp, //1053
+createTCPTransporter, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/transporter/priotest/prioTransporterTest.cpp, //166
+T5_Callback_2, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_async1.cpp, //570
+NdbApiTwsDriver::ndbapiToBuffer1blp, //14, //1, //Martin Zaun, //martin.zaun@oracle.com, //20101019, //storage/ndb/test/crund/tws/tws_cpp/NdbApiTwsDriver.cpp, //909
+NdbApiTwsDriver::ndbapiToString1blp, //5, //1, //Martin Zaun, //martin.zaun@oracle.com, //20101019, //storage/ndb/test/crund/tws/tws_cpp/NdbApiTwsDriver.cpp, //919
+mem_heap_dup, //14, //9, //marko, //, //20060508, //storage/innobase/mem/mem0mem.cc, //119
+ib_close_thd, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20110916, //storage/innobase/api/api0api.cc, //3809
+ib_col_copy_value, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20110402, //storage/innobase/api/api0api.cc, //2541
+ib_col_copy_value_low, //11, //11, //Jimmy Yang, //jimmy.yang@oracle.com, //20110402, //storage/innobase/api/api0api.cc, //2449
+ib_col_set_value, //11, //11, //Jimmy Yang, //jimmy.yang@oracle.com, //20110402, //storage/innobase/api/api0api.cc, //2296
+ib_trx_start, //1, //1, //Jimmy Yang, //jimmy.yang@oracle.com, //20110402, //storage/innobase/api/api0api.cc, //556
+ib_tuple_write_int, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20110402, //storage/innobase/api/api0api.cc, //3431
+ut_print_buf, //27, //18, //osku, //, //20051027, //storage/innobase/ut/ut0ut.cc, //424
+NdbTransaction::executeAsynchPrepare, //55, //1, //tomas@poseidon.ndb.mysql.com, //, //20050105, //storage/ndb/include/ndbapi/NdbTransaction.hpp, //403
+CHECK_NULL, //432, //2, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_error.hpp, //92
+buf_flush_init_for_writing, //3, //3, //osku, //, //20051027, //storage/innobase/buf/buf0flu.cc, //773
+fil_io, //24, //5, //osku, //, //20051027, //storage/innobase/fil/fil0fil.cc, //5080
+os_aio_func, //2, //1, //jyang, //jyang@dscczz01.us.oracle.com, //20100329, //storage/innobase/os/os0file.cc, //4557
+os_aio_simulated_handle, //1, //1, //osku, //, //20051027, //storage/innobase/os/os0file.cc, //5234
+os_file_read_func, //6, //1, //jyang, //jyang@dscczz01.us.oracle.com, //20100329, //storage/innobase/os/os0file.cc, //2630
+os_file_write_func, //10, //1, //jyang, //jyang@dscczz01.us.oracle.com, //20100329, //storage/innobase/os/os0file.cc, //2899
+ut_free, //94, //25, //osku, //, //20051027, //storage/innobase/ut/ut0mem.cc, //213
+fil_read, //1, //1, //marko, //, //20060615, //storage/innobase/fil/fil0fil.cc, //423
+fil_write, //1, //1, //marko, //, //20060615, //storage/innobase/fil/fil0fil.cc, //452
+pipeline_free, //4, //3, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/ndb_pipeline.cc, //253
+table_ews_by_user_by_event_name::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110506, //storage/perfschema/table_ews_by_user_by_event_name.cc, //177
+Sql_alloc::operator delete, //83, //1, //Martin Hansson, //martin.hansson@oracle.com, //20120525, //sql/sql_alloc.h, //41
+table_esgs_by_user_by_event_name::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110506, //storage/perfschema/table_esgs_by_user_by_event_name.cc, //150
+Uint32Buffer::appendBytes, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20110406, //storage/ndb/src/ndbapi/NdbQueryBuilderImpl.hpp, //202
+run_reconfig_listener_thread, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/ndb_configuration.cc, //202
+start_reconfig_listener, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/ndb_configuration.cc, //231
+dummy_error_processor, //0, //0, //bell@sanja.is.com.ua, //, //20050701, //sql/item.cc, //9553
+T2_Callback, //1, //1, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_async2.cpp, //232
+view_error_processor, //0, //0, //bell@sanja.is.com.ua, //, //20050701, //sql/item.cc, //9564
+table_ews_by_account_by_event_name::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110506, //storage/perfschema/table_ews_by_account_by_event_name.cc, //180
+thd_set_ha_data, //5, //2, //Sergey Vojtovich, //sergey.vojtovich@oracle.com, //20100414, //sql/sql_class.cc, //680
+event_queue_element_compare_q, //0, //0, //monty@mysql.com/nosik.monty.fi, //, //20070813, //sql/event_queue.cc, //68
+NdbBlob::getValue, //0, //0, //pekka@mysql.com, //, //20040610, //storage/ndb/src/ndbapi/NdbBlob.cpp, //1147
+NdbBlob::readData, //0, //0, //pekka@mysql.com, //, //20040610, //storage/ndb/src/ndbapi/NdbBlob.cpp, //1406
+NdbBlob::setActiveHook, //4, //1, //pekka@mysql.com, //, //20040722, //storage/ndb/src/ndbapi/NdbBlob.cpp, //1220
+NdbBlob::setValue, //0, //0, //pekka@mysql.com, //, //20040610, //storage/ndb/src/ndbapi/NdbBlob.cpp, //1170
+NdbBlob::writeData, //0, //0, //pekka@mysql.com, //, //20041031, //storage/ndb/src/ndbapi/NdbBlob.cpp, //1531
+NdbDictionaryImpl::getTable, //17, //1, //msvensson@neptunus.(none), //, //20050602, //storage/ndb/src/ndbapi/NdbDictionaryImpl.hpp, //1304
+mem_area_free, //2, //2, //osku, //, //20051027, //storage/innobase/mem/mem0pool.cc, //502
+ib_bh_push, //3, //1, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20110223, //storage/innobase/ut/ut0bh.cc, //78
+table_events_statements_common::table_events_statements_common, //3, //1, //Marc Alff, //marc.alff@oracle.com, //20110214, //storage/perfschema/table_events_statements.cc, //294
+table_events_statements_current::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110214, //storage/perfschema/table_events_statements.cc, //656
+table_events_statements_history::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110214, //storage/perfschema/table_events_statements.cc, //769
+table_events_statements_history_long::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110214, //storage/perfschema/table_events_statements.cc, //854
+get_innobase_type_from_mysql_type, //7, //2, //osku, //, //20051027, //storage/innobase/handler/ha_innodb.cc, //5396
+decimal_bin2str, //3, //3, //Bernd Ocklin, //bernd.ocklin@oracle.com, //20100122, //storage/ndb/src/common/util/decimal_utils.cpp, //56
+decimal_str2bin, //3, //3, //Bernd Ocklin, //bernd.ocklin@oracle.com, //20100122, //storage/ndb/src/common/util/decimal_utils.cpp, //30
+handle_one_connection, //0, //0, //monty@mysql.com/narttu.mysql.fi, //, //20070223, //sql/sql_connect.cc, //892
+mdl_request_ptr_cmp, //0, //0, //Dmitry Lenev, //Dmitry.Lenev@oracle.com, //20100121, //sql/mdl.cc, //2284
+String::operator delete, //0, //0, //monty@mysql.com, //, //20050316, //client/sql_string.h, //75
+refpos_order_cmp, //0, //0, //Guilhem Bichot, //guilhem.bichot@oracle.com, //20110309, //sql/sql_delete.cc, //566
+mtr_memo_release, //2, //2, //osku, //, //20051027, //storage/innobase/mtr/mtr0mtr.cc, //349
+NdbEventOperation::setCustomData, //1, //1, //tomas@poseidon.ndb.mysql.com[tomas], //, //20050915, //storage/ndb/src/ndbapi/NdbEventOperation.cpp, //198
+trx_rseg_compare_last_trx_no, //0, //0, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20110222, //storage/innobase/trx/trx0sys.cc, //467
+executeCallback, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/flexTimedAsynch.cpp, //495
+threadLoop, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/flexTimedAsynch.cpp, //387
+UtilBuffer::append, //6, //1, //magnus@neptunus.(none), //, //20040414, //storage/ndb/include/util/UtilBuffer.hpp, //55
+UtilBuffer::assign, //4, //1, //magnus@neptunus.(none), //, //20040414, //storage/ndb/include/util/UtilBuffer.hpp, //76
+check_field_for_37426, //0, //0, //Mats Kindahl, //mats.kindahl@oracle.com, //20080630, //sql/field.cc, //6895
+NDBT_Tables::createTable, //21, //1, //jonas@perch.ndb.mysql.com, //, //20051107, //storage/ndb/test/src/NDBT_Tables.cpp, //1578
+innobase_fts_text_cmp, //1, //1, //Jimmy Yang, //jimmy.yang@oracle.com, //20110624, //storage/innobase/handler/ha_innodb.cc, //5179
+pars_info_bind_literal, //1, //1, //Jimmy Yang, //jimmy.yang@oracle.com, //20111111, //storage/innobase/pars/pars0pars.cc, //2384
+rbt_add_node, //12, //11, //sunny, //, //20080227, //storage/innobase/ut/ut0rbt.cc, //861
+rbt_create_arg_cmp, //5, //1, //Jimmy Yang, //jimmy.yang@oracle.com, //20110624, //storage/innobase/ut/ut0rbt.cc, //771
+rbt_insert, //5, //4, //sunny, //, //20080227, //storage/innobase/ut/ut0rbt.cc, //832
+rbt_search, //30, //11, //sunny, //, //20080227, //storage/innobase/ut/ut0rbt.cc, //1063
+rbt_search_cmp, //3, //2, //sunny, //, //20080227, //storage/innobase/ut/ut0rbt.cc, //1104
+fts_fetch_row_id, //0, //0, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20110902, //storage/innobase/fts/fts0fts.cc, //3109
+fts_fetch_store_doc_id, //0, //0, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20110902, //storage/innobase/fts/fts0fts.cc, //2352
+fts_init_get_doc_id, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20120402, //storage/innobase/fts/fts0fts.cc, //6236
+fts_init_recover_doc, //0, //0, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20110902, //storage/innobase/fts/fts0fts.cc, //6274
+fts_read_stopword, //0, //0, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20110902, //storage/innobase/fts/fts0fts.cc, //393
+fts_read_tables, //0, //0, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20110902, //storage/innobase/fts/fts0fts.cc, //5763
+fts_read_ulint, //0, //0, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20110902, //storage/innobase/fts/fts0fts.cc, //3490
+BufferedSockOutputStream::write, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20111024, //storage/ndb/src/common/util/OutputStream.cpp, //204
+FileOutputStream::write, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20111024, //storage/ndb/src/common/util/OutputStream.cpp, //47
+SocketOutputStream::write, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20111024, //storage/ndb/src/common/util/OutputStream.cpp, //107
+reportSendLen, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/transporter/perftest/perfTransporterTest.cpp, //540
+runArbitMgr_C, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/ndbapi/ClusterMgr.cpp, //1192
+runClusterMgr_C, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/ndbapi/ClusterMgr.cpp, //50
+Item::operator delete, //4, //1, //serg@serg.mylan, //, //20041128, //sql/item.h, //663
+substitute_for_best_equal_field, //5, //4, //Jorgen Loland, //jorgen.loland@oracle.com, //20120619, //sql/sql_optimizer.cc, //2153
+table_file_summary_by_event_name::rnd_pos, //0, //0, //Christopher Powers, //chris.powers@oracle.com, //20110902, //storage/perfschema/table_file_summary_by_event_name.cc, //217
+NullOutputStream::write, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20111024, //storage/ndb/include/util/OutputStream.hpp, //99
+page_zip_calc_checksum, //11, //5, //marko, //, //20060502, //storage/innobase/page/page0zip.cc, //4778
+page_zip_set_alloc, //4, //1, //marko, //, //20070129, //storage/innobase/page/page0zip.cc, //748
+page_zip_verify_checksum, //3, //2, //Vasil Dimov, //vasil.dimov@oracle.com, //20110822, //storage/innobase/page/page0zip.cc, //4832
+MgmtThread::run_C, //0, //0, //Magnus Svensson, //magnus.svensson@sun.com, //20081021, //storage/ndb/src/mgmsrv/MgmtThread.hpp, //30
+T4, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_user_transaction2.cpp, //396
+table_tlws_by_table::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20101209, //storage/perfschema/table_tlws_by_table.cc, //448
+buf_buddy_alloc_from, //1, //1, //marko, //, //20061211, //storage/innobase/buf/buf0buddy.cc, //429
+buf_buddy_block_free, //1, //1, //marko, //, //20061211, //storage/innobase/buf/buf0buddy.cc, //361
+buf_buddy_free_low, //0, //0, //marko, //, //20061207, //storage/innobase/buf/buf0buddy.cc, //604
+buf_buddy_relocate, //1, //1, //marko, //, //20061208, //storage/innobase/buf/buf0buddy.cc, //524
+lookup_lock, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20081027, //storage/ndb/src/kernel/vm/mt.cpp, //5091
+NdbQueryBuilder::constValue, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20110406, //storage/ndb/src/ndbapi/NdbQueryBuilder.cpp, //759
+NdbGenericConstOperandImpl::NdbGenericConstOperandImpl, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20110406, //storage/ndb/src/ndbapi/NdbQueryBuilder.cpp, //149
+table_esgs_by_account_by_event_name::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110506, //storage/perfschema/table_esgs_by_account_by_event_name.cc, //153
+slave_info_free, //0, //0, //He Zhenxing, //hezx@greatopensource.com, //20100625, //sql/rpl_master.cc, //64
+table_file_instances::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/table_file_instances.cc, //106
+T2, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_user_transaction2.cpp, //118
+T2, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_user_transaction3.cpp, //118
+ndb_error_logger_stats, //1, //1, //John David Duncan, //john.duncan@oracle.com, //20120302, //storage/ndb/memcache/src/ndb_error_logger.cc, //201
+handle_slave_io, //0, //0, //serg@serg.mylan, //, //20051008, //sql/rpl_slave.cc, //3985
+handle_slave_sql, //0, //0, //Andrei Elkin, //andrei.elkin@oracle.com, //20110819, //sql/rpl_slave.cc, //5330
+rpl_master_has_bug, //1, //1, //Mats Kindahl, //mats.kindahl@oracle.com, //20080630, //sql/rpl_slave.cc, //7573
+os_thread_exit, //15, //1, //osku, //, //20051027, //storage/innobase/os/os0thread.cc, //209
+dict_stats_thread, //0, //0, //Vasil Dimov, //vasil.dimov@oracle.com, //20120502, //storage/innobase/dict/dict0stats_bg.cc, //332
+JTie_OnLoad, //0, //0, //Bernd Ocklin, //bernd.ocklin@oracle.com, //20100122, //storage/ndb/src/ndbjtie/jtie/jtie_lib.hpp, //84
+JTie_OnUnload, //0, //0, //Bernd Ocklin, //bernd.ocklin@oracle.com, //20100122, //storage/ndb/src/ndbjtie/jtie/jtie_lib.hpp, //119
+callback, //0, //0, //tomas@poseidon.ndb.mysql.com, //, //20050104, //storage/ndb/tools/restore/consumer_restorem.cpp, //604
+var_free, //2, //1, //Davi Arnaut, //davi.arnaut@oracle.com, //20100531, //client/mysqltest.cc, //2132
+PFS_engine_table::get_position, //1, //1, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/pfs_engine_table.cc, //447
+pfs_done_func, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/ha_perfschema.cc, //110
+pfs_init_func, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/ha_perfschema.cc, //76
+T1, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_user_transaction3.cpp, //46
+cmp_event, //0, //0, //Magnus Blåudd, //magnus.blaudd@oracle.com, //20100222, //storage/ndb/src/mgmapi/mgmapi.cpp, //3487
+cmp_state, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/mgmapi/mgmapi.cpp, //1026
+buf_dump_thread, //0, //0, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20110902, //storage/innobase/buf/buf0dump.cc, //522
+buf_flush_page_cleaner_thread, //0, //0, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20110902, //storage/innobase/buf/buf0flu.cc, //2387
+lock_wait_timeout_thread, //0, //0, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20110901, //storage/innobase/lock/lock0wait.cc, //478
+os_thread_create_func, //15, //1, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20110902, //storage/innobase/os/os0thread.cc, //116
+srv_error_monitor_thread, //0, //0, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20110901, //storage/innobase/srv/srv0srv.cc, //1626
+srv_master_thread, //0, //0, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20110901, //storage/innobase/srv/srv0srv.cc, //2255
+srv_monitor_thread, //0, //0, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20110901, //storage/innobase/srv/srv0srv.cc, //1451
+srv_purge_coordinator_thread, //0, //0, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20110901, //storage/innobase/srv/srv0srv.cc, //2659
+srv_worker_thread, //0, //0, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20110901, //storage/innobase/srv/srv0srv.cc, //2399
+io_handler_thread, //0, //0, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20110902, //storage/innobase/srv/srv0start.cc, //246
+callback, //0, //0, //tomas@poseidon.ndb.mysql.com, //, //20050915, //storage/ndb/ndbapi-examples/ndbapi_async1/ndbapi_async1.cpp, //198
+Ndb::setCustomData, //1, //1, //Frazer Clement, //frazer.clement@oracle.com, //20110413, //storage/ndb/src/ndbapi/Ndb.cpp, //2299
+SocketServer::foreachSession, //2, //1, //Magnus Svensson, //magnus.svensson@sun.com, //20080805, //storage/ndb/src/common/util/SocketServer.cpp, //295
+MgmApiSession::get_session, //0, //0, //stewart@willster.(none), //, //20061004, //storage/ndb/src/mgmsrv/Services.cpp, //1944
+MgmApiSession::list_session, //0, //0, //stewart@willster.(none), //, //20061004, //storage/ndb/src/mgmsrv/Services.cpp, //1881
+Log_event::operator delete, //43, //1, //Davi Arnaut, //davi.arnaut@oracle.com, //20101019, //sql/log_event.h, //1276
+T4, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_user_transaction3.cpp, //388
+ut_realloc, //3, //1, //osku, //, //20051027, //storage/innobase/ut/ut0mem.cc, //273
+yyfree, //3, //3, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20110821, //storage/innobase/pars/lexyy.cc, //3105
+yyrealloc, //3, //3, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20110821, //storage/innobase/pars/lexyy.cc, //3093
+T4, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_user_transaction5.cpp, //389
+fts_config_fetch_value, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0config.cc, //41
+SimulatedBlock::allocRecordAligned, //0, //0, //tomas@poseidon.mysql.com, //, //20070605, //storage/ndb/src/kernel/vm/SimulatedBlock.cpp, //1651
+SimulatedBlock::deallocRecord, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/kernel/vm/SimulatedBlock.cpp, //1715
+SimulatedBlock::sortchunks, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20100125, //storage/ndb/src/kernel/vm/SimulatedBlock.cpp, //1726
+rr_cmp, //0, //0, //Tor Didriksen, //tor.didriksen@oracle.com, //20120605, //sql/records.cc, //623
+DsMrr_impl::dsmrr_info_const, //1, //1, //Evgeny Potemkin, //evgeny.potemkin@oracle.com, //20100405, //sql/handler.cc, //6316
+handler::multi_range_read_info_const, //0, //0, //Evgeny Potemkin, //evgeny.potemkin@oracle.com, //20100405, //sql/handler.cc, //5614
+handler::multi_range_read_init, //0, //0, //Evgeny Potemkin, //evgeny.potemkin@oracle.com, //20100405, //sql/handler.cc, //5812
+set_thd_proc_info, //30, //1, //Davi Arnaut, //davi.arnaut@oracle.com, //20100531, //sql/sql_class.cc, //568
+ha_myisam::multi_range_read_info_const, //0, //0, //Evgeny Potemkin, //evgeny.potemkin@oracle.com, //20100405, //storage/myisam/ha_myisam.cc, //2203
+ha_myisam::multi_range_read_init, //0, //0, //Evgeny Potemkin, //evgeny.potemkin@oracle.com, //20100405, //storage/myisam/ha_myisam.cc, //2191
+index_cond_func_myisam, //0, //0, //Evgeny Potemkin, //evgeny.potemkin@oracle.com, //20100512, //storage/myisam/ha_myisam.cc, //1606
+myisam_init, //0, //0, //brian@zim.(none), //, //20060915, //storage/myisam/ha_myisam.cc, //2159
+S::Cluster::add_stats, //1, //1, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/schedulers/S_sched.cc, //533
+S::Connection::add_stats, //1, //1, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/schedulers/S_sched.cc, //760
+S::SchedulerWorker::add_stats, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/schedulers/S_sched.cc, //449
+dl_compare, //0, //0, //Davi Arnaut, //davi.arnaut@oracle.com, //20100531, //sql/sql_test.cc, //312
+NdbDictionary::Column::setDefaultValue, //16, //1, //Frazer Clement, //frazer.clement@oracle.com, //20100429, //storage/ndb/src/ndbapi/NdbDictionary.cpp, //373
+table_esms_global_by_event_name::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110214, //storage/perfschema/table_esms_global_by_event_name.cc, //238
+ThreadExec, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/benchronja.cpp, //950
+ndbd_alloc_touch_mem, //1, //1, //Jonas Oreland, //jonas.oreland@oracle.com, //20100121, //storage/ndb/src/kernel/vm/ndbd_malloc.cpp, //31
+ndbd_free, //1, //1, //tomas@poseidon.ndb.mysql.com, //, //20051004, //storage/ndb/src/kernel/vm/ndbd_malloc.cpp, //79
+sp_head::operator delete, //4, //1, //Alexander Nozdrin, //alexander.nozdrin@oracle.com, //20120516, //sql/sp_head.cc, //207
+table_esms_by_account_by_event_name::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110506, //storage/perfschema/table_esms_by_account_by_event_name.cc, //248
+NdbScanFilter::cmp, //0, //0, //joreland@mysql.com, //, //20041228, //storage/ndb/src/ndbapi/NdbScanFilter.cpp, //690
+NdbScanFilterImpl::cond_col_const, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/ndbapi/NdbScanFilter.cpp, //626
+table_events_waits_common::table_events_waits_common, //3, //1, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/table_events_waits.cc, //188
+table_events_waits_current::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/table_events_waits.cc, //802
+table_events_waits_history::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/table_events_waits.cc, //923
+table_events_waits_history_long::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/table_events_waits.cc, //1002
+MgmtSrvr::logLevelThread_C, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/mgmsrv/MgmtSrvr.cpp, //86
+createSCITransporter, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/transporter/perftest/perfTransporterTest.cpp, //613
+T4, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_user_transaction.cpp, //396
+reportConnect, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/transporter/perftest/perfTransporterTest.cpp, //568
+sessionThread_C, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/util/SocketServer.cpp, //392
+socketServerThread_C, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/util/SocketServer.cpp, //228
+executeCallback, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/flexTT.cpp, //489
+runStep, //1, //1, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/src/NDBT_Test.cpp, //528
+runStep_C, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/src/NDBT_Test.cpp, //547
+T4, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_user_transaction2.cpp, //396
+aread, //6, //6, //Magnus Blåudd, //magnus.blaudd@oracle.com, //20110401, //storage/ndb/src/kernel/blocks/backup/read.cpp, //229
+rbt_delete, //2, //2, //sunny, //, //20080227, //storage/innobase/ut/ut0rbt.cc, //934
+buf_flush_block_cmp, //0, //0, //inaam, //, //20081111, //storage/innobase/buf/buf0flu.cc, //257
+randomized_index, //3, //1, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/pfs_global.h, //71
+File_class::read, //0, //0, //tomas@mc05.(none), //, //20040506, //storage/ndb/src/common/util/File.cpp, //149
+File_class::write, //0, //0, //monty@mysql.com/narttu.mysql.fi, //, //20061215, //storage/ndb/src/common/util/File.cpp, //167
+table_events_waits_summary_by_instance::make_instr_row, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/table_events_waits_summary.cc, //107
+string_ptr_cmp, //0, //0, //monty@mysql.com, //, //20031128, //sql/sql_help.cc, //518
+sql_memdup, //2, //1, //monty@mysql.com/narttu.mysql.fi, //, //20070510, //sql/thr_malloc.cc, //76
+mlog_parse_nbytes, //1, //1, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/mtr/mtr0log.cc, //140
+mlog_parse_string, //1, //1, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/mtr/mtr0log.cc, //384
+createSCITransporter, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/transporter/priotest/prioTransporterTest.cpp, //106
+T3_Callback_2, //1, //1, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/ndb_async2.cpp, //281
+callback, //0, //0, //tomas@poseidon.ndb.mysql.com, //, //20050104, //storage/ndb/tools/restore/consumer_restore.cpp, //3011
+table_performance_timers::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/table_performance_timers.cc, //133
+NdbDictionary::Dictionary::getTable, //1, //1, //tomas@poseidon.ndb.mysql.com, //, //20050104, //storage/ndb/src/ndbapi/NdbDictionary.cpp, //2372
+NdbDictionary::Table::setFrm, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/ndbapi/NdbDictionary.cpp, //760
+NdbDictionary::printFormattedValue, //3, //1, //Frazer Clement, //frazer.clement@oracle.com, //20100429, //storage/ndb/src/ndbapi/NdbDictionary.cpp, //3008
+pretty_print_string, //5, //1, //Frazer Clement, //frazer.clement@oracle.com, //20100429, //storage/ndb/src/ndbapi/NdbDictionary.cpp, //2936
+buf_pointer_is_block_field, //2, //1, //irana, //irana@dscczz01.us.oracle.com, //20100419, //storage/innobase/buf/buf0buf.cc, //2352
+buf_pointer_is_block_field_instance, //2, //2, //irana, //irana@dscczz01.us.oracle.com, //20100419, //storage/innobase/buf/buf0buf.cc, //2323
+os_file_read_no_error_handling_func, //3, //1, //jyang, //jyang@dscczz01.us.oracle.com, //20100329, //storage/innobase/os/os0file.cc, //2760
+execute, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/transporter/perftest/perfTransporterTest.cpp, //496
+Delegate::add_observer, //4, //1, //He Zhenxing, //hezx@greatopensource.com, //20090926, //sql/rpl_handler.h, //44
+Delegate::remove_observer, //4, //1, //He Zhenxing, //hezx@greatopensource.com, //20090926, //sql/rpl_handler.h, //66
+register_binlog_relay_io_observer, //1, //1, //He Zhenxing, //hezx@greatopensource.com, //20090926, //sql/rpl_handler.cc, //504
+register_binlog_storage_observer, //0, //0, //He Zhenxing, //hezx@greatopensource.com, //20090926, //sql/rpl_handler.cc, //481
+register_binlog_transmit_observer, //0, //0, //He Zhenxing, //hezx@greatopensource.com, //20090926, //sql/rpl_handler.cc, //494
+register_trans_observer, //0, //0, //He Zhenxing, //hezx@greatopensource.com, //20090926, //sql/rpl_handler.cc, //471
+unregister_binlog_relay_io_observer, //1, //1, //He Zhenxing, //hezx@greatopensource.com, //20090926, //sql/rpl_handler.cc, //509
+unregister_binlog_storage_observer, //0, //0, //He Zhenxing, //hezx@greatopensource.com, //20090926, //sql/rpl_handler.cc, //488
+unregister_binlog_transmit_observer, //0, //0, //He Zhenxing, //hezx@greatopensource.com, //20090926, //sql/rpl_handler.cc, //499
+unregister_trans_observer, //0, //0, //He Zhenxing, //hezx@greatopensource.com, //20090926, //sql/rpl_handler.cc, //476
+HugoOperations_async_callback, //0, //0, //joreland@mysql.com, //, //20050721, //storage/ndb/test/src/HugoOperations.cpp, //746
+cmp_frm, //0, //0, //Magnus Blåudd, //magnus.blaudd@oracle.com, //20111107, //sql/ndb_ndbapi_util.cc, //47
+mem_recv, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20110402, //plugin/innodb_memcached/daemon_memcached/win32/win32.h, //154
+my_setsockopt, //1, //1, //Magnus Blåudd, //magnus.blaudd@oracle.com, //20100413, //storage/ndb/include/portlib/ndb_socket_posix.h, //179
+Ap::Ap, //1, //1, //Frazer Clement, //frazer.clement@oracle.com, //20090306, //storage/ndb/test/ndbapi/testPartitioning.cpp, //867
+add_distribution_key, //0, //0, //Frazer Clement, //frazer.clement@oracle.com, //20090306, //storage/ndb/test/ndbapi/testPartitioning.cpp, //79
+one_distribution_key, //0, //0, //Frazer Clement, //frazer.clement@oracle.com, //20090306, //storage/ndb/test/ndbapi/testPartitioning.cpp, //200
+setNativePartitioning, //3, //2, //Frazer Clement, //frazer.clement@oracle.com, //20090306, //storage/ndb/test/ndbapi/testPartitioning.cpp, //44
+setUserDefPartitioning, //0, //0, //Frazer Clement, //frazer.clement@oracle.com, //20090306, //storage/ndb/test/ndbapi/testPartitioning.cpp, //180
+T3_Callback_2, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_async1.cpp, //258
+callback, //0, //0, //tomas@poseidon.ndb.mysql.com, //, //20050915, //storage/ndb/ndbapi-examples/ndbapi_async/ndbapi_async.cpp, //166
+Ndb::computeHash, //0, //0, //jonas@perch.ndb.mysql.com, //, //20070514, //storage/ndb/src/ndbapi/Ndb.cpp, //375
+Ndb::computeHash, //0, //0, //Tomas Ulin, //tomas.ulin@sun.com, //20081113, //storage/ndb/src/ndbapi/Ndb.cpp, //564
+Ndb::startTransaction, //0, //0, //jonas@perch.ndb.mysql.com, //, //20070514, //storage/ndb/src/ndbapi/Ndb.cpp, //726
+Ndb::startTransaction, //0, //0, //Tomas Ulin, //tomas.ulin@sun.com, //20081113, //storage/ndb/src/ndbapi/Ndb.cpp, //712
+Ndb::void2con, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/ndbapi/NdbImpl.hpp, //251
+Ndb::void2rec, //3, //1, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/ndbapi/NdbImpl.hpp, //245
+Ndb::void2rec_iop, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/ndbapi/NdbImpl.hpp, //263
+Ndb::void2rec_op, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/ndbapi/NdbImpl.hpp, //257
+table_os_global_by_type::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20100923, //storage/perfschema/table_os_global_by_type.cc, //150
+Slave_committed_queue::en_queue, //0, //0, //Andrei Elkin, //andrei.elkin@oracle.com, //20110819, //sql/rpl_rli_pdb.h, //263
+circular_buffer_queue::en_queue, //1, //1, //Andrei Elkin, //andrei.elkin@oracle.com, //20110819, //sql/rpl_rli_pdb.cc, //1206
+T3_Callback_1, //1, //1, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_async2.cpp, //332
+myFetchHook, //0, //0, //knielsen@ymer.(none), //, //20070326, //storage/ndb/ndbapi-examples/ndbapi_blob/ndbapi_blob.cpp, //331
+create_cond, //7, //1, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/pfs_instr.cc, //733
+create_mutex, //7, //1, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/pfs_instr.cc, //597
+create_rwlock, //7, //1, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/pfs_instr.cc, //673
+create_table, //8, //2, //Marc Alff, //marc.alff@oracle.com, //20100505, //storage/perfschema/pfs_instr.cc, //1308
+create_thread, //8, //3, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/pfs_instr.cc, //813
+NdbIndexStat::Bound::Bound, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110606, //storage/ndb/src/ndbapi/NdbIndexStat.cpp, //436
+NdbIndexStat::Stat::Stat, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110606, //storage/ndb/src/ndbapi/NdbIndexStat.cpp, //570
+NdbIndexStat::add_bound, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110606, //storage/ndb/src/ndbapi/NdbIndexStat.cpp, //459
+runReceiveResponse_C, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/ndbapi/TransporterFacade.cpp, //478
+runSendRequest_C, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/ndbapi/TransporterFacade.cpp, //443
+pfs_free, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110729, //storage/perfschema/unittest/stub_pfs_global.h, //40
+cursor_by_account::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110506, //storage/perfschema/cursor_by_account.cc, //57
+LinkedStack::LinkedStack, //0, //0, //Frazer Clement, //frazer.clement@oracle.com, //20110907, //storage/ndb/include/util/LinkedStack.hpp, //99
+Ndb_component_run_C, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20111110, //sql/ndb_component.cc, //47
+table_file_summary_by_instance::rnd_pos, //0, //0, //Christopher Powers, //chris.powers@oracle.com, //20110902, //storage/perfschema/table_file_summary_by_instance.cc, //228
+cmp_event_buf, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20111124, //storage/ndb/src/kernel/blocks/cmvmi/Cmvmi.cpp, //1333
+T4, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_user_transaction.cpp, //396
+table_esms_by_thread_by_event_name::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110214, //storage/perfschema/table_esms_by_thread_by_event_name.cc, //247
+my_search_option_files, //2, //2, //petr@mysql.com, //, //20050218, //mysys_ssl/my_default.cc, //256
+rbt_lookup, //1, //1, //sunny, //, //20080227, //storage/innobase/ut/ut0rbt.cc, //899
+rbt_lower_bound, //0, //0, //sunny, //, //20080227, //storage/innobase/ut/ut0rbt.cc, //981
+rbt_tree_insert, //1, //1, //sunny, //, //20080227, //storage/innobase/ut/ut0rbt.cc, //261
+rbt_upper_bound, //0, //0, //sunny, //, //20080227, //storage/innobase/ut/ut0rbt.cc, //1022
+NdbInterpretedCode::branch_col, //0, //0, //knielsen@loke.(none), //, //20080219, //storage/ndb/src/ndbapi/NdbInterpretedCode.cpp, //489
+NdbInterpretedCode::branch_col_and_mask_eq_mask, //0, //0, //Frazer Clement, //frazer.clement@oracle.com, //20081209, //storage/ndb/src/ndbapi/NdbInterpretedCode.cpp, //658
+NdbInterpretedCode::branch_col_and_mask_eq_zero, //0, //0, //Frazer Clement, //frazer.clement@oracle.com, //20081209, //storage/ndb/src/ndbapi/NdbInterpretedCode.cpp, //676
+NdbInterpretedCode::branch_col_and_mask_ne_mask, //0, //0, //Frazer Clement, //frazer.clement@oracle.com, //20081209, //storage/ndb/src/ndbapi/NdbInterpretedCode.cpp, //667
+NdbInterpretedCode::branch_col_and_mask_ne_zero, //0, //0, //Frazer Clement, //frazer.clement@oracle.com, //20081209, //storage/ndb/src/ndbapi/NdbInterpretedCode.cpp, //685
+NdbInterpretedCode::branch_col_eq, //0, //0, //knielsen@loke.(none), //, //20080219, //storage/ndb/src/ndbapi/NdbInterpretedCode.cpp, //586
+NdbInterpretedCode::branch_col_ge, //0, //0, //knielsen@loke.(none), //, //20080219, //storage/ndb/src/ndbapi/NdbInterpretedCode.cpp, //631
+NdbInterpretedCode::branch_col_gt, //0, //0, //knielsen@loke.(none), //, //20080219, //storage/ndb/src/ndbapi/NdbInterpretedCode.cpp, //622
+NdbInterpretedCode::branch_col_le, //0, //0, //knielsen@loke.(none), //, //20080219, //storage/ndb/src/ndbapi/NdbInterpretedCode.cpp, //613
+NdbInterpretedCode::branch_col_like, //0, //0, //knielsen@loke.(none), //, //20080219, //storage/ndb/src/ndbapi/NdbInterpretedCode.cpp, //640
+NdbInterpretedCode::branch_col_lt, //0, //0, //knielsen@loke.(none), //, //20080219, //storage/ndb/src/ndbapi/NdbInterpretedCode.cpp, //604
+NdbInterpretedCode::branch_col_ne, //0, //0, //knielsen@loke.(none), //, //20080219, //storage/ndb/src/ndbapi/NdbInterpretedCode.cpp, //595
+NdbInterpretedCode::branch_col_notlike, //0, //0, //knielsen@loke.(none), //, //20080219, //storage/ndb/src/ndbapi/NdbInterpretedCode.cpp, //649
+NdbInterpretedCode::compareMetaInfo, //0, //0, //knielsen@loke.(none), //, //20080219, //storage/ndb/src/ndbapi/NdbInterpretedCode.cpp, //1019
+T2, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_user_transaction.cpp, //118
+threadRoutine, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/mainAsyncGenerator.cpp, //306
+T3, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_user_transaction3.cpp, //201
+fts0tfree, //5, //5, //Jimmy Yang, //jimmy.yang@oracle.com, //20101108, //storage/innobase/fts/fts0tlex.cc, //1935
+fts0tlex_init_extra, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0tlex.cc, //1803
+fts0trealloc, //3, //3, //Jimmy Yang, //jimmy.yang@oracle.com, //20101108, //storage/innobase/fts/fts0tlex.cc, //1923
+fts0tset_extra, //2, //2, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0tlex.cc, //1699
+T2, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_user_transaction4.cpp, //120
+MysqlUtilsWrapper::CharsetMap__recode, //0, //0, //Martin Zaun, //martin.zaun@oracle.com, //20100219, //storage/ndb/src/ndbjtie/MysqlUtilsWrapper.hpp, //78
+MysqlUtilsWrapper::decimal_bin2str, //0, //0, //Martin Zaun, //martin.zaun@oracle.com, //20100219, //storage/ndb/src/ndbjtie/MysqlUtilsWrapper.hpp, //99
+MysqlUtilsWrapper::decimal_str2bin, //0, //0, //Martin Zaun, //martin.zaun@oracle.com, //20100219, //storage/ndb/src/ndbjtie/MysqlUtilsWrapper.hpp, //92
+table_setup_instruments::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/table_setup_instruments.cc, //144
+T2, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_user_transaction5.cpp, //120
+NDB_PREFETCH_READ, //0, //0, //Magnus Blåudd, //magnus.blaudd@oracle.com, //20101109, //storage/ndb/include/portlib/ndb_prefetch.h, //38
+NDB_PREFETCH_WRITE, //0, //0, //Magnus Blåudd, //magnus.blaudd@oracle.com, //20101109, //storage/ndb/include/portlib/ndb_prefetch.h, //52
+T3_Callback_2, //1, //1, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_async2.cpp, //384
+cmp_decimal, //0, //0, //hf@deer.(none), //, //20050209, //sql/item_cmpfunc.cc, //3869
+cmp_double, //0, //0, //bar@bar.mysql.r18.ru, //, //20030627, //sql/item_cmpfunc.cc, //3858
+cmp_longlong, //0, //0, //gkodinov/kgeorge@macbook.gmz, //, //20070302, //sql/item_cmpfunc.cc, //3833
+cmp_row, //0, //0, //bar@bar.mysql.r18.ru, //, //20030627, //sql/item_cmpfunc.cc, //3863
+T2_Callback, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_async1.cpp, //170
+T1, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_user_transaction2.cpp, //46
+T1, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_user_transaction3.cpp, //46
+T1, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_user_transaction5.cpp, //46
+T1, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_user_transaction.cpp, //46
+T1, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_user_transaction2.cpp, //46
+T1, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_user_transaction.cpp, //46
+T1, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_user_transaction4.cpp, //46
+T1, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_user_transaction5.cpp, //46
+T5, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_user_transaction2.cpp, //622
+T5, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_user_transaction.cpp, //622
+T5, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_user_transaction4.cpp, //592
+T5, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_user_transaction5.cpp, //591
+fts_parallel_merge, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20101019, //storage/innobase/row/row0ftsort.cc, //877
+fts_parallel_tokenization, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20101019, //storage/innobase/row/row0ftsort.cc, //553
+T4, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_user_transaction4.cpp, //390
+cursor_by_thread_connect_attr::rnd_pos, //0, //0, //Georgi Kodinov, //georgi.kodinov@oracle.com, //20120330, //storage/perfschema/cursor_by_thread_connect_attr.cc, //48
+NDBT_Attribute::NDBT_Attribute, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/include/NDBT_Table.hpp, //28
+innobase_fts_text_cmp_prefix, //1, //1, //Jimmy Yang, //jimmy.yang@oracle.com, //20110624, //storage/innobase/handler/ha_innodb.cc, //5247
+innobase_fts_string_cmp, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20110701, //storage/innobase/handler/ha_innodb.cc, //5269
+innobase_fts_text_case_cmp, //2, //1, //Jimmy Yang, //jimmy.yang@oracle.com, //20110708, //storage/innobase/handler/ha_innodb.cc, //5196
+fts_freq_doc_id_cmp, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0que.cc, //333
+fts_query_compare_rank, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0que.cc, //454
+fts_query_fetch_document, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0que.cc, //1671
+fts_query_filter_doc_ids, //3, //2, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0que.cc, //2848
+fts_query_index_fetch_nodes, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0que.cc, //3065
+fts_query_strcmp, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0que.cc, //437
+fts_query_visitor, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0que.cc, //2612
+ib_list_add_after, //2, //1, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/ut/ut0list.cc, //121
+ib_list_add_first, //0, //0, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/ut/ut0list.cc, //93
+ib_list_add_last, //1, //1, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/ut/ut0list.cc, //107
+T3_Callback_1, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_async1.cpp, //237
+myFetchHook, //0, //0, //knielsen@ymer.(none), //, //20070326, //storage/ndb/ndbapi-examples/ndbapi_blob_ndbrecord/main.cpp, //390
+Gcalc_dyn_list::format_blk, //2, //1, //Alexey Botchkov, //holyfoot@mysql.com, //20101028, //sql/gcalc_slicescan.cc, //51
+compare_intersections, //0, //0, //Alexey Botchkov, //holyfoot@mysql.com, //20100616, //sql/gcalc_slicescan.cc, //678
+compare_point_info, //0, //0, //Alexey Botchkov, //holyfoot@mysql.com, //20100616, //sql/gcalc_slicescan.cc, //144
+free_blk_list, //2, //1, //Alexey Botchkov, //holyfoot@mysql.com, //20100616, //sql/gcalc_slicescan.cc, //77
+row_mysql_store_blob_ref, //1, //1, //osku, //, //20051027, //storage/innobase/row/row0mysql.cc, //233
+free_table_ent, //0, //0, //monty@mysql.com/nosik.monty.fi, //, //20070813, //sql/rpl_filter.cc, //520
+cursor_by_user::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110506, //storage/perfschema/cursor_by_user.cc, //57
+handle_slave_worker, //0, //0, //Andrei Elkin, //andrei.elkin@oracle.com, //20110819, //sql/rpl_slave.cc, //4436
+set_thd_stage_info, //3, //3, //Marc Alff, //marc.alff@oracle.com, //20110721, //sql/sql_class.cc, //586
+delete_statement_as_hash_key, //0, //0, //konstantin@oak.local, //, //20031220, //sql/sql_class.cc, //3412
+thd_memdup, //1, //1, //tsmith@maint1.mysql.com, //, //20070705, //sql/sql_class.cc, //1333
+xid_free_hash, //0, //0, //monty@mysql.com/nosik.monty.fi, //, //20070813, //sql/sql_class.cc, //4515
+NdbDictInterface::execNodeStatus, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20101001, //storage/ndb/src/ndbapi/NdbDictionaryImpl.cpp, //2305
+NdbDictInterface::execSignal, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/ndbapi/NdbDictionaryImpl.cpp, //2159
+NdbTableImpl::setFrm, //0, //0, //tomas@whalegate.ndb.mysql.com, //, //20070411, //storage/ndb/src/ndbapi/NdbDictionaryImpl.cpp, //1140
+cmp_bitrange, //0, //0, //Frazer Clement, //frazer.clement@oracle.com, //20090316, //storage/ndb/src/ndbapi/NdbDictionaryImpl.cpp, //6419
+cmp_ndbrec_attr, //0, //0, //knielsen@ymer.(none), //, //20061213, //storage/ndb/src/ndbapi/NdbDictionaryImpl.cpp, //6401
+T4, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_user_transaction5.cpp, //389
+table_setup_timers::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/table_setup_timers.cc, //123
+sym_tab_rebind_lit, //5, //4, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/pars/pars0sym.cc, //289
+pars_column_def, //1, //1, //osku, //, //20051027, //storage/innobase/pars/pars0pars.cc, //1890
+pars_create_table, //1, //1, //osku, //, //20051027, //storage/innobase/pars/pars0pars.cc, //1921
+runConsumer, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/kernel/blocks/ndbfs/MemoryChannelTest/MemoryChannelTest.cpp, //48
+runConsumer2, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/kernel/blocks/ndbfs/MemoryChannelTest/MemoryChannelTest.cpp, //98
+runProducer, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/kernel/blocks/ndbfs/MemoryChannelTest/MemoryChannelTest.cpp, //30
+runProducer2, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/kernel/blocks/ndbfs/MemoryChannelTest/MemoryChannelTest.cpp, //80
+lookup_lock, //1, //1, //Jonas Oreland, //jonas.oreland@oracle.com, //20120320, //storage/ndb/src/kernel/vm/mt-send-t.cpp, //551
+createSHMTransporter, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/transporter/perftest/perfTransporterTest.cpp, //644
+table_esms_by_user_by_event_name::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110506, //storage/perfschema/table_esms_by_user_by_event_name.cc, //245
+dump_leaf_key, //0, //0, //Davi Arnaut, //davi.arnaut@oracle.com, //20100531, //sql/item_sum.cc, //3021
+group_concat_key_cmp_with_distinct, //0, //0, //Guilhem Bichot, //guilhem.bichot@oracle.com, //20110309, //sql/item_sum.cc, //2940
+group_concat_key_cmp_with_order, //0, //0, //Guilhem Bichot, //guilhem.bichot@oracle.com, //20110309, //sql/item_sum.cc, //2975
+table_events_stages_common::table_events_stages_common, //3, //1, //Marc Alff, //marc.alff@oracle.com, //20110214, //storage/perfschema/table_events_stages.cc, //141
+table_events_stages_current::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110214, //storage/perfschema/table_events_stages.cc, //314
+table_events_stages_history::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110214, //storage/perfschema/table_events_stages.cc, //406
+table_events_stages_history_long::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110214, //storage/perfschema/table_events_stages.cc, //491
+T5, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_user_transaction3.cpp, //602
+lock_slow, //1, //1, //Jonas Oreland, //jonas.oreland@oracle.com, //20120320, //storage/ndb/src/kernel/vm/mt-lock.hpp, //53
+NTService::Init, //0, //0, //bk@work.mysql.com, //, //20000731, //sql/nt_servc.cc, //89
+Database_ids::do_search_id, //0, //0, //Andrei Elkin, //andrei.elkin@oracle.com, //20110819, //sql/dynamic_ids.cc, //138
+Dynamic_ids::search_id, //0, //0, //Andrei Elkin, //andrei.elkin@oracle.com, //20110819, //sql/dynamic_ids.h, //41
+Server_ids::do_search_id, //0, //0, //Andrei Elkin, //andrei.elkin@oracle.com, //20110819, //sql/dynamic_ids.cc, //71
+callback, //0, //0, //tomas@whalegate.ndb.mysql.com, //, //20070704, //storage/ndb/test/ndbapi/ndbapi_50compat1.cpp, //140
+handler_binlog_commit, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20120822, //plugin/innodb_memcached/innodb_memcache/src/handler_api.cc, //206
+handler_binlog_rollback, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20120822, //plugin/innodb_memcached/innodb_memcache/src/handler_api.cc, //222
+handler_binlog_row, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20110916, //plugin/innodb_memcached/innodb_memcache/src/handler_api.cc, //166
+handler_binlog_truncate, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20110930, //plugin/innodb_memcached/innodb_memcache/src/handler_api.cc, //238
+handler_open_table, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20110916, //plugin/innodb_memcached/innodb_memcache/src/handler_api.cc, //130
+handler_rec_init, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20110916, //plugin/innodb_memcached/innodb_memcache/src/handler_api.cc, //262
+handler_rec_setup_int, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20110916, //plugin/innodb_memcached/innodb_memcache/src/handler_api.cc, //297
+handler_rec_setup_str, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20110916, //plugin/innodb_memcached/innodb_memcache/src/handler_api.cc, //272
+handler_store_record, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20110921, //plugin/innodb_memcached/innodb_memcache/src/handler_api.cc, //321
+CHECK_NULL, //27, //3, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_error.hpp, //80
+cursor_by_thread::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110506, //storage/perfschema/cursor_by_thread.cc, //57
+definer_thread, //0, //0, //Mauritz Sundell, //mauritz.sundell@oracle.com, //20120611, //storage/ndb/test/ndbapi/flexAsynch.cpp, //1771
+executor_thread, //0, //0, //Mauritz Sundell, //mauritz.sundell@oracle.com, //20120611, //storage/ndb/test/ndbapi/flexAsynch.cpp, //1936
+TC_LOG_MMAP::do_msync_and_fsync, //0, //0, //Tor Didriksen, //tor.didriksen@oracle.com, //20130326, //sql/log.h, //178
+TC_LOG_MMAP_no_msync::do_msync_and_fsync, //0, //0, //Tor Didriksen, //tor.didriksen@oracle.com, //20130322, //unittest/gunit/tc_log_mmap-t.cc, //31
+free_dbopt, //0, //0, //monty@mysql.com/nosik.monty.fi, //, //20070813, //sql/sql_db.cc, //116
+table_cond_instances::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/table_sync_instances.cc, //440
+table_mutex_instances::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/table_sync_instances.cc, //105
+table_rwlock_instances::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/table_sync_instances.cc, //274
+table_ews_by_thread_by_event_name::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20100923, //storage/perfschema/table_ews_by_thread_by_event_name.cc, //179
+callback_ext_parts_read, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20111209, //storage/ndb/memcache/src/ExternalValue.cc, //864
+callback_ext_write, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20111209, //storage/ndb/memcache/src/ExternalValue.cc, //899
+NdbOperation::branch_col, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/ndbapi/NdbOperationInt.cpp, //1069
+NdbOperation::branch_col_and_mask_eq_mask, //0, //0, //Frazer Clement, //frazer.clement@oracle.com, //20081209, //storage/ndb/src/ndbapi/NdbOperationInt.cpp, //1229
+NdbOperation::branch_col_and_mask_eq_zero, //0, //0, //Frazer Clement, //frazer.clement@oracle.com, //20081209, //storage/ndb/src/ndbapi/NdbOperationInt.cpp, //1245
+NdbOperation::branch_col_and_mask_ne_mask, //0, //0, //Frazer Clement, //frazer.clement@oracle.com, //20081209, //storage/ndb/src/ndbapi/NdbOperationInt.cpp, //1237
+NdbOperation::branch_col_and_mask_ne_zero, //0, //0, //Frazer Clement, //frazer.clement@oracle.com, //20081209, //storage/ndb/src/ndbapi/NdbOperationInt.cpp, //1253
+NdbOperation::branch_col_eq, //0, //0, //joreland@mysql.com, //, //20041228, //storage/ndb/src/ndbapi/NdbOperationInt.cpp, //1168
+NdbOperation::branch_col_ge, //0, //0, //joreland@mysql.com, //, //20041228, //storage/ndb/src/ndbapi/NdbOperationInt.cpp, //1205
+NdbOperation::branch_col_gt, //0, //0, //joreland@mysql.com, //, //20041228, //storage/ndb/src/ndbapi/NdbOperationInt.cpp, //1197
+NdbOperation::branch_col_le, //0, //0, //joreland@mysql.com, //, //20041228, //storage/ndb/src/ndbapi/NdbOperationInt.cpp, //1190
+NdbOperation::branch_col_like, //0, //0, //joreland@mysql.com, //, //20041228, //storage/ndb/src/ndbapi/NdbOperationInt.cpp, //1213
+NdbOperation::branch_col_lt, //0, //0, //joreland@mysql.com, //, //20041228, //storage/ndb/src/ndbapi/NdbOperationInt.cpp, //1183
+NdbOperation::branch_col_ne, //0, //0, //joreland@mysql.com, //, //20041228, //storage/ndb/src/ndbapi/NdbOperationInt.cpp, //1176
+NdbOperation::branch_col_notlike, //0, //0, //joreland@mysql.com, //, //20041228, //storage/ndb/src/ndbapi/NdbOperationInt.cpp, //1221
+T3_Callback_3, //1, //1, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_async2.cpp, //489
+T3_Callback_3, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_async1.cpp, //317
+ib_wqueue_add, //5, //2, //marko, //, //20060508, //storage/innobase/ut/ut0wqueue.cc, //67
+ClusterConnectionPool::setCustomData, //2, //1, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/include/ClusterConnectionPool.h, //94
+S::SchedulerGlobal::add_stats, //1, //1, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/schedulers/S_sched.cc, //230
+run_poll_thread, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/schedulers/S_sched.cc, //998
+run_send_thread, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/schedulers/S_sched.cc, //993
+BackupRestore::convert_bitset, //0, //0, //Martin Zaun, //martin.zaun@oracle.com, //20110218, //storage/ndb/tools/restore/consumer_restore.cpp, //54
+BackupRestore::convert_datetime2_datetime, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20120403, //storage/ndb/tools/restore/consumer_restore.cpp, //357
+BackupRestore::convert_datetime2_datetime2, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20120403, //storage/ndb/tools/restore/consumer_restore.cpp, //390
+BackupRestore::convert_datetime_datetime2, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20120403, //storage/ndb/tools/restore/consumer_restore.cpp, //326
+BackupRestore::convert_time2_time, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20120403, //storage/ndb/tools/restore/consumer_restore.cpp, //266
+BackupRestore::convert_time2_time2, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20120403, //storage/ndb/tools/restore/consumer_restore.cpp, //295
+BackupRestore::convert_time_time2, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20120403, //storage/ndb/tools/restore/consumer_restore.cpp, //237
+BackupRestore::convert_timestamp2_timestamp, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20120403, //storage/ndb/tools/restore/consumer_restore.cpp, //448
+BackupRestore::convert_timestamp2_timestamp2, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20120403, //storage/ndb/tools/restore/consumer_restore.cpp, //474
+BackupRestore::convert_timestamp_timestamp2, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20120403, //storage/ndb/tools/restore/consumer_restore.cpp, //423
+BackupRestore::object, //0, //0, //jonas@perch.ndb.mysql.com, //, //20060111, //storage/ndb/tools/restore/consumer_restore.cpp, //1291
+my_getsockopt, //0, //0, //Magnus Blåudd, //magnus.blaudd@oracle.com, //20100413, //storage/ndb/include/portlib/ndb_socket_posix.h, //172
+plugin_foreach_with_mask, //23, //2, //antony@ppcg5.local, //, //20070302, //sql/sql_plugin.cc, //2035
+table_ews_by_host_by_event_name::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110506, //storage/perfschema/table_ews_by_host_by_event_name.cc, //177
+Field::operator delete, //7, //1, //Tor Didriksen, //tor.didriksen@oracle.com, //20111011, //sql/field.h, //480
+base_list::sort, //1, //1, //Evgeny Potemkin, //evgeny.potemkin@oracle.com, //20101209, //sql/sql_list.h, //285
+Derived_key_comp, //0, //0, //Evgeny Potemkin, //evgeny.potemkin@oracle.com, //20110210, //sql/table.cc, //6194
+fts_optimize_index_fetch_node, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0opt.cc, //425
+i_s_cmp_init, //0, //0, //inaam, //, //20080514, //storage/innobase/handler/i_s.cc, //1508
+i_s_cmp_per_index_init, //0, //0, //Vasil Dimov, //vasil.dimov@oracle.com, //20120830, //storage/innobase/handler/i_s.cc, //1866
+i_s_cmp_per_index_reset_init, //0, //0, //Vasil Dimov, //vasil.dimov@oracle.com, //20120830, //storage/innobase/handler/i_s.cc, //1884
+i_s_cmp_reset_init, //0, //0, //inaam, //, //20080514, //storage/innobase/handler/i_s.cc, //1526
+i_s_cmpmem_init, //0, //0, //inaam, //, //20080514, //storage/innobase/handler/i_s.cc, //2165
+i_s_cmpmem_reset_init, //0, //0, //inaam, //, //20080514, //storage/innobase/handler/i_s.cc, //2183
+i_s_common_deinit, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20101210, //storage/innobase/handler/i_s.cc, //6034
+i_s_fts_being_deleted_init, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20110520, //storage/innobase/handler/i_s.cc, //3141
+i_s_fts_config_init, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20110520, //storage/innobase/handler/i_s.cc, //3911
+i_s_fts_deleted_init, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20101223, //storage/innobase/handler/i_s.cc, //3054
+i_s_fts_index_cache_init, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20101227, //storage/innobase/handler/i_s.cc, //3408
+i_s_fts_index_table_init, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20110103, //storage/innobase/handler/i_s.cc, //3713
+i_s_innodb_buffer_page_init, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20101210, //storage/innobase/handler/i_s.cc, //5412
+i_s_innodb_buffer_page_lru_init, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20101214, //storage/innobase/handler/i_s.cc, //5960
+i_s_innodb_buffer_pool_stats_init, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20101210, //storage/innobase/handler/i_s.cc, //4716
+i_s_innodb_temp_table_info_init, //0, //0, //Krunal Bauskar krunal.bauskar@oracle.com, //, //20121220, //storage/innobase/handler/i_s.cc, //4192
+i_s_stopword_init, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/handler/i_s.cc, //2882
+innodb_lock_waits_init, //0, //0, //vasil, //, //20070920, //storage/innobase/handler/i_s.cc, //1186
+innodb_locks_init, //0, //0, //vasil, //, //20070920, //storage/innobase/handler/i_s.cc, //999
+innodb_metrics_init, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100609, //storage/innobase/handler/i_s.cc, //2762
+innodb_sys_columns_init, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100525, //storage/innobase/handler/i_s.cc, //7048
+innodb_sys_datafiles_init, //0, //0, //kevin.lewis@oracle.com, //, //20120615, //storage/innobase/handler/i_s.cc, //8173
+innodb_sys_fields_init, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100525, //storage/innobase/handler/i_s.cc, //7262
+innodb_sys_foreign_cols_init, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100525, //storage/innobase/handler/i_s.cc, //7712
+innodb_sys_foreign_init, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100525, //storage/innobase/handler/i_s.cc, //7491
+innodb_sys_indexes_init, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100525, //storage/innobase/handler/i_s.cc, //6807
+innodb_sys_tables_init, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100525, //storage/innobase/handler/i_s.cc, //6257
+innodb_sys_tablespaces_init, //0, //0, //kevin.lewis@oracle.com, //, //20120615, //storage/innobase/handler/i_s.cc, //7980
+innodb_sys_tablestats_init, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100525, //storage/innobase/handler/i_s.cc, //6551
+innodb_trx_init, //0, //0, //vasil, //, //20070920, //storage/innobase/handler/i_s.cc, //731
+quick_range_seq_init, //0, //0, //Evgeny Potemkin, //evgeny.potemkin@oracle.com, //20100405, //sql/opt_range.cc, //10416
+ha_storage_put_memlim, //10, //2, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/ha/ha0storage.cc, //88
+COND_CMP::operator delete, //0, //0, //Evgeny Potemkin, //evgeny.potemkin@oracle.com, //20111214, //sql/sql_optimizer.cc, //1094
+compare_fields_by_table_order, //0, //0, //Evgeny Potemkin, //evgeny.potemkin@oracle.com, //20111214, //sql/sql_optimizer.cc, //1922
+find_field_in_item_list, //0, //0, //Evgeny Potemkin, //evgeny.potemkin@oracle.com, //20111214, //sql/sql_optimizer.cc, //8753
+find_field_in_order_list, //0, //0, //Evgeny Potemkin, //evgeny.potemkin@oracle.com, //20111214, //sql/sql_optimizer.cc, //8720
+list_contains_unique_index, //0, //0, //Norvald H. Ryeng, //norvald.ryeng@oracle.com, //20120206, //sql/sql_optimizer.cc, //8673
+mem_write, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20110402, //plugin/innodb_memcached/daemon_memcached/win32/win32.h, //136
+T4_Callback_2, //1, //1, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/ndb_async2.cpp, //460
+T4_Callback_2, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_async1.cpp, //410
+fts0bfree, //5, //5, //Jimmy Yang, //jimmy.yang@oracle.com, //20120412, //storage/innobase/fts/fts0blex.cc, //1949
+fts0blex_init_extra, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0blex.cc, //1817
+fts0brealloc, //3, //3, //Jimmy Yang, //jimmy.yang@oracle.com, //20120412, //storage/innobase/fts/fts0blex.cc, //1937
+fts0bset_extra, //2, //2, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0blex.cc, //1713
+NdbOut::operator<<, //5, //1, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/util/NdbOut.cpp, //62
+NdbQueryParamValue::NdbQueryParamValue, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20110406, //storage/ndb/src/ndbapi/NdbQueryOperation.cpp, //1636
+table_all_instr::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/table_all_instr.cc, //116
+table_socket_summary_by_instance::rnd_pos, //0, //0, //Christopher Powers, //chris.powers@oracle.com, //20110204, //storage/perfschema/table_socket_summary_by_instance.cc, //223
+NdbIndexStatImpl::MemDefault::mem_free, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110606, //storage/ndb/src/ndbapi/NdbIndexStatImpl.cpp, //2602
+T2, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_user_transaction.cpp, //118
+T2, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_user_transaction2.cpp, //118
+BaseString_get_key, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20100921, //storage/ndb/src/common/util/BaseString.cpp, //573
+NdbThreadFuncDelete, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/acid.cpp, //309
+NdbThreadFuncInsert, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/acid.cpp, //201
+NdbThreadFuncRead, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/acid.cpp, //356
+NdbThreadFuncUpdate, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/acid.cpp, //255
+T2_Callback, //1, //1, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/ndb_async2.cpp, //174
+T2_Callback, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_async1.cpp, //170
+callback, //0, //0, //Jan Wedvik, //jan.wedvik@oracle.com, //20091007, //storage/ndb/test/tools/spj_performance_test.cpp, //122
+blackhole_fini, //0, //0, //acurtis/antony@xiphis.org/ltamd64.xiphis.org, //, //20070508, //storage/blackhole/ha_blackhole.cc, //433
+blackhole_init, //0, //0, //brian@zim.(none), //, //20060915, //storage/blackhole/ha_blackhole.cc, //410
+daemon_memcached_plugin_deinit, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20110402, //plugin/innodb_memcached/daemon_memcached/daemon/memcached_mysql.cc, //88
+daemon_memcached_plugin_init, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20110402, //plugin/innodb_memcached/daemon_memcached/daemon/memcached_mysql.cc, //130
+ha_storage_get, //1, //1, //Satya B, //satya.bn@sun.com, //20090527, //storage/innobase/ha/ha0storage.cc, //43
+NdbIndexScanOperation::setBound, //2, //1, //joreland@mysql.com, //, //20041005, //storage/ndb/src/ndbapi/NdbScanOperation.cpp, //3013
+NdbApiWrapper::NdbBlob__getValue, //0, //0, //Martin Zaun, //martin.zaun@oracle.com, //20100216, //storage/ndb/src/ndbjtie/NdbApiWrapper.hpp, //246
+NdbApiWrapper::NdbBlob__readData, //0, //0, //Martin Zaun, //martin.zaun@oracle.com, //20100216, //storage/ndb/src/ndbjtie/NdbApiWrapper.hpp, //302
+NdbApiWrapper::NdbBlob__setValue, //0, //0, //Martin Zaun, //martin.zaun@oracle.com, //20100216, //storage/ndb/src/ndbjtie/NdbApiWrapper.hpp, //253
+NdbApiWrapper::NdbBlob__writeData, //0, //0, //Martin Zaun, //martin.zaun@oracle.com, //20100216, //storage/ndb/src/ndbjtie/NdbApiWrapper.hpp, //309
+NdbApiWrapper::NdbDictionary__Table__setFrm, //0, //0, //Martin Zaun, //martin.zaun@oracle.com, //20100216, //storage/ndb/src/ndbjtie/NdbApiWrapper.hpp, //1773
+NdbApiWrapper::NdbIndexScanOperation__setBound__0, //0, //0, //Martin Zaun, //martin.zaun@oracle.com, //20100224, //storage/ndb/src/ndbjtie/NdbApiWrapper.hpp, //2215
+NdbApiWrapper::NdbIndexScanOperation__setBound__1, //0, //0, //Martin Zaun, //martin.zaun@oracle.com, //20100224, //storage/ndb/src/ndbjtie/NdbApiWrapper.hpp, //2222
+NdbApiWrapper::NdbInterpretedCode__branch_col_eq, //0, //0, //Martin Zaun, //martin.zaun@oracle.com, //20100216, //storage/ndb/src/ndbjtie/NdbApiWrapper.hpp, //2419
+NdbApiWrapper::NdbInterpretedCode__branch_col_ge, //0, //0, //Martin Zaun, //martin.zaun@oracle.com, //20100216, //storage/ndb/src/ndbjtie/NdbApiWrapper.hpp, //2454
+NdbApiWrapper::NdbInterpretedCode__branch_col_gt, //0, //0, //Martin Zaun, //martin.zaun@oracle.com, //20100216, //storage/ndb/src/ndbjtie/NdbApiWrapper.hpp, //2447
+NdbApiWrapper::NdbInterpretedCode__branch_col_le, //0, //0, //Martin Zaun, //martin.zaun@oracle.com, //20100216, //storage/ndb/src/ndbjtie/NdbApiWrapper.hpp, //2440
+NdbApiWrapper::NdbInterpretedCode__branch_col_like, //0, //0, //Martin Zaun, //martin.zaun@oracle.com, //20100216, //storage/ndb/src/ndbjtie/NdbApiWrapper.hpp, //2475
+NdbApiWrapper::NdbInterpretedCode__branch_col_lt, //0, //0, //Martin Zaun, //martin.zaun@oracle.com, //20100216, //storage/ndb/src/ndbjtie/NdbApiWrapper.hpp, //2433
+NdbApiWrapper::NdbInterpretedCode__branch_col_ne, //0, //0, //Martin Zaun, //martin.zaun@oracle.com, //20100216, //storage/ndb/src/ndbjtie/NdbApiWrapper.hpp, //2426
+NdbApiWrapper::NdbInterpretedCode__branch_col_notlike, //0, //0, //Martin Zaun, //martin.zaun@oracle.com, //20100216, //storage/ndb/src/ndbjtie/NdbApiWrapper.hpp, //2482
+NdbApiWrapper::NdbScanFilter__cmp, //0, //0, //Martin Zaun, //martin.zaun@oracle.com, //20100216, //storage/ndb/src/ndbjtie/NdbApiWrapper.hpp, //3066
+NdbApiWrapper::Ndb__computeHash, //0, //0, //Martin Zaun, //martin.zaun@oracle.com, //20100216, //storage/ndb/src/ndbjtie/NdbApiWrapper.hpp, //193
+NdbApiWrapper::Ndb__startTransaction__1, //0, //0, //Martin Zaun, //martin.zaun@oracle.com, //20100224, //storage/ndb/src/ndbjtie/NdbApiWrapper.hpp, //179
+check_func_bool, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/sql_plugin.cc, //2138
+check_func_enum, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/sql_plugin.cc, //2269
+check_func_int, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/sql_plugin.cc, //2168
+check_func_long, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/sql_plugin.cc, //2197
+check_func_longlong, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/sql_plugin.cc, //2226
+check_func_set, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/sql_plugin.cc, //2307
+check_func_str, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/sql_plugin.cc, //2254
+sys_var_pluginvar::operator delete, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/sql_plugin.cc, //230
+update_func_bool, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/sql_plugin.cc, //2348
+update_func_int, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/sql_plugin.cc, //2355
+update_func_long, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/sql_plugin.cc, //2362
+update_func_longlong, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/sql_plugin.cc, //2369
+update_func_str, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/sql_plugin.cc, //2376
+T1_Callback, //1, //1, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_async2.cpp, //141
+T4_Callback_1, //1, //1, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/ndb_async2.cpp, //426
+thread_start_routine, //0, //0, //Tor Didriksen, //tor.didriksen@oracle.com, //20100317, //unittest/gunit/thread_utils.cc, //53
+NdbPack::Data::add, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbPack.cpp, //399
+NdbPack::Data::add, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbPack.cpp, //429
+NdbPack::Data::set_buf, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/include/util/NdbPack.hpp, //696
+NdbPack::DataC::set_buf, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/include/util/NdbPack.hpp, //639
+NdbPack::Endian::convert, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbPack.cpp, //58
+T4_Callback_1, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_async1.cpp, //387
+event_scheduler_thread, //0, //0, //andrey@lmy004., //, //20060712, //sql/event_scheduler.cc, //240
+event_worker_thread, //0, //0, //andrey@lmy004., //, //20060712, //sql/event_scheduler.cc, //283
+T5_Callback_3, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_async1.cpp, //638
+add_schema_table, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/sql_show.cc, //3124
+find_schema_table_in_plugin, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/sql_show.cc, //6651
+iter_schema_engines, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/sql_show.cc, //4771
+run_hton_fill_schema_table, //0, //0, //Sergey Vojtovich, //sergey.vojtovich@oracle.com, //20091207, //sql/sql_show.cc, //7339
+show_plugins, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/sql_show.cc, //132
+show_var_cmp, //2, //2, //serg@serg.mylan, //, //20060107, //sql/sql_show.cc, //2274
+thread_info::operator delete, //0, //0, //bk@work.mysql.com, //, //20000731, //sql/sql_show.cc, //2003
+T3_Callback_3, //1, //1, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/ndb_async2.cpp, //350
+T4_Callback_3, //2, //1, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_async2.cpp, //834
+String::operator delete, //0, //0, //Davi Arnaut, //davi.arnaut@oracle.com, //20101019, //client/sql_string.h, //81
+reportReceiveLen, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/transporter/perftest/perfTransporterTest.cpp, //554
+NdbTransaction::executeAsynch, //2, //1, //knielsen@ymer.(none), //, //20070425, //storage/ndb/src/ndbapi/NdbTransaction.cpp, //953
+NdbTransaction::executeAsynch, //4, //1, //tomas@poseidon.ndb.mysql.com, //, //20050105, //storage/ndb/include/ndbapi/NdbTransaction.hpp, //450
+handle_bootstrap, //0, //0, //Alexander Nozdrin, //alexander.nozdrin@oracle.com, //20090910, //sql/sql_parse.cc, //800
+innobase_index_cond, //1, //1, //Marko Mäkelä, //marko.makela@oracle.com, //20101025, //storage/innobase/handler/ha_innodb.cc, //16507
+row_fetch_print, //0, //0, //marko, //, //20060412, //storage/innobase/row/row0sel.cc, //2207
+RuntimeCallContext, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/msa.cpp, //672
+NdbIndexScanOperation::setBound, //0, //0, //jonas@perch.ndb.mysql.com, //, //20051107, //storage/ndb/include/ndbapi/NdbIndexScanOperation.hpp, //371
+NdbIndexScanOperation::setBound, //0, //0, //jonas@perch.ndb.mysql.com, //, //20051107, //storage/ndb/include/ndbapi/NdbIndexScanOperation.hpp, //380
+NdbIndexScanOperation::setBound, //4, //1, //joreland@mysql.com, //, //20041005, //storage/ndb/src/ndbapi/NdbScanOperation.cpp, //3020
+NdbIndexScanOperation::setBound, //2, //1, //joreland@mysql.com, //, //20040526, //storage/ndb/src/ndbapi/NdbScanOperation.cpp, //3115
+NdbIndexScanOperation::setBoundHelperOldApi, //0, //0, //Frazer Clement, //frazer.clement@oracle.com, //20080814, //storage/ndb/src/ndbapi/NdbScanOperation.cpp, //3049
+cursor_by_host::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110506, //storage/perfschema/cursor_by_host.cc, //57
+monitor_thread_create_wrapper, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/cw/cpcd/Monitor.cpp, //29
+ALIGN_WORD, //2, //1, //jonas@perch.ndb.mysql.com, //, //20051107, //storage/ndb/src/kernel/blocks/dbtup/Dbtup.hpp, //134
+ALIGN_WORD, //0, //0, //jonas@perch.ndb.mysql.com, //, //20051107, //storage/ndb/src/kernel/blocks/dbtup/Dbtup.hpp, //139
+Dbtup::varsize_reader, //0, //0, //jonas@perch.ndb.mysql.com, //, //20070416, //storage/ndb/src/kernel/blocks/dbtup/DbtupRoutines.cpp, //651
+Dbtup::xfrm_reader, //0, //0, //jonas@perch.ndb.mysql.com, //, //20070416, //storage/ndb/src/kernel/blocks/dbtup/DbtupRoutines.cpp, //692
+createSHMTransporter, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/transporter/priotest/prioTransporterTest.cpp, //137
+row_import_set_discarded, //0, //0, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20120221, //storage/innobase/row/row0import.cc, //3363
+ClusterConnectionPool::add_stats, //1, //1, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/ClusterConnectionPool.cc, //180
+NdbColumnImpl::get_var_length, //0, //0, //jonas@perch.ndb.mysql.com, //, //20051107, //storage/ndb/src/ndbapi/NdbDictionaryImpl.hpp, //1080
+handler_close_thd, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20110916, //plugin/innodb_memcached/innodb_memcache/src/handler_api.cc, //331
+handler_thd_attach, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20120822, //plugin/innodb_memcached/innodb_memcache/src/handler_api.cc, //109
+handler_unlock_table, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20120201, //plugin/innodb_memcached/innodb_memcache/src/handler_api.cc, //345
+ThreadFunc, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/acid2.cpp, //508
+T3, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_user_transaction2.cpp, //201
+T3, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_user_transaction3.cpp, //201
+T3, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_user_transaction5.cpp, //205
+T3, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_user_transaction.cpp, //201
+T3, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_user_transaction2.cpp, //201
+T3, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_user_transaction.cpp, //201
+NDBT_Thread::set_output, //1, //1, //pekka@clam.ndb.mysql.com/clam.(none), //, //20070714, //storage/ndb/test/include/NDBT_Thread.hpp, //102
+maybeExtraBits, //0, //0, //Frazer Clement, //frazer.clement@oracle.com, //20110518, //storage/ndb/test/ndbapi/testRestartGci.cpp, //55
+T4_Callback_3, //2, //1, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/ndb_async2.cpp, //546
+inline_mysql_cond_register, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110418, //include/mysql/psi/mysql_thread.h, //1111
+inline_mysql_mutex_register, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110418, //include/mysql/psi/mysql_thread.h, //609
+inline_mysql_rwlock_register, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110418, //include/mysql/psi/mysql_thread.h, //793
+inline_mysql_thread_register, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110418, //include/mysql/psi/mysql_thread.h, //1253
+T5_Callback_3, //2, //1, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_async2.cpp, //1166
+T5_Callback_3, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_async1.cpp, //638
+T5_Callback_3, //2, //1, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/ndb_async2.cpp, //740
+sql_list_unittest::cmp_test, //0, //0, //Evgeny Potemkin, //evgeny.potemkin@oracle.com, //20110125, //unittest/gunit/sql_list-t.cc, //236
+Server_side_cursor::operator delete, //4, //1, //konstantin@mysql.com, //, //20050922, //sql/sql_cursor.cc, //182
+Ed_result_set::operator delete, //1, //1, //Konstantin Osipov, //kostja@sun.com, //20091022, //sql/sql_prepare.cc, //3969
+Protocol_local::store_column, //9, //1, //Konstantin Osipov, //kostja@sun.com, //20091022, //sql/sql_prepare.cc, //4256
+threadLoop, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/flexTT.cpp, //344
+threadLoop, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/flexAsynch.cpp, //430
+T5, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_user_transaction2.cpp, //622
+T5, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_user_transaction3.cpp, //602
+binlog_init, //0, //0, //He Zhenxing, //hezx@greatopensource.com, //20100622, //sql/binlog.cc, //786
+binlog_savepoint_rollback, //0, //0, //He Zhenxing, //hezx@greatopensource.com, //20100622, //sql/binlog.cc, //1635
+binlog_savepoint_set, //0, //0, //He Zhenxing, //hezx@greatopensource.com, //20100622, //sql/binlog.cc, //1601
+execute, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/transporter/basictest/basicTransporterTest.cpp, //317
+thread_main, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20120320, //storage/ndb/src/kernel/vm/mt-send-t.cpp, //236
+base_list::after, //1, //1, //bk@work.mysql.com, //, //20000731, //sql/sql_list.h, //370
+base_list::push_back, //2, //1, //bk@work.mysql.com, //, //20000731, //sql/sql_list.h, //185
+base_list::push_back, //2, //1, //monty@mysql.com, //, //20041109, //sql/sql_list.h, //195
+base_list::push_front, //1, //1, //bk@work.mysql.com, //, //20000731, //sql/sql_list.h, //205
+base_list_iterator::after, //1, //1, //bk@work.mysql.com, //, //20000731, //sql/sql_list.h, //452
+base_list_iterator::replace, //2, //1, //monty@tik.mysql.fi, //, //20010802, //sql/sql_list.h, //425
+list_node::list_node, //4, //1, //monty@tik.mysql.fi, //, //20010802, //sql/sql_list.h, //116
+T4, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_user_transaction3.cpp, //388
+row_merge_write, //5, //2, //marko, //, //20070608, //storage/innobase/row/row0merge.cc, //774
+mapSegment, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/portlib/munmaptest.cpp, //52
+unmapSegment, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/portlib/munmaptest.cpp, //122
+buffpek_compare, //0, //0, //monty@mysql.com/narttu.mysql.fi, //, //20070510, //sql/uniques.cc, //376
+merge_walk, //0, //0, //monty@mysql.com/narttu.mysql.fi, //, //20061130, //sql/uniques.cc, //420
+federated_db_init, //0, //0, //brian@zim.(none), //, //20060915, //storage/federated/ha_federated.cc, //466
+federated_done, //0, //0, //brian@zim.(none), //, //20061119, //storage/federated/ha_federated.cc, //514
+bka_range_seq_init, //0, //0, //Evgeny Potemkin, //evgeny.potemkin@oracle.com, //20100421, //sql/sql_join_buffer.cc, //2194
+bka_unique_range_seq_init, //0, //0, //Evgeny Potemkin, //evgeny.potemkin@oracle.com, //20100421, //sql/sql_join_buffer.cc, //3026
+T4_Callback_3, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_async1.cpp, //480
+table_host_cache::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110802, //storage/perfschema/table_host_cache.cc, //347
+row_ins_index_entry_big_rec_func, //2, //1, //Marko Mäkelä, //marko.makela@oracle.com, //20120308, //storage/innobase/row/row0ins.cc, //2792
+acquire_plugins, //0, //0, //Sergey Vojtovich, //sergey.vojtovich@oracle.com, //20091215, //sql/sql_audit.cc, //138
+calc_class_mask, //0, //0, //Sergey Vojtovich, //sergey.vojtovich@oracle.com, //20091215, //sql/sql_audit.cc, //382
+event_class_dispatch, //2, //2, //Sergey Vojtovich, //sergey.vojtovich@oracle.com, //20110603, //sql/sql_audit.cc, //468
+plugins_dispatch, //1, //1, //Sergey Vojtovich, //sergey.vojtovich@oracle.com, //20091215, //sql/sql_audit.cc, //441
+T5_Callback_1, //1, //1, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_async2.cpp, //999
+T5_Callback_1, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_async1.cpp, //548
+compare_double2, //0, //0, //sasha@mysql.sashanet.com, //, //20010510, //sql/sql_analyse.cc, //43
+compare_longlong2, //0, //0, //sasha@mysql.sashanet.com, //, //20010510, //sql/sql_analyse.cc, //49
+compare_ulonglong2, //0, //0, //sasha@mysql.sashanet.com, //, //20010510, //sql/sql_analyse.cc, //55
+sortcmp2, //0, //0, //sasha@mysql.sashanet.com, //, //20010510, //sql/sql_analyse.cc, //37
+fix_rpl_semi_sync_master_enabled, //0, //0, //He Zhenxing, //hezx@greatopensource.com, //20090926, //plugin/semisync/semisync_master_plugin.cc, //236
+fix_rpl_semi_sync_master_timeout, //0, //0, //He Zhenxing, //hezx@greatopensource.com, //20090926, //plugin/semisync/semisync_master_plugin.cc, //216
+fix_rpl_semi_sync_master_trace_level, //0, //0, //He Zhenxing, //hezx@greatopensource.com, //20090926, //plugin/semisync/semisync_master_plugin.cc, //226
+semi_sync_master_plugin_deinit, //0, //0, //He Zhenxing, //hezx@greatopensource.com, //20090926, //plugin/semisync/semisync_master_plugin.cc, //409
+semi_sync_master_plugin_init, //0, //0, //He Zhenxing, //hezx@greatopensource.com, //20090926, //plugin/semisync/semisync_master_plugin.cc, //392
+cmp_string, //0, //0, //Andrei Elkin, //andrei.elkin@oracle.com, //20110819, //sql/dynamic_ids.cc, //3
+cmp_ulong, //0, //0, //Andrei Elkin, //andrei.elkin@oracle.com, //20110819, //sql/dynamic_ids.cc, //8
+runWatchDog, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/kernel/vm/WatchDog.cpp, //35
+fini_one_value, //0, //0, //Davi Arnaut, //davi.arnaut@oracle.com, //20100610, //mysys_ssl/my_getopt.cc, //1296
+init_one_value, //0, //0, //Davi Arnaut, //davi.arnaut@oracle.com, //20100610, //mysys_ssl/my_getopt.cc, //1219
+setval, //2, //1, //Davi Arnaut, //davi.arnaut@oracle.com, //20100610, //mysys_ssl/my_getopt.cc, //726
+runAsyncIoThread, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20081202, //storage/ndb/src/kernel/blocks/ndbfs/AsyncIoThread.cpp, //52
+sort_ng, //0, //0, //jonas oreland, //jonas.oreland@oracle.com, //20111202, //storage/ndb/test/ndbapi/testMgm.cpp, //2724
+page_zip_free, //0, //0, //marko, //, //20060327, //storage/innobase/page/page0zip.cc, //735
+page_zip_zalloc, //0, //0, //Marko Mäkelä, //marko.makela@oracle.com, //20110315, //storage/innobase/page/page0zip.cc, //722
+Sys_var_struct::Sys_var_struct, //12, //1, //Sergei Golubchik, //serg@mysql.com, //20091222, //sql/sys_vars.h, //1599
+T3_Callback_3, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_async1.cpp, //317
+T3, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_user_transaction4.cpp, //205
+archive_db_init, //0, //0, //brian@zim.(none), //, //20060915, //storage/archive/ha_archive.cc, //196
+Field::operator delete, //0, //0, //Tor Didriksen, //tor.didriksen@oracle.com, //20111011, //sql/field.h, //477
+T2, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_user_transaction3.cpp, //118
+reportError, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/transporter/perftest/perfTransporterTest.cpp, //527
+CharsetMap::recode, //0, //0, //jonas oreland, //jonas.oreland@oracle.com, //20110913, //storage/ndb/src/common/util/CharsetMap.cpp, //108
+cmpkeys, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110606, //storage/ndb/test/ndbapi/testIndexStat.cpp, //629
+reportError, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/transporter/basictest/basicTransporterTest.cpp, //343
+T3, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_user_transaction5.cpp, //205
+table_setup_consumers::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/table_setup_consumers.cc, //166
+inline_mysql_socket_setsockopt, //2, //1, //Christopher Powers, //chris.powers@oracle.com, //20101207, //include/mysql/psi/mysql_socket.h, //941
+kill_server, //1, //1, //bk@work.mysql.com, //, //20000731, //sql/mysqld.cc, //1557
+kill_server_thread, //0, //0, //serg@serg.mylan, //, //20051008, //sql/mysqld.cc, //1622
+my_str_free_mysqld, //0, //0, //monty@mysql.com/nosik.monty.fi, //, //20070813, //sql/mysqld.cc, //3211
+my_str_realloc_mysqld, //0, //0, //Georgi Kodinov, //georgi.kodinov@oracle.com, //20120704, //sql/mysqld.cc, //3216
+net_after_header_psi, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20111101, //sql/mysqld.cc, //921
+net_before_header_psi, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20111101, //sql/mysqld.cc, //901
+signal_hand, //0, //0, //konstantin@mysql.com, //, //20051009, //sql/mysqld.cc, //3008
+runthread, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/testOIBasic.cpp, //5170
+blobReadHook, //0, //0, //pekka@mysql.com, //, //20040722, //storage/ndb/test/ndbapi/testBlobs.cpp, //1266
+blobWriteHook, //0, //0, //pekka@mysql.com, //, //20040722, //storage/ndb/test/ndbapi/testBlobs.cpp, //1235
+bugtest_27370_thread, //0, //0, //knielsen@ymer.(none), //, //20070424, //storage/ndb/test/ndbapi/testBlobs.cpp, //4652
+reportSendLen, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/transporter/basictest/basicTransporterTest.cpp, //357
+Sql_alloc::operator delete, //0, //0, //Martin Hansson, //martin.hansson@oracle.com, //20120525, //sql/sql_alloc.h, //42
+Sql_alloc::operator delete[], //0, //0, //Martin Hansson, //martin.hansson@oracle.com, //20120525, //sql/sql_alloc.h, //44
+Sql_alloc::operator delete[], //3, //1, //Martin Hansson, //martin.hansson@oracle.com, //20120525, //sql/sql_alloc.h, //46
+table_esgs_global_by_event_name::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110214, //storage/perfschema/table_esgs_global_by_event_name.cc, //143
+T1_Callback, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_async1.cpp, //109
+register_lock, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20081027, //storage/ndb/src/kernel/vm/mt.cpp, //5062
+register_lock, //2, //1, //Jonas Oreland, //jonas.oreland@oracle.com, //20120320, //storage/ndb/src/kernel/vm/mt-send-t.cpp, //544
+Dbtux::mt_buildIndexFragment_wrapper, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20091214, //storage/ndb/src/kernel/blocks/dbtux/DbtuxBuild.cpp, //37
+Dbtux_mt_buildIndexFragment_wrapper_C, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20091214, //storage/ndb/src/kernel/blocks/dbtux/DbtuxBuild.cpp, //31
+runthread, //0, //0, //pekka@mysql.com, //, //20040629, //storage/ndb/test/ndbapi/testDeadlock.cpp, //153
+Col::wellformed, //3, //1, //pekka@mysql.com, //, //20050107, //storage/ndb/test/ndbapi/testOIBasic.cpp, //719
+Con::setBound, //1, //1, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/testOIBasic.cpp, //1391
+Con::setFilter, //1, //1, //pekka@sama.ndb.mysql.com, //, //20080127, //storage/ndb/test/ndbapi/testOIBasic.cpp, //1415
+Val::copy, //2, //1, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/testOIBasic.cpp, //1864
+MYSQLlex, //0, //0, //Gleb Shchepa, //gleb.shchepa@oracle.com, //20130301, //sql/sql_lex.cc, //903
+lex_one_token, //2, //1, //Gleb Shchepa, //gleb.shchepa@oracle.com, //20130301, //sql/sql_lex.cc, //978
+pipeline_add_stats, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/ndb_pipeline.cc, //139
+eventOperation, //2, //2, //tomas@poseidon.ndb.mysql.com[tomas], //, //20050915, //storage/ndb/test/ndbapi/test_event.cpp, //186
+hash_free_sp_head, //0, //0, //monty@mysql.com/nosik.monty.fi, //, //20070813, //sql/sp_cache.cc, //271
+pfs_free, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/unittest/stub_print_error.h, //30
+producer_thread, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/unit/queue.cc, //103
+BackupConsumer::object, //0, //0, //jonas@perch.ndb.mysql.com, //, //20060111, //storage/ndb/tools/restore/consumer.hpp, //31
+table_setup_objects::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20100923, //storage/perfschema/table_setup_objects.cc, //206
+T4, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_user_transaction4.cpp, //390
+run_ndb_cluster_connection_connect_thread, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20101007, //storage/ndb/src/ndbapi/ndb_cluster_connection.cpp, //104
+table_socket_instances::rnd_pos, //0, //0, //Christopher Powers, //chris.powers@oracle.com, //20101207, //storage/perfschema/table_socket_instances.cc, //126
+NdbReceiver::init, //0, //0, //knielsen@ymer.(none), //, //20061213, //storage/ndb/src/ndbapi/NdbReceiver.cpp, //49
+ha_innobase::multi_range_read_info_const, //0, //0, //Vasil Dimov, //vasil.dimov@oracle.com, //20100824, //storage/innobase/handler/ha_innodb.cc, //16469
+createOSETransporter, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/transporter/basictest/basicTransporterTest.cpp, //408
+createSCITransporter, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/transporter/basictest/basicTransporterTest.cpp, //463
+createSHMTransporter, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/transporter/basictest/basicTransporterTest.cpp, //492
+createTCPTransporter, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/transporter/basictest/basicTransporterTest.cpp, //431
+table_esms_by_digest::rnd_pos, //0, //0, //Mayank Prasad, //mayank.prasad@oracle.com, //20110510, //storage/perfschema/table_esms_by_digest.cc, //253
+T2, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_user_transaction4.cpp, //120
+memcpy_atoi, //2, //1, //tomas@poseidon.ndb.mysql.com, //, //20050119, //storage/ndb/src/mgmapi/ndb_logevent.cpp, //455
+NdbSqlUtil::check_column_for_hash_index, //0, //0, //mskold@mysql.com, //, //20060420, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //913
+NdbSqlUtil::check_column_for_ordered_index, //0, //0, //mskold@mysql.com, //, //20060420, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //919
+NdbSqlUtil::check_column_for_pk, //0, //0, //mskold@mysql.com, //, //20060420, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //882
+NdbSqlUtil::cmpBigint, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //355
+NdbSqlUtil::cmpBigunsigned, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //369
+NdbSqlUtil::cmpBinary, //7, //1, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //488
+NdbSqlUtil::cmpBit, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //570
+NdbSqlUtil::cmpBlob, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //555
+NdbSqlUtil::cmpChar, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //459
+NdbSqlUtil::cmpDate, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //538
+NdbSqlUtil::cmpDatetime, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //524
+NdbSqlUtil::cmpDatetime2, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20120403, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //710
+NdbSqlUtil::cmpDecimal, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //447
+NdbSqlUtil::cmpDecimalunsigned, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //453
+NdbSqlUtil::cmpDouble, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //398
+NdbSqlUtil::cmpFloat, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //383
+NdbSqlUtil::cmpInt, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //327
+NdbSqlUtil::cmpLongvarbinary, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //662
+NdbSqlUtil::cmpLongvarchar, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //646
+NdbSqlUtil::cmpMediumint, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //297
+NdbSqlUtil::cmpMediumunsigned, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //312
+NdbSqlUtil::cmpOlddecimal, //1, //1, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //413
+NdbSqlUtil::cmpOlddecimalunsigned, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //441
+NdbSqlUtil::cmpSmallint, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //273
+NdbSqlUtil::cmpSmallunsigned, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //285
+NdbSqlUtil::cmpText, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //563
+NdbSqlUtil::cmpTime, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //624
+NdbSqlUtil::cmpTime2, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20120403, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //704
+NdbSqlUtil::cmpTimestamp, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //688
+NdbSqlUtil::cmpTimestamp2, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20120403, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //716
+NdbSqlUtil::cmpTinyint, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //249
+NdbSqlUtil::cmpTinyunsigned, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //261
+NdbSqlUtil::cmpUnsigned, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //341
+NdbSqlUtil::cmpVarbinary, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //510
+NdbSqlUtil::cmpVarchar, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //472
+NdbSqlUtil::cmpYear, //0, //0, //Pekka Nousiainen, //pekka.nousiainen@oracle.com, //20110504, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //676
+NdbSqlUtil::get_var_length, //0, //0, //pekka@mysql.com, //, //20050107, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //955
+NdbSqlUtil::likeBinary, //0, //0, //pekka@mysql.com, //, //20050221, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //740
+NdbSqlUtil::likeChar, //1, //1, //pekka@mysql.com, //, //20050217, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //728
+NdbSqlUtil::likeLongvarbinary, //0, //0, //pekka@mysql.com, //, //20050221, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //794
+NdbSqlUtil::likeLongvarchar, //1, //1, //pekka@mysql.com, //, //20050217, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //774
+NdbSqlUtil::likeVarbinary, //0, //0, //pekka@mysql.com, //, //20050221, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //767
+NdbSqlUtil::likeVarchar, //1, //1, //pekka@mysql.com, //, //20050217, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //747
+NdbSqlUtil::maskBit, //0, //0, //Frazer Clement, //frazer.clement@oracle.com, //20081209, //storage/ndb/src/common/util/NdbSqlUtil.cpp, //804
+inline_mysql_file_register, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110418, //include/mysql/psi/mysql_file.h, //512
+flexScanThread, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/flexScan.cpp, //599
+HashMap2::HashMap2, //0, //0, //Frazer Clement, //frazer.clement@oracle.com, //20110907, //storage/ndb/include/util/HashMap2.hpp, //175
+StandardAllocator::alloc, //0, //0, //Frazer Clement, //frazer.clement@oracle.com, //20110907, //storage/ndb/include/util/HashMap2.hpp, //88
+StandardAllocator::calloc, //0, //0, //Frazer Clement, //frazer.clement@oracle.com, //20110907, //storage/ndb/include/util/HashMap2.hpp, //93
+StandardAllocator::free, //0, //0, //Frazer Clement, //frazer.clement@oracle.com, //20110907, //storage/ndb/include/util/HashMap2.hpp, //98
+inline_mysql_socket_getsockopt, //0, //0, //Christopher Powers, //chris.powers@oracle.com, //20101207, //include/mysql/psi/mysql_socket.h, //903
+inline_mysql_socket_recv, //0, //0, //Christopher Powers, //chris.powers@oracle.com, //20101207, //include/mysql/psi/mysql_socket.h, //776
+inline_mysql_socket_recvfrom, //0, //0, //Christopher Powers, //chris.powers@oracle.com, //20101207, //include/mysql/psi/mysql_socket.h, //860
+inline_mysql_socket_send, //0, //0, //Christopher Powers, //chris.powers@oracle.com, //20101207, //include/mysql/psi/mysql_socket.h, //734
+inline_mysql_socket_sendto, //0, //0, //Christopher Powers, //chris.powers@oracle.com, //20101207, //include/mysql/psi/mysql_socket.h, //818
+table_tiws_by_index_usage::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20101209, //storage/perfschema/table_tiws_by_index_usage.cc, //314
+T5_Callback_2, //1, //1, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/ndb_async2.cpp, //656
+T5_Callback_2, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_async1.cpp, //570
+sync_array_reserve_cell, //4, //4, //osku, //, //20051027, //storage/innobase/sync/sync0arr.cc, //310
+ndbcluster_global_schema_func, //0, //0, //magnus.blaudd@oracle.com, //, //20110922, //sql/ndb_global_schema_lock.cc, //361
+Bug14645319_createTable, //0, //0, //Mauritz Sundell, //mauritz.sundell@oracle.com, //20120921, //storage/ndb/test/ndbapi/testDict.cpp, //9411
+os_aio_array_reserve_slot, //1, //1, //osku, //, //20051027, //storage/innobase/os/os0file.cc, //4206
+os_file_io, //2, //2, //Aditya A, //aditya.a@oracle.com, //20120827, //storage/innobase/os/os0file.cc, //2350
+os_file_pread, //2, //1, //osku, //, //20051027, //storage/innobase/os/os0file.cc, //2432
+os_file_pwrite, //1, //1, //osku, //, //20051027, //storage/innobase/os/os0file.cc, //2532
+event_thread_run, //0, //0, //stewart@mysql.com, //, //20060523, //storage/ndb/src/mgmclient/CommandInterpreter.cpp, //857
+sort_log, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20101013, //storage/ndb/src/mgmclient/CommandInterpreter.cpp, //2543
+NdbObjectIdMap::MapEntry::setObj, //0, //0, //Jan Wedvik, //jan.wedvik@oracle.com, //20110504, //storage/ndb/src/ndbapi/ObjectMap.hpp, //81
+NdbObjectIdMap::map, //0, //0, //Jan Wedvik, //jan.wedvik@oracle.com, //20110504, //storage/ndb/src/ndbapi/ObjectMap.hpp, //106
+NdbObjectIdMap::unmap, //0, //0, //Jan Wedvik, //jan.wedvik@oracle.com, //20110504, //storage/ndb/src/ndbapi/ObjectMap.hpp, //122
+my_setsockopt, //0, //0, //Magnus Blåudd, //magnus.blaudd@oracle.com, //20100413, //storage/ndb/include/portlib/ndb_socket_win32.h, //169
+ndb_base64_decode, //0, //0, //Magnus Blåudd, //magnus.blaudd@oracle.com, //20110328, //storage/ndb/include/util/ndb_base64.h, //33
+Item::operator delete, //0, //0, //konstantin@mysql.com, //, //20050215, //sql/item.h, //664
+Item::traverse_cond, //0, //0, //serg@serg.mylan, //, //20050302, //sql/item.h, //1390
+callback_close, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20111210, //storage/ndb/memcache/src/ndb_worker.cc, //857
+callback_main, //1, //1, //John David Duncan, //john.duncan@oracle.com, //20111129, //storage/ndb/memcache/src/ndb_worker.cc, //692
+a_callback, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20090406, //storage/ndb/test/ndbapi/testNdbApi.cpp, //2816
+testExecuteAsynchCallback, //0, //0, //knielsen@ymer.(none), //, //20070425, //storage/ndb/test/ndbapi/testNdbApi.cpp, //1763
+table_socket_summary_by_event_name::rnd_pos, //0, //0, //cpowers, //cpowers@TMA-1, //20110218, //storage/perfschema/table_socket_summary_by_event_name.cc, //217
+tina_check_status, //0, //0, //cps@outpost.site, //, //20060119, //storage/csv/ha_tina.cc, //858
+tina_done_func, //0, //0, //brian@zim.(none), //, //20060915, //storage/csv/ha_tina.cc, //164
+tina_get_status, //0, //0, //cps@outpost.site, //, //20060119, //storage/csv/ha_tina.cc, //845
+tina_init_func, //0, //0, //brian@zim.(none), //, //20060915, //storage/csv/ha_tina.cc, //144
+tina_update_status, //0, //0, //cps@outpost.site, //, //20060119, //storage/csv/ha_tina.cc, //851
+flexBenchThread, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/flexBench.cpp, //590
+fix_rpl_semi_sync_slave_enabled, //0, //0, //He Zhenxing, //hezx@greatopensource.com, //20090926, //plugin/semisync/semisync_slave_plugin.cc, //131
+fix_rpl_semi_sync_trace_level, //0, //0, //He Zhenxing, //hezx@greatopensource.com, //20090926, //plugin/semisync/semisync_slave_plugin.cc, //141
+semi_sync_slave_plugin_deinit, //0, //0, //He Zhenxing, //hezx@greatopensource.com, //20090926, //plugin/semisync/semisync_slave_plugin.cc, //200
+semi_sync_slave_plugin_init, //0, //0, //He Zhenxing, //hezx@greatopensource.com, //20090926, //plugin/semisync/semisync_slave_plugin.cc, //191
+HashMap::free_element, //0, //0, //Magnus Blåudd, //magnus.blaudd@oracle.com, //20090513, //storage/ndb/include/util/HashMap.hpp, //57
+HashMap__get_key, //0, //0, //Magnus Blåudd, //magnus.blaudd@oracle.com, //20090513, //storage/ndb/include/util/HashMap.hpp, //34
+T4_Callback_1, //1, //1, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_async2.cpp, //660
+BackupFile::buffer_get_ptr, //0, //0, //tomas@poseidon.bredbandsbolaget.se, //, //20040610, //storage/ndb/tools/restore/Restore.cpp, //1467
+BackupFile::buffer_get_ptr_ahead, //0, //0, //tomas@poseidon.bredbandsbolaget.se, //, //20040610, //storage/ndb/tools/restore/Restore.cpp, //1354
+BackupFile::buffer_read, //0, //0, //tomas@poseidon.bredbandsbolaget.se, //, //20040610, //storage/ndb/tools/restore/Restore.cpp, //1497
+BackupFile::buffer_read_ahead, //0, //0, //tomas@poseidon.bredbandsbolaget.se, //, //20040610, //storage/ndb/tools/restore/Restore.cpp, //1488
+TwiddleUtil::is_aligned, //2, //1, //Magnus Blåudd, //magnus.blaudd@oracle.com, //20090408, //storage/ndb/tools/restore/Restore.cpp, //104
+TwiddleUtil::twiddle_aligned, //1, //1, //Magnus Blåudd, //magnus.blaudd@oracle.com, //20090408, //storage/ndb/tools/restore/Restore.cpp, //126
+READ_INFO::set_io_cache_arg, //1, //1, //sasha@mysql.sashanet.com, //, //20010803, //sql/sql_load.cc, //120
+table_esgs_by_thread_by_event_name::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110214, //storage/perfschema/table_esgs_by_thread_by_event_name.cc, //152
+String::operator delete, //0, //0, //monty@mysql.com, //, //20041022, //sql/sql_string.h, //181
+executeCallback, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/flexAsynch.cpp, //720
+flexHammerThread, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/flexHammer.cpp, //335
+insert_group, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/ndb_user_populate.cpp, //127
+insert_server, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/ndb_user_populate.cpp, //81
+insert_subscriber, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/ndb_user_populate.cpp, //31
+table_tiws_by_table::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20101209, //storage/perfschema/table_tiws_by_table.cc, //298
+destroy_pfs_thread, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/pfs_server.cc, //146
+NdbOperation::setCustomData, //0, //0, //tomas@whalegate.ndb.mysql.com, //, //20071014, //storage/ndb/include/ndbapi/NdbOperation.hpp, //1122
+my_getsockopt, //0, //0, //Magnus Blåudd, //magnus.blaudd@oracle.com, //20100413, //storage/ndb/include/portlib/ndb_socket_win32.h, //162
+T5, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_user_transaction5.cpp, //591
+T5, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_user_transaction.cpp, //622
+T5_Callback_1, //1, //1, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/ndb_async2.cpp, //623
+cmp_logused, //0, //0, //Frazer Clement, //frazer.clement@oracle.com, //20120813, //storage/ndb/test/ndbapi/testRedo.cpp, //841
+callback_incr, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20111129, //storage/ndb/memcache/src/ndb_worker.cc, //767
+run_start_clients_C, //0, //0, //tomas@poseidon.bredbandsbolaget.se, //, //20040623, //storage/ndb/src/common/transporter/TransporterRegistry.cpp, //1654
+pfs_free, //41, //30, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/pfs_global.cc, //89
+pfs_end_file_open_wait_v1, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20130116, //storage/perfschema/pfs.cc, //3988
+pfs_end_statement_v1, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20130116, //storage/perfschema/pfs.cc, //4807
+pfs_get_thread_file_name_locker_v1, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20130116, //storage/perfschema/pfs.cc, //2837
+pfs_get_thread_statement_locker_v1, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20130116, //storage/perfschema/pfs.cc, //4440
+pfs_init_cond_v1, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20130116, //storage/perfschema/pfs.cc, //1606
+pfs_init_mutex_v1, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20130116, //storage/perfschema/pfs.cc, //1560
+pfs_init_rwlock_v1, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20130116, //storage/perfschema/pfs.cc, //1583
+pfs_new_thread_v1, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20130116, //storage/perfschema/pfs.cc, //1960
+pfs_open_table_v1, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20130116, //storage/perfschema/pfs.cc, //1682
+pfs_rebind_table_v1, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20130116, //storage/perfschema/pfs.cc, //1731
+pfs_set_thread_connect_attrs_v1, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20130116, //storage/perfschema/pfs.cc, //5162
+pfs_spawn_thread, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20100111, //storage/perfschema/pfs.cc, //1875
+pfs_spawn_thread_v1, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20130116, //storage/perfschema/pfs.cc, //1931
+DsMrr_impl::dsmrr_init, //0, //0, //Evgeny Potemkin, //evgeny.potemkin@oracle.com, //20100422, //sql/handler.cc, //5929
+myisammrg_attach_children_callback, //0, //0, //Davi Arnaut, //davi.arnaut@oracle.com, //20100531, //storage/myisammrg/ha_myisammrg.cc, //616
+myisammrg_parent_open_callback, //0, //0, //Davi Arnaut, //davi.arnaut@oracle.com, //20100531, //storage/myisammrg/ha_myisammrg.cc, //233
+myisammrg_init, //0, //0, //brian@zim.(none), //, //20060915, //storage/myisammrg/ha_myisammrg.cc, //1653
+test2func, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/portlib/NdbPortLibTest.cpp, //66
+testTryLockfunc, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/portlib/NdbPortLibTest.cpp, //131
+testfunc, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/portlib/NdbPortLibTest.cpp, //92
+thread1func, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/portlib/NdbPortLibTest.cpp, //48
+handle_default_option, //0, //0, //cps@silver_beast.(none), //, //20040830, //mysys_ssl/my_default.cc, //458
+search_default_file, //2, //2, //monty@mysql.com, //, //20041112, //mysys_ssl/my_default.cc, //756
+search_default_file_with_ext, //5, //4, //monty@mysql.com, //, //20041112, //mysys_ssl/my_default.cc, //850
+Observer_info::Observer_info, //1, //1, //He Zhenxing, //hezx@greatopensource.com, //20090926, //sql/rpl_handler.h, //32
+QUICK_ROR_UNION_SELECT_queue_cmp, //0, //0, //Davi Arnaut, //davi.arnaut@oracle.com, //20100531, //sql/opt_range.cc, //1784
+TABLE_READ_PLAN::operator delete, //0, //0, //serg@serg.mylan, //, //20041128, //sql/opt_range.cc, //2146
+TABLE_READ_PLAN::operator delete, //0, //0, //jimw@mysql.com, //, //20050318, //sql/opt_range.cc, //2147
+sel_arg_range_seq_init, //0, //0, //Evgeny Potemkin, //evgeny.potemkin@oracle.com, //20100405, //sql/opt_range.cc, //8965
+T5, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_user_transaction4.cpp, //592
+sync_array_print_long_waits, //1, //1, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20110412, //storage/innobase/sync/sync0arr.cc, //965
+reportDisconnect, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/transporter/perftest/perfTransporterTest.cpp, //593
+reportDisconnect, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/transporter/basictest/basicTransporterTest.cpp, //390
+T3_Callback_1, //1, //1, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/ndb_async2.cpp, //249
+table_esms_by_host_by_event_name::rnd_pos, //0, //0, //Marc Alff, //marc.alff@oracle.com, //20110506, //storage/perfschema/table_esms_by_host_by_event_name.cc, //245
+heap_init, //0, //0, //brian@zim.(none), //, //20060915, //storage/heap/ha_heap.cc, //40
+print_data_page, //0, //0, //jonas@perch.ndb.mysql.com, //, //20051107, //storage/ndb/src/kernel/blocks/print_file.cpp, //217
+print_extent_page, //0, //0, //jonas@perch.ndb.mysql.com, //, //20051107, //storage/ndb/src/kernel/blocks/print_file.cpp, //186
+print_undo_page, //0, //0, //jonas@perch.ndb.mysql.com, //, //20051107, //storage/ndb/src/kernel/blocks/print_file.cpp, //254
+print_zero_page, //0, //0, //jonas@perch.ndb.mysql.com, //, //20051107, //storage/ndb/src/kernel/blocks/print_file.cpp, //108
+dth_decode_bigint, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //785
+dth_decode_char, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //491
+dth_decode_date, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //936
+dth_decode_datetime, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //1018
+dth_decode_decimal, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //1110
+dth_decode_double, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //1081
+dth_decode_enum, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //825
+dth_decode_float, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //1065
+dth_decode_int, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //745
+dth_decode_longvarchar, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //453
+dth_decode_medium_unsigned, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //698
+dth_decode_mediumint, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //649
+dth_decode_small_unsigned, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //629
+dth_decode_smallint, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //608
+dth_decode_time, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //981
+dth_decode_tiny_unsigned, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //586
+dth_decode_tinyint, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //565
+dth_decode_ubigint, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //805
+dth_decode_unsigned, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //765
+dth_decode_unsupported, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //401
+dth_decode_varchar, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //418
+dth_decode_year, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //844
+dth_encode_bigint, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110923, //storage/ndb/memcache/src/DataTypeHandler.cc, //791
+dth_encode_char, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110923, //storage/ndb/memcache/src/DataTypeHandler.cc, //501
+dth_encode_date, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //955
+dth_encode_datetime, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //1040
+dth_encode_decimal, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110923, //storage/ndb/memcache/src/DataTypeHandler.cc, //1124
+dth_encode_enum, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110923, //storage/ndb/memcache/src/DataTypeHandler.cc, //835
+dth_encode_int, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110923, //storage/ndb/memcache/src/DataTypeHandler.cc, //751
+dth_encode_longvarchar, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110923, //storage/ndb/memcache/src/DataTypeHandler.cc, //468
+dth_encode_medium_unsigned, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //713
+dth_encode_mediumint, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110923, //storage/ndb/memcache/src/DataTypeHandler.cc, //664
+dth_encode_small_unsigned, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110923, //storage/ndb/memcache/src/DataTypeHandler.cc, //635
+dth_encode_smallint, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110923, //storage/ndb/memcache/src/DataTypeHandler.cc, //614
+dth_encode_time, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //1000
+dth_encode_tiny_unsigned, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //592
+dth_encode_tinyint, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110923, //storage/ndb/memcache/src/DataTypeHandler.cc, //571
+dth_encode_ubigint, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110923, //storage/ndb/memcache/src/DataTypeHandler.cc, //811
+dth_encode_unsigned, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110923, //storage/ndb/memcache/src/DataTypeHandler.cc, //771
+dth_encode_unsupported, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110923, //storage/ndb/memcache/src/DataTypeHandler.cc, //410
+dth_encode_varchar, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //433
+dth_encode_year, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //854
+dth_length_char, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //497
+dth_length_date, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //951
+dth_length_datetime, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //1036
+dth_length_decimal, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //1119
+dth_length_double, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //1087
+dth_length_enum, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //831
+dth_length_float, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //1073
+dth_length_longvarchar, //1, //1, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //460
+dth_length_medium_unsigned, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //705
+dth_length_mediumint, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //656
+dth_length_time, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //996
+dth_length_unsupported, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //406
+dth_length_varchar, //1, //1, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //426
+dth_length_year, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //850
+dth_read32_medium, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //683
+dth_read32_medium_unsigned, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //730
+dth_read32_year, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110912, //storage/ndb/memcache/src/DataTypeHandler.cc, //868
+dth_write32_medium, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110925, //storage/ndb/memcache/src/DataTypeHandler.cc, //688
+dth_write32_medium_unsigned, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110925, //storage/ndb/memcache/src/DataTypeHandler.cc, //735
+dth_write32_year, //0, //0, //John David Duncan, //john.duncan@oracle.com, //20110925, //storage/ndb/memcache/src/DataTypeHandler.cc, //874
+Log_event::operator delete, //0, //0, //mats@mysql.com, //, //20060216, //sql/log_event.h, //1283
+Log_event::operator new, //0, //0, //mats@mysql.com, //, //20060216, //sql/log_event.h, //1282
+T5_Callback_1, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_async1.cpp, //548
+T2, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_user_transaction5.cpp, //120
+ha_innobase::multi_range_read_init, //0, //0, //Vasil Dimov, //vasil.dimov@oracle.com, //20100824, //storage/innobase/handler/ha_innodb.cc, //16450
+buffer_pool_dump_now, //0, //0, //Vasil Dimov, //vasil.dimov@oracle.com, //20110623, //storage/innobase/handler/ha_innodb.cc, //15369
+buffer_pool_load_abort, //0, //0, //Vasil Dimov, //vasil.dimov@oracle.com, //20110623, //storage/innobase/handler/ha_innodb.cc, //15415
+buffer_pool_load_now, //0, //0, //Vasil Dimov, //vasil.dimov@oracle.com, //20110623, //storage/innobase/handler/ha_innodb.cc, //15392
+innobase_close_cursor_view, //0, //0, //osku, //, //20051027, //storage/innobase/handler/ha_innodb.cc, //13634
+innobase_commit_concurrency_validate, //0, //0, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20101027, //storage/innobase/handler/ha_innodb.cc, //991
+innobase_convert_string, //1, //1, //marko, //, //20060511, //storage/innobase/handler/ha_innodb.cc, //1822
+innobase_init, //0, //0, //marko, //, //20070514, //storage/innobase/handler/ha_innodb.cc, //2772
+innobase_release_savepoint, //0, //0, //osku, //, //20051027, //storage/innobase/handler/ha_innodb.cc, //3675
+innobase_rollback_to_savepoint, //0, //0, //osku, //, //20051027, //storage/innobase/handler/ha_innodb.cc, //3624
+innobase_savepoint, //0, //0, //osku, //, //20051027, //storage/innobase/handler/ha_innodb.cc, //3710
+innobase_set_cursor_view, //0, //0, //osku, //, //20051027, //storage/innobase/handler/ha_innodb.cc, //13653
+innodb_adaptive_hash_index_update, //0, //0, //marko, //, //20090130, //storage/innobase/handler/ha_innodb.cc, //14255
+innodb_change_buffer_max_size_update, //0, //0, //Inaam Rana, //inaam.rana@oracle.com, //20110210, //storage/innobase/handler/ha_innodb.cc, //14320
+innodb_change_buffering_update, //0, //0, //marko, //, //20090128, //storage/innobase/handler/ha_innodb.cc, //14413
+innodb_change_buffering_validate, //0, //0, //marko, //, //20090128, //storage/innobase/handler/ha_innodb.cc, //14370
+innodb_cmp_per_index_update, //0, //0, //Vasil Dimov, //vasil.dimov@oracle.com, //20120720, //storage/innobase/handler/ha_innodb.cc, //14277
+innodb_disable_monitor_update, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100902, //storage/innobase/handler/ha_innodb.cc, //15009
+innodb_enable_monitor_update, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100902, //storage/innobase/handler/ha_innodb.cc, //14991
+innodb_file_format_max_update, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100617, //storage/innobase/handler/ha_innodb.cc, //14039
+innodb_file_format_max_validate, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100617, //storage/innobase/handler/ha_innodb.cc, //13985
+innodb_file_format_name_update, //0, //0, //inaam, //, //20080514, //storage/innobase/handler/ha_innodb.cc, //13948
+innodb_file_format_name_validate, //0, //0, //inaam, //, //20080514, //storage/innobase/handler/ha_innodb.cc, //13904
+innodb_internal_table_update, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20101223, //storage/innobase/handler/ha_innodb.cc, //14218
+innodb_internal_table_validate, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20101223, //storage/innobase/handler/ha_innodb.cc, //14172
+innodb_io_capacity_max_update, //0, //0, //Inaam Rana, //inaam.rana@oracle.com, //20120813, //storage/innobase/handler/ha_innodb.cc, //13708
+innodb_io_capacity_update, //0, //0, //Inaam Rana, //inaam.rana@oracle.com, //20120529, //storage/innobase/handler/ha_innodb.cc, //13739
+innodb_max_dirty_pages_pct_lwm_update, //0, //0, //Inaam Rana, //inaam.rana@oracle.com, //20120529, //storage/innobase/handler/ha_innodb.cc, //13804
+innodb_max_dirty_pages_pct_update, //0, //0, //Inaam Rana, //inaam.rana@oracle.com, //20120529, //storage/innobase/handler/ha_innodb.cc, //13770
+innodb_monitor_update, //5, //2, //Jimmy Yang, //jimmy.yang@oracle.com, //20100609, //storage/innobase/handler/ha_innodb.cc, //14761
+innodb_monitor_valid_byname, //2, //2, //Jimmy Yang, //jimmy.yang@oracle.com, //20100609, //storage/innobase/handler/ha_innodb.cc, //14647
+innodb_monitor_validate, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100609, //storage/innobase/handler/ha_innodb.cc, //14710
+innodb_old_blocks_pct_update, //0, //0, //inaam, //, //20090928, //storage/innobase/handler/ha_innodb.cc, //14301
+innodb_reset_all_monitor_update, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100902, //storage/innobase/handler/ha_innodb.cc, //15047
+innodb_reset_monitor_update, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100902, //storage/innobase/handler/ha_innodb.cc, //15028
+innodb_stats_sample_pages_update, //0, //0, //Vasil Dimov, //vasil.dimov@oracle.com, //20110803, //storage/innobase/handler/ha_innodb.cc, //14443
+innodb_stopword_table_update, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/handler/ha_innodb.cc, //14134
+innodb_stopword_table_validate, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/handler/ha_innodb.cc, //14091
+threadRoutine, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/mainAsyncGenerator.cpp, //261
+T3, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_user_transaction4.cpp, //205
+MDL_request::operator delete, //0, //0, //Dmitry Lenev, //Dmitry.Lenev@oracle.com, //20100525, //sql/mdl.h, //443
+reportConnect, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/transporter/basictest/basicTransporterTest.cpp, //377
+T1, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_user_transaction4.cpp, //46
+T4_Callback_3, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_async1.cpp, //480
+String::operator delete, //0, //0, //Davi Arnaut, //davi.arnaut@oracle.com, //20101019, //sql/sql_string.h, //187
+reportReceiveLen, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/src/common/transporter/basictest/basicTransporterTest.cpp, //367
+ftsparse, //1, //1, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0pars.cc, //1108
+T1_Callback, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_async1.cpp, //109
+recv_writer_thread, //0, //0, //Inaam Rana, //inaam.rana@oracle.com, //20121112, //storage/innobase/log/log0recv.cc, //314
+fts_fetch_doc_ids, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0opt.cc, //919
+fts_fetch_index_words, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0opt.cc, //663
+fts_optimize_create_msg, //4, //2, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0opt.cc, //2522
+fts_optimize_thread, //0, //0, //Jimmy Yang, //jimmy.yang@oracle.com, //20100920, //storage/innobase/fts/fts0opt.cc, //2912
+T4_Callback_2, //1, //1, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_async2.cpp, //714
+T4_Callback_2, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_async1.cpp, //410
+flexBenchThread, //0, //0, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/flex_bench_mysql.cpp, //666
+T1_Callback, //1, //1, //magnus@neptunus.(none), //, //20040414, //storage/ndb/test/ndbapi/ndb_async2.cpp, //105
+T4_Callback_1, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_async1.cpp, //387
+mt_job_thread_main, //0, //0, //jonas@perch.ndb.mysql.com, //, //20080101, //storage/ndb/src/kernel/vm/mt.cpp, //3738
+mt_receiver_thread_main, //0, //0, //jonas@perch.ndb.mysql.com, //, //20080101, //storage/ndb/src/kernel/vm/mt.cpp, //3553
+mt_send_thread_main, //0, //0, //mikael.ronstrom@oracle.com, //, //20120125, //storage/ndb/src/kernel/vm/mt.cpp, //1203
+rand_yield, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20081007, //storage/ndb/src/kernel/vm/mt.cpp, //2149
+T3_Callback_1, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/ndb_async1.cpp, //237
+binlog_func_list, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/handler.cc, //5400
+binlog_log_query_handlerton, //0, //0, //tomas@poseidon.ndb.mysql.com, //, //20060206, //sql/handler.cc, //5483
+binlog_log_query_handlerton2, //2, //2, //tomas@poseidon.ndb.mysql.com, //, //20060206, //sql/handler.cc, //5468
+check_engine_system_table_handlerton, //0, //0, //gopal.shankar@oracle.com, //, //20120411, //sql/handler.cc, //4995
+closecon_handlerton, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/handler.cc, //831
+discover_handlerton, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/handler.cc, //5215
+dropdb_handlerton, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/handler.cc, //815
+exts_handlerton, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/handler.cc, //6874
+find_files_handlerton, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/handler.cc, //5264
+flush_handlerton, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/handler.cc, //2216
+make_pushed_join_handlerton, //0, //0, //Ole John Aske, //ole.john.aske@oracle.com, //20120522, //sql/handler.cc, //5350
+rowid_cmp, //0, //0, //Evgeny Potemkin, //evgeny.potemkin@oracle.com, //20100405, //sql/handler.cc, //6156
+showstat_handlerton, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/handler.cc, //6948
+snapshot_handlerton, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/handler.cc, //2185
+system_databases_handlerton, //0, //0, //gopal.shankar@oracle.com, //, //20120411, //sql/handler.cc, //5090
+table_exists_in_engine_handlerton, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/handler.cc, //5311
+xacommit_handlerton, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/handler.cc, //1634
+xarecover_handlerton, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/handler.cc, //1769
+xarollback_handlerton, //0, //0, //antony@ppcg5.local, //, //20070302, //sql/handler.cc, //1646
+daemon_example_plugin_deinit, //0, //0, //brian@zim.(none), //, //20070125, //plugin/daemon_example/daemon_example.cc, //152
+daemon_example_plugin_init, //0, //0, //brian@zim.(none), //, //20070125, //plugin/daemon_example/daemon_example.cc, //86
+mysql_heartbeat, //0, //0, //brian@zim.(none), //, //20070125, //plugin/daemon_example/daemon_example.cc, //44
+sync_array_print_long_waits_low, //1, //1, //Sunny Bains, //Sunny.Bains@Oracle.Com, //20110412, //storage/innobase/sync/sync0arr.cc, //891
+item_sum_distinct_walk, //0, //0, //Georgi Kodinov, //georgi.kodinov@oracle.com, //20090928, //sql/item_sum.cc, //750
+simple_raw_key_cmp, //0, //0, //Guilhem Bichot, //guilhem.bichot@oracle.com, //20110309, //sql/item_sum.cc, //743
+simple_str_key_cmp, //0, //0, //Georgi Kodinov, //georgi.kodinov@oracle.com, //20090928, //sql/item_sum.cc, //669
+g_create_hook, //0, //0, //jonas@perch.ndb.mysql.com, //, //20051107, //storage/ndb/test/ndbapi/create_tab.cpp, //31
+handle_manager, //0, //0, //serg@serg.mylan, //, //20051008, //sql/sql_manager.cc, //67
+cmp_chunk, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20101220, //storage/ndb/src/kernel/vm/ndbd_malloc_impl.cpp, //336
+do_malloc, //0, //0, //Jonas Oreland, //jonas.oreland@oracle.com, //20101220, //storage/ndb/src/kernel/vm/ndbd_malloc_impl.cpp, //77
+T3_Callback_2, //0, //0, //joreland@mysql.com, //, //20050210, //storage/ndb/test/ndbapi/bench/ndb_async1.cpp, //258
+

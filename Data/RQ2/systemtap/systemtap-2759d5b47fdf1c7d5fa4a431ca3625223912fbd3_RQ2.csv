@@ -1,0 +1,63 @@
+function template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+hex_dump, //1, //1, //Chris Meek, //cmeek@redhat.com, //20110804, //util.h, //149
+lex_cast, //111, //18, //Josh Stone, //jistone@redhat.com, //20090902, //util.h, //97
+stap_hash::add, //12, //1, //Frank Ch. Eigler, //fche@redhat.com, //20120815, //hash.cxx, //79
+delete_map, //3, //2, //Josh Stone, //jistone@redhat.com, //20090909, //util.h, //212
+set_dlsym, //0, //0, //Josh Stone, //jistone@redhat.com, //20121016, //stapdyn/dynutil.h, //36
+update_visitor::provide, //137, //1, //Josh Stone, //jistone@redhat.com, //20090803, //staptree.h, //985
+update_visitor::replace, //102, //1, //Josh Stone, //jistone@redhat.com, //20090803, //staptree.h, //990
+update_visitor::require, //7, //1, //Josh Stone, //jistone@redhat.com, //20090803, //staptree.h, //965
+re2c::replaceParam, //5, //1, //Serguei Makarov, //smakarov@redhat.com, //20121106, //re2c-migrate/re2c-emit.cxx, //192
+lex_cast, //23, //4, //Josh Stone, //jistone@redhat.com, //20090902, //util.h, //107
+lex_cast_hex, //3, //1, //Frank Ch. Eigler, //fche@redhat.com, //20061108, //util.h, //138
+lex_cast_qstring, //23, //6, //Frank Ch. Eigler, //fche@redhat.com, //20061108, //util.h, //170
+deep_copy_visitor::deep_copy, //6, //1, //Josh Stone, //jistone@redhat.com, //20090803, //staptree.h, //1050
+resolve_2types, //4, //1, //Frank Ch. Eigler, //fche@redhat.com, //20050521, //elaborate.cxx, //4518
+eval_comparison, //5, //2, //Frank Ch. Eigler, //fche@redhat.com, //20080610, //parse.cxx, //327
+
+generic function-like macro, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+_F, //389, //49, //Lukas Berk, //lberk@redhat.com, //20110318, //util.h, //40
+_F, //49, //13, //Lukas Berk, //lberk@redhat.com, //20110408, //nsscommon.h, //32
+_NF, //8, //6, //Lukas Berk, //lberk@redhat.com, //20110318, //util.h, //41
+DRI, //190, //2, //Frank Ch. Eigler, //fche@redhat.com, //20110119, //tapsets.cxx, //5443
+
+function implemented with void*, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+query_module, //0, //0, //Jim Keniston, //jkenisto@us.ibm.com, //20080418, //tapsets.cxx, //2034
+internal_find_debuginfo, //0, //0, //Chris Meek, //cmeek@redhat.com, //20110804, //setupdwfl.cxx, //569
+get_dlsym, //1, //1, //Josh Stone, //jistone@redhat.com, //20121016, //stapdyn/dynutil.cxx, //171
+nssPasswordCallback, //0, //0, //Dave Brolley, //brolley@redhat.com, //20110510, //nsscommon.cxx, //248
+auto_free::auto_free, //2, //1, //Tim Moore, //timoore@redhat.com, //20080624, //auto_free.h, //18
+add_unwindsym_iol_callback, //0, //0, //Stan Cox, //scox@redhat.com, //20110506, //translate.cxx, //6419
+create_debug_frame_hdr, //0, //0, //Mark Wielaard, //mjw@redhat.com, //20100528, //translate.cxx, //5450
+dump_unwindsym_cxt_table, //4, //2, //Josh Stone, //jistone@redhat.com, //20130218, //translate.cxx, //6054
+dump_unwindsyms, //0, //0, //Mark Wielaard, //mjw@redhat.com, //20111012, //translate.cxx, //6339
+get_unwind_data, //0, //0, //Mark Wielaard, //mjw@redhat.com, //20090520, //translate.cxx, //5560
+hash_ptr, //0, //0, //Josh Stone, //jistone@redhat.com, //20120806, //runtime/dyninst/linux_hash.h, //66
+sdt_benchmark_thread, //0, //0, //Josh Stone, //jistone@redhat.com, //20130311, //main.cxx, //298
+proc_create_data, //0, //0, //David Smith, //dsmith@redhat.com, //20130514, //runtime/proc_fs_compatibility.h, //63
+find_dynprobes, //1, //1, //Josh Stone, //jistone@redhat.com, //20121016, //stapdyn/dynprobe.cxx, //23
+__put_user_fn, //0, //0, //David Smith, //dsmith@redhat.com, //20120910, //runtime/dyninst/linux_defs.h, //221
+guess_dyninst_rt_callback, //0, //0, //Josh Stone, //jistone@redhat.com, //20120727, //stapdyn/dynutil.cxx, //33
+base_query::query_library_callback, //0, //0, //Stan Cox, //scox@redhat.com, //20110330, //tapsets.cxx, //2132
+base_query::query_plt_callback, //0, //0, //Stan Cox, //scox@redhat.com, //20110916, //tapsets.cxx, //2189
+dwarf_atvar_query::atvar_query_cu, //0, //0, //Yichun Zhang (agentzh), //agentzh@gmail.com, //20130614, //tapsets.cxx, //4162
+query_cu, //0, //0, //Graydon Hoare, //, //20050621, //tapsets.cxx, //1786
+query_dwarf_inline_instance, //0, //0, //Frank Ch. Eigler, //fche@redhat.com, //20050825, //tapsets.cxx, //1683
+query_srcfile_label, //0, //0, //Stan Cox, //scox@redhat.com, //20090416, //tapsets.cxx, //1595
+query_srcfile_line, //0, //0, //Tim Moore, //timoore@redhat.com, //20080611, //tapsets.cxx, //1615
+sdt_query::setup_note_probe_entry_callback, //0, //0, //Stan Cox, //scox@redhat.com, //20100914, //tapsets.cxx, //6423
+tracepoint_query::tracepoint_query_cu, //0, //0, //Josh Stone, //jistone@redhat.com, //20090304, //tapsets.cxx, //9902
+query_module, //0, //0, //Stan Cox, //scox@redhat.com, //20110506, //translate.cxx, //6427
+__get_user_fn, //0, //0, //Josh Stone, //jistone@redhat.com, //20120806, //runtime/dyninst/linux_defs.h, //174
+dwarf_assert, //1, //1, //Josh Stone, //jistone@redhat.com, //20100817, //dwarf_wrappers.h, //55
+dwfl_assert, //0, //0, //Josh Stone, //jistone@redhat.com, //20100817, //dwarf_wrappers.h, //36
+offptr_set, //6, //1, //Josh Stone, //jistone@redhat.com, //20121107, //runtime/dyninst/offptr.h, //71
+handle_connection, //0, //0, //Chris Meek, //cmeek@redhat.com, //20120207, //stap-serverd.cxx, //1386
+__access_process_vm, //0, //0, //Stan Cox, //scox@redhat.com, //20100114, //runtime/linux/access_process_vm.h, //81
+__access_process_vm_, //2, //1, //Stan Cox, //scox@redhat.com, //20100113, //runtime/linux/access_process_vm.h, //10
+__access_process_vm_noflush, //0, //0, //Stan Cox, //scox@redhat.com, //20100114, //runtime/linux/access_process_vm.h, //106
+copy_from_user_page_, //0, //0, //Stan Cox, //scox@redhat.com, //20100114, //runtime/linux/access_process_vm.h, //74
+copy_from_user_page_noflush, //0, //0, //Stan Cox, //scox@redhat.com, //20100114, //runtime/linux/access_process_vm.h, //98
+copy_to_user_page_, //0, //0, //Stan Cox, //scox@redhat.com, //20100114, //runtime/linux/access_process_vm.h, //67
+copy_to_user_page_noflush, //0, //0, //Stan Cox, //scox@redhat.com, //20100114, //runtime/linux/access_process_vm.h, //91
+

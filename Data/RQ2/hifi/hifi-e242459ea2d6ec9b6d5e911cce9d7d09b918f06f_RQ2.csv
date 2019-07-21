@@ -1,0 +1,166 @@
+function template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+gpu::Backend::getGPUObject, //1, //1, //Sam Gateau, //sam@highfidelity.io, //20141028, //libraries/gpu/src/gpu/Context.h, //36
+gpu::Backend::setGPUObject, //1, //1, //Sam Gateau, //sam@highfidelity.io, //20141028, //libraries/gpu/src/gpu/Context.h, //32
+radix2InplaceSort, //1, //1, //tosh, //tosh@monster.hlan, //20130324, //libraries/shared/src/Radix2InplaceSort.h, //90
+JSONWriter::getData, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140615, //libraries/metavoxels/src/Bitstream.h, //985
+JSONWriter::getData, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140615, //libraries/metavoxels/src/Bitstream.h, //977
+AttributeValue::getInlineValue, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131211, //libraries/metavoxels/src/AttributeRegistry.h, //148
+AttributeValue::setInlineValue, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131211, //libraries/metavoxels/src/AttributeRegistry.h, //147
+decodeInline, //9, //1, //Andrzej Kapolka, //drzej.k@gmail.com, //20131211, //libraries/metavoxels/src/AttributeRegistry.h, //133
+encodeInline, //2, //1, //Andrzej Kapolka, //drzej.k@gmail.com, //20131211, //libraries/metavoxels/src/AttributeRegistry.h, //128
+TextureParam::assign, //0, //0, //Sam Gateau, //sam@highfidelity.io, //20141121, //libraries/fbx/src/FBXReader.cpp, //53
+readBinaryArray, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20141210, //libraries/fbx/src/FBXReader.cpp, //149
+streamSize, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20141210, //libraries/fbx/src/FBXReader.cpp, //145
+angleConvert, //2, //1, //tosh, //tosh@monster.hlan, //20130404, //libraries/shared/src/AngleUtil.h, //42
+angleHorizontalPolar, //2, //1, //tosh, //tosh@monster.hlan, //20130404, //libraries/shared/src/AngleUtil.h, //85
+JSONWriter::operator<<, //2, //1, //Andrzej Kapolka, //drzej.k@gmail.com, //20140615, //libraries/metavoxels/src/Bitstream.h, //937
+operator<<, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20140605, //libraries/shared/src/ByteCountCoding.h, //50
+operator>>, //1, //1, //ZappoMan, //bradh@konamoxt.com, //20140605, //libraries/shared/src/ByteCountCoding.h, //54
+AudioFrameBuffer::copyFrames, //2, //1, //Craig Hansen-Sturm, //chansensturm@comcast.net, //20140920, //libraries/audio/src/AudioBuffer.h, //142
+operator<<, //1, //1, //ZappoMan, //bradh@konamoxt.com, //20140604, //libraries/shared/src/PropertyFlags.h, //118
+operator<<, //42, //1, //ZappoMan, //bradh@konamoxt.com, //20140604, //libraries/shared/src/PropertyFlags.h, //122
+operator<<, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20140609, //libraries/shared/src/PropertyFlags.h, //438
+operator>>, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20140605, //libraries/shared/src/PropertyFlags.h, //442
+gpu::Batch::editResourcePointer, //0, //0, //Sam Gateau, //sam@highfidelity.io, //20141103, //libraries/gpu/src/gpu/Batch.h, //311
+JSONReader::operator>>, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140616, //libraries/metavoxels/src/Bitstream.h, //1031
+JSONReader::putData, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140616, //libraries/metavoxels/src/Bitstream.h, //1024
+JSONWriter::getData, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140616, //libraries/metavoxels/src/Bitstream.h, //930
+registerCollectionMetaType, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140602, //libraries/metavoxels/src/Bitstream.h, //1759
+registerEnumMetaType, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140606, //libraries/metavoxels/src/Bitstream.h, //1740
+registerSimpleMetaType, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140402, //libraries/metavoxels/src/Bitstream.h, //1731
+registerStreamableMetaType, //0, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140110, //libraries/metavoxels/src/Bitstream.h, //1749
+SharedObjectPointerTemplate::staticCast, //1, //1, //Andrzej Kapolka, //drzej.k@gmail.com, //20140303, //libraries/metavoxels/src/SharedObject.h, //190
+equals, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140303, //libraries/metavoxels/src/SharedObject.h, //219
+qHash, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140303, //libraries/metavoxels/src/SharedObject.h, //215
+gpu::BufferView::begin, //0, //0, //Sam Gateau, //sam@highfidelity.io, //20141219, //libraries/gpu/src/gpu/Resource.h, //291
+gpu::BufferView::cbegin, //0, //0, //Sam Gateau, //sam@highfidelity.io, //20141219, //libraries/gpu/src/gpu/Resource.h, //293
+gpu::BufferView::cend, //0, //0, //Sam Gateau, //sam@highfidelity.io, //20141219, //libraries/gpu/src/gpu/Resource.h, //294
+gpu::BufferView::edit, //2, //1, //Sam Gateau, //sam@highfidelity.io, //20141219, //libraries/gpu/src/gpu/Resource.h, //349
+gpu::BufferView::edit, //2, //1, //Sam Gateau, //sam@highfidelity.io, //20141219, //libraries/gpu/src/gpu/Resource.h, //317
+gpu::BufferView::end, //0, //0, //Sam Gateau, //sam@highfidelity.io, //20141219, //libraries/gpu/src/gpu/Resource.h, //292
+gpu::BufferView::get, //2, //1, //Sam Gateau, //sam@highfidelity.io, //20141219, //libraries/gpu/src/gpu/Resource.h, //333
+gpu::BufferView::get, //2, //1, //Sam Gateau, //sam@highfidelity.io, //20141219, //libraries/gpu/src/gpu/Resource.h, //301
+gpu::BufferView::getNum, //2, //1, //Sam Gateau, //sam@highfidelity.io, //20141219, //libraries/gpu/src/gpu/Resource.h, //297
+gpu::Resource::Sysmem::edit, //0, //0, //Sam Gateau, //sam@highfidelity.io, //20141222, //libraries/gpu/src/gpu/Resource.h, //86
+gpu::Resource::Sysmem::read, //0, //0, //Sam Gateau, //sam@highfidelity.io, //20141222, //libraries/gpu/src/gpu/Resource.h, //85
+angleSignedNormal, //2, //1, //tosh, //tosh@monster.hlan, //20130404, //libraries/shared/src/AngleUtil.h, //52
+angleUnsignedNormal, //1, //1, //tosh, //tosh@monster.hlan, //20130404, //libraries/shared/src/AngleUtil.h, //71
+JSONReader::putData, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140616, //libraries/metavoxels/src/Bitstream.h, //1049
+LimitedNodeList::eachNode, //2, //1, //Stephen Birarda, //commit@birarda.com, //20141106, //libraries/networking/src/LimitedNodeList.h, //134
+LimitedNodeList::eachNodeBreakable, //0, //0, //Stephen Birarda, //commit@birarda.com, //20141106, //libraries/networking/src/LimitedNodeList.h, //143
+LimitedNodeList::eachNodeHashIterator, //1, //1, //Stephen Birarda, //commit@birarda.com, //20141106, //libraries/networking/src/LimitedNodeList.h, //209
+LimitedNodeList::nodeMatchingPredicate, //0, //0, //Stephen Birarda, //commit@birarda.com, //20141106, //libraries/networking/src/LimitedNodeList.h, //154
+JSONReader::putData, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140616, //libraries/metavoxels/src/Bitstream.h, //1067
+JSONReader::putData, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140616, //libraries/metavoxels/src/Bitstream.h, //1058
+streamSize, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20141210, //libraries/fbx/src/FBXReader.cpp, //141
+JSONWriter::getData, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140615, //libraries/metavoxels/src/Bitstream.h, //969
+JSONWriter::getData, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140615, //libraries/metavoxels/src/Bitstream.h, //961
+floodFill, //0, //0, //tosh, //tosh@monster.hlan, //20130404, //libraries/shared/src/FloodFill.h, //103
+JSONReader::putData, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140616, //libraries/metavoxels/src/Bitstream.h, //1076
+
+generic function-like macro, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+APPEND_ENTITY_PROPERTY, //78, //4, //ZappoMan, //bradh@konamoxt.com, //20140910, //libraries/entities/src/EntityItemPropertiesMacros.h, //15
+
+function implemented with void*, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+RenderableLightEntityItem::findDetailedRayIntersection, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20141202, //libraries/entities-renderer/src/RenderableLightEntityItem.cpp, //82
+Octree::recurseTreeWithOperation, //8, //1, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/octree/src/Octree.cpp, //62
+OctreeRenderer::renderOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131209, //libraries/octree/src/OctreeRenderer.cpp, //149
+Application::sendVoxelsOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //interface/src/Application.cpp, //1731
+Attribute::deepEqual, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140620, //libraries/metavoxels/src/AttributeRegistry.h, //249
+Attribute::readDelta, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131219, //libraries/metavoxels/src/AttributeRegistry.h, //228
+Attribute::readSubdivided, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140818, //libraries/metavoxels/src/AttributeRegistry.cpp, //203
+Attribute::writeDelta, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131219, //libraries/metavoxels/src/AttributeRegistry.h, //229
+Attribute::writeSubdivided, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140818, //libraries/metavoxels/src/AttributeRegistry.cpp, //208
+AttributeValue::AttributeValue, //3, //1, //Andrzej Kapolka, //drzej.k@gmail.com, //20131213, //libraries/metavoxels/src/AttributeRegistry.cpp, //108
+AttributeValue::operator!=, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140209, //libraries/metavoxels/src/AttributeRegistry.cpp, //132
+AttributeValue::operator==, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131213, //libraries/metavoxels/src/AttributeRegistry.cpp, //124
+InlineAttribute::blend, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140402, //libraries/metavoxels/src/AttributeRegistry.h, //304
+InlineAttribute::create, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131216, //libraries/metavoxels/src/AttributeRegistry.h, //294
+InlineAttribute::destroy, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131216, //libraries/metavoxels/src/AttributeRegistry.h, //295
+InlineAttribute::equal, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131216, //libraries/metavoxels/src/AttributeRegistry.h, //300
+InlineAttribute::mix, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140325, //libraries/metavoxels/src/AttributeRegistry.h, //302
+InlineAttribute::read, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131218, //libraries/metavoxels/src/AttributeRegistry.h, //313
+InlineAttribute::write, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131218, //libraries/metavoxels/src/AttributeRegistry.h, //320
+OwnedAttributeValue::OwnedAttributeValue, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140122, //libraries/metavoxels/src/AttributeRegistry.cpp, //136
+SharedObjectAttribute::deepEqual, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140620, //libraries/metavoxels/src/AttributeRegistry.cpp, //1136
+SharedObjectAttribute::merge, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140328, //libraries/metavoxels/src/AttributeRegistry.cpp, //1142
+SharedObjectAttribute::read, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140203, //libraries/metavoxels/src/AttributeRegistry.cpp, //1124
+SharedObjectAttribute::write, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140203, //libraries/metavoxels/src/AttributeRegistry.cpp, //1130
+SharedObjectSetAttribute::deepEqual, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140620, //libraries/metavoxels/src/AttributeRegistry.cpp, //1207
+SharedObjectSetAttribute::merge, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140328, //libraries/metavoxels/src/AttributeRegistry.cpp, //1232
+SharedObjectSetAttribute::read, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140219, //libraries/metavoxels/src/AttributeRegistry.cpp, //1169
+SharedObjectSetAttribute::write, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140219, //libraries/metavoxels/src/AttributeRegistry.cpp, //1173
+SimpleInlineAttribute::merge, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140331, //libraries/metavoxels/src/AttributeRegistry.h, //335
+VoxelColorAttribute::merge, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140826, //libraries/metavoxels/src/AttributeRegistry.cpp, //568
+VoxelColorAttribute::read, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140826, //libraries/metavoxels/src/AttributeRegistry.cpp, //517
+VoxelColorAttribute::readDelta, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140826, //libraries/metavoxels/src/AttributeRegistry.cpp, //542
+VoxelColorAttribute::write, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140826, //libraries/metavoxels/src/AttributeRegistry.cpp, //530
+VoxelColorAttribute::writeDelta, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140826, //libraries/metavoxels/src/AttributeRegistry.cpp, //556
+VoxelHermiteAttribute::merge, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140827, //libraries/metavoxels/src/AttributeRegistry.cpp, //1038
+VoxelHermiteAttribute::read, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140827, //libraries/metavoxels/src/AttributeRegistry.cpp, //987
+VoxelHermiteAttribute::readDelta, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140827, //libraries/metavoxels/src/AttributeRegistry.cpp, //1012
+VoxelHermiteAttribute::write, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140827, //libraries/metavoxels/src/AttributeRegistry.cpp, //1000
+VoxelHermiteAttribute::writeDelta, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140827, //libraries/metavoxels/src/AttributeRegistry.cpp, //1026
+VoxelMaterialAttribute::merge, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140826, //libraries/metavoxels/src/AttributeRegistry.cpp, //850
+VoxelMaterialAttribute::read, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140826, //libraries/metavoxels/src/AttributeRegistry.cpp, //799
+VoxelMaterialAttribute::readDelta, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140826, //libraries/metavoxels/src/AttributeRegistry.cpp, //824
+VoxelMaterialAttribute::write, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140826, //libraries/metavoxels/src/AttributeRegistry.cpp, //812
+VoxelMaterialAttribute::writeDelta, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140826, //libraries/metavoxels/src/AttributeRegistry.cpp, //838
+gpu::Batch::ResourceCache::ResourceCache, //1, //1, //Sam Gateau, //sam@highfidelity.io, //20141021, //libraries/gpu/src/gpu/Batch.h, //260
+gpu::Batch::cacheData, //0, //0, //Sam Gateau, //sam@highfidelity.io, //20141021, //libraries/gpu/src/gpu/Batch.cpp, //59
+gpu::Batch::cacheResource, //6, //1, //Sam Gateau, //sam@highfidelity.io, //20141021, //libraries/gpu/src/gpu/Batch.cpp, //52
+addMeshVoxelsOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/fbx/src/FBXReader.cpp, //2548
+VoxelTree::nudgeCheck, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/voxels/src/VoxelTree.cpp, //147
+VoxelTree::nudgeLeaf, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/voxels/src/VoxelTree.cpp, //195
+VoxelTree::recurseNodeForNudge, //1, //1, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/voxels/src/VoxelTree.cpp, //228
+SphereEntityItem::findDetailedRayIntersection, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20141204, //libraries/entities/src/SphereEntityItem.cpp, //100
+EntityItem::findDetailedRayIntersection, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20141202, //libraries/entities/src/EntityItem.h, //137
+sendVoxelsOperation, //0, //0, //Atlante45, //clement.brisset@gmail.com, //20140424, //libraries/voxels/src/VoxelTreeCommands.cpp, //23
+debug::checkDeadBeef, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/shared/src/SharedUtil.cpp, //614
+debug::setDeadBeef, //1, //1, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/shared/src/SharedUtil.cpp, //603
+insertIntoSortedArrays, //4, //3, //ZappoMan, //bradh@konamoxt.com, //20130430, //libraries/shared/src/SharedUtil.cpp, //469
+removeFromSortedArrays, //1, //1, //ZappoMan, //bradh@konamoxt.com, //20130701, //libraries/shared/src/SharedUtil.cpp, //500
+gpu::Batch::_glColorPointer, //0, //0, //Sam Gateau, //sam@highfidelity.io, //20141028, //libraries/gpu/src/gpu/GLBackend.cpp, //936
+gpu::Batch::_glDrawRangeElements, //0, //0, //Sam Gateau, //sam@highfidelity.io, //20141028, //libraries/gpu/src/gpu/GLBackend.cpp, //913
+gpu::Batch::_glNormalPointer, //0, //0, //Sam Gateau, //sam@highfidelity.io, //20141028, //libraries/gpu/src/gpu/GLBackend.cpp, //955
+gpu::Batch::_glTexCoordPointer, //0, //0, //Sam Gateau, //sam@highfidelity.io, //20141028, //libraries/gpu/src/gpu/GLBackend.cpp, //972
+gpu::Batch::_glVertexAttribPointer, //0, //0, //Sam Gateau, //sam@highfidelity.io, //20141028, //libraries/gpu/src/gpu/GLBackend.cpp, //1011
+gpu::Batch::_glVertexPointer, //0, //0, //Sam Gateau, //sam@highfidelity.io, //20141028, //libraries/gpu/src/gpu/GLBackend.cpp, //991
+BufferDataAttribute::merge, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140728, //interface/src/MetavoxelSystem.cpp, //1293
+OctreeElement::findDetailedRayIntersection, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20140523, //libraries/octree/src/OctreeElement.cpp, //1377
+OctreeElement::findRayIntersection, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20140523, //libraries/octree/src/OctreeElement.cpp, //1335
+OctreeElement::findSpherePenetration, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131219, //libraries/octree/src/OctreeElement.cpp, //1394
+ShutdownEventListener::nativeEventFilter, //0, //0, //Ryan Huffman, //ryanhuffman@gmail.com, //20140905, //libraries/shared/src/ShutdownEventListener.cpp, //42
+EntityTree::findInCubeOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityTree.cpp, //448
+EntityTree::findInSphereOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityTree.cpp, //411
+EntityTree::findNearPointOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityTree.cpp, //358
+EntityTree::sendEntitiesOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20140804, //libraries/entities/src/EntityTree.cpp, //940
+VoxelTreeElement::findSpherePenetration, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131231, //libraries/voxels/src/VoxelTreeElement.cpp, //232
+Octree::countOctreeElementsOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20140506, //libraries/octree/src/Octree.cpp, //2148
+Octree::deleteOctalCodeFromTreeRecursion, //2, //1, //ZappoMan, //bradh@konamoxt.com, //20140506, //libraries/octree/src/Octree.cpp, //480
+Octree::findRayIntersection, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/octree/src/Octree.cpp, //709
+Octree::findSpherePenetration, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131212, //libraries/octree/src/Octree.cpp, //778
+Octree::recurseElementWithOperation, //2, //1, //ZappoMan, //bradh@konamoxt.com, //20140506, //libraries/octree/src/Octree.cpp, //72
+Octree::recurseElementWithOperationDistanceSorted, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20140506, //libraries/octree/src/Octree.cpp, //123
+Octree::recurseElementWithPostOperation, //2, //1, //ZappoMan, //bradh@konamoxt.com, //20140506, //libraries/octree/src/Octree.cpp, //94
+Octree::recurseTreeWithOperationDistanceSorted, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/octree/src/Octree.cpp, //116
+Octree::recurseTreeWithPostOperation, //0, //0, //matsukaze, //matsukaze314@gmail.com, //20140203, //libraries/octree/src/Octree.cpp, //67
+EntityTreeElement::findDetailedRayIntersection, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityTreeElement.cpp, //476
+EntityTreeElement::findSpherePenetration, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20140626, //libraries/entities/src/EntityTreeElement.cpp, //550
+TextEntityItem::findDetailedRayIntersection, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20141204, //libraries/entities/src/TextEntityItem.cpp, //126
+RenderableModelEntityItem::findDetailedRayIntersection, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20141204, //libraries/entities-renderer/src/RenderableModelEntityItem.cpp, //249
+reorderChildrenForNudge, //1, //1, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/voxels/src/VoxelTree.cpp, //88
+VoxelSystem::clearAllNodesBufferIndexOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //interface/src/voxels/VoxelSystem.cpp, //1216
+VoxelSystem::forceRedrawEntireTreeOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //interface/src/voxels/VoxelSystem.cpp, //1238
+VoxelSystem::hideAllSubTreeOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //interface/src/voxels/VoxelSystem.cpp, //1405
+VoxelSystem::hideOutOfViewOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //interface/src/voxels/VoxelSystem.cpp, //1472
+VoxelSystem::killSourceVoxelsOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //interface/src/voxels/VoxelSystem.cpp, //1571
+VoxelSystem::recreateVoxelGeometryInViewOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20140213, //interface/src/voxels/VoxelSystem.cpp, //597
+VoxelSystem::showAllSubTreeOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //interface/src/voxels/VoxelSystem.cpp, //1435
+findCapsulePenetrationOp, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20140506, //libraries/octree/src/Octree.cpp, //840
+findContentInCubeOp, //0, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140903, //libraries/octree/src/Octree.cpp, //894
+findRayIntersectionOp, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20140506, //libraries/octree/src/Octree.cpp, //699
+findShapeCollisionsOp, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20140506, //libraries/octree/src/Octree.cpp, //861
+findSpherePenetrationOp, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131212, //libraries/octree/src/Octree.cpp, //755
+getElementEnclosingOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20140302, //libraries/octree/src/Octree.cpp, //1000
+

@@ -1,0 +1,82 @@
+function template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+
+generic function-like macro, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+DBUG_PRINT, //168, //30, //bk@work.mysql.com, //, //20000731, //include/dbug.h, //54
+DBUG_RETURN, //615, //35, //bk@work.mysql.com, //, //20000731, //include/dbug.h, //50
+MYF, //473, //10, //bk@work.mysql.com, //, //20000731, //include/global.h, //603
+LINT_INIT, //25, //15, //bk@work.mysql.com, //, //20000731, //include/global.h, //221
+DBUG_PUSH, //4, //2, //bk@work.mysql.com, //, //20000731, //include/dbug.h, //56
+toupper, //11, //3, //bk@work.mysql.com, //, //20000731, //include/m_ctype.h, //90
+dynamic_element, //17, //2, //bk@work.mysql.com, //, //20000731, //include/my_sys.h, //507
+isalpha, //2, //2, //bk@work.mysql.com, //, //20000731, //include/m_ctype.h, //93
+isdigit, //49, //6, //bk@work.mysql.com, //, //20000731, //include/m_ctype.h, //96
+isgraph, //3, //2, //bk@work.mysql.com, //, //20000731, //include/m_ctype.h, //102
+isspace, //42, //5, //bk@work.mysql.com, //, //20000731, //include/m_ctype.h, //99
+int3store, //29, //11, //bk@work.mysql.com, //, //20000731, //include/global.h, //723
+test, //40, //15, //bk@work.mysql.com, //, //20000731, //include/global.h, //240
+int4store, //57, //12, //bk@work.mysql.com, //, //20000731, //include/global.h, //728
+DBUG_EXECUTE, //11, //5, //bk@work.mysql.com, //, //20000731, //include/dbug.h, //52
+int2store, //58, //16, //bk@work.mysql.com, //, //20000731, //include/global.h, //720
+shortget, //8, //4, //bk@work.mysql.com, //, //20000731, //include/global.h, //819
+uint2korr, //61, //9, //bk@work.mysql.com, //, //20000731, //include/global.h, //697
+longstore, //13, //4, //bk@work.mysql.com, //, //20000731, //include/global.h, //823
+set_if_bigger, //21, //5, //bk@work.mysql.com, //, //20000731, //include/global.h, //241
+set_if_smaller, //11, //4, //bk@work.mysql.com, //, //20000731, //include/global.h, //242
+ALIGN_SIZE, //22, //6, //bk@work.mysql.com, //, //20000731, //include/global.h, //504
+my_afree, //7, //5, //bk@work.mysql.com, //, //20000731, //include/my_sys.h, //136
+my_alloca, //5, //2, //bk@work.mysql.com, //, //20000731, //include/my_sys.h, //135
+ER, //12, //6, //bk@work.mysql.com, //, //20000731, //include/errmsg.h, //32
+array_elements, //8, //4, //bk@work.mysql.com, //, //20000731, //include/global.h, //244
+shortstore, //6, //4, //bk@work.mysql.com, //, //20000731, //include/global.h, //822
+my_b_inited, //7, //2, //bk@work.mysql.com, //, //20000731, //include/my_sys.h, //283
+strtoll, //7, //3, //bk@work.mysql.com, //, //20000731, //include/m_string.h, //222
+strtoull, //7, //2, //bk@work.mysql.com, //, //20000731, //include/m_string.h, //223
+x_free, //22, //7, //bk@work.mysql.com, //, //20000731, //sql/mysql_priv.h, //45
+dbug_assert, //2, //2, //bk@work.mysql.com, //, //20000731, //include/global.h, //286
+int8store, //12, //2, //bk@work.mysql.com, //, //20000731, //include/global.h, //737
+my_reinterpret_cast, //5, //2, //bk@work.mysql.com, //, //20000731, //include/global.h, //257
+test_all_bits, //5, //3, //bk@work.mysql.com, //, //20000731, //include/global.h, //243
+ER, //113, //67, //bk@work.mysql.com, //, //20000731, //sql/unireg.h, //39
+my_pthread_getspecific_ptr, //9, //2, //bk@work.mysql.com, //, //20000731, //include/my_pthread.h, //212
+IF_WIN, //2, //2, //bk@work.mysql.com, //, //20000731, //sql/mysql_priv.h, //114
+longlong10_to_str, //20, //7, //bk@work.mysql.com, //, //20000731, //include/m_string.h, //221
+f_settype, //7, //2, //bk@work.mysql.com, //, //20000731, //sql/field.h, //1081
+my_pthread_setspecific_ptr, //22, //4, //bk@work.mysql.com, //, //20000731, //include/my_pthread.h, //213
+push_dynamic, //6, //3, //bk@work.mysql.com, //, //20000731, //include/my_sys.h, //508
+likeconv, //4, //2, //bk@work.mysql.com, //, //20000731, //sql/sql_string.cc, //528
+PUSH, //6, //2, //bk@work.mysql.com, //, //20000731, //sql/sql_load.cc, //489
+thr_alarm, //2, //2, //bk@work.mysql.com, //, //20000731, //sql/net_serv.cc, //76
+
+function implemented with void*, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+free_cache_entry, //0, //0, //bk@work.mysql.com, //, //20000731, //sql/sql_cache.cc, //43
+sql_element_free, //1, //1, //bk@work.mysql.com, //, //20000731, //sql/thr_malloc.cc, //87
+Item::operator delete, //11, //1, //bk@work.mysql.com, //, //20000731, //sql/item.h, //30
+yylex, //0, //0, //bk@work.mysql.com, //, //20000731, //sql/sql_lex.cc, //413
+handle_one_connection, //1, //1, //bk@work.mysql.com, //, //20000731, //sql/sql_parse.cc, //319
+sql_memdup, //11, //6, //bk@work.mysql.com, //, //20000731, //sql/thr_malloc.cc, //79
+String::operator delete, //0, //0, //bk@work.mysql.com, //, //20000731, //client/sql_string.h, //49
+Item_func_set_user_var::update_hash, //3, //1, //bk@work.mysql.com, //, //20000731, //sql/item_func.cc, //1605
+Sql_alloc::operator delete, //25, //1, //bk@work.mysql.com, //, //20000731, //sql/sql_list.h, //29
+NTService::Init, //0, //0, //bk@work.mysql.com, //, //20000731, //sql/nt_servc.cc, //79
+thread_info::operator delete, //0, //0, //bk@work.mysql.com, //, //20000731, //sql/sql_show.cc, //822
+Field::operator delete, //3, //1, //bk@work.mysql.com, //, //20000731, //sql/field.h, //37
+COND_CMP::operator delete, //0, //0, //bk@work.mysql.com, //, //20000731, //sql/sql_select.cc, //2604
+handle_slave, //0, //0, //bk@work.mysql.com, //, //20000731, //sql/slave.cc, //793
+String::operator delete, //0, //0, //bk@work.mysql.com, //, //20000731, //sql/sql_string.h, //48
+cache_manager::link_into_abs, //1, //1, //bk@work.mysql.com, //, //20000731, //sql/cache_manager.cc, //57
+cache_manager::unlink_from_abs, //0, //0, //bk@work.mysql.com, //, //20000731, //sql/cache_manager.cc, //68
+handle_connections_sockets, //1, //1, //bk@work.mysql.com, //, //20000731, //sql/mysqld.cc, //1798
+handle_flush, //0, //0, //bk@work.mysql.com, //, //20000731, //sql/mysqld.cc, //2083
+kill_server, //1, //1, //bk@work.mysql.com, //, //20000731, //sql/mysqld.cc, //486
+kill_server_thread, //0, //0, //bk@work.mysql.com, //, //20000731, //sql/mysqld.cc, //523
+signal_hand, //0, //0, //bk@work.mysql.com, //, //20000731, //sql/mysqld.cc, //1064
+handle_delayed_insert, //0, //0, //bk@work.mysql.com, //, //20000731, //sql/sql_insert.cc, //822
+sql_element_free, //1, //1, //bk@work.mysql.com, //, //20000731, //client/mysql.cc, //2057
+hash_filo::hash_filo, //0, //0, //bk@work.mysql.com, //, //20000731, //sql/hash_filo.h, //51
+base_list::after, //1, //1, //bk@work.mysql.com, //, //20000731, //sql/sql_list.h, //111
+base_list::list_node::list_node, //3, //1, //bk@work.mysql.com, //, //20000731, //sql/sql_list.h, //46
+base_list::push_back, //1, //1, //bk@work.mysql.com, //, //20000731, //sql/sql_list.h, //63
+base_list::push_front, //1, //1, //bk@work.mysql.com, //, //20000731, //sql/sql_list.h, //73
+base_list_iterator::after, //1, //1, //bk@work.mysql.com, //, //20000731, //sql/sql_list.h, //166
+base_list_iterator::replace, //2, //1, //bk@work.mysql.com, //, //20000731, //sql/sql_list.h, //142
+

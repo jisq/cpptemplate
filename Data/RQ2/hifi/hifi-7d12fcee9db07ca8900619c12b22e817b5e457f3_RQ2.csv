@@ -1,0 +1,92 @@
+function template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+radix2InplaceSort, //1, //1, //tosh, //tosh@monster.hlan, //20130324, //libraries/shared/src/Radix2InplaceSort.h, //87
+angleHorizontalPolar, //2, //1, //tosh, //tosh@monster.hlan, //20130404, //libraries/shared/src/AngleUtil.h, //82
+angleConvert, //2, //1, //tosh, //tosh@monster.hlan, //20130404, //libraries/shared/src/AngleUtil.h, //39
+registerStreamableMetaType, //0, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140110, //libraries/metavoxels/src/Bitstream.h, //486
+angleSignedNormal, //2, //1, //tosh, //tosh@monster.hlan, //20130404, //libraries/shared/src/AngleUtil.h, //49
+angleUnsignedNormal, //1, //1, //tosh, //tosh@monster.hlan, //20130404, //libraries/shared/src/AngleUtil.h, //68
+decodeInline, //9, //1, //Andrzej Kapolka, //drzej.k@gmail.com, //20131211, //libraries/metavoxels/src/AttributeRegistry.h, //92
+floodFill, //0, //0, //tosh, //tosh@monster.hlan, //20130404, //libraries/shared/src/FloodFill.h, //101
+SharedObjectPointerTemplate::staticCast, //1, //1, //Andrzej Kapolka, //drzej.k@gmail.com, //20140303, //libraries/metavoxels/src/SharedObject.h, //142
+equals, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140303, //libraries/metavoxels/src/SharedObject.h, //171
+qHash, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140303, //libraries/metavoxels/src/SharedObject.h, //167
+readBinaryArray, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131017, //interface/src/renderer/FBXReader.cpp, //68
+AttributeValue::getInlineValue, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131211, //libraries/metavoxels/src/AttributeRegistry.h, //107
+AttributeValue::getPointerValue, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131213, //libraries/metavoxels/src/AttributeRegistry.h, //109
+AttributeValue::setInlineValue, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131211, //libraries/metavoxels/src/AttributeRegistry.h, //106
+encodeInline, //2, //1, //Andrzej Kapolka, //drzej.k@gmail.com, //20131211, //libraries/metavoxels/src/AttributeRegistry.h, //87
+
+generic function-like macro, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+
+function implemented with void*, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+Octree::countOctreeElementsOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/octree/src/Octree.cpp, //1553
+Octree::deleteOctalCodeFromTreeRecursion, //2, //1, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/octree/src/Octree.cpp, //361
+Octree::findSpherePenetration, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131212, //libraries/octree/src/Octree.cpp, //633
+Octree::recurseNodeWithOperation, //2, //1, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/octree/src/Octree.cpp, //65
+Octree::recurseNodeWithOperationDistanceSorted, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/octree/src/Octree.cpp, //108
+Octree::recurseNodeWithPostOperation, //2, //1, //matsukaze, //matsukaze314@gmail.com, //20140203, //libraries/octree/src/Octree.cpp, //83
+Octree::recurseTreeWithOperation, //6, //1, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/octree/src/Octree.cpp, //55
+Octree::recurseTreeWithOperationDistanceSorted, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/octree/src/Octree.cpp, //101
+Octree::recurseTreeWithPostOperation, //0, //0, //matsukaze, //matsukaze314@gmail.com, //20140203, //libraries/octree/src/Octree.cpp, //60
+insertIntoSortedArrays, //4, //3, //ZappoMan, //bradh@konamoxt.com, //20130430, //libraries/shared/src/SharedUtil.cpp, //420
+findCapsulePenetrationOp, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/octree/src/Octree.cpp, //676
+findRayIntersectionOp, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/octree/src/Octree.cpp, //557
+findSpherePenetrationOp, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131212, //libraries/octree/src/Octree.cpp, //611
+getElementEnclosingOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20140302, //libraries/octree/src/Octree.cpp, //734
+copyAndFillOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //voxel-edit/src/main.cpp, //151
+countVoxelsOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //voxel-edit/src/main.cpp, //18
+VoxelTree::nudgeCheck, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/voxels/src/VoxelTree.cpp, //141
+VoxelTree::nudgeLeaf, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/voxels/src/VoxelTree.cpp, //189
+VoxelTree::recurseNodeForNudge, //1, //1, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/voxels/src/VoxelTree.cpp, //222
+reorderChildrenForNudge, //1, //1, //ZappoMan, //bradh@konamoxt.com, //20131203, //libraries/voxels/src/VoxelTree.cpp, //82
+OctreeElement::findSpherePenetration, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131219, //libraries/octree/src/OctreeElement.cpp, //1301
+ParticleTree::findAndDeleteOperation, //0, //0, //Brad Hefta-Gaub, //brad@highfidelity.io, //20140121, //libraries/particles/src/ParticleTree.cpp, //37
+ParticleTree::findAndUpdateOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131211, //libraries/particles/src/ParticleTree.cpp, //81
+ParticleTree::findAndUpdateParticleIDOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20140127, //libraries/particles/src/ParticleTree.cpp, //170
+ParticleTree::findAndUpdateWithIDandPropertiesOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20140127, //libraries/particles/src/ParticleTree.cpp, //116
+ParticleTree::findByIDOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131219, //libraries/particles/src/ParticleTree.cpp, //348
+ParticleTree::findInSphereOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20140124, //libraries/particles/src/ParticleTree.cpp, //284
+ParticleTree::findNearPointOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131212, //libraries/particles/src/ParticleTree.cpp, //232
+ParticleTree::pruneOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131212, //libraries/particles/src/ParticleTree.cpp, //449
+ParticleTree::updateOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131209, //libraries/particles/src/ParticleTree.cpp, //442
+findInBoxForUpdateOperation, //0, //0, //Andrew Meadows, //andrew@highfidelity.io, //20140126, //libraries/particles/src/ParticleTree.cpp, //320
+animateVoxels, //0, //0, //Stephen Birarda, //commit@birarda.com, //20131205, //animation-server/src/AnimationServer.cpp, //586
+Application::sendVoxelsOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //interface/src/Application.cpp, //1342
+VoxelSystem::clearAllNodesBufferIndexOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //interface/src/voxels/VoxelSystem.cpp, //1525
+VoxelSystem::forceRedrawEntireTreeOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //interface/src/voxels/VoxelSystem.cpp, //1750
+VoxelSystem::hideAllSubTreeOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //interface/src/voxels/VoxelSystem.cpp, //1917
+VoxelSystem::hideOutOfViewOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //interface/src/voxels/VoxelSystem.cpp, //1984
+VoxelSystem::inspectForExteriorOcclusionsOperation, //0, //0, //matsukaze, //matsukaze314@gmail.com, //20140203, //interface/src/voxels/VoxelSystem.cpp, //1614
+VoxelSystem::inspectForInteriorOcclusionsOperation, //0, //0, //matsukaze, //matsukaze314@gmail.com, //20140203, //interface/src/voxels/VoxelSystem.cpp, //1547
+VoxelSystem::killSourceVoxelsOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //interface/src/voxels/VoxelSystem.cpp, //2083
+VoxelSystem::recreateVoxelGeometryInViewOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20140213, //interface/src/voxels/VoxelSystem.cpp, //748
+VoxelSystem::showAllSubTreeOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //interface/src/voxels/VoxelSystem.cpp, //1947
+ParticleCollisionSystem::updateOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131212, //libraries/particles/src/ParticleCollisionSystem.cpp, //43
+debug::setDeadBeef, //1, //1, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/shared/src/SharedUtil.cpp, //621
+AttributeValue::AttributeValue, //4, //1, //Andrzej Kapolka, //drzej.k@gmail.com, //20131213, //libraries/metavoxels/src/AttributeRegistry.cpp, //80
+AttributeValue::operator!=, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140209, //libraries/metavoxels/src/AttributeRegistry.cpp, //104
+AttributeValue::operator==, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131213, //libraries/metavoxels/src/AttributeRegistry.cpp, //96
+OwnedAttributeValue::OwnedAttributeValue, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140122, //libraries/metavoxels/src/AttributeRegistry.cpp, //108
+PackedNormalAttribute::merge, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140310, //libraries/metavoxels/src/AttributeRegistry.cpp, //230
+QRgbAttribute::merge, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131216, //libraries/metavoxels/src/AttributeRegistry.cpp, //186
+SharedObjectAttribute::merge, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140203, //libraries/metavoxels/src/AttributeRegistry.cpp, //278
+SharedObjectAttribute::read, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140203, //libraries/metavoxels/src/AttributeRegistry.cpp, //266
+SharedObjectAttribute::write, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140203, //libraries/metavoxels/src/AttributeRegistry.cpp, //272
+SharedObjectSetAttribute::merge, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140214, //libraries/metavoxels/src/AttributeRegistry.cpp, //313
+SharedObjectSetAttribute::read, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140219, //libraries/metavoxels/src/AttributeRegistry.cpp, //305
+SharedObjectSetAttribute::write, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20140219, //libraries/metavoxels/src/AttributeRegistry.cpp, //309
+removeFromSortedArrays, //1, //1, //ZappoMan, //bradh@konamoxt.com, //20130701, //libraries/shared/src/SharedUtil.cpp, //451
+debug::checkDeadBeef, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131204, //libraries/shared/src/SharedUtil.cpp, //632
+addMeshVoxelsOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131203, //interface/src/renderer/FBXReader.cpp, //1688
+ParticleTreeElement::findSpherePenetration, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131219, //libraries/particles/src/ParticleTreeElement.cpp, //93
+Attribute::readDelta, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131219, //libraries/metavoxels/src/AttributeRegistry.h, //177
+Attribute::writeDelta, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131219, //libraries/metavoxels/src/AttributeRegistry.h, //178
+InlineAttribute::create, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131216, //libraries/metavoxels/src/AttributeRegistry.h, //216
+InlineAttribute::destroy, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131216, //libraries/metavoxels/src/AttributeRegistry.h, //217
+InlineAttribute::equal, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131216, //libraries/metavoxels/src/AttributeRegistry.h, //222
+InlineAttribute::read, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131218, //libraries/metavoxels/src/AttributeRegistry.h, //231
+InlineAttribute::write, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131218, //libraries/metavoxels/src/AttributeRegistry.h, //238
+SimpleInlineAttribute::merge, //0, //0, //Andrzej Kapolka, //drzej.k@gmail.com, //20131216, //libraries/metavoxels/src/AttributeRegistry.h, //253
+VoxelTreeElement::findSpherePenetration, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131231, //libraries/voxels/src/VoxelTreeElement.cpp, //222
+OctreeRenderer::renderOperation, //0, //0, //ZappoMan, //bradh@konamoxt.com, //20131209, //libraries/octree/src/OctreeRenderer.cpp, //139
+

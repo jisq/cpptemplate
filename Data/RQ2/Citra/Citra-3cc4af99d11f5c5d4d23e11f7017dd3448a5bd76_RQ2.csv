@@ -1,0 +1,206 @@
+function template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+ResultVal::ValueOr, //14, //1, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141023, //src/core/hle/result.h, //363
+GPU::Read, //6, //1, //Tony Wasserka, //neobrainx@gmail.com, //20140716, //src/core/hw/gpu.cpp, //34
+GPU::Write, //7, //1, //bunnei, //bunneidev@gmail.com, //20140405, //src/core/hw/gpu.cpp, //48
+operator-, //12, //1, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //382
+operator<, //9, //1, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //428
+operator==, //22, //1, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //448
+operator>, //8, //1, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //432
+MathUtil::Clamp, //0, //0, //Lioncash, //mathew1800@gmail.com, //20140818, //src/common/math_util.h, //17
+MakeResult, //15, //6, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141023, //src/core/hle/result.h, //400
+Math::MakeVec, //1, //1, //Tony Wasserka, //neobrainx@gmail.com, //20140812, //src/video_core/math.h, //615
+Kernel::HandleTable::Get, //21, //1, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141221, //src/core/hle/kernel/kernel.h, //151
+operator!=, //22, //1, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //444
+operator&, //42, //1, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //421
+operator&, //43, //1, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //416
+operator*, //39, //1, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //392
+operator/, //2, //1, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //387
+operator>=, //2, //1, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //440
+operator%, //5, //1, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //397
+operator+, //7, //1, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //377
+operator+=, //1, //1, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //403
+operator-=, //1, //1, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //409
+operator<=, //1, //1, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //436
+swap_struct_t::operator!=, //0, //0, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //202
+swap_struct_t::operator&, //0, //0, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //256
+swap_struct_t::operator&=, //0, //0, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //264
+swap_struct_t::operator*, //0, //0, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //122
+swap_struct_t::operator+, //0, //0, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //131
+swap_struct_t::operator+=, //0, //0, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //149
+swap_struct_t::operator-, //0, //0, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //139
+swap_struct_t::operator-=, //0, //0, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //159
+swap_struct_t::operator/, //0, //0, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //113
+swap_struct_t::operator<, //0, //0, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //220
+swap_struct_t::operator<<, //0, //0, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //304
+swap_struct_t::operator<<=, //0, //0, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //308
+swap_struct_t::operator<=, //0, //0, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //238
+swap_struct_t::operator=, //0, //0, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //83
+swap_struct_t::operator==, //0, //0, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //193
+swap_struct_t::operator>, //0, //0, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //211
+swap_struct_t::operator>=, //0, //0, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //229
+swap_struct_t::operator>>, //0, //0, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //314
+swap_struct_t::operator>>=, //0, //0, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //318
+swap_struct_t::operator^, //0, //0, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //290
+swap_struct_t::operator^=, //0, //0, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //298
+swap_struct_t::operator|, //0, //0, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //273
+swap_struct_t::operator|=, //0, //0, //ShizZy, //shizzy@6bit.net, //20130918, //src/common/swap.h, //281
+HW::Read, //0, //0, //bunnei, //bunneidev@gmail.com, //20140404, //src/core/hw/hw.cpp, //39
+HW::Write, //0, //0, //bunnei, //bunneidev@gmail.com, //20140404, //src/core/hw/hw.cpp, //52
+Common::FifoQueue::Push, //0, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/fifo_queue.h, //43
+Memory::Read, //3, //1, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20140828, //src/core/mem_map_funcs.cpp, //52
+Memory::Write, //4, //1, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20140828, //src/core/mem_map_funcs.cpp, //99
+detail::ScopeExit, //3, //1, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141102, //src/common/scope_exit.h, //17
+ConfigMem::Read, //4, //1, //bunnei, //bunneidev@gmail.com, //20140506, //src/core/hle/config_mem.cpp, //33
+Common::make_unique, //12, //1, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141220, //src/common/make_unique.h, //12
+Math::MakeVec, //32, //1, //Tony Wasserka, //neobrainx@gmail.com, //20140812, //src/video_core/math.h, //582
+Common::CodeToUTF8, //3, //1, //archshift, //gh@archshift.com, //20141110, //src/common/string_util.cpp, //471
+Common::FromBigEndian, //0, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/common_funcs.h, //231
+max, //2, //1, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/common_funcs.h, //152
+min, //0, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/common_funcs.h, //150
+Service::Interface::DeleteHandle, //0, //0, //bunnei, //bunneidev@gmail.com, //20140518, //src/core/hle/service/service.h, //65
+Math::Vec2::operator*, //6, //1, //Tony Wasserka, //neobrainx@gmail.com, //20140812, //src/video_core/math.h, //102
+Math::Vec3::operator*, //2, //1, //Tony Wasserka, //neobrainx@gmail.com, //20140812, //src/video_core/math.h, //232
+Math::Vec4::operator*, //4, //1, //Tony Wasserka, //neobrainx@gmail.com, //20140812, //src/video_core/math.h, //402
+HLE::Wrap, //0, //0, //bunnei, //bunneidev@gmail.com, //20140609, //src/core/hle/function_wrappers.h, //152
+LinearDiskCache::Read, //5, //1, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/linear_disk_cache.h, //164
+LinearDiskCache::Write, //5, //1, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/linear_disk_cache.h, //158
+ResultVal::WithCode, //1, //1, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141023, //src/core/hle/result.h, //283
+ResultVal::emplace, //0, //0, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141023, //src/core/hle/result.h, //336
+PointerWrap::Do, //14, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //215
+PointerWrap::Do, //14, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //230
+PointerWrap::Do, //14, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //275
+PointerWrap::Do, //14, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //290
+PointerWrap::Do, //14, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //335
+PointerWrap::Do, //14, //1, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/chunk_file.h, //342
+PointerWrap::Do, //14, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //357
+PointerWrap::Do, //14, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //384
+PointerWrap::Do, //14, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //391
+PointerWrap::Do, //14, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //410
+PointerWrap::Do, //14, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //417
+PointerWrap::Do, //14, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //424
+PointerWrap::Do, //14, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //444
+PointerWrap::Do, //14, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //458
+PointerWrap::Do, //33, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //557
+PointerWrap::DoArray, //2, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //552
+PointerWrap::DoClass, //1, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //536
+PointerWrap::DoClass, //1, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //541
+PointerWrap::DoDeque, //2, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //398
+PointerWrap::DoLinkedList, //2, //1, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/chunk_file.h, //576
+PointerWrap::DoList, //2, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //430
+PointerWrap::DoMap, //2, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //237
+PointerWrap::DoMultimap, //2, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //297
+PointerWrap::DoPOD, //0, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //350
+PointerWrap::DoPOD, //0, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //562
+PointerWrap::DoPointer, //0, //0, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //567
+PointerWrap::DoSet, //2, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //464
+PointerWrap::DoVector, //3, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //363
+PointerWrap::DoVectorPOD, //1, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //373
+Common::ComparePartialString, //7, //1, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141104, //src/common/string_util.h, //123
+Log::GetClassByName, //1, //1, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141206, //src/common/logging/filter.cpp, //65
+Log::GetLevelByName, //1, //1, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141206, //src/common/logging/filter.cpp, //54
+Log::find_last, //1, //1, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141206, //src/common/logging/filter.cpp, //76
+Math::MakeVec, //6, //1, //Tony Wasserka, //neobrainx@gmail.com, //20140812, //src/video_core/math.h, //576
+HLE::Wrap, //0, //0, //bunnei, //bunneidev@gmail.com, //20140609, //src/core/hle/function_wrappers.h, //148
+Common::CharArrayFromFormat, //0, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/string_util.h, //28
+Common::ThousandSeparate, //0, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/string_util.h, //44
+Common::TryParse, //0, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/string_util.h, //63
+Math::Vec2::operator*=, //3, //1, //Tony Wasserka, //neobrainx@gmail.com, //20140727, //src/video_core/math.h, //107
+Math::Vec4::operator*=, //1, //1, //Tony Wasserka, //neobrainx@gmail.com, //20140727, //src/video_core/math.h, //407
+FileUtil::IOFile::ReadArray, //2, //1, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/common/file_util.h, //170
+Math::Cross, //1, //1, //Tony Wasserka, //neobrainx@gmail.com, //20140812, //src/video_core/math.h, //531
+Math::Dot, //2, //1, //Tony Wasserka, //neobrainx@gmail.com, //20140812, //src/video_core/math.h, //519
+Math::MakeVec, //34, //1, //Tony Wasserka, //neobrainx@gmail.com, //20140812, //src/video_core/math.h, //558
+Math::MakeVec, //9, //1, //Tony Wasserka, //neobrainx@gmail.com, //20140812, //src/video_core/math.h, //570
+Math::MakeVec, //3, //1, //Tony Wasserka, //neobrainx@gmail.com, //20140812, //src/video_core/math.h, //609
+Math::Vec3::Cast, //4, //1, //Tony Wasserka, //neobrainx@gmail.com, //20140727, //src/video_core/math.h, //189
+Math::Vec3::operator/, //3, //1, //Tony Wasserka, //neobrainx@gmail.com, //20140812, //src/video_core/math.h, //242
+FileUtil::IOFile::WriteArray, //1, //1, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/common/file_util.h, //185
+OpenFStream, //0, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/file_util.h, //241
+Math::Dot, //0, //0, //Tony Wasserka, //neobrainx@gmail.com, //20140812, //src/video_core/math.h, //513
+Math::Dot, //0, //0, //Tony Wasserka, //neobrainx@gmail.com, //20140812, //src/video_core/math.h, //525
+Math::Lerp, //0, //0, //Tony Wasserka, //neobrainx@gmail.com, //20140812, //src/video_core/math.h, //538
+Math::LerpInt, //0, //0, //Tony Wasserka, //neobrainx@gmail.com, //20140812, //src/video_core/math.h, //545
+Math::MakeVec, //30, //1, //Tony Wasserka, //neobrainx@gmail.com, //20140812, //src/video_core/math.h, //552
+Math::MakeVec, //8, //1, //Tony Wasserka, //neobrainx@gmail.com, //20140812, //src/video_core/math.h, //564
+Math::MakeVec, //5, //1, //Tony Wasserka, //neobrainx@gmail.com, //20140812, //src/video_core/math.h, //588
+Math::MakeVec, //4, //1, //Tony Wasserka, //neobrainx@gmail.com, //20140812, //src/video_core/math.h, //594
+Math::MakeVec, //3, //1, //Tony Wasserka, //neobrainx@gmail.com, //20140812, //src/video_core/math.h, //603
+Math::Vec2::Cast, //0, //0, //Tony Wasserka, //neobrainx@gmail.com, //20140727, //src/video_core/math.h, //63
+Math::Vec2::operator/, //0, //0, //Tony Wasserka, //neobrainx@gmail.com, //20140812, //src/video_core/math.h, //112
+Math::Vec2::operator/=, //0, //0, //Tony Wasserka, //neobrainx@gmail.com, //20140727, //src/video_core/math.h, //117
+Math::Vec3::operator*=, //0, //0, //Tony Wasserka, //neobrainx@gmail.com, //20140727, //src/video_core/math.h, //237
+Math::Vec3::operator/=, //0, //0, //Tony Wasserka, //neobrainx@gmail.com, //20140727, //src/video_core/math.h, //247
+Math::Vec4::Cast, //0, //0, //Tony Wasserka, //neobrainx@gmail.com, //20140727, //src/video_core/math.h, //360
+Math::Vec4::operator/, //0, //0, //Tony Wasserka, //neobrainx@gmail.com, //20140812, //src/video_core/math.h, //412
+Math::Vec4::operator/=, //0, //0, //Tony Wasserka, //neobrainx@gmail.com, //20140727, //src/video_core/math.h, //417
+Math::operator*, //57, //1, //Tony Wasserka, //neobrainx@gmail.com, //20140727, //src/video_core/math.h, //167
+Math::operator*, //42, //1, //Tony Wasserka, //neobrainx@gmail.com, //20140727, //src/video_core/math.h, //326
+Math::operator*, //23, //1, //Tony Wasserka, //neobrainx@gmail.com, //20140812, //src/video_core/math.h, //504
+HLE::Wrap, //0, //0, //bunnei, //bunneidev@gmail.com, //20140609, //src/core/hle/function_wrappers.h, //36
+HLE::Wrap, //0, //0, //bunnei, //bunneidev@gmail.com, //20140609, //src/core/hle/function_wrappers.h, //40
+HLE::Wrap, //0, //0, //bunnei, //bunneidev@gmail.com, //20140609, //src/core/hle/function_wrappers.h, //44
+HLE::Wrap, //0, //0, //bunnei, //bunneidev@gmail.com, //20140609, //src/core/hle/function_wrappers.h, //51
+HLE::Wrap, //0, //0, //bunnei, //bunneidev@gmail.com, //20140609, //src/core/hle/function_wrappers.h, //60
+HLE::Wrap, //0, //0, //bunnei, //bunneidev@gmail.com, //20140706, //src/core/hle/function_wrappers.h, //64
+HLE::Wrap, //0, //0, //bunnei, //bunneidev@gmail.com, //20140609, //src/core/hle/function_wrappers.h, //71
+HLE::Wrap, //0, //0, //bunnei, //bunneidev@gmail.com, //20140609, //src/core/hle/function_wrappers.h, //75
+HLE::Wrap, //0, //0, //bunnei, //bunneidev@gmail.com, //20140609, //src/core/hle/function_wrappers.h, //79
+HLE::Wrap, //0, //0, //bunnei, //bunneidev@gmail.com, //20140609, //src/core/hle/function_wrappers.h, //86
+HLE::Wrap, //0, //0, //bunnei, //bunneidev@gmail.com, //20140609, //src/core/hle/function_wrappers.h, //90
+HLE::Wrap, //0, //0, //bunnei, //bunneidev@gmail.com, //20140609, //src/core/hle/function_wrappers.h, //97
+HLE::Wrap, //0, //0, //bunnei, //bunneidev@gmail.com, //20140609, //src/core/hle/function_wrappers.h, //101
+HLE::Wrap, //0, //0, //bunnei, //bunneidev@gmail.com, //20140609, //src/core/hle/function_wrappers.h, //105
+HLE::Wrap, //0, //0, //bunnei, //bunneidev@gmail.com, //20140609, //src/core/hle/function_wrappers.h, //110
+HLE::Wrap, //0, //0, //Subv, //subv2112@gmail.com, //20141203, //src/core/hle/function_wrappers.h, //117
+HLE::Wrap, //0, //0, //Subv, //subv2112@gmail.com, //20141204, //src/core/hle/function_wrappers.h, //124
+HLE::Wrap, //0, //0, //bunnei, //bunneidev@gmail.com, //20140609, //src/core/hle/function_wrappers.h, //134
+HLE::Wrap, //0, //0, //bunnei, //bunneidev@gmail.com, //20140814, //src/core/hle/function_wrappers.h, //141
+
+generic function-like macro, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+ARRAY_SIZE, //30, //21, //ShizZy, //shizzy@6bit.net, //20130905, //src/common/common_funcs.h, //32
+LOG_DEBUG, //90, //18, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141028, //src/common/logging/log.h, //111
+LOG_ERROR, //169, //48, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141028, //src/common/logging/log.h, //114
+LOG_TRACE, //61, //33, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141028, //src/common/logging/log.h, //110
+LOG_WARNING, //61, //9, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141028, //src/common/logging/log.h, //113
+vfp_double_packed_abs, //2, //2, //bunnei, //bunneidev@gmail.com, //20140515, //src/core/arm/skyeye_common/vfp/vfp_helper.h, //416
+BIT, //166, //4, //ShizZy, //shizzy@6bit.net, //20130917, //src/core/arm/skyeye_common/armdefs.h, //448
+BITS, //1384, //3, //ShizZy, //shizzy@6bit.net, //20130917, //src/core/arm/skyeye_common/armdefs.h, //449
+ASSIGNC, //28, //2, //ShizZy, //shizzy@6bit.net, //20130917, //src/core/arm/skyeye_common/armemu.h, //92
+ASSIGNN, //9, //2, //ShizZy, //shizzy@6bit.net, //20130917, //src/core/arm/skyeye_common/armemu.h, //82
+ASSIGNV, //5, //2, //ShizZy, //shizzy@6bit.net, //20130917, //src/core/arm/skyeye_common/armemu.h, //97
+LOADMULT, //8, //7, //ShizZy, //shizzy@6bit.net, //20130917, //src/core/arm/skyeye_common/armemu.h, //451
+LOADSMULT, //8, //7, //ShizZy, //shizzy@6bit.net, //20130917, //src/core/arm/skyeye_common/armemu.h, //452
+SETABORT, //8, //4, //ShizZy, //shizzy@6bit.net, //20130917, //src/core/arm/skyeye_common/armemu.h, //202
+STOREMULT, //8, //7, //ShizZy, //shizzy@6bit.net, //20130917, //src/core/arm/skyeye_common/armemu.h, //453
+STORESMULT, //8, //7, //ShizZy, //shizzy@6bit.net, //20130917, //src/core/arm/skyeye_common/armemu.h, //454
+LOG_CRITICAL, //12, //2, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141028, //src/common/logging/log.h, //115
+LOG_INFO, //17, //6, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141028, //src/common/logging/log.h, //112
+SCOPE_EXIT, //3, //2, //Yuri Kunde Schlesner, //yuriks@yuriks.net, //20141102, //src/common/scope_exit.h, //37
+BITS, //524, //14, //bunnei, //bunneidev@gmail.com, //20140912, //src/core/arm/dyncom/arm_dyncom_interpreter.cpp, //46
+BIT, //194, //8, //bunnei, //bunneidev@gmail.com, //20140912, //src/core/arm/dyncom/arm_dyncom_interpreter.cpp, //47
+INC_PC, //124, //56, //bunnei, //bunneidev@gmail.com, //20140912, //src/core/arm/dyncom/arm_dyncom_interpreter.cpp, //3680
+ROTATE_RIGHT_32, //16, //4, //bunnei, //bunneidev@gmail.com, //20140912, //src/core/arm/dyncom/arm_dyncom_interpreter.cpp, //55
+UPDATE_CFLAG_NOT_BORROW_FROM, //5, //3, //bunnei, //bunneidev@gmail.com, //20140912, //src/core/arm/dyncom/arm_dyncom_interpreter.cpp, //3896
+
+function implemented with void*, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+Pica::DebugContext::BreakPointObserver::OnPicaBreakPointHit, //0, //0, //Tony Wasserka, //neobrainx@gmail.com, //20141025, //src/video_core/debug_utils/debug_utils.h, //70
+BreakPointObserverDock::OnPicaBreakPointHit, //0, //0, //Tony Wasserka, //neobrainx@gmail.com, //20141026, //src/citra_qt/debugger/graphics_framebuffer.cpp, //34
+MemArena::CreateView, //2, //1, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/mem_arena.cpp, //175
+MemArena::ReleaseView, //4, //1, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/mem_arena.cpp, //208
+Pica::DebugContext::OnEvent, //5, //1, //Tony Wasserka, //neobrainx@gmail.com, //20141025, //src/video_core/debug_utils/debug_utils.cpp, //33
+FreeAlignedMemory, //0, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/memory_util.cpp, //141
+FreeMemoryPages, //0, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/memory_util.cpp, //125
+UnWriteProtectMemory, //0, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/memory_util.cpp, //164
+WriteProtectMemory, //0, //0, //ShizZy, //shizzy@6bit.net, //20130904, //src/common/memory_util.cpp, //153
+FileUtil::IOFile::ReadBytes, //17, //1, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/common/file_util.h, //199
+ElfReader::ElfReader, //1, //1, //bunnei, //bunneidev@gmail.com, //20140616, //src/core/loader/elf.cpp, //230
+SVC::GetResourceLimitCurrentValues, //0, //0, //Lioncash, //mathew1800@gmail.com, //20141116, //src/core/hle/svc.cpp, //213
+SVC::QueryMemory, //0, //0, //Lioncash, //mathew1800@gmail.com, //20141116, //src/core/hle/svc.cpp, //306
+GraphicsFramebufferWidget::OnBreakPointHit, //0, //0, //Tony Wasserka, //neobrainx@gmail.com, //20141026, //src/citra_qt/debugger/graphics_framebuffer.cpp, //133
+FileUtil::IOFile::WriteBytes, //3, //1, //Emmanuel Gil Peyrot, //linkmauve@linkmauve.fr, //20140912, //src/common/file_util.h, //204
+GraphicsBreakPointsWidget::OnBreakPointHit, //0, //0, //Tony Wasserka, //neobrainx@gmail.com, //20141025, //src/citra_qt/debugger/graphics_breakpoints.cpp, //211
+GraphicsBreakPointsWidget::OnPicaBreakPointHit, //0, //0, //Tony Wasserka, //neobrainx@gmail.com, //20141025, //src/citra_qt/debugger/graphics_breakpoints.cpp, //205
+PointerWrap::DoVoid, //2, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //195
+PointerWrap::ExpectVoid, //2, //1, //ShizZy, //shizzy@6bit.net, //20130919, //src/common/chunk_file.h, //175
+cmp, //0, //0, //bunnei, //bunneidev@gmail.com, //20141229, //src/core/arm/dyncom/arm_dyncom_interpreter.cpp, //3622
+

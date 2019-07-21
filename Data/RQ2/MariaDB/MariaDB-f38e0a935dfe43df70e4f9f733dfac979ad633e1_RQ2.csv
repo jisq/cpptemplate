@@ -1,0 +1,140 @@
+function template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+
+generic function-like macro, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+DBUG_PRINT, //258, //38, //bk@work.mysql.com, //, //20000731, //include/my_dbug.h, //53
+DBUG_RETURN, //1142, //65, //bk@work.mysql.com, //, //20000731, //include/my_dbug.h, //49
+MYF, //690, //11, //monty@hundin.mysql.fi, //, //20010915, //include/my_global.h, //835
+DBUG_DUMP, //3, //3, //bk@work.mysql.com, //, //20000731, //include/my_dbug.h, //61
+LINT_INIT, //52, //19, //monty@hundin.mysql.fi, //, //20010915, //include/my_global.h, //366
+set_if_bigger, //26, //6, //serg@serg.mylan, //, //20040217, //include/my_global.h, //387
+uint2korr, //82, //13, //monty@hundin.mysql.fi, //, //20010915, //include/my_global.h, //985
+DBUG_ASSERT, //438, //20, //monty@hundin.mysql.fi, //, //20010908, //include/my_dbug.h, //68
+test, //65, //25, //monty@hundin.mysql.fi, //, //20010915, //include/my_global.h, //386
+ER, //161, //100, //monty@hundin.mysql.fi, //, //20010601, //sql/unireg.h, //40
+ALIGN_SIZE, //28, //8, //monty@hundin.mysql.fi, //, //20010915, //include/my_global.h, //692
+my_pthread_setspecific_ptr, //17, //3, //bk@work.mysql.com, //, //20000731, //include/my_pthread.h, //264
+rw_rdlock, //7, //2, //bk@work.mysql.com, //, //20000731, //include/my_pthread.h, //583
+rw_unlock, //17, //2, //bk@work.mysql.com, //, //20000731, //include/my_pthread.h, //587
+rw_wrlock, //7, //2, //bk@work.mysql.com, //, //20000731, //include/my_pthread.h, //584
+my_isdigit, //42, //7, //monty@mysql.com, //, //20040318, //include/m_ctype.h, //371
+my_isspace, //57, //7, //monty@mysql.com, //, //20040318, //include/m_ctype.h, //374
+array_elements, //29, //13, //monty@hundin.mysql.fi, //, //20010915, //include/my_global.h, //391
+x_free, //26, //7, //bk@work.mysql.com, //, //20000731, //sql/mysql_priv.h, //62
+my_strcasecmp, //59, //12, //bar@bar.mysql.r18.ru, //, //20030523, //include/m_ctype.h, //391
+my_strntod, //11, //3, //bar@bar.mysql.r18.ru, //, //20030523, //include/m_ctype.h, //409
+my_afree, //4, //3, //bk@work.mysql.com, //, //20000731, //include/my_sys.h, //173
+my_alloca, //3, //2, //bk@work.mysql.com, //, //20000731, //include/my_sys.h, //172
+DBUG_EXECUTE, //12, //4, //bk@work.mysql.com, //, //20000731, //include/my_dbug.h, //51
+DBUG_PUSH, //4, //2, //bk@work.mysql.com, //, //20000731, //include/my_dbug.h, //55
+hash_init, //15, //10, //bar@gw.udmsearch.izhnet.ru, //, //20020416, //include/hash.h, //44
+hash_inited, //2, //2, //bk@work.mysql.com, //, //20000731, //include/hash.h, //60
+my_b_tell, //27, //2, //bk@work.mysql.com, //, //20000731, //include/my_sys.h, //485
+get_object, //3, //3, //sasha@mysql.sashanet.com, //, //20011110, //sql/repl_failsafe.cc, //113
+dynamic_element, //23, //3, //bk@work.mysql.com, //, //20000731, //include/my_sys.h, //697
+flush_io_cache, //17, //2, //monty@mysql.com, //, //20040310, //include/my_sys.h, //668
+my_b_inited, //10, //2, //bk@work.mysql.com, //, //20000731, //include/my_sys.h, //456
+my_init_dynamic_array, //9, //7, //serg@serg.mysql.com, //, //20020428, //include/my_sys.h, //684
+push_dynamic, //7, //4, //bk@work.mysql.com, //, //20000731, //include/my_sys.h, //698
+longlong2str, //4, //3, //bk@work.mysql.com, //, //20000731, //include/m_string.h, //239
+longlong10_to_str, //18, //7, //bk@work.mysql.com, //, //20000731, //include/m_string.h, //240
+int2store, //78, //22, //monty@hundin.mysql.fi, //, //20010915, //include/my_global.h, //1008
+int3store, //28, //12, //monty@hundin.mysql.fi, //, //20010915, //include/my_global.h, //1011
+int4store, //98, //19, //monty@hundin.mysql.fi, //, //20010915, //include/my_global.h, //1016
+int8store, //16, //4, //monty@hundin.mysql.fi, //, //20010915, //include/my_global.h, //1025
+set_if_smaller, //18, //5, //serg@serg.mylan, //, //20040217, //include/my_global.h, //388
+my_casedn_str, //19, //5, //bar@bar.mysql.r18.ru, //, //20030523, //include/m_ctype.h, //404
+test_all_bits, //11, //6, //monty@hundin.mysql.fi, //, //20010915, //include/my_global.h, //389
+my_toupper, //13, //4, //bar@gw.udmsearch.izhnet.ru, //, //20020306, //include/m_ctype.h, //366
+f_settype, //7, //6, //bk@work.mysql.com, //, //20000731, //sql/field.h, //1237
+my_strnncoll, //20, //7, //bar@bar.mysql.r18.ru, //, //20030523, //include/m_ctype.h, //387
+my_isalpha, //5, //3, //monty@mysql.com, //, //20040318, //include/m_ctype.h, //368
+DB_ERROR, //137, //2, //tim@threads.polyesthetic.msg, //, //20010304, //bdb/dbinc/cxx_int.h, //69
+my_strnxfrm, //5, //4, //bar@bar.mysql.r18.ru, //, //20030523, //include/m_ctype.h, //386
+longstore, //13, //2, //monty@hundin.mysql.fi, //, //20010915, //include/my_global.h, //1135
+query_cache_invalidate3, //20, //2, //bell@sanja.is.com.ua, //, //20020322, //sql/mysql_priv.h, //379
+simple_command, //4, //4, //hf@deer.(none), //, //20030619, //include/mysql.h, //700
+my_reinterpret_cast, //4, //3, //monty@hundin.mysql.fi, //, //20010915, //include/my_global.h, //404
+unlikely, //18, //7, //sasha@mysql.sashanet.com, //, //20020126, //include/my_global.h, //90
+my_ispunct, //3, //2, //monty@mysql.com, //, //20040318, //include/m_ctype.h, //375
+PUSH, //6, //2, //bk@work.mysql.com, //, //20000731, //sql/sql_load.cc, //715
+shortget, //8, //5, //monty@hundin.mysql.fi, //, //20010915, //include/my_global.h, //1131
+shortstore, //6, //3, //monty@hundin.mysql.fi, //, //20010915, //include/my_global.h, //1134
+IF_WIN, //4, //2, //bk@work.mysql.com, //, //20000731, //sql/mysql_priv.h, //155
+CHK, //11, //2, //ram@mysql.r18.ru, //, //20021030, //bdb/test/scr015/TestConstruct01.cpp, //47
+DEBUGOUT, //2, //2, //ram@mysql.r18.ru, //, //20021030, //bdb/test/scr015/TestConstruct01.cpp, //58
+
+function implemented with void*, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+yylex, //0, //0, //pem@mysql.com, //, //20021130, //sql/sql_lex.cc, //455
+Sql_alloc::operator delete, //39, //1, //serg@serg.mylan, //, //20040130, //sql/sql_list.h, //43
+compare_double2, //0, //0, //sasha@mysql.sashanet.com, //, //20010510, //sql/sql_analyse.cc, //47
+compare_longlong2, //0, //0, //sasha@mysql.sashanet.com, //, //20010510, //sql/sql_analyse.cc, //53
+compare_ulonglong2, //0, //0, //sasha@mysql.sashanet.com, //, //20010510, //sql/sql_analyse.cc, //59
+sortcmp2, //0, //0, //sasha@mysql.sashanet.com, //, //20010510, //sql/sql_analyse.cc, //41
+Log_event::operator delete, //13, //1, //sasha@mysql.sashanet.com, //, //20001211, //sql/log_event.h, //394
+ilink::operator delete, //19, //1, //sasha@mysql.sashanet.com, //, //20010324, //sql/sql_list.h, //311
+handle_failsafe_rpl, //0, //0, //sasha@mysql.sashanet.com, //, //20011023, //sql/repl_failsafe.cc, //581
+slave_info_free, //0, //0, //monty@hundin.mysql.fi, //, //20021107, //sql/repl_failsafe.cc, //206
+handle_manager, //0, //0, //monty@butch., //, //20021107, //sql/sql_manager.cc, //35
+NTService::Init, //0, //0, //bk@work.mysql.com, //, //20000731, //sql/nt_servc.cc, //83
+Item::operator delete, //4, //1, //bk@work.mysql.com, //, //20000731, //sql/item.h, //94
+thread_info::operator delete, //0, //0, //bk@work.mysql.com, //, //20000731, //sql/sql_show.cc, //1472
+Field::operator delete, //2, //1, //serg@serg.mylan, //, //20030611, //sql/field.h, //40
+sql_memdup, //2, //1, //bk@work.mysql.com, //, //20000731, //sql/thr_malloc.cc, //78
+handle_delayed_insert, //0, //0, //monty@hundin.mysql.fi, //, //20021107, //sql/sql_insert.cc, //1047
+composite_key_cmp, //0, //0, //sasha@mysql.sashanet.com, //, //20010511, //sql/item_sum.cc, //1063
+group_concat_key_cmp_with_distinct, //1, //1, //wax@kishkin.ru, //, //20030531, //sql/item_sum.cc, //1509
+group_concat_key_cmp_with_distinct_and_order, //0, //0, //wax@kishkin.ru, //, //20030531, //sql/item_sum.cc, //1571
+group_concat_key_cmp_with_order, //1, //1, //wax@kishkin.ru, //, //20030531, //sql/item_sum.cc, //1540
+simple_raw_key_cmp, //0, //0, //bar@bar.mysql.r18.ru, //, //20021219, //sql/item_sum.cc, //1041
+simple_str_key_cmp, //0, //0, //bar@bar.mysql.r18.ru, //, //20021219, //sql/item_sum.cc, //1046
+Geometry::Class_info::Class_info, //7, //1, //hf@deer.(none), //, //20040312, //sql/spatial.cc, //30
+Geometry::operator new, //7, //1, //hf@deer.(none), //, //20040315, //sql/spatial.h, //160
+create_geometrycollection, //0, //0, //hf@deer.(none), //, //20040312, //sql/spatial.cc, //67
+create_linestring, //0, //0, //hf@deer.(none), //, //20040312, //sql/spatial.cc, //42
+create_multilinestring, //0, //0, //hf@deer.(none), //, //20040312, //sql/spatial.cc, //62
+create_multipoint, //0, //0, //hf@deer.(none), //, //20040312, //sql/spatial.cc, //52
+create_multipolygon, //0, //0, //hf@deer.(none), //, //20040312, //sql/spatial.cc, //57
+create_point, //0, //0, //hf@deer.(none), //, //20040312, //sql/spatial.cc, //37
+create_polygon, //0, //0, //hf@deer.(none), //, //20040312, //sql/spatial.cc, //47
+Dbt::Dbt, //15, //1, //ram@mysql.r18.ru, //, //20021030, //bdb/cxx/cxx_dbt.cpp, //34
+String::operator delete, //0, //0, //bk@work.mysql.com, //, //20000731, //client/sql_string.h, //71
+Item_func_set_user_var::update_hash, //3, //1, //monty@narttu.mysql.fi, //, //20031007, //sql/item_func.cc, //2284
+READ_INFO::set_io_cache_arg, //1, //1, //sasha@mysql.sashanet.com, //, //20010803, //sql/sql_load.cc, //71
+Sql_alloc::operator delete[], //5, //1, //serg@serg.mylan, //, //20040130, //sql/sql_list.h, //44
+Unique::Unique, //0, //0, //Sinisa@sinisa.nasamreza.org, //, //20010603, //sql/uniques.cc, //57
+cmp_double, //0, //0, //bar@bar.mysql.r18.ru, //, //20030627, //sql/item_cmpfunc.cc, //1340
+cmp_longlong, //0, //0, //bar@bar.mysql.r18.ru, //, //20030627, //sql/item_cmpfunc.cc, //1335
+cmp_row, //0, //0, //bar@bar.mysql.r18.ru, //, //20030627, //sql/item_cmpfunc.cc, //1345
+COND_CMP::operator delete, //0, //0, //bk@work.mysql.com, //, //20000731, //sql/sql_select.cc, //4173
+DbEnv::set_app_private, //0, //0, //ram@mysql.r18.ru, //, //20021030, //bdb/cxx/cxx_env.cpp, //592
+DbEnv::set_rpc_server, //0, //0, //ram@mysql.r18.ru, //, //20021030, //bdb/cxx/cxx_env.cpp, //657
+handle_slave_io, //0, //0, //monty@butch., //, //20021107, //sql/slave.cc, //2795
+handle_slave_sql, //0, //0, //monty@butch., //, //20021107, //sql/slave.cc, //3098
+safe_sleep, //3, //1, //sasha@mysql.sashanet.com, //, //20020308, //sql/slave.cc, //2434
+refposcmp2, //0, //0, //monty@hundin.mysql.fi, //, //20021107, //sql/sql_delete.cc, //255
+sql_element_free, //0, //0, //bk@work.mysql.com, //, //20000731, //sql/thr_malloc.cc, //86
+String::operator delete, //0, //0, //bk@work.mysql.com, //, //20000731, //sql/sql_string.h, //74
+handle_bootstrap, //0, //0, //monty@butch., //, //20021107, //sql/sql_parse.cc, //1058
+handle_one_connection, //1, //1, //bk@work.mysql.com, //, //20000731, //sql/sql_parse.cc, //930
+handle_connections_sockets, //1, //1, //monty@mashka.mysql.fi, //, //20030123, //sql/mysqld.cc, //3075
+kill_server, //1, //1, //bk@work.mysql.com, //, //20000731, //sql/mysqld.cc, //778
+sql_element_free, //1, //1, //bk@work.mysql.com, //, //20000731, //client/mysql.cc, //3305
+signal_hand, //0, //0, //monty@hundin.mysql.fi, //, //20021107, //sql/mysqld.cc, //1745
+Db::set_app_private, //0, //0, //ram@mysql.r18.ru, //, //20021030, //bdb/cxx/cxx_db.cpp, //587
+Db::set_h_hash, //0, //0, //ram@mysql.r18.ru, //, //20021030, //bdb/cxx/cxx_db.cpp, //494
+Db::stat, //0, //0, //ram@mysql.r18.ru, //, //20021030, //bdb/cxx/cxx_db.cpp, //364
+_db_h_hash_intercept_c, //0, //0, //ram@mysql.r18.ru, //, //20021030, //bdb/cxx/cxx_db.cpp, //490
+_verify_callback_c, //0, //0, //ram@mysql.r18.ru, //, //20021030, //bdb/cxx/cxx_db.cpp, //503
+base_list::after, //1, //1, //bk@work.mysql.com, //, //20000731, //sql/sql_list.h, //155
+base_list::push_back, //1, //1, //bk@work.mysql.com, //, //20000731, //sql/sql_list.h, //104
+base_list::push_front, //1, //1, //bk@work.mysql.com, //, //20000731, //sql/sql_list.h, //114
+base_list_iterator::after, //1, //1, //bk@work.mysql.com, //, //20000731, //sql/sql_list.h, //227
+base_list_iterator::replace, //2, //1, //monty@tik.mysql.fi, //, //20010802, //sql/sql_list.h, //200
+list_node::list_node, //3, //1, //monty@tik.mysql.fi, //, //20010802, //sql/sql_list.h, //72
+delete_statement_as_hash_key, //0, //0, //konstantin@oak.local, //, //20031220, //sql/sql_class.cc, //1280
+string_ptr_cmp, //0, //0, //monty@mysql.com, //, //20031128, //sql/sql_help.cc, //527
+st_select_lex_node::operator delete, //0, //0, //bell@sanja.is.com.ua, //, //20021030, //sql/sql_lex.h, //248
+DbMpoolFile::get, //0, //0, //ram@mysql.r18.ru, //, //20021030, //bdb/cxx/cxx_mpool.cpp, //87
+DbMpoolFile::put, //0, //0, //ram@mysql.r18.ru, //, //20021030, //bdb/cxx/cxx_mpool.cpp, //93
+DbMpoolFile::set, //0, //0, //ram@mysql.r18.ru, //, //20021030, //bdb/cxx/cxx_mpool.cpp, //96
+

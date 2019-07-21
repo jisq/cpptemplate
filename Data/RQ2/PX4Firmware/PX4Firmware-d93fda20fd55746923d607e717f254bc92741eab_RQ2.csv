@@ -1,0 +1,42 @@
+function template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+
+generic function-like macro, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+USEC2TICK, //12, //3, //px4dev, //px4@purgatory.org, //20120804, //nuttx/include/nuttx/clock.h, //113
+debug, //20, //6, //px4dev, //px4@purgatory.org, //20120811, //apps/systemlib/mixer/mixer_group.cpp, //56
+INCREMENT, //4, //2, //px4dev, //px4@purgatory.org, //20120804, //apps/drivers/ms5611/ms5611.cpp, //232
+POW2, //3, //2, //px4dev, //px4@purgatory.org, //20120901, //apps/drivers/ms5611/ms5611.cpp, //235
+
+function implemented with void*, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+orb_advertise, //18, //1, //px4dev, //px4@purgatory.org, //20120804, //apps/uORB/uORB.cpp, //922
+orb_copy, //14, //1, //px4dev, //px4@purgatory.org, //20120804, //apps/uORB/uORB.cpp, //965
+orb_publish, //14, //2, //px4dev, //px4@purgatory.org, //20120821, //apps/uORB/uORB.cpp, //959
+operator delete, //69, //1, //patacongo, //patacongo@42af7a65-404d-4744-a932-0658087f49c3, //20111219, //nuttx/libxx/libxx_delete.cxx, //59
+px::RGBDImage::set_imagedata1, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //mavlink/share/pyshared/pymavlink/generator/C/include_v1.0/pixhawk/pixhawk.pb.h, //3105
+px::ObstacleMap::set_data, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //mavlink/share/pyshared/pymavlink/generator/C/include_v1.0/pixhawk/pixhawk.pb.h, //2568
+mav_array_memcpy, //67, //11, //px4dev, //px4@purgatory.org, //20120804, //mavlink/include/mavlink/v1.0/protocol.h, //163
+px::RGBDImage::set_imagedata1, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //mavlink/include/mavlink/v1.0/pixhawk/pixhawk.pb.h, //3105
+mav_array_memcpy, //3, //1, //px4dev, //px4@purgatory.org, //20120804, //mavlink/share/pyshared/pymavlink/generator/C/include_v0.9/protocol.h, //159
+HMC5883::cycle_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20120821, //apps/drivers/hmc5883/hmc5883.cpp, //693
+operator delete[], //9, //1, //patacongo, //patacongo@42af7a65-404d-4744-a932-0658087f49c3, //20111219, //nuttx/libxx/libxx_deletea.cxx, //59
+MS5611::cycle_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //apps/drivers/ms5611/ms5611.cpp, //567
+BlinkM::monitor_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20121201, //apps/drivers/blinkm/blinkm.cpp, //253
+px::RGBDImage::set_imagedata2, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //mavlink/share/pyshared/pymavlink/generator/C/include_v1.0/pixhawk/pixhawk.pb.h, //3207
+px::GLOverlay::set_data, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //mavlink/share/pyshared/pymavlink/generator/C/include_v1.0/pixhawk/pixhawk.pb.h, //2107
+MPU6000::measure_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20120813, //apps/drivers/mpu6000/mpu6000.cpp, //806
+utarray_str_cpy, //0, //0, //px4dev, //px4@purgatory.org, //20120819, //apps/systemlib/uthash/utarray.h, //220
+utarray_str_dtor, //0, //0, //px4dev, //px4@purgatory.org, //20120819, //apps/systemlib/uthash/utarray.h, //224
+L3GD20::measure_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20120827, //apps/drivers/l3gd20/l3gd20.cpp, //640
+__aeabi_atexit, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //nuttx/libxx/libxx_eabi_atexit.cxx, //78
+px::RGBDImage::set_imagedata2, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //mavlink/include/mavlink/v1.0/pixhawk/pixhawk.pb.h, //3207
+mav_array_memcpy, //55, //22, //px4dev, //px4@purgatory.org, //20120804, //mavlink/share/pyshared/pymavlink/generator/C/include_v1.0/protocol.h, //159
+px::GLOverlay::set_data, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //mavlink/include/mavlink/v1.0/pixhawk/pixhawk.pb.h, //2107
+px::ObstacleMap::set_data, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //mavlink/include/mavlink/v1.0/pixhawk/pixhawk.pb.h, //2568
+ADC::_tick_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20121231, //apps/drivers/stm32/adc/adc.cpp, //283
+BMA180::measure_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //apps/drivers/bma180/bma180.cpp, //670
+PX4IO::rx_callback_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //apps/drivers/px4io/px4io.cpp, //444
+device::interrupt, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //apps/drivers/device/device.cpp, //214
+ORBDevNode::publish, //1, //1, //px4dev, //px4@purgatory.org, //20120821, //apps/uORB/uORB.cpp, //372
+ORBDevNode::update_deferred_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20120804, //apps/uORB/uORB.cpp, //505
+node_open, //2, //1, //px4dev, //px4@purgatory.org, //20120804, //apps/uORB/uORB.cpp, //864
+ToneAlarm::next_trampoline, //0, //0, //px4dev, //px4@purgatory.org, //20121021, //apps/drivers/stm32/tone_alarm/tone_alarm.cpp, //497
+

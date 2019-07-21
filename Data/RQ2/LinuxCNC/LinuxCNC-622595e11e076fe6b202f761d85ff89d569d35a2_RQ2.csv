@@ -1,0 +1,80 @@
+function template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+DLSYM, //2, //1, //Jeff Epler, //jepler@unpythonic.net, //20061001, //src/rtapi/sim_rtapi_app.cc, //50
+DLSYM, //3, //1, //Jeff Epler, //jepler@unpythonic.net, //20061001, //src/rtapi/sim_rtapi_app.cc, //54
+
+generic function-like macro, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+CHKS, //513, //147, //Jeff Epler, //jepler@unpythonic.net, //20090403, //src/emc/rs274ngc/interp_internal.hh, //557
+CHP, //243, //14, //Jeff Epler, //jepler@unpythonic.net, //20090403, //src/emc/rs274ngc/interp_internal.hh, //575
+ERS, //632, //63, //Jeff Epler, //jepler@unpythonic.net, //20090403, //src/emc/rs274ngc/interp_internal.hh, //520
+toCart, //127, //3, //Paul Corner, //paul_c@users.sourceforge.net, //20040125, //src/libnml/posemath/posemath.h, //922
+toHom, //4, //3, //Paul Corner, //paul_c@users.sourceforge.net, //20040125, //src/libnml/posemath/posemath.h, //942
+toMat, //19, //3, //Paul Corner, //paul_c@users.sourceforge.net, //20040125, //src/libnml/posemath/posemath.h, //932
+toPose, //24, //4, //Paul Corner, //paul_c@users.sourceforge.net, //20040125, //src/libnml/posemath/posemath.h, //940
+toQuat, //56, //3, //Paul Corner, //paul_c@users.sourceforge.net, //20040125, //src/libnml/posemath/posemath.h, //928
+toRot, //5, //2, //Paul Corner, //paul_c@users.sourceforge.net, //20040125, //src/libnml/posemath/posemath.h, //930
+round_to_int, //31, //2, //John Kasunich, //jmkasunich@fastmail.fm, //20050504, //src/emc/rs274ngc/interp_internal.hh, //40
+CYCLE_MACRO, //60, //3, //John Kasunich, //jmkasunich@fastmail.fm, //20050504, //src/emc/rs274ngc/interp_internal.hh, //584
+CLOSE, //30, //5, //Eric H. Johnson, //ejohnson@camalytics.com, //20070220, //src/emc/usr_intf/shcom.hh, //23
+ENUMX, //52, //16, //Jeff Epler, //jepler@unpythonic.net, //20060809, //src/emc/usr_intf/axis/extensions/emcmodule.cc, //2101
+logDebug, //119, //33, //Jeff Epler, //jepler@unpythonic.net, //20071109, //src/emc/rs274ngc/rs274ngc.hh, //58
+FROM_PROG_ANG, //19, //2, //Alex Joni, //alex_joni@users.sourceforge.net, //20070805, //src/emc/task/emccanon.cc, //90
+FROM_PROG_LEN, //47, //2, //Alex Joni, //alex_joni@users.sourceforge.net, //20070805, //src/emc/task/emccanon.cc, //89
+TO_EXT_LEN, //62, //2, //Alex Joni, //alex_joni@users.sourceforge.net, //20070805, //src/emc/task/emccanon.cc, //77
+PRINT1, //22, //6, //Jeff Epler, //jepler@unpythonic.net, //20070227, //src/emc/sai/saicanon.cc, //145
+PRINT2, //2, //2, //Jeff Epler, //jepler@unpythonic.net, //20070227, //src/emc/sai/saicanon.cc, //150
+setresult, //332, //4, //Jeff Epler, //jepler@unpythonic.net, //20101013, //src/emc/usr_intf/emcsh.cc, //38
+
+function implemented with void*, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+emcFormat, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040125, //src/emc/nml_intf/emc.cc, //47
+clear_bit, //0, //0, //Jeff Epler, //jepler@unpythonic.net, //20070601, //src/rtapi/rtapi_bitops.h, //156
+constant_test_bit, //0, //0, //Jeff Epler, //jepler@unpythonic.net, //20070601, //src/rtapi/rtapi_bitops.h, //165
+set_bit, //0, //0, //Jeff Epler, //jepler@unpythonic.net, //20070601, //src/rtapi/rtapi_bitops.h, //137
+variable_test_bit, //0, //0, //Jeff Epler, //jepler@unpythonic.net, //20070601, //src/rtapi/rtapi_bitops.h, //170
+LinkedList::store_after_current_node, //2, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20050626, //src/libnml/linklist/linklist.cc, //367
+LinkedList::store_at_head, //1, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040125, //src/libnml/linklist/linklist.cc, //199
+LinkedList::store_at_tail, //22, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040125, //src/libnml/linklist/linklist.cc, //280
+LinkedList::store_before_current_node, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040125, //src/libnml/linklist/linklist.cc, //486
+LinkedListNode::LinkedListNode, //9, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20031031, //src/libnml/linklist/linklist.cc, //25
+readClient, //0, //0, //Eric H. Johnson, //ejohnson@camalytics.com, //20060902, //src/emc/usr_intf/emcrsh.cc, //2631
+RCS_TIMER::RCS_TIMER, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040125, //src/libnml/os_intf/timer.cc, //90
+NML::operator delete, //66, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/nml/nml.cc, //121
+PHYSMEM_HANDLE::set_to_ptr, //2, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/buffer/physmem.cc, //70
+SHMEM::main_access, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/buffer/shmem.cc, //454
+CMS::internal_access, //2, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cms_in.cc, //55
+CMS::main_access, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cms.cc, //886
+CMS::operator delete, //12, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cms.cc, //102
+CMS::write, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cms.cc, //1030
+CMS::write_if_read, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cms.cc, //1038
+NML::peek, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/nml/nml.cc, //1278
+NML::read, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/nml/nml.cc, //1257
+NML::run_format_chain, //4, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/nml/nml.cc, //1948
+CMS::calculate_and_store_diag_info, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cmsdiag.cc, //102
+CMS::internal_access, //1, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cms_in.cc, //81
+CMS::internal_retrieve_diag_info, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cmsdiag.cc, //229
+CMS::queue_write_if_read_raw, //1, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cms_in.cc, //1827
+CMS::queue_write_raw, //1, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cms_in.cc, //1402
+CMS::set_encoded_data, //2, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cms.cc, //832
+CMS::write_if_read_raw, //1, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cms_in.cc, //1752
+CMS::write_raw, //1, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cms_in.cc, //1325
+RCS_STAT_MSG_format, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/nml/stat_msg.cc, //38
+TCPMEM::write, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040126, //src/libnml/buffer/tcpmem.cc, //1442
+TCPMEM::write_if_read, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040126, //src/libnml/buffer/tcpmem.cc, //1568
+PHANTOMMEM::main_access, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/buffer/phantom.cc, //26
+PHYSMEM_HANDLE::read, //46, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/buffer/physmem.cc, //83
+PHYSMEM_HANDLE::write, //33, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/buffer/physmem.cc, //134
+CMS_UPDATER::set_encoded_data, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cms_up.cc, //124
+CMS_XDR_UPDATER::set_encoded_data, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/cms/cms_xup.cc, //180
+nmlErrorFormat, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/nml/nml_oi.cc, //34
+LOCMEM::main_access, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/buffer/locmem.cc, //114
+set_common, //1, //1, //Chris Morley, //chrisinnanaimo@hotmail.com, //20110305, //src/hal/halmodule.cc, //785
+shm_buffer, //0, //0, //Jeff Epler, //jepler@unpythonic.net, //20070830, //src/hal/halmodule.cc, //946
+RCS_CMD_MSG_format, //0, //0, //Paul Corner, //paul_c@users.sourceforge.net, //20040101, //src/libnml/nml/cmd_msg.cc, //35
+do_comp_args, //1, //1, //Jeff Epler, //jepler@unpythonic.net, //20061001, //src/rtapi/sim_rtapi_app.cc, //134
+do_one_item, //2, //2, //Jeff Epler, //jepler@unpythonic.net, //20061015, //src/rtapi/sim_rtapi_app.cc, //91
+readClient, //0, //0, //Eric H. Johnson, //ejohnson@camalytics.com, //20090407, //src/emc/usr_intf/schedrmt.cc, //1151
+checkQueue, //0, //0, //Eric H. Johnson, //ejohnson@camalytics.com, //20090407, //src/emc/usr_intf/schedrmt.cc, //1142
+rtapi_shmem_getptr, //1, //1, //Jeff Epler, //jepler@unpythonic.net, //20061001, //src/rtapi/sim_common.h, //71
+test_and_clear_bit, //1, //1, //Jeff Epler, //jepler@unpythonic.net, //20070313, //src/rtapi/rtapi_bitops.h, //214
+test_and_set_bit, //2, //1, //Jeff Epler, //jepler@unpythonic.net, //20070313, //src/rtapi/rtapi_bitops.h, //195
+tcpsvr_handle_blocking_request, //1, //1, //Paul Corner, //paul_c@users.sourceforge.net, //20040126, //src/libnml/cms/tcp_srv.cc, //523
+

@@ -1,0 +1,31 @@
+function template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+
+generic function-like macro, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+clear_vector, //7, //4, //Arthur Wolf, //wolf.arthur@gmail.com, //20110920, //src/libs/nuts_bolts.h, //35
+
+function implemented with void*, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+Kernel::call_event, //9, //1, //Arthur Wolf, //wolf.arthur@gmail.com, //20110920, //src/libs/Kernel.cpp, //76
+Module::on_config_reload, //0, //0, //Arthur Wolf, //wolf.arthur@gmail.com, //20110929, //src/libs/Module.cpp, //29
+Planner::on_config_reload, //0, //0, //Arthur Wolf, //wolf.arthur@gmail.com, //20110929, //src/modules/robot/Planner.cpp, //28
+Module::on_gcode_execute, //0, //0, //Arthur Wolf, //wolf.arthur@gmail.com, //20110920, //src/libs/Module.cpp, //25
+Module::on_speed_change, //0, //0, //Arthur Wolf, //wolf.arthur@gmail.com, //20110920, //src/libs/Module.cpp, //26
+Laser::on_gcode_execute, //0, //0, //Arthur Wolf, //wolf.arthur@gmail.com, //20110920, //src/modules/tools/laser/Laser.cpp, //25
+Laser::on_speed_change, //0, //0, //Arthur Wolf, //wolf.arthur@gmail.com, //20110920, //src/modules/tools/laser/Laser.cpp, //38
+Module::on_block_begin, //0, //0, //Arthur Wolf, //wolf.arthur@gmail.com, //20110920, //src/libs/Module.cpp, //27
+Module::on_block_end, //0, //0, //Arthur Wolf, //wolf.arthur@gmail.com, //20110920, //src/libs/Module.cpp, //28
+Module::on_console_line_received, //0, //0, //Arthur Wolf, //wolf.arthur@gmail.com, //20110920, //src/libs/Module.cpp, //22
+Module::on_gcode_received, //0, //0, //Arthur Wolf, //wolf.arthur@gmail.com, //20110920, //src/libs/Module.cpp, //23
+Module::on_main_loop, //0, //0, //Arthur Wolf, //wolf.arthur@gmail.com, //20110920, //src/libs/Module.cpp, //21
+Module::on_stepper_wake_up, //0, //0, //Arthur Wolf, //wolf.arthur@gmail.com, //20110920, //src/libs/Module.cpp, //24
+SerialConsole::on_main_loop, //0, //0, //Arthur Wolf, //wolf.arthur@gmail.com, //20110920, //src/modules/communication/SerialConsole.cpp, //55
+GcodeDispatch::on_console_line_received, //0, //0, //Arthur Wolf, //wolf.arthur@gmail.com, //20110920, //src/modules/communication/GcodeDispatch.cpp, //24
+SimpleShell::on_console_line_received, //0, //0, //Arthur Wolf, //wolf.arthur@gmail.com, //20110927, //src/modules/utils/simpleshell/SimpleShell.cpp, //14
+Robot::on_config_reload, //0, //0, //Arthur Wolf, //wolf.arthur@gmail.com, //20110929, //src/modules/robot/Robot.cpp, //39
+Robot::on_gcode_received, //0, //0, //Arthur Wolf, //wolf.arthur@gmail.com, //20110920, //src/modules/robot/Robot.cpp, //47
+Config::on_console_line_received, //0, //0, //Arthur Wolf, //wolf.arthur@gmail.com, //20110927, //src/libs/Config.cpp, //25
+Extruder::on_block_begin, //0, //0, //Arthur Wolf, //wolf.arthur@gmail.com, //20110920, //src/modules/tools/extruder/Extruder.cpp, //53
+Extruder::on_block_end, //0, //0, //Arthur Wolf, //wolf.arthur@gmail.com, //20110920, //src/modules/tools/extruder/Extruder.cpp, //60
+Extruder::on_config_reload, //0, //0, //Arthur Wolf, //wolf.arthur@gmail.com, //20110929, //src/modules/tools/extruder/Extruder.cpp, //49
+Stepper::on_config_reload, //0, //0, //Arthur Wolf, //wolf.arthur@gmail.com, //20110929, //src/modules/robot/Stepper.cpp, //49
+Stepper::on_stepper_wake_up, //0, //0, //Arthur Wolf, //wolf.arthur@gmail.com, //20110920, //src/modules/robot/Stepper.cpp, //83
+

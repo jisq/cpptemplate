@@ -1,0 +1,42 @@
+function template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+icinga::Log::operator<<, //894, //1, //Gunnar Beutner, //gunnar@beutner.name, //20141019, //lib/base/logger.hpp, //128
+icinga::String::String, //9, //1, //Gunnar Beutner, //gunnar@beutner.name, //20120802, //lib/base/string.hpp, //76
+icinga::Convert::ToString, //21, //1, //Gunnar Beutner, //gunnar@beutner.name, //20131108, //lib/base/convert.hpp, //78
+icinga::Convert::ToLong, //51, //1, //Gunnar Beutner, //gunnar@beutner.name, //20131108, //lib/base/convert.hpp, //39
+icinga::TroubleshootCommand::InfoLogLine::operator<<, //133, //1, //Jean-Marcel Flach, //jean-marcel.flach@netways.de, //20150219, //lib/cli/troubleshootcommand.cpp, //130
+icinga::Convert::ToDouble, //16, //1, //Gunnar Beutner, //gunnar@beutner.name, //20131108, //lib/base/convert.hpp, //51
+icinga::StatusDataWriter::DumpNameList, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20130317, //lib/compat/statusdatawriter.hpp, //65
+icinga::StatusDataWriter::DumpStringList, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20130317, //lib/compat/statusdatawriter.hpp, //81
+icinga::DynamicType::GetObjectsByType, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20140902, //lib/base/dynamictype.hpp, //54
+icinga::Value::Get, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20141111, //lib/base/value.hpp, //242
+icinga::ExpressionResult::ExpressionResult, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20150219, //lib/config/expression.hpp, //151
+icinga::Value::Value, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20141108, //lib/base/value.hpp, //101
+icinga::FunctionWrapperR, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20150121, //lib/base/functionwrapper.hpp, //38
+icinga::String::insert, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20130310, //lib/base/string.hpp, //226
+
+generic function-like macro, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+VERIFY, //18, //4, //Gunnar Beutner, //gunnar@beutner.name, //20130828, //lib/base/debug.hpp, //31
+ASSERT, //94, //3, //Gunnar Beutner, //gunnar@beutner.name, //20130828, //lib/base/debug.hpp, //26
+
+function implemented with void*, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+icinga::Socket::Read, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20130404, //lib/base/socket.cpp, //291
+icinga::Socket::Write, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20130404, //lib/base/socket.cpp, //263
+icinga::StdioStream::Read, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20150214, //lib/base/stdiostream.cpp, //41
+icinga::StdioStream::Write, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20121123, //lib/base/stdiostream.cpp, //49
+DecodeBoolean, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20141026, //lib/base/json.cpp, //224
+DecodeEndMapOrArray, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20150302, //lib/base/json.cpp, //281
+DecodeNull, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20141026, //lib/base/json.cpp, //210
+DecodeNumber, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20141028, //lib/base/json.cpp, //238
+DecodeStartArray, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20141026, //lib/base/json.cpp, //295
+DecodeStartMap, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20141026, //lib/base/json.cpp, //267
+DecodeString, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20141028, //lib/base/json.cpp, //253
+icinga::Utility::GetSymbolName, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20140323, //lib/base/utility.cpp, //101
+icinga::Utility::NullDeleter, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20120807, //lib/base/utility.cpp, //227
+icinga::FIFO::Peek, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20150213, //lib/base/fifo.cpp, //81
+icinga::FIFO::Read, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20150214, //lib/base/fifo.cpp, //95
+icinga::FIFO::Write, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20120716, //lib/base/fifo.cpp, //116
+icinga::NetworkStream::Read, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20150214, //lib/base/networkstream.cpp, //41
+icinga::NetworkStream::Write, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20130404, //lib/base/networkstream.cpp, //71
+icinga::TlsStream::Read, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20150214, //lib/base/tlsstream.cpp, //266
+icinga::TlsStream::Write, //0, //0, //Gunnar Beutner, //gunnar@beutner.name, //20150213, //lib/base/tlsstream.cpp, //279
+

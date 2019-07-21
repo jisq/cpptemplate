@@ -1,0 +1,33 @@
+function template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+QuaZipDirPrivate::entryInfoList, //0, //0, //Petr Mrázek, //peterix@gmail.com, //20130111, //depends/quazip/quazipdir.cpp, //282
+util::membuffer::read, //2, //1, //Petr Mrázek, //peterix@gmail.com, //20130111, //depends/classparser/src/membuffer.h, //27
+util::membuffer::read_be, //36, //1, //Petr Mrázek, //peterix@gmail.com, //20130111, //depends/classparser/src/membuffer.h, //37
+QuaGzipFilePrivate::open, //0, //0, //Petr Mrázek, //peterix@gmail.com, //20130111, //depends/quazip/quagzipfile.cpp, //29
+
+generic function-like macro, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+BYTES_OF, //5, //2, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/bytes.h, //110
+CODING_INIT, //117, //2, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/coding.h, //37
+NEW, //4, //3, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/defines.h, //44
+U_NEW, //30, //5, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/defines.h, //45
+IS_NEG_CODE, //3, //2, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/coding.cpp, //55
+ADH_BYTE, //22, //2, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/constants.h, //186
+GET_INT_HI, //11, //3, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/zip.cpp, //67
+GET_INT_LO, //11, //3, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/zip.cpp, //65
+SWAP_BYTES, //40, //4, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/zip.cpp, //62
+T_NEW, //7, //3, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/defines.h, //46
+
+function implemented with void*, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+bytes::copyFrom, //7, //1, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/bytes.cpp, //128
+bytes::inBounds, //6, //1, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/bytes.cpp, //37
+bytes::saveFrom, //2, //1, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/bytes.cpp, //115
+fillbytes::append, //4, //1, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/bytes.h, //198
+ptrlist::indexOf, //1, //1, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/bytes.cpp, //183
+jar::write_data, //5, //1, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/zip.cpp, //77
+qiodevice_read_file_func, //0, //0, //Petr Mrázek, //peterix@gmail.com, //20130111, //depends/quazip/qioapi.cpp, //62
+qiodevice_write_file_func, //0, //0, //Petr Mrázek, //peterix@gmail.com, //20130111, //depends/quazip/qioapi.cpp, //74
+read_input_via_gzip, //0, //0, //Petr Mrázek, //peterix@gmail.com, //20130929, //depends/pack200/src/zip.cpp, //440
+unpacker::start, //3, //1, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/unpack.cpp, //3555
+read_input_via_stdio, //0, //0, //Petr Mrázek, //peterix@gmail.com, //20130929, //depends/pack200/src/unpack200.cpp, //46
+outputEntry_cmp, //0, //0, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/unpack.cpp, //3419
+raw_address_cmp, //0, //0, //Petr Mrázek, //peterix@gmail.com, //20130926, //depends/pack200/src/unpack.cpp, //4389
+

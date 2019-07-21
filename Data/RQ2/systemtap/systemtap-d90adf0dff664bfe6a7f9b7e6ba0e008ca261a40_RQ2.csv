@@ -1,0 +1,35 @@
+function template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+lex_cast, //27, //7, //fche, //fche, //20061108, //util.h, //31
+lex_cast_hex, //0, //0, //fche, //fche, //20061108, //util.h, //44
+lex_cast_qstring, //31, //8, //fche, //fche, //20061108, //util.h, //59
+stringify, //21, //6, //fche, //fche, //20061108, //util.h, //22
+provide, //40, //1, //graydon, //graydon, //20050729, //staptree.h, //875
+require, //50, //9, //graydon, //graydon, //20050729, //staptree.h, //859
+eval_comparison, //2, //2, //Frank Ch. Eigler, //fche@redhat.com, //20080610, //parse.cxx, //158
+dwarf_assert, //1, //1, //Tim Moore, //timoore@redhat.com, //20080611, //dwarf_wrappers.h, //42
+dwfl_assert, //0, //0, //Tim Moore, //timoore@redhat.com, //20080611, //dwarf_wrappers.h, //20
+dwfl_assert, //2, //1, //Tim Moore, //timoore@redhat.com, //20080611, //dwarf_wrappers.h, //28
+resolve_2types, //4, //1, //fche, //fche, //20050521, //elaborate.cxx, //3353
+
+generic function-like macro, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+
+function implemented with void*, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+dump_unwindsyms, //0, //0, //Frank Ch. Eigler, //fche@redhat.com, //20080623, //translate.cxx, //4381
+auto_free::auto_free, //2, //1, //Tim Moore, //timoore@redhat.com, //20080624, //auto_free.h, //18
+dwflpp::cu_function_caching_callback, //0, //0, //fche, //fche, //20070330, //tapsets.cxx, //1163
+dwflpp::cu_inl_function_caching_callback, //0, //0, //fche, //fche, //20070330, //tapsets.cxx, //1069
+dwflpp::global_alias_caching_callback, //0, //0, //James Bottomley, //James.Bottomley@HansenPartnership.com, //20080708, //tapsets.cxx, //1112
+dwflpp::iterate_over_cus, //0, //0, //graydon, //graydon, //20050621, //tapsets.cxx, //1020
+dwflpp::iterate_over_inline_instances, //0, //0, //fche, //fche, //20050825, //tapsets.cxx, //1076
+dwflpp::iterate_over_modules, //0, //0, //Frank Ch. Eigler, //fche@redhat.com, //20080723, //tapsets.cxx, //991
+dwflpp::iterate_over_srcfile_lines, //1, //1, //fche, //fche, //20050825, //tapsets.cxx, //1178
+dwflpp::loc2c_emit_address, //0, //0, //roland, //roland, //20050818, //tapsets.cxx, //1621
+dwflpp::loc2c_error, //0, //0, //fche, //fche, //20070219, //tapsets.cxx, //1544
+dwflpp::query_cu_containing_global_address, //0, //0, //fche, //fche, //20050825, //tapsets.cxx, //771
+dwflpp::query_cu_containing_module_address, //0, //0, //fche, //fche, //20050825, //tapsets.cxx, //783
+query_cu, //0, //0, //graydon, //graydon, //20050621, //tapsets.cxx, //3750
+query_dwarf_func, //0, //0, //roland, //roland, //20051031, //tapsets.cxx, //3660
+query_dwarf_inline_instance, //0, //0, //fche, //fche, //20050825, //tapsets.cxx, //3621
+query_module, //0, //0, //Jim Keniston, //jkenisto@us.ibm.com, //20080418, //tapsets.cxx, //3976
+query_srcfile_line, //0, //0, //Tim Moore, //timoore@redhat.com, //20080611, //tapsets.cxx, //3578
+

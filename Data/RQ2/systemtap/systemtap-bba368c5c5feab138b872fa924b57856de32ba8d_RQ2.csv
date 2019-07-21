@@ -1,0 +1,81 @@
+function template, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+lex_cast, //114, //18, //Josh Stone, //jistone@redhat.com, //20090902, //util.h, //106
+update_visitor::provide, //137, //1, //Josh Stone, //jistone@redhat.com, //20090803, //staptree.h, //1026
+update_visitor::replace, //102, //1, //Josh Stone, //jistone@redhat.com, //20090803, //staptree.h, //1031
+update_visitor::require, //7, //1, //Josh Stone, //jistone@redhat.com, //20090803, //staptree.h, //1006
+delete_map, //3, //2, //Josh Stone, //jistone@redhat.com, //20090909, //util.h, //221
+hex_dump, //2, //1, //Chris Meek, //cmeek@redhat.com, //20110804, //util.h, //158
+lex_cast, //26, //4, //Josh Stone, //jistone@redhat.com, //20090902, //util.h, //116
+lex_cast_hex, //4, //1, //Frank Ch. Eigler, //fche@redhat.com, //20061108, //util.h, //147
+lex_cast_qstring, //23, //6, //Frank Ch. Eigler, //fche@redhat.com, //20061108, //util.h, //179
+vector_has, //2, //1, //Jonathan Lebon, //jlebon@redhat.com, //20130826, //util.h, //248
+stap_hash::add, //12, //1, //Frank Ch. Eigler, //fche@redhat.com, //20120815, //hash.cxx, //79
+deep_copy_visitor::deep_copy, //6, //1, //Josh Stone, //jistone@redhat.com, //20090803, //staptree.h, //1091
+dwflpp::iterate_over_libraries, //1, //1, //Jonathan Lebon, //jlebon@redhat.com, //20140218, //dwflpp.h, //289
+dwflpp::iterate_over_notes, //1, //1, //Jonathan Lebon, //jlebon@redhat.com, //20140218, //dwflpp.h, //277
+dwflpp::iterate_over_plt, //1, //1, //Jonathan Lebon, //jlebon@redhat.com, //20140218, //dwflpp.h, //298
+dwflpp::iterate_over_srcfile_lines, //1, //1, //Josh Stone, //jistone@redhat.com, //20090512, //dwflpp.h, //308
+dwflpp::iterate_over_callees, //0, //0, //Jonathan Lebon, //jlebon@redhat.com, //20140128, //dwflpp.h, //355
+dwflpp::iterate_over_cus, //0, //0, //Jonathan Lebon, //jlebon@redhat.com, //20140218, //dwflpp.h, //227
+dwflpp::iterate_over_functions, //0, //0, //Jonathan Lebon, //jlebon@redhat.com, //20140218, //dwflpp.h, //259
+dwflpp::iterate_over_globals, //0, //0, //Jonathan Lebon, //jlebon@redhat.com, //20140218, //dwflpp.h, //484
+dwflpp::iterate_over_inline_instances, //0, //0, //Jonathan Lebon, //jlebon@redhat.com, //20140218, //dwflpp.h, //242
+dwflpp::iterate_over_labels, //0, //0, //Josh Stone, //jistone@redhat.com, //20090512, //dwflpp.h, //328
+dwflpp::iterate_over_modules, //0, //0, //Jonathan Lebon, //jlebon@redhat.com, //20140214, //dwflpp.h, //204
+dwflpp::iterate_over_types, //0, //0, //Jonathan Lebon, //jlebon@redhat.com, //20140218, //dwflpp.h, //501
+dwflpp::iterate_single_function, //0, //0, //Jonathan Lebon, //jlebon@redhat.com, //20140218, //dwflpp.h, //268
+resolve_2types, //4, //1, //Frank Ch. Eigler, //fche@redhat.com, //20050521, //elaborate.cxx, //4545
+set_dlsym, //0, //0, //Josh Stone, //jistone@redhat.com, //20121016, //stapdyn/dynutil.h, //36
+eval_comparison, //6, //2, //Frank Ch. Eigler, //fche@redhat.com, //20080610, //parse.cxx, //338
+
+generic function-like macro, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+SEMANTIC_ERROR, //343, //17, //Jonathan Lebon, //jlebon@redhat.com, //20131021, //util.h, //49
+_F, //428, //53, //Lukas Berk, //lberk@redhat.com, //20110318, //util.h, //43
+_NF, //16, //7, //Lukas Berk, //lberk@redhat.com, //20110318, //util.h, //44
+PARSE_ERROR, //127, //8, //Jonathan Lebon, //jlebon@redhat.com, //20131021, //util.h, //50
+_F, //63, //14, //Lukas Berk, //lberk@redhat.com, //20110408, //nsscommon.h, //32
+DRI, //254, //2, //Frank Ch. Eigler, //fche@redhat.com, //20110119, //tapsets.cxx, //5721
+
+function implemented with void*, instantiations, multiple overload instantiations, developer, email, edit time, definition file path, line
+find_dynprobes, //1, //1, //Josh Stone, //jistone@redhat.com, //20121016, //stapdyn/dynprobe.cxx, //23
+internal_find_debuginfo, //0, //0, //Chris Meek, //cmeek@redhat.com, //20110804, //setupdwfl.cxx, //524
+offptr_set, //6, //1, //Josh Stone, //jistone@redhat.com, //20121107, //runtime/dyninst/offptr.h, //71
+__access_process_vm, //0, //0, //Stan Cox, //scox@redhat.com, //20100114, //runtime/linux/access_process_vm.h, //81
+__access_process_vm_, //2, //1, //Stan Cox, //scox@redhat.com, //20100113, //runtime/linux/access_process_vm.h, //10
+__access_process_vm_noflush, //0, //0, //Stan Cox, //scox@redhat.com, //20100114, //runtime/linux/access_process_vm.h, //106
+copy_from_user_page_, //0, //0, //Stan Cox, //scox@redhat.com, //20100114, //runtime/linux/access_process_vm.h, //74
+copy_from_user_page_noflush, //0, //0, //Stan Cox, //scox@redhat.com, //20100114, //runtime/linux/access_process_vm.h, //98
+copy_to_user_page_, //0, //0, //Stan Cox, //scox@redhat.com, //20100114, //runtime/linux/access_process_vm.h, //67
+copy_to_user_page_noflush, //0, //0, //Stan Cox, //scox@redhat.com, //20100114, //runtime/linux/access_process_vm.h, //91
+__get_user_fn, //0, //0, //Josh Stone, //jistone@redhat.com, //20120806, //runtime/dyninst/linux_defs.h, //174
+__put_user_fn, //0, //0, //David Smith, //dsmith@redhat.com, //20120910, //runtime/dyninst/linux_defs.h, //221
+PR_Read_Complete, //0, //0, //Dave Brolley, //brolley@redhat.com, //20130725, //nsscommon.cxx, //1376
+nssPasswordCallback, //0, //0, //Dave Brolley, //brolley@redhat.com, //20110510, //nsscommon.cxx, //268
+sdt_benchmark_thread, //0, //0, //Josh Stone, //jistone@redhat.com, //20130311, //main.cxx, //307
+auto_free::auto_free, //2, //1, //Tim Moore, //timoore@redhat.com, //20080624, //auto_free.h, //18
+query_module, //0, //0, //Jim Keniston, //jkenisto@us.ibm.com, //20080418, //tapsets.cxx, //2205
+hash_ptr, //0, //0, //Josh Stone, //jistone@redhat.com, //20120806, //runtime/dyninst/linux_hash.h, //66
+dwfl_assert, //1, //1, //Josh Stone, //jistone@redhat.com, //20100817, //dwarf_wrappers.h, //41
+dwflpp::add_module_build_id_to_hash, //0, //0, //Chris Meek, //cmeek@redhat.com, //20110922, //dwflpp.cxx, //4037
+dwflpp::iterate_over_cus, //0, //0, //Jonathan Lebon, //jlebon@redhat.com, //20140218, //dwflpp.cxx, //418
+dwflpp::iterate_over_functions, //0, //0, //Jonathan Lebon, //jlebon@redhat.com, //20140218, //dwflpp.cxx, //962
+dwflpp::iterate_over_inline_instances, //0, //0, //Jonathan Lebon, //jlebon@redhat.com, //20140218, //dwflpp.cxx, //568
+dwflpp::iterate_over_libraries, //1, //1, //Jonathan Lebon, //jlebon@redhat.com, //20140218, //dwflpp.cxx, //1227
+dwflpp::iterate_over_modules, //0, //0, //Jonathan Lebon, //jlebon@redhat.com, //20140214, //dwflpp.cxx, //397
+dwflpp::iterate_over_notes, //1, //1, //Jonathan Lebon, //jlebon@redhat.com, //20140218, //dwflpp.cxx, //1178
+dwflpp::iterate_over_plt, //1, //1, //Jonathan Lebon, //jlebon@redhat.com, //20140218, //dwflpp.cxx, //1357
+dwflpp::iterate_over_srcfile_lines, //1, //1, //Jonathan Lebon, //jlebon@redhat.com, //20140218, //dwflpp.cxx, //1553
+dwflpp::iterate_single_function, //0, //0, //Jonathan Lebon, //jlebon@redhat.com, //20140218, //dwflpp.cxx, //1048
+dwflpp::loc2c_emit_address, //0, //0, //Josh Stone, //jistone@redhat.com, //20090512, //dwflpp.cxx, //2477
+dwflpp::loc2c_error, //0, //0, //Josh Stone, //jistone@redhat.com, //20090512, //dwflpp.cxx, //2396
+proc_create_data, //0, //0, //David Smith, //dsmith@redhat.com, //20130514, //runtime/proc_fs_compatibility.h, //63
+dwarf_assert, //1, //1, //Josh Stone, //jistone@redhat.com, //20100817, //dwarf_wrappers.h, //60
+create_debug_frame_hdr, //0, //0, //Mark Wielaard, //mjw@redhat.com, //20100528, //translate.cxx, //5430
+dump_unwindsym_cxt_table, //4, //2, //Josh Stone, //jistone@redhat.com, //20130218, //translate.cxx, //6015
+dump_unwindsyms, //0, //0, //Mark Wielaard, //mjw@redhat.com, //20111012, //translate.cxx, //6300
+get_unwind_data, //0, //0, //Mark Wielaard, //mjw@redhat.com, //20090520, //translate.cxx, //5540
+query_module, //0, //0, //Stan Cox, //scox@redhat.com, //20110506, //translate.cxx, //6387
+handle_connection, //0, //0, //Chris Meek, //cmeek@redhat.com, //20120207, //stap-serverd.cxx, //2039
+get_dlsym, //1, //1, //Josh Stone, //jistone@redhat.com, //20121016, //stapdyn/dynutil.cxx, //175
+guess_dyninst_rt_callback, //0, //0, //Josh Stone, //jistone@redhat.com, //20120727, //stapdyn/dynutil.cxx, //33
+
