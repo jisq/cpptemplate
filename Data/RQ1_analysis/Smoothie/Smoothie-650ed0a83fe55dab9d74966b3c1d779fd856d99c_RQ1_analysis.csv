@@ -1,0 +1,15 @@
+class template, instantiations, multiple overload instantiations, loc, definition file path, line
+CircBuffer, //3, //1, //39, //gcc4mbed/samples/MSTest/USBDevice/USBSERIAL/CircBuffer.h, //5
+RingBuffer, //14, //4, //71, //src/libs/RingBuffer.h, //14
+CircBuffer, //0, //0, //39, //src/libs/USBDevice/USBSERIAL/CircBuffer.h, //5
+
+function template, instantiations, multiple overload instantiations, loc, definition file path, line
+USBSerial::attach, //0, //0, //5, //gcc4mbed/samples/MSTest/USBDevice/USBSERIAL/USBSerial.h, //102
+USBAudio::attach, //0, //0, //3, //gcc4mbed/samples/MSTest/USBDevice/USBAudio/USBAudio.h, //124
+SlowTicker::attach, //3, //1, //11, //src/libs/SlowTicker.h, //26
+USBSerial::attach, //0, //0, //5, //src/libs/USBDevice/USBSERIAL/USBSerial.h, //102
+AjK::FPointer::attach, //2, //1, //4, //src/libs/FPointer.h, //113
+StepperMotor::attach, //3, //1, //5, //src/libs/StepperMotor.h, //24
+USBCDCMSC::attach, //1, //1, //5, //src/libs/USBCDCMSC/USBCDCMSC.h, //118
+USBAudio::attach, //0, //0, //3, //src/libs/USBDevice/USBAudio/USBAudio.h, //124
+

@@ -1,0 +1,21 @@
+class template, instantiations, multiple overload instantiations, loc, definition file path, line
+ww::compile_time_check, //1, //0, //5, //sw/source/filter/ww8/staticassert.hxx, //74
+wwSortedArray, //2, //2, //59, //sw/source/filter/ww8/dump/ww8scan.cxx, //153
+wwString, //1, //1, //30, //sw/source/filter/ww8/ww8scan.hxx, //131
+wwSortedArray, //1, //1, //61, //sw/source/filter/ww8/ww8scan.cxx, //154
+
+function template, instantiations, multiple overload instantiations, loc, definition file path, line
+sw::util::DefaultItemGet, //0, //0, //5, //sw/source/filter/ww8/writerhelper.hxx, //285
+sw::util::DefaultItemGet, //0, //0, //5, //sw/source/filter/ww8/writerhelper.hxx, //321
+sw::util::HasItem, //0, //0, //5, //sw/source/filter/ww8/writerhelper.hxx, //355
+sw::util::ItemGet, //0, //0, //5, //sw/source/filter/ww8/writerhelper.hxx, //190
+sw::util::ItemGet, //0, //0, //5, //sw/source/filter/ww8/writerhelper.hxx, //219
+sw::util::ItemGet, //0, //0, //5, //sw/source/filter/ww8/writerhelper.hxx, //250
+sw::util::item_cast, //0, //0, //7, //sw/source/filter/ww8/writerhelper.hxx, //132
+sw::util::item_cast, //0, //0, //6, //sw/source/filter/ww8/writerhelper.hxx, //158
+ww::checking_cast, //1, //1, //4, //sw/source/filter/ww8/needed_cast.hxx, //72
+ww::checking_cast, //1, //1, //5, //sw/source/filter/ww8/needed_cast.hxx, //77
+ww::needed_cast, //2, //1, //4, //sw/source/filter/ww8/needed_cast.hxx, //88
+sw::types::msword_cast, //0, //0, //4, //sw/source/filter/ww8/writerwordglue.hxx, //123
+sw::types::writer_cast, //0, //0, //4, //sw/source/filter/ww8/writerwordglue.hxx, //97
+

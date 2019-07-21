@@ -1,0 +1,24 @@
+class template, instantiations, multiple overload instantiations, loc, definition file path, line
+icinga::ObjectImpl, //0, //0, //3, //lib/base/object.hpp, //154
+icinga::Singleton, //4, //4, //15, //lib/base/singleton.hpp, //35
+icinga::TypeImpl, //0, //0, //3, //lib/base/type.hpp, //123
+icinga::DynamicTypeIterator, //7, //2, //41, //lib/base/dynamictype.hpp, //83
+icinga::Registry, //2, //1, //73, //lib/base/registry.hpp, //39
+icinga::TypeHelper, //0, //0, //7, //lib/base/object.hpp, //75
+
+function template, instantiations, multiple overload instantiations, loc, definition file path, line
+icinga::Convert::ToDouble, //16, //1, //10, //lib/base/convert.hpp, //51
+icinga::Convert::ToLong, //59, //1, //10, //lib/base/convert.hpp, //39
+icinga::Log::operator<<, //894, //1, //5, //lib/base/logger.hpp, //128
+icinga::Convert::ToString, //21, //1, //4, //lib/base/convert.hpp, //78
+icinga::Value::Value, //0, //0, //6, //lib/base/value.hpp, //101
+icinga::String::String, //9, //1, //3, //lib/base/string.hpp, //76
+icinga::DynamicType::GetObjectsByType, //0, //0, //8, //lib/base/dynamictype.hpp, //54
+icinga::String::insert, //0, //0, //4, //lib/base/string.hpp, //226
+icinga::TroubleshootCommand::InfoLogLine::operator<<, //133, //1, //5, //lib/cli/troubleshootcommand.cpp, //130
+icinga::ExpressionResult::ExpressionResult, //0, //0, //3, //lib/config/expression.hpp, //150
+icinga::FunctionWrapperR, //0, //0, //4, //lib/base/functionwrapper.hpp, //38
+icinga::StatusDataWriter::DumpNameList, //0, //0, //13, //lib/compat/statusdatawriter.hpp, //65
+icinga::StatusDataWriter::DumpStringList, //0, //0, //12, //lib/compat/statusdatawriter.hpp, //81
+icinga::Value::Get, //0, //0, //4, //lib/base/value.hpp, //242
+

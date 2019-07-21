@@ -1,0 +1,27 @@
+class template, instantiations, multiple overload instantiations, loc, definition file path, line
+RingBuffer, //15, //4, //80, //src/libs/RingBuffer.h, //14
+HeapRing, //20, //2, //185, //src/libs/HeapRing.h, //4
+CircBuffer, //2, //1, //60, //src/libs/USBDevice/USBSerial/CircBuffer.h, //27
+Fifo, //13, //3, //34, //src/libs/Network/uip/fifo.h, //138
+Tlink, //18, //1, //21, //src/libs/Network/uip/fifo.h, //19
+list_base, //5, //1, //84, //src/libs/Network/uip/fifo.h, //43
+
+function template, instantiations, multiple overload instantiations, loc, definition file path, line
+SlowTicker::attach, //16, //1, //14, //src/libs/SlowTicker.h, //37
+StepperMotor::attach, //4, //1, //5, //src/libs/StepperMotor.h, //56
+StepperMotor::attach_signal_step, //1, //1, //5, //src/libs/StepperMotor.h, //62
+AjK::FPointer::attach, //5, //1, //4, //src/libs/FPointer.h, //117
+mbed::CAN::attach, //0, //0, //8, //mbed/src/cpp/CAN.h, //175
+mbed::FunctionPointer::attach, //6, //1, //6, //mbed/src/cpp/FunctionPointer.h, //56
+mbed::Ticker::attach, //0, //0, //3, //mbed/src/cpp/Ticker.h, //77
+mbed::Ticker::attach_us, //1, //1, //4, //mbed/src/cpp/Ticker.h, //98
+Button::down_attach, //0, //0, //6, //src/modules/utils/panel/Button.h, //28
+Button::up_attach, //5, //1, //6, //src/modules/utils/panel/Button.h, //21
+mbed::Serial::attach, //1, //1, //6, //mbed/src/cpp/Serial.h, //117
+mbed::InterruptIn::fall, //0, //0, //4, //mbed/src/cpp/InterruptIn.h, //101
+mbed::InterruptIn::rise, //0, //0, //4, //mbed/src/cpp/InterruptIn.h, //84
+quick_median, //1, //1, //12, //src/libs/Median.h, //26
+split, //2, //1, //13, //src/libs/Median.h, //9
+mbed::FunctionPointer::FunctionPointer, //0, //0, //3, //mbed/src/cpp/FunctionPointer.h, //40
+mbed::FunctionPointer::membercaller, //0, //0, //6, //mbed/src/cpp/FunctionPointer.h, //69
+

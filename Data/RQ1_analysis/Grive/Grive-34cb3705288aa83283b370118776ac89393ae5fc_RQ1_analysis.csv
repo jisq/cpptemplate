@@ -1,0 +1,30 @@
+class template, instantiations, multiple overload instantiations, loc, definition file path, line
+gr::Function, //0, //0, //42, //libgrive/src/util/Function.hh, //135
+gr::impl::FuncHolder, //1, //1, //20, //libgrive/src/util/Function.hh, //81
+gr::impl::FuncImpl, //0, //0, //7, //libgrive/src/util/Function.hh, //31
+gr::impl::FuncImpl, //0, //0, //7, //libgrive/src/util/Function.hh, //39
+gr::impl::FuncImpl, //0, //0, //7, //libgrive/src/util/Function.hh, //47
+gr::impl::FuncTrait, //0, //0, //6, //libgrive/src/util/Function.hh, //60
+gr::impl::FuncTrait, //0, //0, //6, //libgrive/src/util/Function.hh, //67
+gr::impl::FuncTrait, //0, //0, //6, //libgrive/src/util/Function.hh, //74
+gr::impl::NullFunc, //0, //0, //18, //libgrive/src/util/Function.hh, //108
+
+function template, instantiations, multiple overload instantiations, loc, definition file path, line
+gr::Log, //9, //1, //4, //libgrive/src/util/log/Log.hh, //89
+gr::Function::Function, //0, //0, //4, //libgrive/src/util/Function.hh, //147
+gr::Function::operator(), //0, //0, //4, //libgrive/src/util/Function.hh, //169
+gr::Function::operator(), //0, //0, //4, //libgrive/src/util/Function.hh, //174
+gr::impl::MakeFuncHolder, //2, //1, //4, //libgrive/src/util/Function.hh, //128
+gr::Log, //6, //1, //4, //libgrive/src/util/log/Log.hh, //95
+gr::Trace, //4, //1, //4, //libgrive/src/util/log/Log.hh, //121
+gr::Trace, //2, //1, //4, //libgrive/src/util/log/Log.hh, //127
+gr::Count, //2, //1, //4, //libgrive/src/util/CArray.hh, //73
+grut::AssertEquals, //0, //0, //15, //libgrive/test/Assert.hh, //27
+grut::AssertEquals, //0, //0, //22, //libgrive/test/Assert.hh, //44
+gr::Log, //0, //0, //4, //libgrive/src/util/log/Log.hh, //101
+gr::Log, //0, //0, //10, //libgrive/src/util/log/Log.hh, //107
+gr::Trace, //0, //0, //4, //libgrive/src/util/log/Log.hh, //133
+gr::Begin, //0, //0, //4, //libgrive/src/util/CArray.hh, //44
+gr::End, //0, //0, //4, //libgrive/src/util/CArray.hh, //60
+gr::Destroy::operator(), //0, //0, //4, //libgrive/src/util/Destroy.hh, //27
+

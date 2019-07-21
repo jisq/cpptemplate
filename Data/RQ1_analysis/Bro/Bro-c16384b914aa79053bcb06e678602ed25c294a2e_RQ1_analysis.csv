@@ -1,0 +1,29 @@
+class template, instantiations, multiple overload instantiations, loc, definition file path, line
+plugin::ComponentManager, //16, //2, //117, //src/plugin/ComponentManager.h, //26
+plugin::TaggedComponent, //7, //2, //19, //src/plugin/TaggedComponent.h, //12
+threading::OutputMessage, //2, //1, //10, //src/threading/MsgThread.h, //405
+threading::InputMessage, //0, //0, //10, //src/threading/MsgThread.h, //376
+threading::Queue, //12, //3, //133, //src/threading/Queue.h, //29
+H3, //2, //2, //62, //src/H3.h, //67
+broxygen::InfoMap, //3, //3, //9, //src/broxygen/Manager.h, //32
+
+function template, instantiations, multiple overload instantiations, loc, definition file path, line
+atoi_n, //12, //3, //33, //src/util.cc, //426
+delete_each, //2, //1, //6, //src/util.h, //95
+CompositeHash::AlignAndPadType, //13, //1, //4, //src/CompHash.h, //54
+CompositeHash::AlignType, //13, //1, //4, //src/CompHash.h, //60
+probabilistic::BitVector::Append, //0, //0, //20, //src/probabilistic/BitVector.h, //127
+probabilistic::BitVector::BitVector, //0, //0, //5, //src/probabilistic/BitVector.h, //74
+probabilistic::Hasher::operator(), //0, //0, //4, //src/probabilistic/Hasher.h, //48
+probabilistic::UHF::operator(), //0, //0, //4, //src/probabilistic/Hasher.h, //131
+broxygen::TargetFactory::Register, //8, //1, //4, //src/broxygen/Target.h, //132
+broxygen::create_target, //0, //0, //5, //src/broxygen/Target.h, //113
+CompositeHash::SizeAlignType, //0, //0, //4, //src/CompHash.h, //66
+broxygen::Manager::IsUpToDate, //9, //1, //20, //src/broxygen/Manager.h, //233
+filter_matches, //4, //1, //17, //src/broxygen/Target.cc, //167
+match_not_and, //1, //1, //10, //src/RuleMatcher.cc, //480
+match_not_and, //1, //1, //12, //src/RuleMatcher.cc, //493
+match_or, //5, //1, //9, //src/RuleMatcher.cc, //453
+match_or, //5, //1, //12, //src/RuleMatcher.cc, //465
+plugin::Manager::Components, //0, //0, //15, //src/plugin/Manager.h, //342
+

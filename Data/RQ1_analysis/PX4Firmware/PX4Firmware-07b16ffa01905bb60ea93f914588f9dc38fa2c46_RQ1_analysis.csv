@@ -1,0 +1,30 @@
+class template, instantiations, multiple overload instantiations, loc, definition file path, line
+MavlinkStreamActuatorControlTarget, //9, //5, //71, //src/modules/mavlink/mavlink_messages.cpp, //1371
+MavlinkStreamServoOutputRaw, //9, //5, //63, //src/modules/mavlink/mavlink_messages.cpp, //1291
+uORB::Publication, //5, //3, //26, //src/modules/uORB/Publication.hpp, //139
+math::Matrix, //78, //6, //26, //src/lib/mathlib/math/Matrix.hpp, //377
+math::MatrixBase, //2, //2, //190, //src/lib/mathlib/math/Matrix.hpp, //65
+math::Vector, //242, //5, //11, //src/lib/mathlib/math/Vector.hpp, //363
+math::VectorBase, //1, //1, //149, //src/lib/mathlib/math/Vector.hpp, //64
+px4::PX4Message, //0, //0, //15, //src/platforms/px4_message.h, //52
+control::BlockParam, //9, //3, //29, //src/modules/controllib/block/BlockParam.hpp, //74
+uORB::Subscription, //6, //3, //33, //src/modules/uORB/Subscription.hpp, //161
+px4::Subscriber, //16, //1, //17, //src/platforms/px4_subscriber.h, //72
+px4::SubscriberUORB, //2, //1, //28, //src/platforms/px4_subscriber.h, //183
+px4::SubscriberUORBCallback, //2, //1, //24, //src/platforms/px4_subscriber.h, //236
+px4::Publisher, //7, //1, //7, //src/platforms/px4_publisher.h, //68
+px4::PublisherUORB, //1, //1, //22, //src/platforms/px4_publisher.h, //124
+px4::Parameter, //5, //4, //25, //src/platforms/px4_parameter.h, //120
+px4::ParameterBase, //2, //1, //14, //src/platforms/px4_parameter.h, //56
+
+function template, instantiations, multiple overload instantiations, loc, definition file path, line
+math::MatrixBase::operator*, //9, //1, //15, //src/lib/mathlib/math/Matrix.hpp, //296
+latency_test, //3, //1, //28, //src/modules/uORB/uORB.cpp, //954
+latency_test, //4, //1, //29, //src/modules/uORB/MuORB.cpp, //973
+printEigen, //0, //0, //13, //src/systemcmds/tests/test_eigen.cpp, //86
+px4::NodeHandle::advertise, //0, //0, //6, //src/platforms/px4_nodehandle.h, //235
+px4::NodeHandle::subscribe, //0, //0, //8, //src/platforms/px4_nodehandle.h, //192
+px4::NodeHandle::subscribe, //0, //0, //8, //src/platforms/px4_nodehandle.h, //207
+px4::NodeHandle::subscribe, //0, //0, //8, //src/platforms/px4_nodehandle.h, //222
+px4::NodeHandle::update_sub_min_interval, //3, //1, //6, //src/platforms/px4_nodehandle.h, //298
+

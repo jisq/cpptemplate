@@ -1,0 +1,17 @@
+class template, instantiations, multiple overload instantiations, loc, definition file path, line
+
+function template, instantiations, multiple overload instantiations, loc, definition file path, line
+stringify, //1, //1, //7, //main.cxx, //101
+lex_cast, //2, //1, //9, //elaborate.cxx, //29
+lex_cast_qstring, //1, //1, //18, //staptree.cxx, //22
+lex_cast_hex, //0, //0, //9, //tapsets.cxx, //57
+stringify, //2, //1, //7, //buildrun.cxx, //47
+lex_cast, //11, //4, //9, //tapsets.cxx, //47
+lex_cast_qstring, //4, //2, //18, //tapsets.cxx, //69
+lex_cast_qstring, //19, //2, //18, //translate.cxx, //37
+stringify, //16, //4, //7, //translate.cxx, //28
+provide, //32, //1, //6, //staptree.h, //804
+require, //42, //4, //12, //staptree.h, //765
+lex_cast_qstring, //1, //1, //18, //buildrun.cxx, //26
+resolve_2types, //4, //1, //33, //elaborate.cxx, //1516
+

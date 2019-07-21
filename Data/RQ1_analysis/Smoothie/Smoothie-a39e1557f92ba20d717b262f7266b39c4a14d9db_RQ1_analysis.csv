@@ -1,0 +1,12 @@
+class template, instantiations, multiple overload instantiations, loc, definition file path, line
+RingBuffer, //14, //4, //71, //src/libs/RingBuffer.h, //14
+CircBuffer, //2, //1, //39, //src/libs/USBDevice/USBSERIAL/CircBuffer.h, //5
+
+function template, instantiations, multiple overload instantiations, loc, definition file path, line
+SlowTicker::attach, //4, //1, //11, //src/libs/SlowTicker.h, //26
+StepperMotor::attach, //4, //1, //5, //src/libs/StepperMotor.h, //25
+USBCDCMSC::attach, //1, //1, //5, //src/libs/USBCDCMSC/USBCDCMSC.h, //118
+AjK::FPointer::attach, //2, //1, //4, //src/libs/FPointer.h, //113
+USBSerial::attach, //0, //0, //5, //src/libs/USBDevice/USBSERIAL/USBSerial.h, //102
+USBAudio::attach, //0, //0, //3, //src/libs/USBDevice/USBAudio/USBAudio.h, //124
+

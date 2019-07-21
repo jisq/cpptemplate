@@ -1,0 +1,16 @@
+class template, instantiations, multiple overload instantiations, loc, definition file path, line
+RingBuffer, //14, //4, //71, //src/libs/RingBuffer.h, //14
+CircBuffer, //3, //1, //39, //src/libs/USBDevice/USBSERIAL/CircBuffer.h, //5
+CircBuffer, //0, //0, //39, //gcc4mbed/samples/MSTest/USBDevice/USBSERIAL/CircBuffer.h, //5
+
+function template, instantiations, multiple overload instantiations, loc, definition file path, line
+USBAudio::attach, //0, //0, //3, //src/libs/USBDevice/USBAudio/USBAudio.h, //124
+SlowTicker::attach, //4, //1, //11, //src/libs/SlowTicker.h, //26
+USBSerial::attach, //0, //0, //5, //gcc4mbed/samples/MSTest/USBDevice/USBSERIAL/USBSerial.h, //102
+USBSerial::attach, //0, //0, //5, //src/libs/USBDevice/USBSERIAL/USBSerial.h, //102
+StepTicker::attach, //2, //1, //5, //src/libs/StepTicker.h, //29
+StepTicker::reset_attach, //2, //1, //5, //src/libs/StepTicker.h, //35
+USBCDCMSC::attach, //1, //1, //5, //src/libs/USBCDCMSC/USBCDCMSC.h, //113
+USBAudio::attach, //0, //0, //3, //gcc4mbed/samples/MSTest/USBDevice/USBAudio/USBAudio.h, //124
+AjK::FPointer::attach, //3, //1, //4, //src/libs/FPointer.h, //113
+
