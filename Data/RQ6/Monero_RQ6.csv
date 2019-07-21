@@ -1,0 +1,85 @@
+total STL types, total instantiations of STL types, total STL functions, total instantiations of STL functions
+36, 985, 83, 6003
+
+STL type, instantiations
+std::numeric_limits, 23
+std::basic_ostream, 2
+std::list, 125
+std::uniform_int_distribution, 1
+std::unordered_multimap, 4
+std::tuple_element, 4
+std::is_standard_layout, 1
+std::is_scalar, 1
+std::enable_if, 6
+std::shared_ptr, 1
+std::unary_function, 1
+std::is_unsigned, 2
+std::tr1::gtest_internal::TupleElement, 12
+std::ostreambuf_iterator, 4
+std::map, 10
+std::is_same, 1
+std::tr1::gtest_internal::SameSizeTuplePrefixComparator, 5
+std::pair, 16
+std::vector, 568
+std::hash, 2
+std::function, 4
+std::tuple_size, 2
+std::unordered_map, 19
+std::unique_lock, 11
+std::unordered_set, 9
+std::lock_guard, 44
+std::tr1::tuple_size, 15
+std::is_integral, 3
+std::tuple, 52
+std::tr1::gtest_internal::Get, 13
+std::is_pod, 1
+std::array, 3
+std::istreambuf_iterator, 1
+std::unique_ptr, 14
+std::remove_cv, 1
+std::set, 4
+
+STL function, function calls
+std::uniform_int_distribution::operator(), 1
+std::get, 9
+std::equal, 1
+std::addressof, 1
+std::basic_string::basic_string, 1
+std::replace, 2
+std::remove, 2
+std::thread::thread, 2
+std::basic_string::insert, 2
+std::this_thread::sleep_for, 34
+std::swap, 11
+std::operator<<, 4809
+std::operator<, 1
+std::copy, 3
+std::chrono::duration_cast, 2
+std::operator==, 86
+std::make_pair, 6
+std::move, 45
+std::shared_ptr::shared_ptr, 1
+std::find_if, 3
+std::operator!=, 11
+std::reverse, 3
+std::chrono::duration::duration, 35
+std::__detail::operator!=, 3
+std::unordered_multimap::emplace, 1
+std::__detail::operator==, 3
+std::accumulate, 1
+std::sort, 2
+std::find, 3
+std::operator+, 836
+std::vector::vector, 11
+std::setfill, 8
+std::bind, 1
+std::make_shared, 1
+std::condition_variable::wait_for, 2
+std::min, 5
+std::call_once, 4
+std::getline, 1
+std::for_each, 7
+std::max, 41
+std::vector::insert, 1
+std::back_inserter, 1
+

@@ -1,0 +1,82 @@
+total STL types, total instantiations of STL types, total STL functions, total instantiations of STL functions
+32, 338, 83, 435
+
+STL type, instantiations
+std::numeric_limits, 1
+std::deque, 4
+std::list, 7
+std::weak_ptr, 2
+std::conditional, 1
+std::underlying_type, 2
+std::enable_if, 35
+std::shared_ptr, 20
+std::multimap, 4
+std::basic_string, 1
+std::bitset, 2
+std::map, 18
+std::aligned_storage, 1
+std::is_same, 4
+std::pair, 11
+std::vector, 75
+std::initializer_list, 2
+std::hash, 1
+std::function, 5
+std::make_unsigned, 1
+std::is_enum, 1
+std::unique_lock, 10
+std::unordered_map, 4
+std::lock_guard, 7
+std::make_signed, 2
+std::stack, 1
+std::tuple, 3
+std::alignment_of, 1
+std::array, 40
+std::unique_ptr, 66
+std::chrono::duration, 2
+std::set, 4
+
+STL function, function calls
+std::tie, 2
+std::atomic_exchange_explicit, 1
+std::remove, 1
+std::pair::pair, 1
+std::atomic_fetch_add_explicit, 1
+std::swap, 17
+std::operator<<, 26
+std::chrono::duration_cast, 4
+std::operator==, 15
+std::weak_ptr::weak_ptr, 2
+std::make_pair, 3
+std::move, 61
+std::fill, 1
+std::operator!=, 3
+std::shared_ptr::shared_ptr, 1
+std::find_if, 6
+std::chrono::duration::duration, 1
+std::__detail::operator!=, 2
+std::forward, 10
+std::__detail::operator==, 1
+std::map::emplace, 1
+std::end, 3
+std::find, 3
+std::abs, 2
+std::condition_variable::wait, 4
+std::tuple::operator=, 2
+std::map::insert, 1
+std::operator+, 177
+std::begin, 3
+std::vector::vector, 2
+std::copy_n, 1
+std::setfill, 2
+std::bind, 1
+std::chrono::operator!=, 1
+std::make_shared, 2
+std::unordered_map::emplace, 1
+std::chrono::operator-, 4
+std::min, 32
+std::make_tuple, 2
+std::getline, 1
+std::vector::emplace_back, 4
+std::for_each, 1
+std::max, 26
+

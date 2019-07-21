@@ -1,0 +1,48 @@
+total STL types, total instantiations of STL types, total STL functions, total instantiations of STL functions
+20, 120, 63, 144
+
+STL type, instantiations
+std::future, 1
+std::vector, 25
+std::function, 3
+std::list, 10
+std::make_unsigned, 1
+std::is_signed, 1
+std::unique_lock, 4
+std::basic_stringstream, 1
+std::lock_guard, 16
+std::basic_istringstream, 2
+std::enable_if, 2
+std::shared_ptr, 15
+std::is_unsigned, 1
+std::basic_string, 1
+std::array, 10
+std::map, 10
+std::unique_ptr, 3
+std::pair, 9
+std::basic_ostringstream, 2
+std::set, 3
+
+STL function, function calls
+std::sort, 3
+std::end, 5
+std::condition_variable::wait, 1
+std::abs, 3
+std::unique, 1
+std::list::insert, 1
+std::thread::thread, 1
+std::operator+, 1
+std::pair::pair, 4
+std::swap, 2
+std::make_shared, 3
+std::operator<, 30
+std::operator<<, 7
+std::operator-, 6
+std::min, 20
+std::operator==, 18
+std::make_pair, 1
+std::vector::emplace_back, 4
+std::max, 29
+std::lower_bound, 3
+std::operator!=, 1
+

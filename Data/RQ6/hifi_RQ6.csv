@@ -1,0 +1,44 @@
+total STL types, total instantiations of STL types, total STL functions, total instantiations of STL functions
+15, 185, 33, 698
+
+STL type, instantiations
+std::numeric_limits, 24
+std::vector, 90
+std::iterator, 2
+std::function, 12
+std::atomic, 2
+std::bitset, 7
+std::uniform_real_distribution, 1
+std::unordered_map, 2
+std::istreambuf_iterator, 1
+std::map, 11
+std::unordered_set, 1
+std::unique_ptr, 2
+std::auto_ptr, 1
+std::shared_ptr, 26
+std::set, 3
+
+STL function, function calls
+std::__detail::operator!=, 2
+std::__shared_ptr::reset, 6
+std::__detail::operator==, 1
+std::basic_string::basic_string, 1
+std::abs, 1
+std::map::insert, 8
+std::operator+, 4
+std::unordered_map::insert, 4
+std::operator&, 1
+std::function::operator=, 2
+std::swap, 3
+std::operator<<, 456
+std::chrono::operator-, 3
+std::chrono::duration_cast, 3
+std::min, 32
+std::operator==, 7
+std::call_once, 1
+std::getline, 1
+std::max, 33
+std::vector::insert, 1
+std::operator!=, 4
+std::shared_ptr::shared_ptr, 124
+

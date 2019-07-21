@@ -1,0 +1,66 @@
+total STL types, total instantiations of STL types, total STL functions, total instantiations of STL functions
+38, 329, 78, 674
+
+STL type, instantiations
+std::is_member_object_pointer, 5
+std::is_class, 2
+std::reference_wrapper, 3
+std::basic_ostream, 36
+std::tuple_element, 8
+std::default_delete, 1
+std::is_convertible, 1
+std::conditional, 3
+std::decay, 12
+std::integral_constant, 2
+std::enable_if, 6
+std::basic_ios, 8
+std::remove_reference, 1
+std::is_unsigned, 2
+std::is_function, 2
+std::add_pointer, 1
+std::add_lvalue_reference, 1
+std::map, 14
+std::remove_pointer, 16
+std::is_same, 5
+std::is_arithmetic, 1
+std::vector, 86
+std::is_void, 1
+std::function, 7
+std::is_pointer, 3
+std::is_signed, 2
+std::is_floating_point, 5
+std::unordered_map, 2
+std::is_integral, 7
+std::tuple, 21
+std::is_base_of, 5
+std::allocator, 4
+std::array, 6
+std::chrono::time_point, 2
+std::unique_ptr, 41
+std::remove_cv, 1
+std::set, 5
+std::char_traits, 1
+
+STL function, function calls
+std::chrono::duration::duration, 1
+std::get, 19
+std::forward, 423
+std::addressof, 11
+std::find, 3
+std::distance, 1
+std::operator+, 70
+std::this_thread::sleep_for, 1
+std::unordered_map::emplace, 5
+std::operator<<, 59
+std::chrono::operator-, 1
+std::chrono::duration_cast, 1
+std::make_tuple, 3
+std::min, 2
+std::operator==, 12
+std::make_pair, 3
+std::vector::emplace_back, 5
+std::move, 45
+std::max, 2
+std::vector::insert, 5
+std::operator!=, 2
+
